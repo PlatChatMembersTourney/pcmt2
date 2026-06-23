@@ -1,0 +1,5 @@
+/* who up tailing they wind */
+@import "tailwindcss";
+
+/* dont use device theme */
+@custom-variant dark (&:where(.dark, .dark *));
