@@ -92,6 +92,81 @@ import Header from '../components/Header.astro';
       class="absolute top-1/2 right-[75px] w-[500px] -translate-y-1/2 opacity-30"
     />
   </section>
+
+  <!-- video + quote -->
+  <section class="relative my-5 flex min-h-[400px] items-center justify-between gap-10">
+    <div class="ml-[100px] aspect-video w-[650px] max-w-[80%] rounded-[15px] bg-linear-to-br from-[#6dc5c7] to-[#926acc] p-0.5">
+      <iframe
+        class="h-full w-full rounded-[13px]"
+        src="https://www.youtube.com/embed/WJrkcEKaoUY?autoplay=1&mute=1&controls=0&loop=1&playlist=WJrkcEKaoUY&playsinline=1&modestbranding=1&showinfo=0&rel=0"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        style="pointer-events: none;"
+      ></iframe>
+    </div>
+    <div class="mr-[75px] w-[500px] max-w-[35%] font-serif text-2xl leading-relaxed italic text-gray-800 dark:text-[whitesmoke]">
+      <p class="mb-2.5">
+        "The timmies [Plat Chat Members], they're better than us, they know more
+        than us, they're smarter, more handsome, more knowledgable than us"
+      </p>
+      <p class="text-right text-lg">-Sideshow, Plat Chat Ep. 247</p>
+    </div>
+  </section>
+
+  <!-- how to play -->
+  <section class="relative my-5 flex min-h-[400px] items-center overflow-hidden rounded-[15px] bg-linear-to-r from-[#f0f0f0] to-[#e8e8e8] dark:from-[#272727] dark:to-[#282828]">
+    <div class="relative z-10 ml-[100px] w-[600px] max-w-[80%] p-[30px] text-gray-800 dark:text-[whitesmoke]">
+      <h1 class="text-3xl font-bold text-[#2a8a8c] dark:text-[#6dc5c7]">How to Play</h1>
+      <p class="mt-4">Ready to compete? Here's how to join PCMT:</p>
+      <ol class="mt-4 list-decimal pl-5 leading-[1.8] [&>li]:mb-[15px]">
+        <li>
+          <strong>Become a YouTube Member</strong> - Support
+          <a href="https://www.youtube.com/@PlatChatValorant/join" target="_blank" class="text-[#2a8a8c] no-underline dark:text-[#6dc5c7]">Plat Chat</a>
+          by becoming a YouTube Member to gain access to the community
+        </li>
+        <li>
+          <strong>Join the Discord</strong> - Connect with other members and stay
+          updated on tournament announcements
+        </li>
+      </ol>
+      <p class="mt-5 text-sm italic">
+        PCMT is an independent community project and is not officially affiliated
+        with
+        <a href="https://www.youtube.com/@PlatChatValorant" target="_blank" class="text-[#2a8a8c] no-underline dark:text-[#6dc5c7]">Plat Chat</a>.
+        If you're not already watching, check them out for the best Valorant
+        esports content and analysis!
+      </p>
+    </div>
+    <a href="https://www.youtube.com/@PlatChatValorant" target="_blank">
+      <img src="/icons/PC Logo.png" alt="Plat Chat Logo" class="absolute top-1/2 right-[100px] w-[300px] -translate-y-1/2" />
+    </a>
+  </section>
+
+  <!-- latest video + bronze babble -->
+  <section class="relative my-5 flex min-h-[400px] items-center justify-between gap-10">
+    <div class="ml-[100px]">
+      <h1 class="mb-5 text-3xl font-bold text-[#2a8a8c] dark:text-[#6dc5c7]">Latest Video</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/s7MrGg1N0UM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        class="rounded-[15px]"
+      ></iframe>
+    </div>
+    <div class="mr-[100px] w-[500px] max-w-[80%] rounded-[15px] bg-gray-500 p-[30px] text-[whitesmoke]">
+      <h1 class="text-3xl font-bold text-[#2a8a8c] dark:text-[#6dc5c7]">Bronze Babble</h1>
+      <p class="mt-4">Yes, PCMT has its own "podcast"! Introducing Bronze Babble.</p>
+      <p class="mt-4">
+        Check out the
+        <a href="https://youtube.com/@bronzebabble?si=jEnkQCDdAqHqamnU" target="_blank" class="text-[#2a8a8c] no-underline dark:text-[#6dc5c7]">PCMT channel</a>
+        for Bronze Babble episodes and live broadcasts of all PCMT games!
+      </p>
+    </div>
+  </section>
 </main>
 </body>
 </html>
