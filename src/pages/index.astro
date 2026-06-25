@@ -58,6 +58,8 @@ let darkTheme = false;
 let toggleDarkTheme = () => {
 	darkTheme = !darkTheme;
 }
+
+import Header from '../components/Header.astro';
 ---
 
 <html lang="en">
@@ -70,9 +72,7 @@ let toggleDarkTheme = () => {
     <title>pcmt 2.0</title>
 </head>
 <body class="bg-white dark:bg-gray-800">
-<header>
-  <h1>PCMT</h1>
-</header>
+<Header />
 </body>
 </html>
 
