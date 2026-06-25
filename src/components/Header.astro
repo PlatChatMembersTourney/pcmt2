@@ -2,24 +2,40 @@
 const links = [ { label: "Home", href: "/" }, { label: "Matches", href: "/matches" }, { label: "Standings", href: "/standings" }, { label: "Teams", href: "/teams" }, { label: "Stats", href: "/stats" }];
 ---
 
-<header class="bg-[#1e1e1e] text-white h-16 sticky top-0 z-50 w-full">
+<header class="bg-[#1e1e1e] text-white h-16 text-[larger] sticky top-0 z-50 w-full">
     <div class="mx-auto max-w-[1260px] flex h-full items-stretch justify-between">
-        <!-- left: logo + title -->
-        <a href="/" class="flex items-center gap-6 border-l border-[#333] pl-4">
-            <img src="/icons/PCMT Logo.png" alt="PCMT Logo" class="h-12 w-auto" />
-            <span>Plat Chat Members Tournament</span>
-        </a>
+        <!-- left group: logo + title + nav links -->
+        <div class="flex items-stretch">
+            <a href="/" class="flex items-center gap-[25px] border-l border-[#333] pl-4 pr-4">
+                <img src="/icons/PCMT Logo.png" alt="PCMT Logo" class="h-12 w-auto" />
+                <span>Plat Chat Members Tournament</span>
+            </a>
 
-        <!-- right: nav links -->
-        <nav class="flex items-stretch border-r border-[#333]">
-            {links.map((link) => (
-                <a
-                    href={link.href}
-                    class="flex items-center border-l border-[#333] px-6 text-[15px] text-[#aaa] transition-colors hover:text-white"
-                >
-                    {link.label}
-                </a>
-            ))}
-        </nav>
+            <nav class="flex items-stretch border-r border-[#333]">
+                {links.map((link) => (
+                    <a
+                        href={link.href}
+                        class="flex items-center border-l border-[#333] px-[25px] text-[15px] text-[#aaa] transition-colors hover:text-white"
+                    >
+                        {link.label}
+                    </a>
+                ))}
+            </nav>
+        </div>
+
+        <!-- right group: night-mode toggle -->
+        <div class="flex items-stretch">
+            <button
+                id="themeToggle"
+                type="button"
+                class="flex items-center gap-2 border-l border-r border-[#333] px-4 text-[11px] text-[#aaa] transition-colors hover:text-white cursor-pointer"
+            >
+                <span class="text-base leading-none">⏾</span>
+                <span class="flex flex-col items-start leading-tight">
+                    <span>Night:</span>
+                    <span id="nightState" class="font-semibold text-red-500">off</span>
+                </span>
+            </button>
+        </div>
     </div>
 </header>
