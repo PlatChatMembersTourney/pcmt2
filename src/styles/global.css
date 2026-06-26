@@ -3,3 +3,6 @@
 
 /* dont use device theme */
 @custom-variant dark (&:where(.dark, .dark *));
+
+/* For Base UI */
+.root {   isolation: isolate; }
