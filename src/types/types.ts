@@ -65,3 +65,10 @@ export interface Match {
 	mapDetails: MapDetail[]; // per-map breakdown
 	streamLink: string;
 }
+
+export interface TeamInfo {
+	name: string;
+	abbr: string;
+	logo: string;
+	players: string[];
+}
