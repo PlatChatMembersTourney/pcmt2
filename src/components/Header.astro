@@ -1,9 +1,14 @@
 ---
+interface Props {
+    activePage: string;
+}
+
+const { activePage } = Astro.props;
+
 const links = [
     { label: "Home", href: "/" },
     { label: "Matches", href: "/matches" },
     { label: "Standings", href: "/standings" },
-    { label: "Teams", href: "/teams" },
     { label: "Stats", href: "/stats" }
 ];
 ---
@@ -23,7 +28,10 @@ const links = [
                 {links.map((link) => (
                     <a
                         href={link.href}
-                        class="flex items-center border-l border-neutral-200 dark:border-[#333] px-6 text-[15px] dark:text-[#aaa] text-neutral-800 transition-colors dark:hover:text-white hover:text-neutral-500"
+                        class={
+                            ((link.label === activePage) ? "text-neutral-500 dark:text-white " : "") +
+                            "flex items-center border-l border-neutral-200 dark:border-[#333] px-6 text-[15px] dark:text-[#aaa] text-neutral-800 transition-colors dark:hover:text-white hover:text-neutral-500"
+                        }
                     >
                         {link.label}
                     </a>
@@ -46,7 +54,10 @@ const links = [
                     {links.map((link) => (
                         <a
                             href={link.href}
-                            class="flex items-center py-3 px-6 text-[15px] border-b mb-0 border-neutral-200 dark:border-[#333] dark:text-[#aaa] text-neutral-800 transition-colors dark:hover:text-white hover:text-neutral-500"
+                            class={
+                                ((link.label === activePage) ? "text-neutral-500 dark:text-white " : "") +
+                                "flex items-center py-3 px-6 text-[15px] border-b mb-0 border-neutral-200 dark:border-[#333] dark:text-[#aaa] text-neutral-800 transition-colors dark:hover:text-white hover:text-neutral-500"
+                            }
                         >
                             {link.label}
                         </a>

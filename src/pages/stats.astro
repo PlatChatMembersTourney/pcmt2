@@ -1,0 +1,30 @@
+---
+// import global styles
+import "../styles/global.css"
+import Header from '../components/Header.astro';
+---
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <link rel="icon" href="/favicon.ico"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="generator" content={Astro.generator}/>
+    <title>Standings | PCMT</title>
+
+    <!-- OpenGraphProtocol Metadata -->
+    <meta name="description" content="the only important page on this website"/>
+    <meta property="og:title" content="Stats"/>
+    <meta property="og:description" content="the only important page on this website"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://pcmt.gg"/>
+    <meta property="og:image" content="/icons/PCMT Logo.png"/>
+</head>
+<body class="bg-white text-black dark:bg-[#3a3a3a] dark:text-white font-sans m-0">
+<Header activePage="Stats" />
+<main class="mx-auto max-w-300 px-8">
+	Who is St. Ats
+</main>
+</body>
+</html>

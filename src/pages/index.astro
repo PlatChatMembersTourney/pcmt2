@@ -1,78 +1,9 @@
 ---
 // import global styles
 import "../styles/global.css"
+import type { Match } from '../types/types.ts'
 
 import matchResultsSeason3 from '../data/s3/na/matches/matches.json';
-
-// TypeScript format of matches.json
-// this is just to help us with writing the code
-// (lets us reference the schema quickly)
-
-// as another benefit, the linter will get angry when you use the schema incorrectly
-
-// One player's stat line on a map or across a whole match
-interface Player {
-	Player: string;
-	"R1.0": number;
-	ACS: number;
-	K: number;
-	D: number;
-	A: number;
-	PlusMinus: number;
-	KAST: number;
-	ADR: number;
-	"HS%": number;
-	FK: number;
-	FD: number;
-	PlusMinus2: number;
-}
-
-// A team's roster of player stat lines
-interface TeamStats {
-	team: string; // short code, e.g. "TL"
-	teamName: string; // full name
-	players: Player[];
-}
-
-// Score of a single map
-interface MapScore {
-	name: string; // map name, e.g. "Pearl"
-	score1: number;
-	score2: number;
-}
-
-// One round within a map
-interface Round {
-	round: number;
-	winner: 1 | 2; // which team won
-	side: "atk" | "def";
-}
-
-// Full per-map detail: score, round-by-round, and per-map stats
-interface MapDetail extends MapScore {
-	rounds: Round[];
-	stats: TeamStats[];
-}
-
-// A complete match.
-interface Match {
-	id: string;
-	team1: string;
-	team2: string;
-	team1Name: string;
-	team2Name: string;
-	score1: number;
-	score2: number;
-	completed: boolean;
-	bestOf: number;
-	date: string; // ISO-ish date string
-	stage: string; // e.g. "group-stage", "playoffs"
-	veto: string; // the veto sequence
-	maps: MapScore[];
-	combinedStats: TeamStats[]; // whole-match totals per team
-	mapDetails: MapDetail[]; // per-map breakdown
-	streamLink: string;
-}
 
 const results = matchResultsSeason3 as Match[]
 
@@ -97,10 +28,18 @@ import Header from '../components/Header.astro';
     <link rel="icon" href="/favicon.ico"/>
     <meta name="viewport" content="width=device-width"/>
     <meta name="generator" content={Astro.generator}/>
-    <title>pcmt 2.0</title>
+    <title>Plat Chat Member's Tourney Homepage</title>
+
+    <!-- OpenGraphProtocol Metadata -->
+    <meta name="description" content="sting lurked all the way into this description"/>
+    <meta property="og:title" content="PCMT.gg"/>
+    <meta property="og:description" content="sting lurked all the way into this description"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://pcmt.gg"/>
+    <meta property="og:image" content="/icons/PCMT Logo.png"/>
 </head>
 <body class="bg-white text-black dark:bg-[#3a3a3a] dark:text-white font-sans m-0">
-<Header />
+<Header activePage="Home" />
 <main class="mx-auto max-w-300 px-8">
   <section class="relative my-5 flex items-center overflow-hidden rounded-[15px] bg-linear-to-r from-[#f0f0f0] to-[#e8e8e8] dark:from-[#272727] dark:to-[#282828]">
     <div class="relative p-8 text-gray-800 dark:text-[whitesmoke]">
