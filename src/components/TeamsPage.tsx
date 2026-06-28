@@ -1,9 +1,10 @@
-
 import { Toggle } from '@base-ui/react/toggle';
 import { ToggleGroup } from '@base-ui/react/toggle-group';
+import { Collapsible } from "@base-ui/react/collapsible";
 import { motion } from "motion/react";
 import {useState} from "react";
 import Teams from "./Teams.tsx";
+import type { TeamInfo } from "../types/types.ts";
 
 import s1na from "../data/s1/na/teams.json"
 import s2na from "../data/s2/na/teams.json"
@@ -14,6 +15,25 @@ import s1emea from "../data/s1/emea/teams.json"
 export interface TeamsPageProps {
 
 }
+
+export function CaretRightIcon(props: React.ComponentProps<'svg'>) {   return (     <svg       width="16"       height="16"       viewBox="0 0 16 16"       fill="currentColor"       {...props}       style={{ display: 'block', ...props.style }}     >       <path d="M6 12V4l4.5 4z" />     </svg>   ); }
+
+
+function Season({ label, teams }: { label: string; teams: Record<string, TeamInfo> }) {
+return (
+    <Collapsible.Root defaultOpen className="border-b border-neutral-700">
+      <Collapsible.Trigger className="group flex items-center gap-2 py-2 text-lg font-semibold cursor-pointer">
+        <CaretRightIcon className="transition-transform duration-200 group-data-[panel-open]:rotate-90" />
+        {label}
+      </Collapsible.Trigger>
+      <Collapsible.Panel>
+        <div className="py-3">
+          <Teams teams={teams} />
+        </div>
+      </Collapsible.Panel>
+    </Collapsible.Root>
+  );
+}		
 
 const TeamsPage: React.FC = (props: TeamsPageProps) => {
 	const [region, setRegion] = useState(['NA']);
@@ -70,27 +90,15 @@ const TeamsPage: React.FC = (props: TeamsPageProps) => {
 
 			{region[0] === 'NA' && (
 				<div className="flex flex-col gap-5 my-5">
-					<div>
-						<h2>S1</h2>
-						<Teams teams={s1na} />
-					</div>
-					<div>
-						<h2>S2</h2>
-						<Teams teams={s2na} />
-					</div>
-					<div>
-						<h2>S3</h2>
-						<Teams teams={s3na} />
-					</div>
+					<Season label="S1" teams={s1na} />
+					<Season label="S2" teams={s2na} />
+					<Season label="S3" teams={s3na} />
 				</div>
 			)}
 
 			{region[0] === 'EMEA' && (
 				<div className="flex flex-col gap-5 my-5">
-					<div>
-						<h2>S1</h2>
-						<Teams teams={s1emea} />
-					</div>
+					<Season label="S1" teams={s1emea} />
 				</div>
 			)}
 		</div>
