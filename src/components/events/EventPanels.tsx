@@ -14,7 +14,7 @@ const Teams: React.FC<{event: Event}> = (props: {event: Event}) => {
 	const pages = ['Overview', 'Matches', 'Stats', 'Agents']
 	const [active, setActive] = useState<string>('Overview')
 
-	let matches: Match[] = useStore($matches)[event.id];
+	const matches: Match[] = useStore($matches)[event.id];
 
 	return (
 		<div className="flex flex-col">

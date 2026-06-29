@@ -14,10 +14,4 @@ const matches: Record<string, Match[]> = {
 	"s1-emea": s1EMEAMatchesRaw as Match[]
 }
 
-// load seasons data
-
-import seasons from '../data/events.json'
-
-
-
 export const $matches = atom<Record<string, Match[]>>(matches);
