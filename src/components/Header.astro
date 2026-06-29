@@ -80,10 +80,13 @@ const links = [
             <button
                 id="themeToggle"
                 type="button"
-                class="flex items-center gap-2 border-l border-r border-neutral-200 dark:border-[#333] px-4 text-[11px] text-neutral-800 dark:text-[#aaa] transition-colors hover:text-neutral-500 dark:hover:text-white cursor-pointer"
+                class="flex items-center gap-1 border-l border-r border-neutral-200 dark:border-[#333] px-4 text-[11px] text-neutral-800 dark:text-[#aaa] transition-colors hover:text-neutral-500 dark:hover:text-white cursor-pointer"
             >
-                <span class="text-base leading-none">⏾</span>
-                <span class="flex flex-col items-start leading-tight">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="fill-neutral-800 dark:fill-[#aaa] hover:fill-neutral-500 dark:hover:fill-white">
+					<path d="M0 0h24v24H0z" fill="none" />
+					<path d="M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z" />
+				</svg>
+				<span class="flex flex-col items-start leading-tight">
                     <span>Night:</span>
                     <span id="nightState" class="font-semibold text-red-500">off</span>
                 </span>
