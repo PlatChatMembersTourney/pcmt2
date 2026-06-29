@@ -1,0 +1,45 @@
+---
+interface Props {
+	name: string;
+	desc: string;
+	region: string;
+	dates: string;
+	prize: string;
+}
+
+const {
+	name,
+	desc,
+	region,
+	dates,
+	prize
+} = Astro.props;
+---
+
+<div class="p-6 bg-vlr-gray-100 dark:bg-vlr-gray-600 flex gap-6">
+	<div class="w-30 h-30 border-neutral-500 border rounded-sm flex items-center justify-center flex-none" >
+		<img src="/icons/PCMT%20Logo.png" class="rounded-sm w-28 h-28">
+	</div>
+
+	<div class="flex flex-col">
+		<a href="/" class="text-pb text-[10pt] leading-4">Plat Chat Members Tournament</a>
+		<h1 class="text-black dark:text-vlr-text-white font-black sm:text-2xl text-xl mb-1">PCMT: {name}</h1>
+		<p class="text-black dark:text-vlr-text-white text-xs flex-grow mb-2">{desc}</p>
+		<dl class="flex flex-row gap-6">
+			<div class="flex flex-col gap-1.5 ">
+				<dt class="text-[10px] leading-none uppercase dark:text-vlr-text-light">Dates</dt>
+				<dd class="text-xs leading-tight dark:text-vlr-text-white">{dates}</dd>
+			</div>
+			<div class="flex-col gap-1.5 hidden sm:flex">
+				<dt class="text-[10px] leading-none uppercase dark:text-vlr-text-light">Prize</dt>
+				<dd class="text-xs leading-tight dark:text-vlr-text-white">{prize}</dd>
+			</div>
+			<div class="flex flex-col gap-1.5 ">
+				<dt class="text-[10px] leading-none uppercase dark:text-vlr-text-light">Region</dt>
+				<dd class="h-4">
+					<img src={region === 'emea' ? '/icons/flags/16/eu.png' : '/icons/flags/16/us.png'} />
+				</dd>
+			</div>
+		</dl>
+	</div>
+</div>

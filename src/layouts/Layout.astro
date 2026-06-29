@@ -8,6 +8,7 @@ interface Props {
 	ogTitle?: string
 	img?: string
 	activePage: string
+	bodyClass?: string
 }
 
 const {
@@ -16,6 +17,7 @@ const {
 	ogTitle,
 	img = '/icons/PCMT Logo.png',
 	activePage,
+	bodyClass,
 } = Astro.props
 ---
 
@@ -32,7 +34,7 @@ const {
 		<meta property="og:title" content={ogTitle ?? title} />
 		<meta property="og:description" content={desc} />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://pcmt.gg" />
+		<meta property="og:url" content={Astro.url.href} />
 		<meta property="og:image" content={img} />
 
 		<!-- Roboto -->
@@ -44,7 +46,7 @@ const {
 		/>
 	</head>
 	<body
-		class="bg-white text-black dark:bg-[#3a3a3a] dark:text-white font-sans m-0"
+		class={bodyClass ?? "bg-white text-black dark:bg-[#3a3a3a] dark:text-white font-sans m-0"}
 	>
 		<Header activePage={activePage} />
 		<main class="mx-auto max-w-315 root">

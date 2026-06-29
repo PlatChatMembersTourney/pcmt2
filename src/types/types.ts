@@ -72,3 +72,15 @@ export interface TeamInfo {
 	logo: string;
 	players: string[];
 }
+
+export interface Event {
+	id: string;
+	name: string;
+	shortName: string;
+	season: number;
+	region: string;
+	path: string;
+	status: string;
+	desc: string;
+	dates: string;
+}

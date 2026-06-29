@@ -6,3 +6,47 @@
 
 /* For Base UI */
 .root {   isolation: isolate; }
+
+/* Custom colors */
+@theme {
+    /* Dark Theme */
+    --color-vlr-gray-900: #292e32;
+    --color-vlr-gray-800: #2f3337;
+    --color-vlr-gray-700: #353b40;
+    --color-vlr-gray-650: #373e43;
+    --color-vlr-gray-600: #3e454c;
+    --color-vlr-gray-500: #4e575f; /* used for button hover */
+
+    /* Light Theme */
+    --color-vlr-gray-400: #c4c6c6;
+    --color-vlr-gray-300: #dcdcda;
+    --color-vlr-gray-250: #ebebea;
+    --color-vlr-gray-200: #eeeeec;
+    --color-vlr-gray-100: #fafafa;
+
+    /* Text */
+    --color-vlr-text-white: #d4d4d4;
+    --color-vlr-text-light: #b4b4b4;
+    --color-vlr-text-gray: #848688;
+
+    --color-vlr-border-gray: #5b6167;
+    --color-vlr-border-light: #d4d4d4;
+
+    /* Plat Chat Blue */
+    --color-plat-blue: #6dc5c7;
+    --color-plat-blue-dark: #2a8a8c;
+}
+
+.vlr-border {
+    @apply border-vlr-border-light;
+    @apply dark:border-vlr-border-gray;
+}
+
+.text-pb {
+    @apply text-plat-blue-dark;
+    @apply dark:text-plat-blue;
+}
+
+.vlr-box-shadow {
+    box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.35);
+}

@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import seasons from '../../data/events.json';
+import EventPage from '../../components/events/EventPage.astro'
+import type { Event } from '../../types/types.ts'
+
+type Props = Event;
+
+export const getStaticPaths = (() => {
+	return seasons.map((entry: Event) => {
+		return {
+			params: {
+				id: entry.id
+			},
+			props: entry
+		};
+	});
+});
+
+const {
+	desc,
+	name
+} = Astro.props;
+
+---
+
+<Layout
+	activePage="Events"
+	desc={desc}
+	title={name + " | PCMT"}
+	bodyClass="bg-vlr-gray-400 dark:bg-vlr-gray-900 font-sans m-0"
+>
+	<div>
+		<EventPage {...Astro.props} />
+	</div>
+</Layout>

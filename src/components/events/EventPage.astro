@@ -1,0 +1,35 @@
+---
+import EventHeader from './EventHeader.astro';
+import EventPanels from './EventPanels.tsx';
+import type { Event } from '../../types/types.ts'
+
+type Props = Event;
+
+const {
+	id,
+	name,
+	shortName,
+	season,
+	region,
+	path,
+	status,
+	desc,
+	dates
+} = Astro.props;
+---
+
+<div class="font-[roboto]">
+	<EventHeader
+		name={name}
+		desc={desc}
+		region={region}
+		dates={dates}
+		prize="a showmatch idk"
+	/>
+
+	<EventPanels
+		{...Astro.props}
+		client:load
+	/>
+
+</div>
