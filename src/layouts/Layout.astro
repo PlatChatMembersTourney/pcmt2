@@ -1,0 +1,54 @@
+---
+import '../styles/global.css'
+import Header from '../components/Header.astro'
+
+interface Props {
+	title: string
+	desc: string
+	ogTitle?: string
+	img?: string
+	activePage: string
+}
+
+const {
+	title,
+	desc,
+	ogTitle,
+	img = '/icons/PCMT Logo.png',
+	activePage,
+} = Astro.props
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+
+		<!-- OpenGraphProtocol Metadata -->
+		<meta name="description" content={desc} />
+		<meta property="og:title" content={ogTitle ?? title} />
+		<meta property="og:description" content={desc} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://pcmt.gg" />
+		<meta property="og:image" content={img} />
+
+		<!-- Roboto -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body
+		class="bg-white text-black dark:bg-[#3a3a3a] dark:text-white font-sans m-0"
+	>
+		<Header activePage={activePage} />
+		<main class="mx-auto max-w-315 root">
+			<slot />
+		</main>
+	</body>
+</html>

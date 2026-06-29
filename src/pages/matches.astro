@@ -1,30 +1,12 @@
 ---
-// import global styles
-import "../styles/global.css"
-import Header from '../components/Header.astro';
+import Layout from '../layouts/Layout.astro'
 ---
-
-<html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-    <link rel="icon" href="/favicon.ico"/>
-    <meta name="viewport" content="width=device-width"/>
-    <meta name="generator" content={Astro.generator}/>
-    <title>Standings | PCMT</title>
-
-    <!-- OpenGraphProtocol Metadata -->
-    <meta name="description" content="erm... haych where is my thumbnail"/>
-    <meta property="og:title" content="Matches"/>
-    <meta property="og:description" content="erm... haych where is my thumbnail"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://pcmt.gg"/>
-    <meta property="og:image" content="/icons/PCMT Logo.png"/>
-</head>
-<body class="bg-white text-black dark:bg-[#3a3a3a] dark:text-white font-sans m-0">
-<Header activePage="Matches" />
-<main class="mx-auto max-w-300 px-8 root">
-	erm
-</main>
-</body>
-</html>
+<Layout
+	activePage="Matches"
+	desc="erm... haych where is my thumbnail"
+	title="Matches | PCMT"
+>
+	<div class="pt-6 px-6">
+		erm
+	</div>
+</Layout>
