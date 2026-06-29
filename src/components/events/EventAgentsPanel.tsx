@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import type { Event } from '../../types/types.ts'
 
-const EventAgentsPanel: React.FC<Event> = (props: Event) => {
-	const { name, shortName, season, region, path, status, desc, dates } = props
+const EventAgentsPanel: React.FC<{ event: Event }> = (props: {
+	event: Event
+}) => {
+	const event = props.event;
 
 	return (
 		<div className="flex flex-col">

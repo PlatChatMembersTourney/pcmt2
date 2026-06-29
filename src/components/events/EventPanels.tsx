@@ -1,24 +1,20 @@
 import { useState } from 'react'
-import type { Event } from '../../types/types.ts';
+import type { Event, Match } from '../../types/types.ts'
 
 import EventOverviewPanel from './EventOverviewPanel.tsx'
 import EventStatsPanel from './EventStatsPanel.tsx'
 import EventMatchesPanel from './EventMatchesPanel.tsx'
 import EventAgentsPanel from './EventAgentsPanel.tsx'
 
+import { $matches } from '../../stores/store.ts'
+import { useStore } from '@nanostores/react'
 
-const Teams: React.FC<Event> = (props: Event) => {
-	const {
-		 name, shortName, season, region, path, status, desc, dates
-	} = props;
+const Teams: React.FC<{event: Event}> = (props: {event: Event}) => {
+	const event = props.event;
+	const pages = ['Overview', 'Matches', 'Stats', 'Agents']
+	const [active, setActive] = useState<string>('Overview')
 
-	const pages = [
-		'Overview',
-		'Matches',
-		'Stats',
-		'Agents'
-	]
-	const [active, setActive] = useState<string>('Overview');
+	let matches: Match[] = useStore($matches)[event.id];
 
 	return (
 		<div className="flex flex-col">
@@ -39,7 +35,7 @@ const Teams: React.FC<Event> = (props: Event) => {
 							{label === 'Matches' && (
 								<sup className="font-normal text-vlr-text-gray">
 									{' '}
-									(30)
+									({matches.length})
 								</sup>
 							)}
 						</button>
@@ -47,18 +43,10 @@ const Teams: React.FC<Event> = (props: Event) => {
 				})}
 			</div>
 
-			{active === 'Overview' && (
-				<EventOverviewPanel {...props} />
-			)}
-			{active === 'Matches' && (
-				<EventMatchesPanel {...props} />
-			)}
-			{active === 'Stats' && (
-				<EventStatsPanel {...props} />
-			)}
-			{active === 'Agents' && (
-				<EventAgentsPanel {...props} />
-			)}
+			{active === 'Overview' && <EventOverviewPanel event={event} />}
+			{active === 'Matches' && <EventMatchesPanel event={event} />}
+			{active === 'Stats' && <EventStatsPanel event={event} />}
+			{active === 'Agents' && <EventAgentsPanel event={event} />}
 		</div>
 	)
 }
