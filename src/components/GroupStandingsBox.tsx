@@ -63,11 +63,13 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 										' border-l-3 h-full flex items-center gap-3 pl-3 px-3'
 									}
 								>
-									<img
-										className="h-6.25 w-6.25"
-										src={teams[standing.abbr].logo}
-										alt={standing.name}
-									/>
+									<div className="h-6.25 w-6.25 flex items-center justify-center">
+										<img
+											className="h-full w-full object-contain"
+											src={teams[standing.abbr].logo}
+											alt={standing.name}
+										/>
+									</div>
 									<div className="flex-col overflow-hidden min-w-0">
 										<div className="overflow-hidden text-ellipsis whitespace-nowrap text-pb text-xs font-bold min-w-0">
 											{standing.name}
@@ -89,11 +91,23 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 							</td>
 							<td className="text-center px-3 whitespace-nowrap">
 								<p>
-									<span className="text-black dark:text-vlr-text-white">{standing.mapW}</span> / <span className="text-black dark:text-vlr-text-white">{standing.mapL}</span>
+									<span className="text-black dark:text-vlr-text-white">
+										{standing.mapW}
+									</span>{' '}
+									/{' '}
+									<span className="text-black dark:text-vlr-text-white">
+										{standing.mapL}
+									</span>
 								</p>
 							</td>
 							<td className="text-center px-2 whitespace-nowrap">
-								<span className="text-black dark:text-vlr-text-white">{standing.rndW}</span> / <span className="text-black dark:text-vlr-text-white">{standing.rndL}</span>
+								<span className="text-black dark:text-vlr-text-white">
+									{standing.rndW}
+								</span>{' '}
+								/{' '}
+								<span className="text-black dark:text-vlr-text-white">
+									{standing.rndL}
+								</span>
 							</td>
 							<td
 								className={
