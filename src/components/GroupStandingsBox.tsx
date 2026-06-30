@@ -33,7 +33,7 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 		[&_td]:dark:border-vlr-border-gray [&_td]:border-vlr-border-light vlr-box-shadow border-hidden overflow-x-auto"
 		>
 			<thead className="h-9 bg-neutral-200 dark:bg-vlr-gray-700 text-[10px] text-[#888] dark:text-vlr-text-white border-collapse">
-				<th className="font-bold px-3 text-[11px] text-left">
+				<th className="font-bold px-3 text-[11px] text-left h-9">
 					{name}
 				</th>
 				<th className="font-normal uppercase px-3">REC</th>
