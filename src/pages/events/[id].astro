@@ -28,9 +28,10 @@ const {
 	activePage="Events"
 	desc={desc}
 	title={name + " | PCMT"}
-	bodyClass="bg-vlr-gray-400 dark:bg-vlr-gray-900 font-sans m-0"
+	bodyClass="bg-vlr-gray-400 dark:bg-vlr-gray-900 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
+	mainClass="mx-auto w-full max-w-315 root dark:bg-vlr-gray-800 min-w-0"
 >
-	<div>
+	<div class="h-full">
 		<EventPage event={Astro.props} />
 	</div>
 </Layout>
