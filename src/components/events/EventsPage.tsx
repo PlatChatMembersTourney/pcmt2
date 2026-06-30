@@ -118,7 +118,7 @@ const TeamsPage: React.FC = () => {
 				Events
 			</p>
 			<div className="w-full flex flex-row gap-4">
-				<div className="flex-none">
+				<div className="lg:w-150 lg:flex-none">
 					<div className="flex flex-col gap-1">
 						{filteredEvents.map((event: Event) => (
 							<EventCard
