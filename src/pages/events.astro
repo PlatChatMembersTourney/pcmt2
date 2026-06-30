@@ -1,13 +1,13 @@
 ---
+import EventsPage from '../components/events/EventsPage'
 import Layout from '../layouts/Layout.astro'
-import TeamsPage from "../components/TeamsPage.tsx";
 ---
 <Layout
     activePage="Events"
     desc="they call me lysoar the way i be standing"
     title="Events | PCMT"
+	bodyClass="bg-vlr-gray-400 dark:bg-vlr-gray-900 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
+	mainClass="mx-auto w-full max-w-315 root bg-vlr-gray-300 dark:bg-vlr-gray-800 min-w-0"
 >
-    <div class="pt-6 px-6">
-        <TeamsPage client:load />
-    </div>
+    <EventsPage client:load />
 </Layout>

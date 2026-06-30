@@ -52,7 +52,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: {
 					)
 				})}
 			</div>
-			<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 px-4 sm:px-6 pt-6 text-black dark:text-vlr-text-white">
+			<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 px-4 sm:px-6 pt-6 text-black dark:text-vlr-text-white pb-4">
 				{format?.type === 'round-robin' ? (
 					<>
 						<h2 className="text-red-400 uppercase font-bold text-[11px] ml-3 mb-3 leading-none">
@@ -75,7 +75,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: {
 								</div>
 							) : (
 								format.groupNames?.map((groupName) => (
-									<div className="overflow-x-auto">
+									<div className="overflow-x-auto flex-1">
 										<GroupStandingsBox
 											standings={allStandings[groupName]}
 											teamColors={format.teamColors!}

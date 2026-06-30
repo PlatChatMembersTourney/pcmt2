@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css'
 import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
 
 interface Props {
 	title: string
@@ -9,6 +10,7 @@ interface Props {
 	img?: string
 	activePage: string
 	bodyClass?: string
+	mainClass?: string
 }
 
 const {
@@ -18,6 +20,7 @@ const {
 	img = '/icons/PCMT Logo.png',
 	activePage,
 	bodyClass,
+	mainClass
 } = Astro.props
 ---
 
@@ -46,11 +49,12 @@ const {
 		/>
 	</head>
 	<body
-		class={bodyClass ?? "bg-white text-black dark:bg-[#3a3a3a] dark:text-white font-sans m-0"}
+		class={bodyClass ?? "bg-white text-black dark:bg-[#3a3a3a] dark:text-white font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"}
 	>
 		<Header activePage={activePage} />
-		<main class="mx-auto max-w-315 root">
+		<main class={mainClass ?? "mx-auto w-full max-w-315 root min-w-0"}>
 			<slot />
 		</main>
+		<Footer />
 	</body>
 </html>
