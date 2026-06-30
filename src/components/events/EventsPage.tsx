@@ -117,23 +117,42 @@ const TeamsPage: React.FC = () => {
 			<p className="ml-5 mt-5 mb-4 uppercase text-[11px] font-bold text-black dark:text-red-400 leading-none">
 				Events
 			</p>
-			<div className="flex flex-col gap-1">
-				{filteredEvents.map((event: Event) => (
-					<EventCard
-						name={'Plat Chat Members Tournament: ' + event.name}
-						id={event.id}
-						region={event.region}
-						status={event.status}
-						prizePool={'a showmatch idk'}
-						dates={event.dates}
-						logo={
-							event.region === 'na'
-								? '/icons/NA%20Logo.png'
-								: '/icons/EMEA%20Logo.png'
-						}
-						key={event.id}
-					/>
-				))}
+			<div className="w-full flex flex-row gap-4">
+				<div className="flex-none">
+					<div className="flex flex-col gap-1">
+						{filteredEvents.map((event: Event) => (
+							<EventCard
+								name={
+									'Plat Chat Members Tournament: ' +
+									event.name
+								}
+								id={event.id}
+								region={event.region}
+								status={event.status}
+								prizePool={'a showmatch idk'}
+								dates={event.dates}
+								logo={
+									event.region === 'na'
+										? '/icons/NA%20Logo.png'
+										: '/icons/EMEA%20Logo.png'
+								}
+								key={event.id}
+							/>
+						))}
+					</div>
+				</div>
+				<div className="hidden lg:flex">
+					<div>
+						<img
+							className="dark:hidden aspect-video"
+							src="/res/night.gif"
+						/>
+						<img
+							className="hidden dark:block aspect-video"
+							src="/res/nightnight.gif"
+						/>
+					</div>
+				</div>
 			</div>
 		</div>
 	)

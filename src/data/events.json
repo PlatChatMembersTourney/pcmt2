@@ -150,11 +150,11 @@
 		"stages": [
 			{
 				"name": "Playoffs",
-				"dates": ""
+				"dates": "TBD"
 			},
 			{
 				"name": "Group Stage",
-				"dates": "",
+				"dates": "TBD",
 				"format": {
 					"type": "round-robin",
 					"groups": 2,

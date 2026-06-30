@@ -6,12 +6,14 @@ import type { Match, Standing, TeamInfo } from '../types/types.ts'
 import s2NAMatchesRaw from "../data/s2/na/matches/matches.json";
 import s3NAMatchesRaw from "../data/s3/na/matches/matches.json";
 import s1EMEAMatchesRaw from "../data/s1/emea/matches/matches.json";
+import s2EMEAMatchesRaw from "../data/s2/emea/matches/matches.json";
 
 const matches: Record<string, Match[]> = {
 	"s1-na": [],
 	"s2-na": s2NAMatchesRaw as Match[],
 	"s3-na": s3NAMatchesRaw as Match[],
-	"s1-emea": s1EMEAMatchesRaw as Match[]
+	"s1-emea": s1EMEAMatchesRaw as Match[],
+	"s2-emea": s2EMEAMatchesRaw as Match[]
 }
 
 // load standings data for all seasons
@@ -25,6 +27,7 @@ const standings: Record<string, Record<string, Standing[]>> = {
 	's2-na': s2NAStandingsRaw as Record<string, Standing[]>,
 	's3-na': s3NAStandingsRaw as Record<string, Standing[]>,
 	's1-emea': s1EMEAStandingsRaw as Record<string, Standing[]>,
+	's2-emea': {}
 }
 
 // load teams data for all seasons
@@ -33,12 +36,14 @@ import s1NATeamsRaw from "../data/s1/na/teams.json";
 import s2NATeamsRaw from "../data/s2/na/teams.json";
 import s3NATeamsRaw from "../data/s3/na/teams.json";
 import s1EMEATeamsRaw from "../data/s1/emea/teams.json";
+import s2EMEATeamsRaw from "../data/s2/emea/teams.json";
 
 const teams: Record<string, Record<string, TeamInfo>> = {
 	's1-na': s1NATeamsRaw as Record<string, TeamInfo>,
 	's2-na': s2NATeamsRaw as Record<string, TeamInfo>,
 	's3-na': s3NATeamsRaw as Record<string, TeamInfo>,
 	's1-emea': s1EMEATeamsRaw as Record<string, TeamInfo>,
+	's2-emea': s2EMEATeamsRaw as Record<string, TeamInfo>
 }
 
 export const $matches = atom<Record<string, Match[]>>(matches);
