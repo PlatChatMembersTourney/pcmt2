@@ -83,4 +83,36 @@ export interface Event {
 	status: string;
 	desc: string;
 	dates: string;
+	stages: StageInfo[]; // will be showed in order, last one default
+}
+
+export interface StageInfo {
+	name: string;
+	dates: string;
+	format?: Format;
+}
+
+export interface Format {
+	type: "round-robin" | "bracket";
+	groups?: number;
+	groupNames?: string[];
+	teamsPerGroup?: number;
+	teamColors?: {
+		number: number;
+		color: string;
+	}[];
+}
+
+export interface Standing {
+	abbr: string;
+	name: string;
+	matchW: number;
+	matchL: number;
+	mapW: number;
+	mapL: number;
+	rndW: number;
+	rndL: number;
+	rank: number;
+	mapDiff: number;
+	rndDiff: number;
 }

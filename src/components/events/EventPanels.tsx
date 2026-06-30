@@ -18,7 +18,7 @@ const Teams: React.FC<{ event: Event }> = (props: { event: Event }) => {
 
 	return (
 		<div className="flex flex-col">
-			<div className="bg-vlr-gray-100 dark:bg-vlr-gray-600 border-t border-b dark:border-b-0 vlr-box-shadow vlr-border pl-6 flex flex-row">
+			<div className="bg-vlr-gray-100 dark:bg-vlr-gray-600 border-t border-b dark:border-b-0 vlr-box-shadow vlr-border pl-4 sm:pl-6 flex flex-row">
 				{pages.map((label) => {
 					return (
 						<button
