@@ -1,4 +1,49 @@
 [
+	  {
+		"id": "s2-emea",
+		"name": "EMEA Season 2",
+		"shortName": "EMEA S2",
+		"season": 2,
+		"region": "emea",
+		"path": "s2/emea",
+		"status": "ongoing",
+		"desc": "Season 2 of the Plat Chat members tournament for EMEA, where 10 teams did some group activities.",
+		"dates": "",
+		"stages": [
+		{
+			"name": "Playoffs",
+			"dates": ""
+		},
+		{
+			"name": "Group Stage",
+			"dates": "",
+			"format": {
+			"type": "round-robin",
+			"groups": 2,
+			"groupNames": [
+				"Group Alpha",
+				"Group Omega"
+			],
+			"teamsPerGroup": 5,
+			"teamColors": [
+				{
+				"number": 1,
+				"color": "green"
+				},
+				{
+				"number": 2,
+				"color": "yellow"
+				},
+				{
+				"number": 2,
+				"color": "red"
+				}
+			]
+			}
+		}
+		]
+	},
+
 	{
 		"id": "s1-na",
 		"name": "NA Season 1",
@@ -111,7 +156,7 @@
 		"season": 1,
 		"region": "emea",
 		"path": "s1/emea",
-		"status": "ongoing",
+		"status": "completed",
 		"desc": "Season 1 of the Plat Chat members tournament for EMEA, where 4 teams held a mickey mouse event.",
 		"dates": "Mar 27 - May 30, 2026",
 		"stages": [
