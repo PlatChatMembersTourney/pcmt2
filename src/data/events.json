@@ -65,6 +65,42 @@
 		]
 	},
 	{
+		"id": "s1-emea",
+		"name": "EMEA Season 1",
+		"shortName": "EMEA S1",
+		"season": 1,
+		"region": "emea",
+		"path": "s1/emea",
+		"status": "completed",
+		"desc": "Season 1 of the Plat Chat members tournament for EMEA, where 4 teams held a mickey mouse event.",
+		"dates": "Mar 27 - May 30, 2026",
+		"stages": [
+			{
+				"name": "Playoffs",
+				"dates": "May 13 - 30"
+			},
+			{
+				"name": "Group Stage",
+				"dates": "Mar 27 - May 3",
+				"format": {
+					"type": "round-robin",
+					"groups": 1,
+					"teamsPerGroup": 4,
+					"teamColors": [
+						{
+							"number": 3,
+							"color": "green"
+						},
+						{
+							"number": 1,
+							"color": "red"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
 		"id": "s3-na",
 		"name": "NA Season 3",
 		"shortName": "NA S3",
@@ -97,42 +133,6 @@
 						},
 						{
 							"number": 4,
-							"color": "red"
-						}
-					]
-				}
-			}
-		]
-	},
-	{
-		"id": "s1-emea",
-		"name": "EMEA Season 1",
-		"shortName": "EMEA S1",
-		"season": 1,
-		"region": "emea",
-		"path": "s1/emea",
-		"status": "ongoing",
-		"desc": "Season 1 of the Plat Chat members tournament for EMEA, where 4 teams held a mickey mouse event.",
-		"dates": "Mar 27 - May 30, 2026",
-		"stages": [
-			{
-				"name": "Playoffs",
-				"dates": "May 13 - 30"
-			},
-			{
-				"name": "Group Stage",
-				"dates": "Mar 27 - May 3",
-				"format": {
-					"type": "round-robin",
-					"groups": 1,
-					"teamsPerGroup": 4,
-					"teamColors": [
-						{
-							"number": 3,
-							"color": "green"
-						},
-						{
-							"number": 1,
 							"color": "red"
 						}
 					]
