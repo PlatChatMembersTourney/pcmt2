@@ -55,20 +55,24 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: {
 			<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 px-4 sm:px-6 pt-6 text-black dark:text-vlr-text-white">
 				{format?.type === 'round-robin' ? (
 					<>
-						<h2 className="text-red-400 uppercase font-bold text-[11px] ml-3 mb-3 leading-none">Groups</h2>
+						<h2 className="text-red-400 uppercase font-bold text-[11px] ml-3 mb-3 leading-none">
+							Groups
+						</h2>
 						<div className="flex gap-3 flex-col md:flex-row">
 							{format.groups === 1 ? (
-								<GroupStandingsBox
-									standings={
-										allStandings[
-											event.stages[activeStage].name
-										]
-									}
-									teamColors={format.teamColors!}
-									name={event.stages[activeStage].name}
-									teams={teams}
-									region={event.region}
-								/>
+								<div className="overflow-x-auto">
+									<GroupStandingsBox
+										standings={
+											allStandings[
+												event.stages[activeStage].name
+											]
+										}
+										teamColors={format.teamColors!}
+										name={event.stages[activeStage].name}
+										teams={teams}
+										region={event.region}
+									/>
+								</div>
 							) : (
 								format.groupNames?.map((groupName) => (
 									<div className="overflow-x-auto">
