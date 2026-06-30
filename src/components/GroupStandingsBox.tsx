@@ -44,7 +44,7 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 				</th>
 			</thead>
 
-			<tbody className="text-[11px] text-[#888] dark:text-vlr-text-white bg-vlr-gray-600">
+			<tbody className="text-[11px] text-[#888] dark:text-vlr-text-white bg-vlr-gray-100 dark:bg-vlr-gray-600">
 				{standings.map((standing, index) => {
 					return (
 						<tr key={index}>
@@ -89,11 +89,11 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 							</td>
 							<td className="text-center px-3 whitespace-nowrap">
 								<p>
-									{standing.mapW} / {standing.mapL}
+									<span className="text-black dark:text-vlr-text-white">{standing.mapW}</span> / <span className="text-black dark:text-vlr-text-white">{standing.mapL}</span>
 								</p>
 							</td>
 							<td className="text-center px-2 whitespace-nowrap">
-								{standing.rndW} / {standing.rndL}
+								<span className="text-black dark:text-vlr-text-white">{standing.rndW}</span> / <span className="text-black dark:text-vlr-text-white">{standing.rndL}</span>
 							</td>
 							<td
 								className={
