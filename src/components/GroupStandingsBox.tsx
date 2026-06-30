@@ -1,6 +1,4 @@
 import type { Standing, TeamInfo } from '../types/types.ts'
-import { $teams } from '../stores/store.ts'
-import { useStore } from '@nanostores/react'
 
 interface GroupStandingsBoxProps {
 	standings: Standing[];
