@@ -1,18 +1,5 @@
 [
   {
-    "id": "ssg-vs-spg-s3-group-stage-2026-12-12",
-    "team1": "SSG",
-    "team2": "SPG",
-    "team1Name": "Squirtle Squad Gaming",
-    "team2Name": "Spank Ptheory Gaming",
-    "score1": 0,
-    "score2": 0,
-    "completed": false,
-    "bestOf": 3,
-    "date": "2026-12-12T10:00:00Z",
-    "stage": "Group Stage"
-  },
-  {
     "id": "tl-vs-fsg-s2-group-alpha-2026-06-22",
     "team1": "TL",
     "team2": "FSG",
