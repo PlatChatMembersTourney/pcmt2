@@ -5,6 +5,7 @@
 // One player's stat line on a map or across a whole match
 export interface Player {
 	Player: string;
+	Agent?: string;
 	"R1.0": number;
 	ACS: number;
 	K: number;

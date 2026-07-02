@@ -79,3 +79,17 @@
 .vlr-box-shadow {
     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.35);
 }
+
+.stats-cell {
+    @apply h-7.5;
+    @apply my-1.25;
+    @apply bg-vlr-gray-300;
+    @apply dark:bg-vlr-gray-500;
+    @apply text-center;
+    @apply flex;
+    @apply items-center;
+    @apply justify-center;
+    @apply px-1.75;
+    @apply rounded-xs;
+    @apply text-xs;
+}

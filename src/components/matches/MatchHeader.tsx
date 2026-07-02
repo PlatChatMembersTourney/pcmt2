@@ -10,7 +10,10 @@ interface MatchHeaderProps {
 }
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
-	dateStyle: 'full'
+	month: 'long',
+	day: 'numeric',
+	weekday: 'short',
+	year: 'numeric',
 })
 const timeFormatter = new Intl.DateTimeFormat('en-US', {
 	hour: 'numeric',
@@ -27,7 +30,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 	const team1Winner = match.completed && match.score1 > match.score2;
 
 	return (
-		<div className="p-4 sm:p-5 dark:bg-vlr-gray-600 bg-vlr-gray-100 relative cool-border-top text-[#333] dark:text-vlr-text-white">
+		<div className="p-4 sm:p-5 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 relative cool-border-top text-[#333] dark:text-vlr-text-white">
 			<div className="flex h-9 items-center gap-2">
 				<img
 					src={
@@ -58,18 +61,18 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 			<div className="mt-10 mb-15 flex items-center justify-center">
 				<a
 					href={`/events/${event.id}/teams/${slugify(match.team1Name)}`}
-					className="font-black text-base md:text-xl w-30 md:w-37.5 text-right text-plat-blue-dark dark:text-vlr-text-white"
+					className="font-black text-base leading-tight md:text-xl w-30 md:w-37.5 text-right text-plat-blue-dark dark:text-vlr-text-white"
 				>
 					{match.team1Name}
 				</a>
-				<div className="h-18 w-18 ml-3 md:ml-5">
+				<div className="h-12 w-12 md:h-18 md:w-18 ml-3 md:ml-5">
 					<img
 						src={teams[match.team1].logo}
-						className="h-18 w-18 object-contain"
+						className="h-full w-full object-contain"
 						alt={match.team1Name}
 					/>
 				</div>
-				<div className="flex flex-col items-center w-15 md:w-25">
+				<div className="flex flex-col items-center w-20 md:w-25">
 					{match.completed ? (
 						<p className="text-[10px] uppercase text-vlr-text-gray">
 							Final
@@ -107,21 +110,23 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 					</p>
 				</div>
 
-				<div className="h-18 w-18 mr-3 md:mr-5">
+				<div className="h-12 w-12 md:h-18 md:w-18 mr-3 md:mr-5">
 					<img
 						src={teams[match.team2].logo}
-						className="h-18 w-18 object-contain"
-						alt={match.team1Name}
+						className="h-full w-full object-contain"
+						alt={match.team2Name}
 					/>
 				</div>
 				<a
 					href={`/events/${event.id}/teams/${slugify(match.team2Name)}`}
-					className="font-black text-base md:text-xl w-30 md:w-37.5 text-plat-blue-dark dark:text-vlr-text-white"
+					className="font-black text-base leading-tight md:text-xl w-30 md:w-37.5 text-plat-blue-dark dark:text-vlr-text-white"
 				>
 					{match.team2Name}
 				</a>
 			</div>
-			<p className="italic text-[11px] md:text-xs leading-normal text-center">{match.veto}</p>
+			<p className="italic text-[11px] md:text-xs leading-normal text-center">
+				{match.veto}
+			</p>
 		</div>
 	)
 }

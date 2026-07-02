@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useStore } from '@nanostores/react'
 import type { Event, Standing } from '../../types/types.ts'
 import { $standings, $teams } from '../../stores/store.ts'
-import GroupStandingsBox from '../GroupStandingsBox.tsx'
+import GroupStandingsBox from './GroupStandingsBox.tsx'
 
 const EventOverviewPanel: React.FC<{ event: Event }> = (props: {
 	event: Event
