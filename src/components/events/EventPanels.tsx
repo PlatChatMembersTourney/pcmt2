@@ -40,20 +40,29 @@ const Teams: React.FC<{ event: Event }> = (props: { event: Event }) => {
 								</sup>
 							)}
 							{active === label && (
-								<svg
-									height="8"
-									width="16"
-									className={
-										'absolute bottom-0 left-1/2 -translate-x-1/2 ' +
-										(['Overview', 'Matches'].includes(
-											active
-										)
-											? 'dark:fill-vlr-gray-700 fill-vlr-gray-200'
-											: 'dark:fill-vlr-gray-800 fill-vlr-gray-300')
-									}
-								>
-									<path d="M0 8 L16 8 L8 0 Z" />
-								</svg>
+								<>
+									<svg
+										height="8"
+										width="16"
+										className={
+											'absolute -bottom-px left-1/2 -translate-x-1/2 ' +
+											(['Overview', 'Matches'].includes(
+												active
+											)
+												? 'dark:fill-vlr-gray-700 fill-vlr-gray-200'
+												: 'dark:fill-vlr-gray-800 fill-vlr-gray-300')
+										}
+									>
+										<path d="M0 8 L16 8 L8 0 Z" />
+									</svg>
+									<svg
+										height="8"
+										width="16"
+										className="dark:hidden absolute -bottom-px left-1/2 -translate-x-1/2 stroke-vlr-border-light"
+									>
+										<path d="M0 8 L8 0 L16 8" fill="none" />
+									</svg>
+								</>
 							)}
 						</button>
 					)

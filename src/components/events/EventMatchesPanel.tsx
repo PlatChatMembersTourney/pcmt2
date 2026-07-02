@@ -89,7 +89,7 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: {
 					)
 				})}
 				<button
-					className={"ml-2 bg-vlr-gray-600 rounded-sm px-2 py-1 text-xs cursor-pointer " + (reverse ? "font-bold" : "")}
+					className={"ml-2 bg-vlr-gray-100 dark:bg-vlr-gray-600 rounded-sm px-2 py-1 text-xs cursor-pointer " + (reverse ? "font-bold" : "")}
 					onClick={() => setReverse(!reverse)}
 				>
 					{reverse ? 'esreveR' : 'Reverse'}

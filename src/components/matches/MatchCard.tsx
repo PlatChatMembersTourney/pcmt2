@@ -9,13 +9,14 @@ interface MatchCardProps {
 	addlClass?: string
 }
 
+const formatter = new Intl.DateTimeFormat('en-US', {
+	timeStyle: 'short',
+})
+
 const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 	const { match, event, addlClass } = props
 
 	const date = new Date(match.date)
-	const formatter = new Intl.DateTimeFormat('en-US', {
-		timeStyle: 'short',
-	})
 
 	const team1Winner = match.completed && match.score1 > match.score2
 	return (

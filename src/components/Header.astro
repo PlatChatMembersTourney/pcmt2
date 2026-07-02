@@ -14,7 +14,7 @@ const links = [
 ---
 
 <header class="dark:bg-[#1e1e1e] bg-gray-300 text-white h-16 text-[larger] sticky top-0 z-50 w-full">
-    <div class="mx-auto flex max-w-[1260px] h-full items-stretch justify-between">
+    <div class="mx-auto flex max-w-315 h-full items-stretch justify-between">
         <!-- left group: logo + title + nav links -->
         <div class="hidden md:flex items-stretch">
             <a href="/" class="flex items-center gap-6 border-l border-neutral-200 dark:border-[#333] pl-4 pr-4">
@@ -29,8 +29,8 @@ const links = [
                     <a
                         href={link.href}
                         class={
-                            ((link.label === activePage) ? "text-neutral-500 dark:text-white " : "") +
-                            "flex items-center border-l border-neutral-200 dark:border-[#333] px-6 text-[15px] dark:text-[#aaa] text-neutral-800 transition-colors dark:hover:text-white hover:text-neutral-500"
+                            ((link.label === activePage) ? "text-black dark:text-white " : "text-neutral-600 dark:text-[#aaa] dark:hover:text-white hover:text-neutral-500 ") +
+                            "flex items-center border-l border-neutral-200 dark:border-[#333] px-6 text-[15px] transition-colors "
                         }
                     >
                         {link.label}
@@ -55,8 +55,8 @@ const links = [
                         <a
                             href={link.href}
                             class={
-                                ((link.label === activePage) ? "text-neutral-500 dark:text-white " : "") +
-                                "flex items-center py-3 px-6 text-[15px] border-b mb-0 border-neutral-200 dark:border-[#333] dark:text-[#aaa] text-neutral-800 transition-colors dark:hover:text-white hover:text-neutral-500"
+                                ((link.label === activePage) ? "text-black dark:text-white " : "text-neutral-600 dark:text-[#aaa] dark:hover:text-white hover:text-neutral-500 ") +
+                                "flex items-center py-3 px-6 text-[15px] not-last:border-b mb-0 border-neutral-200 dark:border-[#333] transition-colors"
                             }
                         >
                             {link.label}

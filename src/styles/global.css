@@ -65,6 +65,17 @@
     background: repeating-linear-gradient(-45deg, #6dc5c7 -2px, #6dc5c7 4px, #2a8a8c 4px, #2a8a8c 8px) !important
 }
 
+.cool-border-top::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+
+    background: repeating-linear-gradient(-45deg, #6dc5c7 -2px, #6dc5c7 4px, #2a8a8c 4px, #2a8a8c 8px) !important
+}
+
 .vlr-box-shadow {
     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.35);
 }
