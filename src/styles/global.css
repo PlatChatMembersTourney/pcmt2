@@ -25,9 +25,11 @@
     --color-vlr-gray-100: #fafafa;
 
     /* Text */
+    --color-vlr-text-fullwhite: #f4f4f4;
     --color-vlr-text-white: #d4d4d4;
     --color-vlr-text-light: #b4b4b4;
     --color-vlr-text-gray: #848688;
+    --color-vlr-text-dark: #444;
 
     --color-vlr-border-gray: #5b6167;
     --color-vlr-border-light: #d4d4d4;
@@ -45,6 +47,22 @@
 .text-pb {
     @apply text-plat-blue-dark;
     @apply dark:text-plat-blue;
+}
+
+.border-pb {
+    @apply border-plat-blue-dark;
+    @apply dark:border-plat-blue;
+}
+
+.cool-border::after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    top: 1px;
+    width: 3px;
+    height: calc(100% - 1px);
+
+    background: repeating-linear-gradient(-45deg, #6dc5c7 -2px, #6dc5c7 4px, #2a8a8c 4px, #2a8a8c 8px) !important
 }
 
 .vlr-box-shadow {

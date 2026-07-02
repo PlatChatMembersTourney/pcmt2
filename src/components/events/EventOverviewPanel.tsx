@@ -35,7 +35,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: {
 								setActiveStage(idx)
 							}}
 						>
-							<p className="text-[10px] uppercase text-[#888] leading-none">
+							<p className="text-[10px] uppercase text-vlr-text-gray leading-none">
 								{stage.dates}
 							</p>
 							<p

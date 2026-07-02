@@ -8,7 +8,8 @@ import s3NAMatchesRaw from "../data/s3/na/matches/matches.json";
 import s1EMEAMatchesRaw from "../data/s1/emea/matches/matches.json";
 import s2EMEAMatchesRaw from "../data/s2/emea/matches/matches.json";
 
-const matches: Record<string, Match[]> = {
+// export this so i can load static paths for each match
+export const matches: Record<string, Match[]> = {
 	"s1-na": [],
 	"s2-na": s2NAMatchesRaw as Match[],
 	"s3-na": s3NAMatchesRaw as Match[],

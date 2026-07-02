@@ -16,7 +16,7 @@ const EventCard: React.FC<EventCardProps> = props => {
 			href={'/events/' + id}
 		>
 			<div className="flex-1 h-22.5">
-				<div className="flex flex-col px-4 py-3 h-full bg-vlr-gray-200 dark:bg-vlr-gray-600">
+				<div className="flex flex-col px-4 py-3 h-full bg-vlr-gray-100 dark:bg-vlr-gray-600 hover:bg-[#f1f1f1] dark:hover:bg-vlr-gray-500">
 					<div className="flex-1 text-[14px] font-bold text-black dark:text-vlr-text-white leading-tight">
 						{name}
 					</div>

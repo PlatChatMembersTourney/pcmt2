@@ -1,12 +1,15 @@
 ---
+import MatchesPage from '../components/matches/MatchesPage'
 import Layout from '../layouts/Layout.astro'
 ---
 <Layout
 	activePage="Matches"
-	desc="erm... haych where is my thumbnail"
-	title="Matches | PCMT"
+	desc={"erm... haych where is my thumbnail"}
+	title={"Matches | PCMT"}
+	bodyClass="bg-vlr-gray-400 dark:bg-vlr-gray-900 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
+	mainClass="mx-auto w-full max-w-315 root bg-vlr-gray-300 dark:bg-vlr-gray-800 min-w-0"
 >
-	<div class="pt-6 px-6">
-		erm
+	<div class="h-full">
+		<MatchesPage client:load />
 	</div>
 </Layout>

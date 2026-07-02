@@ -40,78 +40,32 @@ const TeamsPage: React.FC = () => {
 					onValueChange={handleRegionChange}
 					className="flex-none flex relative text-[12px] text-black dark:text-vlr-text-white"
 				>
-					<Toggle aria-label="All" value="All">
-						<div
-							className={
-								(region[0] === 'All'
-									? 'bg-vlr-gray-100 dark:bg-vlr-gray-800 '
-									: '') +
-								'flex items-center justify-center transition-colors duration-200 relative h-full w-10 cursor-pointer ' +
-								'border-r border-vlr-border-light dark:border-vlr-border-gray'
-							}
-						>
-							{region[0] === 'All' && (
-								<motion.div
-									layoutId="active-pill"
-									className="absolute inset-0 border-red-400 border-b-3"
-									transition={{
-										type: 'spring',
-										stiffness: 300,
-										damping: 30,
-									}}
-								/>
-							)}
-							<span>All</span>
-						</div>
-					</Toggle>
-					<Toggle aria-label="NA" value="NA">
-						<div
-							className={
-								(region[0] === 'NA'
-									? 'bg-vlr-gray-100 dark:bg-vlr-gray-800 '
-									: '') +
-								'flex items-center justify-center transition-colors duration-200 relative h-full w-10 cursor-pointer ' +
-								'border-r border-vlr-border-light dark:border-vlr-border-gray'
-							}
-						>
-							{region[0] === 'NA' && (
-								<motion.div
-									layoutId="active-pill"
-									className="absolute inset-0 border-red-400 border-b-3"
-									transition={{
-										type: 'spring',
-										stiffness: 300,
-										damping: 30,
-									}}
-								/>
-							)}
-							<span>NA</span>
-						</div>
-					</Toggle>
-					<Toggle aria-label="EMEA" value="EMEA">
-						<div
-							className={
-								(region[0] === 'EMEA'
-									? 'bg-vlr-gray-100 dark:bg-vlr-gray-800 '
-									: '') +
-								'flex items-center justify-center transition-colors duration-200 relative h-full w-14 cursor-pointer ' +
-								'border-r border-vlr-border-light dark:border-vlr-border-gray'
-							}
-						>
-							{region[0] === 'EMEA' && (
-								<motion.div
-									layoutId="active-pill"
-									className="absolute inset-0 border-red-400 border-b-3"
-									transition={{
-										type: 'spring',
-										stiffness: 300,
-										damping: 30,
-									}}
-								/>
-							)}
-							<span>EMEA</span>
-						</div>
-					</Toggle>
+					{['All', 'NA', 'EMEA'].map((item) => (
+						<Toggle aria-label={item} value={item} key={item}>
+							<div
+								className={
+									(region[0] === item
+										? 'bg-vlr-gray-100 dark:bg-vlr-gray-800 '
+										: '') +
+									'flex items-center justify-center transition-colors duration-200 relative h-full px-3 cursor-pointer ' +
+									'border-r border-vlr-border-light dark:border-vlr-border-gray'
+								}
+							>
+								{region[0] === item && (
+									<motion.div
+										layoutId="active-pill"
+										className="absolute inset-0 border-red-400 border-b-3"
+										transition={{
+											type: 'spring',
+											stiffness: 300,
+											damping: 30,
+										}}
+									/>
+								)}
+								<span>{item}</span>
+							</div>
+						</Toggle>
+					))}
 				</ToggleGroup>
 			</div>
 			<p className="ml-5 mt-5 mb-4 uppercase text-[11px] font-bold text-black dark:text-red-400 leading-none">
