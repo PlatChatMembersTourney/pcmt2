@@ -1,0 +1,1314 @@
+{
+  "Ascent": {
+    "mapsPlayed": 12,
+    "atkPct": 0.486,
+    "defPct": 0.514,
+    "agents": [
+      {
+        "agent": "Omen",
+        "comps": 12,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Jett",
+        "comps": 11,
+        "pickPct": 0.458
+      },
+      {
+        "agent": "Sova",
+        "comps": 11,
+        "pickPct": 0.458
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 9,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 6,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Vyse",
+        "comps": 4,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Cypher",
+        "comps": 3,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Clove",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "KAY/O",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Waylay",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.042
+      },
+      {
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.042
+      }
+    ],
+    "teams": {
+      "100T": {
+        "team": "100T",
+        "teamName": "100 Tony's",
+        "agents": [
+          "Cypher",
+          "Jett",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "BAKA": {
+        "team": "BAKA",
+        "teamName": "Beautiful and Kinda Adorable",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Jett",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Vyse"
+        ]
+      },
+      "C9": {
+        "team": "C9",
+        "teamName": "Clown9",
+        "agents": [
+          "Chamber",
+          "Clove",
+          "Jett",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Vyse"
+        ]
+      },
+      "DFM": {
+        "team": "DFM",
+        "teamName": "Dementia Found Me",
+        "agents": [
+          "Jett",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Vyse"
+        ]
+      },
+      "EPY": {
+        "team": "EPY",
+        "teamName": "Team Entropy",
+        "agents": [
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "FNC": {
+        "team": "FNC",
+        "teamName": "cow paulo FaN Club",
+        "agents": [
+          "Chamber",
+          "Clove",
+          "Jett",
+          "Sage",
+          "Sova"
+        ]
+      },
+      "FSG": {
+        "team": "FSG",
+        "teamName": "Furry Squirrels Gaming",
+        "agents": [
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Skye",
+          "Sova"
+        ]
+      },
+      "IHOP": {
+        "team": "IHOP",
+        "teamName": "I Hate Odin Party",
+        "agents": [
+          "Killjoy",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Waylay"
+        ]
+      },
+      "SPG": {
+        "team": "SPG",
+        "teamName": "Spank Ptheory Gaming",
+        "agents": [
+          "Jett",
+          "KAY/O",
+          "Killjoy",
+          "Omen",
+          "Sova"
+        ]
+      },
+      "SRB": {
+        "team": "SRB",
+        "teamName": "Sunshine and Rainbows",
+        "agents": [
+          "Jett",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Vyse"
+        ]
+      },
+      "SSG": {
+        "team": "SSG",
+        "teamName": "Squirtle Squad Gaming",
+        "agents": [
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "T1": {
+        "team": "T1",
+        "teamName": "Team 1",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Jett",
+          "KAY/O",
+          "Omen"
+        ]
+      },
+      "TL": {
+        "team": "TL",
+        "teamName": "Team Dyslexia",
+        "agents": [
+          "Killjoy",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Waylay"
+        ]
+      }
+    }
+  },
+  "Breeze": {
+    "mapsPlayed": 2,
+    "atkPct": 0.606,
+    "defPct": 0.394,
+    "agents": [
+      {
+        "agent": "Sova",
+        "comps": 4,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Jett",
+        "comps": 4,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Viper",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Harbor",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Reyna",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Iso",
+        "comps": 1,
+        "pickPct": 0.25
+      }
+    ],
+    "teams": {
+      "BAKA": {
+        "team": "BAKA",
+        "teamName": "Beautiful and Kinda Adorable",
+        "agents": [
+          "Jett",
+          "Omen",
+          "Reyna",
+          "Sova",
+          "Viper"
+        ]
+      },
+      "DFM": {
+        "team": "DFM",
+        "teamName": "Dementia Found Me",
+        "agents": [
+          "Harbor",
+          "Jett",
+          "Sova",
+          "Viper",
+          "Yoru"
+        ]
+      },
+      "NAVI": {
+        "team": "NAVI",
+        "teamName": "No Actual Valorant Intelligence",
+        "agents": [
+          "Astra",
+          "Cypher",
+          "Harbor",
+          "Jett",
+          "Sova"
+        ]
+      },
+      "TS": {
+        "team": "TS",
+        "teamName": "Team Slugshow",
+        "agents": [
+          "Astra",
+          "Iso",
+          "Jett",
+          "Sova",
+          "Viper"
+        ]
+      }
+    }
+  },
+  "Fracture": {
+    "mapsPlayed": 4,
+    "atkPct": 0.553,
+    "defPct": 0.447,
+    "agents": [
+      {
+        "agent": "Brimstone",
+        "comps": 6,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Raze",
+        "comps": 6,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Cypher",
+        "comps": 5,
+        "pickPct": 0.625
+      },
+      {
+        "agent": "Skye",
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Breach",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Tejo",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.125
+      }
+    ],
+    "teams": {
+      "C9": {
+        "team": "C9",
+        "teamName": "Clown9",
+        "agents": [
+          "Brimstone",
+          "Cypher",
+          "Fade",
+          "Jett",
+          "Raze"
+        ]
+      },
+      "DFM": {
+        "team": "DFM",
+        "teamName": "Dementia Found Me",
+        "agents": [
+          "Breach",
+          "Brimstone",
+          "Cypher",
+          "Raze",
+          "Waylay"
+        ]
+      },
+      "NAVI": {
+        "team": "NAVI",
+        "teamName": "No Actual Valorant Intelligence",
+        "agents": [
+          "Brimstone",
+          "Cypher",
+          "Raze",
+          "Skye",
+          "Sova"
+        ]
+      },
+      "SPG": {
+        "team": "SPG",
+        "teamName": "Spank Ptheory Gaming",
+        "agents": [
+          "Breach",
+          "Brimstone",
+          "Chamber",
+          "Neon",
+          "Tejo"
+        ]
+      },
+      "SRB": {
+        "team": "SRB",
+        "teamName": "Sunshine and Rainbows",
+        "agents": [
+          "Brimstone",
+          "Cypher",
+          "Neon",
+          "Raze",
+          "Skye"
+        ]
+      },
+      "SSG": {
+        "team": "SSG",
+        "teamName": "Squirtle Squad Gaming",
+        "agents": [
+          "Brimstone",
+          "Chamber",
+          "Phoenix",
+          "Raze",
+          "Skye"
+        ]
+      },
+      "T1": {
+        "team": "T1",
+        "teamName": "Team 1",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Omen",
+          "Phoenix",
+          "Raze"
+        ]
+      }
+    }
+  },
+  "Haven": {
+    "mapsPlayed": 9,
+    "atkPct": 0.443,
+    "defPct": 0.557,
+    "agents": [
+      {
+        "agent": "Sova",
+        "comps": 12,
+        "pickPct": 0.667
+      },
+      {
+        "agent": "Omen",
+        "comps": 11,
+        "pickPct": 0.611
+      },
+      {
+        "agent": "Jett",
+        "comps": 9,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 8,
+        "pickPct": 0.444
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 7,
+        "pickPct": 0.389
+      },
+      {
+        "agent": "Waylay",
+        "comps": 3,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 3,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Vyse",
+        "comps": 3,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.111
+      },
+      {
+        "agent": "Clove",
+        "comps": 2,
+        "pickPct": 0.111
+      },
+      {
+        "agent": "Viper",
+        "comps": 2,
+        "pickPct": 0.111
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.111
+      },
+      {
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.056
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.056
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.056
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.056
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.056
+      }
+    ],
+    "teams": {
+      "BAKA": {
+        "team": "BAKA",
+        "teamName": "Beautiful and Kinda Adorable",
+        "agents": [
+          "Cypher",
+          "Jett",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "C9": {
+        "team": "C9",
+        "teamName": "Clown9",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Jett",
+          "Sova",
+          "Viper"
+        ]
+      },
+      "FNC": {
+        "team": "FNC",
+        "teamName": "cow paulo FaN Club",
+        "agents": [
+          "Breach",
+          "Chamber",
+          "Clove",
+          "Cypher",
+          "Jett",
+          "Omen",
+          "Sage",
+          "Sova",
+          "Yoru"
+        ]
+      },
+      "FSG": {
+        "team": "FSG",
+        "teamName": "Furry Squirrels Gaming",
+        "agents": [
+          "Cypher",
+          "Jett",
+          "Omen",
+          "Skye",
+          "Sova"
+        ]
+      },
+      "IHOP": {
+        "team": "IHOP",
+        "teamName": "I Hate Odin Party",
+        "agents": [
+          "Killjoy",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Vyse",
+          "Waylay"
+        ]
+      },
+      "NAVI": {
+        "team": "NAVI",
+        "teamName": "No Actual Valorant Intelligence",
+        "agents": [
+          "Cypher",
+          "Jett",
+          "Omen",
+          "Sova",
+          "Waylay"
+        ]
+      },
+      "RRQ": {
+        "team": "RRQ",
+        "teamName": "Rage Re-Queuers",
+        "agents": [
+          "Cypher",
+          "Neon",
+          "Omen",
+          "Sova",
+          "Viper"
+        ]
+      },
+      "SPG": {
+        "team": "SPG",
+        "teamName": "Spank Ptheory Gaming",
+        "agents": [
+          "Chamber",
+          "Jett",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "SRB": {
+        "team": "SRB",
+        "teamName": "Sunshine and Rainbows",
+        "agents": [
+          "Cypher",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "SSG": {
+        "team": "SSG",
+        "teamName": "Squirtle Squad Gaming",
+        "agents": [
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "T1": {
+        "team": "T1",
+        "teamName": "Team 1",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Jett",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Vyse"
+        ]
+      },
+      "TL": {
+        "team": "TL",
+        "teamName": "Team Dyslexia",
+        "agents": [
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Vyse",
+          "Waylay"
+        ]
+      }
+    }
+  },
+  "Lotus": {
+    "mapsPlayed": 12,
+    "atkPct": 0.524,
+    "defPct": 0.476,
+    "agents": [
+      {
+        "agent": "Fade",
+        "comps": 14,
+        "pickPct": 0.583
+      },
+      {
+        "agent": "Raze",
+        "comps": 14,
+        "pickPct": 0.583
+      },
+      {
+        "agent": "Omen",
+        "comps": 12,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 8,
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Chamber",
+        "comps": 7,
+        "pickPct": 0.292
+      },
+      {
+        "agent": "Viper",
+        "comps": 5,
+        "pickPct": 0.208
+      },
+      {
+        "agent": "Clove",
+        "comps": 3,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Neon",
+        "comps": 3,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Tejo",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Waylay",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Yoru",
+        "comps": 2,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.042
+      },
+      {
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.042
+      }
+    ],
+    "teams": {
+      "BAKA": {
+        "team": "BAKA",
+        "teamName": "Beautiful and Kinda Adorable",
+        "agents": [
+          "Fade",
+          "Omen",
+          "Raze",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "C9": {
+        "team": "C9",
+        "teamName": "Clown9",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Jett",
+          "Omen",
+          "Raze",
+          "Vyse"
+        ]
+      },
+      "DFM": {
+        "team": "DFM",
+        "teamName": "Dementia Found Me",
+        "agents": [
+          "Fade",
+          "Omen",
+          "Raze",
+          "Vyse",
+          "Waylay",
+          "Yoru"
+        ]
+      },
+      "EPY": {
+        "team": "EPY",
+        "teamName": "Team Entropy",
+        "agents": [
+          "Fade",
+          "Omen",
+          "Raze",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "FNC": {
+        "team": "FNC",
+        "teamName": "cow paulo FaN Club",
+        "agents": [
+          "Chamber",
+          "Clove",
+          "Fade",
+          "Raze",
+          "Yoru"
+        ]
+      },
+      "FSG": {
+        "team": "FSG",
+        "teamName": "Furry Squirrels Gaming",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Raze",
+          "Skye",
+          "Vyse"
+        ]
+      },
+      "IHOP": {
+        "team": "IHOP",
+        "teamName": "I Hate Odin Party",
+        "agents": [
+          "Fade",
+          "Killjoy",
+          "Omen",
+          "Raze",
+          "Waylay"
+        ]
+      },
+      "NAVI": {
+        "team": "NAVI",
+        "teamName": "No Actual Valorant Intelligence",
+        "agents": [
+          "Chamber",
+          "Clove",
+          "Fade",
+          "Omen",
+          "Raze",
+          "Tejo",
+          "Viper"
+        ]
+      },
+      "RRQ": {
+        "team": "RRQ",
+        "teamName": "Rage Re-Queuers",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Omen",
+          "Raze",
+          "Viper"
+        ]
+      },
+      "SPG": {
+        "team": "SPG",
+        "teamName": "Spank Ptheory Gaming",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Omen",
+          "Raze",
+          "Viper"
+        ]
+      },
+      "SRB": {
+        "team": "SRB",
+        "teamName": "Sunshine and Rainbows",
+        "agents": [
+          "Fade",
+          "Neon",
+          "Omen",
+          "Raze",
+          "Vyse"
+        ]
+      },
+      "SSG": {
+        "team": "SSG",
+        "teamName": "Squirtle Squad Gaming",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Phoenix",
+          "Raze"
+        ]
+      },
+      "T1": {
+        "team": "T1",
+        "teamName": "Team 1",
+        "agents": [
+          "Fade",
+          "Jett",
+          "Omen",
+          "Raze",
+          "Vyse"
+        ]
+      },
+      "TL": {
+        "team": "TL",
+        "teamName": "Team Dyslexia",
+        "agents": [
+          "Clove",
+          "Fade",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Raze",
+          "Tejo",
+          "Vyse"
+        ]
+      }
+    }
+  },
+  "Pearl": {
+    "mapsPlayed": 11,
+    "atkPct": 0.551,
+    "defPct": 0.449,
+    "agents": [
+      {
+        "agent": "Phoenix",
+        "comps": 15,
+        "pickPct": 0.682
+      },
+      {
+        "agent": "Astra",
+        "comps": 13,
+        "pickPct": 0.591
+      },
+      {
+        "agent": "Fade",
+        "comps": 13,
+        "pickPct": 0.591
+      },
+      {
+        "agent": "Jett",
+        "comps": 10,
+        "pickPct": 0.455
+      },
+      {
+        "agent": "Chamber",
+        "comps": 8,
+        "pickPct": 0.364
+      },
+      {
+        "agent": "Vyse",
+        "comps": 6,
+        "pickPct": 0.273
+      },
+      {
+        "agent": "Sova",
+        "comps": 4,
+        "pickPct": 0.182
+      },
+      {
+        "agent": "Neon",
+        "comps": 3,
+        "pickPct": 0.136
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 3,
+        "pickPct": 0.136
+      },
+      {
+        "agent": "Waylay",
+        "comps": 2,
+        "pickPct": 0.091
+      },
+      {
+        "agent": "Clove",
+        "comps": 2,
+        "pickPct": 0.091
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.045
+      },
+      {
+        "agent": "Brimstone",
+        "comps": 1,
+        "pickPct": 0.045
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.045
+      }
+    ],
+    "teams": {
+      "100T": {
+        "team": "100T",
+        "teamName": "100 Tony's",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Jett",
+          "Phoenix"
+        ]
+      },
+      "BAKA": {
+        "team": "BAKA",
+        "teamName": "Beautiful and Kinda Adorable",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Clove",
+          "Fade",
+          "Jett",
+          "Phoenix"
+        ]
+      },
+      "DFM": {
+        "team": "DFM",
+        "teamName": "Dementia Found Me",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Phoenix",
+          "Sova",
+          "Vyse",
+          "Waylay"
+        ]
+      },
+      "EPY": {
+        "team": "EPY",
+        "teamName": "Team Entropy",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Neon",
+          "Phoenix",
+          "Vyse"
+        ]
+      },
+      "FNC": {
+        "team": "FNC",
+        "teamName": "cow paulo FaN Club",
+        "agents": [
+          "Clove",
+          "Fade",
+          "Jett",
+          "Killjoy",
+          "Phoenix"
+        ]
+      },
+      "FSG": {
+        "team": "FSG",
+        "teamName": "Furry Squirrels Gaming",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Jett",
+          "Killjoy",
+          "Phoenix"
+        ]
+      },
+      "IHOP": {
+        "team": "IHOP",
+        "teamName": "I Hate Odin Party",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Jett",
+          "Phoenix",
+          "Vyse"
+        ]
+      },
+      "NAVI": {
+        "team": "NAVI",
+        "teamName": "No Actual Valorant Intelligence",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Jett",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "RRQ": {
+        "team": "RRQ",
+        "teamName": "Rage Re-Queuers",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Neon",
+          "Phoenix"
+        ]
+      },
+      "SPG": {
+        "team": "SPG",
+        "teamName": "Spank Ptheory Gaming",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Jett",
+          "Phoenix"
+        ]
+      },
+      "SRB": {
+        "team": "SRB",
+        "teamName": "Sunshine and Rainbows",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Neon",
+          "Phoenix",
+          "Vyse"
+        ]
+      },
+      "SSG": {
+        "team": "SSG",
+        "teamName": "Squirtle Squad Gaming",
+        "agents": [
+          "Astra",
+          "Jett",
+          "Phoenix",
+          "Sova",
+          "Vyse"
+        ]
+      },
+      "T1": {
+        "team": "T1",
+        "teamName": "Team 1",
+        "agents": [
+          "Brimstone",
+          "Chamber",
+          "Cypher",
+          "Fade",
+          "Jett",
+          "Phoenix",
+          "Sova",
+          "Vyse"
+        ]
+      },
+      "TL": {
+        "team": "TL",
+        "teamName": "Team Dyslexia",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Omen",
+          "Phoenix",
+          "Waylay"
+        ]
+      },
+      "TS": {
+        "team": "TS",
+        "teamName": "Team Slugshow",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Jett",
+          "Killjoy",
+          "Phoenix"
+        ]
+      }
+    }
+  },
+  "Split": {
+    "mapsPlayed": 2,
+    "atkPct": 0.5,
+    "defPct": 0.5,
+    "agents": [
+      {
+        "agent": "Raze",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Omen",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Viper",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Skye",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.25
+      }
+    ],
+    "teams": {
+      "100T": {
+        "team": "100T",
+        "teamName": "100 Tony's",
+        "agents": [
+          "Fade",
+          "Neon",
+          "Omen",
+          "Raze",
+          "Vyse"
+        ]
+      },
+      "SPG": {
+        "team": "SPG",
+        "teamName": "Spank Ptheory Gaming",
+        "agents": [
+          "Omen",
+          "Raze",
+          "Sage",
+          "Skye",
+          "Viper"
+        ]
+      },
+      "SRB": {
+        "team": "SRB",
+        "teamName": "Sunshine and Rainbows",
+        "agents": [
+          "Neon",
+          "Omen",
+          "Raze",
+          "Skye",
+          "Viper"
+        ]
+      }
+    }
+  }
+}
