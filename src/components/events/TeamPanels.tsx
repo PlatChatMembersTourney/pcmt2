@@ -114,7 +114,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 					<div className="flex flex-col p-4 gap-2 vlr-box-shadow dark:text-vlr-text-white text-vlr-text-dark">
 						{team.players.map((player) => {
 							return (
-								<p className="text-sm">
+								<p className="text-sm" key={player}>
 									{team.name !== 'Team Dyslexia'
 										? player
 										: [...player]
