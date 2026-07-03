@@ -47,7 +47,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 						<div key={"Team " + idx} className="flex w-60 whitespace-nowrap gap-1.75 items-center h-5 text-xs font-medium dark:text-vlr-text-white text-vlr-text-dark">
 							<div className="flex-none flex items-center">
 								<div className="w-3 mr-0.5 flex items-center">
-									{winner && (
+									{winner && match.completed && (
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											height="16px"
