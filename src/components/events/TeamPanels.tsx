@@ -111,7 +111,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 					<h2 className="text-red-400 uppercase font-bold text-[11px] ml-4 mb-3 leading-none">
 						Current Roster
 					</h2>
-					<div className="flex flex-col p-4 gap-2 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-200 dark:text-vlr-text-white text-vlr-text-dark">
+					<div className="flex flex-col p-4 gap-2 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 dark:text-vlr-text-white text-vlr-text-dark">
 						{team.players.map((player) => {
 							return (
 								<p className="text-sm" key={player}>
