@@ -23,6 +23,15 @@ const Timeline: React.FC<TimelineProps> = (props) => {
 		}
 	}
 
+	// overtimes
+	if(newRounds.length > 24) {
+		newRounds.splice(24, 0, {
+			round: -1,
+			winner: 1,
+			side: 'atk',
+		})
+	}
+
 	newRounds.splice(12, 0, {
 		round: -1,
 		winner: 1,
@@ -52,7 +61,7 @@ const Timeline: React.FC<TimelineProps> = (props) => {
 			{newRounds.map((round, index) => {
 				if (round.round === -1) {
 					// return a spacer between the halves
-					return <div className="w-5" key="spacer" />
+					return <div className="w-5 min-w-5" key="spacer" />
 				}
 
 				return (

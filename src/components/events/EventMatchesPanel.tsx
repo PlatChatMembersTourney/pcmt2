@@ -37,8 +37,6 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: {
 	const format =
 		activeStage === 0 ? undefined : event.stages[activeStage - 1].format
 
-	console.log(format)
-
 	const filteredMatches: Match[] =
 		activeStage === 0
 			? matches

@@ -58,7 +58,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 			header: 'Player',
 		}),
 		columnHelper.group({
-			header: 'Player Info',
+			header: 'Info',
 			columns: playerInfoColumns,
 		}),
 		columnHelper.group({
@@ -181,9 +181,10 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	const isGroupBoundary = (
 		column: Column<PlayerStatsWithEventId, unknown>
 	) => {
-		if (column.id === lastLeafId) return false // no border after final column
+		// no border on anything that ends at the table's right edge
+		if (column.getLeafColumns().at(-1)?.id === lastLeafId) return false
 		const parent = column.parent
-		if (!parent) return true // top-level (group headers, ungrouped cols like K)
+		if (!parent) return true
 		const leaves = parent.getLeafColumns()
 		return leaves.at(-1)?.id === column.id
 	}
