@@ -22,13 +22,14 @@ export const matches: Record<string, Match[]> = {
 import s2NAStandingsRaw from "../data/s2/na/standings.json";
 import s3NAStandingsRaw from "../data/s3/na/standings.json";
 import s1EMEAStandingsRaw from "../data/s1/emea/standings.json";
+import s2EMEAStandingsRaw from '../data/s2/emea/standings.json';
 
 const standings: Record<string, Record<string, Standing[]>> = {
 	's1-na': {},
 	's2-na': s2NAStandingsRaw as Record<string, Standing[]>,
 	's3-na': s3NAStandingsRaw as Record<string, Standing[]>,
 	's1-emea': s1EMEAStandingsRaw as Record<string, Standing[]>,
-	's2-emea': {}
+	's2-emea': s2EMEAStandingsRaw as Record<string, Standing[]>,
 }
 
 // load teams data for all seasons

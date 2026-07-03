@@ -2,28 +2,26 @@ import type { Standing, TeamInfo, Event } from '../../types/types.ts'
 import slugify from 'slugify'
 
 interface GroupStandingsBoxProps {
-	standings: Standing[];
+	standings: Standing[]
 	teamColors: {
 		number: number
 		color: string
-	}[];
-	name: string;
-	region: string;
-	teams: Record<string, TeamInfo>;
-	event: Event;
+	}[]
+	name: string
+	region: string
+	teams: Record<string, TeamInfo>
+	event: Event
 }
 
-const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
-	const {
-		standings, teamColors, name, region, teams, event
-	} = props;
+const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
+	const { standings, teamColors, name, region, teams, event } = props
 
 	// convert teamColors into an array of colors
-	const colors: string[] = [];
+	const colors: string[] = []
 	for (let i = 0; i < teamColors.length; i++) {
-		const color = teamColors[i].color;
-		for(let j = 0; j < teamColors[i].number; j++) {
-			colors.push(color);
+		const color = teamColors[i].color
+		for (let j = 0; j < teamColors[i].number; j++) {
+			colors.push(color)
 		}
 	}
 
@@ -39,9 +37,7 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 				<th className="font-normal uppercase px-3">REC</th>
 				<th className="font-normal uppercase px-3">MAP</th>
 				<th className="font-normal uppercase px-3">RND</th>
-				<th className="font-normal uppercase px-3">
-					Δ
-				</th>
+				<th className="font-normal uppercase px-3">Δ</th>
 			</thead>
 
 			<tbody className="text-[11px] text-[#888] dark:text-vlr-text-white bg-vlr-gray-100 dark:bg-vlr-gray-600">
@@ -71,7 +67,10 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 										/>
 									</div>
 									<div className="flex-col overflow-hidden min-w-0">
-										<a href={`/events/${event.id}/teams/${slugify(standing.name)}`} className="overflow-hidden text-ellipsis whitespace-nowrap text-pb text-xs font-bold min-w-0">
+										<a
+											href={`/events/${event.id}/teams/${slugify(standing.name)}`}
+											className="overflow-hidden text-ellipsis whitespace-nowrap text-pb text-xs font-bold min-w-0"
+										>
 											{standing.name}
 										</a>
 										<p className="text-nowrap uppercase text-[10px] font-normal">
@@ -112,12 +111,14 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 							<td
 								className={
 									'text-center px-3 ' +
-									(standing.rndDiff >= 0
+									(standing.rndDiff > 0
 										? ' text-green-500 dark:text-green-300'
-										: 'text-red-500 dark:text-red-300')
+										: standing.rndDiff < 0
+											? 'text-red-500 dark:text-red-300'
+											: '')
 								}
 							>
-								{standing.rndDiff >= 0 ? '+' : ''}
+								{standing.rndDiff > 0 ? '+' : ''}
 								{standing.rndDiff}
 							</td>
 						</tr>
@@ -128,4 +129,4 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 	)
 }
 
-export default GroupStandingsBox;
+export default GroupStandingsBox
