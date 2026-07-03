@@ -39,9 +39,6 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	const columnHelper = createColumnHelper<PlayerStatsWithEventId>()
 
 	const playerInfoColumns: ColumnDef<PlayerStatsWithEventId, string>[] = [
-		columnHelper.accessor('Player', {
-			header: 'Player',
-		}),
 		columnHelper.accessor('Team', {
 			header: 'Team',
 		}),
@@ -57,6 +54,9 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 		)
 	}
 	const columns = [
+		columnHelper.accessor('Player', {
+			header: 'Player',
+		}),
 		columnHelper.group({
 			header: 'Player Info',
 			columns: playerInfoColumns,
@@ -144,9 +144,9 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				columnHelper.accessor('FDPR', {
 					header: 'FDPR',
 				}),
-				columnHelper.accessor(row => (row.FK - row.FD), {
+				columnHelper.accessor((row) => row.FK - row.FD, {
 					header: '+/-',
-				})
+				}),
 			],
 		}),
 		columnHelper.group({
@@ -160,7 +160,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				),
 				columnHelper.accessor('KMAX', {
 					header: 'KMAX',
-				})
+				}),
 			],
 		}),
 	]
@@ -190,7 +190,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 
 	return (
 		<div className="text-base dark:text-vlr-text-white text-vlr-text-dark vlr-box-shadow overflow-x-auto">
-			<table>
+			<table className="border-separate border-spacing-0">
 				<thead>
 					{table.getHeaderGroups().map((headerGroup, groupIdx) => (
 						<tr
@@ -200,21 +200,25 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 							{groupIdx === 0 && (
 								<th
 									rowSpan={table.getHeaderGroups().length}
-									className="align-bottom border-r vlr-border"
+									className="align-bottom border-r vlr-border sticky left-0 z-20 w-12 bg-gray-100 dark:bg-vlr-gray-900"
 								>
 									#
 								</th>
 							)}
 							{headerGroup.headers.map((header) => {
+								const stickyClass = (columnId: string) =>
+									columnId === 'Player'
+										? 'sticky left-12 z-20 bg-gray-100 dark:bg-vlr-gray-900'
+										: ''
 								return (
 									<th
 										key={header.id}
 										colSpan={header.colSpan}
-										className={
+										className={`${
 											isGroupBoundary(header.column)
 												? 'border-r vlr-border'
 												: ''
-										}
+										} ${stickyClass(header.column.id)}`}
 									>
 										{header.isPlaceholder ? null : (
 											<div
@@ -259,9 +263,9 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 					{table.getRowModel().rows.map((row, idx) => (
 						<tr
 							key={row.id}
-							className="odd:dark:bg-vlr-gray-600 even:dark:bg-vlr-gray-700 odd:bg-vlr-gray-100 even:bg-vlr-gray-200"
+							className="group odd:dark:bg-vlr-gray-600 even:dark:bg-vlr-gray-700 odd:bg-vlr-gray-100 even:bg-vlr-gray-200"
 						>
-							<td className="px-2.5 py-1 border-r vlr-border">
+							<td className="px-2.5 py-1 border-r vlr-border sticky left-0 z-10 w-12 group-odd:bg-vlr-gray-100 group-even:bg-vlr-gray-200 group-odd:dark:bg-vlr-gray-600 group-even:dark:bg-vlr-gray-700">
 								{idx + 1}
 							</td>
 							{row.getVisibleCells().map((cell) => (
@@ -269,7 +273,11 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 									key={cell.id}
 									className={`px-2.5 py-1 whitespace-nowrap ${
 										isGroupBoundary(cell.column)
-											? ' border-r vlr-border'
+											? 'border-r vlr-border'
+											: ''
+									} ${
+										cell.column.id === 'Player'
+											? 'sticky left-12 z-10 group-odd:bg-vlr-gray-100 group-even:bg-vlr-gray-200 group-odd:dark:bg-vlr-gray-600 group-even:dark:bg-vlr-gray-700'
 											: ''
 									}`}
 								>
