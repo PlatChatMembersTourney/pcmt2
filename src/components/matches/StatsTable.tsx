@@ -17,9 +17,9 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 	const { agents, teamStats, rounds, event } = props
 	return (
 		<div className="flex flex-col gap-4">
-			{teamStats.map((team) => {
+			{teamStats.map((team, i) => {
 				return (
-					<div className="overflow-x-auto pb-2">
+					<div className="overflow-x-auto pb-2" key={i}>
 						<table>
 							<thead>
 								<tr className="font-bold text-[11px] px-0.75 text-vlr-text-gray dark:text-vlr-text-white">
