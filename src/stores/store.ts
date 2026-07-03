@@ -1,5 +1,5 @@
 import {atom, map} from 'nanostores';
-import type { Match, Standing, TeamInfo } from '../types/types.ts'
+import type { Match, PlayerStats, Standing, TeamInfo } from '../types/types.ts'
 
 // load match data for all seasons
 
@@ -47,8 +47,33 @@ const teams: Record<string, Record<string, TeamInfo>> = {
 	's2-emea': s2EMEATeamsRaw as Record<string, TeamInfo>
 }
 
+// load stats for all teams
+
+import s2NAPlayerStatsRaw from "../data/s2/na/player-stats.json"
+import s3NAPlayerStatsRaw from "../data/s3/na/player-stats.json"
+import s1EMEAPlayerStatsRaw from "../data/s1/emea/player-stats.json"
+import s2EMEAPlayerStatsRaw from "../data/s2/emea/player-stats.json"
+
+const playerStats: Record<string, Record<string, PlayerStats[]>> = {
+	's1-na': {},
+	's2-na': s2NAPlayerStatsRaw as Record<string, PlayerStats[]>,
+	's3-na': s3NAPlayerStatsRaw as Record<string, PlayerStats[]>,
+	's1-emea': s1EMEAPlayerStatsRaw as Record<string, PlayerStats[]>,
+	's2-emea': s2EMEAPlayerStatsRaw as Record<string, PlayerStats[]>
+}
+
 export const $matches = atom<Record<string, Match[]>>(matches);
 
 export const $standings = atom<Record<string, Record<string, Standing[]>>>(standings);
 
-export const $teams = atom < Record<string, Record<string, TeamInfo>>>(teams);
+export const $teams = atom<Record<string, Record<string, TeamInfo>>>(teams);
+
+export const $playerStats = atom<Record<string, Record<string, PlayerStats[]>>>(playerStats);
+
+// flatten player stats
+
+const allPlayerStats: Record<string, PlayerStats[]> = Object.fromEntries(Object.entries(playerStats).map(([region, stats]) => {
+	return [region, 'Overall' in stats ? stats['Overall'] : []];
+}));
+
+export const $allPlayerStats = atom<Record<string, PlayerStats[]>>(allPlayerStats);

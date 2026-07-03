@@ -1,6 +1,9 @@
-import type { Match, Event } from '../../types/types.ts'
+import type { Match, Event, TeamInfo } from '../../types/types.ts'
 import { useState } from 'react'
 import StatsTable from './StatsTable.tsx'
+import Timeline from './Timeline.tsx'
+import { useStore } from '@nanostores/react'
+import { $teams } from '../../stores/store.ts'
 
 interface MatchStatsBoxProps {
 	match: Match
@@ -8,7 +11,8 @@ interface MatchStatsBoxProps {
 }
 
 const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
-	const { match, event } = props
+	const { match, event } = props;
+	const teams: Record<string, TeamInfo> = useStore($teams)[event.id];
 
 	if(!match.completed) {
 		return (
@@ -52,11 +56,9 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 		})
 	})
 
-	console.log(agents)
-
 	return (
 		<div className="flex flex-col bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow">
-			<div className="flex gap-1 h-18.5 items-center overflow-x-auto p-3 vlr-border border-b">
+			<div className="flex gap-3 h-18.5 items-center overflow-x-auto p-3 vlr-border border-b">
 				{[{ name: 'All' }, ...match.maps].map(({ name }, idx) => {
 					return (
 						<button
@@ -71,7 +73,10 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 						>
 							<p className={idx === 0 ? '' : ' mb-0.5'}>
 								{name !== 'All' && (
-									<span style={{ verticalAlign: '4px' }} className="mr-1">
+									<span
+										style={{ verticalAlign: '4px' }}
+										className="mr-1"
+									>
 										{idx}
 									</span>
 								)}
@@ -81,7 +86,62 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 					)
 				})}
 			</div>
-			<div className="p-4 sm:p-5">
+			<div className="p-4 sm:p-5 flex-col items-center">
+				{selectedMap !== 0 && (
+					<>
+						<div className="mb-5 grid w-full grid-cols-[1fr_auto_1fr] items-center">
+							<div className="flex gap-3">
+								<p
+									className={
+										'text-4xl font-normal leading-none ' +
+										(match.maps[selectedMap - 1].score1 >
+										match.maps[selectedMap - 1].score2
+											? 'text-green-600 dark:text-green-400'
+											: 'text-vlr-text-dark dark:text-vlr-text-white')
+									}
+								>
+									{match.maps[selectedMap - 1].score1}
+								</p>
+								<div className="flex flex-col h-9 justify-center">
+									<p className="text-vlr-text-dark dark:text-vlr-text-white font-medium text-xs">
+										{match.team1Name}
+									</p>
+								</div>
+							</div>
+							<h2 className="font-bold leading-none text-xl text-vlr-text-dark dark:text-vlr-text-white">
+								{match.maps[selectedMap - 1].name}
+							</h2>
+							<div className="flex gap-3 ml-auto">
+								<div className="flex flex-col h-9 justify-center items-end">
+									<p className="text-vlr-text-dark dark:text-vlr-text-white font-medium text-xs text-right">
+										{match.team2Name}
+									</p>
+								</div>
+								<p
+									className={
+										'text-4xl font-normal leading-none ' +
+										(match.maps[selectedMap - 1].score1 <
+										match.maps[selectedMap - 1].score2
+											? 'text-green-600 dark:text-green-400'
+											: 'text-vlr-text-dark dark:text-vlr-text-white')
+									}
+								>
+									{match.maps[selectedMap - 1].score2}
+								</p>
+							</div>
+						</div>
+						<div className="mb-5">
+							<Timeline
+								rounds={
+									match.mapDetails[selectedMap - 1].rounds
+								}
+								team1={teams[match.team1]}
+								team2={teams[match.team2]}
+								showAllRounds={true}
+							/>
+						</div>
+					</>
+				)}
 				<StatsTable
 					agents={agents}
 					event={event}
@@ -92,7 +152,9 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 					}
 					rounds={
 						selectedMap === 0
-							? match.maps.map((m) => m.score1 + m.score2).reduce((a, b) => a + b)
+							? match.maps
+									.map((m) => m.score1 + m.score2)
+									.reduce((a, b) => a + b)
 							: match.maps[selectedMap - 1].score1 +
 								match.maps[selectedMap - 1].score2
 					}

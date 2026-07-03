@@ -58,7 +58,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 	return (
 		<div className="flex flex-col font-[roboto] h-full dark:bg-vlr-gray-800 bg-vlr-gray-300">
 			<div className="grid grid-cols-1 xl:grid-cols-[auto_1fr] gap-6 m-6">
-				<div className="flex flex-col gap-4 max-w-200 md:w-200 min-w-0">
+				<div className="flex flex-col gap-4 max-w-185 md:w-185 min-w-0">
 					<MatchHeader event={event} match={match} />
 					{match.streamLink && (
 						<div className="mt-2 flex flex-col">

@@ -66,7 +66,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 								{team.players.map((player) => {
 									const a = [...agents[player.Player]]
 									return (
-										<tr className="text-vlr-text-dark dark:text-vlr-text-white text-[11px] px-0.75">
+										<tr className="text-vlr-text-dark dark:text-vlr-text-white text-[11px] px-0.75" key={player.Player}>
 											<td className="flex gap-2 items-center bg-transparent! sm:w-25">
 												<img
 													src={
@@ -178,7 +178,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											</td>
 											<td>
 												<div className="stats-cell mx-1.25">
-													{player.ADR}
+													{Math.round(player.ADR)}
 												</div>
 											</td>
 											<td>

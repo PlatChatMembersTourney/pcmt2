@@ -20,6 +20,18 @@ export interface Player {
 	PlusMinus2: number;
 }
 
+export interface PlayerStats extends Player {
+	"K/D": number;
+	Team: string;
+	MP: number;
+	Rounds: number;
+	KPR: number;
+	DPR: number;
+	FKPR: number;
+	FDPR: number;
+	KMAX: number;
+}
+
 // A team's roster of player stat lines
 export interface TeamStats {
 	team: string; // short code, e.g. "TL"
@@ -37,7 +49,7 @@ export interface MapScore {
 // One round within a map
 export interface Round {
 	round: number;
-	winner: 1 | 2; // which team won
+	winner: 0 | 1 | 2; // which team won - 0 for placeholder rounds
 	side: "atk" | "def";
 }
 

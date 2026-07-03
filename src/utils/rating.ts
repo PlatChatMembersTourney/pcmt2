@@ -1,4 +1,4 @@
-import type { Player } from '../types/types.ts'
+import type { Player, PlayerStats } from '../types/types.ts'
 
 export const angusRating = (player: Player, rounds: number): number => {
 	const {

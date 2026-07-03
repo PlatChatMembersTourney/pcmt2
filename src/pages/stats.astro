@@ -1,4 +1,5 @@
 ---
+import StatsPage from '../components/stats/StatsPage'
 import Layout from '../layouts/Layout.astro'
 ---
 
@@ -6,8 +7,10 @@ import Layout from '../layouts/Layout.astro'
 	activePage="Stats"
 	desc="the only important page on this website"
 	title="Stats | PCMT"
+	bodyClass="bg-vlr-gray-400 dark:bg-vlr-gray-900 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
+	mainClass="mx-auto w-full max-w-315 root dark:bg-vlr-gray-800 min-w-0"
 >
-	<div class="pt-6 px-6">
-		wip
+	<div class="h-full">
+		<StatsPage client:load />
 	</div>
 </Layout>

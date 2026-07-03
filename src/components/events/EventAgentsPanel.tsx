@@ -9,7 +9,7 @@ const EventAgentsPanel: React.FC<{ event: Event }> = (props: {
 	return (
 		<div className="flex flex-col">
 			<div className="h-30 bg-vlr-gray-300 dark:bg-vlr-gray-800 px-6 pt-6 text-black dark:text-vlr-text-white">
-				Agents Information
+				WIP
 			</div>
 		</div>
 	)
