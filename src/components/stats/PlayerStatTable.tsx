@@ -70,7 +70,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				columnHelper.accessor(
 					(row) => {
 						let ar = angusRating(row, row.Rounds)
-						if (row.MP < 3) {
+						if (row.MP <= 3) {
 							ar = ar * 0.8
 						}
 						return Number(ar.toFixed(2))
