@@ -66,7 +66,7 @@ const links = [
             </div>
         </div>
 
-        <div class="flex md:hidden w-full ml-2">
+        <div class="flex md:hidden ml-2 mr-auto">
             <a href="/" class="flex items-center gap-4 dark:border-[#333]">
                 <img src="/icons/PCMT Logo.png" alt="PCMT Logo" class="h-12 w-auto hidden dark:block" />
                 <img src="/icons/PCMT Logo Light.png" alt="PCMT Logo" class="h-12 w-auto block dark:hidden" />
@@ -77,10 +77,22 @@ const links = [
 
         <!-- right group: night-mode toggle -->
         <div class="flex items-stretch">
+			<button
+				id="funToggle"
+				type="button"
+				class="flex-none flex items-center gap-1 border-l border-neutral-200 dark:border-[#333] px-4 text-[11px] text-neutral-800 dark:text-[#aaa] transition-colors hover:text-neutral-500 dark:hover:text-white cursor-pointer"
+			>
+				<img src="/res/night.png" id="night-pfp" class="w-4 h-4 hidden fun:inline" />
+				<img src="/res/night-bw.png" id="night-pfp" class="w-4 h-4 inline fun:hidden" />
+				<span class="flex flex-col items-start leading-tight">
+                    <span>Night:</span>
+                    <span id="funState" class="font-semibold text-red-500">off</span>
+                </span>
+			</button>
             <button
                 id="themeToggle"
                 type="button"
-                class="flex items-center gap-1 border-l border-r border-neutral-200 dark:border-[#333] px-4 text-[11px] text-neutral-800 dark:text-[#aaa] transition-colors hover:text-neutral-500 dark:hover:text-white cursor-pointer"
+                class="flex-none flex items-center gap-1 border-l border-r border-neutral-200 dark:border-[#333] px-4 text-[11px] text-neutral-800 dark:text-[#aaa] transition-colors hover:text-neutral-500 dark:hover:text-white cursor-pointer"
             >
 				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="fill-neutral-800 dark:fill-[#aaa] hover:fill-neutral-500 dark:hover:fill-white">
 					<path d="M0 0h24v24H0z" fill="none" />
@@ -91,6 +103,7 @@ const links = [
                     <span id="nightState" class="font-semibold text-red-500">off</span>
                 </span>
             </button>
+
         </div>
     </div>
 </header>
@@ -135,6 +148,7 @@ const links = [
     // dark theme, shamelessly stolen from astro docs
     const theme = (() => {
         const localStorageTheme = localStorage?.getItem("theme") ?? '';
+
         if (['dark', 'light'].includes(localStorageTheme)) {
             return localStorageTheme;
         }
@@ -143,6 +157,14 @@ const links = [
         }
         return 'light';
     })();
+
+	const fun = (() => {
+		const localStorageFun = localStorage?.getItem("fun") ?? '';
+		if (['yes', 'no'].includes(localStorageFun)) {
+			return localStorageFun;
+		}
+		return 'yes';
+	})();
 
     if (theme === 'light') {
         document.body.classList.remove('dark');
@@ -161,6 +183,15 @@ const links = [
         state.classList.toggle("text-red-500", !isDark);
     }
 
+    const updateFunLabel = () => {
+	    const state = document.getElementById("funState");
+	    if (!state) return;
+	    const isFun = document.body.classList.contains("fun");
+	    state.textContent = isFun ? "on" : "off";
+	    state.classList.toggle("text-green-500", isFun);
+	    state.classList.toggle("text-red-500", !isFun);
+	}
+
     const handleToggleClick = () => {
         const element = document.body;
         element.classList.toggle("dark");
@@ -178,8 +209,19 @@ const links = [
 
         updateNightLabel();
     }
+	const handleFunClick = () => {
+		const element = document.body;
+		element.classList.toggle("fun");
+
+		const isFun = element.classList.contains("fun");
+		localStorage.setItem("fun", isFun ? "yes" : "no");
+
+		updateFunLabel();
+	}
 
     document.getElementById("themeToggle")?.addEventListener("click", handleToggleClick);
+	document.getElementById("funToggle")?.addEventListener("click", handleFunClick);
     updateNightLabel();
+	updateFunLabel();
 </script>
 

@@ -125,7 +125,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 						<MatchStatsBox match={match} event={event} />
 					</div>
 				</div>
-				<div className="hidden xl:flex flex-col">
+				<div className="hidden fun:xl:flex flex-col">
 					<h2 className="text-red-400 uppercase font-bold text-[11px] ml-5 mb-3 leading-none">
 						Advertisement
 					</h2>

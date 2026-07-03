@@ -95,7 +95,7 @@ const TeamsPage: React.FC = () => {
 						))}
 					</div>
 				</div>
-				<div className="hidden lg:flex">
+				<div className="hidden fun:lg:flex">
 					<div>
 						<img
 							className="dark:hidden aspect-video"
