@@ -47,7 +47,7 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: {
 					return match.stage === stages[activeStage]
 				});
 	let matchesGrouped = groupByDay<Match>(filteredMatches, timezone)
-	if(reverse) {
+	if(!reverse) { // change default to reversed
 		matchesGrouped = matchesGrouped.reverse();
 	}
 
