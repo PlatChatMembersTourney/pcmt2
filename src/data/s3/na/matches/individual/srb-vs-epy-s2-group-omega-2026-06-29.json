@@ -1,0 +1,755 @@
+{
+  "id": "srb-vs-epy-s2-group-omega-2026-06-29",
+  "team1": "SRB",
+  "team2": "EPY",
+  "team1Name": "Sunshine and Rainbows",
+  "team2Name": "Team Entropy",
+  "score1": 2,
+  "score2": 0,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-06-29T01:00:00Z",
+  "stage": "Group Omega",
+  "veto": "SRB bans Haven, EPY bans Breeze, SRB picks Ascent, EPY picks Split, SRB bans Lotus, EPY bans Summit, Sunset remains",
+  "maps": [
+    {
+      "name": "Ascent",
+      "score1": 13,
+      "score2": 6
+    },
+    {
+      "name": "Split",
+      "score1": 13,
+      "score2": 8
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "SRB",
+      "teamName": "Sunshine and Rainbows",
+      "players": [
+        {
+          "Player": "jaypee",
+          "R1.0": 1.432,
+          "ACS": 318,
+          "K": 45,
+          "D": 28,
+          "A": 7,
+          "PlusMinus": 17,
+          "KAST": 0.725,
+          "ADR": 219.1,
+          "HS%": 0.292,
+          "FK": 6,
+          "FD": 8,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "izz",
+          "R1.0": 1.119,
+          "ACS": 247,
+          "K": 32,
+          "D": 30,
+          "A": 13,
+          "PlusMinus": 2,
+          "KAST": 0.75,
+          "ADR": 165.7,
+          "HS%": 0.192,
+          "FK": 6,
+          "FD": 3,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "timothy",
+          "R1.0": 1.107,
+          "ACS": 170,
+          "K": 25,
+          "D": 21,
+          "A": 16,
+          "PlusMinus": 4,
+          "KAST": 0.775,
+          "ADR": 111.1,
+          "HS%": 0.13,
+          "FK": 3,
+          "FD": 0,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "androobee",
+          "R1.0": 1.053,
+          "ACS": 183,
+          "K": 29,
+          "D": 25,
+          "A": 9,
+          "PlusMinus": 4,
+          "KAST": 0.75,
+          "ADR": 121.1,
+          "HS%": 0.265,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "nova",
+          "R1.0": 0.808,
+          "ACS": 150,
+          "K": 20,
+          "D": 29,
+          "A": 13,
+          "PlusMinus": -9,
+          "KAST": 0.8,
+          "ADR": 91.9,
+          "HS%": 0.199,
+          "FK": 3,
+          "FD": 3,
+          "PlusMinus2": 0
+        }
+      ]
+    },
+    {
+      "team": "EPY",
+      "teamName": "Team Entropy",
+      "players": [
+        {
+          "Player": "apple",
+          "R1.0": 1.341,
+          "ACS": 298,
+          "K": 38,
+          "D": 29,
+          "A": 14,
+          "PlusMinus": 9,
+          "KAST": 0.775,
+          "ADR": 207.3,
+          "HS%": 0.238,
+          "FK": 6,
+          "FD": 4,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "solar",
+          "R1.0": 1.087,
+          "ACS": 202,
+          "K": 27,
+          "D": 27,
+          "A": 19,
+          "PlusMinus": 0,
+          "KAST": 0.675,
+          "ADR": 149.6,
+          "HS%": 0.2,
+          "FK": 2,
+          "FD": 1,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "blitz",
+          "R1.0": 1.03,
+          "ACS": 242,
+          "K": 35,
+          "D": 31,
+          "A": 3,
+          "PlusMinus": 4,
+          "KAST": 0.675,
+          "ADR": 154.3,
+          "HS%": 0.286,
+          "FK": 4,
+          "FD": 6,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "robohobo",
+          "R1.0": 0.809,
+          "ACS": 175,
+          "K": 23,
+          "D": 31,
+          "A": 13,
+          "PlusMinus": -8,
+          "KAST": 0.675,
+          "ADR": 108.8,
+          "HS%": 0.255,
+          "FK": 5,
+          "FD": 7,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "Latineao",
+          "R1.0": 0.394,
+          "ACS": 80,
+          "K": 10,
+          "D": 33,
+          "A": 7,
+          "PlusMinus": -23,
+          "KAST": 0.6,
+          "ADR": 54.7,
+          "HS%": 0.237,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Ascent",
+      "score1": 13,
+      "score2": 6,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "SRB",
+          "teamName": "Sunshine and Rainbows",
+          "players": [
+            {
+              "Player": "jaypee",
+              "Agent": "Neon",
+              "R1.0": 1.49,
+              "ACS": 353,
+              "K": 23,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": 9,
+              "KAST": 0.579,
+              "ADR": 256.1,
+              "HS%": 0.321,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "timothy",
+              "Agent": "Sova",
+              "R1.0": 1.164,
+              "ACS": 221,
+              "K": 14,
+              "D": 11,
+              "A": 7,
+              "PlusMinus": 3,
+              "KAST": 0.737,
+              "ADR": 135.6,
+              "HS%": 0.1,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "izz",
+              "Agent": "Phoenix",
+              "R1.0": 1.003,
+              "ACS": 225,
+              "K": 14,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": -1,
+              "KAST": 0.737,
+              "ADR": 144.2,
+              "HS%": 0.273,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "androobee",
+              "Agent": "Vyse",
+              "R1.0": 0.699,
+              "ACS": 111,
+              "K": 8,
+              "D": 14,
+              "A": 6,
+              "PlusMinus": -6,
+              "KAST": 0.737,
+              "ADR": 78.6,
+              "HS%": 0.276,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "nova",
+              "Agent": "Omen",
+              "R1.0": 0.642,
+              "ACS": 127,
+              "K": 8,
+              "D": 16,
+              "A": 9,
+              "PlusMinus": -8,
+              "KAST": 0.737,
+              "ADR": 77.7,
+              "HS%": 0.222,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "EPY",
+          "teamName": "Team Entropy",
+          "players": [
+            {
+              "Player": "solar",
+              "Agent": "Omen",
+              "R1.0": 1.54,
+              "ACS": 287,
+              "K": 19,
+              "D": 11,
+              "A": 10,
+              "PlusMinus": 8,
+              "KAST": 0.737,
+              "ADR": 213.8,
+              "HS%": 0.186,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "apple",
+              "Agent": "Killjoy",
+              "R1.0": 1.278,
+              "ACS": 272,
+              "K": 16,
+              "D": 14,
+              "A": 10,
+              "PlusMinus": 2,
+              "KAST": 0.789,
+              "ADR": 192.1,
+              "HS%": 0.221,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "blitz",
+              "Agent": "Jett",
+              "R1.0": 1.196,
+              "ACS": 277,
+              "K": 19,
+              "D": 14,
+              "A": 1,
+              "PlusMinus": 5,
+              "KAST": 0.737,
+              "ADR": 174.3,
+              "HS%": 0.382,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "robohobo",
+              "Agent": "Phoenix",
+              "R1.0": 1.004,
+              "ACS": 205,
+              "K": 13,
+              "D": 14,
+              "A": 10,
+              "PlusMinus": -1,
+              "KAST": 0.737,
+              "ADR": 123.4,
+              "HS%": 0.333,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Latineao",
+              "Agent": "Sova",
+              "R1.0": 0.364,
+              "ACS": 54,
+              "K": 3,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": -11,
+              "KAST": 0.526,
+              "ADR": 43.0,
+              "HS%": 0.357,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Split",
+      "score1": 13,
+      "score2": 8,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "SRB",
+          "teamName": "Sunshine and Rainbows",
+          "players": [
+            {
+              "Player": "jaypee",
+              "Agent": "Neon",
+              "R1.0": 1.38,
+              "ACS": 286,
+              "K": 22,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": 8,
+              "KAST": 0.857,
+              "ADR": 185.6,
+              "HS%": 0.265,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "androobee",
+              "Agent": "Viper",
+              "R1.0": 1.372,
+              "ACS": 249,
+              "K": 21,
+              "D": 11,
+              "A": 3,
+              "PlusMinus": 10,
+              "KAST": 0.762,
+              "ADR": 159.6,
+              "HS%": 0.255,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "izz",
+              "Agent": "Raze",
+              "R1.0": 1.225,
+              "ACS": 267,
+              "K": 18,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": 3,
+              "KAST": 0.762,
+              "ADR": 185.2,
+              "HS%": 0.118,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "timothy",
+              "Agent": "Skye",
+              "R1.0": 1.056,
+              "ACS": 124,
+              "K": 11,
+              "D": 10,
+              "A": 9,
+              "PlusMinus": 1,
+              "KAST": 0.81,
+              "ADR": 89.0,
+              "HS%": 0.158,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "nova",
+              "Agent": "Omen",
+              "R1.0": 0.958,
+              "ACS": 171,
+              "K": 12,
+              "D": 13,
+              "A": 4,
+              "PlusMinus": -1,
+              "KAST": 0.857,
+              "ADR": 104.8,
+              "HS%": 0.178,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "EPY",
+          "teamName": "Team Entropy",
+          "players": [
+            {
+              "Player": "apple",
+              "Agent": "Vyse",
+              "R1.0": 1.398,
+              "ACS": 321,
+              "K": 22,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": 7,
+              "KAST": 0.762,
+              "ADR": 221.0,
+              "HS%": 0.253,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "blitz",
+              "Agent": "Viper",
+              "R1.0": 0.88,
+              "ACS": 210,
+              "K": 16,
+              "D": 17,
+              "A": 2,
+              "PlusMinus": -1,
+              "KAST": 0.619,
+              "ADR": 136.2,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 4,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "solar",
+              "Agent": "Astra",
+              "R1.0": 0.677,
+              "ACS": 125,
+              "K": 8,
+              "D": 16,
+              "A": 9,
+              "PlusMinus": -8,
+              "KAST": 0.619,
+              "ADR": 91.6,
+              "HS%": 0.212,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "robohobo",
+              "Agent": "Raze",
+              "R1.0": 0.632,
+              "ACS": 147,
+              "K": 10,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -7,
+              "KAST": 0.619,
+              "ADR": 95.5,
+              "HS%": 0.184,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Latineao",
+              "Agent": "Fade",
+              "R1.0": 0.422,
+              "ACS": 103,
+              "K": 7,
+              "D": 19,
+              "A": 4,
+              "PlusMinus": -12,
+              "KAST": 0.667,
+              "ADR": 65.2,
+              "HS%": 0.129,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=-DzeJ6crlIA"
+}
