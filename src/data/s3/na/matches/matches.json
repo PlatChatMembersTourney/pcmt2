@@ -10,7 +10,7 @@
     "completed": false,
     "bestOf": 3,
     "date": "2026-07-07T02:00:00Z",
-    "stage": "Group Stage"
+    "stage": "Group Alpha"
   },
   {
     "id": "navi-vs-srb-s3-group-stage-2026-07-07",
@@ -23,7 +23,7 @@
     "completed": false,
     "bestOf": 3,
     "date": "2026-07-07T00:00:00Z",
-    "stage": "Group Stage"
+    "stage": "Group Omega"
   },
   {
     "id": "fnc-vs-ssg-s3-group-stage-2026-07-06",
@@ -36,7 +36,7 @@
     "completed": false,
     "bestOf": 3,
     "date": "2026-07-06T02:00:00Z",
-    "stage": "Group Stage"
+    "stage": "Group Alpha"
   },
   {
     "id": "fsg-vs-rrq-s2-group-alpha-2026-06-29",
