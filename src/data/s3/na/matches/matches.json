@@ -1,5 +1,18 @@
 [
   {
+    "id": "fnc-vs-ssg-s3-group-stage-2026-07-06",
+    "team1": "FNC",
+    "team2": "SSG",
+    "team1Name": "cow paulo FaN Club",
+    "team2Name": "Squirtle Squad Gaming",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-07-06T02:00:00Z",
+    "stage": "Group Stage"
+  },
+  {
     "id": "fsg-vs-rrq-s2-group-alpha-2026-06-29",
     "team1": "FSG",
     "team2": "RRQ",

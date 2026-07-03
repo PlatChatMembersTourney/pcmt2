@@ -10,12 +10,12 @@
         "pickPct": 0.464
       },
       {
-        "agent": "Jett",
+        "agent": "Sova",
         "comps": 12,
         "pickPct": 0.429
       },
       {
-        "agent": "Sova",
+        "agent": "Jett",
         "comps": 12,
         "pickPct": 0.429
       },
@@ -40,6 +40,16 @@
         "pickPct": 0.107
       },
       {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Clove",
+        "comps": 2,
+        "pickPct": 0.071
+      },
+      {
         "agent": "Fade",
         "comps": 2,
         "pickPct": 0.071
@@ -50,22 +60,12 @@
         "pickPct": 0.071
       },
       {
-        "agent": "Neon",
+        "agent": "Waylay",
         "comps": 2,
         "pickPct": 0.071
       },
       {
         "agent": "Chamber",
-        "comps": 2,
-        "pickPct": 0.071
-      },
-      {
-        "agent": "Clove",
-        "comps": 2,
-        "pickPct": 0.071
-      },
-      {
-        "agent": "Waylay",
         "comps": 2,
         "pickPct": 0.071
       },
@@ -367,12 +367,12 @@
     "defPct": 0.447,
     "agents": [
       {
-        "agent": "Raze",
+        "agent": "Brimstone",
         "comps": 6,
         "pickPct": 0.75
       },
       {
-        "agent": "Brimstone",
+        "agent": "Raze",
         "comps": 6,
         "pickPct": 0.75
       },
@@ -392,12 +392,12 @@
         "pickPct": 0.25
       },
       {
-        "agent": "Neon",
+        "agent": "Chamber",
         "comps": 2,
         "pickPct": 0.25
       },
       {
-        "agent": "Chamber",
+        "agent": "Neon",
         "comps": 2,
         "pickPct": 0.25
       },
@@ -410,11 +410,6 @@
         "agent": "Fade",
         "comps": 2,
         "pickPct": 0.25
-      },
-      {
-        "agent": "Waylay",
-        "comps": 1,
-        "pickPct": 0.125
       },
       {
         "agent": "Sova",
@@ -433,6 +428,11 @@
       },
       {
         "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Waylay",
         "comps": 1,
         "pickPct": 0.125
       }
@@ -563,6 +563,11 @@
         "pickPct": 0.136
       },
       {
+        "agent": "Viper",
+        "comps": 2,
+        "pickPct": 0.091
+      },
+      {
         "agent": "Chamber",
         "comps": 2,
         "pickPct": 0.091
@@ -573,14 +578,19 @@
         "pickPct": 0.091
       },
       {
-        "agent": "Viper",
+        "agent": "Neon",
         "comps": 2,
         "pickPct": 0.091
       },
       {
-        "agent": "Neon",
-        "comps": 2,
-        "pickPct": 0.091
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.045
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.045
       },
       {
         "agent": "Breach",
@@ -594,16 +604,6 @@
       },
       {
         "agent": "Sage",
-        "comps": 1,
-        "pickPct": 0.045
-      },
-      {
-        "agent": "Skye",
-        "comps": 1,
-        "pickPct": 0.045
-      },
-      {
-        "agent": "Fade",
         "comps": 1,
         "pickPct": 0.045
       }
@@ -803,14 +803,19 @@
         "pickPct": 0.179
       },
       {
+        "agent": "Neon",
+        "comps": 3,
+        "pickPct": 0.107
+      },
+      {
         "agent": "Clove",
         "comps": 3,
         "pickPct": 0.107
       },
       {
-        "agent": "Neon",
-        "comps": 3,
-        "pickPct": 0.107
+        "agent": "Killjoy",
+        "comps": 2,
+        "pickPct": 0.071
       },
       {
         "agent": "Waylay",
@@ -823,7 +828,7 @@
         "pickPct": 0.071
       },
       {
-        "agent": "Tejo",
+        "agent": "Phoenix",
         "comps": 2,
         "pickPct": 0.071
       },
@@ -833,22 +838,17 @@
         "pickPct": 0.071
       },
       {
-        "agent": "Killjoy",
+        "agent": "Tejo",
         "comps": 2,
         "pickPct": 0.071
       },
       {
-        "agent": "Phoenix",
-        "comps": 2,
-        "pickPct": 0.071
-      },
-      {
-        "agent": "Skye",
+        "agent": "Astra",
         "comps": 1,
         "pickPct": 0.036
       },
       {
-        "agent": "Astra",
+        "agent": "Skye",
         "comps": 1,
         "pickPct": 0.036
       }
@@ -1063,12 +1063,12 @@
         "pickPct": 0.182
       },
       {
-        "agent": "Killjoy",
+        "agent": "Neon",
         "comps": 3,
         "pickPct": 0.136
       },
       {
-        "agent": "Neon",
+        "agent": "Killjoy",
         "comps": 3,
         "pickPct": 0.136
       },
@@ -1083,7 +1083,7 @@
         "pickPct": 0.091
       },
       {
-        "agent": "Cypher",
+        "agent": "Omen",
         "comps": 1,
         "pickPct": 0.045
       },
@@ -1093,7 +1093,7 @@
         "pickPct": 0.045
       },
       {
-        "agent": "Omen",
+        "agent": "Cypher",
         "comps": 1,
         "pickPct": 0.045
       }
@@ -1284,12 +1284,12 @@
         "pickPct": 0.75
       },
       {
-        "agent": "Omen",
+        "agent": "Skye",
         "comps": 4,
         "pickPct": 0.5
       },
       {
-        "agent": "Skye",
+        "agent": "Omen",
         "comps": 4,
         "pickPct": 0.5
       },
@@ -1297,6 +1297,16 @@
         "agent": "Viper",
         "comps": 3,
         "pickPct": 0.375
+      },
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 0.25
       },
       {
         "agent": "Neon",
@@ -1314,27 +1324,17 @@
         "pickPct": 0.25
       },
       {
-        "agent": "Cypher",
-        "comps": 2,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Astra",
-        "comps": 2,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Sage",
-        "comps": 1,
-        "pickPct": 0.125
-      },
-      {
         "agent": "Jett",
         "comps": 1,
         "pickPct": 0.125
       },
       {
         "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Sage",
         "comps": 1,
         "pickPct": 0.125
       }
@@ -1419,17 +1419,12 @@
         "pickPct": 0.75
       },
       {
-        "agent": "Sova",
-        "comps": 2,
-        "pickPct": 0.5
-      },
-      {
         "agent": "Phoenix",
         "comps": 2,
         "pickPct": 0.5
       },
       {
-        "agent": "Viper",
+        "agent": "Sova",
         "comps": 2,
         "pickPct": 0.5
       },
@@ -1439,24 +1434,14 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Fade",
+        "agent": "Viper",
         "comps": 2,
         "pickPct": 0.5
       },
       {
-        "agent": "Reyna",
-        "comps": 1,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Clove",
-        "comps": 1,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Cypher",
-        "comps": 1,
-        "pickPct": 0.25
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 0.5
       },
       {
         "agent": "Jett",
@@ -1475,6 +1460,21 @@
       },
       {
         "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Reyna",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Cypher",
         "comps": 1,
         "pickPct": 0.25
       }
