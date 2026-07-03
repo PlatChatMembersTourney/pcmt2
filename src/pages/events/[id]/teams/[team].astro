@@ -1,0 +1,48 @@
+---
+import Layout from '../../../../layouts/Layout.astro'
+import seasons from '../../../../data/events.json'
+import EventPage from '../../../../components/events/EventPage.astro'
+import type { Event, TeamInfo } from '../../../../types/types.ts'
+import slugify from 'slugify'
+
+interface Props {
+	event: Event
+	team: TeamInfo
+}
+
+import { teams } from '../../../../stores/store.ts'
+import TeamPage from '../../../../components/events/TeamPage'
+
+export const getStaticPaths = () => {
+	return Object.entries(teams).flatMap(([id, allTeams]) => {
+		return Object.values(allTeams).map((team: TeamInfo) => {
+			return {
+				params: {
+					id: id,
+					team: slugify(team.name),
+				},
+				props: {
+					event: seasons.filter((event: Event) => {
+						return event.id === id
+					})[0],
+					team: team
+				},
+			}
+		})
+	})
+}
+
+const { event, team } = Astro.props
+---
+
+<Layout
+	activePage="Events"
+	desc={`The greatest team of all time: ${team.name}`}
+	title={team.name + ' | PCMT'}
+	bodyClass="bg-vlr-gray-400 dark:bg-vlr-gray-900 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
+	mainClass="mx-auto w-full max-w-315 root dark:bg-vlr-gray-800 min-w-0"
+>
+	<div class="h-full">
+		<TeamPage event={event} team={team} client:load />
+	</div>
+</Layout>

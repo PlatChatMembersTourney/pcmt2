@@ -1,5 +1,5 @@
 import {atom, map} from 'nanostores';
-import type { Match, PlayerStats, Standing, TeamInfo } from '../types/types.ts'
+import type { Match, PlayerStats, Standing, TeamInfo, TeamMapStats } from '../types/types.ts'
 
 // load match data for all seasons
 
@@ -39,7 +39,8 @@ import s3NATeamsRaw from "../data/s3/na/teams.json";
 import s1EMEATeamsRaw from "../data/s1/emea/teams.json";
 import s2EMEATeamsRaw from "../data/s2/emea/teams.json";
 
-const teams: Record<string, Record<string, TeamInfo>> = {
+// export this so i can load static paths for each team
+export const teams: Record<string, Record<string, TeamInfo>> = {
 	's1-na': s1NATeamsRaw as Record<string, TeamInfo>,
 	's2-na': s2NATeamsRaw as Record<string, TeamInfo>,
 	's3-na': s3NATeamsRaw as Record<string, TeamInfo>,
@@ -62,6 +63,20 @@ const playerStats: Record<string, Record<string, PlayerStats[]>> = {
 	's2-emea': s2EMEAPlayerStatsRaw as Record<string, PlayerStats[]>
 }
 
+// load team map stats
+import s2NATeamMapStatsRaw from "../data/s2/na/team-map-stats.json"
+import s3NATeamMapStatsRaw from "../data/s3/na/team-map-stats.json"
+import s1EMEATeamMapStatsRaw from "../data/s1/emea/team-map-stats.json"
+// import s2EMEATeamMapStatsRaw from '../data/s2/emea/team-map-stats.json'
+
+const teamMapStats: Record<string, Record<string, TeamMapStats>> = {
+	's1-na': {},
+	's2-na': s2NATeamMapStatsRaw as Record<string, TeamMapStats>,
+	's3-na': s3NATeamMapStatsRaw as Record<string, TeamMapStats>,
+	's1-emea': s1EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
+	's2-emea': {}// s2EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
+}
+
 export const $matches = atom<Record<string, Match[]>>(matches);
 
 export const $standings = atom<Record<string, Record<string, Standing[]>>>(standings);
@@ -77,3 +92,5 @@ const allPlayerStats: Record<string, PlayerStats[]> = Object.fromEntries(Object.
 }));
 
 export const $allPlayerStats = atom<Record<string, PlayerStats[]>>(allPlayerStats);
+
+export const $teamMapStats = atom<Record<string, Record<string, TeamMapStats>>>(teamMapStats);

@@ -1,4 +1,5 @@
-import type { Standing, TeamInfo } from '../../types/types.ts'
+import type { Standing, TeamInfo, Event } from '../../types/types.ts'
+import slugify from 'slugify'
 
 interface GroupStandingsBoxProps {
 	standings: Standing[];
@@ -9,11 +10,12 @@ interface GroupStandingsBoxProps {
 	name: string;
 	region: string;
 	teams: Record<string, TeamInfo>;
+	event: Event;
 }
 
 const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 	const {
-		standings, teamColors, name, region, teams
+		standings, teamColors, name, region, teams, event
 	} = props;
 
 	// convert teamColors into an array of colors
@@ -69,9 +71,9 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props   ) => {
 										/>
 									</div>
 									<div className="flex-col overflow-hidden min-w-0">
-										<div className="overflow-hidden text-ellipsis whitespace-nowrap text-pb text-xs font-bold min-w-0">
+										<a href={`/events/${event.id}/teams/${slugify(standing.name)}`} className="overflow-hidden text-ellipsis whitespace-nowrap text-pb text-xs font-bold min-w-0">
 											{standing.name}
-										</div>
+										</a>
 										<p className="text-nowrap uppercase text-[10px] font-normal">
 											{region}
 										</p>

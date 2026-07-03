@@ -18,16 +18,14 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
 const timeFormatter = new Intl.DateTimeFormat('en-US', {
 	hour: 'numeric',
 	minute: '2-digit',
-	timeZoneName: 'short'
+	timeZoneName: 'short',
 })
 
 const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
-	const {
-		match, event
-	} = props;
+	const { match, event } = props
 
-	const teams: Record<string, TeamInfo> = useStore($teams)[event.id];
-	const team1Winner = match.completed && match.score1 > match.score2;
+	const teams: Record<string, TeamInfo> = useStore($teams)[event.id]
+	const team1Winner = match.completed && match.score1 > match.score2
 
 	return (
 		<div className="p-4 sm:p-5 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 relative cool-border-top text-[#333] dark:text-vlr-text-white">
@@ -84,25 +82,33 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 					)}
 
 					<p className="text-base md:text-3xl font-medium">
-						<span
-							className={
-								team1Winner
-									? ' text-green-500 dark:text-green-400'
-									: ''
-							}
-						>
-							{match.score1}
-						</span>
-						{' : '}
-						<span
-							className={
-								!team1Winner
-									? 'text-green-500 dark:text-green-400'
-									: ''
-							}
-						>
-							{match.score2}
-						</span>
+						{!match.completed ? (
+							<span className="font-normal text-vlr-text-gray">
+								–
+							</span>
+						) : (
+							<>
+								<span
+									className={
+										team1Winner
+											? ' text-green-500 dark:text-green-400'
+											: ''
+									}
+								>
+									{match.score1}
+								</span>
+								{' : '}
+								<span
+									className={
+										!team1Winner
+											? 'text-green-500 dark:text-green-400'
+											: ''
+									}
+								>
+									{match.score2}
+								</span>
+							</>
+						)}
 					</p>
 
 					<p className="text-[10px] uppercase text-vlr-text-gray">
@@ -131,4 +137,4 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 	)
 }
 
-export default MatchHeader;
+export default MatchHeader

@@ -129,3 +129,25 @@ export interface Standing {
 	mapDiff: number;
 	rndDiff: number;
 }
+
+export interface TeamMapStats {
+	team: string;
+	teamName: string;
+	overallAtkPct: number;
+	overallDefPct: number;
+	maps: MapStat[];
+}
+
+export interface MapStat {
+	map: string;
+	pick: number;
+	ban: number;
+	played: number;
+	won: number;
+	winPct: number;
+	rounds: number;
+	roundsWon: number;
+	roundPct: number;
+	atkPct: number;
+	defPct: number;
+}

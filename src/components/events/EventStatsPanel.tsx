@@ -1,9 +1,7 @@
-import { useEffect, useState } from 'react'
-import type { Event, Match } from '../../types/types.ts'
+import { useState } from 'react'
+import type { Event } from '../../types/types.ts'
 import { useStore } from '@nanostores/react'
 import { $playerStats } from '../../stores/store.ts'
-import { groupByDay } from '../../utils/datetime.ts'
-import MatchCard from '../matches/MatchCard.tsx'
 import PlayerStatTable from '../stats/PlayerStatTable.tsx'
 
 const EventStatsPanel: React.FC<{ event: Event }> = (props: {
