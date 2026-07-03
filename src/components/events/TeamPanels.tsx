@@ -204,8 +204,8 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 						/>
 					</div>
 				) : (
-					<div className="p-4 sm:p-6 flex flex-col">
-						Nothing here but us chickens!
+					<div className="p-4 sm:p-6 flex flex-col text-vlr-text-dark dark:text-vlr-text-white">
+						You literally haven't played a game yet. Why are you checking your stats panel
 					</div>
 				))}
 		</div>
