@@ -67,7 +67,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 									const a = [...agents[player.Player]]
 									return (
 										<tr className="text-vlr-text-dark dark:text-vlr-text-white text-[11px] px-0.75" key={player.Player}>
-											<td className="flex gap-2 items-center bg-transparent! sm:w-25">
+											<td className="flex gap-2 items-center bg-transparent! sm:w-25 h-10">
 												<img
 													src={
 														event.region === 'na'
