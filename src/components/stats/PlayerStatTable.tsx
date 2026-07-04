@@ -266,7 +266,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 							key={row.id}
 							className="group odd:dark:bg-vlr-gray-600 even:dark:bg-vlr-gray-700 odd:bg-vlr-gray-100 even:bg-vlr-gray-200"
 						>
-							<td className="px-2.5 py-1 border-r vlr-border sticky left-0 z-10 w-12 group-odd:bg-vlr-gray-100 group-even:bg-vlr-gray-200 group-odd:dark:bg-vlr-gray-600 group-even:dark:bg-vlr-gray-700">
+							<td className="px-2.5 py-1 border-r vlr-border sticky left-0 z-10 w-12 min-w-12 group-odd:bg-vlr-gray-100 group-even:bg-vlr-gray-200 group-odd:dark:bg-vlr-gray-600 group-even:dark:bg-vlr-gray-700">
 								{idx + 1}
 							</td>
 							{row.getVisibleCells().map((cell) => (
