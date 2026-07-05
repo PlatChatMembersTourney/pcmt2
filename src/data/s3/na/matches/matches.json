@@ -13,19 +13,6 @@
     "stage": "Group Alpha"
   },
   {
-    "id": "navi-vs-srb-s3-group-stage-2026-07-07",
-    "team1": "NAVI",
-    "team2": "SRB",
-    "team1Name": "No Actual Valorant Intelligence",
-    "team2Name": "Sunshine and Rainbows",
-    "score1": 0,
-    "score2": 0,
-    "completed": false,
-    "bestOf": 3,
-    "date": "2026-07-07T00:00:00Z",
-    "stage": "Group Omega"
-  },
-  {
     "id": "fnc-vs-ssg-s3-group-stage-2026-07-06",
     "team1": "FNC",
     "team2": "SSG",
