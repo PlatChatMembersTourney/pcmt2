@@ -83,9 +83,9 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 									<th
 										key={header.id}
 										colSpan={header.colSpan}
-										className={stickyClass(
+										className={`${stickyClass(
 											header.column.id
-										)}
+										)} px-1 pb-1 relative cool-border-top cool-border-pb after:top-0! pt-1.75`}
 									>
 										{header.isPlaceholder ? null : (
 											<div

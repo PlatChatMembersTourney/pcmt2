@@ -28,7 +28,15 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 	const team1Winner = match.completed && match.score1 > match.score2
 
 	return (
-		<div className="p-4 sm:p-5 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 relative cool-border-top text-[#333] dark:text-vlr-text-white">
+		<div
+			className={
+
+				`${{
+						'na': 'cool-border-na',
+						'emea': 'cool-border-emea'
+				}[event.region]} p-4 sm:p-5 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 relative cool-border-top text-[#333] dark:text-vlr-text-white`
+			}
+		>
 			<div className="flex h-9 items-center gap-2">
 				<img
 					src={

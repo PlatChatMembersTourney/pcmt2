@@ -21,6 +21,8 @@ interface PlayerStatTableProps {
 
 import eventsRaw from '../../data/events.json'
 import { angusRating } from '../../utils/rating.ts'
+import { $teams } from '../../stores/store.ts'
+import { useStore } from '@nanostores/react'
 
 const events = eventsRaw as Event[]
 
@@ -31,6 +33,7 @@ const pctFormatter = new Intl.NumberFormat('en-US', {
 
 const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	const { playerStats, showSeason } = props
+	const teams = useStore($teams);
 
 	const [sorting, setSorting] = useState<SortingState>([])
 
@@ -56,6 +59,26 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	const columns = [
 		columnHelper.accessor('Player', {
 			header: 'Player',
+			cell: (info) => {
+				const r = info.row.original;
+				if(!(r.Team in teams[r.eventId!])) {
+					return (
+						<p>{r.Player}</p>
+					)
+				}
+				return (
+					<div className="flex flex-row items-center gap-1.5 min-w-max">
+						<div className="h-6 w-6 flex items-center justify-center">
+							<img
+								src={teams[r.eventId!][r.Team].logo}
+								className="h-6 w-auto"
+								alt={r.Team}
+							/>
+						</div>
+						<p>{r.Player}</p>
+					</div>
+				)
+			}
 		}),
 		columnHelper.group({
 			header: 'Info',
@@ -201,7 +224,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 							{groupIdx === 0 && (
 								<th
 									rowSpan={table.getHeaderGroups().length}
-									className="align-bottom border-r vlr-border sticky left-0 z-20 w-12 bg-gray-100 dark:bg-vlr-gray-900"
+									className="align-bottom border-r vlr-border sticky left-0 z-20 w-12 py-1 bg-gray-100 dark:bg-vlr-gray-900 cool-border-top cool-border-pb after:top-0! after:z-10!"
 								>
 									#
 								</th>
@@ -217,9 +240,11 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 										colSpan={header.colSpan}
 										className={`${
 											isGroupBoundary(header.column)
-												? 'border-r vlr-border'
+												? 'border-r vlr-border py-1 px-1'
 												: ''
-										} ${stickyClass(header.column.id)}`}
+										} ${stickyClass(header.column.id)} ${
+											groupIdx === 0 ? "relative cool-border-top cool-border-pb after:top-0! pt-1.75" : ""
+										}`}
 									>
 										{header.isPlaceholder ? null : (
 											<div

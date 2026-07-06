@@ -23,7 +23,12 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 		<a
 			href={`/events/${event.id}/${slugify(match.id)}`}
 			className={
-				'flex px-4 md:px-5 items-center w-full h-14 dark:bg-vlr-gray-600 dark:hover:bg-vlr-gray-500 bg-vlr-gray-100 hover:bg-[#f1f1f1] cool-border relative' +
+				`${
+					{
+						na: 'cool-border-na',
+						emea: 'cool-border-emea',
+					}[event.region]
+				} flex px-4 md:px-5 items-center w-full h-14 dark:bg-vlr-gray-600 dark:hover:bg-vlr-gray-500 bg-vlr-gray-100 hover:bg-[#f1f1f1] cool-border relative` +
 				(addlClass ? ` ${addlClass}` : '')
 			}
 		>
@@ -44,7 +49,10 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 					},
 				].map(({ winner, name, score }, idx) => {
 					return (
-						<div key={"Team " + idx} className="flex w-60 whitespace-nowrap gap-1.75 items-center h-5 text-xs font-medium dark:text-vlr-text-white text-vlr-text-dark">
+						<div
+							key={'Team ' + idx}
+							className="flex w-60 whitespace-nowrap gap-1.75 items-center h-5 text-xs font-medium dark:text-vlr-text-white text-vlr-text-dark"
+						>
 							<div className="flex-none flex items-center">
 								<div className="w-3 mr-0.5 flex items-center">
 									{winner && match.completed && (
@@ -83,7 +91,9 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 								</p>
 							) : (
 								<p
-									className={'flex-none ml-auto font-medium text-vlr-text-dark dark:text-vlr-text-white'}
+									className={
+										'flex-none ml-auto font-medium text-vlr-text-dark dark:text-vlr-text-white'
+									}
 								>
 									-
 								</p>
@@ -114,7 +124,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 				)}
 			</div>
 			<div className="hidden flex-col ml-auto md:flex text-right text-xs">
-				<p className="dark:text-vlr-text-white font-medium">PCMT</p>
+				<p className="dark:text-vlr-text-white font-medium">PCMT: {event.region.toUpperCase()}</p>
 				<p className="dark:text-vlr-text-light">{match.stage}</p>
 			</div>
 		</a>

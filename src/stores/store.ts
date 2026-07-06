@@ -68,14 +68,14 @@ const playerStats: Record<string, Record<string, PlayerStats[]>> = {
 import s2NATeamMapStatsRaw from "../data/s2/na/team-map-stats.json"
 import s3NATeamMapStatsRaw from "../data/s3/na/team-map-stats.json"
 import s1EMEATeamMapStatsRaw from "../data/s1/emea/team-map-stats.json"
-// import s2EMEATeamMapStatsRaw from '../data/s2/emea/team-map-stats.json'
+import s2EMEATeamMapStatsRaw from '../data/s2/emea/team-map-stats.json'
 
 const teamMapStats: Record<string, Record<string, TeamMapStats>> = {
 	's1-na': {},
 	's2-na': s2NATeamMapStatsRaw as Record<string, TeamMapStats>,
 	's3-na': s3NATeamMapStatsRaw as Record<string, TeamMapStats>,
 	's1-emea': s1EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
-	's2-emea': {}// s2EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
+	's2-emea': s2EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
 }
 
 export const $matches = atom<Record<string, Match[]>>(matches);
