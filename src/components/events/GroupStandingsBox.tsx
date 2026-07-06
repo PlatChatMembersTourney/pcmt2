@@ -47,16 +47,11 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 							<td className="h-13 w-full">
 								<div
 									className={
-										(colors[index] === 'yellow'
-											? 'border-yellow-400'
-											: '') +
-										(colors[index] === 'red'
-											? 'border-red-400'
-											: '') +
-										(colors[index] === 'green'
-											? 'border-green-400'
-											: '') +
-										' border-l-3 h-full flex items-center gap-3 pl-3 px-3'
+										`${{
+											'yellow': 'border-yellow-400',
+											'red': 'border-red-400',
+											'green': 'border-green-400',
+										}[colors[index]]} border-l-3 h-full flex items-center gap-3 pl-3 px-3`
 									}
 								>
 									<div className="h-6.25 w-6.25 flex items-center justify-center">
