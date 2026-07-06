@@ -144,9 +144,9 @@
 		"season": 2,
 		"region": "emea",
 		"path": "s2/emea",
-		"status": "upcoming",
+		"status": "ongoing",
 		"desc": "Season 2 of the Plat Chat members tournament for EMEA, where 10 teams did some group activities.",
-		"dates": "TBD",
+		"dates": "July 5 - TBD",
 		"stages": [
 			{
 				"name": "Playoffs",
@@ -154,7 +154,7 @@
 			},
 			{
 				"name": "Group Stage",
-				"dates": "TBD",
+				"dates": "July 5 - TBD",
 				"format": {
 					"type": "round-robin",
 					"groups": 2,
