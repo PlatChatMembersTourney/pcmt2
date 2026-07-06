@@ -47,6 +47,21 @@ const {
 			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet"
 		/>
+
+		<!-- Prevent FART -->
+		<script is:inline>
+			if (theme === 'light') {
+				document.body.classList.remove('dark');
+			} else {
+				document.body.classList.add('dark');
+			}
+
+			if (fun === 'yes') {
+				document.body.classList.add('fun');
+			} else {
+				document.body.classList.remove('fun');
+			}
+		</script>
 	</head>
 	<body
 		class={bodyClass ?? "bg-white text-black dark:bg-vlr-gray-800 dark:text-white font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"}
