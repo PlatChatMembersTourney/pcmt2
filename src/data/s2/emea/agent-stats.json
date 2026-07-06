@@ -65,6 +65,133 @@
       }
     }
   },
+  "Haven": {
+    "mapsPlayed": 1,
+    "atkPct": 0.278,
+    "defPct": 0.722,
+    "agents": [
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "LARP": {
+        "team": "LARP",
+        "teamName": "Larpiat\u00e1n",
+        "agents": [
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "NOOT": {
+        "team": "NOOT",
+        "teamName": "Penguin Patrol",
+        "agents": [
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Sova",
+          "Viper"
+        ]
+      }
+    }
+  },
+  "Lotus": {
+    "mapsPlayed": 1,
+    "atkPct": 0.5,
+    "defPct": 0.5,
+    "agents": [
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Viper",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Raze",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "LARP": {
+        "team": "LARP",
+        "teamName": "Larpiat\u00e1n",
+        "agents": [
+          "Fade",
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Viper"
+        ]
+      },
+      "NOOT": {
+        "team": "NOOT",
+        "teamName": "Penguin Patrol",
+        "agents": [
+          "Fade",
+          "Omen",
+          "Raze",
+          "Viper",
+          "Vyse"
+        ]
+      }
+    }
+  },
   "Summit": {
     "mapsPlayed": 1,
     "atkPct": 0.773,

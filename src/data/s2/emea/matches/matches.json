@@ -5,12 +5,794 @@
     "team2": "LARP",
     "team1Name": "Penguin Patrol",
     "team2Name": "Larpiat\u00e1n",
-    "score1": 0,
+    "score1": 2,
     "score2": 0,
-    "completed": false,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-07-06T17:30:00Z",
-    "stage": "Group Omega"
+    "stage": "Group Omega",
+    "veto": "LARP bans Split, NOOT bans Summit, LARP picks Haven, NOOT picks Lotus, LARP bans Ascent, NOOT bans Breeze, Sunset remains",
+    "maps": [
+      {
+        "name": "Haven",
+        "score1": 13,
+        "score2": 5
+      },
+      {
+        "name": "Lotus",
+        "score1": 13,
+        "score2": 9
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "NOOT",
+        "teamName": "Penguin Patrol",
+        "players": [
+          {
+            "Player": "Jamit",
+            "R1.0": 1.552,
+            "ACS": 277,
+            "K": 44,
+            "D": 19,
+            "A": 7,
+            "PlusMinus": 25,
+            "KAST": 0.775,
+            "ADR": 188.1,
+            "HS%": 0.264,
+            "FK": 3,
+            "FD": 2,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "King",
+            "R1.0": 1.519,
+            "ACS": 332,
+            "K": 48,
+            "D": 27,
+            "A": 7,
+            "PlusMinus": 21,
+            "KAST": 0.85,
+            "ADR": 213.0,
+            "HS%": 0.231,
+            "FK": 13,
+            "FD": 3,
+            "PlusMinus2": 10
+          },
+          {
+            "Player": "Haike",
+            "R1.0": 1.333,
+            "ACS": 246,
+            "K": 34,
+            "D": 26,
+            "A": 26,
+            "PlusMinus": 8,
+            "KAST": 0.85,
+            "ADR": 163.4,
+            "HS%": 0.236,
+            "FK": 6,
+            "FD": 3,
+            "PlusMinus2": 3
+          },
+          {
+            "Player": "taylorgzz",
+            "R1.0": 0.888,
+            "ACS": 150,
+            "K": 21,
+            "D": 25,
+            "A": 12,
+            "PlusMinus": -4,
+            "KAST": 0.675,
+            "ADR": 101.5,
+            "HS%": 0.215,
+            "FK": 2,
+            "FD": 5,
+            "PlusMinus2": -3
+          },
+          {
+            "Player": "Pengu",
+            "R1.0": 0.881,
+            "ACS": 152,
+            "K": 22,
+            "D": 27,
+            "A": 8,
+            "PlusMinus": -5,
+            "KAST": 0.75,
+            "ADR": 110.5,
+            "HS%": 0.255,
+            "FK": 1,
+            "FD": 2,
+            "PlusMinus2": -1
+          }
+        ]
+      },
+      {
+        "team": "LARP",
+        "teamName": "Larpiat\u00e1n",
+        "players": [
+          {
+            "Player": "mide",
+            "R1.0": 0.858,
+            "ACS": 209,
+            "K": 29,
+            "D": 35,
+            "A": 15,
+            "PlusMinus": -6,
+            "KAST": 0.65,
+            "ADR": 128.8,
+            "HS%": 0.247,
+            "FK": 6,
+            "FD": 6,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "Ellie",
+            "R1.0": 0.81,
+            "ACS": 188,
+            "K": 25,
+            "D": 31,
+            "A": 9,
+            "PlusMinus": -6,
+            "KAST": 0.55,
+            "ADR": 122.9,
+            "HS%": 0.141,
+            "FK": 0,
+            "FD": 3,
+            "PlusMinus2": -3
+          },
+          {
+            "Player": "oddlqt",
+            "R1.0": 0.754,
+            "ACS": 198,
+            "K": 25,
+            "D": 36,
+            "A": 10,
+            "PlusMinus": -11,
+            "KAST": 0.6,
+            "ADR": 135.7,
+            "HS%": 0.215,
+            "FK": 6,
+            "FD": 8,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "Kaiser",
+            "R1.0": 0.716,
+            "ACS": 185,
+            "K": 24,
+            "D": 35,
+            "A": 7,
+            "PlusMinus": -11,
+            "KAST": 0.575,
+            "ADR": 127.0,
+            "HS%": 0.297,
+            "FK": 2,
+            "FD": 7,
+            "PlusMinus2": -5
+          },
+          {
+            "Player": "synth",
+            "R1.0": 0.643,
+            "ACS": 145,
+            "K": 21,
+            "D": 32,
+            "A": 6,
+            "PlusMinus": -11,
+            "KAST": 0.6,
+            "ADR": 87.4,
+            "HS%": 0.238,
+            "FK": 1,
+            "FD": 1,
+            "PlusMinus2": 0
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Haven",
+        "score1": 13,
+        "score2": 5,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "NOOT",
+            "teamName": "Penguin Patrol",
+            "players": [
+              {
+                "Player": "King",
+                "Agent": "Jett",
+                "R1.0": 1.777,
+                "ACS": 393,
+                "K": 26,
+                "D": 11,
+                "A": 3,
+                "PlusMinus": 15,
+                "KAST": 0.889,
+                "ADR": 236.4,
+                "HS%": 0.222,
+                "FK": 9,
+                "FD": 1,
+                "PlusMinus2": 8
+              },
+              {
+                "Player": "Jamit",
+                "Agent": "Killjoy",
+                "R1.0": 1.48,
+                "ACS": 255,
+                "K": 19,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": 11,
+                "KAST": 0.722,
+                "ADR": 176.0,
+                "HS%": 0.193,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "Haike",
+                "Agent": "Omen",
+                "R1.0": 1.379,
+                "ACS": 229,
+                "K": 14,
+                "D": 11,
+                "A": 15,
+                "PlusMinus": 3,
+                "KAST": 0.889,
+                "ADR": 162.4,
+                "HS%": 0.214,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "Pengu",
+                "Agent": "Viper",
+                "R1.0": 0.935,
+                "ACS": 172,
+                "K": 10,
+                "D": 13,
+                "A": 7,
+                "PlusMinus": -3,
+                "KAST": 0.778,
+                "ADR": 126.5,
+                "HS%": 0.243,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "taylorgzz",
+                "Agent": "Sova",
+                "R1.0": 0.934,
+                "ACS": 157,
+                "K": 10,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": -1,
+                "KAST": 0.722,
+                "ADR": 104.6,
+                "HS%": 0.25,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              }
+            ]
+          },
+          {
+            "team": "LARP",
+            "teamName": "Larpiat\u00e1n",
+            "players": [
+              {
+                "Player": "synth",
+                "Agent": "Sova",
+                "R1.0": 0.81,
+                "ACS": 172,
+                "K": 12,
+                "D": 14,
+                "A": 4,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 100.7,
+                "HS%": 0.235,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "oddlqt",
+                "Agent": "Jett",
+                "R1.0": 0.785,
+                "ACS": 207,
+                "K": 11,
+                "D": 16,
+                "A": 6,
+                "PlusMinus": -5,
+                "KAST": 0.556,
+                "ADR": 145.1,
+                "HS%": 0.256,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "Ellie",
+                "Agent": "Killjoy",
+                "R1.0": 0.743,
+                "ACS": 203,
+                "K": 12,
+                "D": 16,
+                "A": 4,
+                "PlusMinus": -4,
+                "KAST": 0.444,
+                "ADR": 140.3,
+                "HS%": 0.163,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "Kaiser",
+                "Agent": "Phoenix",
+                "R1.0": 0.701,
+                "ACS": 175,
+                "K": 10,
+                "D": 16,
+                "A": 5,
+                "PlusMinus": -6,
+                "KAST": 0.611,
+                "ADR": 121.9,
+                "HS%": 0.195,
+                "FK": 2,
+                "FD": 4,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "mide",
+                "Agent": "Omen",
+                "R1.0": 0.504,
+                "ACS": 145,
+                "K": 9,
+                "D": 17,
+                "A": 5,
+                "PlusMinus": -8,
+                "KAST": 0.5,
+                "ADR": 88.5,
+                "HS%": 0.421,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lotus",
+        "score1": 13,
+        "score2": 9,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 20,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 22,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "NOOT",
+            "teamName": "Penguin Patrol",
+            "players": [
+              {
+                "Player": "Jamit",
+                "Agent": "Vyse",
+                "R1.0": 1.611,
+                "ACS": 295,
+                "K": 25,
+                "D": 11,
+                "A": 6,
+                "PlusMinus": 14,
+                "KAST": 0.818,
+                "ADR": 198.0,
+                "HS%": 0.322,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "King",
+                "Agent": "Raze",
+                "R1.0": 1.308,
+                "ACS": 282,
+                "K": 22,
+                "D": 16,
+                "A": 4,
+                "PlusMinus": 6,
+                "KAST": 0.818,
+                "ADR": 193.8,
+                "HS%": 0.239,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "Haike",
+                "Agent": "Omen",
+                "R1.0": 1.296,
+                "ACS": 260,
+                "K": 20,
+                "D": 15,
+                "A": 11,
+                "PlusMinus": 5,
+                "KAST": 0.818,
+                "ADR": 164.2,
+                "HS%": 0.254,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "taylorgzz",
+                "Agent": "Fade",
+                "R1.0": 0.849,
+                "ACS": 144,
+                "K": 11,
+                "D": 14,
+                "A": 7,
+                "PlusMinus": -3,
+                "KAST": 0.636,
+                "ADR": 98.9,
+                "HS%": 0.186,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "Pengu",
+                "Agent": "Viper",
+                "R1.0": 0.837,
+                "ACS": 135,
+                "K": 12,
+                "D": 14,
+                "A": 1,
+                "PlusMinus": -2,
+                "KAST": 0.727,
+                "ADR": 97.5,
+                "HS%": 0.265,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              }
+            ]
+          },
+          {
+            "team": "LARP",
+            "teamName": "Larpiat\u00e1n",
+            "players": [
+              {
+                "Player": "mide",
+                "Agent": "Omen",
+                "R1.0": 1.147,
+                "ACS": 261,
+                "K": 20,
+                "D": 18,
+                "A": 10,
+                "PlusMinus": 2,
+                "KAST": 0.773,
+                "ADR": 161.7,
+                "HS%": 0.104,
+                "FK": 4,
+                "FD": 3,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "Ellie",
+                "Agent": "Killjoy",
+                "R1.0": 0.864,
+                "ACS": 175,
+                "K": 13,
+                "D": 15,
+                "A": 5,
+                "PlusMinus": -2,
+                "KAST": 0.636,
+                "ADR": 108.7,
+                "HS%": 0.123,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "oddlqt",
+                "Agent": "Neon",
+                "R1.0": 0.729,
+                "ACS": 191,
+                "K": 14,
+                "D": 20,
+                "A": 4,
+                "PlusMinus": -6,
+                "KAST": 0.636,
+                "ADR": 128.0,
+                "HS%": 0.182,
+                "FK": 5,
+                "FD": 4,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "Kaiser",
+                "Agent": "Viper",
+                "R1.0": 0.727,
+                "ACS": 194,
+                "K": 14,
+                "D": 19,
+                "A": 2,
+                "PlusMinus": -5,
+                "KAST": 0.545,
+                "ADR": 131.1,
+                "HS%": 0.381,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "synth",
+                "Agent": "Fade",
+                "R1.0": 0.506,
+                "ACS": 123,
+                "K": 9,
+                "D": 18,
+                "A": 2,
+                "PlusMinus": -9,
+                "KAST": 0.545,
+                "ADR": 76.5,
+                "HS%": 0.241,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=gfbBZCaY7Wk"
   },
   {
     "id": "atlc-vs-faze-s2-group-stage-2026-07-05",
