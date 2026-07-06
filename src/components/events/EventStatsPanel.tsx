@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import type { Event } from '../../types/types.ts'
+import type { Event, PlayerStats } from '../../types/types.ts'
 import { useStore } from '@nanostores/react'
 import { $playerStats } from '../../stores/store.ts'
 import PlayerStatTable from '../stats/PlayerStatTable.tsx'
@@ -63,7 +63,10 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: {
 			</div>
 			{players.length > 0 ? (
 				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 p-4 sm:p-6">
-					<PlayerStatTable playerStats={players} showSeason={false} />
+					<PlayerStatTable playerStats={players.map((player: PlayerStats & { eventId?: string }) => {
+						player.eventId = event.id;
+						return player;
+					})} showSeason={false} />
 				</div>
 			) : (
 				<div className="flex flex-col p-6 text-black dark:text-vlr-text-white">
