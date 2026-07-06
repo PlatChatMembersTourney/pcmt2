@@ -51,6 +51,8 @@ export interface Round {
 	round: number;
 	winner: 0 | 1 | 2; // which team won - 0 for placeholder rounds
 	side: "atk" | "def";
+	endType?: "Eliminated" | "Bomb detonated" | "Bomb defused" | "Round timer expired"; // how the round ended
+	// this only exists on newer data (so may not exist for all games)
 }
 
 // Full per-map detail: score, round-by-round, and per-map stats

@@ -74,24 +74,54 @@ const Timeline: React.FC<TimelineProps> = (props) => {
 						</p>
 						<div
 							className={
-								'h-5 w-5 rounded-xs ' +
+								'h-5 w-5 rounded-xs flex items-center justify-center ' +
 								(round.winner === 1
 									? round.side === 'def'
 										? 'bg-[#24b298]'
 										: 'bg-[#e25d5a]'
 									: 'bg-[#dddddd] dark:bg-vlr-gray-500')
 							}
-						></div>
+						>
+							{round.winner === 1 && round.endType && (
+								<img
+									src={`
+								/icons/rounds/${
+									{
+										Eliminated: 'elim.webp',
+										'Bomb detonated': 'boom.webp',
+										'Bomb defused': 'defuse.webp',
+										'Round timer expired': 'time.webp',
+									}[round.endType]
+								}`}
+									className="h-4.5 w-4.5 object-contain"
+								/>
+							)}
+						</div>
 						<div
 							className={
-								'h-5 w-5 rounded-xs ' +
+								'h-5 w-5 rounded-xs flex items-center justify-center ' +
 								(round.winner === 2
 									? round.side === 'def'
 										? 'bg-[#24b298]'
 										: 'bg-[#e25d5a]'
 									: 'bg-[#dddddd] dark:bg-vlr-gray-500')
 							}
-						></div>
+						>
+							{round.winner === 2 && round.endType && (
+								<img
+									src={`
+								/icons/rounds/${
+									{
+										Eliminated: 'elim.webp',
+										'Bomb detonated': 'boom.webp',
+										'Bomb defused': 'defuse.webp',
+										'Round timer expired': 'time.webp',
+									}[round.endType]
+								}`}
+									className="h-4.5 w-4.5 object-contain"
+								/>
+							)}
+						</div>
 					</div>
 				)
 			})}

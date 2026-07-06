@@ -162,6 +162,7 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 									match.maps[idx].score1 +
 									match.maps[idx].score2
 								}
+								key={idx}
 							/>
 						)}
 					</>
