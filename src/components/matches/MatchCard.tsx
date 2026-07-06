@@ -124,7 +124,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 				)}
 			</div>
 			<div className="hidden flex-col ml-auto md:flex text-right text-xs">
-				<p className="dark:text-vlr-text-white font-medium">PCMT: {event.region.toUpperCase()}</p>
+				<p className="dark:text-vlr-text-white font-medium">PCMT: {event.region.toUpperCase()} S{event.season}</p>
 				<p className="dark:text-vlr-text-light">{match.stage}</p>
 			</div>
 		</a>
