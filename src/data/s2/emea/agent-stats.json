@@ -1,0 +1,215 @@
+{
+  "Ascent": {
+    "mapsPlayed": 1,
+    "atkPct": 0.65,
+    "defPct": 0.35,
+    "agents": [
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "ATLC": {
+        "team": "ATLC",
+        "teamName": "ATLNTIC Esports",
+        "agents": [
+          "Chamber",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "FaZe": {
+        "team": "FaZe",
+        "teamName": "Fabulous and Zesty",
+        "agents": [
+          "Jett",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Vyse"
+        ]
+      }
+    }
+  },
+  "Summit": {
+    "mapsPlayed": 1,
+    "atkPct": 0.773,
+    "defPct": 0.227,
+    "agents": [
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "ATLC": {
+        "team": "ATLC",
+        "teamName": "ATLNTIC Esports",
+        "agents": [
+          "Astra",
+          "Cypher",
+          "Fade",
+          "Neon",
+          "Phoenix"
+        ]
+      },
+      "FaZe": {
+        "team": "FaZe",
+        "teamName": "Fabulous and Zesty",
+        "agents": [
+          "Fade",
+          "Killjoy",
+          "Omen",
+          "Viper",
+          "Waylay"
+        ]
+      }
+    }
+  },
+  "Sunset": {
+    "mapsPlayed": 1,
+    "atkPct": 0.524,
+    "defPct": 0.476,
+    "agents": [
+      {
+        "agent": "Phoenix",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "ATLC": {
+        "team": "ATLC",
+        "teamName": "ATLNTIC Esports",
+        "agents": [
+          "Astra",
+          "Cypher",
+          "Fade",
+          "Neon",
+          "Phoenix"
+        ]
+      },
+      "FaZe": {
+        "team": "FaZe",
+        "teamName": "Fabulous and Zesty",
+        "agents": [
+          "Cypher",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Waylay"
+        ]
+      }
+    }
+  }
+}
