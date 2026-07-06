@@ -50,13 +50,13 @@ const {
 
 		<!-- Prevent FART -->
 		<script is:inline>
-			if (theme === 'light') {
+			if (localStorage?.getItem("theme") === 'light') {
 				document.body.classList.remove('dark');
 			} else {
 				document.body.classList.add('dark');
 			}
 
-			if (fun === 'yes') {
+			if (localStorage?.getItem("fun") === 'yes') {
 				document.body.classList.add('fun');
 			} else {
 				document.body.classList.remove('fun');
