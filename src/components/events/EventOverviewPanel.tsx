@@ -77,7 +77,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: {
 								</div>
 							) : (
 								format.groupNames?.map((groupName) => (
-									<div className="overflow-x-auto flex-1">
+									<div className="overflow-x-auto flex-1" key={groupName}>
 										<GroupStandingsBox
 											standings={allStandings[groupName]}
 											teamColors={format.teamColors!}

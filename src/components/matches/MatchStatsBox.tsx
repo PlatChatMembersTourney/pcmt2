@@ -1,4 +1,4 @@
-import type { Match, Event, TeamInfo } from '../../types/types.ts'
+import type { Match, Event, TeamInfo, MapDetail } from '../../types/types.ts'
 import { useState } from 'react'
 import StatsTable from './StatsTable.tsx'
 import Timeline from './Timeline.tsx'
@@ -8,6 +8,23 @@ import { $teams } from '../../stores/store.ts'
 interface MatchStatsBoxProps {
 	match: Match
 	event: Event
+}
+
+const getAgents = (mapDetails: MapDetail[])=> {
+	const agents: Record<string, Set<string>> = {}
+
+	mapDetails.forEach((details) => {
+		details.stats.forEach((stat) => {
+			stat.players.forEach((player) => {
+				if (!(player.Player in agents)) {
+					agents[player.Player] = new Set()
+				}
+				agents[player.Player].add(player.Agent!)
+			})
+		})
+	});
+
+	return agents;
 }
 
 const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
@@ -37,24 +54,6 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 
 	// map 0: all maps
 	const [selectedMap, setSelectedMap] = useState(0)
-
-	const agents: Record<string, Set<string>> = {}
-
-	const selectedDetails =
-		selectedMap === 0
-			? match.mapDetails
-			: [match.mapDetails[selectedMap - 1]]
-
-	selectedDetails.forEach((details) => {
-		details.stats.forEach((stat) => {
-			stat.players.forEach((player) => {
-				if (!(player.Player in agents)) {
-					agents[player.Player] = new Set()
-				}
-				agents[player.Player].add(player.Agent!)
-			})
-		})
-	})
 
 	return (
 		<div className="flex flex-col bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow">
@@ -142,23 +141,31 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 						</div>
 					</>
 				)}
-				<StatsTable
-					agents={agents}
-					event={event}
-					teamStats={
-						selectedMap === 0
-							? match.combinedStats
-							: match.mapDetails[selectedMap - 1].stats
-					}
-					rounds={
-						selectedMap === 0
-							? match.maps
-									.map((m) => m.score1 + m.score2)
-									.reduce((a, b) => a + b)
-							: match.maps[selectedMap - 1].score1 +
-								match.maps[selectedMap - 1].score2
-					}
-				/>
+				{selectedMap === 0 && (
+					<StatsTable
+						agents={getAgents(match.mapDetails)}
+						event={event}
+						teamStats={match.combinedStats}
+						rounds={match.maps
+							.map((m) => m.score1 + m.score2)
+							.reduce((a, b) => a + b)}
+					/>
+				)}
+				{match.maps.map((map, idx) => (
+					<>
+						{selectedMap === idx + 1 && (
+							<StatsTable
+								agents={getAgents([match.mapDetails[idx]])}
+								event={event}
+								teamStats={match.mapDetails[idx].stats}
+								rounds={
+									match.maps[idx].score1 +
+									match.maps[idx].score2
+								}
+							/>
+						)}
+					</>
+				))}
 			</div>
 		</div>
 	)
