@@ -69,7 +69,7 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: {
 							onClick={() =>
 								setStickyPlayerNames(!stickyPlayerNames)
 							}
-							className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} text-xs rounded-sm bg-vlr-gray-100 dark:bg-vlr-gray-600 p-2 dark:text-vlr-text-white text-vlr-text-dark`}
+							className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} cursor-pointer text-xs rounded-sm bg-vlr-gray-100 dark:bg-vlr-gray-600 p-2 dark:text-vlr-text-white text-vlr-text-dark`}
 						>
 							Sticky Player Names
 						</button>
