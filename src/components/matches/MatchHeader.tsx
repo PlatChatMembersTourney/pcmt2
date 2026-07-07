@@ -66,7 +66,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 			</div>
 			<div className="mt-10 mb-15 flex items-center justify-center">
 				<a
-					href={`/events/${event.id}/teams/${slugify(match.team1Name)}`}
+					href={`/events/${event.id}/teams/${slugify(match.team1Name, {lower: true})}`}
 					className="font-black text-base leading-tight md:text-xl w-30 md:w-37.5 text-right text-plat-blue-dark dark:text-vlr-text-white"
 				>
 					{match.team1Name}
@@ -132,7 +132,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 					/>
 				</div>
 				<a
-					href={`/events/${event.id}/teams/${slugify(match.team2Name)}`}
+					href={`/events/${event.id}/teams/${slugify(match.team2Name, {lower: true})}`}
 					className="font-black text-base leading-tight md:text-xl w-30 md:w-37.5 text-plat-blue-dark dark:text-vlr-text-white"
 				>
 					{match.team2Name}

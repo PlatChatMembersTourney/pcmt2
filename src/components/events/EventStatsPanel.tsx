@@ -14,6 +14,7 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: {
 	const stages = ['All', ...Object.keys(playerStats).filter((name) => name !== 'Overall')];
 
 	const [activeStage, setActiveStage] = useState(0);
+	const [stickyPlayerNames, setStickyPlayerNames] = useState(true);
 
 	if (!event.stages) {
 		return (
@@ -62,11 +63,28 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: {
 				})}
 			</div>
 			{players.length > 0 ? (
-				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 p-4 sm:p-6">
-					<PlayerStatTable playerStats={players.map((player: PlayerStats & { eventId?: string }) => {
-						player.eventId = event.id;
-						return player;
-					})} showSeason={false} />
+				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 p-4 sm:p-6 flex flex-col gap-2 h-full max-h-[80vh]">
+					<div>
+						<button
+							onClick={() =>
+								setStickyPlayerNames(!stickyPlayerNames)
+							}
+							className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} text-xs rounded-sm bg-vlr-gray-100 dark:bg-vlr-gray-600 p-2 dark:text-vlr-text-white text-vlr-text-dark`}
+						>
+							Sticky Player Names
+						</button>
+					</div>
+
+					<PlayerStatTable
+						playerStats={players.map(
+							(player: PlayerStats & { eventId?: string }) => {
+								player.eventId = event.id
+								return player
+							}
+						)}
+						showSeason={false}
+						stickyPlayerNames={stickyPlayerNames}
+					/>
 				</div>
 			) : (
 				<div className="flex flex-col p-6 text-black dark:text-vlr-text-white">

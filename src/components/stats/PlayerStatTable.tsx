@@ -15,14 +15,17 @@ import { useState } from 'react'
 type PlayerStatsWithEventId = PlayerStats & { eventId?: string }
 
 interface PlayerStatTableProps {
-	playerStats: PlayerStatsWithEventId[]
-	showSeason?: boolean
+	playerStats: PlayerStatsWithEventId[];
+	showSeason?: boolean;
+	stickyPlayerNames: boolean;
 }
 
 import eventsRaw from '../../data/events.json'
 import { angusRating } from '../../utils/rating.ts'
 import { $teams } from '../../stores/store.ts'
 import { useStore } from '@nanostores/react'
+import CustomPopover from '../CustomPopover.tsx'
+import slugify from 'slugify'
 
 const events = eventsRaw as Event[]
 
@@ -32,7 +35,7 @@ const pctFormatter = new Intl.NumberFormat('en-US', {
 })
 
 const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
-	const { playerStats, showSeason } = props
+	const { playerStats, showSeason, stickyPlayerNames } = props
 	const teams = useStore($teams);
 
 	const [sorting, setSorting] = useState<SortingState>([])
@@ -44,6 +47,18 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	const playerInfoColumns: ColumnDef<PlayerStatsWithEventId, string>[] = [
 		columnHelper.accessor('Team', {
 			header: 'Team',
+			cell: (info) => {
+				const r = info.row.original
+				if (!(r.Team in teams[r.eventId!])) {
+					return <p>{r.Team}</p>
+				}
+				return (
+					<a href={`/events/${r.eventId}/teams/${slugify(teams[r.eventId!][r.Team].name, { lower: true })}`}>
+						{r.Team}
+					</a>
+				);
+			},
+			id: 'Team'
 		}),
 	]
 	if (showSeason) {
@@ -52,6 +67,15 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				(row) => row.eventId!.replace('-', ' ').toUpperCase(),
 				{
 					header: 'Season',
+					id: 'Season',
+					cell: (info) => {
+						const r = info.row.original
+						return (
+							<a href={`/events/${r.eventId}`}>
+								{r.eventId!.replace('-', ' ').toUpperCase()}
+							</a>
+						)
+					}
 				}
 			)
 		)
@@ -59,12 +83,11 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	const columns = [
 		columnHelper.accessor('Player', {
 			header: 'Player',
+			id: 'Player',
 			cell: (info) => {
-				const r = info.row.original;
-				if(!(r.Team in teams[r.eventId!])) {
-					return (
-						<p>{r.Player}</p>
-					)
+				const r = info.row.original
+				if (!(r.Team in teams[r.eventId!])) {
+					return <p>{r.Player}</p>
 				}
 				return (
 					<div className="flex flex-row items-center gap-1.5 min-w-max">
@@ -75,10 +98,14 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 								alt={r.Team}
 							/>
 						</div>
-						<p>{r.Player}</p>
+						<a
+							href={`/events/${r.eventId}/teams/${slugify(teams[r.eventId!][r.Team].name, { lower: true })}`}
+						>
+							{r.Player}
+						</a>
 					</div>
 				)
-			}
+			},
 		}),
 		columnHelper.group({
 			header: 'Info',
@@ -88,7 +115,48 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 			header: 'Rating',
 			columns: [
 				columnHelper.accessor((row) => Number(row['R1.0'].toFixed(2)), {
-					header: 'Toxic',
+					header: (info) => (
+						<CustomPopover
+							side={'bottom'}
+							content={
+								<div className="text-xs text-vlr-text-dark dark:text-vlr-text-light flex flex-col">
+									<p className="mb-1">
+										I say "toxic", but really it's stolen.
+									</p>
+
+									<p>Specifically, from Mark Zhdan's </p>
+									<a
+										href="https://www.markzhdan.com/blogs/reverse-engineering-vlr-rating"
+										className="underline mb-2"
+									>
+										attempt to reverse engineer VLR's Rating
+										2.0.
+									</a>
+
+									<p className="mb-1">The formula:</p>
+									<p className="text-black dark:text-white">
+										0.898 * KPR + 0.228 * APR + 0.0025 *
+										ADRa
+									</p>
+									<p className="text-black dark:text-white mb-1">
+										+ 0.434 * SR + 0.313 * KAST + 0.175
+									</p>
+									<p>
+										(ADRa = [(ADR * Rounds) - (140 * Kills)]
+										/ Rounds)
+									</p>
+									<p>(SR = (Rounds - Deaths) / Rounds)</p>
+								</div>
+							}
+							title={"Toxic's Rating"}
+							hover={true}
+						>
+							<span className="px-0.5 border-b-2 border-vlr-text-dark dark:border-vlr-text-light border-dotted">
+								Toxic
+							</span>
+						</CustomPopover>
+					),
+					id: 'Toxic',
 				}),
 				columnHelper.accessor(
 					(row) => {
@@ -99,7 +167,45 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 						return Number(ar.toFixed(2))
 					},
 					{
-						header: 'Angus',
+						header: (info) => (
+							<CustomPopover
+								side={'bottom'}
+								content={
+									<div className="text-xs text-vlr-text-dark dark:text-vlr-text-light flex flex-col">
+										<p>
+											Adjusted version of VLR rating
+											version 1.0.
+										</p>
+										<p className="mb-1">
+											(So like a 1.5, according to Angus.)
+										</p>
+
+										<p className="mb-1">The formula:</p>
+										<p className="text-black dark:text-white">
+											1.26 * KPR - 0.13 * DPR + 0.55 * APR
+										</p>
+										<p className="text-black dark:text-white mb-1">
+											+ 0.25 * FKPR - 0.26 * FDPR
+										</p>
+										<p>
+											Additionally, on the stats pages,
+											anyone with
+										</p>
+										<p>
+											3 or less maps played incurs a 20%
+											penalty.
+										</p>
+									</div>
+								}
+								title={"Angus's Rating"}
+								hover={true}
+							>
+								<span className="px-0.5 border-b-2 border-vlr-text-dark dark:border-vlr-text-light border-dotted">
+									Angus
+								</span>
+							</CustomPopover>
+						),
+						id: 'Angus',
 					}
 				),
 			],
@@ -127,6 +233,23 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				columnHelper.accessor('A', {
 					header: 'A',
 				}),
+			],
+		}),
+		columnHelper.group({
+			header: 'Ratio',
+			columns: [
+				columnHelper.accessor(
+					(row) => Number((row.K / row.D).toFixed(2)),
+					{
+						header: 'K/D',
+					}
+				),
+				columnHelper.accessor(
+					(row) => Number(((row.K + row.A) / row.D).toFixed(2)),
+					{
+						header: 'KDA',
+					}
+				),
 			],
 		}),
 		columnHelper.group({
@@ -213,7 +336,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	}
 
 	return (
-		<div className="text-base dark:text-vlr-text-white text-vlr-text-dark vlr-box-shadow overflow-x-auto">
+		<div className="text-base dark:text-vlr-text-white text-vlr-text-dark vlr-box-shadow overflow-auto max-h-full">
 			<table className="border-separate border-spacing-0">
 				<thead>
 					{table.getHeaderGroups().map((headerGroup, groupIdx) => (
@@ -224,26 +347,28 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 							{groupIdx === 0 && (
 								<th
 									rowSpan={table.getHeaderGroups().length}
-									className="align-bottom border-r vlr-border sticky left-0 z-20 w-12 py-1 bg-gray-100 dark:bg-vlr-gray-900 cool-border-top cool-border-pb after:top-0! after:z-10!"
+									className="align-bottom border-r vlr-border sticky left-0 top-0 z-30 w-12 py-1 bg-gray-100 dark:bg-vlr-gray-900 cool-border-top cool-border-pb after:top-0! after:z-10!"
 								>
 									#
 								</th>
 							)}
 							{headerGroup.headers.map((header) => {
 								const stickyClass = (columnId: string) =>
-									columnId === 'Player'
-										? 'sticky left-12 z-20 bg-gray-100 dark:bg-vlr-gray-900'
-										: ''
+									(columnId === 'Player' && stickyPlayerNames)
+										? 'left-12 z-30'
+										: 'z-20'
 								return (
 									<th
 										key={header.id}
 										colSpan={header.colSpan}
-										className={`${
+										className={`sticky bg-gray-100 dark:bg-vlr-gray-900 ${
 											isGroupBoundary(header.column)
 												? 'border-r vlr-border py-1 px-1'
 												: ''
 										} ${stickyClass(header.column.id)} ${
-											groupIdx === 0 ? "relative cool-border-top cool-border-pb after:top-0! pt-1.75" : ""
+											groupIdx === 0
+												? 'relative cool-border-top cool-border-pb after:top-0! pt-1.75 h-8.75 top-0'
+												: 'top-8.75'
 										}`}
 									>
 										{header.isPlaceholder ? null : (
@@ -266,17 +391,19 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 														: undefined
 												}
 											>
-												{flexRender(
-													header.column.columnDef
-														.header,
-													header.getContext()
-												)}
-												{{
-													asc: '▲',
-													desc: '▼',
-												}[
-													header.column.getIsSorted() as string
-												] ?? null}
+												<div className="flex justify-center">
+													{flexRender(
+														header.column.columnDef
+															.header,
+														header.getContext()
+													)}
+													{{
+														asc: '▲',
+														desc: '▼',
+													}[
+														header.column.getIsSorted() as string
+													] ?? null}
+												</div>
 											</div>
 										)}
 									</th>
@@ -302,7 +429,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 											? 'border-r vlr-border'
 											: ''
 									} ${
-										cell.column.id === 'Player'
+										(cell.column.id === 'Player' && stickyPlayerNames)
 											? 'sticky left-12 z-10 group-odd:bg-vlr-gray-100 group-even:bg-vlr-gray-200 group-odd:dark:bg-vlr-gray-600 group-even:dark:bg-vlr-gray-700'
 											: ''
 									}`}

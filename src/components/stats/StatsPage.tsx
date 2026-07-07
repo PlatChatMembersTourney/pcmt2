@@ -15,8 +15,10 @@ const events = eventsRaw as Event[]
 type PlayerStatsWithEventId = PlayerStats & { eventId: string }
 
 const TeamsPage: React.FC = () => {
-	const [region, setRegion] = useState(['All'])
-	const [season, setSeason] = useState(['All'])
+	const [region, setRegion] = useState(['All']);
+	const [season, setSeason] = useState(['All']);
+
+	const [stickyPlayerNames, setStickyPlayerNames] = useState(false);
 
 	const allPlayerStats = useStore($allPlayerStats);
 
@@ -53,7 +55,7 @@ const TeamsPage: React.FC = () => {
 	)
 
 	return (
-		<div className="flex flex-col font-[roboto] dark:bg-vlr-gray-800 bg-vlr-gray-300">
+		<div className="flex flex-col font-[roboto] dark:bg-vlr-gray-800 bg-vlr-gray-300 h-full min-h-0">
 			<div className="mx-4 mt-4 sm:mx-6 sm:mt-6 gap-4 flex flex-col md:flex-row">
 				<div className="h-12 flex w-full bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow items-stretch">
 					<div className="flex items-center px-5 border-r border-vlr-border-light dark:border-vlr-border-gray">
@@ -135,11 +137,23 @@ const TeamsPage: React.FC = () => {
 						))}
 					</ToggleGroup>
 				</div>
+				<div>
+					<button
+						onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
+						className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} text-xs rounded-sm bg-vlr-gray-100 dark:bg-vlr-gray-600 p-2 dark:text-vlr-text-white text-vlr-text-dark`}
+					>
+						Sticky Player Names
+					</button>
+				</div>
 			</div>
 
 			{players.length > 0 ? (
-				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 p-4 sm:p-6">
-					<PlayerStatTable playerStats={players} showSeason={true} />
+				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 p-4 sm:p-6 min-h-0 flex-1">
+					<PlayerStatTable
+						playerStats={players}
+						showSeason={true}
+						stickyPlayerNames={stickyPlayerNames}
+					/>
 				</div>
 			) : (
 				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 p-4 sm:p-6 text-black dark:text-vlr-text-white h-full">

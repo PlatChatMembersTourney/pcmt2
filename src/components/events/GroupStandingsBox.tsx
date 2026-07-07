@@ -63,7 +63,7 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 									</div>
 									<div className="flex-col overflow-hidden min-w-0">
 										<a
-											href={`/events/${event.id}/teams/${slugify(standing.name)}`}
+											href={`/events/${event.id}/teams/${slugify(standing.name, { lower: true })}`}
 											className="overflow-hidden text-ellipsis whitespace-nowrap text-pb text-xs font-bold min-w-0"
 										>
 											{standing.name}

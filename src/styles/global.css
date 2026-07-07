@@ -6,7 +6,9 @@
 @custom-variant fun (&:where(.fun, .fun *));
 
 /* For Base UI */
-.root {   isolation: isolate; }
+.root {
+    isolation: isolate;
+}
 
 /* Custom colors */
 @theme {
@@ -17,7 +19,6 @@
     --color-vlr-gray-650: #373e43;
     --color-vlr-gray-600: #3e454c;
     --color-vlr-gray-500: #4e575f; /* used for button hover */
-
     /* Light Theme */
     --color-vlr-gray-400: #c4c6c6;
     --color-vlr-gray-300: #dcdcda;
@@ -101,4 +102,35 @@
     @apply px-1.75;
     @apply rounded-xs;
     @apply text-xs;
+}
+
+.popover-arrow {
+    @apply block;
+    @apply relative;
+    @apply w-3;
+    @apply h-1.5;
+    @apply overflow-clip;
+}
+
+.popover-arrow-top {
+    @apply -bottom-1.5;
+    @apply rotate-180;
+}
+
+.popover-arrow-bottom {
+    @apply -top-1.5;
+    @apply rotate-0;
+}
+
+.popover-arrow::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    box-sizing: border-box;
+    width: calc(6px * sqrt(2));
+    height: calc(6px * sqrt(2));
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, 50%) rotate(45deg);
 }

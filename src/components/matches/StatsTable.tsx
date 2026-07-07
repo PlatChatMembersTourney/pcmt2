@@ -1,5 +1,6 @@
 import type { TeamStats, Event } from '../../types/types.ts'
 import { angusRating } from '../../utils/rating.ts'
+import CustomPopover from '../CustomPopover.tsx'
 
 interface StatsTableProps {
 	agents: Record<string, Set<string>>
@@ -25,11 +26,89 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 								<tr className="font-bold text-[11px] px-0.75 text-vlr-text-gray dark:text-vlr-text-white">
 									<th></th>
 									<th title="Agent"></th>
-									<th title="Rating (Toxic)">
-										R<sup>T</sup>
+									<th>
+										<CustomPopover
+											side={'top'}
+											content={
+												<div className="text-xs text-vlr-text-dark dark:text-vlr-text-light flex flex-col">
+													<p className="mb-1">
+														I say "toxic", but
+														really it's stolen.
+													</p>
+
+													<p>
+														Specifically, from Mark
+														Zhdan's{' '}
+													</p>
+													<a
+														href="https://www.markzhdan.com/blogs/reverse-engineering-vlr-rating"
+														className="underline mb-2"
+													>
+														attempt to reverse
+														engineer VLR's Rating
+														2.0.
+													</a>
+
+													<p className="mb-1">
+														The formula:
+													</p>
+													<p className="text-black dark:text-white">
+														0.898 * KPR + 0.228 *
+														APR + 0.0025 * ADRa
+													</p>
+													<p className="text-black dark:text-white mb-1">
+														+ 0.434 * SR + 0.313 *
+														KAST + 0.175
+													</p>
+													<p>
+														(ADRa = [(ADR * Rounds)
+														- (140 * Kills)] /
+														Rounds)
+													</p>
+													<p>
+														(SR = (Rounds - Deaths)
+														/ Rounds)
+													</p>
+												</div>
+											}
+											title={"Toxic's Rating"}
+										>
+											<span className="px-0.5 border-b-2 border-vlr-text-dark dark:border-vlr-text-light border-dotted">
+												R<sup>T</sup>
+											</span>
+										</CustomPopover>
 									</th>
-									<th title="Rating (Angus)">
-										R<sup>A</sup>
+									<th>
+										<CustomPopover
+											side={'top'}
+											content={
+												<div className="text-xs text-vlr-text-dark dark:text-vlr-text-light flex flex-col">
+													<p>
+														Adjusted version of VLR
+														rating version 1.0.
+													</p>
+													<p className="mb-1">
+														(So like a 1.5,
+														according to Angus.)
+													</p>
+
+													<p className="mb-1">
+														The formula:
+													</p>
+													<p className="text-black dark:text-white">
+														1.26 * KPR - 0.13 * DPR + 0.55 * APR
+													</p>
+													<p className="text-black dark:text-white">
+														+ 0.25 * FKPR - 0.26 * FDPR
+													</p>
+												</div>
+											}
+											title={"Angus's Rating"}
+										>
+											<span className="px-0.5 border-b-2 border-vlr-text-dark dark:border-vlr-text-light border-dotted">
+												R<sup>A</sup>
+											</span>
+										</CustomPopover>
 									</th>
 									<th title="Average Combat Score">ACS</th>
 									<th title="Kills">
@@ -54,7 +133,9 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 									</th>
 									<th title="Headshot %">HS%</th>
 									<th title="First Kills">
-										<div className="flex ml-1.25 justify-center">FK</div>
+										<div className="flex ml-1.25 justify-center">
+											FK
+										</div>
 									</th>
 									<th title="First Deaths">FD</th>
 									<th title="First Kills - First Deaths">
@@ -66,7 +147,10 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 								{team.players.map((player) => {
 									const a = [...agents[player.Player]]
 									return (
-										<tr className="text-vlr-text-dark dark:text-vlr-text-white text-[11px] px-0.75" key={player.Player}>
+										<tr
+											className="text-vlr-text-dark dark:text-vlr-text-white text-[11px] px-0.75"
+											key={player.Player}
+										>
 											<td className="flex gap-2 items-center bg-transparent! sm:w-25 h-10">
 												<img
 													src={

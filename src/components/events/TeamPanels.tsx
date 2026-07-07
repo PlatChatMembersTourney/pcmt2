@@ -10,6 +10,7 @@ import TeamMapStatsTable from './TeamMapStatsTable.tsx'
 interface TeamPanelsProps {
 	event: Event;
 	team: TeamInfo;
+	fun?: boolean;
 }
 
 const pctFormatter = new Intl.NumberFormat('en-US', {
@@ -31,7 +32,7 @@ const exclamations = [
 ]
 
 const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
-	const { event, team } = props;
+	const { event, team, fun } = props;
 	const pages = ['Overview', 'Matches', 'Stats']
 	const [active, setActive] = useState<string>('Overview');
 	const [reverse, setReverse] = useState(false);
@@ -115,7 +116,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 						{team.players.map((player) => {
 							return (
 								<p className="text-sm" key={player}>
-									{team.name !== 'Team Dyslexia'
+									{(team.name !== 'Team Dyslexia' || !fun)
 										? player
 										: [...player]
 												.sort(() => Math.random() - 0.5)

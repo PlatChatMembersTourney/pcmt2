@@ -1,5 +1,6 @@
 import type { TeamInfo, Event } from '../../types/types.ts'
 import TeamPanels from './TeamPanels.tsx'
+import { useEffect, useState } from 'react'
 
 interface TeamPageProps {
 	team: TeamInfo;
@@ -10,7 +11,17 @@ const TeamPage: React.FC<TeamPageProps> = (props) => {
 	const { event, team } = props;
 	const region = event.region;
 
+	const [funVal, setFunVal] = useState('off');
+
+	useEffect(() => {
+		const savedToken = localStorage.getItem('fun')
+		if(savedToken) {
+			setFunVal(savedToken)
+		}
+	})
+
 	const dyslexia = team.name === 'Team Dyslexia';
+	const fun = funVal === 'yes';
 
 	return (
 		<div className="font-[roboto]">
@@ -30,20 +41,20 @@ const TeamPage: React.FC<TeamPageProps> = (props) => {
 						href={`/events/${event.id}`}
 						className="text-pb text-[10pt] leading-4"
 					>
-						{dyslexia
+						{(dyslexia && fun)
 							? 'Palt Chat Mbemres Tuoranmnte:'
 							: 'Plat Chat Members Tournament:'}{' '}
 						S{event.season} {event.region.toUpperCase()}
 					</a>
 					<h1 className="text-black dark:text-vlr-text-white font-bold sm:text-2xl text-xl mb-1">
-						{dyslexia ? 'Taem Lydsexia' : team.name}{' '}
+						{(dyslexia && fun) ? 'Taem Lydsexia' : team.name}{' '}
 						<span className="text-vlr-text-gray font-normal">
 							{team.abbr}
 						</span>
 					</h1>
 				</div>
 			</div>
-			<TeamPanels team={team} event={event} />
+			<TeamPanels team={team} event={event} fun={fun} />
 		</div>
 	)
 }
