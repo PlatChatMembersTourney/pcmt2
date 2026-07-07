@@ -53,6 +53,19 @@
       "rndDiff": 24
     },
     {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 3,
+      "matchL": 1,
+      "mapW": 6,
+      "mapL": 3,
+      "rndW": 99,
+      "rndL": 96,
+      "rank": 5,
+      "mapDiff": 3,
+      "rndDiff": 3
+    },
+    {
       "abbr": "C9",
       "name": "Clown9",
       "matchW": 3,
@@ -61,7 +74,7 @@
       "mapL": 5,
       "rndW": 136,
       "rndL": 120,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": 1,
       "rndDiff": 16
     },
@@ -74,35 +87,22 @@
       "mapL": 0,
       "rndW": 52,
       "rndL": 35,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": 4,
       "rndDiff": 17
-    },
-    {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 2,
-      "matchL": 1,
-      "mapW": 4,
-      "mapL": 3,
-      "rndW": 73,
-      "rndL": 76,
-      "rank": 7,
-      "mapDiff": 1,
-      "rndDiff": -3
     },
     {
       "abbr": "TL",
       "name": "Team Dyslexia",
       "matchW": 2,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 4,
-      "mapL": 4,
-      "rndW": 74,
-      "rndL": 79,
+      "mapL": 6,
+      "rndW": 94,
+      "rndL": 105,
       "rank": 8,
-      "mapDiff": 0,
-      "rndDiff": -5
+      "mapDiff": -2,
+      "rndDiff": -11
     },
     {
       "abbr": "IHOP",
@@ -224,6 +224,19 @@
       "rndDiff": 23
     },
     {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 3,
+      "matchL": 1,
+      "mapW": 6,
+      "mapL": 3,
+      "rndW": 99,
+      "rndL": 96,
+      "rank": 2,
+      "mapDiff": 3,
+      "rndDiff": 3
+    },
+    {
       "abbr": "C9",
       "name": "Clown9",
       "matchW": 3,
@@ -232,35 +245,22 @@
       "mapL": 5,
       "rndW": 136,
       "rndL": 120,
-      "rank": 2,
-      "mapDiff": 1,
-      "rndDiff": 16
-    },
-    {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 2,
-      "matchL": 1,
-      "mapW": 4,
-      "mapL": 3,
-      "rndW": 73,
-      "rndL": 76,
       "rank": 3,
       "mapDiff": 1,
-      "rndDiff": -3
+      "rndDiff": 16
     },
     {
       "abbr": "TL",
       "name": "Team Dyslexia",
       "matchW": 2,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 4,
-      "mapL": 4,
-      "rndW": 74,
-      "rndL": 79,
+      "mapL": 6,
+      "rndW": 94,
+      "rndL": 105,
       "rank": 4,
-      "mapDiff": 0,
-      "rndDiff": -5
+      "mapDiff": -2,
+      "rndDiff": -11
     },
     {
       "abbr": "IHOP",
