@@ -67,11 +67,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 									)}
 								</div>
 								<img
-									src={
-										event.region === 'na'
-											? '/icons/flags/16/us.png'
-											: '/icons/flags/16/eu.png'
-									}
+									src={`/icons/flags/16/${event.region}.png`}
 									className="w-4"
 								/>
 							</div>

@@ -153,11 +153,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 										>
 											<td className="flex gap-2 items-center bg-transparent! sm:w-25 h-10">
 												<img
-													src={
-														event.region === 'na'
-															? '/icons/flags/16/us.png'
-															: '/icons/flags/16/eu.png'
-													}
+													src={`/icons/flags/16/${event.region}.png`}
 												/>
 												<div className="flex flex-col items-start leading-snug">
 													<p className="text-pb font-medium text-xs">
