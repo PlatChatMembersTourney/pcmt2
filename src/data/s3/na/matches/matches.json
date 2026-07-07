@@ -1,5 +1,18 @@
 [
   {
+    "id": "t1-vs-fnc-s3-group-alpha-2026-07-13",
+    "team1": "T1",
+    "team2": "FNC",
+    "team1Name": "Team 1",
+    "team2Name": "cow paulo FaN Club",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-07-13T23:00:00Z",
+    "stage": "Group Alpha"
+  },
+  {
     "id": "100t-vs-dfm-s3-group-omega-2026-07-08",
     "team1": "100T",
     "team2": "DFM",
