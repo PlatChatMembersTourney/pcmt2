@@ -56,8 +56,8 @@ const TeamsPage: React.FC = () => {
 
 	return (
 		<div className="flex flex-col font-[roboto] dark:bg-vlr-gray-800 bg-vlr-gray-300 h-full min-h-0">
-			<div className="mx-4 mt-4 sm:mx-6 sm:mt-6 gap-4 flex flex-col md:flex-row">
-				<div className="h-12 flex w-full bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow items-stretch">
+			<div className="mx-4 mt-4 sm:mx-6 sm:mt-6 gap-2 sm:gap-4 flex flex-col md:flex-row">
+				<div className="h-9 sm:h-12 flex w-full bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow items-stretch">
 					<div className="flex items-center px-5 border-r border-vlr-border-light dark:border-vlr-border-gray">
 						<p className="uppercase text-[11px] font-bold text-vlr-text-gray dark:text-vlr-text-white">
 							Region
@@ -97,7 +97,7 @@ const TeamsPage: React.FC = () => {
 						))}
 					</ToggleGroup>
 				</div>
-				<div className="h-12 flex w-full bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow items-stretch">
+				<div className="h-9 sm:h-12 flex w-full bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow items-stretch">
 					<div className="flex items-center px-5 border-r border-vlr-border-light dark:border-vlr-border-gray">
 						<p className="uppercase text-[11px] font-bold text-vlr-text-gray dark:text-vlr-text-white">
 							Season
@@ -137,18 +137,18 @@ const TeamsPage: React.FC = () => {
 						))}
 					</ToggleGroup>
 				</div>
-				<div>
-					<button
-						onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
-						className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} text-xs rounded-sm bg-vlr-gray-100 dark:bg-vlr-gray-600 p-2 dark:text-vlr-text-white text-vlr-text-dark`}
-					>
-						Sticky Player Names
-					</button>
-				</div>
+			</div>
+			<div className="mx-4 sm:mx-6 mt-2 sm:mt-4">
+				<button
+					onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
+					className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} text-xs rounded-sm bg-vlr-gray-100 dark:bg-vlr-gray-600 p-2 dark:text-vlr-text-white text-vlr-text-dark`}
+				>
+					Sticky Player Names
+				</button>
 			</div>
 
 			{players.length > 0 ? (
-				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 p-4 sm:p-6 min-h-0 flex-1">
+				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 px-4 sm:px-6 pb-4 sm:pb-6 pt-2 sm:pt-4 min-h-0 flex-1">
 					<PlayerStatTable
 						playerStats={players}
 						showSeason={true}
