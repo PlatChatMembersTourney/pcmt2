@@ -6,6 +6,7 @@ import { useStore } from '@nanostores/react'
 import { groupByDay } from '../../utils/datetime.ts'
 import MatchCard from '../matches/MatchCard.tsx'
 import TeamMapStatsTable from './TeamMapStatsTable.tsx'
+import { playerFlag } from '../../utils/images.ts'
 
 interface TeamPanelsProps {
 	event: Event;
@@ -115,7 +116,8 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 					<div className="flex flex-col p-4 gap-2 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 dark:text-vlr-text-white text-vlr-text-dark">
 						{team.players.map((player) => {
 							return (
-								<p className="text-sm" key={player}>
+								<p className="text-sm flex items-center gap-1" key={player}>
+									<img src={playerFlag(player, event.id, event.region)} alt={"flag"} className="h-4 w-auto" />
 									{(team.name !== 'Team Dyslexia' || !fun)
 										? player
 										: [...player]

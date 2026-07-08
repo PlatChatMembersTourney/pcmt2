@@ -153,3 +153,9 @@ export interface MapStat {
 	atkPct: number;
 	defPct: number;
 }
+
+export interface Flags {
+	Teams: Record<string, Record<string, string>>;
+	All: Record<string, string>;
+	Overrides: Record<string, Record<string, string>>;
+}

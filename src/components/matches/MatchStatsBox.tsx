@@ -27,6 +27,23 @@ const getAgents = (mapDetails: MapDetail[])=> {
 	return agents;
 }
 
+const getRounds = (mapDetails: MapDetail[])=> {
+	const rounds: Record<string, number> = {}
+
+	mapDetails.forEach((details) => {
+		details.stats.forEach((stat) => {
+			stat.players.forEach((player) => {
+				if (!(player.Player in rounds)) {
+					rounds[player.Player] = 0;
+				}
+				rounds[player.Player] += (details.score1 + details.score2);
+			})
+		})
+	})
+
+	return rounds;
+}
+
 const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 	const { match, event } = props;
 	const teams: Record<string, TeamInfo> = useStore($teams)[event.id];
@@ -146,9 +163,7 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 						agents={getAgents(match.mapDetails)}
 						event={event}
 						teamStats={match.combinedStats}
-						rounds={match.maps
-							.map((m) => m.score1 + m.score2)
-							.reduce((a, b) => a + b)}
+						rounds={getRounds(match.mapDetails)}
 					/>
 				)}
 				{match.maps.map((map, idx) => (

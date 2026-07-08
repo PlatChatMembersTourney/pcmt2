@@ -1,12 +1,13 @@
-import type { TeamStats, Event } from '../../types/types.ts'
+import type { TeamStats, Event, Flags } from '../../types/types.ts'
 import { angusRating } from '../../utils/rating.ts'
 import CustomPopover from '../CustomPopover.tsx'
+import { agentIcon, playerFlag } from '../../utils/images.ts'
 
 interface StatsTableProps {
 	agents: Record<string, Set<string>>
 	event: Event
 	teamStats: TeamStats[] // stats for 2 teams
-	rounds: number
+	rounds: number | Record<string, number>
 }
 
 const pctFormatter = new Intl.NumberFormat('en-US', {
@@ -146,6 +147,9 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 							<tbody>
 								{team.players.map((player) => {
 									const a = [...agents[player.Player]]
+									const pRounds = typeof rounds === "number" ?
+										rounds :
+										rounds[player.Player]
 									return (
 										<tr
 											className="text-vlr-text-dark dark:text-vlr-text-white text-[11px] px-0.75"
@@ -153,7 +157,11 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 										>
 											<td className="flex gap-2 items-center bg-transparent! sm:w-25 h-10">
 												<img
-													src={`/icons/flags/16/${event.region}.png`}
+													src={playerFlag(
+														player.Player,
+														event.id,
+														event.region
+													)}
 												/>
 												<div className="flex flex-col items-start leading-snug">
 													<p className="text-pb font-medium text-xs">
@@ -167,12 +175,9 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											<td className="bg-transparent!">
 												<div className="flex gap-1 justify-end w-20 mr-1.25">
 													{a.map((agent) => {
-														if (agent === 'KAY/O') {
-															agent = 'KAYO'
-														}
 														return (
 															<img
-																src={`/agents/${agent}_icon.png`}
+																src={agentIcon(agent)}
 																className={
 																	(a.length ===
 																	1
@@ -202,7 +207,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 												<div className="stats-cell mx-1.25">
 													{angusRating(
 														player,
-														rounds
+														pRounds
 													).toFixed(2)}
 												</div>
 											</td>

@@ -2,6 +2,7 @@ import type { Match, Event } from '../../types/types.ts'
 import slugify from 'slugify'
 
 import { timeAgo, timeUntil } from '../../utils/datetime.ts'
+import { regionFlag, teamFlag } from '../../utils/images.ts'
 
 interface MatchCardProps {
 	match: Match
@@ -67,7 +68,8 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 									)}
 								</div>
 								<img
-									src={`/icons/flags/16/${event.region}.png`}
+									src={teamFlag(name, event.id, event.region)}
+									alt={event.region}
 									className="w-4"
 								/>
 							</div>
