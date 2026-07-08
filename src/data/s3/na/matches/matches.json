@@ -1238,7 +1238,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "Ender",
+            "Player": "ender",
             "R1.0": 0.869,
             "ACS": 197,
             "K": 31,
@@ -1554,7 +1554,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "Ender",
+                "Player": "ender",
                 "Agent": "Waylay",
                 "R1.0": 0.78,
                 "ACS": 178,
@@ -1873,7 +1873,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Ender",
+                "Player": "ender",
                 "Agent": "Vyse",
                 "R1.0": 0.957,
                 "ACS": 216,
