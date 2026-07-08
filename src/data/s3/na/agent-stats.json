@@ -768,92 +768,103 @@
     }
   },
   "Lotus": {
-    "mapsPlayed": 14,
-    "atkPct": 0.529,
-    "defPct": 0.471,
+    "mapsPlayed": 15,
+    "atkPct": 0.535,
+    "defPct": 0.465,
     "agents": [
       {
         "agent": "Raze",
-        "comps": 14,
+        "comps": 15,
         "pickPct": 0.5
       },
       {
         "agent": "Fade",
-        "comps": 14,
+        "comps": 15,
         "pickPct": 0.5
       },
       {
         "agent": "Omen",
-        "comps": 13,
-        "pickPct": 0.464
+        "comps": 14,
+        "pickPct": 0.467
       },
       {
         "agent": "Vyse",
-        "comps": 9,
-        "pickPct": 0.321
+        "comps": 10,
+        "pickPct": 0.333
       },
       {
         "agent": "Chamber",
         "comps": 7,
-        "pickPct": 0.25
+        "pickPct": 0.233
       },
       {
         "agent": "Viper",
         "comps": 5,
-        "pickPct": 0.179
+        "pickPct": 0.167
       },
       {
         "agent": "Neon",
-        "comps": 3,
-        "pickPct": 0.107
+        "comps": 4,
+        "pickPct": 0.133
       },
       {
         "agent": "Clove",
         "comps": 3,
-        "pickPct": 0.107
-      },
-      {
-        "agent": "Killjoy",
-        "comps": 2,
-        "pickPct": 0.071
-      },
-      {
-        "agent": "Waylay",
-        "comps": 2,
-        "pickPct": 0.071
+        "pickPct": 0.1
       },
       {
         "agent": "Yoru",
         "comps": 2,
-        "pickPct": 0.071
+        "pickPct": 0.067
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 2,
+        "pickPct": 0.067
+      },
+      {
+        "agent": "Waylay",
+        "comps": 2,
+        "pickPct": 0.067
       },
       {
         "agent": "Phoenix",
         "comps": 2,
-        "pickPct": 0.071
+        "pickPct": 0.067
       },
       {
         "agent": "Jett",
         "comps": 2,
-        "pickPct": 0.071
+        "pickPct": 0.067
       },
       {
         "agent": "Tejo",
         "comps": 2,
-        "pickPct": 0.071
+        "pickPct": 0.067
       },
       {
         "agent": "Astra",
         "comps": 1,
-        "pickPct": 0.036
+        "pickPct": 0.033
       },
       {
         "agent": "Skye",
         "comps": 1,
-        "pickPct": 0.036
+        "pickPct": 0.033
       }
     ],
     "teams": {
+      "100T": {
+        "team": "100T",
+        "teamName": "100 Tony's",
+        "agents": [
+          "Fade",
+          "Neon",
+          "Omen",
+          "Raze",
+          "Vyse"
+        ]
+      },
       "BAKA": {
         "team": "BAKA",
         "teamName": "Beautiful and Kinda Adorable",
@@ -1274,69 +1285,79 @@
     }
   },
   "Split": {
-    "mapsPlayed": 4,
-    "atkPct": 0.495,
-    "defPct": 0.505,
+    "mapsPlayed": 5,
+    "atkPct": 0.471,
+    "defPct": 0.529,
     "agents": [
       {
         "agent": "Raze",
-        "comps": 6,
-        "pickPct": 0.75
+        "comps": 7,
+        "pickPct": 0.7
+      },
+      {
+        "agent": "Omen",
+        "comps": 5,
+        "pickPct": 0.5
       },
       {
         "agent": "Skye",
         "comps": 4,
-        "pickPct": 0.5
+        "pickPct": 0.4
       },
       {
-        "agent": "Omen",
-        "comps": 4,
-        "pickPct": 0.5
+        "agent": "Fade",
+        "comps": 3,
+        "pickPct": 0.3
+      },
+      {
+        "agent": "Cypher",
+        "comps": 3,
+        "pickPct": 0.3
       },
       {
         "agent": "Viper",
         "comps": 3,
-        "pickPct": 0.375
-      },
-      {
-        "agent": "Cypher",
-        "comps": 2,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Astra",
-        "comps": 2,
-        "pickPct": 0.25
+        "pickPct": 0.3
       },
       {
         "agent": "Neon",
         "comps": 2,
-        "pickPct": 0.25
+        "pickPct": 0.2
+      },
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 0.2
       },
       {
         "agent": "Vyse",
         "comps": 2,
-        "pickPct": 0.25
+        "pickPct": 0.2
       },
       {
-        "agent": "Fade",
-        "comps": 2,
-        "pickPct": 0.25
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.1
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.1
       },
       {
         "agent": "Jett",
         "comps": 1,
-        "pickPct": 0.125
+        "pickPct": 0.1
       },
       {
         "agent": "Clove",
         "comps": 1,
-        "pickPct": 0.125
+        "pickPct": 0.1
       },
       {
         "agent": "Sage",
         "comps": 1,
-        "pickPct": 0.125
+        "pickPct": 0.1
       }
     ],
     "teams": {
@@ -1344,11 +1365,23 @@
         "team": "100T",
         "teamName": "100 Tony's",
         "agents": [
+          "Chamber",
           "Fade",
           "Neon",
           "Omen",
           "Raze",
           "Vyse"
+        ]
+      },
+      "DFM": {
+        "team": "DFM",
+        "teamName": "Dementia Found Me",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Omen",
+          "Raze",
+          "Waylay"
         ]
       },
       "EPY": {
@@ -1554,6 +1587,77 @@
           "Phoenix",
           "Sage",
           "Sova"
+        ]
+      }
+    }
+  },
+  "Sunset": {
+    "mapsPlayed": 1,
+    "atkPct": 0.65,
+    "defPct": 0.35,
+    "agents": [
+      {
+        "agent": "Phoenix",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Raze",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "100T": {
+        "team": "100T",
+        "teamName": "100 Tony's",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Omen",
+          "Phoenix",
+          "Raze"
+        ]
+      },
+      "DFM": {
+        "team": "DFM",
+        "teamName": "Dementia Found Me",
+        "agents": [
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Vyse",
+          "Waylay"
         ]
       }
     }
