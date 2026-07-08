@@ -214,6 +214,46 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 						},
 					}
 				),
+				columnHelper.accessor('ACS', {
+					header: (info) => (
+						<CustomPopover
+							side={'bottom'}
+							content={
+								<div className="text-xs text-vlr-text-dark dark:text-vlr-text-light flex flex-col">
+									<p>You know it, you love it:</p>
+									<p className="mb-1">
+										Valorant's very own ACS.
+									</p>
+
+									<p className="mb-1">
+										In case you forgot how to calculate it:
+									</p>
+									<p className="text-black dark:text-white">
+										Combat Score: 1 pt / damage dealt,
+									</p>
+									<p className="text-black dark:text-white">
+										150/130/110/90/70 pts/kill based on
+										enemies alive,
+									</p>
+									<p className="text-black dark:text-white mb-1">
+										+50 per additional kill, +25 for
+										non-damaging assists
+									</p>
+									<p className="text-black dark:text-white">
+										ACS = Average combat score across all rounds
+									</p>
+								</div>
+							}
+							title={'Average Combat Score'}
+							hover={true}
+						>
+							<span className="px-0.5 border-b-2 border-vlr-text-dark dark:border-vlr-text-light border-dotted">
+								ACS
+							</span>
+						</CustomPopover>
+					),
+					id: 'ACS',
+				}),
 			],
 		}),
 		columnHelper.group({

@@ -97,10 +97,12 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 														The formula:
 													</p>
 													<p className="text-black dark:text-white">
-														1.26 * KPR - 0.13 * DPR + 0.55 * APR
+														1.26 * KPR - 0.13 * DPR
+														+ 0.55 * APR
 													</p>
 													<p className="text-black dark:text-white">
-														+ 0.25 * FKPR - 0.26 * FDPR
+														+ 0.25 * FKPR - 0.26 *
+														FDPR
 													</p>
 												</div>
 											}
@@ -111,7 +113,50 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											</span>
 										</CustomPopover>
 									</th>
-									<th title="Average Combat Score">ACS</th>
+									<th>
+										<CustomPopover
+											side={'top'}
+											content={
+												<div className="text-xs text-vlr-text-dark dark:text-vlr-text-light flex flex-col">
+													<p>
+														You know it, you love
+														it:
+													</p>
+													<p className="mb-1">
+														Valorant's very own ACS.
+													</p>
+
+													<p className="mb-1">
+														In case you forgot how
+														to calculate it:
+													</p>
+													<p className="text-black dark:text-white">
+														Combat Score: 1 pt /
+														damage dealt,
+													</p>
+													<p className="text-black dark:text-white">
+														150/130/110/90/70
+														pts/kill based on
+														enemies alive,
+													</p>
+													<p className="text-black dark:text-white mb-1">
+														+50 per additional kill,
+														+25 for non-damaging
+														assists
+													</p>
+													<p className="text-black dark:text-white">
+														ACS = Average combat
+														score across all rounds
+													</p>
+												</div>
+											}
+											title={'Average Combat Score'}
+										>
+											<span className="px-0.5 border-b-2 border-vlr-text-dark dark:border-vlr-text-light border-dotted">
+												ACS
+											</span>
+										</CustomPopover>
+									</th>
 									<th title="Kills">
 										<div className="flex ml-1.25 justify-center">
 											<p>K</p>
@@ -147,9 +192,10 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 							<tbody>
 								{team.players.map((player) => {
 									const a = [...agents[player.Player]]
-									const pRounds = typeof rounds === "number" ?
-										rounds :
-										rounds[player.Player]
+									const pRounds =
+										typeof rounds === 'number'
+											? rounds
+											: rounds[player.Player]
 									return (
 										<tr
 											className="text-vlr-text-dark dark:text-vlr-text-white text-[11px] px-0.75"
@@ -177,7 +223,9 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 													{a.map((agent) => {
 														return (
 															<img
-																src={agentIcon(agent)}
+																src={agentIcon(
+																	agent
+																)}
 																className={
 																	(a.length ===
 																	1
