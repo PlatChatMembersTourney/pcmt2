@@ -157,6 +157,9 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 						</CustomPopover>
 					),
 					id: 'Toxic',
+					cell: ({ getValue }) => {
+						return getValue().toFixed(2)
+					},
 				}),
 				columnHelper.accessor(
 					(row) => {
@@ -206,6 +209,9 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 							</CustomPopover>
 						),
 						id: 'Angus',
+						cell: ({ getValue }) => {
+							return getValue().toFixed(2)
+						},
 					}
 				),
 			],
@@ -238,18 +244,18 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 		columnHelper.group({
 			header: 'Ratio',
 			columns: [
-				columnHelper.accessor(
-					(row) => Number((row.K / row.D).toFixed(2)),
-					{
-						header: 'K/D',
-					}
-				),
-				columnHelper.accessor(
-					(row) => Number(((row.K + row.A) / row.D).toFixed(2)),
-					{
-						header: 'KDA',
-					}
-				),
+				columnHelper.accessor((row) => row.K / row.D, {
+					header: 'K/D',
+					cell: ({ getValue }) => {
+						return getValue().toFixed(2)
+					},
+				}),
+				columnHelper.accessor((row) => (row.K + row.A) / row.D, {
+					header: 'KDA',
+					cell: ({ getValue }) => {
+						return getValue().toFixed(2)
+					},
+				}),
 			],
 		}),
 		columnHelper.group({
@@ -257,21 +263,33 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 			columns: [
 				columnHelper.accessor('KPR', {
 					header: 'KPR',
+					cell: ({ getValue }) => {
+						return getValue().toFixed(2)
+					},
 				}),
 				columnHelper.accessor('DPR', {
 					header: 'DPR',
+					cell: ({ getValue }) => {
+						return getValue().toFixed(2)
+					},
 				}),
-				columnHelper.accessor(
-					(row) => Number((row.A / row.Rounds).toFixed(2)),
-					{
-						header: 'APR',
-					}
-				),
-				columnHelper.accessor((row) => pctFormatter.format(row.KAST), {
+				columnHelper.accessor((row) => row.A / row.Rounds, {
+					header: 'APR',
+					cell: ({ getValue }) => {
+						return getValue().toFixed(2)
+					},
+				}),
+				columnHelper.accessor('KAST', {
 					header: 'KAST',
+					cell: ({ getValue }) => {
+						return pctFormatter.format(getValue())
+					},
 				}),
 				columnHelper.accessor('ADR', {
 					header: 'ADR',
+					cell: ({ getValue }) => {
+						return getValue().toFixed(1)
+					},
 				}),
 			],
 		}),
@@ -286,9 +304,15 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				}),
 				columnHelper.accessor('FKPR', {
 					header: 'FKPR',
+					cell: ({ getValue }) => {
+						return getValue().toFixed(2)
+					},
 				}),
 				columnHelper.accessor('FDPR', {
 					header: 'FDPR',
+					cell: ({ getValue }) => {
+						return getValue().toFixed(2)
+					},
 				}),
 				columnHelper.accessor((row) => row.FK - row.FD, {
 					header: '+/-',
