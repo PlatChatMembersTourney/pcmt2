@@ -213,7 +213,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											</td>
 											<td>
 												<div className="stats-cell mx-1.25">
-													{player.ACS}
+													{Math.round(player.ACS)}
 												</div>
 											</td>
 											<td>
