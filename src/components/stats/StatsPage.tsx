@@ -18,7 +18,7 @@ const TeamsPage: React.FC = () => {
 	const [region, setRegion] = useState(['All']);
 	const [season, setSeason] = useState(['All']);
 
-	const [stickyPlayerNames, setStickyPlayerNames] = useState(false);
+	const [stickyPlayerNames, setStickyPlayerNames] = useState(true);
 
 	const allPlayerStats = useStore($allPlayerStats);
 
