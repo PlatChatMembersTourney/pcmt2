@@ -3038,7 +3038,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "Night",
+            "Player": "night",
             "R1.0": 0.943,
             "ACS": 209,
             "K": 49,
@@ -3316,7 +3316,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Viper",
                 "R1.0": 1.051,
                 "ACS": 262,
@@ -3605,7 +3605,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Chamber",
                 "R1.0": 1.213,
                 "ACS": 263,
@@ -3965,7 +3965,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Chamber",
                 "R1.0": 0.52,
                 "ACS": 98,
