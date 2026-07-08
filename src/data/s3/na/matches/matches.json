@@ -1238,7 +1238,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "ender",
+            "Player": "Ender",
             "R1.0": 0.869,
             "ACS": 197,
             "K": 31,
@@ -1554,7 +1554,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Waylay",
                 "R1.0": 0.78,
                 "ACS": 178,
@@ -1873,7 +1873,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Vyse",
                 "R1.0": 0.957,
                 "ACS": 216,
@@ -6174,7 +6174,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "ender",
+            "Player": "Ender",
             "R1.0": 0.66,
             "ACS": 162,
             "K": 16,
@@ -6457,7 +6457,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Waylay",
                 "R1.0": 0.838,
                 "ACS": 176,
@@ -6708,7 +6708,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Vyse",
                 "R1.0": 0.418,
                 "ACS": 144,
@@ -12442,7 +12442,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "ender",
+            "Player": "Ender",
             "R1.0": 1.086,
             "ACS": 252,
             "K": 53,
@@ -12698,7 +12698,7 @@
             "teamName": "Team Dyslexia",
             "players": [
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Waylay",
                 "R1.0": 1.567,
                 "ACS": 346,
@@ -13013,7 +13013,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Waylay",
                 "R1.0": 0.31,
                 "ACS": 123,
@@ -13292,7 +13292,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Waylay",
                 "R1.0": 1.134,
                 "ACS": 250,
@@ -22092,7 +22092,7 @@
         "teamName": "Team Dyslexia",
         "players": [
           {
-            "Player": "ender",
+            "Player": "Ender",
             "R1.0": 1.452,
             "ACS": 303,
             "K": 66,
@@ -22343,7 +22343,7 @@
             "teamName": "Team Dyslexia",
             "players": [
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Waylay",
                 "R1.0": 1.762,
                 "ACS": 407,
@@ -22664,7 +22664,7 @@
             "teamName": "Team Dyslexia",
             "players": [
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Vyse",
                 "R1.0": 1.205,
                 "ACS": 277,
@@ -22946,7 +22946,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "ender",
+                "Player": "Ender",
                 "Agent": "Vyse",
                 "R1.0": 1.584,
                 "ACS": 253,
