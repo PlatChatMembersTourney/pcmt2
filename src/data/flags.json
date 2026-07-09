@@ -13,7 +13,7 @@
 		"aleks": "mx",
 		"pavel": "ec",
 		"eve": "",
-		"caleb": "",
+		"caleb": "us",
 		"kaydeg": "nebr",
 		"guilty crown": "",
 		"james": "mx-marathon",
@@ -34,8 +34,8 @@
 		"basil": "",
 		"lazy": "kr",
 		"jay": "",
-		"spaceman": "",
-		"androobee": "",
+		"spaceman": "na",
+		"androobee": "sx",
 		"angus": "us",
 		"pi": "vn",
 		"hyypernova": "na",
@@ -61,7 +61,7 @@
 		"robohobo": "us",
 		"darshan": "in",
 		"ethan": "na",
-		"mrcrocman": "us",
+		"mrcrocman": "minn",
 		"ceiliuir": "ca",
 		"roro": "in",
 		"li": "us",
@@ -76,7 +76,7 @@
 		"platy": "us",
 		"twon": "cn",
 		"nolan": "ba",
-		"rudra": "",
+		"rudra": "in",
 		"corina": "mx",
 		"makya": "ohio",
 		"jaypee": "mx-marathon",
@@ -90,7 +90,7 @@
 		"cassie": "cl",
 		"linus": "us",
 		"solar": "",
-		"apple": "",
+		"apple": "vn",
 		"jolly": "",
 		"xyn": "ca",
 		"nik": "",
@@ -136,7 +136,7 @@
 		"riyako": "ch",
 		"hmmmdead": "bh",
 		"reoken": "es",
-		"spolen": "",
+		"spolen": "se",
 		"denial": "in",
 		"dovie": "eu",
 		"feenix": "gb",
@@ -175,6 +175,8 @@
 		"s2-na": {},
 		"s3-na": {},
 		"s1-emea": {},
-		"s2-emea": {}
+		"s2-emea": {
+			"larp": "se"
+		}
 	}
 }
