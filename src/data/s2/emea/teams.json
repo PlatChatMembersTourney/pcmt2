@@ -32,21 +32,21 @@
         "abbr": "XTC",
         "logo": "/icons/s2_teams/emea/Extra Traditional Comps.png",
         "group": "Group Alpha",
-        "players": ["sinderinho", "alexx", "Ani", "Yessi", "Riyako"]
+        "players": ["sinderinho", "alexx", "FeeNix", "Yessi", "Riyako"]
     },
     "SEAL": {
         "name": "Stay Seally",
         "abbr": "SEAL",
         "logo": "/icons/s2_teams/emea/Stay Seally.png",
         "group": "Group Omega",
-        "players": ["Ghrf6", "hmmmdead", "reoken", "otaka", "Spolen"]
+        "players": ["Ghrf6", "hmmmdead", "Dovie", "otaka", "Eva"]
     },
     "NATS": {
         "name": "Never Available To Scrim",
         "abbr": "NATS",
         "logo": "/icons/s2_teams/emea/Never Available To Scrim.png",
         "group": "Group Omega",
-        "players": ["denial", "Haych", "Dovie", "Eva", "FeeNix"]
+        "players": ["denial", "asra", "reoken", "Spolen", "NiXx"]
     },
     "LARP": {
         "name": "Larpiat\u00e1n",
