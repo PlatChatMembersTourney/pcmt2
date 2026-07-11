@@ -41,14 +41,16 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 					{
 						winner: team1Winner,
 						name: match.team1Name,
+						abbr: match.team1,
 						score: match.score1,
 					},
 					{
 						winner: !team1Winner,
 						name: match.team2Name,
+						abbr: match.team2,
 						score: match.score2,
 					},
-				].map(({ winner, name, score }, idx) => {
+				].map(({ winner, name, abbr, score }, idx) => {
 					return (
 						<div
 							key={'Team ' + idx}
@@ -68,7 +70,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 									)}
 								</div>
 								<img
-									src={teamFlag(name, event.id, event.region)}
+									src={teamFlag(abbr, event.id, event.region)}
 									alt={event.region}
 									className="w-4"
 								/>

@@ -49,7 +49,7 @@
           "PlusMinus2": -1
         },
         {
-          "Player": "ender",
+          "Player": "Ender",
           "R1.0": 1.086,
           "ACS": 252,
           "K": 53,
@@ -305,7 +305,7 @@
           "teamName": "Team Dyslexia",
           "players": [
             {
-              "Player": "ender",
+              "Player": "Ender",
               "Agent": "Waylay",
               "R1.0": 1.567,
               "ACS": 346,
@@ -620,7 +620,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "ender",
+              "Player": "Ender",
               "Agent": "Waylay",
               "R1.0": 0.31,
               "ACS": 123,
@@ -899,7 +899,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "ender",
+              "Player": "Ender",
               "Agent": "Waylay",
               "R1.0": 1.134,
               "ACS": 250,

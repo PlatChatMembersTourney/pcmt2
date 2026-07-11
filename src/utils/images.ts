@@ -15,7 +15,7 @@ export const regionFlag = (region: string) => {
 }
 
 export const teamFlag = (
-	team: string, // full name (not abbr)
+	team: string, // team abbreviation
 	eventId: string,
 	region: string
 ) => {
