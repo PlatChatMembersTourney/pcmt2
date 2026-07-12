@@ -121,7 +121,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 							content={
 								<div className="text-xs text-vlr-text-dark dark:text-vlr-text-light flex flex-col">
 									<p className="mb-1">
-										I say "toxic", but really it's stolen.
+										I say "toxic", but really it's stolen (with some tweaks).
 									</p>
 
 									<p>Specifically, from Mark Zhdan's </p>
