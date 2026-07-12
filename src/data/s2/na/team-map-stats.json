@@ -149,6 +149,19 @@
         "defPct": 0.472
       },
       {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Sunset",
         "pick": 1,
         "ban": 1,
@@ -326,6 +339,19 @@
         "defPct": 0
       },
       {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Sunset",
         "pick": 2,
         "ban": 1,
@@ -488,6 +514,19 @@
         "roundPct": 0.55,
         "atkPct": 0.676,
         "defPct": 0.425
+      },
+      {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
       },
       {
         "map": "Sunset",
@@ -654,6 +693,19 @@
         "defPct": 0.143
       },
       {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Sunset",
         "pick": 0,
         "ban": 2,
@@ -816,6 +868,19 @@
         "roundPct": 0.462,
         "atkPct": 0.5,
         "defPct": 0.5
+      },
+      {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
       },
       {
         "map": "Sunset",
@@ -982,6 +1047,19 @@
         "defPct": 0.351
       },
       {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Sunset",
         "pick": 0,
         "ban": 3,
@@ -1144,6 +1222,19 @@
         "roundPct": 0.484,
         "atkPct": 0.481,
         "defPct": 0.486
+      },
+      {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
       },
       {
         "map": "Sunset",
@@ -1310,6 +1401,19 @@
         "defPct": 0.455
       },
       {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Sunset",
         "pick": 1,
         "ban": 4,
@@ -1472,6 +1576,19 @@
         "roundPct": 0.391,
         "atkPct": 0.364,
         "defPct": 0.419
+      },
+      {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
       },
       {
         "map": "Sunset",
@@ -1638,6 +1755,19 @@
         "defPct": 0.562
       },
       {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Sunset",
         "pick": 2,
         "ban": 2,
@@ -1688,6 +1818,19 @@
         "map": "Bind",
         "pick": 0,
         "ban": 5,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
+        "map": "Breeze",
+        "pick": 0,
+        "ban": 0,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1787,6 +1930,19 @@
         "roundPct": 0.463,
         "atkPct": 0.583,
         "defPct": 0.375
+      },
+      {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
       },
       {
         "map": "Sunset",
@@ -1951,6 +2107,19 @@
         "roundPct": 0.529,
         "atkPct": 0.485,
         "defPct": 0.571
+      },
+      {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
       },
       {
         "map": "Sunset",

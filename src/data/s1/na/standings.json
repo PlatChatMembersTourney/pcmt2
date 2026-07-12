@@ -1,0 +1,56 @@
+{
+  "Overall": [
+    {
+      "abbr": "CIN",
+      "name": "Absolute Cinema",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 1,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "KAT",
+      "name": "Kurt's Kittens",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "WALL",
+      "name": "The Brick Wall",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 3,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "YGSYD",
+      "name": "You Get Shot You Die",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 4,
+      "mapDiff": 0,
+      "rndDiff": 0
+    }
+  ]
+}

@@ -58,6 +58,19 @@
         "defPct": 0.5
       },
       {
+        "map": "Corrode",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Fracture",
         "pick": 0,
         "ban": 0,
@@ -136,6 +149,19 @@
         "defPct": 0.467
       },
       {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
@@ -207,6 +233,19 @@
         "roundPct": 0.462,
         "atkPct": 0.571,
         "defPct": 0.333
+      },
+      {
+        "map": "Corrode",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
       },
       {
         "map": "Fracture",
@@ -287,6 +326,19 @@
         "defPct": 0.5
       },
       {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
@@ -350,6 +402,19 @@
         "map": "Breeze",
         "pick": 0,
         "ban": 2,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
+        "map": "Corrode",
+        "pick": 0,
+        "ban": 0,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -438,6 +503,19 @@
         "defPct": 0.474
       },
       {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
+      },
+      {
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
@@ -509,6 +587,19 @@
         "roundPct": 0.614,
         "atkPct": 0.611,
         "defPct": 0.615
+      },
+      {
+        "map": "Corrode",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
       },
       {
         "map": "Fracture",
@@ -587,6 +678,19 @@
         "roundPct": 0.587,
         "atkPct": 0.654,
         "defPct": 0.5
+      },
+      {
+        "map": "Summit",
+        "pick": 0,
+        "ban": 0,
+        "played": 0,
+        "won": 0,
+        "winPct": 0,
+        "rounds": 0,
+        "roundsWon": 0,
+        "roundPct": 0,
+        "atkPct": 0,
+        "defPct": 0
       },
       {
         "map": "Sunset",

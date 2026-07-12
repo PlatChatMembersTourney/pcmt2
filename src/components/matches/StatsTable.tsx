@@ -58,17 +58,12 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 														APR + 0.0025 * ADRa
 													</p>
 													<p className="text-black dark:text-white mb-1">
-														+ 0.434 * SR + 0.313 *
-														KAST + 0.175
+														+ 0.313 * KAST + 0.295
 													</p>
 													<p>
 														(ADRa = [(ADR * Rounds)
 														- (140 * Kills)] /
 														Rounds)
-													</p>
-													<p>
-														(SR = (Rounds - Deaths)
-														/ Rounds)
 													</p>
 												</div>
 											}

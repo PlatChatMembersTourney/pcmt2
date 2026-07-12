@@ -1,0 +1,681 @@
+{
+  "Ascent": {
+    "mapsPlayed": 2,
+    "atkPct": 0.52,
+    "defPct": 0.48,
+    "agents": [
+      {
+        "agent": "Sova",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Omen",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.25
+      }
+    ],
+    "teams": {
+      "<3": {
+        "team": "<3",
+        "teamName": "Less Than Three",
+        "agents": [
+          "Cypher",
+          "Jett",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "MISC": {
+        "team": "MISC",
+        "teamName": "Mischifs",
+        "agents": [
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "T4K": {
+        "team": "T4K",
+        "teamName": "Team FourK",
+        "agents": [
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Vyse"
+        ]
+      }
+    }
+  },
+  "Breeze": {
+    "mapsPlayed": 2,
+    "atkPct": 0.477,
+    "defPct": 0.523,
+    "agents": [
+      {
+        "agent": "Viper",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Sova",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Neon",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Harbor",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.25
+      }
+    ],
+    "teams": {
+      "<3": {
+        "team": "<3",
+        "teamName": "Less Than Three",
+        "agents": [
+          "Jett",
+          "Neon",
+          "Omen",
+          "Sova",
+          "Viper"
+        ]
+      },
+      "MISC": {
+        "team": "MISC",
+        "teamName": "Mischifs",
+        "agents": [
+          "Harbor",
+          "Neon",
+          "Phoenix",
+          "Sova",
+          "Viper"
+        ]
+      },
+      "WFC": {
+        "team": "WFC",
+        "teamName": "Wetherspoons FC",
+        "agents": [
+          "Harbor",
+          "Jett",
+          "Neon",
+          "Sova",
+          "Viper",
+          "Vyse"
+        ]
+      }
+    }
+  },
+  "Fracture": {
+    "mapsPlayed": 2,
+    "atkPct": 0.583,
+    "defPct": 0.417,
+    "agents": [
+      {
+        "agent": "Neon",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Tejo",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Brimstone",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Harbor",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.25
+      }
+    ],
+    "teams": {
+      "<3": {
+        "team": "<3",
+        "teamName": "Less Than Three",
+        "agents": [
+          "Breach",
+          "Brimstone",
+          "Killjoy",
+          "Neon",
+          "Tejo"
+        ]
+      },
+      "MISC": {
+        "team": "MISC",
+        "teamName": "Mischifs",
+        "agents": [
+          "Astra",
+          "Killjoy",
+          "Neon",
+          "Skye",
+          "Tejo"
+        ]
+      },
+      "WFC": {
+        "team": "WFC",
+        "teamName": "Wetherspoons FC",
+        "agents": [
+          "Brimstone",
+          "Fade",
+          "Harbor",
+          "Neon",
+          "Waylay"
+        ]
+      }
+    }
+  },
+  "Haven": {
+    "mapsPlayed": 2,
+    "atkPct": 0.432,
+    "defPct": 0.568,
+    "agents": [
+      {
+        "agent": "Sova",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Neon",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.25
+      }
+    ],
+    "teams": {
+      "<3": {
+        "team": "<3",
+        "teamName": "Less Than Three",
+        "agents": [
+          "Astra",
+          "Cypher",
+          "Neon",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "MISC": {
+        "team": "MISC",
+        "teamName": "Mischifs",
+        "agents": [
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Sova",
+          "Viper"
+        ]
+      },
+      "T4K": {
+        "team": "T4K",
+        "teamName": "Team FourK",
+        "agents": [
+          "Cypher",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      }
+    }
+  },
+  "Lotus": {
+    "mapsPlayed": 7,
+    "atkPct": 0.474,
+    "defPct": 0.526,
+    "agents": [
+      {
+        "agent": "Omen",
+        "comps": 4,
+        "pickPct": 0.286
+      },
+      {
+        "agent": "Fade",
+        "comps": 4,
+        "pickPct": 0.286
+      },
+      {
+        "agent": "Neon",
+        "comps": 4,
+        "pickPct": 0.286
+      },
+      {
+        "agent": "Viper",
+        "comps": 3,
+        "pickPct": 0.214
+      },
+      {
+        "agent": "Raze",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Vyse",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Breach",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Brimstone",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Veto",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.071
+      }
+    ],
+    "teams": {
+      "<3": {
+        "team": "<3",
+        "teamName": "Less Than Three",
+        "agents": [
+          "Breach",
+          "Chamber",
+          "Fade",
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Raze"
+        ]
+      },
+      "MISC": {
+        "team": "MISC",
+        "teamName": "Mischifs",
+        "agents": [
+          "Fade",
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Viper"
+        ]
+      },
+      "T4K": {
+        "team": "T4K",
+        "teamName": "Team FourK",
+        "agents": [
+          "Breach",
+          "Cypher",
+          "Fade",
+          "Neon",
+          "Omen",
+          "Skye",
+          "Veto",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "WFC": {
+        "team": "WFC",
+        "teamName": "Wetherspoons FC",
+        "agents": [
+          "Brimstone",
+          "Fade",
+          "Neon",
+          "Omen",
+          "Raze",
+          "Viper",
+          "Vyse"
+        ]
+      }
+    }
+  },
+  "Pearl": {
+    "mapsPlayed": 1,
+    "atkPct": 0.389,
+    "defPct": 0.611,
+    "agents": [
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "T4K": {
+        "team": "T4K",
+        "teamName": "Team FourK",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Killjoy",
+          "Neon",
+          "Phoenix"
+        ]
+      },
+      "WFC": {
+        "team": "WFC",
+        "teamName": "Wetherspoons FC",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Jett",
+          "Vyse",
+          "Waylay"
+        ]
+      }
+    }
+  },
+  "Split": {
+    "mapsPlayed": 6,
+    "atkPct": 0.516,
+    "defPct": 0.484,
+    "agents": [
+      {
+        "agent": "Fade",
+        "comps": 4,
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Raze",
+        "comps": 3,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Viper",
+        "comps": 3,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Omen",
+        "comps": 3,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Neon",
+        "comps": 3,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Skye",
+        "comps": 3,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Deadlock",
+        "comps": 1,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Tejo",
+        "comps": 1,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Miks",
+        "comps": 1,
+        "pickPct": 0.083
+      }
+    ],
+    "teams": {
+      "<3": {
+        "team": "<3",
+        "teamName": "Less Than Three",
+        "agents": [
+          "Deadlock",
+          "Fade",
+          "Miks",
+          "Omen",
+          "Raze",
+          "Sage",
+          "Skye",
+          "Tejo",
+          "Viper"
+        ]
+      },
+      "MISC": {
+        "team": "MISC",
+        "teamName": "Mischifs",
+        "agents": [
+          "Astra",
+          "Cypher",
+          "Fade",
+          "Neon",
+          "Phoenix",
+          "Skye"
+        ]
+      },
+      "T4K": {
+        "team": "T4K",
+        "teamName": "Team FourK",
+        "agents": [
+          "Astra",
+          "Clove",
+          "Fade",
+          "Neon",
+          "Omen",
+          "Raze",
+          "Skye",
+          "Viper"
+        ]
+      },
+      "WFC": {
+        "team": "WFC",
+        "teamName": "Wetherspoons FC",
+        "agents": [
+          "Fade",
+          "Jett",
+          "Neon",
+          "Omen",
+          "Raze",
+          "Viper",
+          "Waylay"
+        ]
+      }
+    }
+  }
+}

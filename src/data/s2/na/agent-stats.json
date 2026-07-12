@@ -1,0 +1,931 @@
+{
+  "Abyss": {
+    "mapsPlayed": 21,
+    "atkPct": 0.554,
+    "defPct": 0.446,
+    "agents": [
+      {
+        "agent": "Astra",
+        "comps": 3,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Sova",
+        "comps": 3,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 0.048
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 0.048
+      },
+      {
+        "agent": "Tejo",
+        "comps": 2,
+        "pickPct": 0.048
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.024
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.024
+      },
+      {
+        "agent": "KAYO",
+        "comps": 1,
+        "pickPct": 0.024
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.024
+      }
+    ],
+    "teams": {
+      "DRG": {
+        "team": "DRG",
+        "teamName": "DeRank Gamers",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Jett",
+          "KAYO",
+          "Sova",
+          "Tejo"
+        ]
+      },
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Astra",
+          "Jett",
+          "Omen",
+          "Sova",
+          "Yoru"
+        ]
+      },
+      "ZIRC": {
+        "team": "ZIRC",
+        "teamName": "Zirconians",
+        "agents": [
+          "Astra",
+          "Omen",
+          "Sova",
+          "Tejo",
+          "Waylay"
+        ]
+      }
+    }
+  },
+  "Ascent": {
+    "mapsPlayed": 3,
+    "atkPct": 0.478,
+    "defPct": 0.522,
+    "agents": [],
+    "teams": {}
+  },
+  "Bind": {
+    "mapsPlayed": 26,
+    "atkPct": 0.532,
+    "defPct": 0.468,
+    "agents": [
+      {
+        "agent": "Viper",
+        "comps": 5,
+        "pickPct": 0.096
+      },
+      {
+        "agent": "Raze",
+        "comps": 4,
+        "pickPct": 0.077
+      },
+      {
+        "agent": "Brimstone",
+        "comps": 4,
+        "pickPct": 0.077
+      },
+      {
+        "agent": "Fade",
+        "comps": 3,
+        "pickPct": 0.058
+      },
+      {
+        "agent": "Skye",
+        "comps": 3,
+        "pickPct": 0.058
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Tejo",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.019
+      }
+    ],
+    "teams": {
+      "DRG": {
+        "team": "DRG",
+        "teamName": "DeRank Gamers",
+        "agents": [
+          "Brimstone",
+          "Fade",
+          "Raze",
+          "Skye",
+          "Viper"
+        ]
+      },
+      "EMEA": {
+        "team": "EMEA",
+        "teamName": "Tech Pause Esports",
+        "agents": [
+          "Brimstone",
+          "Raze",
+          "Skye",
+          "Tejo",
+          "Viper"
+        ]
+      },
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Brimstone",
+          "Raze",
+          "Skye",
+          "Sova",
+          "Viper"
+        ]
+      },
+      "WING": {
+        "team": "WING",
+        "teamName": "Wingman Warriors",
+        "agents": [
+          "Clove",
+          "Fade",
+          "Neon",
+          "Raze",
+          "Viper"
+        ]
+      },
+      "ZIRC": {
+        "team": "ZIRC",
+        "teamName": "Zirconians",
+        "agents": [
+          "Brimstone",
+          "Chamber",
+          "Fade",
+          "Viper",
+          "Yoru"
+        ]
+      }
+    }
+  },
+  "Breeze": {
+    "mapsPlayed": 7,
+    "atkPct": 0.489,
+    "defPct": 0.511,
+    "agents": [
+      {
+        "agent": "Sova",
+        "comps": 3,
+        "pickPct": 0.214
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Viper",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "KAY/O",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.071
+      }
+    ],
+    "teams": {
+      "DRG": {
+        "team": "DRG",
+        "teamName": "DeRank Gamers",
+        "agents": [
+          "Jett",
+          "KAY/O",
+          "Omen",
+          "Sova",
+          "Viper"
+        ]
+      },
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Clove",
+          "Jett",
+          "Neon",
+          "Sova"
+        ]
+      },
+      "MIBR": {
+        "team": "MIBR",
+        "teamName": "Made in Bronze",
+        "agents": [
+          "Astra",
+          "Neon",
+          "Sova",
+          "Viper",
+          "Yoru"
+        ]
+      }
+    }
+  },
+  "Corrode": {
+    "mapsPlayed": 17,
+    "atkPct": 0.467,
+    "defPct": 0.533,
+    "agents": [
+      {
+        "agent": "Waylay",
+        "comps": 3,
+        "pickPct": 0.088
+      },
+      {
+        "agent": "Viper",
+        "comps": 3,
+        "pickPct": 0.088
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 0.059
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 0.059
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 0.059
+      },
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 0.059
+      },
+      {
+        "agent": "Yoru",
+        "comps": 2,
+        "pickPct": 0.059
+      },
+      {
+        "agent": "Veto",
+        "comps": 1,
+        "pickPct": 0.029
+      },
+      {
+        "agent": "Basil",
+        "comps": 1,
+        "pickPct": 0.029
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.029
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.029
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.029
+      }
+    ],
+    "teams": {
+      "DRG": {
+        "team": "DRG",
+        "teamName": "DeRank Gamers",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Sage",
+          "Viper",
+          "Waylay"
+        ]
+      },
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Cypher",
+          "Neon",
+          "Omen",
+          "Sova",
+          "Yoru"
+        ]
+      },
+      "MIBR": {
+        "team": "MIBR",
+        "teamName": "Made in Bronze",
+        "agents": [
+          "Astra",
+          "Basil",
+          "Fade",
+          "Viper",
+          "Waylay",
+          "Yoru"
+        ]
+      },
+      "ZIRC": {
+        "team": "ZIRC",
+        "teamName": "Zirconians",
+        "agents": [
+          "Omen",
+          "Sova",
+          "Veto",
+          "Viper",
+          "Waylay"
+        ]
+      }
+    }
+  },
+  "Haven": {
+    "mapsPlayed": 27,
+    "atkPct": 0.527,
+    "defPct": 0.473,
+    "agents": [
+      {
+        "agent": "Sova",
+        "comps": 5,
+        "pickPct": 0.093
+      },
+      {
+        "agent": "Omen",
+        "comps": 5,
+        "pickPct": 0.093
+      },
+      {
+        "agent": "Neon",
+        "comps": 5,
+        "pickPct": 0.093
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 4,
+        "pickPct": 0.074
+      },
+      {
+        "agent": "Yoru",
+        "comps": 3,
+        "pickPct": 0.056
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.037
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 2,
+        "pickPct": 0.037
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 0.037
+      },
+      {
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Iso",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.019
+      }
+    ],
+    "teams": {
+      "DRG": {
+        "team": "DRG",
+        "teamName": "DeRank Gamers",
+        "agents": [
+          "Chamber",
+          "Iso",
+          "Jett",
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "EMEA": {
+        "team": "EMEA",
+        "teamName": "Tech Pause Esports",
+        "agents": [
+          "Chamber",
+          "Neon",
+          "Omen",
+          "Skye",
+          "Sova",
+          "Waylay"
+        ]
+      },
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Astra",
+          "Clove",
+          "Jett",
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova",
+          "Yoru"
+        ]
+      },
+      "MIBR": {
+        "team": "MIBR",
+        "teamName": "Made in Bronze",
+        "agents": [
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Sova",
+          "Yoru"
+        ]
+      },
+      "ZIRC": {
+        "team": "ZIRC",
+        "teamName": "Zirconians",
+        "agents": [
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Sova",
+          "Yoru"
+        ]
+      }
+    }
+  },
+  "Lotus": {
+    "mapsPlayed": 7,
+    "atkPct": 0.531,
+    "defPct": 0.469,
+    "agents": [
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Raze",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Tejo",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.071
+      },
+      {
+        "agent": "Veto",
+        "comps": 1,
+        "pickPct": 0.071
+      }
+    ],
+    "teams": {
+      "DRG": {
+        "team": "DRG",
+        "teamName": "DeRank Gamers",
+        "agents": [
+          "Fade",
+          "Omen",
+          "Raze",
+          "Veto",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "EMEA": {
+        "team": "EMEA",
+        "teamName": "Tech Pause Esports",
+        "agents": [
+          "Chamber",
+          "Neon",
+          "Omen",
+          "Skye",
+          "Tejo"
+        ]
+      },
+      "WING": {
+        "team": "WING",
+        "teamName": "Wingman Warriors",
+        "agents": [
+          "Chamber",
+          "Clove",
+          "Fade",
+          "Neon",
+          "Raze"
+        ]
+      }
+    }
+  },
+  "Pearl": {
+    "mapsPlayed": 26,
+    "atkPct": 0.52,
+    "defPct": 0.48,
+    "agents": [
+      {
+        "agent": "Neon",
+        "comps": 6,
+        "pickPct": 0.115
+      },
+      {
+        "agent": "Astra",
+        "comps": 5,
+        "pickPct": 0.096
+      },
+      {
+        "agent": "Fade",
+        "comps": 4,
+        "pickPct": 0.077
+      },
+      {
+        "agent": "Waylay",
+        "comps": 4,
+        "pickPct": 0.077
+      },
+      {
+        "agent": "Chamber",
+        "comps": 3,
+        "pickPct": 0.058
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 3,
+        "pickPct": 0.058
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 3,
+        "pickPct": 0.058
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 0.038
+      },
+      {
+        "agent": "Yoru",
+        "comps": 2,
+        "pickPct": 0.038
+      },
+      {
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Tejo",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Harbor",
+        "comps": 1,
+        "pickPct": 0.019
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.019
+      }
+    ],
+    "teams": {
+      "DRG": {
+        "team": "DRG",
+        "teamName": "DeRank Gamers",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Neon",
+          "Phoenix"
+        ]
+      },
+      "EMEA": {
+        "team": "EMEA",
+        "teamName": "Tech Pause Esports",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Harbor",
+          "Neon",
+          "Skye",
+          "Tejo",
+          "Waylay"
+        ]
+      },
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Astra",
+          "Killjoy",
+          "Neon",
+          "Phoenix",
+          "Sova",
+          "Waylay",
+          "Yoru"
+        ]
+      },
+      "MIBR": {
+        "team": "MIBR",
+        "teamName": "Made in Bronze",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Killjoy",
+          "Neon",
+          "Vyse",
+          "Waylay",
+          "Yoru"
+        ]
+      },
+      "WING": {
+        "team": "WING",
+        "teamName": "Wingman Warriors",
+        "agents": [
+          "Chamber",
+          "Clove",
+          "Fade",
+          "Neon",
+          "Phoenix"
+        ]
+      },
+      "ZIRC": {
+        "team": "ZIRC",
+        "teamName": "Zirconians",
+        "agents": [
+          "Astra",
+          "Killjoy",
+          "Neon",
+          "Sova",
+          "Waylay"
+        ]
+      }
+    }
+  },
+  "Split": {
+    "mapsPlayed": 22,
+    "atkPct": 0.538,
+    "defPct": 0.462,
+    "agents": [
+      {
+        "agent": "Skye",
+        "comps": 4,
+        "pickPct": 0.091
+      },
+      {
+        "agent": "Raze",
+        "comps": 3,
+        "pickPct": 0.068
+      },
+      {
+        "agent": "Viper",
+        "comps": 2,
+        "pickPct": 0.045
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 0.045
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 0.045
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.045
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.023
+      },
+      {
+        "agent": "Harbor",
+        "comps": 1,
+        "pickPct": 0.023
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.023
+      },
+      {
+        "agent": "FadeF",
+        "comps": 1,
+        "pickPct": 0.023
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.023
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.023
+      }
+    ],
+    "teams": {
+      "DRG": {
+        "team": "DRG",
+        "teamName": "DeRank Gamers",
+        "agents": [
+          "Fade",
+          "FadeF",
+          "Omen",
+          "Raze",
+          "Skye",
+          "Viper"
+        ]
+      },
+      "EMEA": {
+        "team": "EMEA",
+        "teamName": "Tech Pause Esports",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Harbor",
+          "Raze",
+          "Skye"
+        ]
+      },
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Neon",
+          "Omen",
+          "Skye",
+          "Viper",
+          "Waylay"
+        ]
+      },
+      "WING": {
+        "team": "WING",
+        "teamName": "Wingman Warriors",
+        "agents": [
+          "Chamber",
+          "Clove",
+          "Neon",
+          "Raze",
+          "Skye"
+        ]
+      }
+    }
+  },
+  "Sunset": {
+    "mapsPlayed": 16,
+    "atkPct": 0.527,
+    "defPct": 0.473,
+    "agents": [],
+    "teams": {}
+  }
+}
