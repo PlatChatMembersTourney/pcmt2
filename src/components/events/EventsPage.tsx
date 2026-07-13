@@ -83,7 +83,7 @@ const TeamsPage: React.FC = () => {
 								id={event.id}
 								region={event.region}
 								status={event.status}
-								prizePool={'a showmatch idk'}
+								prizePool={event.id.includes('showmatch') ? "wyatt's weekly award" : 'a showmatch idk'}
 								dates={event.dates}
 								logo={
 									event.region === 'na'

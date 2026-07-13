@@ -179,19 +179,19 @@
 		]
 	},
 	{
-		"id": "showmatch-2",
+		"id": "showmatch-s2-na",
 		"name": "Season 2 Showmatch",
-		"shortName": "S2 SM",
+		"shortName": "SM S2 NA",
 		"season": 2,
 		"region": "na",
 		"path": "showmatch2/na",
 		"status": "completed",
 		"desc": "The Season 2 showmatch - champions Just Dudes Gaming took on a Plat Chat squad.",
-		"dates": "TBD",
+		"dates": "July 12, 2026",
 		"stages": [
 			{
 				"name": "Showmatch",
-				"dates": "TBD"
+				"dates": "July 12, 2026"
 			}
 		]
 	}

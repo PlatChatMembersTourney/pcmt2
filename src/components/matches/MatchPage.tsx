@@ -26,7 +26,11 @@ const shitpostPaths = [
 	'grimisnotgrim.webp',
 	'pcmt.webp',
 	'tenyaku.webp',
-	'masaoisneeded.gif'
+	'masaoisneeded.gif',
+	'what_does_caleb_do.gif',
+	'mimi.webp',
+	'izz.webp',
+	'larp.webp'
 ]
 
 function pickN<T>(items: T[], N: number): T[] {
