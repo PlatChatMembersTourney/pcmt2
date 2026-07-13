@@ -1,0 +1,14 @@
+{
+    "JDG": {
+        "name": "Just Dudes Gaming",
+        "abbr": "JDG",
+        "logo": "/icons/s2_teams/JustDudesGaming.png",
+        "players": ["james", "stingray", "luca", "neckolas", "sylos"]
+    },
+    "PC": {
+        "name": "Plat Chat",
+        "abbr": "PC",
+        "logo": "/icons/PC Logo.png",
+        "players": ["Mini", "Sideshow", "mimi", "Bren", "Shyo"]
+    }
+}
