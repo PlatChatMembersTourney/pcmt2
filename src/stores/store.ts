@@ -54,7 +54,7 @@ export const teams: Record<string, Record<string, TeamInfo>> = {
 	's1-emea': s1EMEATeamsRaw as Record<string, TeamInfo>,
 	's2-emea': s2EMEATeamsRaw as Record<string, TeamInfo>,
 
-	'showmatch-s2-na': s2NAShowmatchTeamsRaw as Record<string, TeamInfo>,
+	'showmatch-s2-na': {} // s2NAShowmatchTeamsRaw as Record<string, TeamInfo>,
 }
 
 // load stats for all teams
