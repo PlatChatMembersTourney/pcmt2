@@ -20,11 +20,13 @@ const TeamsPage: React.FC = () => {
 		setRegion(newValue)
 	}
 
-	const filteredEvents = events.filter(
-		(event: Event) => {
-			return region[0] === 'All' || region[0].toLowerCase() === event.region
-		}
-	).reverse();
+	const filteredEvents = events
+		.filter((event: Event) => {
+			return (
+				region[0] === 'All' || region[0].toLowerCase() === event.region
+			)
+		})
+		.reverse()
 
 	return (
 		<div className="flex flex-col mx-4 mt-4 sm:mx-6 sm:mt-6 font-[roboto] dark:bg-vlr-gray-800 bg-vlr-gray-300">
@@ -83,12 +85,18 @@ const TeamsPage: React.FC = () => {
 								id={event.id}
 								region={event.region}
 								status={event.status}
-								prizePool={event.id.includes('showmatch') ? "wyatt's weekly award" : 'a showmatch idk'}
+								prizePool={
+									event.id.includes('showmatch')
+										? "wyatt's weekly award"
+										: 'a showmatch idk'
+								}
 								dates={event.dates}
 								logo={
-									event.region === 'na'
-										? '/icons/NA%20Logo.png'
-										: '/icons/EMEA%20Logo.png'
+									event.id.includes('showmatch')
+										? '/icons/PC%20Logo%20Box.png'
+										: (event.region === 'na'
+											? '/icons/NA%20Logo.png'
+											: '/icons/EMEA%20Logo.png')
 								}
 								key={event.id}
 							/>

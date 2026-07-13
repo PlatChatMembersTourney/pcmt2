@@ -6,6 +6,7 @@ interface Props {
 	region: string;
 	dates: string;
 	prize: string;
+	showmatch?: boolean;
 }
 
 const {
@@ -13,13 +14,14 @@ const {
 	desc,
 	region,
 	dates,
-	prize
+	prize,
+	showmatch
 } = Astro.props;
 ---
 
 <div class="p-4 sm:p-6 bg-vlr-gray-100 dark:bg-vlr-gray-600 flex gap-4 sm:gap-6">
 	<div class="w-30 h-30 border-neutral-500 border rounded-sm flex items-center justify-center flex-none" >
-		<img src={region === 'na' ? '/icons/NA%20Logo.png' : '/icons/EMEA%20Logo.png'} class="rounded-sm w-28 h-28">
+		<img src={showmatch ? '/icons/PC%20Logo%20Box.png' : (region === 'na' ? '/icons/NA%20Logo.png' : '/icons/EMEA%20Logo.png')} class="rounded-sm w-28 h-28">
 	</div>
 
 	<div class="flex flex-col">

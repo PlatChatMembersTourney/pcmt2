@@ -1,3 +1,5 @@
+import { regionFlag } from '../../utils/images.ts'
+
 interface EventCardProps {
 	name: string;
 	id: string;
@@ -60,7 +62,7 @@ const EventCard: React.FC<EventCardProps> = props => {
 						<div className="flex-none flex items-end flex-col gap-1">
 							<dd className="text-xs leading-none font-normal text-black dark:text-vlr-text-light h-4">
 								<img
-									src={`/icons/flags/16/${region}.png`}
+									src={regionFlag(region)}
 									alt={region}
 									className="h-4 w-4"
 								/>

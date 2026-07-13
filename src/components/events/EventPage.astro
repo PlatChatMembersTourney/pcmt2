@@ -18,7 +18,8 @@ const {
 		desc={event.desc}
 		region={event.region}
 		dates={event.dates}
-		prize="a showmatch idk"
+		prize={event.id.includes('showmatch') ? "wyatt's weekly award" : "a showmatch idk"}
+		showmatch={event.id.includes('showmatch')}
 	/>
 
 	<EventPanels
