@@ -27,22 +27,59 @@ const getAgents = (mapDetails: MapDetail[])=> {
 	return agents;
 }
 
-const getRounds = (mapDetails: MapDetail[])=> {
+const getRounds = (mapDetails: MapDetail[]) => {
 	const rounds: Record<string, number> = {}
 
 	mapDetails.forEach((details) => {
 		details.stats.forEach((stat) => {
 			stat.players.forEach((player) => {
 				if (!(player.Player in rounds)) {
-					rounds[player.Player] = 0;
+					rounds[player.Player] = 0
 				}
-				rounds[player.Player] += (details.score1 + details.score2);
+				rounds[player.Player] += details.score1 + details.score2
 			})
 		})
 	})
 
-	return rounds;
+	return rounds
 }
+
+const copypastas = [
+	'Are you kidding ??? What the **** are you talking about man ?\n' +
+		'You are a biggest looser i ever seen in my life ! You was doing\n' +
+		'PIPI in your pampers when i was beating players much more\n' +
+		'stronger then you! You are not proffesional, because\n' +
+		'proffesionals knew how to lose and congratulate opponents, you\n' +
+		'are like a girl crying after i beat you! Be brave, be honest to\n' +
+		'yourself and stop this trush talkings!!! Everybody know that i\n' +
+		'am very good pcmt player, i can win anyone in the world in lurk!\n' +
+		'And "h"aych "e"dd is nobody for me, just a player who are crying\n' +
+		'every single time when loosing, ( remember what you say about\n' +
+		'Caleb ) !!! Stop playing with my name, i deserve to have a good\n' +
+		'name during whole my valorand carrier, I am Officially inviting\n' +
+		'you to 1v1 skirmish match with the Prize fund! Both of us will\n' +
+		'invest 5000$ and winner takes it all!',
+	"Icebox was released on October 13, 2020, as part of Valorant's Episode\n" +
+		'I, Act 3 update. The map is set in Bennett Island, Sakha, Russia,\n' +
+		'featuring a snowy port environment with vertical play and zip lines,\n' +
+		'making it unique compared to other maps. Icebox emphasizes\n' +
+		'skirmishes, fast-paced gameplay, and requires strategic vertical\n' +
+		'positioning and effective use of cover. It has two bomb sites with\n' +
+		'complex layouts that challenge both attackers and defenders differently,\n' +
+		'making it an attacker-sided map with ample opportunities for creative\n' +
+		'play.\n' +
+		'\n' +
+		"The general shape of Valorant's Icebox map is a symmetrical,\n" +
+		'rectangular layout with two distinct bomb sites (A and B) located at\n' +
+		'opposite ends. The map features a central area with vertical elements\n' +
+		'like ziplines, elevated platforms, and numerous obstacles that create\n' +
+		"complex sightlines and angles. Icebox's design encourages vertical\n" +
+		'engagements with high-ground advantages and close-quarters combat in\n' +
+		'tight corridors. The map is heavily segmented with various pathways,\n' +
+		'allowing players to approach sites from multiple directions, which\n' +
+		'emphasizes strategic positioning and rapid rotations between sites.',
+	'When JDG is ahead in man advantage, Sylos feels that JDG is at a great advantage and thus he will push aggressively. When JDG is even in players, Sylos thinks that JDG is at a small advantage, and he so he pushes aggressively to fight to secure their "lead". When JDG is behind by one player, Sylos thinks that JDG is at a disadvantage and so he looks for an aggressive play to regain control of the game. When JDG is down multiple players, Sylos thinks that the team has reached a desperate situation and they are only waiting passively for their death if he does not make an aggressive play.'
+]
 
 const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 	const { match, event } = props;
@@ -51,20 +88,7 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 	if(!match.completed) {
 		return (
 			<div className="flex flex-col p-4 sm:p-5 bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow text-vlr-text-dark text-sm dark:text-vlr-text-white">
-				Are you kidding ??? What the **** are you talking about man ?
-				You are a biggest looser i ever seen in my life ! You was doing
-				PIPI in your pampers when i was beating players much more
-				stronger then you! You are not proffesional, because
-				proffesionals knew how to lose and congratulate opponents, you
-				are like a girl crying after i beat you! Be brave, be honest to
-				yourself and stop this trush talkings!!! Everybody know that i
-				am very good pcmt player, i can win anyone in the world in lurk!
-				And "h"aych "e"dd is nobody for me, just a player who are crying
-				every single time when loosing, ( remember what you say about
-				Caleb ) !!! Stop playing with my name, i deserve to have a good
-				name during whole my valorand carrier, I am Officially inviting
-				you to 1v1 skirmish match with the Prize fund! Both of us will
-				invest 5000$ and winner takes it all!
+				{copypastas[Math.floor(Math.random() * copypastas.length)]}
 			</div>
 		)
 	}
