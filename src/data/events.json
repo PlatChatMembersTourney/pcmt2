@@ -73,11 +73,11 @@
 		"path": "showmatch1/na",
 		"status": "completed",
 		"desc": "The Season 1 showmatch - champions You Get Shot You Die took on a Plat Chat squad.",
-		"dates": "July 12, 2026",
+		"dates": "Jan 4, 2026",
 		"stages": [
 			{
 				"name": "Showmatch",
-				"dates": "July 12, 2026",
+				"dates": "Jan 4, 2026",
 				"format": {
 					"type": "showmatch",
 					"groups": 1,
@@ -220,11 +220,11 @@
 		"path": "showmatch2/na",
 		"status": "completed",
 		"desc": "The Season 2 showmatch - champions Just Dudes Gaming took on a Plat Chat squad.",
-		"dates": "July 12, 2026",
+		"dates": "Jul 12, 2026",
 		"stages": [
 			{
 				"name": "Showmatch",
-				"dates": "July 12, 2026",
+				"dates": "Jul 12, 2026",
 				"format": {
 					"type": "showmatch",
 					"groups": 1,
