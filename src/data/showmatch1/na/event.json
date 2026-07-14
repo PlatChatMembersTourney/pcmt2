@@ -1,0 +1,10 @@
+{
+	"id": "showmatch-2",
+	"name": "PCMT Season 2 Showmatch",
+	"shortName": "S2 SM",
+	"season": 2,
+	"region": "na",
+	"path": "showmatch2/na",
+	"stages": ["Showmatch"],
+	"statsFormat": "json"
+}

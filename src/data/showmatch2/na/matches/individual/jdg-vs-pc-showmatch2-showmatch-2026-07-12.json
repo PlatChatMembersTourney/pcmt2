@@ -1,7 +1,7 @@
 {
 	"id": "jdg-vs-pc-showmatch2-showmatch-2026-07-12",
 	"team1": "JDG",
-	"team2": "PC",
+	"team2": "PLAT",
 	"team1Name": "Just Dudes Gaming",
 	"team2Name": "Plat Chat",
 	"score1": 3,
@@ -10,7 +10,7 @@
 	"bestOf": 3,
 	"date": "2026-07-12T20:00:00Z",
 	"stage": "Showmatch",
-	"veto": "JDG bans Summit, PC bans Sunset, JDG picks Breeze, PC picks Ascent, JDG bans Lotus, PC bans Haven, Split remains",
+	"veto": "JDG bans Summit, PLAT bans Sunset, JDG picks Breeze, PLAT picks Ascent, JDG bans Lotus, PLAT bans Haven, Split remains",
 	"maps": [
 		{
 			"name": "Breeze",
@@ -111,7 +111,7 @@
 			]
 		},
 		{
-			"team": "PC",
+			"team": "PLAT",
 			"teamName": "Plat Chat",
 			"players": [
 				{
@@ -431,7 +431,7 @@
 					]
 				},
 				{
-					"team": "PC",
+					"team": "PLAT",
 					"teamName": "Plat Chat",
 					"players": [
 						{
@@ -738,7 +738,7 @@
 					]
 				},
 				{
-					"team": "PC",
+					"team": "PLAT",
 					"teamName": "Plat Chat",
 					"players": [
 						{
@@ -1021,7 +1021,7 @@
 					]
 				},
 				{
-					"team": "PC",
+					"team": "PLAT",
 					"teamName": "Plat Chat",
 					"players": [
 						{

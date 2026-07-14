@@ -43,14 +43,20 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 		columnHelper.accessor('won', {
 			header: 'Won',
 		}),
-		columnHelper.accessor(row => pctFormatter.format(row.winPct), {
+		columnHelper.accessor('winPct', {
 			header: 'Win %',
+			cell: ({ getValue }) => {
+				return pctFormatter.format(getValue())
+			},
 		}),
 		columnHelper.accessor('roundsWon', {
 			header: 'Rnd Won',
 		}),
 		columnHelper.accessor('roundPct', {
 			header: 'Rnd %',
+			cell: ({ getValue }) => {
+				return pctFormatter.format(getValue())
+			},
 		}),
 	]
 

@@ -5,9 +5,9 @@
         "logo": "/icons/s2_teams/JustDudesGaming.png",
         "players": ["james", "stingray", "luca", "neckolas", "sylos"]
     },
-    "PC": {
+    "PLAT": {
         "name": "Plat Chat",
-        "abbr": "PC",
+        "abbr": "PLAT",
         "logo": "/icons/PC Logo Box.png",
         "players": ["Mini", "Sideshow", "mimi", "Bren", "Shyo"]
     }

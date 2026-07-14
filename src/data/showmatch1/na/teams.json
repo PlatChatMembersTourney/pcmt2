@@ -1,0 +1,14 @@
+{
+    "YGSYD": {
+        "name": "You Get Shot You Die",
+        "abbr": "YGSYD",
+        "logo": "/icons/s1_teams/You Get Shot You Die.png",
+        "players": ["retro", "amara", "platinum", "longclaw", "devil"]
+    },
+    "PC": {
+        "name": "Plat Chat",
+        "abbr": "PLAT",
+        "logo": "/icons/PC Logo Box.png",
+        "players": ["Wyatt", "Shyo", "Sideshow", "mimi", "dryad"]
+    }
+}

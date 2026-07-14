@@ -176,8 +176,8 @@
       }
     ]
   },
-  "PC": {
-    "team": "PC",
+  "PLAT": {
+    "team": "PLAT",
     "teamName": "Plat Chat",
     "overallAtkPct": 0.379,
     "overallDefPct": 0.364,
