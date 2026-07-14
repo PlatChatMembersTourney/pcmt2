@@ -1,7 +1,8 @@
 {
 	"All": {
 		"straight": "",
-		"sizable": "",
+		"sizable": "pl",
+		"sizeable": "pl",
 		"jooah": "",
 		"amara": "ie",
 		"hascan": "na",
@@ -71,7 +72,7 @@
 		"tans": "",
 		"colt": "no",
 		"nameless": "",
-		"cardamom": "",
+		"cardamom": "in",
 		"maple": "",
 		"platy": "us",
 		"twon": "cn",
@@ -175,7 +176,8 @@
 		"s3-na": {},
 		"s1-emea": {},
 		"s2-emea": {
-			"larp": "se"
+			"larp": "se",
+			"noot": "aq"
 		},
 		"showmatch-s1-na": {},
 		"showmatch-s2-na": {}
