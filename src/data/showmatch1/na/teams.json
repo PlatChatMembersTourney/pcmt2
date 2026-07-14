@@ -5,7 +5,7 @@
         "logo": "/icons/s1_teams/You Get Shot You Die.png",
         "players": ["retro", "amara", "platinum", "longclaw", "devil"]
     },
-    "PC": {
+    "PLAT": {
         "name": "Plat Chat",
         "abbr": "PLAT",
         "logo": "/icons/PC Logo Box.png",
