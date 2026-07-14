@@ -1110,6 +1110,15 @@
 				]
 			}
 		],
-		"streamLink": "https://www.youtube.com/watch?v=FmuRlwA0WFw"
+		"streamLink": [
+			{
+				"name": "YouTube VOD",
+				"link": "https://www.youtube.com/watch?v=FmuRlwA0WFw"
+			},
+			{
+				"name": "Sideshow POV",
+				"link": "https://www.youtube.com/watch?v=LxeaFOuoP0c&t=28779s"
+			}
+		]
 	}
 ]

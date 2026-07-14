@@ -78,7 +78,10 @@ export interface Match {
 	maps: MapScore[];
 	combinedStats: TeamStats[]; // whole-match totals per team
 	mapDetails: MapDetail[]; // per-map breakdown
-	streamLink: string;
+	streamLink: string | {
+		link: string;
+		name: string;
+	}[];
 }
 
 export interface TeamInfo {
