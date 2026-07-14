@@ -72,7 +72,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 						const r = info.row.original
 						return (
 							<a href={`/events/${r.eventId}`}>
-								{r.eventId!.replace('-', ' ').toUpperCase()}
+								{r.eventId!.replaceAll('-', ' ').toUpperCase().replace('SHOWMATCH', "SM")}
 							</a>
 						)
 					}

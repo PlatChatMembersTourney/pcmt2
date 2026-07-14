@@ -19,6 +19,7 @@ const TeamsPage: React.FC = () => {
 	const [season, setSeason] = useState(['All']);
 
 	const [stickyPlayerNames, setStickyPlayerNames] = useState(true);
+	const [showShowmatches, setShowShowmatches] = useState(false);
 
 	const allPlayerStats = useStore($allPlayerStats);
 
@@ -39,6 +40,12 @@ const TeamsPage: React.FC = () => {
 	}
 
 	const filteredKeys = Object.keys(allPlayerStats).filter((key) => {
+		if (key.includes('showmatch')) {
+			if(!showShowmatches) {
+				return false;
+			}
+			key = key.replace('showmatch-', '')
+		}
 		return (
 			(region[0] === 'All' || key.endsWith(region[0].toLowerCase())) &&
 			(season[0] === 'All' || key.startsWith(season[0].toLowerCase()))
@@ -138,12 +145,18 @@ const TeamsPage: React.FC = () => {
 					</ToggleGroup>
 				</div>
 			</div>
-			<div className="mx-4 sm:mx-6 mt-2 sm:mt-4">
+			<div className="mx-4 sm:mx-6 mt-2 sm:mt-4 flex">
 				<button
 					onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
 					className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} cursor-pointer text-xs rounded-sm bg-vlr-gray-100 dark:bg-vlr-gray-600 p-2 dark:text-vlr-text-white text-vlr-text-dark`}
 				>
 					Sticky Player Names
+				</button>
+				<button
+					onClick={() => setShowShowmatches(!showShowmatches)}
+					className={`${showShowmatches ? 'font-bold' : 'font-normal'} ml-auto cursor-pointer text-xs rounded-sm bg-vlr-gray-100 dark:bg-vlr-gray-600 p-2 dark:text-vlr-text-white text-vlr-text-dark`}
+				>
+					Show Showmatches
 				</button>
 			</div>
 
