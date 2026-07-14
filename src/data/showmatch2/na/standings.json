@@ -1,0 +1,30 @@
+{
+  "Overall": [
+    {
+      "abbr": "JDG",
+      "name": "Just Dudes Gaming",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 1,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "PC",
+      "name": "Plat Chat",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    }
+  ]
+}
