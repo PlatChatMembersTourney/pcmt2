@@ -1,12 +1,12 @@
-import type { Match, Event, TeamInfo } from '../../types/types.ts'
-import slugify from 'slugify'
-import { useStore } from '@nanostores/react'
-import { $teams } from '../../stores/store.ts'
-import { timeUntil } from '../../utils/datetime.ts'
+import type { Match, Event, TeamInfo } from '../../types/types.ts';
+import slugify from 'slugify';
+import { useStore } from '@nanostores/react';
+import { $teams } from '../../stores/store.ts';
+import { timeUntil } from '../../utils/datetime.ts';
 
 interface MatchHeaderProps {
-	match: Match
-	event: Event
+	match: Match;
+	event: Event;
 }
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
@@ -14,18 +14,18 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
 	day: 'numeric',
 	weekday: 'short',
 	year: 'numeric',
-})
+});
 const timeFormatter = new Intl.DateTimeFormat('en-US', {
 	hour: 'numeric',
 	minute: '2-digit',
 	timeZoneName: 'short',
-})
+});
 
 const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
-	const { match, event } = props
+	const { match, event } = props;
 
-	const teams: Record<string, TeamInfo> = useStore($teams)[event.id]
-	const team1Winner = match.completed && match.score1 > match.score2
+	const teams: Record<string, TeamInfo> = useStore($teams)[event.id];
+	const team1Winner = match.completed && match.score1 > match.score2;
 
 	return (
 		<div
@@ -36,115 +36,79 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 							na: 'cool-border-na',
 							emea: 'cool-border-emea',
 						}[event.region]
-			} p-4 sm:p-5 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 relative cool-border-top text-[#333] dark:text-vlr-text-white`}
+			} vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 cool-border-top dark:text-vlr-text-white relative p-4 text-[#333] sm:p-5`}
 		>
 			<div className="flex h-9 items-center gap-2">
 				<img
 					src={
-						event.id.includes('showmatch') ?
-							'/icons/PC%20Logo%20Box.png' : (event.region === 'na'
-							? '/icons/NA%20Logo.png'
-							: '/icons/EMEA%20Logo.png')
+						event.id.includes('showmatch')
+							? '/icons/PC%20Logo%20Box.png'
+							: event.region === 'na'
+								? '/icons/NA%20Logo.png'
+								: '/icons/EMEA%20Logo.png'
 					}
 					className="h-8 w-8"
 				/>
 				<div className="flex flex-col">
-					<a
-						href={`/events/${event.id}`}
-						className="flex-1 leading-4.5 text-xs text-pb font-bold"
-					>
+					<a href={`/events/${event.id}`} className="text-pb flex-1 text-xs leading-4.5 font-bold">
 						PCMT: {event.name}
 					</a>
-					<p className="flex-1 leading-4.5 text-xs">{match.stage}</p>
+					<p className="flex-1 text-xs leading-4.5">{match.stage}</p>
 				</div>
-				<div className="flex flex-col ml-auto text-right">
-					<p className="flex-1 leading-4.5 text-xs">
-						{dateFormatter.format(new Date(match.date))}
-					</p>
-					<p className="flex-1 leading-4.5 text-xs">
-						{timeFormatter.format(new Date(match.date))}
-					</p>
+				<div className="ml-auto flex flex-col text-right">
+					<p className="flex-1 text-xs leading-4.5">{dateFormatter.format(new Date(match.date))}</p>
+					<p className="flex-1 text-xs leading-4.5">{timeFormatter.format(new Date(match.date))}</p>
 				</div>
 			</div>
 			<div className="mt-10 mb-15 flex items-center justify-center">
 				<a
 					href={`/events/${event.id}/teams/${slugify(match.team1Name, { lower: true })}`}
-					className="font-black text-base leading-tight md:text-xl w-30 md:w-37.5 text-right text-plat-blue-dark dark:text-vlr-text-white"
+					className="text-plat-blue-dark dark:text-vlr-text-white w-30 text-right text-base leading-tight font-black md:w-37.5 md:text-xl"
 				>
 					{match.team1Name}
 				</a>
-				<div className="h-12 w-12 md:h-18 md:w-18 ml-3 md:ml-5">
-					<img
-						src={teams[match.team1].logo}
-						className="h-full w-full object-contain"
-						alt={match.team1Name}
-					/>
+				<div className="ml-3 h-12 w-12 md:ml-5 md:h-18 md:w-18">
+					<img src={teams[match.team1].logo} className="h-full w-full object-contain" alt={match.team1Name} />
 				</div>
-				<div className="flex flex-col items-center w-20 md:w-25">
+				<div className="flex w-20 flex-col items-center md:w-25">
 					{match.completed ? (
-						<p className="text-[10px] uppercase text-vlr-text-gray">
-							Final
-						</p>
+						<p className="text-vlr-text-gray text-[10px] uppercase">Final</p>
 					) : (
-						<p className="text-[10px] uppercase text-green-400">
-							{timeUntil(match.date)}
-						</p>
+						<p className="text-[10px] text-green-400 uppercase">{timeUntil(match.date)}</p>
 					)}
 
-					<p className="text-base md:text-3xl font-medium">
+					<p className="text-base font-medium md:text-3xl">
 						{!match.completed ? (
-							<span className="font-normal text-vlr-text-gray">
-								–
-							</span>
+							<span className="text-vlr-text-gray font-normal">–</span>
 						) : (
 							<>
-								<span
-									className={
-										team1Winner
-											? ' text-green-500 dark:text-green-400'
-											: ''
-									}
-								>
+								<span className={team1Winner ? 'text-green-500 dark:text-green-400' : ''}>
 									{match.score1}
 								</span>
 								{' : '}
-								<span
-									className={
-										!team1Winner
-											? 'text-green-500 dark:text-green-400'
-											: ''
-									}
-								>
+								<span className={!team1Winner ? 'text-green-500 dark:text-green-400' : ''}>
 									{match.score2}
 								</span>
 							</>
 						)}
 					</p>
 
-					<p className="text-[10px] uppercase text-vlr-text-gray">
-						BO{match.bestOf}
-					</p>
+					<p className="text-vlr-text-gray text-[10px] uppercase">BO{match.bestOf}</p>
 				</div>
 
-				<div className="h-12 w-12 md:h-18 md:w-18 mr-3 md:mr-5">
-					<img
-						src={teams[match.team2].logo}
-						className="h-full w-full object-contain"
-						alt={match.team2Name}
-					/>
+				<div className="mr-3 h-12 w-12 md:mr-5 md:h-18 md:w-18">
+					<img src={teams[match.team2].logo} className="h-full w-full object-contain" alt={match.team2Name} />
 				</div>
 				<a
 					href={`/events/${event.id}/teams/${slugify(match.team2Name, { lower: true })}`}
-					className="font-black text-base leading-tight md:text-xl w-30 md:w-37.5 text-plat-blue-dark dark:text-vlr-text-white"
+					className="text-plat-blue-dark dark:text-vlr-text-white w-30 text-base leading-tight font-black md:w-37.5 md:text-xl"
 				>
 					{match.team2Name}
 				</a>
 			</div>
-			<p className="italic text-[11px] md:text-xs leading-normal text-center">
-				{match.veto}
-			</p>
+			<p className="text-center text-[11px] leading-normal italic md:text-xs">{match.veto}</p>
 		</div>
-	)
-}
+	);
+};
 
-export default MatchHeader
+export default MatchHeader;

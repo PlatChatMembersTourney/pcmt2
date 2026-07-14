@@ -1,25 +1,25 @@
-import type { Match, Event } from '../../types/types.ts'
-import slugify from 'slugify'
+import type { Match, Event } from '../../types/types.ts';
+import slugify from 'slugify';
 
-import { timeAgo, timeUntil } from '../../utils/datetime.ts'
-import { regionFlag, teamFlag } from '../../utils/images.ts'
+import { timeAgo, timeUntil } from '../../utils/datetime.ts';
+import { regionFlag, teamFlag } from '../../utils/images.ts';
 
 interface MatchCardProps {
-	match: Match
-	event: Event
-	addlClass?: string
+	match: Match;
+	event: Event;
+	addlClass?: string;
 }
 
 const formatter = new Intl.DateTimeFormat('en-US', {
 	timeStyle: 'short',
-})
+});
 
 const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
-	const { match, event, addlClass } = props
+	const { match, event, addlClass } = props;
 
-	const date = new Date(match.date)
+	const date = new Date(match.date);
 
-	const team1Winner = match.completed && match.score1 > match.score2
+	const team1Winner = match.completed && match.score1 > match.score2;
 	return (
 		<a
 			href={`/events/${event.id}/${slugify(match.id)}`}
@@ -31,14 +31,12 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 								na: 'cool-border-na',
 								emea: 'cool-border-emea',
 							}[event.region]
-				} flex px-4 md:px-5 items-center w-full h-14 dark:bg-vlr-gray-600 dark:hover:bg-vlr-gray-500 bg-vlr-gray-100 hover:bg-[#f1f1f1] cool-border relative` +
+				} dark:bg-vlr-gray-600 dark:hover:bg-vlr-gray-500 bg-vlr-gray-100 cool-border relative flex h-14 w-full items-center px-4 hover:bg-[#f1f1f1] md:px-5` +
 				(addlClass ? ` ${addlClass}` : '')
 			}
 		>
-			<p className="text-xs w-14 md:w-17.5 text-right md:mr-15">
-				{formatter.format(date)}
-			</p>
-			<div className="flex flex-col w-60 ml-auto md:ml-0 sm:mr-15">
+			<p className="w-14 text-right text-xs md:mr-15 md:w-17.5">{formatter.format(date)}</p>
+			<div className="ml-auto flex w-60 flex-col sm:mr-15 md:ml-0">
 				{[
 					{
 						winner: team1Winner,
@@ -56,10 +54,10 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 					return (
 						<div
 							key={'Team ' + idx}
-							className="flex w-60 whitespace-nowrap gap-1.75 items-center h-5 text-xs font-medium dark:text-vlr-text-white text-vlr-text-dark"
+							className="dark:text-vlr-text-white text-vlr-text-dark flex h-5 w-60 items-center gap-1.75 text-xs font-medium whitespace-nowrap"
 						>
-							<div className="flex-none flex items-center">
-								<div className="w-3 mr-0.5 flex items-center">
+							<div className="flex flex-none items-center">
+								<div className="mr-0.5 flex w-3 items-center">
 									{winner && match.completed && (
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -71,22 +69,16 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 										</svg>
 									)}
 								</div>
-								<img
-									src={teamFlag(abbr, event.id, event.region)}
-									alt={event.region}
-									className="w-4"
-								/>
+								<img src={teamFlag(abbr, event.id, event.region)} alt={event.region} className="w-4" />
 							</div>
-							<span className="text-ellipsis overflow-hidden shrink">
-								{name}
-							</span>
+							<span className="shrink overflow-hidden text-ellipsis">{name}</span>
 							{match.completed ? (
 								<p
 									className={
-										'flex-none underline ml-auto ' +
+										'ml-auto flex-none underline ' +
 										(winner
-											? 'font-medium text-vlr-text-dark dark:text-vlr-text-white'
-											: 'font-normal text-vlr-text-gray dark:text-vlr-text-light')
+											? 'text-vlr-text-dark dark:text-vlr-text-white font-medium'
+											: 'text-vlr-text-gray dark:text-vlr-text-light font-normal')
 									}
 								>
 									{score}
@@ -94,45 +86,45 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 							) : (
 								<p
 									className={
-										'flex-none ml-auto font-medium text-vlr-text-dark dark:text-vlr-text-white'
+										'text-vlr-text-dark dark:text-vlr-text-white ml-auto flex-none font-medium'
 									}
 								>
 									-
 								</p>
 							)}
 						</div>
-					)
+					);
 				})}
 			</div>
-			<div className="hidden sm:flex items-center text-[11px]">
+			<div className="hidden items-center text-[11px] sm:flex">
 				{match.completed ? (
 					<>
-						<div className="rounded-l-sm px-1.5 py-1 bg-[#aaa] dark:bg-[#888] text-white dark:text-[#eee]">
+						<div className="rounded-l-sm bg-[#aaa] px-1.5 py-1 text-white dark:bg-[#888] dark:text-[#eee]">
 							Completed
 						</div>
-						<div className="rounded-r-sm pl-1 pr-1.5 py-1 bg-[#888] dark:bg-[#777] font-medium text-white dark:text-[#eee]">
+						<div className="rounded-r-sm bg-[#888] py-1 pr-1.5 pl-1 font-medium text-white dark:bg-[#777] dark:text-[#eee]">
 							{timeAgo(match.date)}
 						</div>
 					</>
 				) : (
 					<>
-						<div className="rounded-l-sm px-1.5 py-1 bg-[#498357] dark:bg-[#5ca36c] text-white dark:text-[#eee]">
+						<div className="rounded-l-sm bg-[#498357] px-1.5 py-1 text-white dark:bg-[#5ca36c] dark:text-[#eee]">
 							Upcoming
 						</div>
-						<div className="rounded-r-sm pl-1 pr-1.5 py-1 bg-[#5ca36c] dark:bg-[#498357] font-medium text-white dark:text-[#eee]">
+						<div className="rounded-r-sm bg-[#5ca36c] py-1 pr-1.5 pl-1 font-medium text-white dark:bg-[#498357] dark:text-[#eee]">
 							{timeUntil(match.date)}
 						</div>
 					</>
 				)}
 			</div>
-			<div className="hidden flex-col ml-auto md:flex text-right text-xs">
+			<div className="ml-auto hidden flex-col text-right text-xs md:flex">
 				<p className="dark:text-vlr-text-white font-medium">
 					PCMT: {event.region.toUpperCase()} S{event.season}
 				</p>
 				<p className="dark:text-vlr-text-light">{match.stage}</p>
 			</div>
 		</a>
-	)
-}
+	);
+};
 
-export default MatchCard
+export default MatchCard;

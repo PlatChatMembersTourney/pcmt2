@@ -1,4 +1,4 @@
-import type { MapStat, TeamMapStats } from '../../types/types.ts'
+import type { MapStat, TeamMapStats } from '../../types/types.ts';
 
 import {
 	useReactTable,
@@ -7,25 +7,25 @@ import {
 	flexRender,
 	getCoreRowModel,
 	type SortingState,
-} from '@tanstack/react-table'
-import { useState } from 'react'
+} from '@tanstack/react-table';
+import { useState } from 'react';
 
 interface TeamMapStatsTableProps {
-	teamMapStats: TeamMapStats
+	teamMapStats: TeamMapStats;
 }
 
 const pctFormatter = new Intl.NumberFormat('en-US', {
 	style: 'percent',
 	maximumFractionDigits: 0,
-})
+});
 
 const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 	const { teamMapStats } = props;
 
-	const [sorting, setSorting] = useState<SortingState>([])
+	const [sorting, setSorting] = useState<SortingState>([]);
 
 	// use TanStack table
-	const columnHelper = createColumnHelper<MapStat>()
+	const columnHelper = createColumnHelper<MapStat>();
 
 	const columns = [
 		columnHelper.accessor('map', {
@@ -46,7 +46,7 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 		columnHelper.accessor('winPct', {
 			header: 'Win %',
 			cell: ({ getValue }) => {
-				return pctFormatter.format(getValue())
+				return pctFormatter.format(getValue());
 			},
 		}),
 		columnHelper.accessor('roundsWon', {
@@ -55,10 +55,10 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 		columnHelper.accessor('roundPct', {
 			header: 'Rnd %',
 			cell: ({ getValue }) => {
-				return pctFormatter.format(getValue())
+				return pctFormatter.format(getValue());
 			},
 		}),
-	]
+	];
 
 	const table = useReactTable({
 		data: teamMapStats.maps,
@@ -69,65 +69,54 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 		state: {
 			sorting,
 		},
-	})
+	});
 
 	return (
-		<div className="text-base dark:text-vlr-text-white text-vlr-text-dark overflow-x-auto">
-			<table className="border-separate border-spacing-0 vlr-box-shadow">
+		<div className="dark:text-vlr-text-white text-vlr-text-dark overflow-x-auto text-base">
+			<table className="vlr-box-shadow border-separate border-spacing-0">
 				<thead>
 					{table.getHeaderGroups().map((headerGroup, groupIdx) => (
-						<tr
-							key={headerGroup.id}
-							className="bg-gray-100 dark:bg-vlr-gray-900"
-						>
+						<tr key={headerGroup.id} className="dark:bg-vlr-gray-900 bg-gray-100">
 							{headerGroup.headers.map((header) => {
 								const stickyClass = (columnId: string) =>
 									columnId === 'map'
 										? 'sticky left-0 z-20 bg-gray-100 dark:bg-vlr-gray-900 border-r vlr-border'
-										: ''
+										: '';
 								return (
 									<th
 										key={header.id}
 										colSpan={header.colSpan}
 										className={`${stickyClass(
 											header.column.id
-										)} px-1 pb-1 relative cool-border-top cool-border-pb after:top-0! pt-1.75`}
+										)} cool-border-top cool-border-pb relative px-1 pt-1.75 pb-1 after:top-0!`}
 									>
 										{header.isPlaceholder ? null : (
 											<div
 												className={
 													header.column.getCanSort()
-														? 'cursor-pointer select-none dark:text-white text-black'
+														? 'cursor-pointer text-black select-none dark:text-white'
 														: ''
 												}
 												onClick={header.column.getToggleSortingHandler()}
 												title={
 													header.column.getCanSort()
-														? header.column.getNextSortingOrder() ===
-															'asc'
+														? header.column.getNextSortingOrder() === 'asc'
 															? 'Sort ascending'
-															: header.column.getNextSortingOrder() ===
-																  'desc'
+															: header.column.getNextSortingOrder() === 'desc'
 																? 'Sort descending'
 																: 'Clear sort'
 														: undefined
 												}
 											>
-												{flexRender(
-													header.column.columnDef
-														.header,
-													header.getContext()
-												)}
+												{flexRender(header.column.columnDef.header, header.getContext())}
 												{{
 													asc: '▲',
 													desc: '▼',
-												}[
-													header.column.getIsSorted() as string
-												] ?? null}
+												}[header.column.getIsSorted() as string] ?? null}
 											</div>
 										)}
 									</th>
-								)
+								);
 							})}
 						</tr>
 					))}
@@ -141,16 +130,13 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 							{row.getVisibleCells().map((cell) => (
 								<td
 									key={cell.id}
-									className={`px-2.5 py-1 whitespace-nowrap min-w-15 ${
+									className={`min-w-15 px-2.5 py-1 whitespace-nowrap ${
 										cell.column.id === 'map'
-											? 'sticky left-0 z-10 border-r vlr-border group-odd:bg-vlr-gray-100 group-even:bg-vlr-gray-200 group-odd:dark:bg-vlr-gray-600 group-even:dark:bg-vlr-gray-700'
+											? 'vlr-border group-odd:bg-vlr-gray-100 group-even:bg-vlr-gray-200 group-odd:dark:bg-vlr-gray-600 group-even:dark:bg-vlr-gray-700 sticky left-0 z-10 border-r'
 											: 'text-center'
 									}`}
 								>
-									{flexRender(
-										cell.column.columnDef.cell,
-										cell.getContext()
-									)}
+									{flexRender(cell.column.columnDef.cell, cell.getContext())}
 								</td>
 							))}
 						</tr>
@@ -163,10 +149,7 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 								<th key={header.id}>
 									{header.isPlaceholder
 										? null
-										: flexRender(
-												header.column.columnDef.footer,
-												header.getContext()
-											)}
+										: flexRender(header.column.columnDef.footer, header.getContext())}
 								</th>
 							))}
 						</tr>
@@ -174,7 +157,7 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 				</tfoot>
 			</table>
 		</div>
-	)
-}
+	);
+};
 
 export default TeamMapStatsTable;

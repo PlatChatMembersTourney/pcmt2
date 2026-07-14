@@ -1,8 +1,8 @@
-import {useState} from "react";
-import type {TeamInfo} from "../types/types.ts";
+import { useState } from 'react';
+import type { TeamInfo } from '../types/types.ts';
 
 export interface TeamsProps {
-	teams: Record<string, TeamInfo>
+	teams: Record<string, TeamInfo>;
 }
 
 const Teams: React.FC<TeamsProps> = (props: TeamsProps) => {
@@ -13,19 +13,18 @@ const Teams: React.FC<TeamsProps> = (props: TeamsProps) => {
 	});
 
 	return (
-		<div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-			{
-				sortedTeams.map(({ name, abbr, logo, players }) => (
-					<div
-						key={name}
-						className="bg-neutral-200 dark:bg-neutral-800 h-40 flex flex-col items-center justify-center my-auto rounded-lg">
-						<img src={logo} className="w-20 h-20" />
-						<h1>{name}</h1>
-					</div>
-				))
-			}
+		<div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+			{sortedTeams.map(({ name, abbr, logo, players }) => (
+				<div
+					key={name}
+					className="my-auto flex h-40 flex-col items-center justify-center rounded-lg bg-neutral-200 dark:bg-neutral-800"
+				>
+					<img src={logo} className="h-20 w-20" />
+					<h1>{name}</h1>
+				</div>
+			))}
 		</div>
-	)
-}
+	);
+};
 
 export default Teams;

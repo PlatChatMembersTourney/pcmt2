@@ -1,73 +1,60 @@
-import { useState } from 'react'
-import { useStore } from '@nanostores/react'
-import type { Event, Standing } from '../../types/types.ts'
-import { $standings, $teams } from '../../stores/store.ts'
-import GroupStandingsBox from './GroupStandingsBox.tsx'
+import { useState } from 'react';
+import { useStore } from '@nanostores/react';
+import type { Event, Standing } from '../../types/types.ts';
+import { $standings, $teams } from '../../stores/store.ts';
+import GroupStandingsBox from './GroupStandingsBox.tsx';
 
-const EventOverviewPanel: React.FC<{ event: Event }> = (props: {
-	event: Event
-}) => {
-	const event = props.event
+const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
+	const event = props.event;
 
-	const allStandings: Record<string, Standing[]> = useStore($standings)[event.id]
-	const teams = useStore($teams)[event.id]
+	const allStandings: Record<string, Standing[]> = useStore($standings)[event.id];
+	const teams = useStore($teams)[event.id];
 
-	const [activeStage, setActiveStage] = useState(event.stages.length - 1)
+	const [activeStage, setActiveStage] = useState(event.stages.length - 1);
 
 	const format = event.stages[activeStage].format;
 
 	return (
 		<div className="flex flex-col">
-			<div className="h-15 flex items-center bg-vlr-gray-200 dark:bg-vlr-gray-700  text-black dark:text-vlr-text-white pl-9 sm:pl-11 gap-6 vlr-box-shadow">
+			<div className="bg-vlr-gray-200 dark:bg-vlr-gray-700 dark:text-vlr-text-white vlr-box-shadow flex h-15 items-center gap-6 pl-9 text-black sm:pl-11">
 				{event.stages?.map((stage, idx) => {
-					const isActive = activeStage === idx
+					const isActive = activeStage === idx;
 
 					return (
 						<button
 							key={stage.name}
 							className={
-								'flex flex-col justify-center items-start cursor-pointer gap-1 h-full pt-0.75 border-b-3 border-transparent ' +
-								(isActive
-									? 'border-red-400!'
-									: 'hover:border-[#666666]')
+								'flex h-full cursor-pointer flex-col items-start justify-center gap-1 border-b-3 border-transparent pt-0.75 ' +
+								(isActive ? 'border-red-400!' : 'hover:border-[#666666]')
 							}
 							onClick={() => {
-								setActiveStage(idx)
+								setActiveStage(idx);
 							}}
 						>
-							<p className="text-[10px] uppercase text-vlr-text-gray leading-none">
-								{stage.dates}
-							</p>
+							<p className="text-vlr-text-gray text-[10px] leading-none uppercase">{stage.dates}</p>
 							<p
 								className={
-									'leading-none font-medium text-[12px] ' +
-									(isActive
-										? 'text-black dark:text-vlr-text-white'
-										: 'text-pb')
+									'text-[12px] leading-none font-medium ' +
+									(isActive ? 'dark:text-vlr-text-white text-black' : 'text-pb')
 								}
 							>
 								{stage.name}
 							</p>
 						</button>
-					)
+					);
 				})}
 			</div>
-			<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 px-4 sm:px-6 pt-6 text-black dark:text-vlr-text-white pb-4">
-				{format && ['round-robin', 'showmatch'].includes(format?.type) &&
+			<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 dark:text-vlr-text-white px-4 pt-6 pb-4 text-black sm:px-6">
+				{format &&
+				['round-robin', 'showmatch'].includes(format?.type) &&
 				Object.entries(allStandings).length > 0 ? (
 					<>
-						<h2 className="text-red-400 uppercase font-bold text-[11px] ml-3 mb-3 leading-none">
-							Groups
-						</h2>
-						<div className="flex gap-3 flex-col md:flex-row">
+						<h2 className="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">Groups</h2>
+						<div className="flex flex-col gap-3 md:flex-row">
 							{format.groups === 1 ? (
 								<div className="overflow-x-auto">
 									<GroupStandingsBox
-										standings={
-											allStandings[
-												event.stages[activeStage].name
-											]
-										}
+										standings={allStandings[event.stages[activeStage].name]}
 										teamColors={format.teamColors!}
 										name={event.stages[activeStage].name}
 										teams={teams}
@@ -77,7 +64,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: {
 								</div>
 							) : (
 								format.groupNames?.map((groupName) => (
-									<div className="overflow-x-auto flex-1" key={groupName}>
+									<div className="flex-1 overflow-x-auto" key={groupName}>
 										<GroupStandingsBox
 											standings={allStandings[groupName]}
 											teamColors={format.teamColors!}
@@ -97,7 +84,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: {
 				)}
 			</div>
 		</div>
-	)
-}
+	);
+};
 
-export default EventOverviewPanel
+export default EventOverviewPanel;

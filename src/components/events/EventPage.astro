@@ -1,29 +1,24 @@
 ---
 import EventHeader from './EventHeader.astro';
 import EventPanels from './EventPanels.tsx';
-import type { Event } from '../../types/types.ts'
+import type { Event } from '../../types/types.ts';
 
 interface Props {
 	event: Event;
 }
 
-const {
-	event
-} = Astro.props;
+const { event } = Astro.props;
 ---
 
-<div class="font-[roboto] h-full">
+<div class="h-full font-[roboto]">
 	<EventHeader
 		name={event.name}
 		desc={event.desc}
 		region={event.region}
 		dates={event.dates}
-		prize={event.id.includes('showmatch') ? "wyatt's weekly award" : "a showmatch idk"}
+		prize={event.id.includes('showmatch') ? "wyatt's weekly award" : 'a showmatch idk'}
 		showmatch={event.id.includes('showmatch')}
 	/>
 
-	<EventPanels
-		event={event}
-		client:load
-	/>
+	<EventPanels event={event} client:load />
 </div>
