@@ -1,0 +1,30 @@
+{
+  "Overall": [
+    {
+      "abbr": "YGSYD",
+      "name": "You Get Shot You Die",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 1,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "PLAT",
+      "name": "Plat Chat",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    }
+  ]
+}
