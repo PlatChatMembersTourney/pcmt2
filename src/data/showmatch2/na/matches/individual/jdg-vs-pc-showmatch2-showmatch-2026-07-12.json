@@ -130,7 +130,7 @@
           "PlusMinus2": 1
         },
         {
-          "Player": "BobTrollop",
+          "Player": "Mini",
           "R1.0": 1.077,
           "ACS": 245,
           "K": 50,
@@ -160,7 +160,7 @@
           "PlusMinus2": 3
         },
         {
-          "Player": "timmy larder2013",
+          "Player": "Bren",
           "R1.0": 0.691,
           "ACS": 136,
           "K": 28,
@@ -451,7 +451,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "BobTrollop",
+              "Player": "Mini",
               "Agent": "Phoenix",
               "R1.0": 1.129,
               "ACS": 244,
@@ -467,7 +467,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "timmy larder2013",
+              "Player": "Bren",
               "Agent": "Sage",
               "R1.0": 0.859,
               "ACS": 161,
@@ -758,7 +758,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "BobTrollop",
+              "Player": "Mini",
               "Agent": "Omen",
               "R1.0": 0.928,
               "ACS": 215,
@@ -806,7 +806,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "timmy larder2013",
+              "Player": "Bren",
               "Agent": "Sage",
               "R1.0": 0.662,
               "ACS": 127,
@@ -1025,7 +1025,7 @@
           "teamName": "Plat Chat",
           "players": [
             {
-              "Player": "BobTrollop",
+              "Player": "Mini",
               "Agent": "Omen",
               "R1.0": 1.188,
               "ACS": 283,
@@ -1089,7 +1089,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "timmy larder2013",
+              "Player": "Bren",
               "Agent": "Phoenix",
               "R1.0": 0.49,
               "ACS": 112,

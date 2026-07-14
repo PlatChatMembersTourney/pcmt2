@@ -1,1115 +1,1115 @@
 [
-  {
-    "id": "jdg-vs-pc-showmatch2-showmatch-2026-07-12",
-    "team1": "JDG",
-    "team2": "PC",
-    "team1Name": "Just Dudes Gaming",
-    "team2Name": "Plat Chat",
-    "score1": 3,
-    "score2": 0,
-    "completed": true,
-    "bestOf": 3,
-    "date": "2026-07-12T20:00:00Z",
-    "stage": "Showmatch",
-    "veto": "JDG bans Summit, PC bans Sunset, JDG picks Breeze, PC picks Ascent, JDG bans Lotus, PC bans Haven, Split remains",
-    "maps": [
-      {
-        "name": "Breeze",
-        "score1": 13,
-        "score2": 11
-      },
-      {
-        "name": "Ascent",
-        "score1": 13,
-        "score2": 8
-      },
-      {
-        "name": "Split",
-        "score1": 13,
-        "score2": 4
-      }
-    ],
-    "combinedStats": [
-      {
-        "team": "JDG",
-        "teamName": "Just Dudes Gaming",
-        "players": [
-          {
-            "Player": "james",
-            "R1.0": 1.307,
-            "ACS": 297,
-            "K": 68,
-            "D": 46,
-            "A": 10,
-            "PlusMinus": 22,
-            "KAST": 0.726,
-            "ADR": 187.6,
-            "HS%": 0.438,
-            "FK": 6,
-            "FD": 7,
-            "PlusMinus2": -1
-          },
-          {
-            "Player": "sylos",
-            "R1.0": 1.232,
-            "ACS": 233,
-            "K": 54,
-            "D": 33,
-            "A": 18,
-            "PlusMinus": 21,
-            "KAST": 0.839,
-            "ADR": 144.9,
-            "HS%": 0.128,
-            "FK": 2,
-            "FD": 2,
-            "PlusMinus2": 0
-          },
-          {
-            "Player": "stingray",
-            "R1.0": 1.165,
-            "ACS": 238,
-            "K": 48,
-            "D": 40,
-            "A": 26,
-            "PlusMinus": 8,
-            "KAST": 0.726,
-            "ADR": 161.3,
-            "HS%": 0.247,
-            "FK": 4,
-            "FD": 4,
-            "PlusMinus2": 0
-          },
-          {
-            "Player": "Luca",
-            "R1.0": 1.077,
-            "ACS": 231,
-            "K": 50,
-            "D": 45,
-            "A": 16,
-            "PlusMinus": 5,
-            "KAST": 0.71,
-            "ADR": 149.6,
-            "HS%": 0.316,
-            "FK": 17,
-            "FD": 14,
-            "PlusMinus2": 3
-          },
-          {
-            "Player": "neckolas",
-            "R1.0": 0.763,
-            "ACS": 127,
-            "K": 28,
-            "D": 39,
-            "A": 25,
-            "PlusMinus": -11,
-            "KAST": 0.613,
-            "ADR": 84.0,
-            "HS%": 0.165,
-            "FK": 2,
-            "FD": 4,
-            "PlusMinus2": -2
-          }
-        ]
-      },
-      {
-        "team": "PC",
-        "teamName": "Plat Chat",
-        "players": [
-          {
-            "Player": "Shyo",
-            "R1.0": 1.14,
-            "ACS": 281,
-            "K": 60,
-            "D": 53,
-            "A": 7,
-            "PlusMinus": 7,
-            "KAST": 0.678,
-            "ADR": 179.1,
-            "HS%": 0.207,
-            "FK": 9,
-            "FD": 8,
-            "PlusMinus2": 1
-          },
-          {
-            "Player": "BobTrollop",
-            "R1.0": 1.077,
-            "ACS": 245,
-            "K": 50,
-            "D": 47,
-            "A": 16,
-            "PlusMinus": 3,
-            "KAST": 0.629,
-            "ADR": 165.4,
-            "HS%": 0.245,
-            "FK": 8,
-            "FD": 3,
-            "PlusMinus2": 5
-          },
-          {
-            "Player": "Sideshow",
-            "R1.0": 0.764,
-            "ACS": 173,
-            "K": 37,
-            "D": 53,
-            "A": 12,
-            "PlusMinus": -16,
-            "KAST": 0.645,
-            "ADR": 106.6,
-            "HS%": 0.217,
-            "FK": 9,
-            "FD": 6,
-            "PlusMinus2": 3
-          },
-          {
-            "Player": "timmy larder2013",
-            "R1.0": 0.691,
-            "ACS": 136,
-            "K": 28,
-            "D": 47,
-            "A": 13,
-            "PlusMinus": -19,
-            "KAST": 0.629,
-            "ADR": 93.2,
-            "HS%": 0.296,
-            "FK": 5,
-            "FD": 10,
-            "PlusMinus2": -5
-          },
-          {
-            "Player": "mimi",
-            "R1.0": 0.678,
-            "ACS": 140,
-            "K": 28,
-            "D": 48,
-            "A": 10,
-            "PlusMinus": -20,
-            "KAST": 0.58,
-            "ADR": 101.4,
-            "HS%": 0.135,
-            "FK": 0,
-            "FD": 4,
-            "PlusMinus2": -4
-          }
-        ]
-      }
-    ],
-    "mapDetails": [
-      {
-        "name": "Breeze",
-        "score1": 13,
-        "score2": 11,
-        "rounds": [
-          {
-            "round": 1,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 2,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 3,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 4,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 5,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 6,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 7,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 8,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 9,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 10,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 11,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 12,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 13,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 14,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 15,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 16,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 17,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 18,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 19,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 20,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Bomb detonated"
-          },
-          {
-            "round": 21,
-            "winner": 1,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 22,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 23,
-            "winner": 1,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 24,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          }
-        ],
-        "stats": [
-          {
-            "team": "JDG",
-            "teamName": "Just Dudes Gaming",
-            "players": [
-              {
-                "Player": "james",
-                "Agent": "Clove",
-                "R1.0": 1.572,
-                "ACS": 370,
-                "K": 33,
-                "D": 19,
-                "A": 3,
-                "PlusMinus": 14,
-                "KAST": 0.75,
-                "ADR": 241.5,
-                "HS%": 0.526,
-                "FK": 3,
-                "FD": 2,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "Luca",
-                "Agent": "Chamber",
-                "R1.0": 1.209,
-                "ACS": 272,
-                "K": 23,
-                "D": 17,
-                "A": 2,
-                "PlusMinus": 6,
-                "KAST": 0.708,
-                "ADR": 182.2,
-                "HS%": 0.351,
-                "FK": 6,
-                "FD": 3,
-                "PlusMinus2": 3
-              },
-              {
-                "Player": "sylos",
-                "Agent": "Jett",
-                "R1.0": 1.116,
-                "ACS": 228,
-                "K": 18,
-                "D": 15,
-                "A": 6,
-                "PlusMinus": 3,
-                "KAST": 0.792,
-                "ADR": 150.5,
-                "HS%": 0.127,
-                "FK": 1,
-                "FD": 2,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "neckolas",
-                "Agent": "Astra",
-                "R1.0": 0.597,
-                "ACS": 111,
-                "K": 8,
-                "D": 17,
-                "A": 7,
-                "PlusMinus": -9,
-                "KAST": 0.542,
-                "ADR": 76.4,
-                "HS%": 0.162,
-                "FK": 2,
-                "FD": 1,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "stingray",
-                "Agent": "Sova",
-                "R1.0": 0.552,
-                "ACS": 103,
-                "K": 7,
-                "D": 17,
-                "A": 5,
-                "PlusMinus": -10,
-                "KAST": 0.542,
-                "ADR": 75.0,
-                "HS%": 0.185,
-                "FK": 1,
-                "FD": 3,
-                "PlusMinus2": -2
-              }
-            ]
-          },
-          {
-            "team": "PC",
-            "teamName": "Plat Chat",
-            "players": [
-              {
-                "Player": "Shyo",
-                "Agent": "Jett",
-                "R1.0": 1.323,
-                "ACS": 307,
-                "K": 25,
-                "D": 19,
-                "A": 5,
-                "PlusMinus": 6,
-                "KAST": 0.792,
-                "ADR": 202.0,
-                "HS%": 0.242,
-                "FK": 4,
-                "FD": 3,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "BobTrollop",
-                "Agent": "Phoenix",
-                "R1.0": 1.129,
-                "ACS": 244,
-                "K": 20,
-                "D": 16,
-                "A": 7,
-                "PlusMinus": 4,
-                "KAST": 0.625,
-                "ADR": 161.8,
-                "HS%": 0.246,
-                "FK": 3,
-                "FD": 2,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "timmy larder2013",
-                "Agent": "Sage",
-                "R1.0": 0.859,
-                "ACS": 161,
-                "K": 14,
-                "D": 17,
-                "A": 7,
-                "PlusMinus": -3,
-                "KAST": 0.667,
-                "ADR": 110.7,
-                "HS%": 0.238,
-                "FK": 1,
-                "FD": 1,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "Sideshow",
-                "Agent": "Viper",
-                "R1.0": 0.78,
-                "ACS": 163,
-                "K": 14,
-                "D": 20,
-                "A": 5,
-                "PlusMinus": -6,
-                "KAST": 0.708,
-                "ADR": 103.1,
-                "HS%": 0.105,
-                "FK": 3,
-                "FD": 5,
-                "PlusMinus2": -2
-              },
-              {
-                "Player": "mimi",
-                "Agent": "Sova",
-                "R1.0": 0.72,
-                "ACS": 137,
-                "K": 12,
-                "D": 17,
-                "A": 3,
-                "PlusMinus": -5,
-                "KAST": 0.583,
-                "ADR": 98.8,
-                "HS%": 0.128,
-                "FK": 0,
-                "FD": 2,
-                "PlusMinus2": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Ascent",
-        "score1": 13,
-        "score2": 8,
-        "rounds": [
-          {
-            "round": 1,
-            "winner": 1,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 2,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 3,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 4,
-            "winner": 1,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 5,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 6,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 7,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 8,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 9,
-            "winner": 1,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 10,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 11,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Bomb detonated"
-          },
-          {
-            "round": 12,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 13,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 14,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 15,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 16,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 17,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 18,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 19,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 20,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 21,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          }
-        ],
-        "stats": [
-          {
-            "team": "JDG",
-            "teamName": "Just Dudes Gaming",
-            "players": [
-              {
-                "Player": "stingray",
-                "Agent": "Sova",
-                "R1.0": 1.498,
-                "ACS": 310,
-                "K": 20,
-                "D": 13,
-                "A": 12,
-                "PlusMinus": 7,
-                "KAST": 0.857,
-                "ADR": 220.5,
-                "HS%": 0.286,
-                "FK": 3,
-                "FD": 0,
-                "PlusMinus2": 3
-              },
-              {
-                "Player": "sylos",
-                "Agent": "Jett",
-                "R1.0": 1.101,
-                "ACS": 196,
-                "K": 15,
-                "D": 11,
-                "A": 9,
-                "PlusMinus": 4,
-                "KAST": 0.81,
-                "ADR": 116.1,
-                "HS%": 0.111,
-                "FK": 1,
-                "FD": 0,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "Luca",
-                "Agent": "Chamber",
-                "R1.0": 1.085,
-                "ACS": 245,
-                "K": 19,
-                "D": 15,
-                "A": 1,
-                "PlusMinus": 4,
-                "KAST": 0.619,
-                "ADR": 160.0,
-                "HS%": 0.294,
-                "FK": 7,
-                "FD": 5,
-                "PlusMinus2": 2
-              },
-              {
-                "Player": "james",
-                "Agent": "Phoenix",
-                "R1.0": 1.04,
-                "ACS": 220,
-                "K": 17,
-                "D": 14,
-                "A": 5,
-                "PlusMinus": 3,
-                "KAST": 0.619,
-                "ADR": 137.2,
-                "HS%": 0.368,
-                "FK": 0,
-                "FD": 3,
-                "PlusMinus2": -3
-              },
-              {
-                "Player": "neckolas",
-                "Agent": "Omen",
-                "R1.0": 0.759,
-                "ACS": 114,
-                "K": 10,
-                "D": 12,
-                "A": 11,
-                "PlusMinus": -2,
-                "KAST": 0.524,
-                "ADR": 67.2,
-                "HS%": 0.219,
-                "FK": 0,
-                "FD": 2,
-                "PlusMinus2": -2
-              }
-            ]
-          },
-          {
-            "team": "PC",
-            "teamName": "Plat Chat",
-            "players": [
-              {
-                "Player": "Shyo",
-                "Agent": "Jett",
-                "R1.0": 1.256,
-                "ACS": 318,
-                "K": 23,
-                "D": 18,
-                "A": 1,
-                "PlusMinus": 5,
-                "KAST": 0.667,
-                "ADR": 205.2,
-                "HS%": 0.22,
-                "FK": 4,
-                "FD": 3,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "BobTrollop",
-                "Agent": "Omen",
-                "R1.0": 0.928,
-                "ACS": 215,
-                "K": 14,
-                "D": 16,
-                "A": 5,
-                "PlusMinus": -2,
-                "KAST": 0.571,
-                "ADR": 146.1,
-                "HS%": 0.271,
-                "FK": 1,
-                "FD": 0,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "mimi",
-                "Agent": "Sova",
-                "R1.0": 0.748,
-                "ACS": 151,
-                "K": 9,
-                "D": 16,
-                "A": 6,
-                "PlusMinus": -7,
-                "KAST": 0.619,
-                "ADR": 116.0,
-                "HS%": 0.184,
-                "FK": 0,
-                "FD": 0,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "Sideshow",
-                "Agent": "Vyse",
-                "R1.0": 0.678,
-                "ACS": 146,
-                "K": 11,
-                "D": 16,
-                "A": 3,
-                "PlusMinus": -5,
-                "KAST": 0.571,
-                "ADR": 86.0,
-                "HS%": 0.258,
-                "FK": 3,
-                "FD": 1,
-                "PlusMinus2": 2
-              },
-              {
-                "Player": "timmy larder2013",
-                "Agent": "Sage",
-                "R1.0": 0.662,
-                "ACS": 127,
-                "K": 8,
-                "D": 15,
-                "A": 5,
-                "PlusMinus": -7,
-                "KAST": 0.619,
-                "ADR": 88.0,
-                "HS%": 0.333,
-                "FK": 2,
-                "FD": 7,
-                "PlusMinus2": -5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Split",
-        "score1": 13,
-        "score2": 4,
-        "rounds": [
-          {
-            "round": 1,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 2,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 3,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 4,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 5,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 6,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 7,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 8,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 9,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 10,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 11,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 12,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 13,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 14,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 15,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 16,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 17,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          }
-        ],
-        "stats": [
-          {
-            "team": "JDG",
-            "teamName": "Just Dudes Gaming",
-            "players": [
-              {
-                "Player": "stingray",
-                "Agent": "Omen",
-                "R1.0": 1.62,
-                "ACS": 339,
-                "K": 21,
-                "D": 10,
-                "A": 9,
-                "PlusMinus": 11,
-                "KAST": 0.824,
-                "ADR": 209.9,
-                "HS%": 0.288,
-                "FK": 0,
-                "FD": 1,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "sylos",
-                "Agent": "Neon",
-                "R1.0": 1.56,
-                "ACS": 286,
-                "K": 21,
-                "D": 7,
-                "A": 3,
-                "PlusMinus": 14,
-                "KAST": 0.941,
-                "ADR": 172.7,
-                "HS%": 0.149,
-                "FK": 0,
-                "FD": 0,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "james",
-                "Agent": "Waylay",
-                "R1.0": 1.263,
-                "ACS": 290,
-                "K": 18,
-                "D": 13,
-                "A": 2,
-                "PlusMinus": 5,
-                "KAST": 0.824,
-                "ADR": 173.8,
-                "HS%": 0.4,
-                "FK": 3,
-                "FD": 2,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "neckolas",
-                "Agent": "Viper",
-                "R1.0": 1.003,
-                "ACS": 166,
-                "K": 10,
-                "D": 10,
-                "A": 7,
-                "PlusMinus": 0,
-                "KAST": 0.824,
-                "ADR": 115.5,
-                "HS%": 0.103,
-                "FK": 0,
-                "FD": 1,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "Luca",
-                "Agent": "Skye",
-                "R1.0": 0.88,
-                "ACS": 157,
-                "K": 8,
-                "D": 13,
-                "A": 13,
-                "PlusMinus": -5,
-                "KAST": 0.824,
-                "ADR": 90.8,
-                "HS%": 0.292,
-                "FK": 4,
-                "FD": 6,
-                "PlusMinus2": -2
-              }
-            ]
-          },
-          {
-            "team": "PC",
-            "teamName": "Plat Chat",
-            "players": [
-              {
-                "Player": "BobTrollop",
-                "Agent": "Omen",
-                "R1.0": 1.188,
-                "ACS": 283,
-                "K": 16,
-                "D": 15,
-                "A": 4,
-                "PlusMinus": 1,
-                "KAST": 0.706,
-                "ADR": 194.3,
-                "HS%": 0.212,
-                "FK": 4,
-                "FD": 1,
-                "PlusMinus2": 3
-              },
-              {
-                "Player": "Sideshow",
-                "Agent": "Fade",
-                "R1.0": 0.847,
-                "ACS": 221,
-                "K": 12,
-                "D": 17,
-                "A": 4,
-                "PlusMinus": -5,
-                "KAST": 0.647,
-                "ADR": 137.1,
-                "HS%": 0.324,
-                "FK": 3,
-                "FD": 0,
-                "PlusMinus2": 3
-              },
-              {
-                "Player": "Shyo",
-                "Agent": "Veto",
-                "R1.0": 0.738,
-                "ACS": 200,
-                "K": 12,
-                "D": 16,
-                "A": 1,
-                "PlusMinus": -4,
-                "KAST": 0.529,
-                "ADR": 114.4,
-                "HS%": 0.143,
-                "FK": 1,
-                "FD": 2,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "mimi",
-                "Agent": "Raze",
-                "R1.0": 0.534,
-                "ACS": 130,
-                "K": 7,
-                "D": 15,
-                "A": 1,
-                "PlusMinus": -8,
-                "KAST": 0.529,
-                "ADR": 86.9,
-                "HS%": 0.085,
-                "FK": 0,
-                "FD": 2,
-                "PlusMinus2": -2
-              },
-              {
-                "Player": "timmy larder2013",
-                "Agent": "Phoenix",
-                "R1.0": 0.49,
-                "ACS": 112,
-                "K": 6,
-                "D": 15,
-                "A": 1,
-                "PlusMinus": -9,
-                "KAST": 0.588,
-                "ADR": 74.9,
-                "HS%": 0.333,
-                "FK": 2,
-                "FD": 2,
-                "PlusMinus2": 0
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "streamLink": "https://www.youtube.com/watch?v=FmuRlwA0WFw"
-  }
+	{
+		"id": "jdg-vs-pc-showmatch2-showmatch-2026-07-12",
+		"team1": "JDG",
+		"team2": "PC",
+		"team1Name": "Just Dudes Gaming",
+		"team2Name": "Plat Chat",
+		"score1": 3,
+		"score2": 0,
+		"completed": true,
+		"bestOf": 3,
+		"date": "2026-07-12T20:00:00Z",
+		"stage": "Showmatch",
+		"veto": "JDG bans Summit, PC bans Sunset, JDG picks Breeze, PC picks Ascent, JDG bans Lotus, PC bans Haven, Split remains",
+		"maps": [
+			{
+				"name": "Breeze",
+				"score1": 13,
+				"score2": 11
+			},
+			{
+				"name": "Ascent",
+				"score1": 13,
+				"score2": 8
+			},
+			{
+				"name": "Split",
+				"score1": 13,
+				"score2": 4
+			}
+		],
+		"combinedStats": [
+			{
+				"team": "JDG",
+				"teamName": "Just Dudes Gaming",
+				"players": [
+					{
+						"Player": "james",
+						"R1.0": 1.307,
+						"ACS": 297,
+						"K": 68,
+						"D": 46,
+						"A": 10,
+						"PlusMinus": 22,
+						"KAST": 0.726,
+						"ADR": 187.6,
+						"HS%": 0.438,
+						"FK": 6,
+						"FD": 7,
+						"PlusMinus2": -1
+					},
+					{
+						"Player": "sylos",
+						"R1.0": 1.232,
+						"ACS": 233,
+						"K": 54,
+						"D": 33,
+						"A": 18,
+						"PlusMinus": 21,
+						"KAST": 0.839,
+						"ADR": 144.9,
+						"HS%": 0.128,
+						"FK": 2,
+						"FD": 2,
+						"PlusMinus2": 0
+					},
+					{
+						"Player": "stingray",
+						"R1.0": 1.165,
+						"ACS": 238,
+						"K": 48,
+						"D": 40,
+						"A": 26,
+						"PlusMinus": 8,
+						"KAST": 0.726,
+						"ADR": 161.3,
+						"HS%": 0.247,
+						"FK": 4,
+						"FD": 4,
+						"PlusMinus2": 0
+					},
+					{
+						"Player": "Luca",
+						"R1.0": 1.077,
+						"ACS": 231,
+						"K": 50,
+						"D": 45,
+						"A": 16,
+						"PlusMinus": 5,
+						"KAST": 0.71,
+						"ADR": 149.6,
+						"HS%": 0.316,
+						"FK": 17,
+						"FD": 14,
+						"PlusMinus2": 3
+					},
+					{
+						"Player": "neckolas",
+						"R1.0": 0.763,
+						"ACS": 127,
+						"K": 28,
+						"D": 39,
+						"A": 25,
+						"PlusMinus": -11,
+						"KAST": 0.613,
+						"ADR": 84.0,
+						"HS%": 0.165,
+						"FK": 2,
+						"FD": 4,
+						"PlusMinus2": -2
+					}
+				]
+			},
+			{
+				"team": "PC",
+				"teamName": "Plat Chat",
+				"players": [
+					{
+						"Player": "Shyo",
+						"R1.0": 1.14,
+						"ACS": 281,
+						"K": 60,
+						"D": 53,
+						"A": 7,
+						"PlusMinus": 7,
+						"KAST": 0.678,
+						"ADR": 179.1,
+						"HS%": 0.207,
+						"FK": 9,
+						"FD": 8,
+						"PlusMinus2": 1
+					},
+					{
+						"Player": "Mini",
+						"R1.0": 1.077,
+						"ACS": 245,
+						"K": 50,
+						"D": 47,
+						"A": 16,
+						"PlusMinus": 3,
+						"KAST": 0.629,
+						"ADR": 165.4,
+						"HS%": 0.245,
+						"FK": 8,
+						"FD": 3,
+						"PlusMinus2": 5
+					},
+					{
+						"Player": "Sideshow",
+						"R1.0": 0.764,
+						"ACS": 173,
+						"K": 37,
+						"D": 53,
+						"A": 12,
+						"PlusMinus": -16,
+						"KAST": 0.645,
+						"ADR": 106.6,
+						"HS%": 0.217,
+						"FK": 9,
+						"FD": 6,
+						"PlusMinus2": 3
+					},
+					{
+						"Player": "Bren",
+						"R1.0": 0.691,
+						"ACS": 136,
+						"K": 28,
+						"D": 47,
+						"A": 13,
+						"PlusMinus": -19,
+						"KAST": 0.629,
+						"ADR": 93.2,
+						"HS%": 0.296,
+						"FK": 5,
+						"FD": 10,
+						"PlusMinus2": -5
+					},
+					{
+						"Player": "mimi",
+						"R1.0": 0.678,
+						"ACS": 140,
+						"K": 28,
+						"D": 48,
+						"A": 10,
+						"PlusMinus": -20,
+						"KAST": 0.58,
+						"ADR": 101.4,
+						"HS%": 0.135,
+						"FK": 0,
+						"FD": 4,
+						"PlusMinus2": -4
+					}
+				]
+			}
+		],
+		"mapDetails": [
+			{
+				"name": "Breeze",
+				"score1": 13,
+				"score2": 11,
+				"rounds": [
+					{
+						"round": 1,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 2,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 3,
+						"winner": 2,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 4,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 5,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 6,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 7,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 8,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 9,
+						"winner": 2,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 10,
+						"winner": 2,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 11,
+						"winner": 2,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 12,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 13,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 14,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 15,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 16,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 17,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 18,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 19,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 20,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Bomb detonated"
+					},
+					{
+						"round": 21,
+						"winner": 1,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 22,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 23,
+						"winner": 1,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 24,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					}
+				],
+				"stats": [
+					{
+						"team": "JDG",
+						"teamName": "Just Dudes Gaming",
+						"players": [
+							{
+								"Player": "james",
+								"Agent": "Clove",
+								"R1.0": 1.572,
+								"ACS": 370,
+								"K": 33,
+								"D": 19,
+								"A": 3,
+								"PlusMinus": 14,
+								"KAST": 0.75,
+								"ADR": 241.5,
+								"HS%": 0.526,
+								"FK": 3,
+								"FD": 2,
+								"PlusMinus2": 1
+							},
+							{
+								"Player": "Luca",
+								"Agent": "Chamber",
+								"R1.0": 1.209,
+								"ACS": 272,
+								"K": 23,
+								"D": 17,
+								"A": 2,
+								"PlusMinus": 6,
+								"KAST": 0.708,
+								"ADR": 182.2,
+								"HS%": 0.351,
+								"FK": 6,
+								"FD": 3,
+								"PlusMinus2": 3
+							},
+							{
+								"Player": "sylos",
+								"Agent": "Jett",
+								"R1.0": 1.116,
+								"ACS": 228,
+								"K": 18,
+								"D": 15,
+								"A": 6,
+								"PlusMinus": 3,
+								"KAST": 0.792,
+								"ADR": 150.5,
+								"HS%": 0.127,
+								"FK": 1,
+								"FD": 2,
+								"PlusMinus2": -1
+							},
+							{
+								"Player": "neckolas",
+								"Agent": "Astra",
+								"R1.0": 0.597,
+								"ACS": 111,
+								"K": 8,
+								"D": 17,
+								"A": 7,
+								"PlusMinus": -9,
+								"KAST": 0.542,
+								"ADR": 76.4,
+								"HS%": 0.162,
+								"FK": 2,
+								"FD": 1,
+								"PlusMinus2": 1
+							},
+							{
+								"Player": "stingray",
+								"Agent": "Sova",
+								"R1.0": 0.552,
+								"ACS": 103,
+								"K": 7,
+								"D": 17,
+								"A": 5,
+								"PlusMinus": -10,
+								"KAST": 0.542,
+								"ADR": 75.0,
+								"HS%": 0.185,
+								"FK": 1,
+								"FD": 3,
+								"PlusMinus2": -2
+							}
+						]
+					},
+					{
+						"team": "PC",
+						"teamName": "Plat Chat",
+						"players": [
+							{
+								"Player": "Shyo",
+								"Agent": "Jett",
+								"R1.0": 1.323,
+								"ACS": 307,
+								"K": 25,
+								"D": 19,
+								"A": 5,
+								"PlusMinus": 6,
+								"KAST": 0.792,
+								"ADR": 202.0,
+								"HS%": 0.242,
+								"FK": 4,
+								"FD": 3,
+								"PlusMinus2": 1
+							},
+							{
+								"Player": "Mini",
+								"Agent": "Phoenix",
+								"R1.0": 1.129,
+								"ACS": 244,
+								"K": 20,
+								"D": 16,
+								"A": 7,
+								"PlusMinus": 4,
+								"KAST": 0.625,
+								"ADR": 161.8,
+								"HS%": 0.246,
+								"FK": 3,
+								"FD": 2,
+								"PlusMinus2": 1
+							},
+							{
+								"Player": "Bren",
+								"Agent": "Sage",
+								"R1.0": 0.859,
+								"ACS": 161,
+								"K": 14,
+								"D": 17,
+								"A": 7,
+								"PlusMinus": -3,
+								"KAST": 0.667,
+								"ADR": 110.7,
+								"HS%": 0.238,
+								"FK": 1,
+								"FD": 1,
+								"PlusMinus2": 0
+							},
+							{
+								"Player": "Sideshow",
+								"Agent": "Viper",
+								"R1.0": 0.78,
+								"ACS": 163,
+								"K": 14,
+								"D": 20,
+								"A": 5,
+								"PlusMinus": -6,
+								"KAST": 0.708,
+								"ADR": 103.1,
+								"HS%": 0.105,
+								"FK": 3,
+								"FD": 5,
+								"PlusMinus2": -2
+							},
+							{
+								"Player": "mimi",
+								"Agent": "Sova",
+								"R1.0": 0.72,
+								"ACS": 137,
+								"K": 12,
+								"D": 17,
+								"A": 3,
+								"PlusMinus": -5,
+								"KAST": 0.583,
+								"ADR": 98.8,
+								"HS%": 0.128,
+								"FK": 0,
+								"FD": 2,
+								"PlusMinus2": -2
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Ascent",
+				"score1": 13,
+				"score2": 8,
+				"rounds": [
+					{
+						"round": 1,
+						"winner": 1,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 2,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 3,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 4,
+						"winner": 1,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 5,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 6,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 7,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 8,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 9,
+						"winner": 1,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 10,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 11,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Bomb detonated"
+					},
+					{
+						"round": 12,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 13,
+						"winner": 2,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 14,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 15,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 16,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 17,
+						"winner": 2,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 18,
+						"winner": 2,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 19,
+						"winner": 2,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 20,
+						"winner": 2,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 21,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					}
+				],
+				"stats": [
+					{
+						"team": "JDG",
+						"teamName": "Just Dudes Gaming",
+						"players": [
+							{
+								"Player": "stingray",
+								"Agent": "Sova",
+								"R1.0": 1.498,
+								"ACS": 310,
+								"K": 20,
+								"D": 13,
+								"A": 12,
+								"PlusMinus": 7,
+								"KAST": 0.857,
+								"ADR": 220.5,
+								"HS%": 0.286,
+								"FK": 3,
+								"FD": 0,
+								"PlusMinus2": 3
+							},
+							{
+								"Player": "sylos",
+								"Agent": "Jett",
+								"R1.0": 1.101,
+								"ACS": 196,
+								"K": 15,
+								"D": 11,
+								"A": 9,
+								"PlusMinus": 4,
+								"KAST": 0.81,
+								"ADR": 116.1,
+								"HS%": 0.111,
+								"FK": 1,
+								"FD": 0,
+								"PlusMinus2": 1
+							},
+							{
+								"Player": "Luca",
+								"Agent": "Chamber",
+								"R1.0": 1.085,
+								"ACS": 245,
+								"K": 19,
+								"D": 15,
+								"A": 1,
+								"PlusMinus": 4,
+								"KAST": 0.619,
+								"ADR": 160.0,
+								"HS%": 0.294,
+								"FK": 7,
+								"FD": 5,
+								"PlusMinus2": 2
+							},
+							{
+								"Player": "james",
+								"Agent": "Phoenix",
+								"R1.0": 1.04,
+								"ACS": 220,
+								"K": 17,
+								"D": 14,
+								"A": 5,
+								"PlusMinus": 3,
+								"KAST": 0.619,
+								"ADR": 137.2,
+								"HS%": 0.368,
+								"FK": 0,
+								"FD": 3,
+								"PlusMinus2": -3
+							},
+							{
+								"Player": "neckolas",
+								"Agent": "Omen",
+								"R1.0": 0.759,
+								"ACS": 114,
+								"K": 10,
+								"D": 12,
+								"A": 11,
+								"PlusMinus": -2,
+								"KAST": 0.524,
+								"ADR": 67.2,
+								"HS%": 0.219,
+								"FK": 0,
+								"FD": 2,
+								"PlusMinus2": -2
+							}
+						]
+					},
+					{
+						"team": "PC",
+						"teamName": "Plat Chat",
+						"players": [
+							{
+								"Player": "Shyo",
+								"Agent": "Jett",
+								"R1.0": 1.256,
+								"ACS": 318,
+								"K": 23,
+								"D": 18,
+								"A": 1,
+								"PlusMinus": 5,
+								"KAST": 0.667,
+								"ADR": 205.2,
+								"HS%": 0.22,
+								"FK": 4,
+								"FD": 3,
+								"PlusMinus2": 1
+							},
+							{
+								"Player": "Mini",
+								"Agent": "Omen",
+								"R1.0": 0.928,
+								"ACS": 215,
+								"K": 14,
+								"D": 16,
+								"A": 5,
+								"PlusMinus": -2,
+								"KAST": 0.571,
+								"ADR": 146.1,
+								"HS%": 0.271,
+								"FK": 1,
+								"FD": 0,
+								"PlusMinus2": 1
+							},
+							{
+								"Player": "mimi",
+								"Agent": "Sova",
+								"R1.0": 0.748,
+								"ACS": 151,
+								"K": 9,
+								"D": 16,
+								"A": 6,
+								"PlusMinus": -7,
+								"KAST": 0.619,
+								"ADR": 116.0,
+								"HS%": 0.184,
+								"FK": 0,
+								"FD": 0,
+								"PlusMinus2": 0
+							},
+							{
+								"Player": "Sideshow",
+								"Agent": "Vyse",
+								"R1.0": 0.678,
+								"ACS": 146,
+								"K": 11,
+								"D": 16,
+								"A": 3,
+								"PlusMinus": -5,
+								"KAST": 0.571,
+								"ADR": 86.0,
+								"HS%": 0.258,
+								"FK": 3,
+								"FD": 1,
+								"PlusMinus2": 2
+							},
+							{
+								"Player": "Bren",
+								"Agent": "Sage",
+								"R1.0": 0.662,
+								"ACS": 127,
+								"K": 8,
+								"D": 15,
+								"A": 5,
+								"PlusMinus": -7,
+								"KAST": 0.619,
+								"ADR": 88.0,
+								"HS%": 0.333,
+								"FK": 2,
+								"FD": 7,
+								"PlusMinus2": -5
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Split",
+				"score1": 13,
+				"score2": 4,
+				"rounds": [
+					{
+						"round": 1,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 2,
+						"winner": 2,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 3,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 4,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 5,
+						"winner": 2,
+						"side": "def",
+						"endType": "Bomb defused"
+					},
+					{
+						"round": 6,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 7,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 8,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 9,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 10,
+						"winner": 2,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 11,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 12,
+						"winner": 1,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 13,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 14,
+						"winner": 2,
+						"side": "atk",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 15,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 16,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					},
+					{
+						"round": 17,
+						"winner": 1,
+						"side": "def",
+						"endType": "Eliminated"
+					}
+				],
+				"stats": [
+					{
+						"team": "JDG",
+						"teamName": "Just Dudes Gaming",
+						"players": [
+							{
+								"Player": "stingray",
+								"Agent": "Omen",
+								"R1.0": 1.62,
+								"ACS": 339,
+								"K": 21,
+								"D": 10,
+								"A": 9,
+								"PlusMinus": 11,
+								"KAST": 0.824,
+								"ADR": 209.9,
+								"HS%": 0.288,
+								"FK": 0,
+								"FD": 1,
+								"PlusMinus2": -1
+							},
+							{
+								"Player": "sylos",
+								"Agent": "Neon",
+								"R1.0": 1.56,
+								"ACS": 286,
+								"K": 21,
+								"D": 7,
+								"A": 3,
+								"PlusMinus": 14,
+								"KAST": 0.941,
+								"ADR": 172.7,
+								"HS%": 0.149,
+								"FK": 0,
+								"FD": 0,
+								"PlusMinus2": 0
+							},
+							{
+								"Player": "james",
+								"Agent": "Waylay",
+								"R1.0": 1.263,
+								"ACS": 290,
+								"K": 18,
+								"D": 13,
+								"A": 2,
+								"PlusMinus": 5,
+								"KAST": 0.824,
+								"ADR": 173.8,
+								"HS%": 0.4,
+								"FK": 3,
+								"FD": 2,
+								"PlusMinus2": 1
+							},
+							{
+								"Player": "neckolas",
+								"Agent": "Viper",
+								"R1.0": 1.003,
+								"ACS": 166,
+								"K": 10,
+								"D": 10,
+								"A": 7,
+								"PlusMinus": 0,
+								"KAST": 0.824,
+								"ADR": 115.5,
+								"HS%": 0.103,
+								"FK": 0,
+								"FD": 1,
+								"PlusMinus2": -1
+							},
+							{
+								"Player": "Luca",
+								"Agent": "Skye",
+								"R1.0": 0.88,
+								"ACS": 157,
+								"K": 8,
+								"D": 13,
+								"A": 13,
+								"PlusMinus": -5,
+								"KAST": 0.824,
+								"ADR": 90.8,
+								"HS%": 0.292,
+								"FK": 4,
+								"FD": 6,
+								"PlusMinus2": -2
+							}
+						]
+					},
+					{
+						"team": "PC",
+						"teamName": "Plat Chat",
+						"players": [
+							{
+								"Player": "Mini",
+								"Agent": "Omen",
+								"R1.0": 1.188,
+								"ACS": 283,
+								"K": 16,
+								"D": 15,
+								"A": 4,
+								"PlusMinus": 1,
+								"KAST": 0.706,
+								"ADR": 194.3,
+								"HS%": 0.212,
+								"FK": 4,
+								"FD": 1,
+								"PlusMinus2": 3
+							},
+							{
+								"Player": "Sideshow",
+								"Agent": "Fade",
+								"R1.0": 0.847,
+								"ACS": 221,
+								"K": 12,
+								"D": 17,
+								"A": 4,
+								"PlusMinus": -5,
+								"KAST": 0.647,
+								"ADR": 137.1,
+								"HS%": 0.324,
+								"FK": 3,
+								"FD": 0,
+								"PlusMinus2": 3
+							},
+							{
+								"Player": "Shyo",
+								"Agent": "Veto",
+								"R1.0": 0.738,
+								"ACS": 200,
+								"K": 12,
+								"D": 16,
+								"A": 1,
+								"PlusMinus": -4,
+								"KAST": 0.529,
+								"ADR": 114.4,
+								"HS%": 0.143,
+								"FK": 1,
+								"FD": 2,
+								"PlusMinus2": -1
+							},
+							{
+								"Player": "mimi",
+								"Agent": "Raze",
+								"R1.0": 0.534,
+								"ACS": 130,
+								"K": 7,
+								"D": 15,
+								"A": 1,
+								"PlusMinus": -8,
+								"KAST": 0.529,
+								"ADR": 86.9,
+								"HS%": 0.085,
+								"FK": 0,
+								"FD": 2,
+								"PlusMinus2": -2
+							},
+							{
+								"Player": "Bren",
+								"Agent": "Phoenix",
+								"R1.0": 0.49,
+								"ACS": 112,
+								"K": 6,
+								"D": 15,
+								"A": 1,
+								"PlusMinus": -9,
+								"KAST": 0.588,
+								"ADR": 74.9,
+								"HS%": 0.333,
+								"FK": 2,
+								"FD": 2,
+								"PlusMinus2": 0
+							}
+						]
+					}
+				]
+			}
+		],
+		"streamLink": "https://www.youtube.com/watch?v=FmuRlwA0WFw"
+	}
 ]

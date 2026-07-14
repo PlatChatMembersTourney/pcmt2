@@ -8,7 +8,7 @@
     "PC": {
         "name": "Plat Chat",
         "abbr": "PC",
-        "logo": "/icons/PC Logo.png",
+        "logo": "/icons/PC Logo Box.png",
         "players": ["Mini", "Sideshow", "mimi", "Bren", "Shyo"]
     }
 }

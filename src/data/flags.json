@@ -97,7 +97,7 @@
 		"teklo": "us",
 		"cooleo": "",
 		"derpina": "mx",
-		"phuzzy": "us",
+		"phuzzy": "nonb",
 		"mide": "fi",
 		"tonnoman": "nl",
 		"king": "gb",
@@ -148,27 +148,20 @@
 		"taylorgzz": "gb",
 		"autumn": "us",
 		"alet": "trans",
-		"magmoz": "north-ie"
+		"magmoz": "north-ie",
+		"sideshow": "gb",
+		"mini": "gb"
 	},
 	"Overrides": {
 		"hopefully i never have to use this": {
 			"please dont": "make two people have the same name :("
 		},
-		"s1-na": {
-
-		},
-		"s2-na": {
-
-		},
-		"s3-na": {
-
-		},
-		"s1-emea": {
-
-		},
-		"s2-emea": {
-
-		}
+		"s1-na": {},
+		"s2-na": {},
+		"s3-na": {},
+		"s1-emea": {},
+		"s2-emea": {},
+		"showmatch-s2-na": {}
 	},
 	"Teams": {
 		"s1-na": {},
@@ -177,6 +170,7 @@
 		"s1-emea": {},
 		"s2-emea": {
 			"larp": "se"
-		}
+		},
+		"showmatch-s2-na": {}
 	}
 }

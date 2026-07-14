@@ -29,20 +29,22 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 
 	return (
 		<div
-			className={
-
-				`${{
-						'na': 'cool-border-na',
-						'emea': 'cool-border-emea'
-				}[event.region]} p-4 sm:p-5 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 relative cool-border-top text-[#333] dark:text-vlr-text-white`
-			}
+			className={`${
+				event.id.includes('showmatch')
+					? 'cool-border-pb'
+					: {
+							na: 'cool-border-na',
+							emea: 'cool-border-emea',
+						}[event.region]
+			} p-4 sm:p-5 vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 relative cool-border-top text-[#333] dark:text-vlr-text-white`}
 		>
 			<div className="flex h-9 items-center gap-2">
 				<img
 					src={
-						event.region === 'na'
+						event.id.includes('showmatch') ?
+							'/icons/PC%20Logo%20Box.png' : (event.region === 'na'
 							? '/icons/NA%20Logo.png'
-							: '/icons/EMEA%20Logo.png'
+							: '/icons/EMEA%20Logo.png')
 					}
 					className="h-8 w-8"
 				/>
@@ -66,7 +68,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 			</div>
 			<div className="mt-10 mb-15 flex items-center justify-center">
 				<a
-					href={`/events/${event.id}/teams/${slugify(match.team1Name, {lower: true})}`}
+					href={`/events/${event.id}/teams/${slugify(match.team1Name, { lower: true })}`}
 					className="font-black text-base leading-tight md:text-xl w-30 md:w-37.5 text-right text-plat-blue-dark dark:text-vlr-text-white"
 				>
 					{match.team1Name}
@@ -132,7 +134,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 					/>
 				</div>
 				<a
-					href={`/events/${event.id}/teams/${slugify(match.team2Name, {lower: true})}`}
+					href={`/events/${event.id}/teams/${slugify(match.team2Name, { lower: true })}`}
 					className="font-black text-base leading-tight md:text-xl w-30 md:w-37.5 text-plat-blue-dark dark:text-vlr-text-white"
 				>
 					{match.team2Name}

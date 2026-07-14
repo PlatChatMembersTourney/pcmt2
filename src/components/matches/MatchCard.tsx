@@ -25,10 +25,12 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 			href={`/events/${event.id}/${slugify(match.id)}`}
 			className={
 				`${
-					{
-						na: 'cool-border-na',
-						emea: 'cool-border-emea',
-					}[event.region]
+					event.id.includes('showmatch')
+						? 'cool-border-pb'
+						: {
+								na: 'cool-border-na',
+								emea: 'cool-border-emea',
+							}[event.region]
 				} flex px-4 md:px-5 items-center w-full h-14 dark:bg-vlr-gray-600 dark:hover:bg-vlr-gray-500 bg-vlr-gray-100 hover:bg-[#f1f1f1] cool-border relative` +
 				(addlClass ? ` ${addlClass}` : '')
 			}
@@ -124,7 +126,9 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 				)}
 			</div>
 			<div className="hidden flex-col ml-auto md:flex text-right text-xs">
-				<p className="dark:text-vlr-text-white font-medium">PCMT: {event.region.toUpperCase()} S{event.season}</p>
+				<p className="dark:text-vlr-text-white font-medium">
+					PCMT: {event.region.toUpperCase()} S{event.season}
+				</p>
 				<p className="dark:text-vlr-text-light">{match.stage}</p>
 			</div>
 		</a>

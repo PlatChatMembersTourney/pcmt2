@@ -28,12 +28,16 @@ import s3NAStandingsRaw from "../data/s3/na/standings.json";
 import s1EMEAStandingsRaw from "../data/s1/emea/standings.json";
 import s2EMEAStandingsRaw from '../data/s2/emea/standings.json';
 
+import s2NAShowmatchStandingsRaw from "../data/showmatch2/na/standings.json";
+
 const standings: Record<string, Record<string, Standing[]>> = {
 	's1-na': {},
 	's2-na': s2NAStandingsRaw as Record<string, Standing[]>,
 	's3-na': s3NAStandingsRaw as Record<string, Standing[]>,
 	's1-emea': s1EMEAStandingsRaw as Record<string, Standing[]>,
 	's2-emea': s2EMEAStandingsRaw as Record<string, Standing[]>,
+
+	'showmatch-s2-na': s2NAShowmatchStandingsRaw as Record<string, Standing[]>,
 }
 
 // load teams data for all seasons
@@ -54,7 +58,7 @@ export const teams: Record<string, Record<string, TeamInfo>> = {
 	's1-emea': s1EMEATeamsRaw as Record<string, TeamInfo>,
 	's2-emea': s2EMEATeamsRaw as Record<string, TeamInfo>,
 
-	'showmatch-s2-na': {} // s2NAShowmatchTeamsRaw as Record<string, TeamInfo>,
+	'showmatch-s2-na': s2NAShowmatchTeamsRaw as Record<string, TeamInfo>,
 }
 
 // load stats for all teams
@@ -64,6 +68,8 @@ import s3NAPlayerStatsRaw from "../data/s3/na/player-stats.json"
 import s1EMEAPlayerStatsRaw from "../data/s1/emea/player-stats.json"
 import s2EMEAPlayerStatsRaw from "../data/s2/emea/player-stats.json"
 
+import s2NAShowmatchPlayerStatsRaw from "../data/showmatch2/na/player-stats.json"
+
 const playerStats: Record<string, Record<string, PlayerStats[]>> = {
 	's1-na': {},
 	's2-na': s2NAPlayerStatsRaw as Record<string, PlayerStats[]>,
@@ -71,7 +77,7 @@ const playerStats: Record<string, Record<string, PlayerStats[]>> = {
 	's1-emea': s1EMEAPlayerStatsRaw as Record<string, PlayerStats[]>,
 	's2-emea': s2EMEAPlayerStatsRaw as Record<string, PlayerStats[]>,
 
-	'showmatch-s2-na': {},
+	'showmatch-s2-na': s2NAShowmatchPlayerStatsRaw as Record<string, PlayerStats[]>,
 }
 
 // load team map stats
@@ -80,6 +86,8 @@ import s3NATeamMapStatsRaw from "../data/s3/na/team-map-stats.json"
 import s1EMEATeamMapStatsRaw from "../data/s1/emea/team-map-stats.json"
 import s2EMEATeamMapStatsRaw from '../data/s2/emea/team-map-stats.json'
 
+import s2NAShowmatchTeamMapStatsRaw from "../data/showmatch2/na/team-map-stats.json"
+
 const teamMapStats: Record<string, Record<string, TeamMapStats>> = {
 	's1-na': {},
 	's2-na': s2NATeamMapStatsRaw as Record<string, TeamMapStats>,
@@ -87,7 +95,7 @@ const teamMapStats: Record<string, Record<string, TeamMapStats>> = {
 	's1-emea': s1EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
 	's2-emea': s2EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
 
-	'showmatch-s2-na': {},
+	'showmatch-s2-na': s2NAShowmatchTeamMapStatsRaw as Record<string, TeamMapStats>,
 }
 
 export const $matches = atom<Record<string, Match[]>>(matches);
