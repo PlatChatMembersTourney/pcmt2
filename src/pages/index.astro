@@ -1,62 +1,42 @@
 ---
 // import global styles
-import '../styles/global.css'
-import Layout from '../layouts/Layout.astro'
+import '../styles/global.css';
+import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout
-	activePage="Home"
-	desc="sting lurked all the way onto this description"
-	title="Plat Chat Members Tourney Home"
->
+<Layout activePage="Home" desc="sting lurked all the way onto this description" title="Plat Chat Members Tourney Home">
 	<div class="mx-6 mt-6">
 		<section
 			class="relative flex items-center overflow-hidden rounded-[15px] bg-linear-to-r from-[#f0f0f0] to-[#e8e8e8] dark:from-[#272727] dark:to-[#282828]"
 		>
 			<div class="relative p-8 text-gray-800 dark:text-[whitesmoke]">
-				<h1
-					class="text-3xl font-bold text-pb"
-				>
-					What is the PCMT?
-				</h1>
+				<h1 class="text-pb text-3xl font-bold">What is the PCMT?</h1>
 				<p class="mt-4">
-					The Plat Chat Members Tournament (PCMT) is a community-run
-					Valorant tournament organized by and for members of the Plat
-					Chat community.
+					The Plat Chat Members Tournament (PCMT) is a community-run Valorant tournament organized by and for
+					members of the Plat Chat community.
 					<br /><br />
-					Whether you're here for your first taste of structured Valorant
-					or just here for a good time, PCMT provides a competitive and
-					fun environment to test your skills and connect with other members.
+					Whether you're here for your first taste of structured Valorant or just here for a good time, PCMT provides
+					a competitive and fun environment to test your skills and connect with other members.
 				</p>
 			</div>
-			<img
-				src="/icons/PCMT Logo.png"
-				alt=""
-				class="w-50 hidden md:block"
-			/>
+			<img src="/icons/PCMT Logo.png" alt="" class="hidden w-50 md:block" />
 		</section>
 
 		<!-- video + quote -->
-		<section
-			class="relative my-10 flex flex-col md:flex-row items-center justify-between gap-10"
-		>
+		<section class="relative my-10 flex flex-col items-center justify-between gap-10 md:flex-row">
 			<div
-				class="aspect-video w-full md:w-150 flex-none rounded-[15px] bg-linear-to-br from-[#6dc5c7] to-[#926acc] p-0.5"
+				class="aspect-video w-full flex-none rounded-[15px] bg-linear-to-br from-[#6dc5c7] to-[#926acc] p-0.5 md:w-150"
 			>
 				<iframe
-				  class="h-full w-full rounded-[13px]"
-				  src="https://www.youtube.com/embed/WJrkcEKaoUY?autoplay=1&mute=1&controls=0&loop=1&playlist=WJrkcEKaoUY&playsinline=1&modestbranding=1&showinfo=0&rel=0"
-				  allow="autoplay; encrypted-media"
-				  style="pointer-events: none;"
-				></iframe>
+					class="h-full w-full rounded-[13px]"
+					src="https://www.youtube.com/embed/WJrkcEKaoUY?autoplay=1&mute=1&controls=0&loop=1&playlist=WJrkcEKaoUY&playsinline=1&modestbranding=1&showinfo=0&rel=0"
+					allow="autoplay; encrypted-media"
+					style="pointer-events: none;"></iframe>
 			</div>
-			<div
-				class="mx-5 font-serif text-2xl leading-relaxed italic text-gray-800 dark:text-[whitesmoke]"
-			>
+			<div class="mx-5 font-serif text-2xl leading-relaxed text-gray-800 italic dark:text-[whitesmoke]">
 				<p class="mb-2.5">
-					"The timmies [Plat Chat Members], they're better than us,
-					they know more than us, they're smarter, more handsome, more
-					knowledgeable than us"
+					"The timmies [Plat Chat Members], they're better than us, they know more than us, they're smarter,
+					more handsome, more knowledgeable than us"
 				</p>
 				<p class="text-right text-lg">-Sideshow, Plat Chat Ep. 247</p>
 			</div>
@@ -67,82 +47,53 @@ import Layout from '../layouts/Layout.astro'
 			class="relative my-5 flex items-center overflow-hidden rounded-[15px] bg-linear-to-r from-[#f0f0f0] to-[#e8e8e8] dark:from-[#272727] dark:to-[#282828]"
 		>
 			<div class="relative p-8 text-gray-800 dark:text-[whitesmoke]">
-				<h1
-					class="text-3xl font-bold text-pb"
-				>
-					How to Play
-				</h1>
+				<h1 class="text-pb text-3xl font-bold">How to Play</h1>
 				<p class="mt-4">Ready to compete? Here's how to join PCMT:</p>
 				<ol class="mt-4 list-decimal pl-5">
 					<li class="mb-2">
 						<strong>Become a YouTube Member</strong> - Support <a
 							href="https://www.youtube.com/@PlatChatValorant/join"
 							target="_blank"
-							class="text-pb no-underline "
-							>Plat Chat</a
+							class="text-pb no-underline">Plat Chat</a
 						> by becoming a YouTube Member to gain access to the community
 					</li>
 					<li>
-						<strong>Join the Discord</strong> - Connect with other members
-						and stay updated on tournament announcements
+						<strong>Join the Discord</strong> - Connect with other members and stay updated on tournament announcements
 					</li>
 				</ol>
 				<p class="mt-5 text-sm italic">
-					PCMT is an independent community project and is not
-					officially affiliated with <a
+					PCMT is an independent community project and is not officially affiliated with <a
 						href="https://www.youtube.com/@PlatChatValorant"
 						target="_blank"
-						class="text-pb no-underline "
-						>Plat Chat</a
-					>. If you're not already watching, check them out for the
-					best Valorant esports content and analysis!
+						class="text-pb no-underline">Plat Chat</a
+					>. If you're not already watching, check them out for the best Valorant esports content and
+					analysis!
 				</p>
 			</div>
-			<a
-				href="https://www.youtube.com/@PlatChatValorant"
-				class="mr-10"
-				target="_blank"
-			>
-				<img
-					src="/icons/PC Logo.png"
-					alt="Plat Chat Logo"
-					class="w-100 hidden md:block"
-				/>
+			<a href="https://www.youtube.com/@PlatChatValorant" class="mr-10" target="_blank">
+				<img src="/icons/PC Logo.png" alt="Plat Chat Logo" class="hidden w-100 md:block" />
 			</a>
 		</section>
 
 		<!-- latest video + bronze babble -->
-		<section
-			class="relative my-5 flex flex-col md:flex-row items-center justify-between gap-10"
-		>
+		<section class="relative my-5 flex flex-col items-center justify-between gap-10 md:flex-row">
 			<div class="w-full">
-				<h1
-					class="mb-5 text-3xl font-bold text-pb"
-				>
-					Latest Video
-				</h1>
+				<h1 class="text-pb mb-5 text-3xl font-bold">Latest Video</h1>
 				<iframe
 					src="https://www.youtube.com/embed/s7MrGg1N0UM"
 					title="YouTube video player"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					allowfullscreen
-					class="aspect-video rounded-[15px] w-full h-full"></iframe>
+					class="aspect-video h-full w-full rounded-[15px]"></iframe>
 			</div>
-			<div class="rounded-[15px] bg-neutral-300 dark:bg-neutral-800 p-8 text-black dark:text-[whitesmoke]">
-				<h1
-					class="text-3xl font-bold text-pb"
-				>
-					Bronze Babble
-				</h1>
-				<p class="mt-4">
-					Yes, PCMT has its own "podcast"! Introducing Bronze Babble.
-				</p>
+			<div class="rounded-[15px] bg-neutral-300 p-8 text-black dark:bg-neutral-800 dark:text-[whitesmoke]">
+				<h1 class="text-pb text-3xl font-bold">Bronze Babble</h1>
+				<p class="mt-4">Yes, PCMT has its own "podcast"! Introducing Bronze Babble.</p>
 				<p class="mt-4">
 					Check out the <a
 						href="https://youtube.com/@bronzebabble?si=jEnkQCDdAqHqamnU"
 						target="_blank"
-						class="text-pb no-underline "
-						>PCMT channel</a
+						class="text-pb no-underline">PCMT channel</a
 					> for Bronze Babble episodes and live broadcasts of all PCMT games!
 				</p>
 			</div>

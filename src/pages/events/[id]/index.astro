@@ -1,33 +1,29 @@
 ---
-import Layout from '../../../layouts/Layout.astro'
+import Layout from '../../../layouts/Layout.astro';
 import seasons from '../../../data/events.json';
-import EventPage from '../../../components/events/EventPage.astro'
-import type { Event } from '../../../types/types.ts'
+import EventPage from '../../../components/events/EventPage.astro';
+import type { Event } from '../../../types/types.ts';
 
 type Props = Event;
 
-export const getStaticPaths = (() => {
+export const getStaticPaths = () => {
 	return seasons.map((entry: Event) => {
 		return {
 			params: {
-				id: entry.id
+				id: entry.id,
 			},
-			props: entry
+			props: entry,
 		};
 	});
-});
+};
 
-const {
-	desc,
-	name
-} = Astro.props;
-
+const { desc, name } = Astro.props;
 ---
 
 <Layout
 	activePage="Events"
 	desc={desc}
-	title={name + " | PCMT"}
+	title={name + ' | PCMT'}
 	bodyClass="bg-vlr-gray-400 dark:bg-vlr-gray-900 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
 	mainClass="mx-auto w-full max-w-315 root bg-vlr-gray-300 dark:bg-vlr-gray-800 min-w-0"
 >

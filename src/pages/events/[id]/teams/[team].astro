@@ -1,17 +1,17 @@
 ---
-import Layout from '../../../../layouts/Layout.astro'
-import seasons from '../../../../data/events.json'
-import EventPage from '../../../../components/events/EventPage.astro'
-import type { Event, TeamInfo } from '../../../../types/types.ts'
-import slugify from 'slugify'
+import Layout from '../../../../layouts/Layout.astro';
+import seasons from '../../../../data/events.json';
+import EventPage from '../../../../components/events/EventPage.astro';
+import type { Event, TeamInfo } from '../../../../types/types.ts';
+import slugify from 'slugify';
 
 interface Props {
-	event: Event
-	team: TeamInfo
+	event: Event;
+	team: TeamInfo;
 }
 
-import { teams } from '../../../../stores/store.ts'
-import TeamPage from '../../../../components/events/TeamPage'
+import { teams } from '../../../../stores/store.ts';
+import TeamPage from '../../../../components/events/TeamPage';
 
 export const getStaticPaths = () => {
 	return Object.entries(teams).flatMap(([id, allTeams]) => {
@@ -23,16 +23,16 @@ export const getStaticPaths = () => {
 				},
 				props: {
 					event: seasons.filter((event: Event) => {
-						return event.id === id
+						return event.id === id;
 					})[0],
-					team: team
+					team: team,
 				},
-			}
-		})
-	})
-}
+			};
+		});
+	});
+};
 
-const { event, team } = Astro.props
+const { event, team } = Astro.props;
 ---
 
 <Layout

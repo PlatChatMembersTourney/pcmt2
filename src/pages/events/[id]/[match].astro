@@ -1,8 +1,8 @@
 ---
-import Layout from '../../../layouts/Layout.astro'
+import Layout from '../../../layouts/Layout.astro';
 import seasons from '../../../data/events.json';
-import EventPage from '../../../components/events/EventPage.astro'
-import type { Event } from '../../../types/types.ts'
+import EventPage from '../../../components/events/EventPage.astro';
+import type { Event } from '../../../types/types.ts';
 import slugify from 'slugify';
 
 interface Props {
@@ -12,7 +12,7 @@ interface Props {
 	stage: string;
 }
 
-import { matches } from '../../../stores/store.ts'
+import { matches } from '../../../stores/store.ts';
 import MatchPage from '../../../components/matches/MatchPage';
 
 export const getStaticPaths = () => {
@@ -25,16 +25,16 @@ export const getStaticPaths = () => {
 				},
 				props: {
 					event: seasons.filter((event: Event) => {
-						return event.id === id
+						return event.id === id;
 					})[0],
 					matchName: match.team1Name + ' vs ' + match.team2Name,
 					matchId: match.id,
 					stage: match.stage,
-				}
-			}
-		})
-	})
-}
+				},
+			};
+		});
+	});
+};
 
 const { event, matchName, matchId, stage } = Astro.props;
 ---
@@ -42,7 +42,7 @@ const { event, matchName, matchId, stage } = Astro.props;
 <Layout
 	activePage="Events"
 	desc={'an intense life or death duel: ' + matchName + ' in the ' + stage}
-	title={matchName + " | PCMT"}
+	title={matchName + ' | PCMT'}
 	bodyClass="bg-vlr-gray-400 dark:bg-vlr-gray-900 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
 	mainClass="mx-auto w-full max-w-315 root dark:bg-vlr-gray-800 min-w-0"
 >
