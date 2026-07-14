@@ -19,7 +19,7 @@ export const teamFlag = (
 	eventId: string,
 	region: string
 ) => {
-	return `/icons/flags/16/${flags['Teams'][eventId][team] || region}.png`
+	return `/icons/flags/16/${flags['Teams'][eventId][team.toLowerCase()] || region}.png`
 }
 
 export const agentIcon = (agent: string) => {
