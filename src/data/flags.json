@@ -150,7 +150,12 @@
 		"alet": "trans",
 		"magmoz": "north-ie",
 		"sideshow": "gb",
-		"mini": "gb"
+		"mini": "gb",
+		"shyo": "ca",
+		"bren": "gb",
+		"dryad": "co",
+		"wyatt": "us",
+		"mimi": "us"
 	},
 	"Overrides": {
 		"hopefully i never have to use this": {
@@ -161,6 +166,7 @@
 		"s3-na": {},
 		"s1-emea": {},
 		"s2-emea": {},
+		"showmatch-s1-na": {},
 		"showmatch-s2-na": {}
 	},
 	"Teams": {
@@ -171,6 +177,7 @@
 		"s2-emea": {
 			"larp": "se"
 		},
+		"showmatch-s1-na": {},
 		"showmatch-s2-na": {}
 	}
 }
