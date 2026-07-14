@@ -3,28 +3,56 @@
     {
       "abbr": "YGSYD",
       "name": "You Get Shot You Die",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
+      "mapW": 2,
+      "mapL": 1,
+      "rndW": 34,
+      "rndL": 31,
       "rank": 1,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapDiff": 1,
+      "rndDiff": 3
     },
     {
       "abbr": "PLAT",
       "name": "Plat Chat",
       "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
+      "matchL": 1,
+      "mapW": 1,
+      "mapL": 2,
+      "rndW": 31,
+      "rndL": 34,
       "rank": 2,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapDiff": -1,
+      "rndDiff": -3
+    }
+  ],
+  "Showmatch": [
+    {
+      "abbr": "YGSYD",
+      "name": "You Get Shot You Die",
+      "matchW": 1,
+      "matchL": 0,
+      "mapW": 2,
+      "mapL": 1,
+      "rndW": 34,
+      "rndL": 31,
+      "rank": 1,
+      "mapDiff": 1,
+      "rndDiff": 3
+    },
+    {
+      "abbr": "PLAT",
+      "name": "Plat Chat",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 1,
+      "mapL": 2,
+      "rndW": 31,
+      "rndL": 34,
+      "rank": 2,
+      "mapDiff": -1,
+      "rndDiff": -3
     }
   ]
 }

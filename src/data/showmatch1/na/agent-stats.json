@@ -1,0 +1,220 @@
+{
+  "Bind": {
+    "mapsPlayed": 1,
+    "atkPct": 0.542,
+    "defPct": 0.458,
+    "agents": [
+      {
+        "agent": "Reyna",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Raze",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Deadlock",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Brimstone",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Tejo",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "PLAT": {
+        "team": "PLAT",
+        "teamName": "Plat Chat",
+        "agents": [
+          "Brimstone",
+          "Cypher",
+          "Reyna",
+          "Tejo",
+          "Yoru"
+        ]
+      },
+      "YGSYD": {
+        "team": "YGSYD",
+        "teamName": "You Get Shot You Die",
+        "agents": [
+          "Clove",
+          "Deadlock",
+          "Fade",
+          "Raze",
+          "Reyna"
+        ]
+      }
+    }
+  },
+  "Haven": {
+    "mapsPlayed": 1,
+    "atkPct": 0.476,
+    "defPct": 0.524,
+    "agents": [
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Reyna",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "PLAT": {
+        "team": "PLAT",
+        "teamName": "Plat Chat",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Jett",
+          "Reyna",
+          "Sova"
+        ]
+      },
+      "YGSYD": {
+        "team": "YGSYD",
+        "teamName": "You Get Shot You Die",
+        "agents": [
+          "Breach",
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Sova"
+        ]
+      }
+    }
+  },
+  "Pearl": {
+    "mapsPlayed": 1,
+    "atkPct": 0.55,
+    "defPct": 0.45,
+    "agents": [
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Tejo",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Reyna",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "PLAT": {
+        "team": "PLAT",
+        "teamName": "Plat Chat",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Phoenix",
+          "Reyna",
+          "Tejo"
+        ]
+      },
+      "YGSYD": {
+        "team": "YGSYD",
+        "teamName": "You Get Shot You Die",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Sova",
+          "Yoru"
+        ]
+      }
+    }
+  }
+}

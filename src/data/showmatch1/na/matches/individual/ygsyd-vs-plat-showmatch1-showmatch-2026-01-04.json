@@ -4,10 +4,1142 @@
   "team2": "PLAT",
   "team1Name": "You Get Shot You Die",
   "team2Name": "Plat Chat",
-  "score1": 0,
-  "score2": 0,
-  "completed": false,
+  "score1": 2,
+  "score2": 1,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-01-04T23:00:00Z",
-  "stage": "Showmatch"
+  "stage": "Showmatch",
+  "veto": "YGSYD bans Abyss, PLAT bans Corrode, YGSYD picks Haven, PLAT picks Pearl, YGSYD bans Split, PLAT bans Sunset, Bind remains",
+  "maps": [
+    {
+      "name": "Haven",
+      "score1": 8,
+      "score2": 13
+    },
+    {
+      "name": "Pearl",
+      "score1": 13,
+      "score2": 7
+    },
+    {
+      "name": "Bind",
+      "score1": 13,
+      "score2": 11
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "YGSYD",
+      "teamName": "You Get Shot You Die",
+      "players": [
+        {
+          "Player": "retro",
+          "R1.0": 1.38,
+          "ACS": 305,
+          "K": 70,
+          "D": 44,
+          "A": 13,
+          "PlusMinus": 26,
+          "KAST": 0.768,
+          "ADR": 200.9,
+          "HS%": 0.24,
+          "FK": 14,
+          "FD": 5,
+          "PlusMinus2": 9
+        },
+        {
+          "Player": "platinum",
+          "R1.0": 1.169,
+          "ACS": 228,
+          "K": 56,
+          "D": 38,
+          "A": 16,
+          "PlusMinus": 18,
+          "KAST": 0.77,
+          "ADR": 143.2,
+          "HS%": 0.324,
+          "FK": 7,
+          "FD": 4,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "longclaw",
+          "R1.0": 1.096,
+          "ACS": 221,
+          "K": 33,
+          "D": 29,
+          "A": 10,
+          "PlusMinus": 4,
+          "KAST": 0.78,
+          "ADR": 146.7,
+          "HS%": 0.213,
+          "FK": 3,
+          "FD": 1,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "amara",
+          "R1.0": 0.995,
+          "ACS": 192,
+          "K": 30,
+          "D": 32,
+          "A": 16,
+          "PlusMinus": -2,
+          "KAST": 0.733,
+          "ADR": 133.0,
+          "HS%": 0.161,
+          "FK": 3,
+          "FD": 4,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "devil",
+          "R1.0": 0.856,
+          "ACS": 160,
+          "K": 38,
+          "D": 41,
+          "A": 11,
+          "PlusMinus": -3,
+          "KAST": 0.708,
+          "ADR": 101.5,
+          "HS%": 0.165,
+          "FK": 10,
+          "FD": 6,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "igneous",
+          "R1.0": 0.773,
+          "ACS": 143,
+          "K": 19,
+          "D": 30,
+          "A": 10,
+          "PlusMinus": -11,
+          "KAST": 0.751,
+          "ADR": 100.1,
+          "HS%": 0.215,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        }
+      ]
+    },
+    {
+      "team": "PLAT",
+      "teamName": "Plat Chat",
+      "players": [
+        {
+          "Player": "wyatt",
+          "R1.0": 1.061,
+          "ACS": 250,
+          "K": 57,
+          "D": 47,
+          "A": 4,
+          "PlusMinus": 10,
+          "KAST": 0.677,
+          "ADR": 149.2,
+          "HS%": 0.258,
+          "FK": 7,
+          "FD": 5,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "Shyo",
+          "R1.0": 1.031,
+          "ACS": 230,
+          "K": 50,
+          "D": 50,
+          "A": 18,
+          "PlusMinus": 0,
+          "KAST": 0.648,
+          "ADR": 153.0,
+          "HS%": 0.152,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "Sideshow",
+          "R1.0": 0.883,
+          "ACS": 192,
+          "K": 44,
+          "D": 48,
+          "A": 12,
+          "PlusMinus": -4,
+          "KAST": 0.599,
+          "ADR": 123.2,
+          "HS%": 0.215,
+          "FK": 8,
+          "FD": 9,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "mimi",
+          "R1.0": 0.808,
+          "ACS": 163,
+          "K": 34,
+          "D": 45,
+          "A": 17,
+          "PlusMinus": -11,
+          "KAST": 0.629,
+          "ADR": 108.2,
+          "HS%": 0.113,
+          "FK": 5,
+          "FD": 7,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "dryad",
+          "R1.0": 0.541,
+          "ACS": 119,
+          "K": 28,
+          "D": 56,
+          "A": 9,
+          "PlusMinus": -28,
+          "KAST": 0.524,
+          "ADR": 75.4,
+          "HS%": 0.132,
+          "FK": 2,
+          "FD": 16,
+          "PlusMinus2": -14
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Haven",
+      "score1": 8,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "YGSYD",
+          "teamName": "You Get Shot You Die",
+          "players": [
+            {
+              "Player": "platinum",
+              "Agent": "Killjoy",
+              "R1.0": 1.306,
+              "ACS": 264,
+              "K": 20,
+              "D": 14,
+              "A": 7,
+              "PlusMinus": 6,
+              "KAST": 0.86,
+              "ADR": 173.4,
+              "HS%": 0.36,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "amara",
+              "Agent": "Breach",
+              "R1.0": 1.194,
+              "ACS": 251,
+              "K": 18,
+              "D": 15,
+              "A": 9,
+              "PlusMinus": 3,
+              "KAST": 0.76,
+              "ADR": 161.3,
+              "HS%": 0.15,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "retro",
+              "Agent": "Sova",
+              "R1.0": 1.072,
+              "ACS": 226,
+              "K": 16,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -1,
+              "KAST": 0.76,
+              "ADR": 171.9,
+              "HS%": 0.37,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "longclaw",
+              "Agent": "Omen",
+              "R1.0": 0.939,
+              "ACS": 182,
+              "K": 13,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": -3,
+              "KAST": 0.76,
+              "ADR": 128.5,
+              "HS%": 0.14,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "devil",
+              "Agent": "Jett",
+              "R1.0": 0.746,
+              "ACS": 152,
+              "K": 12,
+              "D": 15,
+              "A": 1,
+              "PlusMinus": -3,
+              "KAST": 0.62,
+              "ADR": 97.0,
+              "HS%": 0.14,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "PLAT",
+          "teamName": "Plat Chat",
+          "players": [
+            {
+              "Player": "Shyo",
+              "Agent": "Clove",
+              "R1.0": 1.217,
+              "ACS": 259,
+              "K": 20,
+              "D": 16,
+              "A": 8,
+              "PlusMinus": 4,
+              "KAST": 0.67,
+              "ADR": 173.8,
+              "HS%": 0.13,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Sideshow",
+              "Agent": "Jett",
+              "R1.0": 1.116,
+              "ACS": 231,
+              "K": 18,
+              "D": 14,
+              "A": 2,
+              "PlusMinus": 4,
+              "KAST": 0.67,
+              "ADR": 163.7,
+              "HS%": 0.28,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "wyatt",
+              "Agent": "Cypher",
+              "R1.0": 1.096,
+              "ACS": 255,
+              "K": 19,
+              "D": 17,
+              "A": 2,
+              "PlusMinus": 2,
+              "KAST": 0.76,
+              "ADR": 158.9,
+              "HS%": 0.44,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "mimi",
+              "Agent": "Sova",
+              "R1.0": 0.741,
+              "ACS": 148,
+              "K": 9,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": -5,
+              "KAST": 0.62,
+              "ADR": 100.9,
+              "HS%": 0.14,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "dryad",
+              "Agent": "Reyna",
+              "R1.0": 0.656,
+              "ACS": 138,
+              "K": 11,
+              "D": 18,
+              "A": 2,
+              "PlusMinus": -7,
+              "KAST": 0.62,
+              "ADR": 92.0,
+              "HS%": 0.24,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pearl",
+      "score1": 13,
+      "score2": 7,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        }
+      ],
+      "stats": [
+        {
+          "team": "YGSYD",
+          "teamName": "You Get Shot You Die",
+          "players": [
+            {
+              "Player": "retro",
+              "Agent": "Sova",
+              "R1.0": 1.502,
+              "ACS": 336,
+              "K": 23,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": 10,
+              "KAST": 0.75,
+              "ADR": 226.7,
+              "HS%": 0.26,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "longclaw",
+              "Agent": "Astra",
+              "R1.0": 1.26,
+              "ACS": 261,
+              "K": 20,
+              "D": 13,
+              "A": 3,
+              "PlusMinus": 7,
+              "KAST": 0.8,
+              "ADR": 165.8,
+              "HS%": 0.29,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "platinum",
+              "Agent": "Yoru",
+              "R1.0": 1.022,
+              "ACS": 193,
+              "K": 16,
+              "D": 11,
+              "A": 1,
+              "PlusMinus": 5,
+              "KAST": 0.7,
+              "ADR": 118.8,
+              "HS%": 0.41,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "devil",
+              "Agent": "Chamber",
+              "R1.0": 0.993,
+              "ACS": 174,
+              "K": 13,
+              "D": 9,
+              "A": 3,
+              "PlusMinus": 4,
+              "KAST": 0.75,
+              "ADR": 107.1,
+              "HS%": 0.15,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "igneous",
+              "Agent": "Fade",
+              "R1.0": 0.813,
+              "ACS": 140,
+              "K": 9,
+              "D": 12,
+              "A": 4,
+              "PlusMinus": -3,
+              "KAST": 0.8,
+              "ADR": 94.5,
+              "HS%": 0.1,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "PLAT",
+          "teamName": "Plat Chat",
+          "players": [
+            {
+              "Player": "mimi",
+              "Agent": "Tejo",
+              "R1.0": 0.899,
+              "ACS": 179,
+              "K": 13,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": -2,
+              "KAST": 0.65,
+              "ADR": 120.4,
+              "HS%": 0.1,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "wyatt",
+              "Agent": "Chamber",
+              "R1.0": 0.875,
+              "ACS": 220,
+              "K": 14,
+              "D": 14,
+              "A": 1,
+              "PlusMinus": 0,
+              "KAST": 0.55,
+              "ADR": 126.5,
+              "HS%": 0.21,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "Shyo",
+              "Agent": "Astra",
+              "R1.0": 0.823,
+              "ACS": 190,
+              "K": 11,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -5,
+              "KAST": 0.55,
+              "ADR": 133.4,
+              "HS%": 0.13,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Sideshow",
+              "Agent": "Phoenix",
+              "R1.0": 0.636,
+              "ACS": 157,
+              "K": 11,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -6,
+              "KAST": 0.5,
+              "ADR": 87.3,
+              "HS%": 0.19,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "dryad",
+              "Agent": "Reyna",
+              "R1.0": 0.494,
+              "ACS": 117,
+              "K": 9,
+              "D": 19,
+              "A": 3,
+              "PlusMinus": -10,
+              "KAST": 0.5,
+              "ADR": 69.7,
+              "HS%": 0.08,
+              "FK": 0,
+              "FD": 7,
+              "PlusMinus2": -7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bind",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        }
+      ],
+      "stats": [
+        {
+          "team": "YGSYD",
+          "teamName": "You Get Shot You Die",
+          "players": [
+            {
+              "Player": "retro",
+              "Agent": "Raze",
+              "R1.0": 1.547,
+              "ACS": 348,
+              "K": 31,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": 17,
+              "KAST": 0.79,
+              "ADR": 204.8,
+              "HS%": 0.11,
+              "FK": 6,
+              "FD": 2,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "platinum",
+              "Agent": "Deadlock",
+              "R1.0": 1.17,
+              "ACS": 227,
+              "K": 20,
+              "D": 13,
+              "A": 8,
+              "PlusMinus": 7,
+              "KAST": 0.75,
+              "ADR": 137.1,
+              "HS%": 0.22,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "devil",
+              "Agent": "Reyna",
+              "R1.0": 0.837,
+              "ACS": 155,
+              "K": 13,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": -4,
+              "KAST": 0.75,
+              "ADR": 100.7,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "amara",
+              "Agent": "Clove",
+              "R1.0": 0.821,
+              "ACS": 141,
+              "K": 12,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": -5,
+              "KAST": 0.71,
+              "ADR": 108.3,
+              "HS%": 0.17,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "igneous",
+              "Agent": "Fade",
+              "R1.0": 0.739,
+              "ACS": 146,
+              "K": 10,
+              "D": 18,
+              "A": 6,
+              "PlusMinus": -8,
+              "KAST": 0.71,
+              "ADR": 104.7,
+              "HS%": 0.31,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "PLAT",
+          "teamName": "Plat Chat",
+          "players": [
+            {
+              "Player": "wyatt",
+              "Agent": "Cypher",
+              "R1.0": 1.184,
+              "ACS": 270,
+              "K": 24,
+              "D": 16,
+              "A": 1,
+              "PlusMinus": 8,
+              "KAST": 0.71,
+              "ADR": 159.6,
+              "HS%": 0.14,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Shyo",
+              "Agent": "Yoru",
+              "R1.0": 1.041,
+              "ACS": 239,
+              "K": 19,
+              "D": 18,
+              "A": 4,
+              "PlusMinus": 1,
+              "KAST": 0.71,
+              "ADR": 151.0,
+              "HS%": 0.19,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Sideshow",
+              "Agent": "Brimstone",
+              "R1.0": 0.885,
+              "ACS": 188,
+              "K": 15,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": -2,
+              "KAST": 0.62,
+              "ADR": 117.7,
+              "HS%": 0.18,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "mimi",
+              "Agent": "Tejo",
+              "R1.0": 0.792,
+              "ACS": 164,
+              "K": 12,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -4,
+              "KAST": 0.62,
+              "ADR": 104.5,
+              "HS%": 0.1,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "dryad",
+              "Agent": "Reyna",
+              "R1.0": 0.48,
+              "ACS": 103,
+              "K": 8,
+              "D": 19,
+              "A": 4,
+              "PlusMinus": -11,
+              "KAST": 0.46,
+              "ADR": 65.5,
+              "HS%": 0.08,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
