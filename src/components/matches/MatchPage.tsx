@@ -80,6 +80,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 								: match.streamLink
 							).map(({ name, link }) => (
 								<a
+									key={name}
 									href={link}
 									target="_blank"
 									rel="noopener noreferrer"

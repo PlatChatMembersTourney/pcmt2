@@ -4,6 +4,7 @@ import StatsTable from './StatsTable.tsx';
 import Timeline from './Timeline.tsx';
 import { useStore } from '@nanostores/react';
 import { $teams } from '../../stores/store.ts';
+import { Fragment } from 'react';
 
 interface MatchStatsBoxProps {
 	match: Match;
@@ -184,7 +185,7 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 					/>
 				)}
 				{match.maps.map((map, idx) => (
-					<>
+					<Fragment key={idx}>
 						{selectedMap === idx + 1 && (
 							<StatsTable
 								agents={getAgents([match.mapDetails[idx]])}
@@ -194,7 +195,7 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 								key={idx}
 							/>
 						)}
-					</>
+					</Fragment>
 				))}
 			</div>
 		</div>
