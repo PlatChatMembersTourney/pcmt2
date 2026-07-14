@@ -1,0 +1,215 @@
+{
+  "Ascent": {
+    "mapsPlayed": 1,
+    "atkPct": 0.333,
+    "defPct": 0.667,
+    "agents": [
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Chamber",
+          "Jett",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "PC": {
+        "team": "PC",
+        "teamName": "Plat Chat",
+        "agents": [
+          "Jett",
+          "Omen",
+          "Sage",
+          "Sova",
+          "Vyse"
+        ]
+      }
+    }
+  },
+  "Breeze": {
+    "mapsPlayed": 1,
+    "atkPct": 0.625,
+    "defPct": 0.375,
+    "agents": [
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Clove",
+          "Jett",
+          "Sova"
+        ]
+      },
+      "PC": {
+        "team": "PC",
+        "teamName": "Plat Chat",
+        "agents": [
+          "Jett",
+          "Phoenix",
+          "Sage",
+          "Sova",
+          "Viper"
+        ]
+      }
+    }
+  },
+  "Split": {
+    "mapsPlayed": 1,
+    "atkPct": 0.588,
+    "defPct": 0.412,
+    "agents": [
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Skye",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Veto",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Raze",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "JDG": {
+        "team": "JDG",
+        "teamName": "Just Dudes Gaming",
+        "agents": [
+          "Neon",
+          "Omen",
+          "Skye",
+          "Viper",
+          "Waylay"
+        ]
+      },
+      "PC": {
+        "team": "PC",
+        "teamName": "Plat Chat",
+        "agents": [
+          "Fade",
+          "Omen",
+          "Phoenix",
+          "Raze",
+          "Veto"
+        ]
+      }
+    }
+  }
+}

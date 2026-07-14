@@ -3,28 +3,56 @@
     {
       "abbr": "JDG",
       "name": "Just Dudes Gaming",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 0,
-      "mapW": 0,
+      "mapW": 3,
       "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
+      "rndW": 39,
+      "rndL": 23,
       "rank": 1,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapDiff": 3,
+      "rndDiff": 16
     },
     {
       "abbr": "PC",
       "name": "Plat Chat",
       "matchW": 0,
-      "matchL": 0,
+      "matchL": 1,
       "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
+      "mapL": 3,
+      "rndW": 23,
+      "rndL": 39,
       "rank": 2,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapDiff": -3,
+      "rndDiff": -16
+    }
+  ],
+  "Showmatch": [
+    {
+      "abbr": "JDG",
+      "name": "Just Dudes Gaming",
+      "matchW": 1,
+      "matchL": 0,
+      "mapW": 3,
+      "mapL": 0,
+      "rndW": 39,
+      "rndL": 23,
+      "rank": 1,
+      "mapDiff": 3,
+      "rndDiff": 16
+    },
+    {
+      "abbr": "PC",
+      "name": "Plat Chat",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 0,
+      "mapL": 3,
+      "rndW": 23,
+      "rndL": 39,
+      "rank": 2,
+      "mapDiff": -3,
+      "rndDiff": -16
     }
   ]
 }
