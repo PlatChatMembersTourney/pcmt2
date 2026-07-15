@@ -1,5 +1,31 @@
 {
-  "id": "s1-na",
-  "shortName": "S1 NA",
-  "statsFormat": "xlsx"
+	"id": "s1-na",
+	"name": "PCMT Season 1 -- NA",
+	"shortName": "S1 NA",
+	"season": 1,
+	"region": "na",
+	"path": "s1/na",
+	"stages": ["Group Stage"],
+	"statsFormat": "json",
+	"statsTabs": {
+		"player": ["Angus", "toxic"],
+		"team": ["toxic"]
+	},
+	"sheetStats": {
+		"Angus": {
+			"sheetId": "1HcMZipSQR5rltC8clF71cwYuY4Ce6QmToyzOuZvwjlw",
+			"gid": "821526300"
+		}
+	},
+	"brackets": {
+		"playoffs": {
+			"stageFilter": "playoff",
+			"openingLabel": "Semifinal",
+			"seeds": {
+				"opening1": ["TEAM_A", "TEAM_B"],
+				"opening2": ["TEAM_C", "TEAM_D"]
+			},
+			"hasGrandFinal": true
+		}
+	}
 }

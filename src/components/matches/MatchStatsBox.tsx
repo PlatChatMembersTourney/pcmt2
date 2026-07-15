@@ -20,11 +20,10 @@ const getAgents = (mapDetails: MapDetail[]) => {
 				if (!(player.Player in agents)) {
 					agents[player.Player] = new Set();
 				}
-				agents[player.Player].add(player.Agent!);
+				agents[player.Player].add(player.Agent || 'null');
 			});
 		});
 	});
-
 	return agents;
 };
 
@@ -166,14 +165,16 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 								</p>
 							</div>
 						</div>
-						<div className="mb-5">
-							<Timeline
-								rounds={match.mapDetails[selectedMap - 1].rounds}
-								team1={teams[match.team1]}
-								team2={teams[match.team2]}
-								showAllRounds={true}
-							/>
-						</div>
+						{(match.mapDetails[selectedMap - 1].rounds !== null) && (
+							<div className="mb-5">
+								<Timeline
+									rounds={match.mapDetails[selectedMap - 1].rounds!}
+									team1={teams[match.team1]}
+									team2={teams[match.team2]}
+									showAllRounds={true}
+								/>
+							</div>
+						)}
 					</>
 				)}
 				{selectedMap === 0 && (

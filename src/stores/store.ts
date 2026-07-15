@@ -3,6 +3,7 @@ import type { Match, PlayerStats, Standing, TeamInfo, TeamMapStats } from '../ty
 
 // load match data for all seasons
 
+import s1NAMatchesRaw from '../data/s1/na/matches/matches.json'
 import s2NAMatchesRaw from '../data/s2/na/matches/matches.json';
 import s3NAMatchesRaw from '../data/s3/na/matches/matches.json';
 import s1EMEAMatchesRaw from '../data/s1/emea/matches/matches.json';
@@ -13,7 +14,7 @@ import s2NAShowmatchMatchesRaw from '../data/showmatch2/na/matches/matches.json'
 
 // export this so i can load static paths for each match
 export const matches: Record<string, Match[]> = {
-	's1-na': [],
+	's1-na': s1NAMatchesRaw as Match[],
 	's2-na': s2NAMatchesRaw as Match[],
 	's3-na': s3NAMatchesRaw as Match[],
 	's1-emea': s1EMEAMatchesRaw as Match[],
@@ -25,6 +26,7 @@ export const matches: Record<string, Match[]> = {
 
 // load standings data for all seasons
 
+import s1NAStandingsRaw from '../data/s1/na/standings.json';
 import s2NAStandingsRaw from '../data/s2/na/standings.json';
 import s3NAStandingsRaw from '../data/s3/na/standings.json';
 import s1EMEAStandingsRaw from '../data/s1/emea/standings.json';
@@ -34,7 +36,7 @@ import s1NAShowmatchStandingsRaw from '../data/showmatch1/na/standings.json';
 import s2NAShowmatchStandingsRaw from '../data/showmatch2/na/standings.json';
 
 const standings: Record<string, Record<string, Standing[]>> = {
-	's1-na': {},
+	's1-na': s1NAStandingsRaw as Record<string, Standing[]>,
 	's2-na': s2NAStandingsRaw as Record<string, Standing[]>,
 	's3-na': s3NAStandingsRaw as Record<string, Standing[]>,
 	's1-emea': s1EMEAStandingsRaw as Record<string, Standing[]>,

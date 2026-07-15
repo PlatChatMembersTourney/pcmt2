@@ -5,7 +5,7 @@
 // One player's stat line on a map or across a whole match
 export interface Player {
 	Player: string;
-	Agent?: string;
+	Agent?: string | null;
 	"R1.0": number;
 	ACS: number;
 	K: number;
@@ -57,7 +57,7 @@ export interface Round {
 
 // Full per-map detail: score, round-by-round, and per-map stats
 export interface MapDetail extends MapScore {
-	rounds: Round[];
+	rounds: Round[] | null;
 	stats: TeamStats[];
 }
 
@@ -78,7 +78,7 @@ export interface Match {
 	maps: MapScore[];
 	combinedStats: TeamStats[]; // whole-match totals per team
 	mapDetails: MapDetail[]; // per-map breakdown
-	streamLink: string | {
+	streamLink?: string | {
 		link: string;
 		name: string;
 	}[];
