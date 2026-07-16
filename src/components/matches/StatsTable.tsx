@@ -149,8 +149,8 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											<td className="flex h-10 items-center gap-2 bg-transparent! sm:w-25">
 												<img src={playerFlag(player.Player, event.id, event.region)} />
 												<div className="flex flex-col items-start leading-snug">
-													<p className="text-pb text-xs font-medium">{player.Player}</p>
-													<p className="text-vlr-text-light">{team.team}</p>
+													<p className="text-pb text-xs font-medium text-nowrap">{player.Player}</p>
+													<p className="text-vlr-text-light text-nowrap">{team.team}</p>
 												</div>
 											</td>
 											<td className="bg-transparent!">
