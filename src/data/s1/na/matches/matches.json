@@ -10,7 +10,7 @@
     "completed": true,
     "bestOf": 3,
     "date": "2025-07-11",
-    "stage": "NA S1",
+    "stage": "Playoffs",
     "veto": "KAT bans Corrode, CIN bans Icebox, KAT picks Bind, CIN picks Ascent, KAT bans Sunset, CIN bans Lotus, Haven remains",
     "maps": [
       {
@@ -774,7 +774,7 @@
     "completed": true,
     "bestOf": 1,
     "date": "2025-06-03",
-    "stage": "NA S1",
+    "stage": "Group Stage",
     "veto": "KAT bans Ascent, CIN bans Sunset, KAT bans Icebox, CIN bans Split, KAT bans Pearl, CIN bans Lotus, Haven remains",
     "maps": [
       {
@@ -1262,7 +1262,7 @@
     "completed": true,
     "bestOf": 3,
     "date": "2025-07-14",
-    "stage": "NA S1",
+    "stage": "Playoffs",
     "veto": "CIN bans Sunset, WALL bans Haven, CIN pick Corrode, WALL picks Lotus, CIN bans Icebox, WALL bans Bind, Ascent remains",
     "maps": [
       {
@@ -2066,7 +2066,7 @@
     "completed": true,
     "bestOf": 1,
     "date": "2025-05-29",
-    "stage": "NA S1",
+    "stage": "Group Stage",
     "veto": "WALL bans Icebox, CIN bans Sunset, WALL bans Split, CIN bans Pearl, WALL bans Haven, CIN bans Lotus, Ascent remains",
     "maps": [
       {
@@ -2564,7 +2564,7 @@
     "completed": true,
     "bestOf": 5,
     "date": "2025-07-27",
-    "stage": "NA S1",
+    "stage": "Playoffs",
     "veto": "KAT bans Corrode, WALL bans Haven, KAT picks Bind, WALL picks Lotus, KAT picks Icebox, WALL picks Ascent, Sunset remains",
     "maps": [
       {
@@ -4171,7 +4171,7 @@
     "completed": true,
     "bestOf": 1,
     "date": "2025-05-31",
-    "stage": "NA S1",
+    "stage": "Group Stage",
     "veto": "KAT bans Pearl, WALL bans Haven, KAT bans Sunset, WALL bans Icebox, KAT bans Ascent, WALL bans Split, Lotus Remains",
     "maps": [
       {
@@ -4629,7 +4629,7 @@
     "completed": true,
     "bestOf": 5,
     "date": "2025-08-10",
-    "stage": "NA S1",
+    "stage": "Playoffs",
     "veto": "YD bans Ascent, YD bans Icebox, YD picks Lotus, KAT pick Sunset, YD picks Corrode, KAT picks Haven, Bind remains",
     "maps": [
       {
@@ -5975,7 +5975,7 @@
     "completed": true,
     "bestOf": 1,
     "date": "2025-06-01",
-    "stage": "NA S1",
+    "stage": "Group Stage",
     "veto": "KAT ban Sunset, YD ban Icebox, KAT ban Ascent, YD ban Pearl, KAT ban Split, YD ban Lotus, Haven remains",
     "maps": [
       {
@@ -6473,7 +6473,7 @@
     "completed": true,
     "bestOf": 3,
     "date": "2025-07-08",
-    "stage": "NA S1",
+    "stage": "Playoffs",
     "veto": "WALL bans Sunset, YD bans Lotus, WALL picks Bind, YD picks Corrode, WALL bans Haven, YD bans Ascent, Icebox remains",
     "maps": [
       {
@@ -7252,7 +7252,7 @@
     "completed": true,
     "bestOf": 1,
     "date": "2025-06-08",
-    "stage": "NA S1",
+    "stage": "Group Stage",
     "veto": "YD bans Split, CIN bans Lotus, YD bans Icebox, CIN bans Haven, YD bans Pearl, CIN bans Sunset, Ascent remains",
     "maps": [
       {
@@ -7720,7 +7720,7 @@
     "completed": true,
     "bestOf": 3,
     "date": "2025-07-17",
-    "stage": "NA S1",
+    "stage": "Playoffs",
     "veto": "YD bans Icebox, KAT bans Corrode, YD picks Bind, KAT picks Ascent, YD bans Sunset, KAT bans Lotus, Haven remains",
     "maps": [
       {

@@ -71,6 +71,7 @@ export const teams: Record<string, Record<string, TeamInfo>> = {
 
 // load stats for all teams
 
+import s1NAPlayerStatsRaw from '../data/s1/na/player-stats.json'
 import s2NAPlayerStatsRaw from '../data/s2/na/player-stats.json';
 import s3NAPlayerStatsRaw from '../data/s3/na/player-stats.json';
 import s1EMEAPlayerStatsRaw from '../data/s1/emea/player-stats.json';
@@ -80,7 +81,7 @@ import s1NAShowmatchPlayerStatsRaw from '../data/showmatch1/na/player-stats.json
 import s2NAShowmatchPlayerStatsRaw from '../data/showmatch2/na/player-stats.json';
 
 const playerStats: Record<string, Record<string, PlayerStats[]>> = {
-	's1-na': {},
+	's1-na': s1NAPlayerStatsRaw as Record<string, PlayerStats[]>,
 	's2-na': s2NAPlayerStatsRaw as Record<string, PlayerStats[]>,
 	's3-na': s3NAPlayerStatsRaw as Record<string, PlayerStats[]>,
 	's1-emea': s1EMEAPlayerStatsRaw as Record<string, PlayerStats[]>,
@@ -91,6 +92,8 @@ const playerStats: Record<string, Record<string, PlayerStats[]>> = {
 };
 
 // load team map stats
+
+import s1NATeamMapStatsRaw from '../data/s1/na/team-map-stats.json';
 import s2NATeamMapStatsRaw from '../data/s2/na/team-map-stats.json';
 import s3NATeamMapStatsRaw from '../data/s3/na/team-map-stats.json';
 import s1EMEATeamMapStatsRaw from '../data/s1/emea/team-map-stats.json';
@@ -100,7 +103,7 @@ import s1NAShowmatchTeamMapStatsRaw from '../data/showmatch1/na/team-map-stats.j
 import s2NAShowmatchTeamMapStatsRaw from '../data/showmatch2/na/team-map-stats.json';
 
 const teamMapStats: Record<string, Record<string, TeamMapStats>> = {
-	's1-na': {},
+	's1-na': s1NATeamMapStatsRaw as Record<string, TeamMapStats>,
 	's2-na': s2NATeamMapStatsRaw as Record<string, TeamMapStats>,
 	's3-na': s3NATeamMapStatsRaw as Record<string, TeamMapStats>,
 	's1-emea': s1EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
