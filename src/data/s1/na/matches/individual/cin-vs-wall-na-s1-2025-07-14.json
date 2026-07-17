@@ -1,0 +1,804 @@
+{
+    "id": "cin-vs-wall-na-s1-2025-07-14",
+    "team1": "CIN",
+    "team2": "WALL",
+    "team1Name": "Absolute Cinema",
+    "team2Name": "The Brick Wall",
+    "score1": 0,
+    "score2": 2,
+    "completed": true,
+    "bestOf": 3,
+    "date": "2025-07-14",
+    "stage": "Playoffs",
+    "veto": "CIN bans Sunset, WALL bans Haven, CIN pick Corrode, WALL picks Lotus, CIN bans Icebox, WALL bans Bind, Ascent remains",
+    "maps": [
+        {
+            "name": "Corrode",
+            "score1": 7,
+            "score2": 13
+        },
+        {
+            "name": "Lotus",
+            "score1": 14,
+            "score2": 16
+        }
+    ],
+    "combinedStats": [
+        {
+            "team": "CIN",
+            "teamName": "Absolute Cinema",
+            "players": [
+                {
+                    "Player": "Platypus_Eggs",
+                    "R1.0": 1.003,
+                    "ACS": 211,
+                    "K": 36,
+                    "D": 35,
+                    "A": 11,
+                    "PlusMinus": 1,
+                    "KAST": 0.64,
+                    "ADR": 146.72,
+                    "HS%": 0.13,
+                    "FK": 9,
+                    "FD": 7,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "pi",
+                    "R1.0": 1.031,
+                    "ACS": 233.5,
+                    "K": 39,
+                    "D": 38,
+                    "A": 9,
+                    "PlusMinus": 1,
+                    "KAST": 0.72,
+                    "ADR": 148.86,
+                    "HS%": 0.21,
+                    "FK": 6,
+                    "FD": 7,
+                    "PlusMinus2": -1
+                },
+                {
+                    "Player": "abstracq",
+                    "R1.0": 0.984,
+                    "ACS": 207,
+                    "K": 36,
+                    "D": 36,
+                    "A": 8,
+                    "PlusMinus": 0,
+                    "KAST": 0.68,
+                    "ADR": 142.86,
+                    "HS%": 0.22,
+                    "FK": 5,
+                    "FD": 4,
+                    "PlusMinus2": 1
+                },
+                {
+                    "Player": "lore",
+                    "R1.0": 0.899,
+                    "ACS": 191.5,
+                    "K": 35,
+                    "D": 36,
+                    "A": 9,
+                    "PlusMinus": -1,
+                    "KAST": 0.66,
+                    "ADR": 114.2,
+                    "HS%": 0.15,
+                    "FK": 5,
+                    "FD": 4,
+                    "PlusMinus2": 1
+                },
+                {
+                    "Player": "caprielle",
+                    "R1.0": 0.547,
+                    "ACS": 87,
+                    "K": 13,
+                    "D": 37,
+                    "A": 20,
+                    "PlusMinus": -24,
+                    "KAST": 0.64,
+                    "ADR": 55.8,
+                    "HS%": 0.25,
+                    "FK": 0,
+                    "FD": 3,
+                    "PlusMinus2": -3
+                }
+            ]
+        },
+        {
+            "team": "WALL",
+            "teamName": "The Brick Wall",
+            "players": [
+                {
+                    "Player": "Lil Thighs",
+                    "R1.0": 1.372,
+                    "ACS": 301,
+                    "K": 52,
+                    "D": 33,
+                    "A": 8,
+                    "PlusMinus": 19,
+                    "KAST": 0.8,
+                    "ADR": 202.78,
+                    "HS%": 0.28,
+                    "FK": 5,
+                    "FD": 3,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "hyypernova",
+                    "R1.0": 1.172,
+                    "ACS": 226.5,
+                    "K": 41,
+                    "D": 31,
+                    "A": 20,
+                    "PlusMinus": 10,
+                    "KAST": 0.78,
+                    "ADR": 144.52,
+                    "HS%": 0.23,
+                    "FK": 10,
+                    "FD": 4,
+                    "PlusMinus2": 6
+                },
+                {
+                    "Player": "platinum",
+                    "R1.0": 0.925,
+                    "ACS": 165,
+                    "K": 29,
+                    "D": 26,
+                    "A": 16,
+                    "PlusMinus": 3,
+                    "KAST": 0.68,
+                    "ADR": 101.0,
+                    "HS%": 0.16,
+                    "FK": 3,
+                    "FD": 3,
+                    "PlusMinus2": 0
+                },
+                {
+                    "Player": "dunkn",
+                    "R1.0": 0.887,
+                    "ACS": 185,
+                    "K": 32,
+                    "D": 35,
+                    "A": 10,
+                    "PlusMinus": -3,
+                    "KAST": 0.64,
+                    "ADR": 119.5,
+                    "HS%": 0.14,
+                    "FK": 6,
+                    "FD": 7,
+                    "PlusMinus2": -1
+                },
+                {
+                    "Player": "Tenyaku",
+                    "R1.0": 0.821,
+                    "ACS": 153,
+                    "K": 27,
+                    "D": 34,
+                    "A": 14,
+                    "PlusMinus": -7,
+                    "KAST": 0.64,
+                    "ADR": 104.36,
+                    "HS%": 0.15,
+                    "FK": 1,
+                    "FD": 8,
+                    "PlusMinus2": -7
+                }
+            ]
+        }
+    ],
+    "mapDetails": [
+        {
+            "name": "Corrode",
+            "score1": 7,
+            "score2": 13,
+            "rounds": [
+                {
+                    "round": 1,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 2,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 3,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 4,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 5,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 6,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 7,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 8,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 9,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 10,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 11,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 12,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 13,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 14,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 15,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 16,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 17,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 18,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 19,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 20,
+                    "winner": 2,
+                    "side": "atk"
+                }
+            ],
+            "stats": [
+                {
+                    "team": "CIN",
+                    "teamName": "Absolute Cinema",
+                    "players": [
+                        {
+                            "Player": "Platypus_Eggs",
+                            "Agent": "Cypher",
+                            "R1.0": 0.867,
+                            "ACS": 180,
+                            "K": 11,
+                            "D": 13,
+                            "A": 6,
+                            "PlusMinus": -2,
+                            "KAST": 0.55,
+                            "ADR": 125.0,
+                            "HS%": 0.14,
+                            "FK": 1,
+                            "FD": 3,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "abstracq",
+                            "Agent": "Yoru",
+                            "R1.0": 0.832,
+                            "ACS": 174,
+                            "K": 11,
+                            "D": 15,
+                            "A": 3,
+                            "PlusMinus": -4,
+                            "KAST": 0.7,
+                            "ADR": 123.3,
+                            "HS%": 0.31,
+                            "FK": 3,
+                            "FD": 3,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "lore",
+                            "Agent": "Viper",
+                            "R1.0": 0.826,
+                            "ACS": 184,
+                            "K": 13,
+                            "D": 15,
+                            "A": 3,
+                            "PlusMinus": -2,
+                            "KAST": 0.6,
+                            "ADR": 111.5,
+                            "HS%": 0.2,
+                            "FK": 1,
+                            "FD": 3,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "pi",
+                            "Agent": "Fade",
+                            "R1.0": 0.806,
+                            "ACS": 203,
+                            "K": 13,
+                            "D": 17,
+                            "A": 2,
+                            "PlusMinus": -4,
+                            "KAST": 0.65,
+                            "ADR": 118.8,
+                            "HS%": 0.14,
+                            "FK": 1,
+                            "FD": 3,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "caprielle",
+                            "Agent": "Omen",
+                            "R1.0": 0.724,
+                            "ACS": 128,
+                            "K": 10,
+                            "D": 14,
+                            "A": 6,
+                            "PlusMinus": -4,
+                            "KAST": 0.55,
+                            "ADR": 87.3,
+                            "HS%": 0.24,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        }
+                    ]
+                },
+                {
+                    "team": "WALL",
+                    "teamName": "The Brick Wall",
+                    "players": [
+                        {
+                            "Player": "Lil Thighs",
+                            "Agent": "Raze",
+                            "R1.0": 1.387,
+                            "ACS": 285,
+                            "K": 20,
+                            "D": 13,
+                            "A": 5,
+                            "PlusMinus": 7,
+                            "KAST": 0.85,
+                            "ADR": 201.4,
+                            "HS%": 0.22,
+                            "FK": 1,
+                            "FD": 1,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "hyypernova",
+                            "Agent": "Omen",
+                            "R1.0": 1.247,
+                            "ACS": 229,
+                            "K": 17,
+                            "D": 12,
+                            "A": 10,
+                            "PlusMinus": 5,
+                            "KAST": 0.9,
+                            "ADR": 140.2,
+                            "HS%": 0.18,
+                            "FK": 5,
+                            "FD": 1,
+                            "PlusMinus2": 4
+                        },
+                        {
+                            "Player": "platinum",
+                            "Agent": "Fade",
+                            "R1.0": 0.987,
+                            "ACS": 173,
+                            "K": 12,
+                            "D": 9,
+                            "A": 7,
+                            "PlusMinus": 3,
+                            "KAST": 0.7,
+                            "ADR": 104.0,
+                            "HS%": 0.23,
+                            "FK": 3,
+                            "FD": 1,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "dunkn",
+                            "Agent": "Viper",
+                            "R1.0": 0.935,
+                            "ACS": 176,
+                            "K": 13,
+                            "D": 13,
+                            "A": 3,
+                            "PlusMinus": 0,
+                            "KAST": 0.8,
+                            "ADR": 112.6,
+                            "HS%": 0.24,
+                            "FK": 4,
+                            "FD": 1,
+                            "PlusMinus2": 3
+                        },
+                        {
+                            "Player": "Tenyaku",
+                            "Agent": "Cypher",
+                            "R1.0": 0.886,
+                            "ACS": 161,
+                            "K": 12,
+                            "D": 11,
+                            "A": 5,
+                            "PlusMinus": 1,
+                            "KAST": 0.65,
+                            "ADR": 96.2,
+                            "HS%": 0.11,
+                            "FK": 1,
+                            "FD": 2,
+                            "PlusMinus2": -1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lotus",
+            "score1": 14,
+            "score2": 16,
+            "rounds": [
+                {
+                    "round": 1,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 2,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 3,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 4,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 5,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 6,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 7,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 8,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 9,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 10,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 11,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 12,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 13,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 14,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 15,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 16,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 17,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 18,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 19,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 20,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 21,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 22,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 23,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 24,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 25,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 26,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 27,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 28,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 29,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 30,
+                    "winner": 2,
+                    "side": "def"
+                }
+            ],
+            "stats": [
+                {
+                    "team": "CIN",
+                    "teamName": "Absolute Cinema",
+                    "players": [
+                        {
+                            "Player": "pi",
+                            "Agent": "Fade",
+                            "R1.0": 1.183,
+                            "ACS": 264,
+                            "K": 26,
+                            "D": 21,
+                            "A": 7,
+                            "PlusMinus": 5,
+                            "KAST": 0.77,
+                            "ADR": 168.9,
+                            "HS%": 0.25,
+                            "FK": 5,
+                            "FD": 4,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "abstracq",
+                            "Agent": "Raze",
+                            "R1.0": 1.085,
+                            "ACS": 240,
+                            "K": 25,
+                            "D": 21,
+                            "A": 5,
+                            "PlusMinus": 4,
+                            "KAST": 0.67,
+                            "ADR": 155.9,
+                            "HS%": 0.16,
+                            "FK": 2,
+                            "FD": 1,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "Platypus_Eggs",
+                            "Agent": "Killjoy",
+                            "R1.0": 1.094,
+                            "ACS": 242,
+                            "K": 25,
+                            "D": 22,
+                            "A": 5,
+                            "PlusMinus": 3,
+                            "KAST": 0.7,
+                            "ADR": 161.2,
+                            "HS%": 0.13,
+                            "FK": 8,
+                            "FD": 4,
+                            "PlusMinus2": 4
+                        },
+                        {
+                            "Player": "lore",
+                            "Agent": "Viper",
+                            "R1.0": 0.948,
+                            "ACS": 199,
+                            "K": 22,
+                            "D": 21,
+                            "A": 6,
+                            "PlusMinus": 1,
+                            "KAST": 0.7,
+                            "ADR": 116.0,
+                            "HS%": 0.11,
+                            "FK": 4,
+                            "FD": 1,
+                            "PlusMinus2": 3
+                        },
+                        {
+                            "Player": "caprielle",
+                            "Agent": "Omen",
+                            "R1.0": 0.43,
+                            "ACS": 46,
+                            "K": 3,
+                            "D": 23,
+                            "A": 14,
+                            "PlusMinus": -20,
+                            "KAST": 0.7,
+                            "ADR": 34.8,
+                            "HS%": 0.26,
+                            "FK": 0,
+                            "FD": 1,
+                            "PlusMinus2": -1
+                        }
+                    ]
+                },
+                {
+                    "team": "WALL",
+                    "teamName": "The Brick Wall",
+                    "players": [
+                        {
+                            "Player": "Lil Thighs",
+                            "Agent": "Raze",
+                            "R1.0": 1.363,
+                            "ACS": 317,
+                            "K": 32,
+                            "D": 20,
+                            "A": 3,
+                            "PlusMinus": 12,
+                            "KAST": 0.77,
+                            "ADR": 203.7,
+                            "HS%": 0.32,
+                            "FK": 4,
+                            "FD": 2,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "hyypernova",
+                            "Agent": "Omen",
+                            "R1.0": 1.122,
+                            "ACS": 224,
+                            "K": 24,
+                            "D": 19,
+                            "A": 10,
+                            "PlusMinus": 5,
+                            "KAST": 0.7,
+                            "ADR": 147.4,
+                            "HS%": 0.26,
+                            "FK": 5,
+                            "FD": 3,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "platinum",
+                            "Agent": "Fade",
+                            "R1.0": 0.885,
+                            "ACS": 157,
+                            "K": 17,
+                            "D": 17,
+                            "A": 9,
+                            "PlusMinus": 0,
+                            "KAST": 0.67,
+                            "ADR": 99.0,
+                            "HS%": 0.12,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "dunkn",
+                            "Agent": "Viper",
+                            "R1.0": 0.853,
+                            "ACS": 194,
+                            "K": 19,
+                            "D": 22,
+                            "A": 7,
+                            "PlusMinus": -3,
+                            "KAST": 0.53,
+                            "ADR": 124.1,
+                            "HS%": 0.08,
+                            "FK": 2,
+                            "FD": 6,
+                            "PlusMinus2": -4
+                        },
+                        {
+                            "Player": "Tenyaku",
+                            "Agent": "Vyse",
+                            "R1.0": 0.776,
+                            "ACS": 145,
+                            "K": 15,
+                            "D": 23,
+                            "A": 9,
+                            "PlusMinus": -8,
+                            "KAST": 0.63,
+                            "ADR": 109.8,
+                            "HS%": 0.17,
+                            "FK": 0,
+                            "FD": 6,
+                            "PlusMinus2": -6
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

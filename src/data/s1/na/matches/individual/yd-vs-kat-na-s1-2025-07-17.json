@@ -1,0 +1,1065 @@
+{
+    "id": "yd-vs-kat-na-s1-2025-07-17",
+    "team1": "YD",
+    "team2": "KAT",
+    "team1Name": "You Get Shot You Die",
+    "team2Name": "Kurt's Kittens",
+    "score1": 2,
+    "score2": 1,
+    "completed": true,
+    "bestOf": 3,
+    "date": "2025-07-17",
+    "stage": "Playoffs",
+    "veto": "YD bans Icebox, KAT bans Corrode, YD picks Bind, KAT picks Ascent, YD bans Sunset, KAT bans Lotus, Haven remains",
+    "maps": [
+        {
+            "name": "Bind",
+            "score1": 13,
+            "score2": 15
+        },
+        {
+            "name": "Ascent",
+            "score1": 13,
+            "score2": 5
+        },
+        {
+            "name": "Haven",
+            "score1": 13,
+            "score2": 6
+        }
+    ],
+    "combinedStats": [
+        {
+            "team": "YD",
+            "teamName": "You Get Shot You Die",
+            "players": [
+                {
+                    "Player": "retro",
+                    "R1.0": 1.316,
+                    "ACS": 283,
+                    "K": 63,
+                    "D": 46,
+                    "A": 30,
+                    "PlusMinus": 17,
+                    "KAST": 0.81,
+                    "ADR": 175.49,
+                    "HS%": 0.22,
+                    "FK": 12,
+                    "FD": 6,
+                    "PlusMinus2": 6
+                },
+                {
+                    "Player": "devil",
+                    "R1.0": 1.062,
+                    "ACS": 221.33333333333334,
+                    "K": 50,
+                    "D": 40,
+                    "A": 12,
+                    "PlusMinus": 10,
+                    "KAST": 0.75,
+                    "ADR": 134.25,
+                    "HS%": 0.14,
+                    "FK": 14,
+                    "FD": 5,
+                    "PlusMinus2": 9
+                },
+                {
+                    "Player": "igneous",
+                    "R1.0": 1.016,
+                    "ACS": 200,
+                    "K": 41,
+                    "D": 42,
+                    "A": 26,
+                    "PlusMinus": -1,
+                    "KAST": 0.75,
+                    "ADR": 131.93,
+                    "HS%": 0.19,
+                    "FK": 3,
+                    "FD": 5,
+                    "PlusMinus2": -2
+                },
+                {
+                    "Player": "amara",
+                    "R1.0": 1.097,
+                    "ACS": 224.33333333333334,
+                    "K": 54,
+                    "D": 44,
+                    "A": 17,
+                    "PlusMinus": 10,
+                    "KAST": 0.72,
+                    "ADR": 142.28,
+                    "HS%": 0.12,
+                    "FK": 6,
+                    "FD": 5,
+                    "PlusMinus2": 1
+                },
+                {
+                    "Player": "platinum",
+                    "R1.0": 0.877,
+                    "ACS": 154.66666666666666,
+                    "K": 34,
+                    "D": 45,
+                    "A": 28,
+                    "PlusMinus": -11,
+                    "KAST": 0.77,
+                    "ADR": 102.47,
+                    "HS%": 0.21,
+                    "FK": 4,
+                    "FD": 5,
+                    "PlusMinus2": -1
+                }
+            ]
+        },
+        {
+            "team": "KAT",
+            "teamName": "Kurt's Kittens",
+            "players": [
+                {
+                    "Player": "skye",
+                    "R1.0": 1.107,
+                    "ACS": 245,
+                    "K": 55,
+                    "D": 51,
+                    "A": 13,
+                    "PlusMinus": 4,
+                    "KAST": 0.75,
+                    "ADR": 163.59,
+                    "HS%": 0.2,
+                    "FK": 9,
+                    "FD": 7,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "Moelandblue",
+                    "R1.0": 0.993,
+                    "ACS": 195,
+                    "K": 44,
+                    "D": 44,
+                    "A": 22,
+                    "PlusMinus": 0,
+                    "KAST": 0.76,
+                    "ADR": 122.24,
+                    "HS%": 0.17,
+                    "FK": 0,
+                    "FD": 8,
+                    "PlusMinus2": -8
+                },
+                {
+                    "Player": "haych*",
+                    "R1.0": 1.065,
+                    "ACS": 230.33333333333334,
+                    "K": 55,
+                    "D": 59,
+                    "A": 16,
+                    "PlusMinus": -4,
+                    "KAST": 0.75,
+                    "ADR": 163.88,
+                    "HS%": 0.21,
+                    "FK": 13,
+                    "FD": 16,
+                    "PlusMinus2": -3
+                },
+                {
+                    "Player": "beans",
+                    "R1.0": 0.811,
+                    "ACS": 167,
+                    "K": 36,
+                    "D": 48,
+                    "A": 16,
+                    "PlusMinus": -12,
+                    "KAST": 0.65,
+                    "ADR": 109.36,
+                    "HS%": 0.1,
+                    "FK": 4,
+                    "FD": 3,
+                    "PlusMinus2": 1
+                },
+                {
+                    "Player": "caprielle",
+                    "R1.0": 0.679,
+                    "ACS": 116.66666666666667,
+                    "K": 27,
+                    "D": 41,
+                    "A": 12,
+                    "PlusMinus": -14,
+                    "KAST": 0.68,
+                    "ADR": 69.97,
+                    "HS%": 0.14,
+                    "FK": 0,
+                    "FD": 5,
+                    "PlusMinus2": -5
+                }
+            ]
+        }
+    ],
+    "mapDetails": [
+        {
+            "name": "Bind",
+            "score1": 13,
+            "score2": 15,
+            "rounds": [
+                {
+                    "round": 1,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 2,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 3,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 4,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 5,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 6,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 7,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 8,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 9,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 10,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 11,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 12,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 13,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 14,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 15,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 16,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 17,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 18,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 19,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 20,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 21,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 22,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 23,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 24,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 25,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 26,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 27,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 28,
+                    "winner": 2,
+                    "side": "atk"
+                }
+            ],
+            "stats": [
+                {
+                    "team": "YD",
+                    "teamName": "You Get Shot You Die",
+                    "players": [
+                        {
+                            "Player": "amara",
+                            "Agent": "Brimstone",
+                            "R1.0": 1.269,
+                            "ACS": 271,
+                            "K": 27,
+                            "D": 17,
+                            "A": 10,
+                            "PlusMinus": 10,
+                            "KAST": 0.75,
+                            "ADR": 157.1,
+                            "HS%": 0.13,
+                            "FK": 2,
+                            "FD": 2,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "retro",
+                            "Agent": "Raze",
+                            "R1.0": 1.125,
+                            "ACS": 255,
+                            "K": 25,
+                            "D": 22,
+                            "A": 7,
+                            "PlusMinus": 3,
+                            "KAST": 0.64,
+                            "ADR": 169.7,
+                            "HS%": 0.22,
+                            "FK": 6,
+                            "FD": 5,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "platinum",
+                            "Agent": "Vyse",
+                            "R1.0": 0.895,
+                            "ACS": 193,
+                            "K": 18,
+                            "D": 22,
+                            "A": 5,
+                            "PlusMinus": -4,
+                            "KAST": 0.75,
+                            "ADR": 125.3,
+                            "HS%": 0.27,
+                            "FK": 4,
+                            "FD": 4,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "devil",
+                            "Agent": "Fade",
+                            "R1.0": 0.844,
+                            "ACS": 171,
+                            "K": 15,
+                            "D": 19,
+                            "A": 9,
+                            "PlusMinus": -4,
+                            "KAST": 0.64,
+                            "ADR": 110.6,
+                            "HS%": 0.12,
+                            "FK": 1,
+                            "FD": 2,
+                            "PlusMinus2": -1
+                        },
+                        {
+                            "Player": "igneous",
+                            "Agent": "Gekko",
+                            "R1.0": 0.602,
+                            "ACS": 110,
+                            "K": 9,
+                            "D": 22,
+                            "A": 9,
+                            "PlusMinus": -13,
+                            "KAST": 0.68,
+                            "ADR": 74.4,
+                            "HS%": 0.21,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        }
+                    ]
+                },
+                {
+                    "team": "KAT",
+                    "teamName": "Kurt's Kittens",
+                    "players": [
+                        {
+                            "Player": "haych*",
+                            "Agent": "Clove",
+                            "R1.0": 1.518,
+                            "ACS": 359,
+                            "K": 36,
+                            "D": 25,
+                            "A": 8,
+                            "PlusMinus": 11,
+                            "KAST": 0.82,
+                            "ADR": 233.6,
+                            "HS%": 0.28,
+                            "FK": 7,
+                            "FD": 5,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "skye",
+                            "Agent": "Raze",
+                            "R1.0": 1.242,
+                            "ACS": 278,
+                            "K": 26,
+                            "D": 20,
+                            "A": 6,
+                            "PlusMinus": 6,
+                            "KAST": 0.82,
+                            "ADR": 177.1,
+                            "HS%": 0.15,
+                            "FK": 4,
+                            "FD": 3,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "Moelandblue",
+                            "Agent": "Fade",
+                            "R1.0": 1.002,
+                            "ACS": 182,
+                            "K": 19,
+                            "D": 17,
+                            "A": 10,
+                            "PlusMinus": 2,
+                            "KAST": 0.75,
+                            "ADR": 112.8,
+                            "HS%": 0.1,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "beans",
+                            "Agent": "Vyse",
+                            "R1.0": 0.846,
+                            "ACS": 163,
+                            "K": 14,
+                            "D": 18,
+                            "A": 7,
+                            "PlusMinus": -4,
+                            "KAST": 0.68,
+                            "ADR": 114.6,
+                            "HS%": 0.1,
+                            "FK": 4,
+                            "FD": 1,
+                            "PlusMinus2": 3
+                        },
+                        {
+                            "Player": "caprielle",
+                            "Agent": "Viper",
+                            "R1.0": 0.547,
+                            "ACS": 60,
+                            "K": 7,
+                            "D": 15,
+                            "A": 4,
+                            "PlusMinus": -8,
+                            "KAST": 0.68,
+                            "ADR": 41.0,
+                            "HS%": 0.17,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ascent",
+            "score1": 13,
+            "score2": 5,
+            "rounds": [
+                {
+                    "round": 1,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 2,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 3,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 4,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 5,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 6,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 7,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 8,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 9,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 10,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 11,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 12,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 13,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 14,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 15,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 16,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 17,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 18,
+                    "winner": 1,
+                    "side": "atk"
+                }
+            ],
+            "stats": [
+                {
+                    "team": "YD",
+                    "teamName": "You Get Shot You Die",
+                    "players": [
+                        {
+                            "Player": "igneous",
+                            "Agent": "Sova",
+                            "R1.0": 1.347,
+                            "ACS": 243,
+                            "K": 17,
+                            "D": 8,
+                            "A": 7,
+                            "PlusMinus": 9,
+                            "KAST": 0.78,
+                            "ADR": 157.7,
+                            "HS%": 0.14,
+                            "FK": 2,
+                            "FD": 3,
+                            "PlusMinus2": -1
+                        },
+                        {
+                            "Player": "retro",
+                            "Agent": "Omen",
+                            "R1.0": 1.245,
+                            "ACS": 245,
+                            "K": 13,
+                            "D": 13,
+                            "A": 14,
+                            "PlusMinus": 0,
+                            "KAST": 0.94,
+                            "ADR": 158.3,
+                            "HS%": 0.26,
+                            "FK": 3,
+                            "FD": 1,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "devil",
+                            "Agent": "Jett",
+                            "R1.0": 1.175,
+                            "ACS": 223,
+                            "K": 16,
+                            "D": 11,
+                            "A": 1,
+                            "PlusMinus": 5,
+                            "KAST": 0.89,
+                            "ADR": 146.6,
+                            "HS%": 0.24,
+                            "FK": 7,
+                            "FD": 0,
+                            "PlusMinus2": 7
+                        },
+                        {
+                            "Player": "platinum",
+                            "Agent": "KAYO",
+                            "R1.0": 1.086,
+                            "ACS": 183,
+                            "K": 9,
+                            "D": 10,
+                            "A": 15,
+                            "PlusMinus": -1,
+                            "KAST": 0.83,
+                            "ADR": 123.3,
+                            "HS%": 0.12,
+                            "FK": 0,
+                            "FD": 0,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "amara",
+                            "Agent": "Cypher",
+                            "R1.0": 0.989,
+                            "ACS": 206,
+                            "K": 13,
+                            "D": 12,
+                            "A": 4,
+                            "PlusMinus": 1,
+                            "KAST": 0.61,
+                            "ADR": 138.3,
+                            "HS%": 0.13,
+                            "FK": 1,
+                            "FD": 1,
+                            "PlusMinus2": 0
+                        }
+                    ]
+                },
+                {
+                    "team": "KAT",
+                    "teamName": "Kurt's Kittens",
+                    "players": [
+                        {
+                            "Player": "caprielle",
+                            "Agent": "Sova",
+                            "R1.0": 1.019,
+                            "ACS": 182,
+                            "K": 13,
+                            "D": 11,
+                            "A": 4,
+                            "PlusMinus": 2,
+                            "KAST": 0.83,
+                            "ADR": 113.3,
+                            "HS%": 0.18,
+                            "FK": 0,
+                            "FD": 1,
+                            "PlusMinus2": -1
+                        },
+                        {
+                            "Player": "Moelandblue",
+                            "Agent": "Omen",
+                            "R1.0": 1.05,
+                            "ACS": 221,
+                            "K": 12,
+                            "D": 13,
+                            "A": 8,
+                            "PlusMinus": -1,
+                            "KAST": 0.78,
+                            "ADR": 143.1,
+                            "HS%": 0.18,
+                            "FK": 0,
+                            "FD": 3,
+                            "PlusMinus2": -3
+                        },
+                        {
+                            "Player": "skye",
+                            "Agent": "Jett",
+                            "R1.0": 1.041,
+                            "ACS": 233,
+                            "K": 13,
+                            "D": 14,
+                            "A": 3,
+                            "PlusMinus": -1,
+                            "KAST": 0.72,
+                            "ADR": 169.9,
+                            "HS%": 0.26,
+                            "FK": 3,
+                            "FD": 2,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "beans",
+                            "Agent": "Cypher",
+                            "R1.0": 0.761,
+                            "ACS": 158,
+                            "K": 10,
+                            "D": 14,
+                            "A": 5,
+                            "PlusMinus": -4,
+                            "KAST": 0.67,
+                            "ADR": 90.4,
+                            "HS%": 0.07,
+                            "FK": 0,
+                            "FD": 0,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "haych*",
+                            "Agent": "Yoru",
+                            "R1.0": 0.524,
+                            "ACS": 114,
+                            "K": 6,
+                            "D": 16,
+                            "A": 4,
+                            "PlusMinus": -10,
+                            "KAST": 0.61,
+                            "ADR": 76.4,
+                            "HS%": 0.14,
+                            "FK": 2,
+                            "FD": 7,
+                            "PlusMinus2": -5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Haven",
+            "score1": 13,
+            "score2": 6,
+            "rounds": [
+                {
+                    "round": 1,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 2,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 3,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 4,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 5,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 6,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 7,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 8,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 9,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 10,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 11,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 12,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 13,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 14,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 15,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 16,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 17,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 18,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 19,
+                    "winner": 1,
+                    "side": "def"
+                }
+            ],
+            "stats": [
+                {
+                    "team": "YD",
+                    "teamName": "You Get Shot You Die",
+                    "players": [
+                        {
+                            "Player": "retro",
+                            "Agent": "Omen",
+                            "R1.0": 1.671,
+                            "ACS": 349,
+                            "K": 25,
+                            "D": 11,
+                            "A": 9,
+                            "PlusMinus": 14,
+                            "KAST": 0.95,
+                            "ADR": 200.3,
+                            "HS%": 0.19,
+                            "FK": 3,
+                            "FD": 0,
+                            "PlusMinus2": 3
+                        },
+                        {
+                            "Player": "devil",
+                            "Agent": "Jett",
+                            "R1.0": 1.279,
+                            "ACS": 270,
+                            "K": 19,
+                            "D": 10,
+                            "A": 2,
+                            "PlusMinus": 9,
+                            "KAST": 0.79,
+                            "ADR": 157.4,
+                            "HS%": 0.08,
+                            "FK": 6,
+                            "FD": 3,
+                            "PlusMinus2": 3
+                        },
+                        {
+                            "Player": "igneous",
+                            "Agent": "Sova",
+                            "R1.0": 1.317,
+                            "ACS": 247,
+                            "K": 15,
+                            "D": 12,
+                            "A": 10,
+                            "PlusMinus": 3,
+                            "KAST": 0.84,
+                            "ADR": 192.3,
+                            "HS%": 0.22,
+                            "FK": 1,
+                            "FD": 0,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "amara",
+                            "Agent": "Cypher",
+                            "R1.0": 0.95,
+                            "ACS": 196,
+                            "K": 14,
+                            "D": 15,
+                            "A": 3,
+                            "PlusMinus": -1,
+                            "KAST": 0.79,
+                            "ADR": 124.2,
+                            "HS%": 0.09,
+                            "FK": 3,
+                            "FD": 2,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "platinum",
+                            "Agent": "Breach",
+                            "R1.0": 0.65,
+                            "ACS": 88,
+                            "K": 7,
+                            "D": 13,
+                            "A": 8,
+                            "PlusMinus": -6,
+                            "KAST": 0.74,
+                            "ADR": 49.1,
+                            "HS%": 0.21,
+                            "FK": 0,
+                            "FD": 1,
+                            "PlusMinus2": -1
+                        }
+                    ]
+                },
+                {
+                    "team": "KAT",
+                    "teamName": "Kurt's Kittens",
+                    "players": [
+                        {
+                            "Player": "Moelandblue",
+                            "Agent": "Omen",
+                            "R1.0": 0.921,
+                            "ACS": 182,
+                            "K": 13,
+                            "D": 14,
+                            "A": 4,
+                            "PlusMinus": -1,
+                            "KAST": 0.74,
+                            "ADR": 116.4,
+                            "HS%": 0.26,
+                            "FK": 0,
+                            "FD": 3,
+                            "PlusMinus2": -3
+                        },
+                        {
+                            "Player": "skye",
+                            "Agent": "Jett",
+                            "R1.0": 0.973,
+                            "ACS": 224,
+                            "K": 16,
+                            "D": 17,
+                            "A": 4,
+                            "PlusMinus": -1,
+                            "KAST": 0.68,
+                            "ADR": 137.7,
+                            "HS%": 0.22,
+                            "FK": 2,
+                            "FD": 2,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "haych*",
+                            "Agent": "Cypher",
+                            "R1.0": 0.914,
+                            "ACS": 218,
+                            "K": 13,
+                            "D": 18,
+                            "A": 4,
+                            "PlusMinus": -5,
+                            "KAST": 0.79,
+                            "ADR": 144.0,
+                            "HS%": 0.18,
+                            "FK": 4,
+                            "FD": 4,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "beans",
+                            "Agent": "Breach",
+                            "R1.0": 0.804,
+                            "ACS": 180,
+                            "K": 12,
+                            "D": 16,
+                            "A": 4,
+                            "PlusMinus": -4,
+                            "KAST": 0.58,
+                            "ADR": 119.6,
+                            "HS%": 0.13,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "caprielle",
+                            "Agent": "Sova",
+                            "R1.0": 0.547,
+                            "ACS": 108,
+                            "K": 7,
+                            "D": 15,
+                            "A": 4,
+                            "PlusMinus": -8,
+                            "KAST": 0.53,
+                            "ADR": 71.6,
+                            "HS%": 0.07,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

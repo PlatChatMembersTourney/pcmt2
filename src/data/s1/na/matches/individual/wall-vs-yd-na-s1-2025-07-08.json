@@ -1,0 +1,779 @@
+{
+    "id": "wall-vs-yd-na-s1-2025-07-08",
+    "team1": "WALL",
+    "team2": "YD",
+    "team1Name": "The Brick Wall",
+    "team2Name": "You Get Shot You Die",
+    "score1": 0,
+    "score2": 2,
+    "completed": true,
+    "bestOf": 3,
+    "date": "2025-07-08",
+    "stage": "Playoffs",
+    "veto": "WALL bans Sunset, YD bans Lotus, WALL picks Bind, YD picks Corrode, WALL bans Haven, YD bans Ascent, Icebox remains",
+    "maps": [
+        {
+            "name": "Bind",
+            "score1": 8,
+            "score2": 13
+        },
+        {
+            "name": "Corrode",
+            "score1": 11,
+            "score2": 13
+        }
+    ],
+    "combinedStats": [
+        {
+            "team": "WALL",
+            "teamName": "The Brick Wall",
+            "players": [
+                {
+                    "Player": "abstracq",
+                    "R1.0": 1.069,
+                    "ACS": 213,
+                    "K": 36,
+                    "D": 30,
+                    "A": 13,
+                    "PlusMinus": 6,
+                    "KAST": 0.71,
+                    "ADR": 134.58,
+                    "HS%": 0.21,
+                    "FK": 4,
+                    "FD": 7,
+                    "PlusMinus2": -3
+                },
+                {
+                    "Player": "Mr Basil",
+                    "R1.0": 1.065,
+                    "ACS": 232,
+                    "K": 37,
+                    "D": 34,
+                    "A": 12,
+                    "PlusMinus": 3,
+                    "KAST": 0.69,
+                    "ADR": 148.18,
+                    "HS%": 0.18,
+                    "FK": 9,
+                    "FD": 11,
+                    "PlusMinus2": -2
+                },
+                {
+                    "Player": "Lil Thighs",
+                    "R1.0": 1.027,
+                    "ACS": 213,
+                    "K": 34,
+                    "D": 33,
+                    "A": 15,
+                    "PlusMinus": 1,
+                    "KAST": 0.65,
+                    "ADR": 142.7,
+                    "HS%": 0.25,
+                    "FK": 4,
+                    "FD": 6,
+                    "PlusMinus2": -2
+                },
+                {
+                    "Player": "dunkn",
+                    "R1.0": 0.851,
+                    "ACS": 172,
+                    "K": 26,
+                    "D": 32,
+                    "A": 10,
+                    "PlusMinus": -6,
+                    "KAST": 0.67,
+                    "ADR": 115.11,
+                    "HS%": 0.14,
+                    "FK": 3,
+                    "FD": 1,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "cardamom",
+                    "R1.0": 0.615,
+                    "ACS": 89,
+                    "K": 12,
+                    "D": 33,
+                    "A": 18,
+                    "PlusMinus": -21,
+                    "KAST": 0.6,
+                    "ADR": 85.25,
+                    "HS%": 0.33,
+                    "FK": 0,
+                    "FD": 0,
+                    "PlusMinus2": 0
+                }
+            ]
+        },
+        {
+            "team": "YD",
+            "teamName": "You Get Shot You Die",
+            "players": [
+                {
+                    "Player": "pi",
+                    "R1.0": 1.327,
+                    "ACS": 310.5,
+                    "K": 48,
+                    "D": 29,
+                    "A": 12,
+                    "PlusMinus": 19,
+                    "KAST": 0.74,
+                    "ADR": 173.87,
+                    "HS%": 0.19,
+                    "FK": 8,
+                    "FD": 3,
+                    "PlusMinus2": 5
+                },
+                {
+                    "Player": "longclaw",
+                    "R1.0": 1.164,
+                    "ACS": 210,
+                    "K": 35,
+                    "D": 24,
+                    "A": 19,
+                    "PlusMinus": 11,
+                    "KAST": 0.82,
+                    "ADR": 128.72,
+                    "HS%": 0.26,
+                    "FK": 5,
+                    "FD": 2,
+                    "PlusMinus2": 3
+                },
+                {
+                    "Player": "amara",
+                    "R1.0": 1.104,
+                    "ACS": 237.5,
+                    "K": 35,
+                    "D": 33,
+                    "A": 15,
+                    "PlusMinus": 2,
+                    "KAST": 0.78,
+                    "ADR": 152.46,
+                    "HS%": 0.25,
+                    "FK": 7,
+                    "FD": 5,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "igneous",
+                    "R1.0": 0.792,
+                    "ACS": 138.5,
+                    "K": 19,
+                    "D": 29,
+                    "A": 15,
+                    "PlusMinus": -10,
+                    "KAST": 0.71,
+                    "ADR": 98.83,
+                    "HS%": 0.2,
+                    "FK": 1,
+                    "FD": 2,
+                    "PlusMinus2": -1
+                },
+                {
+                    "Player": "devil",
+                    "R1.0": 0.765,
+                    "ACS": 145,
+                    "K": 25,
+                    "D": 31,
+                    "A": 6,
+                    "PlusMinus": -6,
+                    "KAST": 0.6,
+                    "ADR": 98.48,
+                    "HS%": 0.36,
+                    "FK": 4,
+                    "FD": 8,
+                    "PlusMinus2": -4
+                }
+            ]
+        }
+    ],
+    "mapDetails": [
+        {
+            "name": "Bind",
+            "score1": 8,
+            "score2": 13,
+            "rounds": [
+                {
+                    "round": 1,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 2,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 3,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 4,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 5,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 6,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 7,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 8,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 9,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 10,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 11,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 12,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 13,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 14,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 15,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 16,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 17,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 18,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 19,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 20,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 21,
+                    "winner": 2,
+                    "side": "atk"
+                }
+            ],
+            "stats": [
+                {
+                    "team": "WALL",
+                    "teamName": "The Brick Wall",
+                    "players": [
+                        {
+                            "Player": "Lil Thighs",
+                            "Agent": "Raze",
+                            "R1.0": 1.155,
+                            "ACS": 258,
+                            "K": 19,
+                            "D": 16,
+                            "A": 5,
+                            "PlusMinus": 3,
+                            "KAST": 0.62,
+                            "ADR": 178.7,
+                            "HS%": 0.27,
+                            "FK": 3,
+                            "FD": 3,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "Mr Basil",
+                            "Agent": "Fade",
+                            "R1.0": 1.088,
+                            "ACS": 226,
+                            "K": 18,
+                            "D": 16,
+                            "A": 5,
+                            "PlusMinus": 2,
+                            "KAST": 0.71,
+                            "ADR": 150.9,
+                            "HS%": 0.19,
+                            "FK": 1,
+                            "FD": 3,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "abstracq",
+                            "Agent": "Vyse",
+                            "R1.0": 0.968,
+                            "ACS": 188,
+                            "K": 15,
+                            "D": 14,
+                            "A": 6,
+                            "PlusMinus": 1,
+                            "KAST": 0.71,
+                            "ADR": 113.3,
+                            "HS%": 0.23,
+                            "FK": 2,
+                            "FD": 6,
+                            "PlusMinus2": -4
+                        },
+                        {
+                            "Player": "dunkn",
+                            "Agent": "Viper",
+                            "R1.0": 0.66,
+                            "ACS": 130,
+                            "K": 8,
+                            "D": 14,
+                            "A": 5,
+                            "PlusMinus": -6,
+                            "KAST": 0.62,
+                            "ADR": 79.0,
+                            "HS%": 0.1,
+                            "FK": 2,
+                            "FD": 1,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "cardamom",
+                            "Agent": "Brimstone",
+                            "R1.0": 0.591,
+                            "ACS": 102,
+                            "K": 6,
+                            "D": 16,
+                            "A": 9,
+                            "PlusMinus": -10,
+                            "KAST": 0.67,
+                            "ADR": 65.2,
+                            "HS%": 0.41,
+                            "FK": 0,
+                            "FD": 0,
+                            "PlusMinus2": 0
+                        }
+                    ]
+                },
+                {
+                    "team": "YD",
+                    "teamName": "You Get Shot You Die",
+                    "players": [
+                        {
+                            "Player": "pi",
+                            "Agent": "Cypher",
+                            "R1.0": 1.684,
+                            "ACS": 392,
+                            "K": 30,
+                            "D": 13,
+                            "A": 6,
+                            "PlusMinus": 17,
+                            "KAST": 0.81,
+                            "ADR": 222.3,
+                            "HS%": 0.25,
+                            "FK": 6,
+                            "FD": 1,
+                            "PlusMinus2": 5
+                        },
+                        {
+                            "Player": "longclaw",
+                            "Agent": "Brimstone",
+                            "R1.0": 1.25,
+                            "ACS": 214,
+                            "K": 17,
+                            "D": 10,
+                            "A": 9,
+                            "PlusMinus": 7,
+                            "KAST": 0.95,
+                            "ADR": 129.2,
+                            "HS%": 0.29,
+                            "FK": 2,
+                            "FD": 1,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "amara",
+                            "Agent": "Skye",
+                            "R1.0": 0.922,
+                            "ACS": 181,
+                            "K": 11,
+                            "D": 15,
+                            "A": 11,
+                            "PlusMinus": -4,
+                            "KAST": 0.76,
+                            "ADR": 117.1,
+                            "HS%": 0.31,
+                            "FK": 1,
+                            "FD": 3,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "igneous",
+                            "Agent": "Fade",
+                            "R1.0": 0.775,
+                            "ACS": 131,
+                            "K": 8,
+                            "D": 14,
+                            "A": 8,
+                            "PlusMinus": -6,
+                            "KAST": 0.76,
+                            "ADR": 94.3,
+                            "HS%": 0.27,
+                            "FK": 1,
+                            "FD": 0,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "devil",
+                            "Agent": "Jett",
+                            "R1.0": 0.688,
+                            "ACS": 125,
+                            "K": 10,
+                            "D": 14,
+                            "A": 3,
+                            "PlusMinus": -4,
+                            "KAST": 0.62,
+                            "ADR": 78.0,
+                            "HS%": 0.5,
+                            "FK": 3,
+                            "FD": 3,
+                            "PlusMinus2": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Corrode",
+            "score1": 11,
+            "score2": 13,
+            "rounds": [
+                {
+                    "round": 1,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 2,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 3,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 4,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 5,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 6,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 7,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 8,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 9,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 10,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 11,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 12,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 13,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 14,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 15,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 16,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 17,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 18,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 19,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 20,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 21,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 22,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 23,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 24,
+                    "winner": 2,
+                    "side": "def"
+                }
+            ],
+            "stats": [
+                {
+                    "team": "WALL",
+                    "teamName": "The Brick Wall",
+                    "players": [
+                        {
+                            "Player": "abstracq",
+                            "Agent": "Sova",
+                            "R1.0": 1.157,
+                            "ACS": 238,
+                            "K": 21,
+                            "D": 16,
+                            "A": 7,
+                            "PlusMinus": 5,
+                            "KAST": 0.71,
+                            "ADR": 153.2,
+                            "HS%": 0.2,
+                            "FK": 2,
+                            "FD": 1,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "Mr Basil",
+                            "Agent": "Yoru",
+                            "R1.0": 1.044,
+                            "ACS": 238,
+                            "K": 19,
+                            "D": 18,
+                            "A": 7,
+                            "PlusMinus": 1,
+                            "KAST": 0.67,
+                            "ADR": 145.8,
+                            "HS%": 0.17,
+                            "FK": 8,
+                            "FD": 8,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "dunkn",
+                            "Agent": "Viper",
+                            "R1.0": 1.017,
+                            "ACS": 214,
+                            "K": 18,
+                            "D": 18,
+                            "A": 5,
+                            "PlusMinus": 0,
+                            "KAST": 0.71,
+                            "ADR": 146.7,
+                            "HS%": 0.18,
+                            "FK": 1,
+                            "FD": 0,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "Lil Thighs",
+                            "Agent": "Cypher",
+                            "R1.0": 0.913,
+                            "ACS": 168,
+                            "K": 15,
+                            "D": 17,
+                            "A": 10,
+                            "PlusMinus": -2,
+                            "KAST": 0.67,
+                            "ADR": 111.2,
+                            "HS%": 0.24,
+                            "FK": 1,
+                            "FD": 3,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "cardamom",
+                            "Agent": "Omen",
+                            "R1.0": 0.636,
+                            "ACS": 76,
+                            "K": 6,
+                            "D": 17,
+                            "A": 9,
+                            "PlusMinus": -11,
+                            "KAST": 0.54,
+                            "ADR": 102.8,
+                            "HS%": 0.26,
+                            "FK": 0,
+                            "FD": 0,
+                            "PlusMinus2": 0
+                        }
+                    ]
+                },
+                {
+                    "team": "YD",
+                    "teamName": "You Get Shot You Die",
+                    "players": [
+                        {
+                            "Player": "amara",
+                            "Agent": "Cypher",
+                            "R1.0": 1.261,
+                            "ACS": 294,
+                            "K": 24,
+                            "D": 18,
+                            "A": 4,
+                            "PlusMinus": 6,
+                            "KAST": 0.79,
+                            "ADR": 183.4,
+                            "HS%": 0.19,
+                            "FK": 6,
+                            "FD": 2,
+                            "PlusMinus2": 4
+                        },
+                        {
+                            "Player": "longclaw",
+                            "Agent": "Omen",
+                            "R1.0": 1.091,
+                            "ACS": 206,
+                            "K": 18,
+                            "D": 14,
+                            "A": 10,
+                            "PlusMinus": 4,
+                            "KAST": 0.71,
+                            "ADR": 128.3,
+                            "HS%": 0.24,
+                            "FK": 3,
+                            "FD": 1,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "pi",
+                            "Agent": "Fade",
+                            "R1.0": 1.012,
+                            "ACS": 229,
+                            "K": 18,
+                            "D": 16,
+                            "A": 6,
+                            "PlusMinus": 2,
+                            "KAST": 0.67,
+                            "ADR": 131.5,
+                            "HS%": 0.13,
+                            "FK": 2,
+                            "FD": 2,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "igneous",
+                            "Agent": "Sova",
+                            "R1.0": 0.808,
+                            "ACS": 146,
+                            "K": 11,
+                            "D": 15,
+                            "A": 7,
+                            "PlusMinus": -4,
+                            "KAST": 0.67,
+                            "ADR": 102.8,
+                            "HS%": 0.14,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "devil",
+                            "Agent": "Jett",
+                            "R1.0": 0.831,
+                            "ACS": 165,
+                            "K": 15,
+                            "D": 17,
+                            "A": 3,
+                            "PlusMinus": -2,
+                            "KAST": 0.58,
+                            "ADR": 116.4,
+                            "HS%": 0.23,
+                            "FK": 1,
+                            "FD": 5,
+                            "PlusMinus2": -4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

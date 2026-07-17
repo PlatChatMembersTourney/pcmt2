@@ -1,0 +1,458 @@
+{
+    "id": "kat-vs-wall-na-s1-2025-05-31",
+    "team1": "KAT",
+    "team2": "WALL",
+    "team1Name": "Kurt's Kittens",
+    "team2Name": "The Brick Wall",
+    "score1": 0,
+    "score2": 1,
+    "completed": true,
+    "bestOf": 1,
+    "date": "2025-05-31",
+    "stage": "Group Stage",
+    "veto": "KAT bans Pearl, WALL bans Haven, KAT bans Sunset, WALL bans Icebox, KAT bans Ascent, WALL bans Split, Lotus Remains",
+    "maps": [
+        {
+            "name": "Lotus",
+            "score1": 3,
+            "score2": 13
+        }
+    ],
+    "combinedStats": [
+        {
+            "team": "KAT",
+            "teamName": "Kurt's Kittens",
+            "players": [
+                {
+                    "Player": "Moelandblue",
+                    "Agent": "Fade",
+                    "R1.0": 0.864,
+                    "ACS": 179,
+                    "K": 8,
+                    "D": 13,
+                    "A": 7,
+                    "PlusMinus": -5,
+                    "KAST": 0.69,
+                    "ADR": 132.9,
+                    "HS%": 0.17,
+                    "FK": 0,
+                    "FD": 1,
+                    "PlusMinus2": -1
+                },
+                {
+                    "Player": "AtmosFear",
+                    "Agent": "Iso",
+                    "R1.0": 0.905,
+                    "ACS": 233,
+                    "K": 12,
+                    "D": 16,
+                    "A": 6,
+                    "PlusMinus": -4,
+                    "KAST": 0.69,
+                    "ADR": 132.6,
+                    "HS%": 0.15,
+                    "FK": 5,
+                    "FD": 3,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "beans",
+                    "Agent": "Omen",
+                    "R1.0": 0.766,
+                    "ACS": 182,
+                    "K": 9,
+                    "D": 15,
+                    "A": 6,
+                    "PlusMinus": -6,
+                    "KAST": 0.69,
+                    "ADR": 107.1,
+                    "HS%": 0.18,
+                    "FK": 0,
+                    "FD": 2,
+                    "PlusMinus2": -2
+                },
+                {
+                    "Player": "skye",
+                    "Agent": "Neon",
+                    "R1.0": 0.656,
+                    "ACS": 136,
+                    "K": 8,
+                    "D": 14,
+                    "A": 4,
+                    "PlusMinus": -6,
+                    "KAST": 0.62,
+                    "ADR": 86.4,
+                    "HS%": 0.1,
+                    "FK": 0,
+                    "FD": 3,
+                    "PlusMinus2": -3
+                },
+                {
+                    "Player": "caprielle",
+                    "Agent": "Cypher",
+                    "R1.0": 0.316,
+                    "ACS": 84,
+                    "K": 5,
+                    "D": 15,
+                    "A": 2,
+                    "PlusMinus": -10,
+                    "KAST": 0.31,
+                    "ADR": 52.3,
+                    "HS%": 0.04,
+                    "FK": 0,
+                    "FD": 2,
+                    "PlusMinus2": -2
+                }
+            ]
+        },
+        {
+            "team": "WALL",
+            "teamName": "The Brick Wall",
+            "players": [
+                {
+                    "Player": "Lil Thighs",
+                    "Agent": "Raze",
+                    "R1.0": 1.557,
+                    "ACS": 270,
+                    "K": 18,
+                    "D": 6,
+                    "A": 5,
+                    "PlusMinus": 12,
+                    "KAST": 0.94,
+                    "ADR": 177.2,
+                    "HS%": 0.15,
+                    "FK": 2,
+                    "FD": 1,
+                    "PlusMinus2": 1
+                },
+                {
+                    "Player": "hyypernova",
+                    "Agent": "Clove",
+                    "R1.0": 1.582,
+                    "ACS": 325,
+                    "K": 17,
+                    "D": 11,
+                    "A": 11,
+                    "PlusMinus": 6,
+                    "KAST": 0.88,
+                    "ADR": 228.4,
+                    "HS%": 0.22,
+                    "FK": 3,
+                    "FD": 1,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "Tenyaku",
+                    "Agent": "Cypher",
+                    "R1.0": 1.386,
+                    "ACS": 268,
+                    "K": 17,
+                    "D": 9,
+                    "A": 4,
+                    "PlusMinus": 8,
+                    "KAST": 0.88,
+                    "ADR": 168.1,
+                    "HS%": 0.23,
+                    "FK": 3,
+                    "FD": 1,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "Mr Basil",
+                    "Agent": "Fade",
+                    "R1.0": 1.058,
+                    "ACS": 176,
+                    "K": 10,
+                    "D": 7,
+                    "A": 7,
+                    "PlusMinus": 3,
+                    "KAST": 0.81,
+                    "ADR": 102.9,
+                    "HS%": 0.11,
+                    "FK": 2,
+                    "FD": 1,
+                    "PlusMinus2": 1
+                },
+                {
+                    "Player": "dunkn",
+                    "Agent": "Viper",
+                    "R1.0": 0.981,
+                    "ACS": 179,
+                    "K": 11,
+                    "D": 9,
+                    "A": 3,
+                    "PlusMinus": 2,
+                    "KAST": 0.75,
+                    "ADR": 110.3,
+                    "HS%": 0.15,
+                    "FK": 1,
+                    "FD": 1,
+                    "PlusMinus2": 0
+                }
+            ]
+        }
+    ],
+    "mapDetails": [
+        {
+            "name": "Lotus",
+            "score1": 3,
+            "score2": 13,
+            "rounds": [
+                {
+                    "round": 1,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 2,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 3,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 4,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 5,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 6,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 7,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 8,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 9,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 10,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 11,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 12,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 13,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 14,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 15,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 16,
+                    "winner": 2,
+                    "side": "def"
+                }
+            ],
+            "stats": [
+                {
+                    "team": "KAT",
+                    "teamName": "Kurt's Kittens",
+                    "players": [
+                        {
+                            "Player": "Moelandblue",
+                            "Agent": "Fade",
+                            "R1.0": 0.864,
+                            "ACS": 179,
+                            "K": 8,
+                            "D": 13,
+                            "A": 7,
+                            "PlusMinus": -5,
+                            "KAST": 0.69,
+                            "ADR": 132.9,
+                            "HS%": 0.17,
+                            "FK": 0,
+                            "FD": 1,
+                            "PlusMinus2": -1
+                        },
+                        {
+                            "Player": "AtmosFear",
+                            "Agent": "Iso",
+                            "R1.0": 0.905,
+                            "ACS": 233,
+                            "K": 12,
+                            "D": 16,
+                            "A": 6,
+                            "PlusMinus": -4,
+                            "KAST": 0.69,
+                            "ADR": 132.6,
+                            "HS%": 0.15,
+                            "FK": 5,
+                            "FD": 3,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "beans",
+                            "Agent": "Omen",
+                            "R1.0": 0.766,
+                            "ACS": 182,
+                            "K": 9,
+                            "D": 15,
+                            "A": 6,
+                            "PlusMinus": -6,
+                            "KAST": 0.69,
+                            "ADR": 107.1,
+                            "HS%": 0.18,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "skye",
+                            "Agent": "Neon",
+                            "R1.0": 0.656,
+                            "ACS": 136,
+                            "K": 8,
+                            "D": 14,
+                            "A": 4,
+                            "PlusMinus": -6,
+                            "KAST": 0.62,
+                            "ADR": 86.4,
+                            "HS%": 0.1,
+                            "FK": 0,
+                            "FD": 3,
+                            "PlusMinus2": -3
+                        },
+                        {
+                            "Player": "caprielle",
+                            "Agent": "Cypher",
+                            "R1.0": 0.316,
+                            "ACS": 84,
+                            "K": 5,
+                            "D": 15,
+                            "A": 2,
+                            "PlusMinus": -10,
+                            "KAST": 0.31,
+                            "ADR": 52.3,
+                            "HS%": 0.04,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        }
+                    ]
+                },
+                {
+                    "team": "WALL",
+                    "teamName": "The Brick Wall",
+                    "players": [
+                        {
+                            "Player": "Lil Thighs",
+                            "Agent": "Raze",
+                            "R1.0": 1.557,
+                            "ACS": 270,
+                            "K": 18,
+                            "D": 6,
+                            "A": 5,
+                            "PlusMinus": 12,
+                            "KAST": 0.94,
+                            "ADR": 177.2,
+                            "HS%": 0.15,
+                            "FK": 2,
+                            "FD": 1,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "hyypernova",
+                            "Agent": "Clove",
+                            "R1.0": 1.582,
+                            "ACS": 325,
+                            "K": 17,
+                            "D": 11,
+                            "A": 11,
+                            "PlusMinus": 6,
+                            "KAST": 0.88,
+                            "ADR": 228.4,
+                            "HS%": 0.22,
+                            "FK": 3,
+                            "FD": 1,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "Tenyaku",
+                            "Agent": "Cypher",
+                            "R1.0": 1.386,
+                            "ACS": 268,
+                            "K": 17,
+                            "D": 9,
+                            "A": 4,
+                            "PlusMinus": 8,
+                            "KAST": 0.88,
+                            "ADR": 168.1,
+                            "HS%": 0.23,
+                            "FK": 3,
+                            "FD": 1,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "Mr Basil",
+                            "Agent": "Fade",
+                            "R1.0": 1.058,
+                            "ACS": 176,
+                            "K": 10,
+                            "D": 7,
+                            "A": 7,
+                            "PlusMinus": 3,
+                            "KAST": 0.81,
+                            "ADR": 102.9,
+                            "HS%": 0.11,
+                            "FK": 2,
+                            "FD": 1,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "dunkn",
+                            "Agent": "Viper",
+                            "R1.0": 0.981,
+                            "ACS": 179,
+                            "K": 11,
+                            "D": 9,
+                            "A": 3,
+                            "PlusMinus": 2,
+                            "KAST": 0.75,
+                            "ADR": 110.3,
+                            "HS%": 0.15,
+                            "FK": 1,
+                            "FD": 1,
+                            "PlusMinus2": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,468 @@
+{
+    "id": "yd-vs-cin-na-s1-2025-06-08",
+    "team1": "YD",
+    "team2": "CIN",
+    "team1Name": "You Get Shot You Die",
+    "team2Name": "Absolute Cinema",
+    "score1": 0,
+    "score2": 1,
+    "completed": true,
+    "bestOf": 1,
+    "date": "2025-06-08",
+    "stage": "Group Stage",
+    "veto": "YD bans Split, CIN bans Lotus, YD bans Icebox, CIN bans Haven, YD bans Pearl, CIN bans Sunset, Ascent remains",
+    "maps": [
+        {
+            "name": "Ascent",
+            "score1": 5,
+            "score2": 13
+        }
+    ],
+    "combinedStats": [
+        {
+            "team": "YD",
+            "teamName": "You Get Shot You Die",
+            "players": [
+                {
+                    "Player": "retro",
+                    "Agent": "Killjoy",
+                    "R1.0": 1.142,
+                    "ACS": 260,
+                    "K": 17,
+                    "D": 14,
+                    "A": 1,
+                    "PlusMinus": 3,
+                    "KAST": 0.72,
+                    "ADR": 171.7,
+                    "HS%": 0.2,
+                    "FK": 2,
+                    "FD": 3,
+                    "PlusMinus2": -1
+                },
+                {
+                    "Player": "longclaw",
+                    "Agent": "KAYO",
+                    "R1.0": 0.794,
+                    "ACS": 157,
+                    "K": 10,
+                    "D": 13,
+                    "A": 6,
+                    "PlusMinus": -3,
+                    "KAST": 0.67,
+                    "ADR": 88.9,
+                    "HS%": 0.25,
+                    "FK": 1,
+                    "FD": 3,
+                    "PlusMinus2": -2
+                },
+                {
+                    "Player": "devil",
+                    "Agent": "Jett",
+                    "R1.0": 0.808,
+                    "ACS": 185,
+                    "K": 11,
+                    "D": 16,
+                    "A": 3,
+                    "PlusMinus": -5,
+                    "KAST": 0.72,
+                    "ADR": 120.4,
+                    "HS%": 0.16,
+                    "FK": 2,
+                    "FD": 1,
+                    "PlusMinus2": 1
+                },
+                {
+                    "Player": "amara",
+                    "Agent": "Omen",
+                    "R1.0": 0.652,
+                    "ACS": 134,
+                    "K": 8,
+                    "D": 14,
+                    "A": 5,
+                    "PlusMinus": -6,
+                    "KAST": 0.56,
+                    "ADR": 84.8,
+                    "HS%": 0.07,
+                    "FK": 0,
+                    "FD": 2,
+                    "PlusMinus2": -2
+                },
+                {
+                    "Player": "platinum",
+                    "Agent": "Sova",
+                    "R1.0": 0.604,
+                    "ACS": 121,
+                    "K": 7,
+                    "D": 15,
+                    "A": 4,
+                    "PlusMinus": -8,
+                    "KAST": 0.67,
+                    "ADR": 78.7,
+                    "HS%": 0.11,
+                    "FK": 1,
+                    "FD": 3,
+                    "PlusMinus2": -2
+                }
+            ]
+        },
+        {
+            "team": "CIN",
+            "teamName": "Absolute Cinema",
+            "players": [
+                {
+                    "Player": "Platypus_Eggs",
+                    "Agent": "Cypher",
+                    "R1.0": 1.415,
+                    "ACS": 317,
+                    "K": 21,
+                    "D": 11,
+                    "A": 2,
+                    "PlusMinus": 10,
+                    "KAST": 0.83,
+                    "ADR": 184.4,
+                    "HS%": 0.13,
+                    "FK": 4,
+                    "FD": 2,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "abstracq",
+                    "Agent": "Jett",
+                    "R1.0": 1.413,
+                    "ACS": 317,
+                    "K": 21,
+                    "D": 14,
+                    "A": 3,
+                    "PlusMinus": 7,
+                    "KAST": 0.78,
+                    "ADR": 213.6,
+                    "HS%": 0.32,
+                    "FK": 6,
+                    "FD": 4,
+                    "PlusMinus2": 2
+                },
+                {
+                    "Player": "MrSirClaps*",
+                    "Agent": "Fade",
+                    "R1.0": 1.305,
+                    "ACS": 278,
+                    "K": 17,
+                    "D": 10,
+                    "A": 3,
+                    "PlusMinus": 7,
+                    "KAST": 0.83,
+                    "ADR": 174.3,
+                    "HS%": 0.2,
+                    "FK": 1,
+                    "FD": 0,
+                    "PlusMinus2": 1
+                },
+                {
+                    "Player": "lore",
+                    "Agent": "Killjoy",
+                    "R1.0": 0.889,
+                    "ACS": 135,
+                    "K": 9,
+                    "D": 8,
+                    "A": 1,
+                    "PlusMinus": 1,
+                    "KAST": 0.83,
+                    "ADR": 96.1,
+                    "HS%": 0.11,
+                    "FK": 0,
+                    "FD": 0,
+                    "PlusMinus2": 0
+                },
+                {
+                    "Player": "cardamom",
+                    "Agent": "Omen",
+                    "R1.0": 0.713,
+                    "ACS": 74,
+                    "K": 4,
+                    "D": 10,
+                    "A": 9,
+                    "PlusMinus": -6,
+                    "KAST": 0.94,
+                    "ADR": 51.8,
+                    "HS%": 0.19,
+                    "FK": 1,
+                    "FD": 0,
+                    "PlusMinus2": 1
+                }
+            ]
+        }
+    ],
+    "mapDetails": [
+        {
+            "name": "Ascent",
+            "score1": 5,
+            "score2": 13,
+            "rounds": [
+                {
+                    "round": 1,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 2,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 3,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 4,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 5,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 6,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 7,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 8,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 9,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 10,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 11,
+                    "winner": 1,
+                    "side": "def"
+                },
+                {
+                    "round": 12,
+                    "winner": 2,
+                    "side": "atk"
+                },
+                {
+                    "round": 13,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 14,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 15,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 16,
+                    "winner": 2,
+                    "side": "def"
+                },
+                {
+                    "round": 17,
+                    "winner": 1,
+                    "side": "atk"
+                },
+                {
+                    "round": 18,
+                    "winner": 2,
+                    "side": "def"
+                }
+            ],
+            "stats": [
+                {
+                    "team": "YD",
+                    "teamName": "You Get Shot You Die",
+                    "players": [
+                        {
+                            "Player": "retro",
+                            "Agent": "Killjoy",
+                            "R1.0": 1.142,
+                            "ACS": 260,
+                            "K": 17,
+                            "D": 14,
+                            "A": 1,
+                            "PlusMinus": 3,
+                            "KAST": 0.72,
+                            "ADR": 171.7,
+                            "HS%": 0.2,
+                            "FK": 2,
+                            "FD": 3,
+                            "PlusMinus2": -1
+                        },
+                        {
+                            "Player": "longclaw",
+                            "Agent": "KAYO",
+                            "R1.0": 0.794,
+                            "ACS": 157,
+                            "K": 10,
+                            "D": 13,
+                            "A": 6,
+                            "PlusMinus": -3,
+                            "KAST": 0.67,
+                            "ADR": 88.9,
+                            "HS%": 0.25,
+                            "FK": 1,
+                            "FD": 3,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "devil",
+                            "Agent": "Jett",
+                            "R1.0": 0.808,
+                            "ACS": 185,
+                            "K": 11,
+                            "D": 16,
+                            "A": 3,
+                            "PlusMinus": -5,
+                            "KAST": 0.72,
+                            "ADR": 120.4,
+                            "HS%": 0.16,
+                            "FK": 2,
+                            "FD": 1,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "amara",
+                            "Agent": "Omen",
+                            "R1.0": 0.652,
+                            "ACS": 134,
+                            "K": 8,
+                            "D": 14,
+                            "A": 5,
+                            "PlusMinus": -6,
+                            "KAST": 0.56,
+                            "ADR": 84.8,
+                            "HS%": 0.07,
+                            "FK": 0,
+                            "FD": 2,
+                            "PlusMinus2": -2
+                        },
+                        {
+                            "Player": "platinum",
+                            "Agent": "Sova",
+                            "R1.0": 0.604,
+                            "ACS": 121,
+                            "K": 7,
+                            "D": 15,
+                            "A": 4,
+                            "PlusMinus": -8,
+                            "KAST": 0.67,
+                            "ADR": 78.7,
+                            "HS%": 0.11,
+                            "FK": 1,
+                            "FD": 3,
+                            "PlusMinus2": -2
+                        }
+                    ]
+                },
+                {
+                    "team": "CIN",
+                    "teamName": "Absolute Cinema",
+                    "players": [
+                        {
+                            "Player": "Platypus_Eggs",
+                            "Agent": "Cypher",
+                            "R1.0": 1.415,
+                            "ACS": 317,
+                            "K": 21,
+                            "D": 11,
+                            "A": 2,
+                            "PlusMinus": 10,
+                            "KAST": 0.83,
+                            "ADR": 184.4,
+                            "HS%": 0.13,
+                            "FK": 4,
+                            "FD": 2,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "abstracq",
+                            "Agent": "Jett",
+                            "R1.0": 1.413,
+                            "ACS": 317,
+                            "K": 21,
+                            "D": 14,
+                            "A": 3,
+                            "PlusMinus": 7,
+                            "KAST": 0.78,
+                            "ADR": 213.6,
+                            "HS%": 0.32,
+                            "FK": 6,
+                            "FD": 4,
+                            "PlusMinus2": 2
+                        },
+                        {
+                            "Player": "MrSirClaps*",
+                            "Agent": "Fade",
+                            "R1.0": 1.305,
+                            "ACS": 278,
+                            "K": 17,
+                            "D": 10,
+                            "A": 3,
+                            "PlusMinus": 7,
+                            "KAST": 0.83,
+                            "ADR": 174.3,
+                            "HS%": 0.2,
+                            "FK": 1,
+                            "FD": 0,
+                            "PlusMinus2": 1
+                        },
+                        {
+                            "Player": "lore",
+                            "Agent": "Killjoy",
+                            "R1.0": 0.889,
+                            "ACS": 135,
+                            "K": 9,
+                            "D": 8,
+                            "A": 1,
+                            "PlusMinus": 1,
+                            "KAST": 0.83,
+                            "ADR": 96.1,
+                            "HS%": 0.11,
+                            "FK": 0,
+                            "FD": 0,
+                            "PlusMinus2": 0
+                        },
+                        {
+                            "Player": "cardamom",
+                            "Agent": "Omen",
+                            "R1.0": 0.713,
+                            "ACS": 74,
+                            "K": 4,
+                            "D": 10,
+                            "A": 9,
+                            "PlusMinus": -6,
+                            "KAST": 0.94,
+                            "ADR": 51.8,
+                            "HS%": 0.19,
+                            "FK": 1,
+                            "FD": 0,
+                            "PlusMinus2": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
