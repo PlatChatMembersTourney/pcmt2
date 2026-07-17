@@ -1,0 +1,722 @@
+{
+  "Ascent": {
+    "mapsPlayed": 5,
+    "atkPct": 0.489,
+    "defPct": 0.511,
+    "agents": [
+      {
+        "agent": "Cypher",
+        "comps": 4,
+        "pickPct": 0.4
+      },
+      {
+        "agent": "Jett",
+        "comps": 4,
+        "pickPct": 0.4
+      },
+      {
+        "agent": "Omen",
+        "comps": 4,
+        "pickPct": 0.4
+      },
+      {
+        "agent": "Yoru",
+        "comps": 3,
+        "pickPct": 0.3
+      },
+      {
+        "agent": "Sova",
+        "comps": 3,
+        "pickPct": 0.3
+      },
+      {
+        "agent": "Clove",
+        "comps": 2,
+        "pickPct": 0.2
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.2
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 2,
+        "pickPct": 0.2
+      },
+      {
+        "agent": "KAYO",
+        "comps": 2,
+        "pickPct": 0.2
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.1
+      },
+      {
+        "agent": "Deadlock",
+        "comps": 1,
+        "pickPct": 0.1
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.1
+      }
+    ],
+    "teams": {
+      "CIN": {
+        "team": "CIN",
+        "teamName": "Absolute Cinema",
+        "agents": [
+          "Chamber",
+          "Clove",
+          "Cypher",
+          "Fade",
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Yoru"
+        ]
+      },
+      "KAT": {
+        "team": "KAT",
+        "teamName": "Kurt's Kittens",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Deadlock",
+          "Jett",
+          "Omen",
+          "Sova",
+          "Yoru"
+        ]
+      },
+      "WALL": {
+        "team": "WALL",
+        "teamName": "The Brick Wall",
+        "agents": [
+          "Chamber",
+          "Cypher",
+          "Jett",
+          "KAYO",
+          "Omen",
+          "Sova",
+          "Vyse",
+          "Yoru"
+        ]
+      },
+      "YD": {
+        "team": "YD",
+        "teamName": "You Get Shot You Die",
+        "agents": [
+          "Cypher",
+          "Jett",
+          "KAYO",
+          "Killjoy",
+          "Omen",
+          "Sova"
+        ]
+      }
+    }
+  },
+  "Bind": {
+    "mapsPlayed": 4,
+    "atkPct": 0.564,
+    "defPct": 0.436,
+    "agents": [
+      {
+        "agent": "Fade",
+        "comps": 4,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 4,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Raze",
+        "comps": 4,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Viper",
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Vyse",
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Clove",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Skye",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Brimstone",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Gekko",
+        "comps": 1,
+        "pickPct": 0.125
+      }
+    ],
+    "teams": {
+      "CIN": {
+        "team": "CIN",
+        "teamName": "Absolute Cinema",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Fade",
+          "Raze",
+          "Viper"
+        ]
+      },
+      "KAT": {
+        "team": "KAT",
+        "teamName": "Kurt's Kittens",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Fade",
+          "Raze",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "WALL": {
+        "team": "WALL",
+        "teamName": "The Brick Wall",
+        "agents": [
+          "Brimstone",
+          "Cypher",
+          "Fade",
+          "Raze",
+          "Skye",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "YD": {
+        "team": "YD",
+        "teamName": "You Get Shot You Die",
+        "agents": [
+          "Brimstone",
+          "Cypher",
+          "Fade",
+          "Gekko",
+          "Jett",
+          "Raze",
+          "Skye",
+          "Vyse"
+        ]
+      }
+    }
+  },
+  "Corrode": {
+    "mapsPlayed": 3,
+    "atkPct": 0.39,
+    "defPct": 0.61,
+    "agents": [
+      {
+        "agent": "Fade",
+        "comps": 4,
+        "pickPct": 0.667
+      },
+      {
+        "agent": "Cypher",
+        "comps": 3,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Yoru",
+        "comps": 3,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Viper",
+        "comps": 3,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Omen",
+        "comps": 3,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 2,
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Raze",
+        "comps": 1,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.167
+      }
+    ],
+    "teams": {
+      "CIN": {
+        "team": "CIN",
+        "teamName": "Absolute Cinema",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Omen",
+          "Viper",
+          "Yoru"
+        ]
+      },
+      "KAT": {
+        "team": "KAT",
+        "teamName": "Kurt's Kittens",
+        "agents": [
+          "Clove",
+          "Fade",
+          "Jett",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "WALL": {
+        "team": "WALL",
+        "teamName": "The Brick Wall",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Omen",
+          "Raze",
+          "Sova",
+          "Viper",
+          "Yoru"
+        ]
+      },
+      "YD": {
+        "team": "YD",
+        "teamName": "You Get Shot You Die",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Jett",
+          "Omen",
+          "Sova",
+          "Vyse",
+          "Yoru"
+        ]
+      }
+    }
+  },
+  "Haven": {
+    "mapsPlayed": 4,
+    "atkPct": 0.663,
+    "defPct": 0.337,
+    "agents": [
+      {
+        "agent": "Breach",
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Jett",
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Cypher",
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Omen",
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 1,
+        "pickPct": 0.125
+      }
+    ],
+    "teams": {
+      "CIN": {
+        "team": "CIN",
+        "teamName": "Absolute Cinema",
+        "agents": [
+          "Breach",
+          "Cypher",
+          "Fade",
+          "Jett",
+          "Omen"
+        ]
+      },
+      "KAT": {
+        "team": "KAT",
+        "teamName": "Kurt's Kittens",
+        "agents": [
+          "Breach",
+          "Clove",
+          "Cypher",
+          "Jett",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "YD": {
+        "team": "YD",
+        "teamName": "You Get Shot You Die",
+        "agents": [
+          "Breach",
+          "Cypher",
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Sova",
+          "Yoru"
+        ]
+      }
+    }
+  },
+  "Icebox": {
+    "mapsPlayed": 1,
+    "atkPct": 0.714,
+    "defPct": 0.286,
+    "agents": [
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Viper",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Gekko",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "KAT": {
+        "team": "KAT",
+        "teamName": "Kurt's Kittens",
+        "agents": [
+          "Gekko",
+          "Jett",
+          "Killjoy",
+          "Sova",
+          "Viper"
+        ]
+      },
+      "WALL": {
+        "team": "WALL",
+        "teamName": "The Brick Wall",
+        "agents": [
+          "Jett",
+          "Killjoy",
+          "Sage",
+          "Sova",
+          "Viper"
+        ]
+      }
+    }
+  },
+  "Lotus": {
+    "mapsPlayed": 4,
+    "atkPct": 0.511,
+    "defPct": 0.489,
+    "agents": [
+      {
+        "agent": "Fade",
+        "comps": 4,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Raze",
+        "comps": 4,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Viper",
+        "comps": 4,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Omen",
+        "comps": 4,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Clove",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Iso",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.125
+      }
+    ],
+    "teams": {
+      "CIN": {
+        "team": "CIN",
+        "teamName": "Absolute Cinema",
+        "agents": [
+          "Fade",
+          "Killjoy",
+          "Omen",
+          "Raze",
+          "Viper"
+        ]
+      },
+      "KAT": {
+        "team": "KAT",
+        "teamName": "Kurt's Kittens",
+        "agents": [
+          "Breach",
+          "Clove",
+          "Cypher",
+          "Fade",
+          "Iso",
+          "Neon",
+          "Omen",
+          "Raze",
+          "Viper"
+        ]
+      },
+      "WALL": {
+        "team": "WALL",
+        "teamName": "The Brick Wall",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Fade",
+          "Omen",
+          "Raze",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "YD": {
+        "team": "YD",
+        "teamName": "You Get Shot You Die",
+        "agents": [
+          "Fade",
+          "Omen",
+          "Raze",
+          "Viper",
+          "Vyse"
+        ]
+      }
+    }
+  },
+  "Sunset": {
+    "mapsPlayed": 2,
+    "atkPct": 0.522,
+    "defPct": 0.478,
+    "agents": [
+      {
+        "agent": "Raze",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Omen",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Deadlock",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "KAYO",
+        "comps": 1,
+        "pickPct": 0.25
+      }
+    ],
+    "teams": {
+      "KAT": {
+        "team": "KAT",
+        "teamName": "Kurt's Kittens",
+        "agents": [
+          "Breach",
+          "Chamber",
+          "Clove",
+          "Deadlock",
+          "Jett",
+          "Omen",
+          "Raze",
+          "Sova"
+        ]
+      },
+      "WALL": {
+        "team": "WALL",
+        "teamName": "The Brick Wall",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Omen",
+          "Raze",
+          "Yoru"
+        ]
+      },
+      "YD": {
+        "team": "YD",
+        "teamName": "You Get Shot You Die",
+        "agents": [
+          "Cypher",
+          "KAYO",
+          "Omen",
+          "Raze",
+          "Sova"
+        ]
+      }
+    }
+  }
+}

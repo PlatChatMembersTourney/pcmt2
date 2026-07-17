@@ -1,56 +1,110 @@
 {
   "Overall": [
     {
-      "abbr": "CIN",
-      "name": "Absolute Cinema",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 1,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
       "abbr": "KAT",
       "name": "Kurt's Kittens",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 2,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
-      "abbr": "WALL",
-      "name": "The Brick Wall",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 3,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "matchW": 4,
+      "matchL": 3,
+      "mapW": 9,
+      "mapL": 8,
+      "rndW": 180,
+      "rndL": 173,
+      "rank": 1,
+      "mapDiff": 1,
+      "rndDiff": 7
     },
     {
       "abbr": "YD",
       "name": "You Get Shot You Die",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
+      "matchW": 3,
+      "matchL": 2,
+      "mapW": 7,
+      "mapL": 4,
+      "rndW": 122,
+      "rndL": 114,
+      "rank": 2,
+      "mapDiff": 3,
+      "rndDiff": 8
+    },
+    {
+      "abbr": "WALL",
+      "name": "The Brick Wall",
+      "matchW": 3,
+      "matchL": 2,
+      "mapW": 6,
+      "mapL": 5,
+      "rndW": 118,
+      "rndL": 117,
+      "rank": 3,
+      "mapDiff": 1,
+      "rndDiff": 1
+    },
+    {
+      "abbr": "CIN",
+      "name": "Absolute Cinema",
+      "matchW": 1,
+      "matchL": 4,
+      "mapW": 1,
+      "mapL": 6,
+      "rndW": 70,
+      "rndL": 86,
       "rank": 4,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapDiff": -5,
+      "rndDiff": -16
+    }
+  ],
+  "NA S1": [
+    {
+      "abbr": "KAT",
+      "name": "Kurt's Kittens",
+      "matchW": 4,
+      "matchL": 3,
+      "mapW": 9,
+      "mapL": 8,
+      "rndW": 180,
+      "rndL": 173,
+      "rank": 1,
+      "mapDiff": 1,
+      "rndDiff": 7
+    },
+    {
+      "abbr": "YD",
+      "name": "You Get Shot You Die",
+      "matchW": 3,
+      "matchL": 2,
+      "mapW": 7,
+      "mapL": 4,
+      "rndW": 122,
+      "rndL": 114,
+      "rank": 2,
+      "mapDiff": 3,
+      "rndDiff": 8
+    },
+    {
+      "abbr": "WALL",
+      "name": "The Brick Wall",
+      "matchW": 3,
+      "matchL": 2,
+      "mapW": 6,
+      "mapL": 5,
+      "rndW": 118,
+      "rndL": 117,
+      "rank": 3,
+      "mapDiff": 1,
+      "rndDiff": 1
+    },
+    {
+      "abbr": "CIN",
+      "name": "Absolute Cinema",
+      "matchW": 1,
+      "matchL": 4,
+      "mapW": 1,
+      "mapL": 6,
+      "rndW": 70,
+      "rndL": 86,
+      "rank": 4,
+      "mapDiff": -5,
+      "rndDiff": -16
     }
   ]
 }
