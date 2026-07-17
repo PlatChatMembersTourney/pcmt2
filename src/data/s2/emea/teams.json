@@ -28,11 +28,11 @@
         "players": ["Kai", "Pandyro", "SB", "goofy", "jinno"]
     },
     "XTC": {
-        "name": "Extra Traditional Comps",
+        "name": "Xually Terribly Cursed",
         "abbr": "XTC",
         "logo": "/icons/s2_teams/emea/Extra Traditional Comps.png",
         "group": "Group Alpha",
-        "players": ["sinderinho", "alexx", "FeeNix", "Yessi", "Riyako"]
+        "players": ["sinderinho", "alexx", "ZiDin", "Yessi", "Riyako"]
     },
     "SEAL": {
         "name": "Stay Seally",
@@ -46,7 +46,7 @@
         "abbr": "NATS",
         "logo": "/icons/s2_teams/emea/Never Available To Scrim.png",
         "group": "Group Omega",
-        "players": ["denial", "asra", "reoken", "Spolen", "NiXx"]
+        "players": ["denial", "asra", "reoken", "Spolen", "sy"]
     },
     "LARP": {
         "name": "Larpiat\u00e1n",
