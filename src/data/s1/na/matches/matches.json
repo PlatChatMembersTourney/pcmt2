@@ -317,7 +317,7 @@
             "players": [
               {
                 "Player": "pi",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.21,
                 "ACS": 263,
                 "K": 21,
@@ -333,7 +333,7 @@
               },
               {
                 "Player": "Platypus_Eggs",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.14,
                 "ACS": 251,
                 "K": 19,
@@ -349,7 +349,7 @@
               },
               {
                 "Player": "abstracq",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.0,
                 "ACS": 247,
                 "K": 18,
@@ -365,7 +365,7 @@
               },
               {
                 "Player": "lore",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.95,
                 "ACS": 212,
                 "K": 18,
@@ -381,7 +381,7 @@
               },
               {
                 "Player": "WHOGOTPIE*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 0.34,
                 "ACS": 85,
                 "K": 6,
@@ -403,7 +403,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.63,
                 "ACS": 348,
                 "K": 31,
@@ -419,7 +419,7 @@
               },
               {
                 "Player": "Angus",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.26,
                 "ACS": 251,
                 "K": 21,
@@ -435,7 +435,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.92,
                 "ACS": 169,
                 "K": 14,
@@ -451,7 +451,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.86,
                 "ACS": 175,
                 "K": 14,
@@ -467,7 +467,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 0.7,
                 "ACS": 151,
                 "K": 12,
@@ -593,7 +593,7 @@
             "players": [
               {
                 "Player": "pi",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.12,
                 "ACS": 255,
                 "K": 17,
@@ -609,7 +609,7 @@
               },
               {
                 "Player": "Platypus_Eggs",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.03,
                 "ACS": 234,
                 "K": 15,
@@ -625,7 +625,7 @@
               },
               {
                 "Player": "abstracq",
-                "Agent": null,
+                "Agent": "Yoru",
                 "R1.0": 0.84,
                 "ACS": 197,
                 "K": 12,
@@ -641,7 +641,7 @@
               },
               {
                 "Player": "lore",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 0.72,
                 "ACS": 170,
                 "K": 12,
@@ -657,7 +657,7 @@
               },
               {
                 "Player": "WHOGOTPIE*",
-                "Agent": null,
+                "Agent": "Chamber",
                 "R1.0": 0.25,
                 "ACS": 87,
                 "K": 5,
@@ -679,7 +679,7 @@
             "players": [
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.64,
                 "ACS": 314,
                 "K": 23,
@@ -695,7 +695,7 @@
               },
               {
                 "Player": "Angus",
-                "Agent": null,
+                "Agent": "Deadlock",
                 "R1.0": 1.46,
                 "ACS": 316,
                 "K": 22,
@@ -711,7 +711,7 @@
               },
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.25,
                 "ACS": 291,
                 "K": 18,
@@ -727,7 +727,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.8,
                 "ACS": 132,
                 "K": 9,
@@ -743,7 +743,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.68,
                 "ACS": 110,
                 "K": 9,
@@ -790,7 +790,7 @@
         "players": [
           {
             "Player": "lore",
-            "Agent": null,
+            "Agent": "Breach",
             "R1.0": 1.16,
             "ACS": 237,
             "K": 19,
@@ -806,7 +806,7 @@
           },
           {
             "Player": "abstracq",
-            "Agent": null,
+            "Agent": "Jett",
             "R1.0": 1.04,
             "ACS": 247,
             "K": 19,
@@ -822,7 +822,7 @@
           },
           {
             "Player": "Platypus_Eggs",
-            "Agent": null,
+            "Agent": "Cypher",
             "R1.0": 1.02,
             "ACS": 240,
             "K": 16,
@@ -838,7 +838,7 @@
           },
           {
             "Player": "pi",
-            "Agent": null,
+            "Agent": "Fade",
             "R1.0": 1.0,
             "ACS": 237,
             "K": 17,
@@ -854,7 +854,7 @@
           },
           {
             "Player": "cardamom",
-            "Agent": null,
+            "Agent": "Omen",
             "R1.0": 0.73,
             "ACS": 131,
             "K": 9,
@@ -876,7 +876,7 @@
         "players": [
           {
             "Player": "MrSirClaps*",
-            "Agent": null,
+            "Agent": "Clove",
             "R1.0": 1.73,
             "ACS": 394,
             "K": 32,
@@ -892,7 +892,7 @@
           },
           {
             "Player": "Angus",
-            "Agent": null,
+            "Agent": "Phoenix",
             "R1.0": 1.27,
             "ACS": 250,
             "K": 20,
@@ -908,7 +908,7 @@
           },
           {
             "Player": "skye",
-            "Agent": null,
+            "Agent": "Neon",
             "R1.0": 1.03,
             "ACS": 227,
             "K": 16,
@@ -924,7 +924,7 @@
           },
           {
             "Player": "beans",
-            "Agent": null,
+            "Agent": "Cypher",
             "R1.0": 0.8,
             "ACS": 149,
             "K": 11,
@@ -940,7 +940,7 @@
           },
           {
             "Player": "caprielle",
-            "Agent": null,
+            "Agent": "Sova",
             "R1.0": 0.43,
             "ACS": 56,
             "K": 4,
@@ -1081,7 +1081,7 @@
             "players": [
               {
                 "Player": "lore",
-                "Agent": null,
+                "Agent": "Breach",
                 "R1.0": 1.16,
                 "ACS": 237,
                 "K": 19,
@@ -1097,7 +1097,7 @@
               },
               {
                 "Player": "abstracq",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.04,
                 "ACS": 247,
                 "K": 19,
@@ -1113,7 +1113,7 @@
               },
               {
                 "Player": "Platypus_Eggs",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.02,
                 "ACS": 240,
                 "K": 16,
@@ -1129,7 +1129,7 @@
               },
               {
                 "Player": "pi",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.0,
                 "ACS": 237,
                 "K": 17,
@@ -1145,7 +1145,7 @@
               },
               {
                 "Player": "cardamom",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.73,
                 "ACS": 131,
                 "K": 9,
@@ -1167,7 +1167,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.73,
                 "ACS": 394,
                 "K": 32,
@@ -1183,7 +1183,7 @@
               },
               {
                 "Player": "Angus",
-                "Agent": null,
+                "Agent": "Phoenix",
                 "R1.0": 1.27,
                 "ACS": 250,
                 "K": 20,
@@ -1199,7 +1199,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Neon",
                 "R1.0": 1.03,
                 "ACS": 227,
                 "K": 16,
@@ -1215,7 +1215,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.8,
                 "ACS": 149,
                 "K": 11,
@@ -1231,7 +1231,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.43,
                 "ACS": 56,
                 "K": 4,
@@ -1554,7 +1554,7 @@
             "players": [
               {
                 "Player": "Platypus_Eggs",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.9,
                 "ACS": 180,
                 "K": 11,
@@ -1570,7 +1570,7 @@
               },
               {
                 "Player": "abstracq",
-                "Agent": null,
+                "Agent": "Yoru",
                 "R1.0": 0.82,
                 "ACS": 174,
                 "K": 11,
@@ -1586,7 +1586,7 @@
               },
               {
                 "Player": "lore",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.81,
                 "ACS": 184,
                 "K": 13,
@@ -1602,7 +1602,7 @@
               },
               {
                 "Player": "pi",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.75,
                 "ACS": 203,
                 "K": 13,
@@ -1618,7 +1618,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.73,
                 "ACS": 128,
                 "K": 10,
@@ -1640,7 +1640,7 @@
             "players": [
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.42,
                 "ACS": 285,
                 "K": 20,
@@ -1656,7 +1656,7 @@
               },
               {
                 "Player": "hyypernova",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 1.3,
                 "ACS": 229,
                 "K": 17,
@@ -1672,7 +1672,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.11,
                 "ACS": 173,
                 "K": 12,
@@ -1688,7 +1688,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.97,
                 "ACS": 176,
                 "K": 13,
@@ -1704,7 +1704,7 @@
               },
               {
                 "Player": "Tenyaku",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.96,
                 "ACS": 161,
                 "K": 12,
@@ -1885,7 +1885,7 @@
             "players": [
               {
                 "Player": "pi",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.19,
                 "ACS": 264,
                 "K": 26,
@@ -1901,7 +1901,7 @@
               },
               {
                 "Player": "abstracq",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.1,
                 "ACS": 240,
                 "K": 25,
@@ -1917,7 +1917,7 @@
               },
               {
                 "Player": "Platypus_Eggs",
-                "Agent": null,
+                "Agent": "Killjoy",
                 "R1.0": 1.09,
                 "ACS": 242,
                 "K": 25,
@@ -1933,7 +1933,7 @@
               },
               {
                 "Player": "lore",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.96,
                 "ACS": 199,
                 "K": 22,
@@ -1949,7 +1949,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.41,
                 "ACS": 46,
                 "K": 3,
@@ -1971,7 +1971,7 @@
             "players": [
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.39,
                 "ACS": 317,
                 "K": 32,
@@ -1987,7 +1987,7 @@
               },
               {
                 "Player": "hyypernova",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 1.16,
                 "ACS": 224,
                 "K": 24,
@@ -2003,7 +2003,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.95,
                 "ACS": 157,
                 "K": 17,
@@ -2019,7 +2019,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.85,
                 "ACS": 194,
                 "K": 19,
@@ -2035,7 +2035,7 @@
               },
               {
                 "Player": "Tenyaku",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 0.76,
                 "ACS": 145,
                 "K": 15,
@@ -2082,7 +2082,7 @@
         "players": [
           {
             "Player": "Platypus_Eggs",
-            "Agent": null,
+            "Agent": "Cypher",
             "R1.0": 1.36,
             "ACS": 306,
             "K": 26,
@@ -2098,7 +2098,7 @@
           },
           {
             "Player": "pi",
-            "Agent": null,
+            "Agent": "Fade",
             "R1.0": 1.24,
             "ACS": 272,
             "K": 24,
@@ -2114,7 +2114,7 @@
           },
           {
             "Player": "abstracq",
-            "Agent": null,
+            "Agent": "Jett",
             "R1.0": 0.91,
             "ACS": 226,
             "K": 18,
@@ -2130,7 +2130,7 @@
           },
           {
             "Player": "lore",
-            "Agent": null,
+            "Agent": "Killjoy",
             "R1.0": 0.86,
             "ACS": 143,
             "K": 11,
@@ -2146,7 +2146,7 @@
           },
           {
             "Player": "cardamom",
-            "Agent": null,
+            "Agent": "Omen",
             "R1.0": 0.46,
             "ACS": 87,
             "K": 7,
@@ -2168,7 +2168,7 @@
         "players": [
           {
             "Player": "dunkn",
-            "Agent": null,
+            "Agent": "Vyse",
             "R1.0": 1.19,
             "ACS": 239,
             "K": 22,
@@ -2184,7 +2184,7 @@
           },
           {
             "Player": "Lil Thighs",
-            "Agent": null,
+            "Agent": "KAYO",
             "R1.0": 1.09,
             "ACS": 194,
             "K": 16,
@@ -2200,7 +2200,7 @@
           },
           {
             "Player": "Mr Basil",
-            "Agent": null,
+            "Agent": "Jett",
             "R1.0": 0.96,
             "ACS": 243,
             "K": 20,
@@ -2216,7 +2216,7 @@
           },
           {
             "Player": "hyypernova",
-            "Agent": null,
+            "Agent": "Omen",
             "R1.0": 0.92,
             "ACS": 173,
             "K": 15,
@@ -2232,7 +2232,7 @@
           },
           {
             "Player": "Tenyaku",
-            "Agent": null,
+            "Agent": "Cypher",
             "R1.0": 0.85,
             "ACS": 170,
             "K": 15,
@@ -2383,7 +2383,7 @@
             "players": [
               {
                 "Player": "Platypus_Eggs",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.36,
                 "ACS": 306,
                 "K": 26,
@@ -2399,7 +2399,7 @@
               },
               {
                 "Player": "pi",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.24,
                 "ACS": 272,
                 "K": 24,
@@ -2415,7 +2415,7 @@
               },
               {
                 "Player": "abstracq",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 0.91,
                 "ACS": 226,
                 "K": 18,
@@ -2431,7 +2431,7 @@
               },
               {
                 "Player": "lore",
-                "Agent": null,
+                "Agent": "Killjoy",
                 "R1.0": 0.86,
                 "ACS": 143,
                 "K": 11,
@@ -2447,7 +2447,7 @@
               },
               {
                 "Player": "cardamom",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.46,
                 "ACS": 87,
                 "K": 7,
@@ -2469,7 +2469,7 @@
             "players": [
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 1.19,
                 "ACS": 239,
                 "K": 22,
@@ -2485,7 +2485,7 @@
               },
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "KAYO",
                 "R1.0": 1.09,
                 "ACS": 194,
                 "K": 16,
@@ -2501,7 +2501,7 @@
               },
               {
                 "Player": "Mr Basil",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 0.96,
                 "ACS": 243,
                 "K": 20,
@@ -2517,7 +2517,7 @@
               },
               {
                 "Player": "hyypernova",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.92,
                 "ACS": 173,
                 "K": 15,
@@ -2533,7 +2533,7 @@
               },
               {
                 "Player": "Tenyaku",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.85,
                 "ACS": 170,
                 "K": 15,
@@ -2881,7 +2881,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.43,
                 "ACS": 378,
                 "K": 29,
@@ -2897,7 +2897,7 @@
               },
               {
                 "Player": "Angus",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.41,
                 "ACS": 308,
                 "K": 25,
@@ -2913,7 +2913,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.04,
                 "ACS": 163,
                 "K": 11,
@@ -2929,7 +2929,7 @@
               },
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.98,
                 "ACS": 186,
                 "K": 16,
@@ -2945,7 +2945,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.6,
                 "ACS": 87,
                 "K": 7,
@@ -2967,7 +2967,7 @@
             "players": [
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Skye",
                 "R1.0": 1.35,
                 "ACS": 262,
                 "K": 22,
@@ -2983,7 +2983,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Brimstone",
                 "R1.0": 1.06,
                 "ACS": 247,
                 "K": 19,
@@ -2999,7 +2999,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.79,
                 "ACS": 167,
                 "K": 12,
@@ -3015,7 +3015,7 @@
               },
               {
                 "Player": "Mr Basil",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 0.74,
                 "ACS": 204,
                 "K": 13,
@@ -3031,7 +3031,7 @@
               },
               {
                 "Player": "hyypernova",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.73,
                 "ACS": 169,
                 "K": 14,
@@ -3167,7 +3167,7 @@
             "players": [
               {
                 "Player": "Angus",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.57,
                 "ACS": 421,
                 "K": 28,
@@ -3183,7 +3183,7 @@
               },
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.06,
                 "ACS": 269,
                 "K": 19,
@@ -3199,7 +3199,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.06,
                 "ACS": 201,
                 "K": 16,
@@ -3215,7 +3215,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Neon",
                 "R1.0": 0.58,
                 "ACS": 113,
                 "K": 9,
@@ -3231,7 +3231,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.45,
                 "ACS": 48,
                 "K": 3,
@@ -3253,7 +3253,7 @@
             "players": [
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 1.46,
                 "ACS": 333,
                 "K": 27,
@@ -3269,7 +3269,7 @@
               },
               {
                 "Player": "Mr Basil",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.45,
                 "ACS": 310,
                 "K": 21,
@@ -3285,7 +3285,7 @@
               },
               {
                 "Player": "hyypernova",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.92,
                 "ACS": 174,
                 "K": 12,
@@ -3301,7 +3301,7 @@
               },
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 0.91,
                 "ACS": 169,
                 "K": 14,
@@ -3317,7 +3317,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.65,
                 "ACS": 127,
                 "K": 9,
@@ -3453,7 +3453,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.57,
                 "ACS": 357,
                 "K": 26,
@@ -3469,7 +3469,7 @@
               },
               {
                 "Player": "Angus",
-                "Agent": null,
+                "Agent": "Gekko",
                 "R1.0": 0.97,
                 "ACS": 191,
                 "K": 11,
@@ -3485,7 +3485,7 @@
               },
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Killjoy",
                 "R1.0": 0.94,
                 "ACS": 187,
                 "K": 13,
@@ -3501,7 +3501,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.66,
                 "ACS": 112,
                 "K": 8,
@@ -3517,7 +3517,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.54,
                 "ACS": 110,
                 "K": 9,
@@ -3539,7 +3539,7 @@
             "players": [
               {
                 "Player": "Mr Basil",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.23,
                 "ACS": 316,
                 "K": 23,
@@ -3555,7 +3555,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Killjoy",
                 "R1.0": 1.14,
                 "ACS": 220,
                 "K": 17,
@@ -3571,7 +3571,7 @@
               },
               {
                 "Player": "hyypernova",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 1.02,
                 "ACS": 223,
                 "K": 16,
@@ -3587,7 +3587,7 @@
               },
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Sage",
                 "R1.0": 1.02,
                 "ACS": 142,
                 "K": 12,
@@ -3603,7 +3603,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.94,
                 "ACS": 116,
                 "K": 8,
@@ -3699,7 +3699,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 2.28,
                 "ACS": 479,
                 "K": 24,
@@ -3715,7 +3715,7 @@
               },
               {
                 "Player": "Angus",
-                "Agent": null,
+                "Agent": "Yoru",
                 "R1.0": 1.93,
                 "ACS": 302,
                 "K": 15,
@@ -3731,7 +3731,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.57,
                 "ACS": 252,
                 "K": 13,
@@ -3747,7 +3747,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.39,
                 "ACS": 149,
                 "K": 7,
@@ -3763,7 +3763,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 1.09,
                 "ACS": 72,
                 "K": 3,
@@ -3785,7 +3785,7 @@
             "players": [
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Chamber",
                 "R1.0": 0.41,
                 "ACS": 117,
                 "K": 4,
@@ -3801,7 +3801,7 @@
               },
               {
                 "Player": "hyypernova",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.39,
                 "ACS": 162,
                 "K": 7,
@@ -3817,7 +3817,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.17,
                 "ACS": 74,
                 "K": 2,
@@ -3833,7 +3833,7 @@
               },
               {
                 "Player": "Mr Basil",
-                "Agent": null,
+                "Agent": "Yoru",
                 "R1.0": 0.14,
                 "ACS": 96,
                 "K": 4,
@@ -3849,7 +3849,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 0.02,
                 "ACS": 40,
                 "K": 1,
@@ -3990,7 +3990,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.46,
                 "ACS": 349,
                 "K": 28,
@@ -4006,7 +4006,7 @@
               },
               {
                 "Player": "Angus",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.22,
                 "ACS": 292,
                 "K": 22,
@@ -4022,7 +4022,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Deadlock",
                 "R1.0": 0.94,
                 "ACS": 154,
                 "K": 14,
@@ -4038,7 +4038,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Chamber",
                 "R1.0": 0.85,
                 "ACS": 191,
                 "K": 14,
@@ -4054,7 +4054,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.51,
                 "ACS": 61,
                 "K": 5,
@@ -4076,7 +4076,7 @@
             "players": [
               {
                 "Player": "Mr Basil",
-                "Agent": null,
+                "Agent": "Yoru",
                 "R1.0": 1.35,
                 "ACS": 293,
                 "K": 23,
@@ -4092,7 +4092,7 @@
               },
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.2,
                 "ACS": 276,
                 "K": 19,
@@ -4108,7 +4108,7 @@
               },
               {
                 "Player": "hyypernova",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 1.02,
                 "ACS": 205,
                 "K": 16,
@@ -4124,7 +4124,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.97,
                 "ACS": 199,
                 "K": 16,
@@ -4140,7 +4140,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.33,
                 "ACS": 73,
                 "K": 4,
@@ -4187,7 +4187,7 @@
         "players": [
           {
             "Player": "Moelandblue",
-            "Agent": null,
+            "Agent": "Fade",
             "R1.0": 0.83,
             "ACS": 179,
             "K": 8,
@@ -4203,7 +4203,7 @@
           },
           {
             "Player": "AtmosFear",
-            "Agent": null,
+            "Agent": "Iso",
             "R1.0": 0.78,
             "ACS": 233,
             "K": 12,
@@ -4219,7 +4219,7 @@
           },
           {
             "Player": "beans",
-            "Agent": null,
+            "Agent": "Omen",
             "R1.0": 0.67,
             "ACS": 182,
             "K": 9,
@@ -4235,7 +4235,7 @@
           },
           {
             "Player": "skye",
-            "Agent": null,
+            "Agent": "Neon",
             "R1.0": 0.59,
             "ACS": 136,
             "K": 8,
@@ -4251,7 +4251,7 @@
           },
           {
             "Player": "caprielle",
-            "Agent": null,
+            "Agent": "Cypher",
             "R1.0": 0.22,
             "ACS": 84,
             "K": 5,
@@ -4273,7 +4273,7 @@
         "players": [
           {
             "Player": "Lil Thighs",
-            "Agent": null,
+            "Agent": "Raze",
             "R1.0": 1.71,
             "ACS": 270,
             "K": 18,
@@ -4289,7 +4289,7 @@
           },
           {
             "Player": "hyypernova",
-            "Agent": null,
+            "Agent": "Clove",
             "R1.0": 1.6,
             "ACS": 325,
             "K": 17,
@@ -4305,7 +4305,7 @@
           },
           {
             "Player": "Tenyaku",
-            "Agent": null,
+            "Agent": "Cypher",
             "R1.0": 1.46,
             "ACS": 268,
             "K": 17,
@@ -4321,7 +4321,7 @@
           },
           {
             "Player": "Mr Basil",
-            "Agent": null,
+            "Agent": "Fade",
             "R1.0": 1.18,
             "ACS": 176,
             "K": 10,
@@ -4337,7 +4337,7 @@
           },
           {
             "Player": "dunkn",
-            "Agent": null,
+            "Agent": "Viper",
             "R1.0": 1.05,
             "ACS": 179,
             "K": 11,
@@ -4448,7 +4448,7 @@
             "players": [
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.83,
                 "ACS": 179,
                 "K": 8,
@@ -4464,7 +4464,7 @@
               },
               {
                 "Player": "AtmosFear",
-                "Agent": null,
+                "Agent": "Iso",
                 "R1.0": 0.78,
                 "ACS": 233,
                 "K": 12,
@@ -4480,7 +4480,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.67,
                 "ACS": 182,
                 "K": 9,
@@ -4496,7 +4496,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Neon",
                 "R1.0": 0.59,
                 "ACS": 136,
                 "K": 8,
@@ -4512,7 +4512,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.22,
                 "ACS": 84,
                 "K": 5,
@@ -4534,7 +4534,7 @@
             "players": [
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.71,
                 "ACS": 270,
                 "K": 18,
@@ -4550,7 +4550,7 @@
               },
               {
                 "Player": "hyypernova",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.6,
                 "ACS": 325,
                 "K": 17,
@@ -4566,7 +4566,7 @@
               },
               {
                 "Player": "Tenyaku",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.46,
                 "ACS": 268,
                 "K": 17,
@@ -4582,7 +4582,7 @@
               },
               {
                 "Player": "Mr Basil",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.18,
                 "ACS": 176,
                 "K": 10,
@@ -4598,7 +4598,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 1.05,
                 "ACS": 179,
                 "K": 11,
@@ -4936,7 +4936,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.71,
                 "ACS": 467,
                 "K": 32,
@@ -4952,7 +4952,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Neon",
                 "R1.0": 0.97,
                 "ACS": 201,
                 "K": 17,
@@ -4968,7 +4968,7 @@
               },
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.73,
                 "ACS": 143,
                 "K": 11,
@@ -4984,7 +4984,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.55,
                 "ACS": 130,
                 "K": 9,
@@ -5000,7 +5000,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Breach",
                 "R1.0": 0.38,
                 "ACS": 64,
                 "K": 5,
@@ -5022,7 +5022,7 @@
             "players": [
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.51,
                 "ACS": 340,
                 "K": 23,
@@ -5038,7 +5038,7 @@
               },
               {
                 "Player": "retro",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.25,
                 "ACS": 295,
                 "K": 21,
@@ -5054,7 +5054,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 1.14,
                 "ACS": 218,
                 "K": 17,
@@ -5070,7 +5070,7 @@
               },
               {
                 "Player": "longclaw",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.85,
                 "ACS": 140,
                 "K": 11,
@@ -5086,7 +5086,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.75,
                 "ACS": 190,
                 "K": 13,
@@ -5237,7 +5237,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.28,
                 "ACS": 342,
                 "K": 29,
@@ -5253,7 +5253,7 @@
               },
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 1.28,
                 "ACS": 204,
                 "K": 19,
@@ -5269,7 +5269,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Chamber",
                 "R1.0": 0.8,
                 "ACS": 227,
                 "K": 21,
@@ -5285,7 +5285,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Breach",
                 "R1.0": 0.65,
                 "ACS": 178,
                 "K": 12,
@@ -5301,7 +5301,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.4,
                 "ACS": 86,
                 "K": 5,
@@ -5323,7 +5323,7 @@
             "players": [
               {
                 "Player": "retro",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.23,
                 "ACS": 328,
                 "K": 27,
@@ -5339,7 +5339,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "KAYO",
                 "R1.0": 1.06,
                 "ACS": 267,
                 "K": 21,
@@ -5355,7 +5355,7 @@
               },
               {
                 "Player": "longclaw",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 1.05,
                 "ACS": 140,
                 "K": 12,
@@ -5371,7 +5371,7 @@
               },
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.93,
                 "ACS": 218,
                 "K": 18,
@@ -5387,7 +5387,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.56,
                 "ACS": 158,
                 "K": 15,
@@ -5493,7 +5493,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.78,
                 "ACS": 387,
                 "K": 22,
@@ -5509,7 +5509,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 1.42,
                 "ACS": 248,
                 "K": 14,
@@ -5525,7 +5525,7 @@
               },
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 1.35,
                 "ACS": 220,
                 "K": 12,
@@ -5541,7 +5541,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.18,
                 "ACS": 219,
                 "K": 12,
@@ -5557,7 +5557,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.99,
                 "ACS": 139,
                 "K": 9,
@@ -5579,7 +5579,7 @@
             "players": [
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.91,
                 "ACS": 142,
                 "K": 7,
@@ -5595,7 +5595,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 0.86,
                 "ACS": 245,
                 "K": 11,
@@ -5611,7 +5611,7 @@
               },
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.83,
                 "ACS": 216,
                 "K": 11,
@@ -5627,7 +5627,7 @@
               },
               {
                 "Player": "longclaw",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.7,
                 "ACS": 150,
                 "K": 7,
@@ -5643,7 +5643,7 @@
               },
               {
                 "Player": "retro",
-                "Agent": null,
+                "Agent": "Yoru",
                 "R1.0": 0.44,
                 "ACS": 142,
                 "K": 5,
@@ -5794,7 +5794,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.65,
                 "ACS": 443,
                 "K": 36,
@@ -5810,7 +5810,7 @@
               },
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.08,
                 "ACS": 196,
                 "K": 17,
@@ -5826,7 +5826,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 0.99,
                 "ACS": 199,
                 "K": 17,
@@ -5842,7 +5842,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Breach",
                 "R1.0": 0.83,
                 "ACS": 96,
                 "K": 16,
@@ -5858,7 +5858,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.58,
                 "ACS": 93,
                 "K": 12,
@@ -5880,7 +5880,7 @@
             "players": [
               {
                 "Player": "retro",
-                "Agent": null,
+                "Agent": "Yoru",
                 "R1.0": 1.36,
                 "ACS": 307,
                 "K": 26,
@@ -5896,7 +5896,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Breach",
                 "R1.0": 1.09,
                 "ACS": 219,
                 "K": 17,
@@ -5912,7 +5912,7 @@
               },
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 1.03,
                 "ACS": 207,
                 "K": 16,
@@ -5928,7 +5928,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Killjoy",
                 "R1.0": 1.02,
                 "ACS": 222,
                 "K": 18,
@@ -5944,7 +5944,7 @@
               },
               {
                 "Player": "longclaw",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.74,
                 "ACS": 140,
                 "K": 12,
@@ -5991,7 +5991,7 @@
         "players": [
           {
             "Player": "MrSirClaps*",
-            "Agent": null,
+            "Agent": "Clove",
             "R1.0": 1.46,
             "ACS": 351,
             "K": 30,
@@ -6007,7 +6007,7 @@
           },
           {
             "Player": "Moelandblue",
-            "Agent": null,
+            "Agent": "Breach",
             "R1.0": 1.3,
             "ACS": 230,
             "K": 21,
@@ -6023,7 +6023,7 @@
           },
           {
             "Player": "Angus",
-            "Agent": null,
+            "Agent": "Neon",
             "R1.0": 1.18,
             "ACS": 306,
             "K": 23,
@@ -6039,7 +6039,7 @@
           },
           {
             "Player": "beans",
-            "Agent": null,
+            "Agent": "Cypher",
             "R1.0": 0.99,
             "ACS": 173,
             "K": 14,
@@ -6055,7 +6055,7 @@
           },
           {
             "Player": "caprielle",
-            "Agent": null,
+            "Agent": "Sova",
             "R1.0": 0.41,
             "ACS": 39,
             "K": 4,
@@ -6077,7 +6077,7 @@
         "players": [
           {
             "Player": "retro",
-            "Agent": null,
+            "Agent": "Cypher",
             "R1.0": 1.33,
             "ACS": 308,
             "K": 27,
@@ -6093,7 +6093,7 @@
           },
           {
             "Player": "igneous",
-            "Agent": null,
+            "Agent": "Sova",
             "R1.0": 1.12,
             "ACS": 224,
             "K": 17,
@@ -6109,7 +6109,7 @@
           },
           {
             "Player": "platinum",
-            "Agent": null,
+            "Agent": "Breach",
             "R1.0": 1.01,
             "ACS": 174,
             "K": 16,
@@ -6125,7 +6125,7 @@
           },
           {
             "Player": "devil",
-            "Agent": null,
+            "Agent": "Jett",
             "R1.0": 0.81,
             "ACS": 194,
             "K": 16,
@@ -6141,7 +6141,7 @@
           },
           {
             "Player": "amara",
-            "Agent": null,
+            "Agent": "Omen",
             "R1.0": 0.77,
             "ACS": 165,
             "K": 11,
@@ -6292,7 +6292,7 @@
             "players": [
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.46,
                 "ACS": 351,
                 "K": 30,
@@ -6308,7 +6308,7 @@
               },
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Breach",
                 "R1.0": 1.3,
                 "ACS": 230,
                 "K": 21,
@@ -6324,7 +6324,7 @@
               },
               {
                 "Player": "Angus",
-                "Agent": null,
+                "Agent": "Neon",
                 "R1.0": 1.18,
                 "ACS": 306,
                 "K": 23,
@@ -6340,7 +6340,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.99,
                 "ACS": 173,
                 "K": 14,
@@ -6356,7 +6356,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.41,
                 "ACS": 39,
                 "K": 4,
@@ -6378,7 +6378,7 @@
             "players": [
               {
                 "Player": "retro",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.33,
                 "ACS": 308,
                 "K": 27,
@@ -6394,7 +6394,7 @@
               },
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 1.12,
                 "ACS": 224,
                 "K": 17,
@@ -6410,7 +6410,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Breach",
                 "R1.0": 1.01,
                 "ACS": 174,
                 "K": 16,
@@ -6426,7 +6426,7 @@
               },
               {
                 "Player": "devil",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 0.81,
                 "ACS": 194,
                 "K": 16,
@@ -6442,7 +6442,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.77,
                 "ACS": 165,
                 "K": 11,
@@ -6770,7 +6770,7 @@
             "players": [
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.14,
                 "ACS": 258,
                 "K": 19,
@@ -6786,7 +6786,7 @@
               },
               {
                 "Player": "Mr Basil",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.07,
                 "ACS": 226,
                 "K": 18,
@@ -6802,7 +6802,7 @@
               },
               {
                 "Player": "abstracq",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 0.99,
                 "ACS": 188,
                 "K": 15,
@@ -6818,7 +6818,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.68,
                 "ACS": 130,
                 "K": 8,
@@ -6834,7 +6834,7 @@
               },
               {
                 "Player": "cardamom",
-                "Agent": null,
+                "Agent": "Brimstone",
                 "R1.0": 0.57,
                 "ACS": 102,
                 "K": 6,
@@ -6856,7 +6856,7 @@
             "players": [
               {
                 "Player": "pi",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.73,
                 "ACS": 392,
                 "K": 30,
@@ -6872,7 +6872,7 @@
               },
               {
                 "Player": "longclaw",
-                "Agent": null,
+                "Agent": "Brimstone",
                 "R1.0": 1.36,
                 "ACS": 214,
                 "K": 17,
@@ -6888,7 +6888,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Skye",
                 "R1.0": 0.93,
                 "ACS": 181,
                 "K": 11,
@@ -6904,7 +6904,7 @@
               },
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.8,
                 "ACS": 131,
                 "K": 8,
@@ -6920,7 +6920,7 @@
               },
               {
                 "Player": "devil",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 0.71,
                 "ACS": 125,
                 "K": 10,
@@ -7071,7 +7071,7 @@
             "players": [
               {
                 "Player": "abstracq",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 1.18,
                 "ACS": 238,
                 "K": 21,
@@ -7087,7 +7087,7 @@
               },
               {
                 "Player": "Mr Basil",
-                "Agent": null,
+                "Agent": "Yoru",
                 "R1.0": 1.03,
                 "ACS": 238,
                 "K": 19,
@@ -7103,7 +7103,7 @@
               },
               {
                 "Player": "dunkn",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 1.01,
                 "ACS": 214,
                 "K": 18,
@@ -7119,7 +7119,7 @@
               },
               {
                 "Player": "Lil Thighs",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.92,
                 "ACS": 168,
                 "K": 15,
@@ -7135,7 +7135,7 @@
               },
               {
                 "Player": "cardamom",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.64,
                 "ACS": 76,
                 "K": 6,
@@ -7157,7 +7157,7 @@
             "players": [
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.25,
                 "ACS": 294,
                 "K": 24,
@@ -7173,7 +7173,7 @@
               },
               {
                 "Player": "longclaw",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 1.15,
                 "ACS": 206,
                 "K": 18,
@@ -7189,7 +7189,7 @@
               },
               {
                 "Player": "pi",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.04,
                 "ACS": 229,
                 "K": 18,
@@ -7205,7 +7205,7 @@
               },
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.85,
                 "ACS": 146,
                 "K": 11,
@@ -7221,7 +7221,7 @@
               },
               {
                 "Player": "devil",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 0.84,
                 "ACS": 165,
                 "K": 15,
@@ -7268,7 +7268,7 @@
         "players": [
           {
             "Player": "retro",
-            "Agent": null,
+            "Agent": "Killjoy",
             "R1.0": 1.12,
             "ACS": 260,
             "K": 17,
@@ -7284,7 +7284,7 @@
           },
           {
             "Player": "longclaw",
-            "Agent": null,
+            "Agent": "KAYO",
             "R1.0": 0.79,
             "ACS": 157,
             "K": 10,
@@ -7300,7 +7300,7 @@
           },
           {
             "Player": "devil",
-            "Agent": null,
+            "Agent": "Jett",
             "R1.0": 0.74,
             "ACS": 185,
             "K": 11,
@@ -7316,7 +7316,7 @@
           },
           {
             "Player": "amara",
-            "Agent": null,
+            "Agent": "Omen",
             "R1.0": 0.63,
             "ACS": 134,
             "K": 8,
@@ -7332,7 +7332,7 @@
           },
           {
             "Player": "platinum",
-            "Agent": null,
+            "Agent": "Sova",
             "R1.0": 0.56,
             "ACS": 121,
             "K": 7,
@@ -7354,7 +7354,7 @@
         "players": [
           {
             "Player": "Platypus_Eggs",
-            "Agent": null,
+            "Agent": "Cypher",
             "R1.0": 1.46,
             "ACS": 317,
             "K": 21,
@@ -7370,7 +7370,7 @@
           },
           {
             "Player": "abstracq",
-            "Agent": null,
+            "Agent": "Jett",
             "R1.0": 1.39,
             "ACS": 317,
             "K": 21,
@@ -7386,7 +7386,7 @@
           },
           {
             "Player": "MrSirClaps*",
-            "Agent": null,
+            "Agent": "Fade",
             "R1.0": 1.38,
             "ACS": 278,
             "K": 17,
@@ -7402,7 +7402,7 @@
           },
           {
             "Player": "lore",
-            "Agent": null,
+            "Agent": "Killjoy",
             "R1.0": 1.01,
             "ACS": 135,
             "K": 9,
@@ -7418,7 +7418,7 @@
           },
           {
             "Player": "cardamom",
-            "Agent": null,
+            "Agent": "Omen",
             "R1.0": 0.79,
             "ACS": 74,
             "K": 4,
@@ -7539,7 +7539,7 @@
             "players": [
               {
                 "Player": "retro",
-                "Agent": null,
+                "Agent": "Killjoy",
                 "R1.0": 1.12,
                 "ACS": 260,
                 "K": 17,
@@ -7555,7 +7555,7 @@
               },
               {
                 "Player": "longclaw",
-                "Agent": null,
+                "Agent": "KAYO",
                 "R1.0": 0.79,
                 "ACS": 157,
                 "K": 10,
@@ -7571,7 +7571,7 @@
               },
               {
                 "Player": "devil",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 0.74,
                 "ACS": 185,
                 "K": 11,
@@ -7587,7 +7587,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.63,
                 "ACS": 134,
                 "K": 8,
@@ -7603,7 +7603,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.56,
                 "ACS": 121,
                 "K": 7,
@@ -7625,7 +7625,7 @@
             "players": [
               {
                 "Player": "Platypus_Eggs",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.46,
                 "ACS": 317,
                 "K": 21,
@@ -7641,7 +7641,7 @@
               },
               {
                 "Player": "abstracq",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.39,
                 "ACS": 317,
                 "K": 21,
@@ -7657,7 +7657,7 @@
               },
               {
                 "Player": "MrSirClaps*",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.38,
                 "ACS": 278,
                 "K": 17,
@@ -7673,7 +7673,7 @@
               },
               {
                 "Player": "lore",
-                "Agent": null,
+                "Agent": "Killjoy",
                 "R1.0": 1.01,
                 "ACS": 135,
                 "K": 9,
@@ -7689,7 +7689,7 @@
               },
               {
                 "Player": "cardamom",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.79,
                 "ACS": 74,
                 "K": 4,
@@ -8057,7 +8057,7 @@
             "players": [
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Brimstone",
                 "R1.0": 1.32,
                 "ACS": 271,
                 "K": 27,
@@ -8073,7 +8073,7 @@
               },
               {
                 "Player": "retro",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.1,
                 "ACS": 255,
                 "K": 25,
@@ -8089,7 +8089,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 0.87,
                 "ACS": 193,
                 "K": 18,
@@ -8105,7 +8105,7 @@
               },
               {
                 "Player": "devil",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 0.86,
                 "ACS": 171,
                 "K": 15,
@@ -8121,7 +8121,7 @@
               },
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Gekko",
                 "R1.0": 0.58,
                 "ACS": 110,
                 "K": 9,
@@ -8143,7 +8143,7 @@
             "players": [
               {
                 "Player": "haych*",
-                "Agent": null,
+                "Agent": "Clove",
                 "R1.0": 1.44,
                 "ACS": 359,
                 "K": 36,
@@ -8159,7 +8159,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Raze",
                 "R1.0": 1.25,
                 "ACS": 278,
                 "K": 26,
@@ -8175,7 +8175,7 @@
               },
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Fade",
                 "R1.0": 1.05,
                 "ACS": 182,
                 "K": 19,
@@ -8191,7 +8191,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Vyse",
                 "R1.0": 0.88,
                 "ACS": 163,
                 "K": 14,
@@ -8207,7 +8207,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Viper",
                 "R1.0": 0.63,
                 "ACS": 60,
                 "K": 7,
@@ -8328,7 +8328,7 @@
             "players": [
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 1.47,
                 "ACS": 243,
                 "K": 17,
@@ -8344,7 +8344,7 @@
               },
               {
                 "Player": "retro",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 1.25,
                 "ACS": 245,
                 "K": 13,
@@ -8360,7 +8360,7 @@
               },
               {
                 "Player": "devil",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.22,
                 "ACS": 223,
                 "K": 16,
@@ -8376,7 +8376,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "KAYO",
                 "R1.0": 1.16,
                 "ACS": 183,
                 "K": 9,
@@ -8392,7 +8392,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 1.01,
                 "ACS": 206,
                 "K": 13,
@@ -8414,7 +8414,7 @@
             "players": [
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 1.07,
                 "ACS": 182,
                 "K": 13,
@@ -8430,7 +8430,7 @@
               },
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 1.05,
                 "ACS": 221,
                 "K": 12,
@@ -8446,7 +8446,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.02,
                 "ACS": 233,
                 "K": 13,
@@ -8462,7 +8462,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.74,
                 "ACS": 158,
                 "K": 10,
@@ -8478,7 +8478,7 @@
               },
               {
                 "Player": "haych*",
-                "Agent": null,
+                "Agent": "Yoru",
                 "R1.0": 0.45,
                 "ACS": 114,
                 "K": 6,
@@ -8604,7 +8604,7 @@
             "players": [
               {
                 "Player": "retro",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 1.73,
                 "ACS": 349,
                 "K": 25,
@@ -8620,7 +8620,7 @@
               },
               {
                 "Player": "devil",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 1.36,
                 "ACS": 270,
                 "K": 19,
@@ -8636,7 +8636,7 @@
               },
               {
                 "Player": "igneous",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 1.36,
                 "ACS": 247,
                 "K": 15,
@@ -8652,7 +8652,7 @@
               },
               {
                 "Player": "amara",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.92,
                 "ACS": 196,
                 "K": 14,
@@ -8668,7 +8668,7 @@
               },
               {
                 "Player": "platinum",
-                "Agent": null,
+                "Agent": "Breach",
                 "R1.0": 0.67,
                 "ACS": 88,
                 "K": 7,
@@ -8690,7 +8690,7 @@
             "players": [
               {
                 "Player": "Moelandblue",
-                "Agent": null,
+                "Agent": "Omen",
                 "R1.0": 0.91,
                 "ACS": 182,
                 "K": 13,
@@ -8706,7 +8706,7 @@
               },
               {
                 "Player": "skye",
-                "Agent": null,
+                "Agent": "Jett",
                 "R1.0": 0.9,
                 "ACS": 224,
                 "K": 16,
@@ -8722,7 +8722,7 @@
               },
               {
                 "Player": "haych*",
-                "Agent": null,
+                "Agent": "Cypher",
                 "R1.0": 0.82,
                 "ACS": 218,
                 "K": 13,
@@ -8738,7 +8738,7 @@
               },
               {
                 "Player": "beans",
-                "Agent": null,
+                "Agent": "Breach",
                 "R1.0": 0.75,
                 "ACS": 180,
                 "K": 12,
@@ -8754,7 +8754,7 @@
               },
               {
                 "Player": "caprielle",
-                "Agent": null,
+                "Agent": "Sova",
                 "R1.0": 0.52,
                 "ACS": 108,
                 "K": 7,
