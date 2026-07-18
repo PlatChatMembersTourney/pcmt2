@@ -1,18 +1,5 @@
 [
   {
-    "id": "baka-vs-epy-s3-group-omega-2026-07-19",
-    "team1": "BAKA",
-    "team2": "EPY",
-    "team1Name": "Beautiful and Kinda Adorable",
-    "team2Name": "Team Entropy",
-    "score1": 0,
-    "score2": 0,
-    "completed": false,
-    "bestOf": 3,
-    "date": "2026-07-19T01:00:00Z",
-    "stage": "Group Omega"
-  },
-  {
     "id": "srb-vs-spg-s3-group-omega-2026-07-18",
     "team1": "SRB",
     "team2": "SPG",
