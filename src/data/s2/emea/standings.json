@@ -27,6 +27,19 @@
       "rndDiff": 5
     },
     {
+      "abbr": "LARP",
+      "name": "Larpiat\u00e1n",
+      "matchW": 1,
+      "matchL": 1,
+      "mapW": 2,
+      "mapL": 3,
+      "rndW": 45,
+      "rndL": 56,
+      "rank": 3,
+      "mapDiff": -1,
+      "rndDiff": -11
+    },
+    {
       "abbr": "HOT",
       "name": "Honestly Outrageous Temperatures",
       "matchW": 0,
@@ -35,7 +48,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -48,26 +61,13 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": 0,
       "rndDiff": 0
     },
     {
       "abbr": "XTC",
       "name": "Xually Terribly Cursed",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 5,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
-      "abbr": "SEAL",
-      "name": "Stay Seally",
       "matchW": 0,
       "matchL": 0,
       "mapW": 0,
@@ -105,6 +105,19 @@
       "rndDiff": 0
     },
     {
+      "abbr": "SEAL",
+      "name": "Stay Seally",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 1,
+      "mapL": 2,
+      "rndW": 30,
+      "rndL": 31,
+      "rank": 9,
+      "mapDiff": -1,
+      "rndDiff": -1
+    },
+    {
       "abbr": "FaZe",
       "name": "Fabulous and Zesty",
       "matchW": 0,
@@ -113,22 +126,9 @@
       "mapL": 2,
       "rndW": 29,
       "rndL": 34,
-      "rank": 9,
+      "rank": 10,
       "mapDiff": -1,
       "rndDiff": -5
-    },
-    {
-      "abbr": "LARP",
-      "name": "Larpiat\u00e1n",
-      "matchW": 0,
-      "matchL": 1,
-      "mapW": 0,
-      "mapL": 2,
-      "rndW": 14,
-      "rndL": 26,
-      "rank": 10,
-      "mapDiff": -2,
-      "rndDiff": -12
     }
   ],
   "Group Alpha": [
@@ -213,17 +213,17 @@
       "rndDiff": 12
     },
     {
-      "abbr": "SEAL",
-      "name": "Stay Seally",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
+      "abbr": "LARP",
+      "name": "Larpiat\u00e1n",
+      "matchW": 1,
+      "matchL": 1,
+      "mapW": 2,
+      "mapL": 3,
+      "rndW": 45,
+      "rndL": 56,
       "rank": 2,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapDiff": -1,
+      "rndDiff": -11
     },
     {
       "abbr": "NATS",
@@ -252,17 +252,17 @@
       "rndDiff": 0
     },
     {
-      "abbr": "LARP",
-      "name": "Larpiat\u00e1n",
+      "abbr": "SEAL",
+      "name": "Stay Seally",
       "matchW": 0,
       "matchL": 1,
-      "mapW": 0,
+      "mapW": 1,
       "mapL": 2,
-      "rndW": 14,
-      "rndL": 26,
+      "rndW": 30,
+      "rndL": 31,
       "rank": 5,
-      "mapDiff": -2,
-      "rndDiff": -12
+      "mapDiff": -1,
+      "rndDiff": -1
     }
   ]
 }

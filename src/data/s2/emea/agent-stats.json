@@ -66,39 +66,54 @@
     }
   },
   "Haven": {
-    "mapsPlayed": 1,
-    "atkPct": 0.278,
-    "defPct": 0.722,
+    "mapsPlayed": 2,
+    "atkPct": 0.354,
+    "defPct": 0.646,
     "agents": [
       {
-        "agent": "Jett",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
-        "agent": "Killjoy",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
         "agent": "Omen",
-        "comps": 2,
-        "pickPct": 1.0
+        "comps": 3,
+        "pickPct": 0.75
       },
       {
         "agent": "Sova",
-        "comps": 2,
-        "pickPct": 1.0
+        "comps": 3,
+        "pickPct": 0.75
       },
       {
-        "agent": "Viper",
-        "comps": 1,
+        "agent": "Killjoy",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
         "pickPct": 0.5
       },
       {
         "agent": "Phoenix",
-        "comps": 1,
+        "comps": 2,
         "pickPct": 0.5
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.25
       }
     ],
     "teams": {
@@ -106,11 +121,14 @@
         "team": "LARP",
         "teamName": "Larpiat\u00e1n",
         "agents": [
+          "Cypher",
           "Jett",
           "Killjoy",
+          "Neon",
           "Omen",
           "Phoenix",
-          "Sova"
+          "Sova",
+          "Yoru"
         ]
       },
       "NOOT": {
@@ -123,48 +141,64 @@
           "Sova",
           "Viper"
         ]
+      },
+      "SEAL": {
+        "team": "SEAL",
+        "teamName": "Stay Seally",
+        "agents": [
+          "Killjoy",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
       }
     }
   },
   "Lotus": {
-    "mapsPlayed": 1,
-    "atkPct": 0.5,
-    "defPct": 0.5,
+    "mapsPlayed": 2,
+    "atkPct": 0.432,
+    "defPct": 0.568,
     "agents": [
       {
         "agent": "Omen",
-        "comps": 2,
-        "pickPct": 1.0
+        "comps": 3,
+        "pickPct": 0.75
       },
       {
         "agent": "Fade",
-        "comps": 2,
-        "pickPct": 1.0
+        "comps": 3,
+        "pickPct": 0.75
       },
       {
         "agent": "Viper",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Neon",
         "comps": 2,
-        "pickPct": 1.0
+        "pickPct": 0.5
       },
       {
         "agent": "Vyse",
-        "comps": 1,
+        "comps": 2,
         "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.25
       },
       {
         "agent": "Raze",
         "comps": 1,
-        "pickPct": 0.5
+        "pickPct": 0.25
       },
       {
         "agent": "Killjoy",
         "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Neon",
-        "comps": 1,
-        "pickPct": 0.5
+        "pickPct": 0.25
       }
     ],
     "teams": {
@@ -172,6 +206,7 @@
         "team": "LARP",
         "teamName": "Larpiat\u00e1n",
         "agents": [
+          "Cypher",
           "Fade",
           "Killjoy",
           "Neon",
@@ -186,6 +221,17 @@
           "Fade",
           "Omen",
           "Raze",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "SEAL": {
+        "team": "SEAL",
+        "teamName": "Stay Seally",
+        "agents": [
+          "Fade",
+          "Neon",
+          "Omen",
           "Viper",
           "Vyse"
         ]
@@ -269,49 +315,54 @@
     }
   },
   "Sunset": {
-    "mapsPlayed": 1,
-    "atkPct": 0.524,
-    "defPct": 0.476,
+    "mapsPlayed": 2,
+    "atkPct": 0.432,
+    "defPct": 0.568,
     "agents": [
       {
-        "agent": "Phoenix",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
         "agent": "Cypher",
-        "comps": 2,
+        "comps": 4,
         "pickPct": 1.0
-      },
-      {
-        "agent": "Astra",
-        "comps": 1,
-        "pickPct": 0.5
       },
       {
         "agent": "Neon",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Fade",
-        "comps": 1,
-        "pickPct": 0.5
+        "comps": 3,
+        "pickPct": 0.75
       },
       {
         "agent": "Omen",
-        "comps": 1,
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
         "pickPct": 0.5
       },
       {
         "agent": "Sova",
-        "comps": 1,
+        "comps": 2,
         "pickPct": 0.5
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.25
       },
       {
         "agent": "Waylay",
         "comps": 1,
-        "pickPct": 0.5
+        "pickPct": 0.25
       }
     ],
     "teams": {
@@ -335,6 +386,28 @@
           "Phoenix",
           "Sova",
           "Waylay"
+        ]
+      },
+      "LARP": {
+        "team": "LARP",
+        "teamName": "Larpiat\u00e1n",
+        "agents": [
+          "Breach",
+          "Cypher",
+          "Fade",
+          "Neon",
+          "Omen"
+        ]
+      },
+      "SEAL": {
+        "team": "SEAL",
+        "teamName": "Stay Seally",
+        "agents": [
+          "Cypher",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova"
         ]
       }
     }
