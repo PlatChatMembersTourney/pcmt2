@@ -2,8 +2,8 @@
   "ATLC": {
     "team": "ATLC",
     "teamName": "ATLNTIC Esports",
-    "overallAtkPct": 0.667,
-    "overallDefPct": 0.37,
+    "overallAtkPct": 0.613,
+    "overallDefPct": 0.451,
     "maps": [
       {
         "map": "Abyss",
@@ -20,15 +20,15 @@
       },
       {
         "map": "Ascent",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 20,
-        "roundsWon": 13,
-        "roundPct": 0.65,
-        "atkPct": 0.75,
+        "rounds": 44,
+        "roundsWon": 26,
+        "roundPct": 0.591,
+        "atkPct": 0.667,
         "defPct": 0.5
       },
       {
@@ -86,7 +86,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -112,7 +112,7 @@
       {
         "map": "Lotus",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -152,14 +152,14 @@
         "map": "Summit",
         "pick": 0,
         "ban": 0,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 22,
-        "roundsWon": 13,
-        "roundPct": 0.591,
-        "atkPct": 0.833,
-        "defPct": 0.3
+        "rounds": 48,
+        "roundsWon": 27,
+        "roundPct": 0.562,
+        "atkPct": 0.654,
+        "defPct": 0.455
       },
       {
         "map": "Sunset",
@@ -356,8 +356,8 @@
   "HOT": {
     "team": "HOT",
     "teamName": "Honestly Outrageous Temperatures",
-    "overallAtkPct": 0,
-    "overallDefPct": 0,
+    "overallAtkPct": 0.458,
+    "overallDefPct": 0.462,
     "maps": [
       {
         "map": "Abyss",
@@ -376,14 +376,14 @@
         "map": "Ascent",
         "pick": 0,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 24,
+        "roundsWon": 11,
+        "roundPct": 0.458,
+        "atkPct": 0.5,
+        "defPct": 0.417
       },
       {
         "map": "Bind",
@@ -401,7 +401,7 @@
       {
         "map": "Breeze",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -504,21 +504,21 @@
       },
       {
         "map": "Summit",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 26,
+        "roundsWon": 12,
+        "roundPct": 0.462,
+        "atkPct": 0.417,
+        "defPct": 0.5
       },
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
