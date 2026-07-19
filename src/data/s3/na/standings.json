@@ -4,14 +4,14 @@
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
       "matchW": 4,
-      "matchL": 0,
-      "mapW": 8,
-      "mapL": 0,
-      "rndW": 104,
-      "rndL": 57,
+      "matchL": 1,
+      "mapW": 9,
+      "mapL": 2,
+      "rndW": 143,
+      "rndL": 88,
       "rank": 1,
-      "mapDiff": 8,
-      "rndDiff": 47
+      "mapDiff": 7,
+      "rndDiff": 55
     },
     {
       "abbr": "FSG",
@@ -27,6 +27,19 @@
       "rndDiff": 23
     },
     {
+      "abbr": "SRB",
+      "name": "Sunshine and Rainbows",
+      "matchW": 4,
+      "matchL": 1,
+      "mapW": 9,
+      "mapL": 4,
+      "rndW": 153,
+      "rndL": 137,
+      "rank": 3,
+      "mapDiff": 5,
+      "rndDiff": 16
+    },
+    {
       "abbr": "T1",
       "name": "Team 1",
       "matchW": 4,
@@ -35,22 +48,9 @@
       "mapL": 4,
       "rndW": 131,
       "rndL": 116,
-      "rank": 3,
-      "mapDiff": 4,
-      "rndDiff": 15
-    },
-    {
-      "abbr": "SRB",
-      "name": "Sunshine and Rainbows",
-      "matchW": 3,
-      "matchL": 1,
-      "mapW": 7,
-      "mapL": 3,
-      "rndW": 122,
-      "rndL": 98,
       "rank": 4,
       "mapDiff": 4,
-      "rndDiff": 24
+      "rndDiff": 15
     },
     {
       "abbr": "NAVI",
@@ -320,27 +320,27 @@
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
       "matchW": 4,
-      "matchL": 0,
-      "mapW": 8,
-      "mapL": 0,
-      "rndW": 104,
-      "rndL": 57,
+      "matchL": 1,
+      "mapW": 9,
+      "mapL": 2,
+      "rndW": 143,
+      "rndL": 88,
       "rank": 1,
-      "mapDiff": 8,
-      "rndDiff": 47
+      "mapDiff": 7,
+      "rndDiff": 55
     },
     {
       "abbr": "SRB",
       "name": "Sunshine and Rainbows",
-      "matchW": 3,
+      "matchW": 4,
       "matchL": 1,
-      "mapW": 7,
-      "mapL": 3,
-      "rndW": 122,
-      "rndL": 98,
+      "mapW": 9,
+      "mapL": 4,
+      "rndW": 153,
+      "rndL": 137,
       "rank": 2,
-      "mapDiff": 4,
-      "rndDiff": 24
+      "mapDiff": 5,
+      "rndDiff": 16
     },
     {
       "abbr": "NAVI",

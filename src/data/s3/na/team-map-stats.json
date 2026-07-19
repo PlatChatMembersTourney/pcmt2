@@ -1773,7 +1773,7 @@
     "team": "SPG",
     "teamName": "Spank Ptheory Gaming",
     "overallAtkPct": 0.598,
-    "overallDefPct": 0.703,
+    "overallDefPct": 0.64,
     "maps": [
       {
         "map": "Abyss",
@@ -1792,14 +1792,14 @@
         "map": "Ascent",
         "pick": 2,
         "ban": 0,
-        "played": 2,
+        "played": 3,
         "won": 2,
-        "winPct": 1.0,
-        "rounds": 42,
-        "roundsWon": 26,
-        "roundPct": 0.619,
-        "atkPct": 0.5,
-        "defPct": 0.778
+        "winPct": 0.667,
+        "rounds": 72,
+        "roundsWon": 40,
+        "roundPct": 0.556,
+        "atkPct": 0.605,
+        "defPct": 0.5
       },
       {
         "map": "Bind",
@@ -1869,7 +1869,7 @@
       {
         "map": "Icebox",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1881,16 +1881,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 2,
+        "played": 3,
         "won": 2,
-        "winPct": 1.0,
-        "rounds": 34,
-        "roundsWon": 26,
-        "roundPct": 0.765,
-        "atkPct": 0.75,
-        "defPct": 0.8
+        "winPct": 0.667,
+        "rounds": 60,
+        "roundsWon": 38,
+        "roundPct": 0.633,
+        "atkPct": 0.605,
+        "defPct": 0.682
       },
       {
         "map": "Pearl",
@@ -1908,7 +1908,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 1,
         "won": 1,
         "winPct": 1.0,
@@ -1935,22 +1935,22 @@
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 14,
+        "roundsWon": 13,
+        "roundPct": 0.929,
+        "atkPct": 1.0,
+        "defPct": 0.917
       }
     ]
   },
   "SRB": {
     "team": "SRB",
     "teamName": "Sunshine and Rainbows",
-    "overallAtkPct": 0.598,
-    "overallDefPct": 0.509,
+    "overallAtkPct": 0.566,
+    "overallDefPct": 0.486,
     "maps": [
       {
         "map": "Abyss",
@@ -1969,14 +1969,14 @@
         "map": "Ascent",
         "pick": 3,
         "ban": 0,
-        "played": 4,
-        "won": 4,
+        "played": 5,
+        "won": 5,
         "winPct": 1.0,
-        "rounds": 79,
-        "roundsWon": 52,
-        "roundPct": 0.658,
-        "atkPct": 0.733,
-        "defPct": 0.559
+        "rounds": 109,
+        "roundsWon": 68,
+        "roundPct": 0.624,
+        "atkPct": 0.754,
+        "defPct": 0.458
       },
       {
         "map": "Bind",
@@ -1994,7 +1994,7 @@
       {
         "map": "Breeze",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -2033,7 +2033,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 3,
+        "ban": 4,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -2060,14 +2060,14 @@
         "map": "Lotus",
         "pick": 0,
         "ban": 2,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 28,
-        "roundsWon": 15,
-        "roundPct": 0.536,
-        "atkPct": 0.357,
-        "defPct": 0.714
+        "rounds": 54,
+        "roundsWon": 29,
+        "roundPct": 0.537,
+        "atkPct": 0.385,
+        "defPct": 0.679
       },
       {
         "map": "Pearl",
@@ -2110,16 +2110,16 @@
       },
       {
         "map": "Sunset",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 14,
+        "roundsWon": 1,
+        "roundPct": 0.071,
+        "atkPct": 0.083,
+        "defPct": 0.0
       }
     ]
   },
