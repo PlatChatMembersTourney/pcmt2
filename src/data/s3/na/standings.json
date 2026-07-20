@@ -118,6 +118,19 @@
       "rndDiff": 1
     },
     {
+      "abbr": "BAKA",
+      "name": "Beautiful and Kinda Adorable",
+      "matchW": 2,
+      "matchL": 3,
+      "mapW": 4,
+      "mapL": 8,
+      "rndW": 122,
+      "rndL": 148,
+      "rank": 10,
+      "mapDiff": -4,
+      "rndDiff": -26
+    },
+    {
       "abbr": "IHOP",
       "name": "I Hate Odin Party",
       "matchW": 1,
@@ -126,7 +139,7 @@
       "mapL": 4,
       "rndW": 74,
       "rndL": 60,
-      "rank": 10,
+      "rank": 11,
       "mapDiff": -1,
       "rndDiff": 14
     },
@@ -139,22 +152,9 @@
       "mapL": 5,
       "rndW": 109,
       "rndL": 98,
-      "rank": 11,
+      "rank": 12,
       "mapDiff": -1,
       "rndDiff": 11
-    },
-    {
-      "abbr": "BAKA",
-      "name": "Beautiful and Kinda Adorable",
-      "matchW": 1,
-      "matchL": 3,
-      "mapW": 2,
-      "mapL": 7,
-      "rndW": 89,
-      "rndL": 112,
-      "rank": 12,
-      "mapDiff": -5,
-      "rndDiff": -23
     },
     {
       "abbr": "RRQ",
@@ -183,19 +183,6 @@
       "rndDiff": -59
     },
     {
-      "abbr": "EPY",
-      "name": "Team Entropy",
-      "matchW": 0,
-      "matchL": 3,
-      "mapW": 0,
-      "mapL": 6,
-      "rndW": 35,
-      "rndL": 78,
-      "rank": 15,
-      "mapDiff": -6,
-      "rndDiff": -43
-    },
-    {
       "abbr": "DFM",
       "name": "Dementia Found Me",
       "matchW": 0,
@@ -204,9 +191,22 @@
       "mapL": 8,
       "rndW": 74,
       "rndL": 121,
-      "rank": 16,
+      "rank": 15,
       "mapDiff": -6,
       "rndDiff": -47
+    },
+    {
+      "abbr": "EPY",
+      "name": "Team Entropy",
+      "matchW": 0,
+      "matchL": 4,
+      "mapW": 1,
+      "mapL": 8,
+      "rndW": 71,
+      "rndL": 111,
+      "rank": 16,
+      "mapDiff": -7,
+      "rndDiff": -40
     }
   ],
   "Group Alpha": [
@@ -384,28 +384,15 @@
     {
       "abbr": "BAKA",
       "name": "Beautiful and Kinda Adorable",
-      "matchW": 1,
+      "matchW": 2,
       "matchL": 3,
-      "mapW": 2,
-      "mapL": 7,
-      "rndW": 89,
-      "rndL": 112,
+      "mapW": 4,
+      "mapL": 8,
+      "rndW": 122,
+      "rndL": 148,
       "rank": 6,
-      "mapDiff": -5,
-      "rndDiff": -23
-    },
-    {
-      "abbr": "EPY",
-      "name": "Team Entropy",
-      "matchW": 0,
-      "matchL": 3,
-      "mapW": 0,
-      "mapL": 6,
-      "rndW": 35,
-      "rndL": 78,
-      "rank": 7,
-      "mapDiff": -6,
-      "rndDiff": -43
+      "mapDiff": -4,
+      "rndDiff": -26
     },
     {
       "abbr": "DFM",
@@ -416,9 +403,22 @@
       "mapL": 8,
       "rndW": 74,
       "rndL": 121,
-      "rank": 8,
+      "rank": 7,
       "mapDiff": -6,
       "rndDiff": -47
+    },
+    {
+      "abbr": "EPY",
+      "name": "Team Entropy",
+      "matchW": 0,
+      "matchL": 4,
+      "mapW": 1,
+      "mapL": 8,
+      "rndW": 71,
+      "rndL": 111,
+      "rank": 8,
+      "mapDiff": -7,
+      "rndDiff": -40
     }
   ]
 }
