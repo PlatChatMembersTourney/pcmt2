@@ -1772,7 +1772,7 @@
   "SPG": {
     "team": "SPG",
     "teamName": "Spank Ptheory Gaming",
-    "overallAtkPct": 0.598,
+    "overallAtkPct": 0.597,
     "overallDefPct": 0.64,
     "maps": [
       {
@@ -1795,10 +1795,10 @@
         "played": 3,
         "won": 2,
         "winPct": 0.667,
-        "rounds": 72,
-        "roundsWon": 40,
-        "roundPct": 0.556,
-        "atkPct": 0.605,
+        "rounds": 74,
+        "roundsWon": 41,
+        "roundPct": 0.554,
+        "atkPct": 0.6,
         "defPct": 0.5
       },
       {
@@ -1972,11 +1972,11 @@
         "played": 5,
         "won": 5,
         "winPct": 1.0,
-        "rounds": 109,
-        "roundsWon": 68,
-        "roundPct": 0.624,
+        "rounds": 111,
+        "roundsWon": 69,
+        "roundPct": 0.622,
         "atkPct": 0.754,
-        "defPct": 0.458
+        "defPct": 0.46
       },
       {
         "map": "Bind",
