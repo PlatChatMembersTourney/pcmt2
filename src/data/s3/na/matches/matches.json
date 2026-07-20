@@ -1,5 +1,18 @@
 [
   {
+    "id": "srb-vs-navi-s3-group-omega-2026-07-25",
+    "team1": "SRB",
+    "team2": "NAVI",
+    "team1Name": "Sunshine and Rainbows",
+    "team2Name": "No Actual Valorant Intelligence",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-07-25T02:00:00Z",
+    "stage": "Group Omega"
+  },
+  {
     "id": "ts-vs-100t-s3-group-omega-2026-07-25",
     "team1": "TS",
     "team2": "100T",
