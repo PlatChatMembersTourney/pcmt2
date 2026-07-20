@@ -42,7 +42,8 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 	});
 
 	let matchesGrouped = groupByDay<Match>(matches, timezone);
-	if (reverse) {
+	if (!reverse) {
+		// change default to reversed
 		matchesGrouped = matchesGrouped.reverse();
 	}
 
