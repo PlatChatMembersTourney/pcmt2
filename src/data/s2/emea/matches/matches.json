@@ -1,5 +1,18 @@
 [
   {
+    "id": "sog-vs-noot-s2-group-omega-2026-07-20",
+    "team1": "SOG",
+    "team2": "NOOT",
+    "team1Name": "The SOG",
+    "team2Name": "Penguin Patrol",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-07-20T17:00:00Z",
+    "stage": "Group Omega"
+  },
+  {
     "id": "atlc-vs-hot-s2-group-alpha-2026-07-19",
     "team1": "ATLC",
     "team2": "HOT",
