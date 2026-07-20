@@ -111,7 +111,7 @@
         "teamName": "Honestly Outrageous Temperatures",
         "players": [
           {
-            "Player": "shiptyy",
+            "Player": "shipty",
             "R1.0": 1.128,
             "ACS": 216,
             "K": 37,
@@ -447,7 +447,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "shiptyy",
+                "Player": "shipty",
                 "Agent": "KAY/O",
                 "R1.0": 1.104,
                 "ACS": 192,
@@ -768,7 +768,7 @@
             "teamName": "Honestly Outrageous Temperatures",
             "players": [
               {
-                "Player": "shiptyy",
+                "Player": "shipty",
                 "Agent": "Fade",
                 "R1.0": 1.151,
                 "ACS": 238,
@@ -1016,7 +1016,7 @@
             "PlusMinus2": -3
           },
           {
-            "Player": "Fofo",
+            "Player": "eva",
             "R1.0": 0.878,
             "ACS": 167,
             "K": 35,
@@ -1243,7 +1243,7 @@
             "teamName": "Stay Seally",
             "players": [
               {
-                "Player": "Fofo",
+                "Player": "eva",
                 "Agent": "Omen",
                 "R1.0": 0.877,
                 "ACS": 199,
@@ -1578,7 +1578,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Fofo",
+                "Player": "eva",
                 "Agent": "Omen",
                 "R1.0": 1.242,
                 "ACS": 181,
@@ -1923,7 +1923,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "Fofo",
+                "Player": "eva",
                 "Agent": "Omen",
                 "R1.0": 0.696,
                 "ACS": 143,
@@ -3874,5 +3874,18 @@
       }
     ],
     "streamLink": "https://www.youtube.com/watch?v=VnCinTsqXU0"
+  },
+  {
+    "id": "xtc-vs-seal-s2-group-alpha-2026-06-02",
+    "team1": "XTC",
+    "team2": "SEAL",
+    "team1Name": "Xually Terribly Cursed",
+    "team2Name": "Stay Seally",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 5,
+    "date": "2026-06-02T01:00:00Z",
+    "stage": "Group Alpha"
   }
 ]

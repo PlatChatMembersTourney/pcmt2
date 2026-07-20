@@ -169,8 +169,8 @@
       "KMAX": 24
     },
     {
-      "Player": "shiptyy",
-      "Team": "(sub)",
+      "Player": "shipty",
+      "Team": "HOT",
       "MP": 2,
       "Rounds": 50,
       "R1.0": 1.128,
@@ -481,8 +481,8 @@
       "KMAX": 27
     },
     {
-      "Player": "Fofo",
-      "Team": "(sub)",
+      "Player": "eva",
+      "Team": "SEAL",
       "MP": 3,
       "Rounds": 61,
       "R1.0": 0.878,
@@ -795,8 +795,8 @@
       "KMAX": 22
     },
     {
-      "Player": "shiptyy",
-      "Team": "(sub)",
+      "Player": "shipty",
+      "Team": "HOT",
       "MP": 2,
       "Rounds": 50,
       "R1.0": 1.128,
@@ -961,30 +961,6 @@
       "FDPR": 0.12,
       "PlusMinus2": 1,
       "KMAX": 20
-    },
-    {
-      "Player": "Fofo",
-      "Team": "(sub)",
-      "MP": 3,
-      "Rounds": 61,
-      "R1.0": 0.878,
-      "ACS": 167,
-      "K": 35,
-      "D": 46,
-      "A": 29,
-      "K/D": 0.76,
-      "PlusMinus": -11,
-      "KPR": 0.57,
-      "DPR": 0.75,
-      "KAST": 0.705,
-      "ADR": 106.6,
-      "HS%": 0.214,
-      "FK": 5,
-      "FD": 9,
-      "FKPR": 0.08,
-      "FDPR": 0.15,
-      "PlusMinus2": -4,
-      "KMAX": 15
     },
     {
       "Player": "Tonnoman",
@@ -1205,30 +1181,6 @@
       "KMAX": 24
     },
     {
-      "Player": "shiptyy",
-      "Team": "(sub)",
-      "MP": 2,
-      "Rounds": 50,
-      "R1.0": 1.128,
-      "ACS": 216,
-      "K": 37,
-      "D": 34,
-      "A": 24,
-      "K/D": 1.09,
-      "PlusMinus": 3,
-      "KPR": 0.74,
-      "DPR": 0.68,
-      "KAST": 0.78,
-      "ADR": 147.8,
-      "HS%": 0.279,
-      "FK": 5,
-      "FD": 2,
-      "FKPR": 0.1,
-      "FDPR": 0.04,
-      "PlusMinus2": 3,
-      "KMAX": 22
-    },
-    {
       "Player": "Ghrf6",
       "Team": "SEAL",
       "MP": 3,
@@ -1373,8 +1325,8 @@
       "KMAX": 27
     },
     {
-      "Player": "Fofo",
-      "Team": "(sub)",
+      "Player": "eva",
+      "Team": "SEAL",
       "MP": 3,
       "Rounds": 61,
       "R1.0": 0.878,
