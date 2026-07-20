@@ -1,5 +1,18 @@
 [
   {
+    "id": "fnc-vs-rrq-s3-group-alpha-2026-07-26",
+    "team1": "FNC",
+    "team2": "RRQ",
+    "team1Name": "cow paulo FaN Club",
+    "team2Name": "Rage Re-Queuers",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-07-26T23:00:00Z",
+    "stage": "Group Alpha"
+  },
+  {
     "id": "srb-vs-navi-s3-group-omega-2026-07-25",
     "team1": "SRB",
     "team2": "NAVI",
