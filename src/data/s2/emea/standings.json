@@ -14,17 +14,30 @@
       "rndDiff": 9
     },
     {
-      "abbr": "NOOT",
-      "name": "Penguin Patrol",
+      "abbr": "SOG",
+      "name": "The SOG",
       "matchW": 1,
       "matchL": 0,
       "mapW": 2,
       "mapL": 0,
-      "rndW": 26,
-      "rndL": 14,
+      "rndW": 27,
+      "rndL": 23,
       "rank": 2,
       "mapDiff": 2,
-      "rndDiff": 12
+      "rndDiff": 4
+    },
+    {
+      "abbr": "NOOT",
+      "name": "Penguin Patrol",
+      "matchW": 1,
+      "matchL": 1,
+      "mapW": 2,
+      "mapL": 2,
+      "rndW": 49,
+      "rndL": 41,
+      "rank": 3,
+      "mapDiff": 0,
+      "rndDiff": 8
     },
     {
       "abbr": "LARP",
@@ -35,7 +48,7 @@
       "mapL": 3,
       "rndW": 45,
       "rndL": 56,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": -1,
       "rndDiff": -11
     },
@@ -48,7 +61,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -61,26 +74,13 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": 0,
       "rndDiff": 0
     },
     {
       "abbr": "NATS",
       "name": "Never Available To Scrim",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 6,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
-      "abbr": "SOG",
-      "name": "The SOG",
       "matchW": 0,
       "matchL": 0,
       "mapW": 0,
@@ -200,17 +200,30 @@
   ],
   "Group Omega": [
     {
-      "abbr": "NOOT",
-      "name": "Penguin Patrol",
+      "abbr": "SOG",
+      "name": "The SOG",
       "matchW": 1,
       "matchL": 0,
       "mapW": 2,
       "mapL": 0,
-      "rndW": 26,
-      "rndL": 14,
+      "rndW": 27,
+      "rndL": 23,
       "rank": 1,
       "mapDiff": 2,
-      "rndDiff": 12
+      "rndDiff": 4
+    },
+    {
+      "abbr": "NOOT",
+      "name": "Penguin Patrol",
+      "matchW": 1,
+      "matchL": 1,
+      "mapW": 2,
+      "mapL": 2,
+      "rndW": 49,
+      "rndL": 41,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 8
     },
     {
       "abbr": "LARP",
@@ -221,26 +234,13 @@
       "mapL": 3,
       "rndW": 45,
       "rndL": 56,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": -1,
       "rndDiff": -11
     },
     {
       "abbr": "NATS",
       "name": "Never Available To Scrim",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 3,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
-      "abbr": "SOG",
-      "name": "The SOG",
       "matchW": 0,
       "matchL": 0,
       "mapW": 0,
