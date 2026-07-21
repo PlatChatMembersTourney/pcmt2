@@ -53,6 +53,19 @@
       "rndDiff": 15
     },
     {
+      "abbr": "C9",
+      "name": "Clown9",
+      "matchW": 4,
+      "matchL": 1,
+      "mapW": 8,
+      "mapL": 5,
+      "rndW": 162,
+      "rndL": 138,
+      "rank": 5,
+      "mapDiff": 3,
+      "rndDiff": 24
+    },
+    {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
@@ -61,22 +74,9 @@
       "mapL": 2,
       "rndW": 95,
       "rndL": 71,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": 4,
       "rndDiff": 24
-    },
-    {
-      "abbr": "C9",
-      "name": "Clown9",
-      "matchW": 3,
-      "matchL": 1,
-      "mapW": 6,
-      "mapL": 5,
-      "rndW": 136,
-      "rndL": 120,
-      "rank": 6,
-      "mapDiff": 1,
-      "rndDiff": 16
     },
     {
       "abbr": "TS",
@@ -160,14 +160,14 @@
       "abbr": "RRQ",
       "name": "Rage Re-Queuers",
       "matchW": 0,
-      "matchL": 2,
+      "matchL": 3,
       "mapW": 2,
-      "mapL": 4,
-      "rndW": 60,
-      "rndL": 69,
+      "mapL": 6,
+      "rndW": 78,
+      "rndL": 95,
       "rank": 13,
-      "mapDiff": -2,
-      "rndDiff": -9
+      "mapDiff": -4,
+      "rndDiff": -17
     },
     {
       "abbr": "FNC",
@@ -239,15 +239,15 @@
     {
       "abbr": "C9",
       "name": "Clown9",
-      "matchW": 3,
+      "matchW": 4,
       "matchL": 1,
-      "mapW": 6,
+      "mapW": 8,
       "mapL": 5,
-      "rndW": 136,
-      "rndL": 120,
+      "rndW": 162,
+      "rndL": 138,
       "rank": 3,
-      "mapDiff": 1,
-      "rndDiff": 16
+      "mapDiff": 3,
+      "rndDiff": 24
     },
     {
       "abbr": "TL",
@@ -292,14 +292,14 @@
       "abbr": "RRQ",
       "name": "Rage Re-Queuers",
       "matchW": 0,
-      "matchL": 2,
+      "matchL": 3,
       "mapW": 2,
-      "mapL": 4,
-      "rndW": 60,
-      "rndL": 69,
+      "mapL": 6,
+      "rndW": 78,
+      "rndL": 95,
       "rank": 7,
-      "mapDiff": -2,
-      "rndDiff": -9
+      "mapDiff": -4,
+      "rndDiff": -17
     },
     {
       "abbr": "FNC",

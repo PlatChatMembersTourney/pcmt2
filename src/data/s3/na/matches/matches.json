@@ -57,12 +57,818 @@
     "team2": "RRQ",
     "team1Name": "Clown9",
     "team2Name": "Rage Re-Queuers",
-    "score1": 0,
+    "score1": 2,
     "score2": 0,
-    "completed": false,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-07-21T00:00:00Z",
-    "stage": "Group Alpha"
+    "stage": "Group Alpha",
+    "veto": "C9 bans Breeze, RRQ bans Ascent, C9 picks Haven, RRQ picks Lotus, C9 bans Split, RRQ bans Summit, Sunset remains",
+    "maps": [
+      {
+        "name": "Haven",
+        "score1": 13,
+        "score2": 7
+      },
+      {
+        "name": "Lotus",
+        "score1": 13,
+        "score2": 11
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "C9",
+        "teamName": "Clown9",
+        "players": [
+          {
+            "Player": "claps",
+            "R1.0": 1.755,
+            "ACS": 379,
+            "K": 60,
+            "D": 27,
+            "A": 14,
+            "PlusMinus": 33,
+            "KAST": 0.886,
+            "ADR": 251.7,
+            "HS%": 0.167,
+            "FK": 11,
+            "FD": 6,
+            "PlusMinus2": 5
+          },
+          {
+            "Player": "art",
+            "R1.0": 1.146,
+            "ACS": 232,
+            "K": 38,
+            "D": 29,
+            "A": 9,
+            "PlusMinus": 9,
+            "KAST": 0.795,
+            "ADR": 147.2,
+            "HS%": 0.179,
+            "FK": 4,
+            "FD": 4,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "makya",
+            "R1.0": 0.961,
+            "ACS": 201,
+            "K": 31,
+            "D": 33,
+            "A": 13,
+            "PlusMinus": -2,
+            "KAST": 0.727,
+            "ADR": 124.1,
+            "HS%": 0.195,
+            "FK": 5,
+            "FD": 4,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "igneous",
+            "R1.0": 0.933,
+            "ACS": 168,
+            "K": 25,
+            "D": 30,
+            "A": 18,
+            "PlusMinus": -5,
+            "KAST": 0.818,
+            "ADR": 109.1,
+            "HS%": 0.177,
+            "FK": 2,
+            "FD": 2,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "caesparz",
+            "R1.0": 0.869,
+            "ACS": 145,
+            "K": 23,
+            "D": 29,
+            "A": 15,
+            "PlusMinus": -6,
+            "KAST": 0.727,
+            "ADR": 107.4,
+            "HS%": 0.174,
+            "FK": 1,
+            "FD": 5,
+            "PlusMinus2": -4
+          }
+        ]
+      },
+      {
+        "team": "RRQ",
+        "teamName": "Rage Re-Queuers",
+        "players": [
+          {
+            "Player": "angus",
+            "R1.0": 1.098,
+            "ACS": 255,
+            "K": 35,
+            "D": 36,
+            "A": 8,
+            "PlusMinus": -1,
+            "KAST": 0.727,
+            "ADR": 181.1,
+            "HS%": 0.236,
+            "FK": 4,
+            "FD": 6,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "snowfall",
+            "R1.0": 0.87,
+            "ACS": 182,
+            "K": 29,
+            "D": 34,
+            "A": 9,
+            "PlusMinus": -5,
+            "KAST": 0.682,
+            "ADR": 115.7,
+            "HS%": 0.213,
+            "FK": 1,
+            "FD": 0,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "platy",
+            "R1.0": 0.85,
+            "ACS": 196,
+            "K": 32,
+            "D": 36,
+            "A": 3,
+            "PlusMinus": -4,
+            "KAST": 0.614,
+            "ADR": 121.5,
+            "HS%": 0.169,
+            "FK": 8,
+            "FD": 8,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "twon",
+            "R1.0": 0.796,
+            "ACS": 193,
+            "K": 29,
+            "D": 38,
+            "A": 3,
+            "PlusMinus": -9,
+            "KAST": 0.591,
+            "ADR": 125.7,
+            "HS%": 0.188,
+            "FK": 8,
+            "FD": 8,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "tery",
+            "R1.0": 0.758,
+            "ACS": 139,
+            "K": 22,
+            "D": 33,
+            "A": 13,
+            "PlusMinus": -11,
+            "KAST": 0.682,
+            "ADR": 93.4,
+            "HS%": 0.138,
+            "FK": 0,
+            "FD": 1,
+            "PlusMinus2": -1
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Haven",
+        "score1": 13,
+        "score2": 7,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 20,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "C9",
+            "teamName": "Clown9",
+            "players": [
+              {
+                "Player": "claps",
+                "Agent": "Clove",
+                "R1.0": 1.945,
+                "ACS": 395,
+                "K": 29,
+                "D": 10,
+                "A": 9,
+                "PlusMinus": 19,
+                "KAST": 0.95,
+                "ADR": 269.1,
+                "HS%": 0.194,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "art",
+                "Agent": "Jett",
+                "R1.0": 1.178,
+                "ACS": 236,
+                "K": 18,
+                "D": 12,
+                "A": 3,
+                "PlusMinus": 6,
+                "KAST": 0.85,
+                "ADR": 140.0,
+                "HS%": 0.22,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "makya",
+                "Agent": "Phoenix",
+                "R1.0": 1.137,
+                "ACS": 235,
+                "K": 16,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": 3,
+                "KAST": 0.8,
+                "ADR": 151.4,
+                "HS%": 0.204,
+                "FK": 4,
+                "FD": 1,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Cypher",
+                "R1.0": 0.911,
+                "ACS": 140,
+                "K": 9,
+                "D": 14,
+                "A": 13,
+                "PlusMinus": -5,
+                "KAST": 0.85,
+                "ADR": 103.7,
+                "HS%": 0.163,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "igneous",
+                "Agent": "Sova",
+                "R1.0": 0.833,
+                "ACS": 129,
+                "K": 10,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -1,
+                "KAST": 0.75,
+                "ADR": 89.0,
+                "HS%": 0.156,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              }
+            ]
+          },
+          {
+            "team": "RRQ",
+            "teamName": "Rage Re-Queuers",
+            "players": [
+              {
+                "Player": "angus",
+                "Agent": "Neon",
+                "R1.0": 1.145,
+                "ACS": 276,
+                "K": 18,
+                "D": 18,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.65,
+                "ADR": 194.7,
+                "HS%": 0.274,
+                "FK": 3,
+                "FD": 5,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "platy",
+                "Agent": "Killjoy",
+                "R1.0": 0.904,
+                "ACS": 195,
+                "K": 15,
+                "D": 15,
+                "A": 2,
+                "PlusMinus": 0,
+                "KAST": 0.6,
+                "ADR": 125.3,
+                "HS%": 0.244,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "tery",
+                "Agent": "Omen",
+                "R1.0": 0.692,
+                "ACS": 130,
+                "K": 8,
+                "D": 14,
+                "A": 6,
+                "PlusMinus": -6,
+                "KAST": 0.65,
+                "ADR": 83.9,
+                "HS%": 0.111,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "snowfall",
+                "Agent": "Sova",
+                "R1.0": 0.626,
+                "ACS": 130,
+                "K": 10,
+                "D": 16,
+                "A": 1,
+                "PlusMinus": -6,
+                "KAST": 0.55,
+                "ADR": 88.1,
+                "HS%": 0.156,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "twon",
+                "Agent": "Viper",
+                "R1.0": 0.503,
+                "ACS": 126,
+                "K": 8,
+                "D": 19,
+                "A": 2,
+                "PlusMinus": -11,
+                "KAST": 0.5,
+                "ADR": 88.7,
+                "HS%": 0.214,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lotus",
+        "score1": 13,
+        "score2": 11,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 9,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 19,
+            "winner": 2,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 20,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 22,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 23,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 24,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "C9",
+            "teamName": "Clown9",
+            "players": [
+              {
+                "Player": "claps",
+                "Agent": "Jett",
+                "R1.0": 1.597,
+                "ACS": 365,
+                "K": 31,
+                "D": 17,
+                "A": 5,
+                "PlusMinus": 14,
+                "KAST": 0.833,
+                "ADR": 237.2,
+                "HS%": 0.144,
+                "FK": 7,
+                "FD": 4,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "art",
+                "Agent": "Raze",
+                "R1.0": 1.119,
+                "ACS": 228,
+                "K": 20,
+                "D": 17,
+                "A": 6,
+                "PlusMinus": 3,
+                "KAST": 0.75,
+                "ADR": 153.2,
+                "HS%": 0.144,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "igneous",
+                "Agent": "Fade",
+                "R1.0": 1.015,
+                "ACS": 201,
+                "K": 15,
+                "D": 19,
+                "A": 14,
+                "PlusMinus": -4,
+                "KAST": 0.875,
+                "ADR": 125.8,
+                "HS%": 0.194,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Vyse",
+                "R1.0": 0.834,
+                "ACS": 150,
+                "K": 14,
+                "D": 15,
+                "A": 2,
+                "PlusMinus": -1,
+                "KAST": 0.625,
+                "ADR": 110.4,
+                "HS%": 0.184,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "makya",
+                "Agent": "Omen",
+                "R1.0": 0.814,
+                "ACS": 173,
+                "K": 15,
+                "D": 20,
+                "A": 8,
+                "PlusMinus": -5,
+                "KAST": 0.667,
+                "ADR": 101.3,
+                "HS%": 0.188,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              }
+            ]
+          },
+          {
+            "team": "RRQ",
+            "teamName": "Rage Re-Queuers",
+            "players": [
+              {
+                "Player": "snowfall",
+                "Agent": "Fade",
+                "R1.0": 1.074,
+                "ACS": 226,
+                "K": 19,
+                "D": 18,
+                "A": 8,
+                "PlusMinus": 1,
+                "KAST": 0.792,
+                "ADR": 138.7,
+                "HS%": 0.261,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "angus",
+                "Agent": "Raze",
+                "R1.0": 1.058,
+                "ACS": 237,
+                "K": 17,
+                "D": 18,
+                "A": 3,
+                "PlusMinus": -1,
+                "KAST": 0.792,
+                "ADR": 169.7,
+                "HS%": 0.205,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "twon",
+                "Agent": "Viper",
+                "R1.0": 1.04,
+                "ACS": 249,
+                "K": 21,
+                "D": 19,
+                "A": 1,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 156.5,
+                "HS%": 0.167,
+                "FK": 5,
+                "FD": 4,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "tery",
+                "Agent": "Omen",
+                "R1.0": 0.812,
+                "ACS": 146,
+                "K": 14,
+                "D": 19,
+                "A": 7,
+                "PlusMinus": -5,
+                "KAST": 0.708,
+                "ADR": 101.3,
+                "HS%": 0.16,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "platy",
+                "Agent": "Chamber",
+                "R1.0": 0.804,
+                "ACS": 196,
+                "K": 17,
+                "D": 21,
+                "A": 1,
+                "PlusMinus": -4,
+                "KAST": 0.625,
+                "ADR": 118.3,
+                "HS%": 0.106,
+                "FK": 6,
+                "FD": 6,
+                "PlusMinus2": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=pNlX8vTW-A0"
   },
   {
     "id": "baka-vs-epy-s3-group-omega-2026-07-20",

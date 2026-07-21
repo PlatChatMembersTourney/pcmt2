@@ -356,8 +356,8 @@
   "C9": {
     "team": "C9",
     "teamName": "Clown9",
-    "overallAtkPct": 0.531,
-    "overallDefPct": 0.531,
+    "overallAtkPct": 0.534,
+    "overallDefPct": 0.546,
     "maps": [
       {
         "map": "Abyss",
@@ -401,7 +401,7 @@
       {
         "map": "Breeze",
         "pick": 0,
-        "ban": 3,
+        "ban": 4,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -439,16 +439,16 @@
       },
       {
         "map": "Haven",
-        "pick": 2,
+        "pick": 3,
         "ban": 1,
-        "played": 2,
-        "won": 1,
-        "winPct": 0.5,
-        "rounds": 48,
-        "roundsWon": 25,
-        "roundPct": 0.521,
-        "atkPct": 0.455,
-        "defPct": 0.577
+        "played": 3,
+        "won": 2,
+        "winPct": 0.667,
+        "rounds": 68,
+        "roundsWon": 38,
+        "roundPct": 0.559,
+        "atkPct": 0.5,
+        "defPct": 0.605
       },
       {
         "map": "Icebox",
@@ -467,14 +467,14 @@
         "map": "Lotus",
         "pick": 1,
         "ban": 0,
-        "played": 3,
-        "won": 1,
-        "winPct": 0.333,
-        "rounds": 71,
-        "roundsWon": 34,
-        "roundPct": 0.479,
-        "atkPct": 0.486,
-        "defPct": 0.472
+        "played": 4,
+        "won": 2,
+        "winPct": 0.5,
+        "rounds": 95,
+        "roundsWon": 47,
+        "roundPct": 0.495,
+        "atkPct": 0.489,
+        "defPct": 0.5
       },
       {
         "map": "Pearl",
@@ -492,7 +492,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1595,8 +1595,8 @@
   "RRQ": {
     "team": "RRQ",
     "teamName": "Rage Re-Queuers",
-    "overallAtkPct": 0.421,
-    "overallDefPct": 0.5,
+    "overallAtkPct": 0.407,
+    "overallDefPct": 0.489,
     "maps": [
       {
         "map": "Abyss",
@@ -1614,7 +1614,7 @@
       {
         "map": "Ascent",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1680,14 +1680,14 @@
         "map": "Haven",
         "pick": 0,
         "ban": 0,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 38,
-        "roundsWon": 12,
-        "roundPct": 0.316,
-        "atkPct": 0.286,
-        "defPct": 0.333
+        "rounds": 58,
+        "roundsWon": 19,
+        "roundPct": 0.328,
+        "atkPct": 0.308,
+        "defPct": 0.344
       },
       {
         "map": "Icebox",
@@ -1704,16 +1704,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 2,
+        "pick": 3,
         "ban": 0,
-        "played": 2,
+        "played": 3,
         "won": 2,
-        "winPct": 1.0,
-        "rounds": 37,
-        "roundsWon": 26,
-        "roundPct": 0.703,
-        "atkPct": 0.692,
-        "defPct": 0.708
+        "winPct": 0.667,
+        "rounds": 61,
+        "roundsWon": 37,
+        "roundPct": 0.607,
+        "atkPct": 0.56,
+        "defPct": 0.639
       },
       {
         "map": "Pearl",
@@ -1744,7 +1744,7 @@
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
