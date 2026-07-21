@@ -114,57 +114,73 @@
     }
   },
   "Haven": {
-    "mapsPlayed": 2,
-    "atkPct": 0.354,
-    "defPct": 0.646,
+    "mapsPlayed": 3,
+    "atkPct": 0.435,
+    "defPct": 0.565,
     "agents": [
       {
         "agent": "Omen",
-        "comps": 3,
-        "pickPct": 0.75
-      },
-      {
-        "agent": "Sova",
-        "comps": 3,
-        "pickPct": 0.75
-      },
-      {
-        "agent": "Killjoy",
-        "comps": 3,
-        "pickPct": 0.75
-      },
-      {
-        "agent": "Neon",
-        "comps": 2,
-        "pickPct": 0.5
+        "comps": 5,
+        "pickPct": 0.833
       },
       {
         "agent": "Phoenix",
-        "comps": 2,
-        "pickPct": 0.5
+        "comps": 4,
+        "pickPct": 0.667
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 4,
+        "pickPct": 0.667
+      },
+      {
+        "agent": "Sova",
+        "comps": 4,
+        "pickPct": 0.667
       },
       {
         "agent": "Jett",
-        "comps": 2,
+        "comps": 3,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 3,
         "pickPct": 0.5
       },
       {
         "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Tejo",
         "comps": 1,
-        "pickPct": 0.25
+        "pickPct": 0.167
       },
       {
         "agent": "Yoru",
         "comps": 1,
-        "pickPct": 0.25
+        "pickPct": 0.167
       },
       {
         "agent": "Viper",
         "comps": 1,
-        "pickPct": 0.25
+        "pickPct": 0.167
       }
     ],
     "teams": {
+      "HOT": {
+        "team": "HOT",
+        "teamName": "Honestly Outrageous Temperatures",
+        "agents": [
+          "Jett",
+          "Killjoy",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
       "LARP": {
         "team": "LARP",
         "teamName": "Larpiat\u00e1n",
@@ -177,6 +193,17 @@
           "Phoenix",
           "Sova",
           "Yoru"
+        ]
+      },
+      "NIP": {
+        "team": "NIP",
+        "teamName": "Name in Progress",
+        "agents": [
+          "Cypher",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Tejo"
         ]
       },
       "NOOT": {
@@ -204,57 +231,78 @@
     }
   },
   "Lotus": {
-    "mapsPlayed": 3,
-    "atkPct": 0.476,
-    "defPct": 0.524,
+    "mapsPlayed": 4,
+    "atkPct": 0.55,
+    "defPct": 0.45,
     "agents": [
       {
-        "agent": "Fade",
-        "comps": 4,
-        "pickPct": 0.667
-      },
-      {
         "agent": "Omen",
-        "comps": 4,
-        "pickPct": 0.667
+        "comps": 6,
+        "pickPct": 0.75
       },
       {
-        "agent": "Neon",
-        "comps": 3,
-        "pickPct": 0.5
+        "agent": "Fade",
+        "comps": 6,
+        "pickPct": 0.75
       },
       {
         "agent": "Vyse",
-        "comps": 3,
+        "comps": 5,
+        "pickPct": 0.625
+      },
+      {
+        "agent": "Neon",
+        "comps": 4,
         "pickPct": 0.5
       },
       {
         "agent": "Viper",
         "comps": 3,
-        "pickPct": 0.5
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Raze",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Tejo",
+        "comps": 1,
+        "pickPct": 0.125
       },
       {
         "agent": "Jett",
         "comps": 1,
-        "pickPct": 0.167
-      },
-      {
-        "agent": "Raze",
-        "comps": 1,
-        "pickPct": 0.167
+        "pickPct": 0.125
       },
       {
         "agent": "Cypher",
         "comps": 1,
-        "pickPct": 0.167
+        "pickPct": 0.125
       },
       {
         "agent": "Killjoy",
         "comps": 1,
-        "pickPct": 0.167
+        "pickPct": 0.125
       }
     ],
     "teams": {
+      "HOT": {
+        "team": "HOT",
+        "teamName": "Honestly Outrageous Temperatures",
+        "agents": [
+          "Fade",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Vyse"
+        ]
+      },
       "LARP": {
         "team": "LARP",
         "teamName": "Larpiat\u00e1n",
@@ -265,6 +313,17 @@
           "Neon",
           "Omen",
           "Viper"
+        ]
+      },
+      "NIP": {
+        "team": "NIP",
+        "teamName": "Name in Progress",
+        "agents": [
+          "Fade",
+          "Omen",
+          "Raze",
+          "Tejo",
+          "Vyse"
         ]
       },
       "NOOT": {
