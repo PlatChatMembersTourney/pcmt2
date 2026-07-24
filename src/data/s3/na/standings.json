@@ -79,6 +79,19 @@
       "rndDiff": 24
     },
     {
+      "abbr": "TL",
+      "name": "Team Dyslexia",
+      "matchW": 3,
+      "matchL": 2,
+      "mapW": 6,
+      "mapL": 6,
+      "rndW": 123,
+      "rndL": 130,
+      "rank": 7,
+      "mapDiff": 0,
+      "rndDiff": -7
+    },
+    {
       "abbr": "TS",
       "name": "Team Slugshow",
       "matchW": 2,
@@ -87,22 +100,9 @@
       "mapL": 0,
       "rndW": 52,
       "rndL": 35,
-      "rank": 7,
+      "rank": 8,
       "mapDiff": 4,
       "rndDiff": 17
-    },
-    {
-      "abbr": "TL",
-      "name": "Team Dyslexia",
-      "matchW": 2,
-      "matchL": 2,
-      "mapW": 4,
-      "mapL": 6,
-      "rndW": 94,
-      "rndL": 105,
-      "rank": 8,
-      "mapDiff": -2,
-      "rndDiff": -11
     },
     {
       "abbr": "100T",
@@ -131,19 +131,6 @@
       "rndDiff": -26
     },
     {
-      "abbr": "IHOP",
-      "name": "I Hate Odin Party",
-      "matchW": 1,
-      "matchL": 2,
-      "mapW": 3,
-      "mapL": 4,
-      "rndW": 74,
-      "rndL": 60,
-      "rank": 11,
-      "mapDiff": -1,
-      "rndDiff": 14
-    },
-    {
       "abbr": "SSG",
       "name": "Squirtle Squad Gaming",
       "matchW": 1,
@@ -152,9 +139,22 @@
       "mapL": 5,
       "rndW": 109,
       "rndL": 98,
-      "rank": 12,
+      "rank": 11,
       "mapDiff": -1,
       "rndDiff": 11
+    },
+    {
+      "abbr": "IHOP",
+      "name": "I Hate Odin Party",
+      "matchW": 1,
+      "matchL": 3,
+      "mapW": 3,
+      "mapL": 6,
+      "rndW": 99,
+      "rndL": 89,
+      "rank": 12,
+      "mapDiff": -3,
+      "rndDiff": 10
     },
     {
       "abbr": "RRQ",
@@ -252,28 +252,15 @@
     {
       "abbr": "TL",
       "name": "Team Dyslexia",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 2,
-      "mapW": 4,
+      "mapW": 6,
       "mapL": 6,
-      "rndW": 94,
-      "rndL": 105,
+      "rndW": 123,
+      "rndL": 130,
       "rank": 4,
-      "mapDiff": -2,
-      "rndDiff": -11
-    },
-    {
-      "abbr": "IHOP",
-      "name": "I Hate Odin Party",
-      "matchW": 1,
-      "matchL": 2,
-      "mapW": 3,
-      "mapL": 4,
-      "rndW": 74,
-      "rndL": 60,
-      "rank": 5,
-      "mapDiff": -1,
-      "rndDiff": 14
+      "mapDiff": 0,
+      "rndDiff": -7
     },
     {
       "abbr": "SSG",
@@ -284,9 +271,22 @@
       "mapL": 5,
       "rndW": 109,
       "rndL": 98,
-      "rank": 6,
+      "rank": 5,
       "mapDiff": -1,
       "rndDiff": 11
+    },
+    {
+      "abbr": "IHOP",
+      "name": "I Hate Odin Party",
+      "matchW": 1,
+      "matchL": 3,
+      "mapW": 3,
+      "mapL": 6,
+      "rndW": 99,
+      "rndL": 89,
+      "rank": 6,
+      "mapDiff": -3,
+      "rndDiff": 10
     },
     {
       "abbr": "RRQ",
