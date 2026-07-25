@@ -2,8 +2,8 @@
   "100T": {
     "team": "100T",
     "teamName": "100 Tony's",
-    "overallAtkPct": 0.443,
-    "overallDefPct": 0.556,
+    "overallAtkPct": 0.449,
+    "overallDefPct": 0.558,
     "maps": [
       {
         "map": "Abyss",
@@ -86,7 +86,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 3,
+        "ban": 4,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -112,7 +112,7 @@
       {
         "map": "Lotus",
         "pick": 1,
-        "ban": 0,
+        "ban": 1,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -137,7 +137,7 @@
       },
       {
         "map": "Split",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
         "played": 3,
         "won": 1,
@@ -165,14 +165,14 @@
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 20,
-        "roundsWon": 13,
-        "roundPct": 0.65,
-        "atkPct": 0.75,
-        "defPct": 0.5
+        "rounds": 44,
+        "roundsWon": 26,
+        "roundPct": 0.591,
+        "atkPct": 0.625,
+        "defPct": 0.55
       }
     ]
   },
@@ -2657,8 +2657,8 @@
   "TS": {
     "team": "TS",
     "teamName": "Team Slugshow",
-    "overallAtkPct": 0.585,
-    "overallDefPct": 0.609,
+    "overallAtkPct": 0.547,
+    "overallDefPct": 0.586,
     "maps": [
       {
         "map": "Abyss",
@@ -2676,7 +2676,7 @@
       {
         "map": "Ascent",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -2702,7 +2702,7 @@
       {
         "map": "Breeze",
         "pick": 1,
-        "ban": 0,
+        "ban": 1,
         "played": 1,
         "won": 1,
         "winPct": 1.0,
@@ -2818,16 +2818,16 @@
       },
       {
         "map": "Sunset",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 24,
+        "roundsWon": 11,
+        "roundPct": 0.458,
+        "atkPct": 0.417,
+        "defPct": 0.5
       }
     ]
   }

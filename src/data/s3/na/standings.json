@@ -92,30 +92,30 @@
       "rndDiff": -7
     },
     {
+      "abbr": "100T",
+      "name": "100 Tony's",
+      "matchW": 3,
+      "matchL": 3,
+      "mapW": 5,
+      "mapL": 7,
+      "rndW": 134,
+      "rndL": 131,
+      "rank": 8,
+      "mapDiff": -2,
+      "rndDiff": 3
+    },
+    {
       "abbr": "TS",
       "name": "Team Slugshow",
       "matchW": 2,
-      "matchL": 0,
+      "matchL": 1,
       "mapW": 4,
-      "mapL": 0,
-      "rndW": 52,
-      "rndL": 35,
-      "rank": 8,
-      "mapDiff": 4,
-      "rndDiff": 17
-    },
-    {
-      "abbr": "100T",
-      "name": "100 Tony's",
-      "matchW": 2,
-      "matchL": 3,
-      "mapW": 4,
-      "mapL": 7,
-      "rndW": 121,
-      "rndL": 120,
+      "mapL": 1,
+      "rndW": 63,
+      "rndL": 48,
       "rank": 9,
-      "mapDiff": -3,
-      "rndDiff": 1
+      "mapDiff": 3,
+      "rndDiff": 15
     },
     {
       "abbr": "BAKA",
@@ -356,30 +356,30 @@
       "rndDiff": 17
     },
     {
+      "abbr": "100T",
+      "name": "100 Tony's",
+      "matchW": 3,
+      "matchL": 3,
+      "mapW": 5,
+      "mapL": 7,
+      "rndW": 134,
+      "rndL": 131,
+      "rank": 4,
+      "mapDiff": -2,
+      "rndDiff": 3
+    },
+    {
       "abbr": "TS",
       "name": "Team Slugshow",
       "matchW": 2,
-      "matchL": 0,
+      "matchL": 1,
       "mapW": 4,
-      "mapL": 0,
-      "rndW": 52,
-      "rndL": 35,
-      "rank": 4,
-      "mapDiff": 4,
-      "rndDiff": 17
-    },
-    {
-      "abbr": "100T",
-      "name": "100 Tony's",
-      "matchW": 2,
-      "matchL": 3,
-      "mapW": 4,
-      "mapL": 7,
-      "rndW": 121,
-      "rndL": 120,
+      "mapL": 1,
+      "rndW": 63,
+      "rndL": 48,
       "rank": 5,
-      "mapDiff": -3,
-      "rndDiff": 1
+      "mapDiff": 3,
+      "rndDiff": 15
     },
     {
       "abbr": "BAKA",
