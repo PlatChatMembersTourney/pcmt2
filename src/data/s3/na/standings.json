@@ -1,6 +1,19 @@
 {
   "Overall": [
     {
+      "abbr": "SRB",
+      "name": "Sunshine and Rainbows",
+      "matchW": 5,
+      "matchL": 1,
+      "mapW": 11,
+      "mapL": 4,
+      "rndW": 180,
+      "rndL": 157,
+      "rank": 1,
+      "mapDiff": 7,
+      "rndDiff": 23
+    },
+    {
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
       "matchW": 4,
@@ -9,7 +22,7 @@
       "mapL": 2,
       "rndW": 144,
       "rndL": 89,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 7,
       "rndDiff": 55
     },
@@ -22,22 +35,9 @@
       "mapL": 2,
       "rndW": 119,
       "rndL": 96,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": 6,
       "rndDiff": 23
-    },
-    {
-      "abbr": "SRB",
-      "name": "Sunshine and Rainbows",
-      "matchW": 4,
-      "matchL": 1,
-      "mapW": 9,
-      "mapL": 4,
-      "rndW": 154,
-      "rndL": 138,
-      "rank": 3,
-      "mapDiff": 5,
-      "rndDiff": 16
     },
     {
       "abbr": "T1",
@@ -69,14 +69,14 @@
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 6,
-      "mapL": 2,
-      "rndW": 95,
-      "rndL": 71,
+      "mapL": 4,
+      "rndW": 114,
+      "rndL": 97,
       "rank": 6,
-      "mapDiff": 4,
-      "rndDiff": 24
+      "mapDiff": 2,
+      "rndDiff": 17
     },
     {
       "abbr": "TL",
@@ -317,6 +317,19 @@
   ],
   "Group Omega": [
     {
+      "abbr": "SRB",
+      "name": "Sunshine and Rainbows",
+      "matchW": 5,
+      "matchL": 1,
+      "mapW": 11,
+      "mapL": 4,
+      "rndW": 180,
+      "rndL": 157,
+      "rank": 1,
+      "mapDiff": 7,
+      "rndDiff": 23
+    },
+    {
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
       "matchW": 4,
@@ -325,35 +338,22 @@
       "mapL": 2,
       "rndW": 144,
       "rndL": 89,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 7,
       "rndDiff": 55
-    },
-    {
-      "abbr": "SRB",
-      "name": "Sunshine and Rainbows",
-      "matchW": 4,
-      "matchL": 1,
-      "mapW": 9,
-      "mapL": 4,
-      "rndW": 154,
-      "rndL": 138,
-      "rank": 2,
-      "mapDiff": 5,
-      "rndDiff": 16
     },
     {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 6,
-      "mapL": 2,
-      "rndW": 95,
-      "rndL": 71,
+      "mapL": 4,
+      "rndW": 114,
+      "rndL": 97,
       "rank": 3,
-      "mapDiff": 4,
-      "rndDiff": 24
+      "mapDiff": 2,
+      "rndDiff": 17
     },
     {
       "abbr": "TS",
