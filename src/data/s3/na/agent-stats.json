@@ -1306,84 +1306,84 @@
     }
   },
   "Split": {
-    "mapsPlayed": 6,
-    "atkPct": 0.464,
-    "defPct": 0.536,
+    "mapsPlayed": 7,
+    "atkPct": 0.478,
+    "defPct": 0.522,
     "agents": [
       {
         "agent": "Raze",
-        "comps": 8,
-        "pickPct": 0.667
+        "comps": 9,
+        "pickPct": 0.643
       },
       {
         "agent": "Omen",
-        "comps": 7,
-        "pickPct": 0.583
+        "comps": 8,
+        "pickPct": 0.571
       },
       {
         "agent": "Fade",
-        "comps": 5,
-        "pickPct": 0.417
+        "comps": 6,
+        "pickPct": 0.429
       },
       {
         "agent": "Cypher",
         "comps": 4,
-        "pickPct": 0.333
+        "pickPct": 0.286
       },
       {
         "agent": "Viper",
         "comps": 4,
-        "pickPct": 0.333
+        "pickPct": 0.286
       },
       {
         "agent": "Skye",
         "comps": 4,
-        "pickPct": 0.333
+        "pickPct": 0.286
       },
       {
         "agent": "Neon",
         "comps": 3,
-        "pickPct": 0.25
+        "pickPct": 0.214
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 2,
+        "pickPct": 0.143
+      },
+      {
+        "agent": "Sage",
+        "comps": 2,
+        "pickPct": 0.143
       },
       {
         "agent": "Waylay",
         "comps": 2,
-        "pickPct": 0.167
+        "pickPct": 0.143
       },
       {
         "agent": "Astra",
         "comps": 2,
-        "pickPct": 0.167
+        "pickPct": 0.143
       },
       {
         "agent": "Vyse",
         "comps": 2,
-        "pickPct": 0.167
-      },
-      {
-        "agent": "Phoenix",
-        "comps": 1,
-        "pickPct": 0.083
+        "pickPct": 0.143
       },
       {
         "agent": "Chamber",
         "comps": 1,
-        "pickPct": 0.083
+        "pickPct": 0.071
       },
       {
         "agent": "Jett",
         "comps": 1,
-        "pickPct": 0.083
+        "pickPct": 0.071
       },
       {
         "agent": "Clove",
         "comps": 1,
-        "pickPct": 0.083
-      },
-      {
-        "agent": "Sage",
-        "comps": 1,
-        "pickPct": 0.083
+        "pickPct": 0.071
       }
     ],
     "teams": {
@@ -1485,6 +1485,17 @@
           "Omen",
           "Phoenix",
           "Raze"
+        ]
+      },
+      "TS": {
+        "team": "TS",
+        "teamName": "Team Slugshow",
+        "agents": [
+          "Fade",
+          "Omen",
+          "Phoenix",
+          "Raze",
+          "Sage"
         ]
       }
     }
