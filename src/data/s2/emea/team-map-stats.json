@@ -710,8 +710,8 @@
   "NATS": {
     "team": "NATS",
     "teamName": "Never Available To Scrim",
-    "overallAtkPct": 0,
-    "overallDefPct": 0,
+    "overallAtkPct": 0.571,
+    "overallDefPct": 0.579,
     "maps": [
       {
         "map": "Abyss",
@@ -793,16 +793,16 @@
       },
       {
         "map": "Haven",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 26,
+        "roundsWon": 12,
+        "roundPct": 0.462,
+        "atkPct": 0.417,
+        "defPct": 0.5
       },
       {
         "map": "Icebox",
@@ -821,14 +821,14 @@
         "map": "Lotus",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 22,
+        "roundsWon": 13,
+        "roundPct": 0.591,
+        "atkPct": 0.7,
+        "defPct": 0.5
       },
       {
         "map": "Pearl",
@@ -846,7 +846,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -859,7 +859,7 @@
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -873,14 +873,14 @@
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 18,
+        "roundsWon": 13,
+        "roundPct": 0.722,
+        "atkPct": 0.667,
+        "defPct": 0.75
       }
     ]
   },
@@ -1241,8 +1241,8 @@
   "SEAL": {
     "team": "SEAL",
     "teamName": "Stay Seally",
-    "overallAtkPct": 0.355,
-    "overallDefPct": 0.633,
+    "overallAtkPct": 0.391,
+    "overallDefPct": 0.534,
     "maps": [
       {
         "map": "Abyss",
@@ -1260,7 +1260,7 @@
       {
         "map": "Ascent",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1286,7 +1286,7 @@
       {
         "map": "Breeze",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1326,14 +1326,14 @@
         "map": "Haven",
         "pick": 0,
         "ban": 0,
-        "played": 1,
-        "won": 0,
-        "winPct": 0.0,
-        "rounds": 30,
-        "roundsWon": 14,
-        "roundPct": 0.467,
-        "atkPct": 0.375,
-        "defPct": 0.571
+        "played": 2,
+        "won": 1,
+        "winPct": 0.5,
+        "rounds": 56,
+        "roundsWon": 28,
+        "roundPct": 0.5,
+        "atkPct": 0.433,
+        "defPct": 0.577
       },
       {
         "map": "Icebox",
@@ -1350,16 +1350,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 15,
-        "roundsWon": 13,
-        "roundPct": 0.867,
-        "atkPct": 1.0,
-        "defPct": 0.833
+        "winPct": 0.5,
+        "rounds": 37,
+        "roundsWon": 22,
+        "roundPct": 0.595,
+        "atkPct": 0.6,
+        "defPct": 0.591
       },
       {
         "map": "Pearl",
@@ -1404,14 +1404,14 @@
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 16,
-        "roundsWon": 3,
-        "roundPct": 0.188,
-        "atkPct": 0.167,
-        "defPct": 0.25
+        "rounds": 34,
+        "roundsWon": 8,
+        "roundPct": 0.235,
+        "atkPct": 0.208,
+        "defPct": 0.3
       }
     ]
   },

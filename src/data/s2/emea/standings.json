@@ -40,6 +40,19 @@
       "rndDiff": 4
     },
     {
+      "abbr": "NATS",
+      "name": "Never Available To Scrim",
+      "matchW": 1,
+      "matchL": 0,
+      "mapW": 2,
+      "mapL": 1,
+      "rndW": 38,
+      "rndL": 28,
+      "rank": 4,
+      "mapDiff": 1,
+      "rndDiff": 10
+    },
+    {
       "abbr": "NOOT",
       "name": "Penguin Patrol",
       "matchW": 1,
@@ -48,7 +61,7 @@
       "mapL": 2,
       "rndW": 49,
       "rndL": 41,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": 0,
       "rndDiff": 8
     },
@@ -61,7 +74,7 @@
       "mapL": 3,
       "rndW": 45,
       "rndL": 56,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": -1,
       "rndDiff": -11
     },
@@ -74,35 +87,9 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 6,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
-      "abbr": "NATS",
-      "name": "Never Available To Scrim",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
       "rank": 7,
       "mapDiff": 0,
       "rndDiff": 0
-    },
-    {
-      "abbr": "SEAL",
-      "name": "Stay Seally",
-      "matchW": 0,
-      "matchL": 1,
-      "mapW": 1,
-      "mapL": 2,
-      "rndW": 30,
-      "rndL": 31,
-      "rank": 8,
-      "mapDiff": -1,
-      "rndDiff": -1
     },
     {
       "abbr": "FaZe",
@@ -113,9 +100,22 @@
       "mapL": 2,
       "rndW": 29,
       "rndL": 34,
-      "rank": 9,
+      "rank": 8,
       "mapDiff": -1,
       "rndDiff": -5
+    },
+    {
+      "abbr": "SEAL",
+      "name": "Stay Seally",
+      "matchW": 0,
+      "matchL": 2,
+      "mapW": 2,
+      "mapL": 4,
+      "rndW": 58,
+      "rndL": 69,
+      "rank": 9,
+      "mapDiff": -2,
+      "rndDiff": -11
     },
     {
       "abbr": "HOT",
@@ -213,6 +213,19 @@
       "rndDiff": 4
     },
     {
+      "abbr": "NATS",
+      "name": "Never Available To Scrim",
+      "matchW": 1,
+      "matchL": 0,
+      "mapW": 2,
+      "mapL": 1,
+      "rndW": 38,
+      "rndL": 28,
+      "rank": 2,
+      "mapDiff": 1,
+      "rndDiff": 10
+    },
+    {
       "abbr": "NOOT",
       "name": "Penguin Patrol",
       "matchW": 1,
@@ -221,7 +234,7 @@
       "mapL": 2,
       "rndW": 49,
       "rndL": 41,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": 0,
       "rndDiff": 8
     },
@@ -234,35 +247,22 @@
       "mapL": 3,
       "rndW": 45,
       "rndL": 56,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": -1,
       "rndDiff": -11
-    },
-    {
-      "abbr": "NATS",
-      "name": "Never Available To Scrim",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 4,
-      "mapDiff": 0,
-      "rndDiff": 0
     },
     {
       "abbr": "SEAL",
       "name": "Stay Seally",
       "matchW": 0,
-      "matchL": 1,
-      "mapW": 1,
-      "mapL": 2,
-      "rndW": 30,
-      "rndL": 31,
+      "matchL": 2,
+      "mapW": 2,
+      "mapL": 4,
+      "rndW": 58,
+      "rndL": 69,
       "rank": 5,
-      "mapDiff": -1,
-      "rndDiff": -1
+      "mapDiff": -2,
+      "rndDiff": -11
     }
   ]
 }
