@@ -1,6 +1,19 @@
 {
   "Overall": [
     {
+      "abbr": "NIP",
+      "name": "Name in Progress",
+      "matchW": 2,
+      "matchL": 0,
+      "mapW": 4,
+      "mapL": 1,
+      "rndW": 57,
+      "rndL": 35,
+      "rank": 1,
+      "mapDiff": 3,
+      "rndDiff": 22
+    },
+    {
       "abbr": "ATLC",
       "name": "ATLNTIC Esports",
       "matchW": 2,
@@ -9,22 +22,9 @@
       "mapL": 1,
       "rndW": 61,
       "rndL": 52,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 3,
       "rndDiff": 9
-    },
-    {
-      "abbr": "NIP",
-      "name": "Name in Progress",
-      "matchW": 1,
-      "matchL": 0,
-      "mapW": 2,
-      "mapL": 0,
-      "rndW": 26,
-      "rndL": 12,
-      "rank": 2,
-      "mapDiff": 2,
-      "rndDiff": 14
     },
     {
       "abbr": "SOG",
@@ -79,19 +79,6 @@
       "rndDiff": -11
     },
     {
-      "abbr": "XTC",
-      "name": "Xually Terribly Cursed",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 7,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
       "abbr": "FaZe",
       "name": "Fabulous and Zesty",
       "matchW": 0,
@@ -100,9 +87,22 @@
       "mapL": 2,
       "rndW": 29,
       "rndL": 34,
-      "rank": 8,
+      "rank": 7,
       "mapDiff": -1,
       "rndDiff": -5
+    },
+    {
+      "abbr": "XTC",
+      "name": "Xually Terribly Cursed",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 1,
+      "mapL": 2,
+      "rndW": 23,
+      "rndL": 31,
+      "rank": 8,
+      "mapDiff": -1,
+      "rndDiff": -8
     },
     {
       "abbr": "SEAL",
@@ -133,6 +133,19 @@
   ],
   "Group Alpha": [
     {
+      "abbr": "NIP",
+      "name": "Name in Progress",
+      "matchW": 2,
+      "matchL": 0,
+      "mapW": 4,
+      "mapL": 1,
+      "rndW": 57,
+      "rndL": 35,
+      "rank": 1,
+      "mapDiff": 3,
+      "rndDiff": 22
+    },
+    {
       "abbr": "ATLC",
       "name": "ATLNTIC Esports",
       "matchW": 2,
@@ -141,35 +154,9 @@
       "mapL": 1,
       "rndW": 61,
       "rndL": 52,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 3,
       "rndDiff": 9
-    },
-    {
-      "abbr": "NIP",
-      "name": "Name in Progress",
-      "matchW": 1,
-      "matchL": 0,
-      "mapW": 2,
-      "mapL": 0,
-      "rndW": 26,
-      "rndL": 12,
-      "rank": 2,
-      "mapDiff": 2,
-      "rndDiff": 14
-    },
-    {
-      "abbr": "XTC",
-      "name": "Xually Terribly Cursed",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 3,
-      "mapDiff": 0,
-      "rndDiff": 0
     },
     {
       "abbr": "FaZe",
@@ -180,9 +167,22 @@
       "mapL": 2,
       "rndW": 29,
       "rndL": 34,
-      "rank": 4,
+      "rank": 3,
       "mapDiff": -1,
       "rndDiff": -5
+    },
+    {
+      "abbr": "XTC",
+      "name": "Xually Terribly Cursed",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 1,
+      "mapL": 2,
+      "rndW": 23,
+      "rndL": 31,
+      "rank": 4,
+      "mapDiff": -1,
+      "rndDiff": -8
     },
     {
       "abbr": "HOT",

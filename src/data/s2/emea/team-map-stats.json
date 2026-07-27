@@ -887,8 +887,8 @@
   "NIP": {
     "team": "NIP",
     "teamName": "Name in Progress",
-    "overallAtkPct": 0.857,
-    "overallDefPct": 0.471,
+    "overallAtkPct": 0.632,
+    "overallDefPct": 0.6,
     "maps": [
       {
         "map": "Abyss",
@@ -907,14 +907,14 @@
         "map": "Ascent",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 21,
+        "roundsWon": 13,
+        "roundPct": 0.619,
+        "atkPct": 0.5,
+        "defPct": 0.778
       },
       {
         "map": "Bind",
@@ -932,7 +932,7 @@
       {
         "map": "Breeze",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -970,15 +970,15 @@
       },
       {
         "map": "Haven",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 21,
-        "roundsWon": 13,
-        "roundPct": 0.619,
-        "atkPct": 0.778,
+        "winPct": 0.5,
+        "rounds": 39,
+        "roundsWon": 18,
+        "roundPct": 0.462,
+        "atkPct": 0.429,
         "defPct": 0.5
       },
       {
@@ -1037,19 +1037,19 @@
         "map": "Summit",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 15,
+        "roundsWon": 13,
+        "roundPct": 0.867,
+        "atkPct": 0.833,
+        "defPct": 1.0
       },
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1595,8 +1595,8 @@
   "XTC": {
     "team": "XTC",
     "teamName": "Xually Terribly Cursed",
-    "overallAtkPct": 0,
-    "overallDefPct": 0,
+    "overallAtkPct": 0.278,
+    "overallDefPct": 0.5,
     "maps": [
       {
         "map": "Abyss",
@@ -1613,16 +1613,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 21,
+        "roundsWon": 8,
+        "roundPct": 0.381,
+        "atkPct": 0.222,
+        "defPct": 0.5
       },
       {
         "map": "Bind",
@@ -1680,14 +1680,14 @@
         "map": "Haven",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 18,
+        "roundsWon": 13,
+        "roundPct": 0.722,
+        "atkPct": 0.5,
+        "defPct": 0.833
       },
       {
         "map": "Icebox",
@@ -1705,7 +1705,7 @@
       {
         "map": "Lotus",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1731,7 +1731,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1745,14 +1745,14 @@
         "map": "Summit",
         "pick": 0,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 15,
+        "roundsWon": 2,
+        "roundPct": 0.133,
+        "atkPct": 0.0,
+        "defPct": 0.167
       },
       {
         "map": "Sunset",
