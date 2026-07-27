@@ -887,8 +887,8 @@
   "FNC": {
     "team": "FNC",
     "teamName": "cow paulo FaN Club",
-    "overallAtkPct": 0.421,
-    "overallDefPct": 0.307,
+    "overallAtkPct": 0.405,
+    "overallDefPct": 0.346,
     "maps": [
       {
         "map": "Abyss",
@@ -907,14 +907,14 @@
         "map": "Ascent",
         "pick": 0,
         "ban": 1,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 30,
-        "roundsWon": 4,
-        "roundPct": 0.133,
+        "rounds": 52,
+        "roundsWon": 13,
+        "roundPct": 0.25,
         "atkPct": 0.333,
-        "defPct": 0.083
+        "defPct": 0.206
       },
       {
         "map": "Bind",
@@ -971,7 +971,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 2,
         "won": 0,
         "winPct": 0.0,
@@ -1022,21 +1022,21 @@
       },
       {
         "map": "Split",
-        "pick": 1,
+        "pick": 2,
         "ban": 2,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 19,
-        "roundsWon": 13,
-        "roundPct": 0.684,
-        "atkPct": 0.583,
-        "defPct": 0.857
+        "winPct": 0.5,
+        "rounds": 45,
+        "roundsWon": 25,
+        "roundPct": 0.556,
+        "atkPct": 0.462,
+        "defPct": 0.684
       },
       {
         "map": "Summit",
         "pick": 1,
-        "ban": 0,
+        "ban": 1,
         "played": 2,
         "won": 0,
         "winPct": 0.0,
@@ -1595,8 +1595,8 @@
   "RRQ": {
     "team": "RRQ",
     "teamName": "Rage Re-Queuers",
-    "overallAtkPct": 0.407,
-    "overallDefPct": 0.489,
+    "overallAtkPct": 0.417,
+    "overallDefPct": 0.525,
     "maps": [
       {
         "map": "Abyss",
@@ -1613,16 +1613,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 0,
+        "pick": 1,
         "ban": 3,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 22,
+        "roundsWon": 13,
+        "roundPct": 0.591,
+        "atkPct": 0.5,
+        "defPct": 0.667
       },
       {
         "map": "Bind",
@@ -1640,7 +1640,7 @@
       {
         "map": "Breeze",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1732,14 +1732,14 @@
         "map": "Split",
         "pick": 0,
         "ban": 0,
-        "played": 1,
-        "won": 0,
-        "winPct": 0.0,
-        "rounds": 36,
-        "roundsWon": 17,
-        "roundPct": 0.472,
-        "atkPct": 0.444,
-        "defPct": 0.5
+        "played": 2,
+        "won": 1,
+        "winPct": 0.5,
+        "rounds": 62,
+        "roundsWon": 31,
+        "roundPct": 0.5,
+        "atkPct": 0.433,
+        "defPct": 0.562
       },
       {
         "map": "Summit",
@@ -1757,7 +1757,7 @@
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,

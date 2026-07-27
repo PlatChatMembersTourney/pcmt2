@@ -144,6 +144,19 @@
       "rndDiff": 11
     },
     {
+      "abbr": "RRQ",
+      "name": "Rage Re-Queuers",
+      "matchW": 1,
+      "matchL": 3,
+      "mapW": 4,
+      "mapL": 6,
+      "rndW": 105,
+      "rndL": 116,
+      "rank": 12,
+      "mapDiff": -2,
+      "rndDiff": -11
+    },
+    {
       "abbr": "IHOP",
       "name": "I Hate Odin Party",
       "matchW": 1,
@@ -152,35 +165,9 @@
       "mapL": 6,
       "rndW": 99,
       "rndL": 89,
-      "rank": 12,
+      "rank": 13,
       "mapDiff": -3,
       "rndDiff": 10
-    },
-    {
-      "abbr": "RRQ",
-      "name": "Rage Re-Queuers",
-      "matchW": 0,
-      "matchL": 3,
-      "mapW": 2,
-      "mapL": 6,
-      "rndW": 78,
-      "rndL": 95,
-      "rank": 13,
-      "mapDiff": -4,
-      "rndDiff": -17
-    },
-    {
-      "abbr": "FNC",
-      "name": "cow paulo FaN Club",
-      "matchW": 0,
-      "matchL": 4,
-      "mapW": 3,
-      "mapL": 8,
-      "rndW": 75,
-      "rndL": 134,
-      "rank": 14,
-      "mapDiff": -5,
-      "rndDiff": -59
     },
     {
       "abbr": "DFM",
@@ -191,7 +178,7 @@
       "mapL": 8,
       "rndW": 74,
       "rndL": 121,
-      "rank": 15,
+      "rank": 14,
       "mapDiff": -6,
       "rndDiff": -47
     },
@@ -204,9 +191,22 @@
       "mapL": 8,
       "rndW": 71,
       "rndL": 111,
-      "rank": 16,
+      "rank": 15,
       "mapDiff": -7,
       "rndDiff": -40
+    },
+    {
+      "abbr": "FNC",
+      "name": "cow paulo FaN Club",
+      "matchW": 0,
+      "matchL": 5,
+      "mapW": 3,
+      "mapL": 10,
+      "rndW": 96,
+      "rndL": 161,
+      "rank": 16,
+      "mapDiff": -7,
+      "rndDiff": -65
     }
   ],
   "Group Alpha": [
@@ -276,6 +276,19 @@
       "rndDiff": 11
     },
     {
+      "abbr": "RRQ",
+      "name": "Rage Re-Queuers",
+      "matchW": 1,
+      "matchL": 3,
+      "mapW": 4,
+      "mapL": 6,
+      "rndW": 105,
+      "rndL": 116,
+      "rank": 6,
+      "mapDiff": -2,
+      "rndDiff": -11
+    },
+    {
       "abbr": "IHOP",
       "name": "I Hate Odin Party",
       "matchW": 1,
@@ -284,35 +297,22 @@
       "mapL": 6,
       "rndW": 99,
       "rndL": 89,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": -3,
       "rndDiff": 10
-    },
-    {
-      "abbr": "RRQ",
-      "name": "Rage Re-Queuers",
-      "matchW": 0,
-      "matchL": 3,
-      "mapW": 2,
-      "mapL": 6,
-      "rndW": 78,
-      "rndL": 95,
-      "rank": 7,
-      "mapDiff": -4,
-      "rndDiff": -17
     },
     {
       "abbr": "FNC",
       "name": "cow paulo FaN Club",
       "matchW": 0,
-      "matchL": 4,
+      "matchL": 5,
       "mapW": 3,
-      "mapL": 8,
-      "rndW": 75,
-      "rndL": 134,
+      "mapL": 10,
+      "rndW": 96,
+      "rndL": 161,
       "rank": 8,
-      "mapDiff": -5,
-      "rndDiff": -59
+      "mapDiff": -7,
+      "rndDiff": -65
     }
   ],
   "Group Omega": [
