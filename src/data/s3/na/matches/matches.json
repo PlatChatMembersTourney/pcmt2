@@ -1,5 +1,18 @@
 [
   {
+    "id": "srb-vs-ts-s3-group-omega-2026-07-28",
+    "team1": "SRB",
+    "team2": "TS",
+    "team1Name": "Sunshine and Rainbows",
+    "team2Name": "Team Slugshow",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-07-28T00:00:00Z",
+    "stage": "Group Omega"
+  },
+  {
     "id": "fnc-vs-rrq-s3-group-alpha-2026-07-26",
     "team1": "FNC",
     "team2": "RRQ",
