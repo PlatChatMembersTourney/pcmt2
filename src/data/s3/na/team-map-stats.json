@@ -1949,8 +1949,8 @@
   "SRB": {
     "team": "SRB",
     "teamName": "Sunshine and Rainbows",
-    "overallAtkPct": 0.572,
-    "overallDefPct": 0.494,
+    "overallAtkPct": 0.584,
+    "overallDefPct": 0.503,
     "maps": [
       {
         "map": "Abyss",
@@ -1995,14 +1995,14 @@
         "map": "Breeze",
         "pick": 0,
         "ban": 2,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 26,
+        "roundsWon": 14,
+        "roundPct": 0.538,
+        "atkPct": 0.667,
+        "defPct": 0.429
       },
       {
         "map": "Corrode",
@@ -2033,7 +2033,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 5,
+        "ban": 6,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -2097,21 +2097,21 @@
       },
       {
         "map": "Summit",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 17,
+        "roundsWon": 13,
+        "roundPct": 0.765,
+        "atkPct": 0.667,
+        "defPct": 1.0
       },
       {
         "map": "Sunset",
         "pick": 1,
-        "ban": 0,
+        "ban": 1,
         "played": 2,
         "won": 1,
         "winPct": 0.5,
@@ -2657,8 +2657,8 @@
   "TS": {
     "team": "TS",
     "teamName": "Team Slugshow",
-    "overallAtkPct": 0.583,
-    "overallDefPct": 0.586,
+    "overallAtkPct": 0.544,
+    "overallDefPct": 0.521,
     "maps": [
       {
         "map": "Abyss",
@@ -2676,7 +2676,7 @@
       {
         "map": "Ascent",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -2701,16 +2701,16 @@
       },
       {
         "map": "Breeze",
-        "pick": 1,
+        "pick": 2,
         "ban": 1,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 17,
-        "roundsWon": 13,
-        "roundPct": 0.765,
-        "atkPct": 0.8,
-        "defPct": 0.75
+        "winPct": 0.5,
+        "rounds": 43,
+        "roundsWon": 25,
+        "roundPct": 0.581,
+        "atkPct": 0.632,
+        "defPct": 0.542
       },
       {
         "map": "Corrode",
@@ -2793,7 +2793,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 1,
         "won": 1,
         "winPct": 1.0,
@@ -2807,14 +2807,14 @@
         "map": "Summit",
         "pick": 1,
         "ban": 0,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 24,
-        "roundsWon": 13,
-        "roundPct": 0.542,
-        "atkPct": 0.583,
-        "defPct": 0.5
+        "winPct": 0.5,
+        "rounds": 41,
+        "roundsWon": 17,
+        "roundPct": 0.415,
+        "atkPct": 0.412,
+        "defPct": 0.417
       },
       {
         "map": "Sunset",
