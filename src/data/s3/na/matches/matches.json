@@ -5,12 +5,1127 @@
     "team2": "DFM",
     "team1Name": "Beautiful and Kinda Adorable",
     "team2Name": "Dementia Found Me",
-    "score1": 0,
-    "score2": 0,
-    "completed": false,
+    "score1": 1,
+    "score2": 2,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-07-28T01:00:00Z",
-    "stage": "Group Omega"
+    "stage": "Group Omega",
+    "veto": "BAKA bans Lotus, DFM bans Ascent, BAKA picks Haven, DFM picks Breeze, BAKA bans Summit, DFM bans Split, Sunset remains",
+    "maps": [
+      {
+        "name": "Haven",
+        "score1": 5,
+        "score2": 13
+      },
+      {
+        "name": "Breeze",
+        "score1": 13,
+        "score2": 10
+      },
+      {
+        "name": "Sunset",
+        "score1": 8,
+        "score2": 13
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "BAKA",
+        "teamName": "Beautiful and Kinda Adorable",
+        "players": [
+          {
+            "Player": "lucas",
+            "R1.0": 1.276,
+            "ACS": 309,
+            "K": 66,
+            "D": 50,
+            "A": 11,
+            "PlusMinus": 16,
+            "KAST": 0.726,
+            "ADR": 191.8,
+            "HS%": 0.27,
+            "FK": 9,
+            "FD": 7,
+            "PlusMinus2": 2
+          },
+          {
+            "Player": "asher",
+            "R1.0": 0.947,
+            "ACS": 195,
+            "K": 39,
+            "D": 44,
+            "A": 18,
+            "PlusMinus": -5,
+            "KAST": 0.694,
+            "ADR": 132.7,
+            "HS%": 0.131,
+            "FK": 1,
+            "FD": 1,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "night",
+            "R1.0": 0.905,
+            "ACS": 190,
+            "K": 41,
+            "D": 48,
+            "A": 19,
+            "PlusMinus": -7,
+            "KAST": 0.645,
+            "ADR": 124.8,
+            "HS%": 0.262,
+            "FK": 2,
+            "FD": 7,
+            "PlusMinus2": -5
+          },
+          {
+            "Player": "tenyaku",
+            "R1.0": 0.798,
+            "ACS": 156,
+            "K": 36,
+            "D": 45,
+            "A": 13,
+            "PlusMinus": -9,
+            "KAST": 0.661,
+            "ADR": 98.0,
+            "HS%": 0.222,
+            "FK": 4,
+            "FD": 11,
+            "PlusMinus2": -7
+          },
+          {
+            "Player": "devil",
+            "R1.0": 0.621,
+            "ACS": 130,
+            "K": 28,
+            "D": 48,
+            "A": 2,
+            "PlusMinus": -20,
+            "KAST": 0.613,
+            "ADR": 86.3,
+            "HS%": 0.31,
+            "FK": 7,
+            "FD": 13,
+            "PlusMinus2": -6
+          }
+        ]
+      },
+      {
+        "team": "DFM",
+        "teamName": "Dementia Found Me",
+        "players": [
+          {
+            "Player": "Lazy",
+            "R1.0": 1.302,
+            "ACS": 240,
+            "K": 19,
+            "D": 10,
+            "A": 4,
+            "PlusMinus": 9,
+            "KAST": 0.857,
+            "ADR": 162.6,
+            "HS%": 0.281,
+            "FK": 2,
+            "FD": 1,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "longclaw",
+            "R1.0": 1.15,
+            "ACS": 224,
+            "K": 52,
+            "D": 39,
+            "A": 14,
+            "PlusMinus": 13,
+            "KAST": 0.807,
+            "ADR": 145.6,
+            "HS%": 0.27,
+            "FK": 8,
+            "FD": 1,
+            "PlusMinus2": 7
+          },
+          {
+            "Player": "angus",
+            "R1.0": 1.146,
+            "ACS": 245,
+            "K": 52,
+            "D": 47,
+            "A": 23,
+            "PlusMinus": 5,
+            "KAST": 0.774,
+            "ADR": 157.4,
+            "HS%": 0.269,
+            "FK": 13,
+            "FD": 8,
+            "PlusMinus2": 5
+          },
+          {
+            "Player": "hascan",
+            "R1.0": 1.083,
+            "ACS": 207,
+            "K": 42,
+            "D": 37,
+            "A": 23,
+            "PlusMinus": 5,
+            "KAST": 0.774,
+            "ADR": 139.6,
+            "HS%": 0.17,
+            "FK": 3,
+            "FD": 3,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "teklo",
+            "R1.0": 0.999,
+            "ACS": 216,
+            "K": 49,
+            "D": 46,
+            "A": 7,
+            "PlusMinus": 3,
+            "KAST": 0.726,
+            "ADR": 136.1,
+            "HS%": 0.331,
+            "FK": 10,
+            "FD": 9,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "masao",
+            "R1.0": 0.82,
+            "ACS": 156,
+            "K": 21,
+            "D": 31,
+            "A": 14,
+            "PlusMinus": -10,
+            "KAST": 0.756,
+            "ADR": 103.2,
+            "HS%": 0.166,
+            "FK": 3,
+            "FD": 1,
+            "PlusMinus2": 2
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Haven",
+        "score1": 5,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "BAKA",
+            "teamName": "Beautiful and Kinda Adorable",
+            "players": [
+              {
+                "Player": "tenyaku",
+                "Agent": "Neon",
+                "R1.0": 0.96,
+                "ACS": 207,
+                "K": 13,
+                "D": 14,
+                "A": 4,
+                "PlusMinus": -1,
+                "KAST": 0.722,
+                "ADR": 132.1,
+                "HS%": 0.268,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "asher",
+                "Agent": "Sova",
+                "R1.0": 0.91,
+                "ACS": 198,
+                "K": 10,
+                "D": 15,
+                "A": 8,
+                "PlusMinus": -5,
+                "KAST": 0.667,
+                "ADR": 144.9,
+                "HS%": 0.167,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "lucas",
+                "Agent": "Omen",
+                "R1.0": 0.828,
+                "ACS": 192,
+                "K": 13,
+                "D": 15,
+                "A": 4,
+                "PlusMinus": -2,
+                "KAST": 0.556,
+                "ADR": 109.5,
+                "HS%": 0.32,
+                "FK": 2,
+                "FD": 4,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "devil",
+                "Agent": "Chamber",
+                "R1.0": 0.678,
+                "ACS": 157,
+                "K": 10,
+                "D": 17,
+                "A": 0,
+                "PlusMinus": -7,
+                "KAST": 0.722,
+                "ADR": 104.8,
+                "HS%": 0.375,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "night",
+                "Agent": "Phoenix",
+                "R1.0": 0.671,
+                "ACS": 146,
+                "K": 8,
+                "D": 15,
+                "A": 6,
+                "PlusMinus": -7,
+                "KAST": 0.556,
+                "ADR": 97.8,
+                "HS%": 0.257,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              }
+            ]
+          },
+          {
+            "team": "DFM",
+            "teamName": "Dementia Found Me",
+            "players": [
+              {
+                "Player": "longclaw",
+                "Agent": "Omen",
+                "R1.0": 1.476,
+                "ACS": 299,
+                "K": 22,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": 12,
+                "KAST": 0.833,
+                "ADR": 181.6,
+                "HS%": 0.3,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4
+              },
+              {
+                "Player": "hascan",
+                "Agent": "Cypher",
+                "R1.0": 1.409,
+                "ACS": 285,
+                "K": 15,
+                "D": 9,
+                "A": 7,
+                "PlusMinus": 6,
+                "KAST": 0.944,
+                "ADR": 196.2,
+                "HS%": 0.188,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "angus",
+                "Agent": "Neon",
+                "R1.0": 1.344,
+                "ACS": 282,
+                "K": 20,
+                "D": 11,
+                "A": 6,
+                "PlusMinus": 9,
+                "KAST": 0.722,
+                "ADR": 161.2,
+                "HS%": 0.333,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "masao",
+                "Agent": "Sova",
+                "R1.0": 0.93,
+                "ACS": 168,
+                "K": 10,
+                "D": 12,
+                "A": 5,
+                "PlusMinus": -2,
+                "KAST": 0.889,
+                "ADR": 111.2,
+                "HS%": 0.059,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "teklo",
+                "Agent": "Yoru",
+                "R1.0": 0.795,
+                "ACS": 143,
+                "K": 9,
+                "D": 12,
+                "A": 3,
+                "PlusMinus": -3,
+                "KAST": 0.722,
+                "ADR": 100.7,
+                "HS%": 0.296,
+                "FK": 1,
+                "FD": 5,
+                "PlusMinus2": -4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Breeze",
+        "score1": 13,
+        "score2": 10,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 9,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 19,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 20,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 21,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 22,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 23,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "BAKA",
+            "teamName": "Beautiful and Kinda Adorable",
+            "players": [
+              {
+                "Player": "lucas",
+                "Agent": "Jett",
+                "R1.0": 1.709,
+                "ACS": 386,
+                "K": 31,
+                "D": 15,
+                "A": 4,
+                "PlusMinus": 16,
+                "KAST": 0.913,
+                "ADR": 253.2,
+                "HS%": 0.244,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "night",
+                "Agent": "Harbor",
+                "R1.0": 1.197,
+                "ACS": 242,
+                "K": 21,
+                "D": 16,
+                "A": 9,
+                "PlusMinus": 5,
+                "KAST": 0.739,
+                "ADR": 153.2,
+                "HS%": 0.278,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "asher",
+                "Agent": "Sova",
+                "R1.0": 0.968,
+                "ACS": 185,
+                "K": 14,
+                "D": 15,
+                "A": 6,
+                "PlusMinus": -1,
+                "KAST": 0.783,
+                "ADR": 127.0,
+                "HS%": 0.12,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "devil",
+                "Agent": "Chamber",
+                "R1.0": 0.739,
+                "ACS": 136,
+                "K": 12,
+                "D": 14,
+                "A": 1,
+                "PlusMinus": -2,
+                "KAST": 0.609,
+                "ADR": 88.6,
+                "HS%": 0.276,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "tenyaku",
+                "Agent": "Phoenix",
+                "R1.0": 0.727,
+                "ACS": 132,
+                "K": 12,
+                "D": 17,
+                "A": 6,
+                "PlusMinus": -5,
+                "KAST": 0.696,
+                "ADR": 75.8,
+                "HS%": 0.167,
+                "FK": 2,
+                "FD": 7,
+                "PlusMinus2": -5
+              }
+            ]
+          },
+          {
+            "team": "DFM",
+            "teamName": "Dementia Found Me",
+            "players": [
+              {
+                "Player": "teklo",
+                "Agent": "Yoru",
+                "R1.0": 1.028,
+                "ACS": 223,
+                "K": 18,
+                "D": 18,
+                "A": 3,
+                "PlusMinus": 0,
+                "KAST": 0.783,
+                "ADR": 147.4,
+                "HS%": 0.242,
+                "FK": 4,
+                "FD": 1,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "angus",
+                "Agent": "Jett",
+                "R1.0": 1.007,
+                "ACS": 226,
+                "K": 18,
+                "D": 19,
+                "A": 5,
+                "PlusMinus": -1,
+                "KAST": 0.739,
+                "ADR": 144.3,
+                "HS%": 0.255,
+                "FK": 6,
+                "FD": 6,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "hascan",
+                "Agent": "Harbor",
+                "R1.0": 0.972,
+                "ACS": 180,
+                "K": 15,
+                "D": 17,
+                "A": 10,
+                "PlusMinus": -2,
+                "KAST": 0.739,
+                "ADR": 124.1,
+                "HS%": 0.167,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "longclaw",
+                "Agent": "Viper",
+                "R1.0": 0.896,
+                "ACS": 188,
+                "K": 15,
+                "D": 17,
+                "A": 2,
+                "PlusMinus": -2,
+                "KAST": 0.696,
+                "ADR": 130.8,
+                "HS%": 0.278,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "masao",
+                "Agent": "Sova",
+                "R1.0": 0.734,
+                "ACS": 146,
+                "K": 11,
+                "D": 19,
+                "A": 9,
+                "PlusMinus": -8,
+                "KAST": 0.652,
+                "ADR": 97.0,
+                "HS%": 0.25,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sunset",
+        "score1": 8,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 20,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "BAKA",
+            "teamName": "Beautiful and Kinda Adorable",
+            "players": [
+              {
+                "Player": "lucas",
+                "Agent": "Yoru",
+                "R1.0": 1.185,
+                "ACS": 324,
+                "K": 22,
+                "D": 20,
+                "A": 3,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 195.2,
+                "HS%": 0.257,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "asher",
+                "Agent": "Fade",
+                "R1.0": 0.956,
+                "ACS": 202,
+                "K": 15,
+                "D": 14,
+                "A": 4,
+                "PlusMinus": 1,
+                "KAST": 0.619,
+                "ADR": 128.6,
+                "HS%": 0.113,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "night",
+                "Agent": "Omen",
+                "R1.0": 0.786,
+                "ACS": 171,
+                "K": 12,
+                "D": 17,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.619,
+                "ADR": 116.8,
+                "HS%": 0.25,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "tenyaku",
+                "Agent": "Waylay",
+                "R1.0": 0.737,
+                "ACS": 139,
+                "K": 11,
+                "D": 14,
+                "A": 3,
+                "PlusMinus": -3,
+                "KAST": 0.571,
+                "ADR": 93.0,
+                "HS%": 0.242,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "devil",
+                "Agent": "Chamber",
+                "R1.0": 0.445,
+                "ACS": 100,
+                "K": 6,
+                "D": 17,
+                "A": 1,
+                "PlusMinus": -11,
+                "KAST": 0.524,
+                "ADR": 68.0,
+                "HS%": 0.292,
+                "FK": 2,
+                "FD": 7,
+                "PlusMinus2": -5
+              }
+            ]
+          },
+          {
+            "team": "DFM",
+            "teamName": "Dementia Found Me",
+            "players": [
+              {
+                "Player": "Lazy",
+                "Agent": "Phoenix",
+                "R1.0": 1.302,
+                "ACS": 240,
+                "K": 19,
+                "D": 10,
+                "A": 4,
+                "PlusMinus": 9,
+                "KAST": 0.857,
+                "ADR": 162.6,
+                "HS%": 0.281,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "longclaw",
+                "Agent": "Fade",
+                "R1.0": 1.147,
+                "ACS": 199,
+                "K": 15,
+                "D": 12,
+                "A": 9,
+                "PlusMinus": 3,
+                "KAST": 0.905,
+                "ADR": 131.0,
+                "HS%": 0.235,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "teklo",
+                "Agent": "Yoru",
+                "R1.0": 1.143,
+                "ACS": 271,
+                "K": 22,
+                "D": 16,
+                "A": 1,
+                "PlusMinus": 6,
+                "KAST": 0.667,
+                "ADR": 154.0,
+                "HS%": 0.459,
+                "FK": 5,
+                "FD": 3,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "angus",
+                "Agent": "Omen",
+                "R1.0": 1.129,
+                "ACS": 233,
+                "K": 14,
+                "D": 17,
+                "A": 12,
+                "PlusMinus": -3,
+                "KAST": 0.857,
+                "ADR": 168.5,
+                "HS%": 0.23,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4
+              },
+              {
+                "Player": "hascan",
+                "Agent": "Cypher",
+                "R1.0": 0.925,
+                "ACS": 169,
+                "K": 12,
+                "D": 11,
+                "A": 6,
+                "PlusMinus": 1,
+                "KAST": 0.667,
+                "ADR": 108.0,
+                "HS%": 0.158,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=ElH_NLMjT2Q"
   },
   {
     "id": "srb-vs-ts-s3-group-omega-2026-07-28",
