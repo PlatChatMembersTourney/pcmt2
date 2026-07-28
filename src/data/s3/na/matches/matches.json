@@ -1,5 +1,18 @@
 [
   {
+    "id": "ssg-vs-fnc-s3-group-alpha-2026-08-01",
+    "team1": "SSG",
+    "team2": "FNC",
+    "team1Name": "Squirtle Squad Gaming",
+    "team2Name": "cow paulo FaN Club",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-08-01T20:00:00Z",
+    "stage": "Group Alpha"
+  },
+  {
     "id": "epy-vs-100t-s3-group-omega-2026-07-30",
     "team1": "EPY",
     "team2": "100T",
