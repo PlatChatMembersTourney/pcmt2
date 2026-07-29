@@ -107,50 +107,63 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 		columnHelper.group({
 			header: 'Rating',
 			columns: [
-				columnHelper.accessor((row) => Number(row['R1.0'].toFixed(2)), {
-					header: (info) => (
-						<CustomPopover
-							side={'bottom'}
-							content={
-								<div className="text-vlr-text-dark dark:text-vlr-text-light flex flex-col text-xs">
-									<p className="mb-1">I say "toxic", but really it's stolen (with some tweaks).</p>
-
-									<p>Specifically, from Mark Zhdan's </p>
-									<a
-										href="https://www.markzhdan.com/blogs/reverse-engineering-vlr-rating"
-										className="mb-2 underline"
-									>
-										attempt to reverse engineer VLR's Rating 2.0.
-									</a>
-
-									<p className="mb-1">The formula:</p>
-									<p className="text-black dark:text-white">
-										0.898 * KPR + 0.228 * APR + 0.0025 * ADRa
-									</p>
-									<p className="mb-1 text-black dark:text-white">+ 0.313 * KAST + 0.295</p>
-									<p>(ADRa = [(ADR * Rounds) - (140 * Kills)] / Rounds)</p>
-								</div>
-							}
-							title={"Toxic's Rating"}
-							hover={true}
-						>
-							<span className="border-vlr-text-dark dark:border-vlr-text-light border-b-2 border-dotted px-0.5">
-								Toxic
-							</span>
-						</CustomPopover>
-					),
-					id: 'Toxic',
-					cell: ({ getValue }) => {
-						return getValue().toFixed(2);
+				columnHelper.accessor(
+					(row) => {
+						let tr = row['R1.0'];
+						// doing this messes up the ordering, since unmodified toxic rating is the default sort
+						// implement this in the calculation for toxic rating itself
+						// if (row.MP <= 3 && !row.eventId?.includes('showmatch')) {
+						// 	tr = tr * 0.8;
+						// }
+						return tr;
 					},
-				}),
+					{
+						header: (info) => (
+							<CustomPopover
+								side={'bottom'}
+								content={
+									<div className="text-vlr-text-dark dark:text-vlr-text-light flex flex-col text-xs">
+										<p className="mb-1">
+											I say "toxic", but really it's stolen (with some tweaks).
+										</p>
+
+										<p>Specifically, from Mark Zhdan's </p>
+										<a
+											href="https://www.markzhdan.com/blogs/reverse-engineering-vlr-rating"
+											className="mb-2 underline"
+										>
+											attempt to reverse engineer VLR's Rating 2.0.
+										</a>
+
+										<p className="mb-1">The formula:</p>
+										<p className="text-black dark:text-white">
+											0.898 * KPR + 0.228 * APR + 0.0025 * ADRa
+										</p>
+										<p className="mb-1 text-black dark:text-white">+ 0.313 * KAST + 0.295</p>
+										<p>(ADRa = [(ADR * Rounds) - (140 * Kills)] / Rounds)</p>
+									</div>
+								}
+								title={"Toxic's Rating"}
+								hover={true}
+							>
+								<span className="border-vlr-text-dark dark:border-vlr-text-light border-b-2 border-dotted px-0.5">
+									Toxic
+								</span>
+							</CustomPopover>
+						),
+						id: 'Toxic',
+						cell: ({ getValue }) => {
+							return getValue().toFixed(2);
+						},
+					}
+				),
 				columnHelper.accessor(
 					(row) => {
 						let ar = angusRating(row, row.Rounds);
 						if (row.MP <= 3 && !row.eventId?.includes('showmatch')) {
 							ar = ar * 0.8;
 						}
-						return Number(ar.toFixed(2));
+						return ar;
 					},
 					{
 						header: (info) => (
