@@ -2,8 +2,8 @@
   "100T": {
     "team": "100T",
     "teamName": "100 Tony's",
-    "overallAtkPct": 0.446,
-    "overallDefPct": 0.538,
+    "overallAtkPct": 0.45,
+    "overallDefPct": 0.516,
     "maps": [
       {
         "map": "Abyss",
@@ -152,14 +152,14 @@
         "map": "Summit",
         "pick": 0,
         "ban": 2,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 20,
+        "roundsWon": 7,
+        "roundPct": 0.35,
+        "atkPct": 0.5,
+        "defPct": 0.125
       },
       {
         "map": "Sunset",
@@ -2657,8 +2657,8 @@
   "TS": {
     "team": "TS",
     "teamName": "Team Slugshow",
-    "overallAtkPct": 0.544,
-    "overallDefPct": 0.521,
+    "overallAtkPct": 0.575,
+    "overallDefPct": 0.519,
     "maps": [
       {
         "map": "Abyss",
@@ -2807,14 +2807,14 @@
         "map": "Summit",
         "pick": 1,
         "ban": 0,
-        "played": 2,
-        "won": 1,
-        "winPct": 0.5,
-        "rounds": 41,
-        "roundsWon": 17,
-        "roundPct": 0.415,
-        "atkPct": 0.412,
-        "defPct": 0.417
+        "played": 3,
+        "won": 2,
+        "winPct": 0.667,
+        "rounds": 61,
+        "roundsWon": 30,
+        "roundPct": 0.492,
+        "atkPct": 0.56,
+        "defPct": 0.444
       },
       {
         "map": "Sunset",

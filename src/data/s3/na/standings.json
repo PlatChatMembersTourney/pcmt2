@@ -66,6 +66,19 @@
       "rndDiff": 24
     },
     {
+      "abbr": "TS",
+      "name": "Team Slugshow",
+      "matchW": 3,
+      "matchL": 1,
+      "mapW": 6,
+      "mapL": 3,
+      "rndW": 105,
+      "rndL": 88,
+      "rank": 6,
+      "mapDiff": 3,
+      "rndDiff": 17
+    },
+    {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
@@ -74,7 +87,7 @@
       "mapL": 4,
       "rndW": 114,
       "rndL": 97,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": 2,
       "rndDiff": 17
     },
@@ -87,35 +100,22 @@
       "mapL": 6,
       "rndW": 123,
       "rndL": 130,
-      "rank": 7,
+      "rank": 8,
       "mapDiff": 0,
       "rndDiff": -7
-    },
-    {
-      "abbr": "TS",
-      "name": "Team Slugshow",
-      "matchW": 2,
-      "matchL": 1,
-      "mapW": 5,
-      "mapL": 3,
-      "rndW": 92,
-      "rndL": 81,
-      "rank": 8,
-      "mapDiff": 2,
-      "rndDiff": 11
     },
     {
       "abbr": "100T",
       "name": "100 Tony's",
       "matchW": 2,
-      "matchL": 3,
+      "matchL": 4,
       "mapW": 5,
-      "mapL": 8,
-      "rndW": 140,
-      "rndL": 144,
+      "mapL": 9,
+      "rndW": 147,
+      "rndL": 157,
       "rank": 9,
-      "mapDiff": -3,
-      "rndDiff": -4
+      "mapDiff": -4,
+      "rndDiff": -10
     },
     {
       "abbr": "BAKA",
@@ -343,6 +343,19 @@
       "rndDiff": 55
     },
     {
+      "abbr": "TS",
+      "name": "Team Slugshow",
+      "matchW": 3,
+      "matchL": 1,
+      "mapW": 6,
+      "mapL": 3,
+      "rndW": 105,
+      "rndL": 88,
+      "rank": 3,
+      "mapDiff": 3,
+      "rndDiff": 17
+    },
+    {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
@@ -351,35 +364,22 @@
       "mapL": 4,
       "rndW": 114,
       "rndL": 97,
-      "rank": 3,
-      "mapDiff": 2,
-      "rndDiff": 17
-    },
-    {
-      "abbr": "TS",
-      "name": "Team Slugshow",
-      "matchW": 2,
-      "matchL": 1,
-      "mapW": 5,
-      "mapL": 3,
-      "rndW": 92,
-      "rndL": 81,
       "rank": 4,
       "mapDiff": 2,
-      "rndDiff": 11
+      "rndDiff": 17
     },
     {
       "abbr": "100T",
       "name": "100 Tony's",
       "matchW": 2,
-      "matchL": 3,
+      "matchL": 4,
       "mapW": 5,
-      "mapL": 8,
-      "rndW": 140,
-      "rndL": 144,
+      "mapL": 9,
+      "rndW": 147,
+      "rndL": 157,
       "rank": 5,
-      "mapDiff": -3,
-      "rndDiff": -4
+      "mapDiff": -4,
+      "rndDiff": -10
     },
     {
       "abbr": "BAKA",

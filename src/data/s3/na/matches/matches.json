@@ -26,19 +26,6 @@
     "stage": "Group Omega"
   },
   {
-    "id": "tl-vs-navi-s3-playoffs-2026-07-30",
-    "team1": "TL",
-    "team2": "NAVI",
-    "team1Name": "Team Dyslexia",
-    "team2Name": "No Actual Valorant Intelligence",
-    "score1": 0,
-    "score2": 0,
-    "completed": false,
-    "bestOf": 5,
-    "date": "2026-07-30T03:00:00Z",
-    "stage": "Playoffs"
-  },
-  {
     "id": "ihop-vs-c9-s3-group-alpha-2026-07-30",
     "team1": "IHOP",
     "team2": "C9",
@@ -3666,7 +3653,7 @@
     "team2": "100T",
     "team1Name": "Team Slugshow",
     "team2Name": "100 Tony's",
-    "score1": 1,
+    "score1": 2,
     "score2": 1,
     "completed": true,
     "bestOf": 3,
@@ -3683,6 +3670,11 @@
         "name": "Split",
         "score1": 13,
         "score2": 6
+      },
+      {
+        "name": "Summit",
+        "score1": 13,
+        "score2": 7
       }
     ],
     "combinedStats": [
@@ -3692,33 +3684,63 @@
         "players": [
           {
             "Player": "avi",
-            "R1.0": 1.263,
-            "ACS": 261,
-            "K": 47,
-            "D": 32,
-            "A": 7,
-            "PlusMinus": 15,
-            "KAST": 0.768,
-            "ADR": 165.9,
-            "HS%": 0.312,
-            "FK": 8,
-            "FD": 7,
+            "R1.0": 1.294,
+            "ACS": 278,
+            "K": 65,
+            "D": 45,
+            "A": 15,
+            "PlusMinus": 20,
+            "KAST": 0.772,
+            "ADR": 179.0,
+            "HS%": 0.318,
+            "FK": 11,
+            "FD": 10,
             "PlusMinus2": 1
           },
           {
             "Player": "dino",
-            "R1.0": 1.17,
-            "ACS": 204,
-            "K": 42,
-            "D": 29,
-            "A": 12,
-            "PlusMinus": 13,
-            "KAST": 0.744,
-            "ADR": 134.4,
-            "HS%": 0.346,
+            "R1.0": 1.075,
+            "ACS": 197,
+            "K": 55,
+            "D": 43,
+            "A": 13,
+            "PlusMinus": 12,
+            "KAST": 0.732,
+            "ADR": 129.1,
+            "HS%": 0.344,
+            "FK": 4,
+            "FD": 7,
+            "PlusMinus2": -3
+          },
+          {
+            "Player": "Lore",
+            "R1.0": 0.95,
+            "ACS": 140,
+            "K": 13,
+            "D": 10,
+            "A": 6,
+            "PlusMinus": 3,
+            "KAST": 0.71,
+            "ADR": 90.0,
+            "HS%": 0.12,
             "FK": 2,
-            "FD": 4,
-            "PlusMinus2": -2
+            "FD": 1,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "straight",
+            "R1.0": 1.074,
+            "ACS": 192,
+            "K": 46,
+            "D": 43,
+            "A": 25,
+            "PlusMinus": 3,
+            "KAST": 0.749,
+            "ADR": 140.3,
+            "HS%": 0.113,
+            "FK": 6,
+            "FD": 6,
+            "PlusMinus2": 0
           },
           {
             "Player": "Ceiliuir",
@@ -3736,34 +3758,19 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "straight",
-            "R1.0": 0.96,
-            "ACS": 164,
-            "K": 25,
-            "D": 31,
-            "A": 20,
-            "PlusMinus": -6,
-            "KAST": 0.744,
-            "ADR": 128.1,
-            "HS%": 0.092,
-            "FK": 4,
-            "FD": 5,
-            "PlusMinus2": -1
-          },
-          {
             "Player": "pants",
-            "R1.0": 0.753,
-            "ACS": 114,
-            "K": 19,
-            "D": 30,
-            "A": 17,
-            "PlusMinus": -11,
-            "KAST": 0.791,
-            "ADR": 72.2,
-            "HS%": 0.141,
-            "FK": 3,
+            "R1.0": 0.711,
+            "ACS": 117,
+            "K": 23,
+            "D": 42,
+            "A": 23,
+            "PlusMinus": -19,
+            "KAST": 0.746,
+            "ADR": 75.5,
+            "HS%": 0.153,
+            "FK": 4,
             "FD": 4,
-            "PlusMinus2": -1
+            "PlusMinus2": 0
           }
         ]
       },
@@ -3773,78 +3780,78 @@
         "players": [
           {
             "Player": "abstracq",
-            "R1.0": 1.085,
-            "ACS": 222,
-            "K": 34,
-            "D": 33,
-            "A": 13,
-            "PlusMinus": 1,
-            "KAST": 0.768,
-            "ADR": 152.1,
-            "HS%": 0.249,
-            "FK": 6,
-            "FD": 4,
+            "R1.0": 1.099,
+            "ACS": 233,
+            "K": 51,
+            "D": 48,
+            "A": 15,
+            "PlusMinus": 3,
+            "KAST": 0.759,
+            "ADR": 159.6,
+            "HS%": 0.256,
+            "FK": 8,
+            "FD": 6,
             "PlusMinus2": 2
           },
           {
             "Player": "psyclone",
-            "R1.0": 1.0,
-            "ACS": 237,
-            "K": 34,
-            "D": 35,
-            "A": 6,
+            "R1.0": 1.036,
+            "ACS": 238,
+            "K": 50,
+            "D": 48,
+            "A": 10,
+            "PlusMinus": 2,
+            "KAST": 0.741,
+            "ADR": 147.6,
+            "HS%": 0.275,
+            "FK": 16,
+            "FD": 10,
+            "PlusMinus2": 6
+          },
+          {
+            "Player": "shadow",
+            "R1.0": 0.936,
+            "ACS": 179,
+            "K": 43,
+            "D": 44,
+            "A": 10,
             "PlusMinus": -1,
-            "KAST": 0.744,
-            "ADR": 144.2,
-            "HS%": 0.278,
-            "FK": 12,
+            "KAST": 0.711,
+            "ADR": 124.4,
+            "HS%": 0.163,
+            "FK": 4,
             "FD": 5,
-            "PlusMinus2": 7
+            "PlusMinus2": -1
           },
           {
             "Player": "xyn",
-            "R1.0": 0.928,
-            "ACS": 160,
-            "K": 26,
-            "D": 31,
-            "A": 19,
-            "PlusMinus": -5,
-            "KAST": 0.768,
-            "ADR": 109.3,
+            "R1.0": 0.901,
+            "ACS": 167,
+            "K": 36,
+            "D": 45,
+            "A": 23,
+            "PlusMinus": -9,
+            "KAST": 0.749,
+            "ADR": 113.8,
             "HS%": 0.16,
             "FK": 0,
             "FD": 2,
             "PlusMinus2": -2
           },
           {
-            "Player": "shadow",
-            "R1.0": 0.874,
-            "ACS": 169,
-            "K": 28,
-            "D": 32,
-            "A": 5,
-            "PlusMinus": -4,
-            "KAST": 0.721,
-            "ADR": 117.1,
-            "HS%": 0.155,
-            "FK": 2,
-            "FD": 4,
-            "PlusMinus2": -2
-          },
-          {
             "Player": "catsmeow",
-            "R1.0": 0.85,
-            "ACS": 143,
-            "K": 25,
-            "D": 31,
-            "A": 10,
-            "PlusMinus": -6,
-            "KAST": 0.837,
-            "ADR": 93.8,
-            "HS%": 0.237,
+            "R1.0": 0.761,
+            "ACS": 131,
+            "K": 28,
+            "D": 45,
+            "A": 14,
+            "PlusMinus": -17,
+            "KAST": 0.8,
+            "ADR": 92.6,
+            "HS%": 0.228,
             "FK": 1,
-            "FD": 2,
-            "PlusMinus2": -1
+            "FD": 4,
+            "PlusMinus2": -3
           }
         ]
       }
@@ -4465,6 +4472,307 @@
                 "FK": 0,
                 "FD": 0,
                 "PlusMinus2": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Summit",
+        "score1": 13,
+        "score2": 7,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 20,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "TS",
+            "teamName": "Team Slugshow",
+            "players": [
+              {
+                "Player": "avi",
+                "Agent": "Phoenix",
+                "R1.0": 1.36,
+                "ACS": 315,
+                "K": 18,
+                "D": 13,
+                "A": 8,
+                "PlusMinus": 5,
+                "KAST": 0.78,
+                "ADR": 207.3,
+                "HS%": 0.33,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "straight",
+                "Agent": "Jett",
+                "R1.0": 1.321,
+                "ACS": 252,
+                "K": 21,
+                "D": 12,
+                "A": 5,
+                "PlusMinus": 9,
+                "KAST": 0.76,
+                "ADR": 166.6,
+                "HS%": 0.16,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "dino",
+                "Agent": "Omen",
+                "R1.0": 0.872,
+                "ACS": 182,
+                "K": 13,
+                "D": 14,
+                "A": 1,
+                "PlusMinus": -1,
+                "KAST": 0.708,
+                "ADR": 117.7,
+                "HS%": 0.34,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "Lore",
+                "Agent": "Sage",
+                "R1.0": 0.95,
+                "ACS": 140,
+                "K": 13,
+                "D": 10,
+                "A": 6,
+                "PlusMinus": 3,
+                "KAST": 0.71,
+                "ADR": 90.0,
+                "HS%": 0.12,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "pants",
+                "Agent": "Sova",
+                "R1.0": 0.622,
+                "ACS": 123,
+                "K": 4,
+                "D": 12,
+                "A": 6,
+                "PlusMinus": -8,
+                "KAST": 0.65,
+                "ADR": 82.4,
+                "HS%": 0.18,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              }
+            ]
+          },
+          {
+            "team": "100T",
+            "teamName": "100 Tony's",
+            "players": [
+              {
+                "Player": "abstracq",
+                "Agent": "Neon",
+                "R1.0": 1.129,
+                "ACS": 257,
+                "K": 17,
+                "D": 15,
+                "A": 2,
+                "PlusMinus": 2,
+                "KAST": 0.74,
+                "ADR": 175.6,
+                "HS%": 0.27,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "psyclone",
+                "Agent": "Chamber",
+                "R1.0": 1.113,
+                "ACS": 239,
+                "K": 16,
+                "D": 13,
+                "A": 4,
+                "PlusMinus": 3,
+                "KAST": 0.733,
+                "ADR": 155.1,
+                "HS%": 0.27,
+                "FK": 4,
+                "FD": 5,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "xyn",
+                "Agent": "Astra",
+                "R1.0": 0.842,
+                "ACS": 184,
+                "K": 10,
+                "D": 14,
+                "A": 4,
+                "PlusMinus": -4,
+                "KAST": 0.71,
+                "ADR": 123.4,
+                "HS%": 0.16,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "shadow",
+                "Agent": "Phoenix",
+                "R1.0": 1.069,
+                "ACS": 199,
+                "K": 15,
+                "D": 12,
+                "A": 5,
+                "PlusMinus": 3,
+                "KAST": 0.69,
+                "ADR": 140,
+                "HS%": 0.18,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "catsmeow",
+                "Agent": "Fade",
+                "R1.0": 0.569,
+                "ACS": 106,
+                "K": 3,
+                "D": 14,
+                "A": 4,
+                "PlusMinus": -11,
+                "KAST": 0.72,
+                "ADR": 90,
+                "HS%": 0.21,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
               }
             ]
           }
