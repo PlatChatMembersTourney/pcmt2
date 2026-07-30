@@ -1,73 +1,73 @@
 {
   "Ascent": {
-    "mapsPlayed": 4,
-    "atkPct": 0.573,
-    "defPct": 0.427,
+    "mapsPlayed": 5,
+    "atkPct": 0.555,
+    "defPct": 0.445,
     "agents": [
       {
         "agent": "Omen",
         "comps": 7,
-        "pickPct": 0.875
+        "pickPct": 0.7
       },
       {
         "agent": "Sova",
         "comps": 6,
-        "pickPct": 0.75
+        "pickPct": 0.6
       },
       {
         "agent": "Jett",
         "comps": 5,
-        "pickPct": 0.625
+        "pickPct": 0.5
       },
       {
         "agent": "Phoenix",
         "comps": 4,
-        "pickPct": 0.5
+        "pickPct": 0.4
       },
       {
         "agent": "Vyse",
         "comps": 3,
-        "pickPct": 0.375
+        "pickPct": 0.3
+      },
+      {
+        "agent": "KAY/O",
+        "comps": 2,
+        "pickPct": 0.2
       },
       {
         "agent": "Neon",
         "comps": 2,
-        "pickPct": 0.25
+        "pickPct": 0.2
+      },
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 0.2
       },
       {
         "agent": "Killjoy",
         "comps": 2,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Cypher",
-        "comps": 1,
-        "pickPct": 0.125
-      },
-      {
-        "agent": "Yoru",
-        "comps": 1,
-        "pickPct": 0.125
+        "pickPct": 0.2
       },
       {
         "agent": "Tejo",
         "comps": 1,
-        "pickPct": 0.125
+        "pickPct": 0.1
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.1
       },
       {
         "agent": "Sage",
         "comps": 1,
-        "pickPct": 0.125
+        "pickPct": 0.1
       },
       {
         "agent": "Chamber",
         "comps": 1,
-        "pickPct": 0.125
-      },
-      {
-        "agent": "KAY/O",
-        "comps": 1,
-        "pickPct": 0.125
+        "pickPct": 0.1
       }
     ],
     "teams": {
@@ -108,6 +108,8 @@
         "team": "NIP",
         "teamName": "Name in Progress",
         "agents": [
+          "Cypher",
+          "KAY/O",
           "Neon",
           "Omen",
           "Phoenix",
@@ -296,67 +298,83 @@
     }
   },
   "Lotus": {
-    "mapsPlayed": 5,
-    "atkPct": 0.559,
-    "defPct": 0.441,
+    "mapsPlayed": 6,
+    "atkPct": 0.567,
+    "defPct": 0.433,
     "agents": [
       {
-        "agent": "Omen",
-        "comps": 7,
-        "pickPct": 0.7
+        "agent": "Fade",
+        "comps": 8,
+        "pickPct": 0.667
       },
       {
-        "agent": "Fade",
-        "comps": 7,
-        "pickPct": 0.7
+        "agent": "Omen",
+        "comps": 8,
+        "pickPct": 0.667
       },
       {
         "agent": "Vyse",
-        "comps": 5,
+        "comps": 6,
         "pickPct": 0.5
       },
       {
         "agent": "Neon",
         "comps": 5,
-        "pickPct": 0.5
+        "pickPct": 0.417
       },
       {
         "agent": "Viper",
         "comps": 4,
-        "pickPct": 0.4
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Raze",
+        "comps": 3,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Jett",
+        "comps": 2,
+        "pickPct": 0.167
       },
       {
         "agent": "Cypher",
         "comps": 2,
-        "pickPct": 0.2
-      },
-      {
-        "agent": "Raze",
-        "comps": 2,
-        "pickPct": 0.2
-      },
-      {
-        "agent": "Phoenix",
-        "comps": 1,
-        "pickPct": 0.1
+        "pickPct": 0.167
       },
       {
         "agent": "Tejo",
         "comps": 1,
-        "pickPct": 0.1
+        "pickPct": 0.083
       },
       {
-        "agent": "Jett",
+        "agent": "Chamber",
         "comps": 1,
-        "pickPct": 0.1
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.083
       },
       {
         "agent": "Killjoy",
         "comps": 1,
-        "pickPct": 0.1
+        "pickPct": 0.083
       }
     ],
     "teams": {
+      "FaZe": {
+        "team": "FaZe",
+        "teamName": "Fabulous and Zesty",
+        "agents": [
+          "Fade",
+          "Jett",
+          "Omen",
+          "Raze",
+          "Vyse"
+        ]
+      },
       "HOT": {
         "team": "HOT",
         "teamName": "Honestly Outrageous Temperatures",
@@ -395,6 +413,7 @@
         "team": "NIP",
         "teamName": "Name in Progress",
         "agents": [
+          "Chamber",
           "Fade",
           "Omen",
           "Raze",

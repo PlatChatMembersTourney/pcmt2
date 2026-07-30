@@ -1,19 +1,6 @@
 {
   "Overall": [
     {
-      "abbr": "NIP",
-      "name": "Name in Progress",
-      "matchW": 2,
-      "matchL": 0,
-      "mapW": 4,
-      "mapL": 1,
-      "rndW": 57,
-      "rndL": 35,
-      "rank": 1,
-      "mapDiff": 3,
-      "rndDiff": 22
-    },
-    {
       "abbr": "ATLC",
       "name": "ATLNTIC Esports",
       "matchW": 2,
@@ -22,9 +9,22 @@
       "mapL": 1,
       "rndW": 61,
       "rndL": 52,
-      "rank": 2,
+      "rank": 1,
       "mapDiff": 3,
       "rndDiff": 9
+    },
+    {
+      "abbr": "NIP",
+      "name": "Name in Progress",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 4,
+      "mapL": 3,
+      "rndW": 80,
+      "rndL": 65,
+      "rank": 2,
+      "mapDiff": 1,
+      "rndDiff": 15
     },
     {
       "abbr": "SOG",
@@ -53,6 +53,19 @@
       "rndDiff": 10
     },
     {
+      "abbr": "FaZe",
+      "name": "Fabulous and Zesty",
+      "matchW": 1,
+      "matchL": 1,
+      "mapW": 3,
+      "mapL": 2,
+      "rndW": 59,
+      "rndL": 57,
+      "rank": 5,
+      "mapDiff": 1,
+      "rndDiff": 2
+    },
+    {
       "abbr": "NOOT",
       "name": "Penguin Patrol",
       "matchW": 1,
@@ -61,7 +74,7 @@
       "mapL": 2,
       "rndW": 49,
       "rndL": 41,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": 0,
       "rndDiff": 8
     },
@@ -74,22 +87,9 @@
       "mapL": 3,
       "rndW": 45,
       "rndL": 56,
-      "rank": 6,
-      "mapDiff": -1,
-      "rndDiff": -11
-    },
-    {
-      "abbr": "FaZe",
-      "name": "Fabulous and Zesty",
-      "matchW": 0,
-      "matchL": 1,
-      "mapW": 1,
-      "mapL": 2,
-      "rndW": 29,
-      "rndL": 34,
       "rank": 7,
       "mapDiff": -1,
-      "rndDiff": -5
+      "rndDiff": -11
     },
     {
       "abbr": "XTC",
@@ -133,19 +133,6 @@
   ],
   "Group Alpha": [
     {
-      "abbr": "NIP",
-      "name": "Name in Progress",
-      "matchW": 2,
-      "matchL": 0,
-      "mapW": 4,
-      "mapL": 1,
-      "rndW": 57,
-      "rndL": 35,
-      "rank": 1,
-      "mapDiff": 3,
-      "rndDiff": 22
-    },
-    {
       "abbr": "ATLC",
       "name": "ATLNTIC Esports",
       "matchW": 2,
@@ -154,22 +141,35 @@
       "mapL": 1,
       "rndW": 61,
       "rndL": 52,
-      "rank": 2,
+      "rank": 1,
       "mapDiff": 3,
       "rndDiff": 9
     },
     {
+      "abbr": "NIP",
+      "name": "Name in Progress",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 4,
+      "mapL": 3,
+      "rndW": 80,
+      "rndL": 65,
+      "rank": 2,
+      "mapDiff": 1,
+      "rndDiff": 15
+    },
+    {
       "abbr": "FaZe",
       "name": "Fabulous and Zesty",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 1,
-      "mapW": 1,
+      "mapW": 3,
       "mapL": 2,
-      "rndW": 29,
-      "rndL": 34,
+      "rndW": 59,
+      "rndL": 57,
       "rank": 3,
-      "mapDiff": -1,
-      "rndDiff": -5
+      "mapDiff": 1,
+      "rndDiff": 2
     },
     {
       "abbr": "XTC",
