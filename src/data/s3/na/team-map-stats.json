@@ -2,8 +2,8 @@
   "100T": {
     "team": "100T",
     "teamName": "100 Tony's",
-    "overallAtkPct": 0.45,
-    "overallDefPct": 0.516,
+    "overallAtkPct": 0.461,
+    "overallDefPct": 0.522,
     "maps": [
       {
         "map": "Abyss",
@@ -22,14 +22,14 @@
         "map": "Ascent",
         "pick": 3,
         "ban": 0,
-        "played": 4,
-        "won": 1,
-        "winPct": 0.25,
-        "rounds": 94,
-        "roundsWon": 43,
-        "roundPct": 0.457,
-        "atkPct": 0.312,
-        "defPct": 0.609
+        "played": 5,
+        "won": 2,
+        "winPct": 0.4,
+        "rounds": 117,
+        "roundsWon": 56,
+        "roundPct": 0.479,
+        "atkPct": 0.339,
+        "defPct": 0.621
       },
       {
         "map": "Bind",
@@ -86,7 +86,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 4,
+        "ban": 5,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -113,14 +113,14 @@
         "map": "Lotus",
         "pick": 1,
         "ban": 1,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 19,
-        "roundsWon": 6,
+        "rounds": 38,
+        "roundsWon": 12,
         "roundPct": 0.316,
-        "atkPct": 0.429,
-        "defPct": 0.25
+        "atkPct": 0.421,
+        "defPct": 0.211
       },
       {
         "map": "Pearl",
@@ -151,7 +151,7 @@
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -163,16 +163,16 @@
       },
       {
         "map": "Sunset",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 2,
-        "won": 2,
+        "played": 3,
+        "won": 3,
         "winPct": 1.0,
-        "rounds": 44,
-        "roundsWon": 26,
-        "roundPct": 0.591,
-        "atkPct": 0.625,
-        "defPct": 0.55
+        "rounds": 62,
+        "roundsWon": 39,
+        "roundPct": 0.629,
+        "atkPct": 0.667,
+        "defPct": 0.594
       }
     ]
   },
@@ -710,8 +710,8 @@
   "EPY": {
     "team": "EPY",
     "teamName": "Team Entropy",
-    "overallAtkPct": 0.427,
-    "overallDefPct": 0.364,
+    "overallAtkPct": 0.434,
+    "overallDefPct": 0.39,
     "maps": [
       {
         "map": "Abyss",
@@ -730,14 +730,14 @@
         "map": "Ascent",
         "pick": 0,
         "ban": 0,
-        "played": 3,
+        "played": 4,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 61,
-        "roundsWon": 22,
-        "roundPct": 0.361,
-        "atkPct": 0.36,
-        "defPct": 0.361
+        "rounds": 84,
+        "roundsWon": 32,
+        "roundPct": 0.381,
+        "atkPct": 0.351,
+        "defPct": 0.404
       },
       {
         "map": "Bind",
@@ -755,7 +755,7 @@
       {
         "map": "Breeze",
         "pick": 0,
-        "ban": 4,
+        "ban": 5,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -819,16 +819,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 3,
+        "pick": 4,
         "ban": 0,
-        "played": 3,
-        "won": 1,
-        "winPct": 0.333,
-        "rounds": 60,
-        "roundsWon": 28,
-        "roundPct": 0.467,
-        "atkPct": 0.583,
-        "defPct": 0.389
+        "played": 4,
+        "won": 2,
+        "winPct": 0.5,
+        "rounds": 79,
+        "roundsWon": 41,
+        "roundPct": 0.519,
+        "atkPct": 0.645,
+        "defPct": 0.438
       },
       {
         "map": "Pearl",
@@ -846,7 +846,7 @@
       {
         "map": "Split",
         "pick": 1,
-        "ban": 1,
+        "ban": 2,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -873,14 +873,14 @@
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 18,
+        "roundsWon": 5,
+        "roundPct": 0.278,
+        "atkPct": 0.333,
+        "defPct": 0.167
       }
     ]
   },

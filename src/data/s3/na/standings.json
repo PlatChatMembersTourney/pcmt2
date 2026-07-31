@@ -107,15 +107,15 @@
     {
       "abbr": "100T",
       "name": "100 Tony's",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 4,
-      "mapW": 5,
-      "mapL": 9,
-      "rndW": 147,
-      "rndL": 157,
+      "mapW": 7,
+      "mapL": 10,
+      "rndW": 179,
+      "rndL": 185,
       "rank": 9,
-      "mapDiff": -4,
-      "rndDiff": -10
+      "mapDiff": -3,
+      "rndDiff": -6
     },
     {
       "abbr": "BAKA",
@@ -183,19 +183,6 @@
       "rndDiff": -37
     },
     {
-      "abbr": "EPY",
-      "name": "Team Entropy",
-      "matchW": 0,
-      "matchL": 4,
-      "mapW": 1,
-      "mapL": 8,
-      "rndW": 71,
-      "rndL": 111,
-      "rank": 15,
-      "mapDiff": -7,
-      "rndDiff": -40
-    },
-    {
       "abbr": "FNC",
       "name": "cow paulo FaN Club",
       "matchW": 0,
@@ -204,9 +191,22 @@
       "mapL": 10,
       "rndW": 96,
       "rndL": 161,
-      "rank": 16,
+      "rank": 15,
       "mapDiff": -7,
       "rndDiff": -65
+    },
+    {
+      "abbr": "EPY",
+      "name": "Team Entropy",
+      "matchW": 0,
+      "matchL": 5,
+      "mapW": 2,
+      "mapL": 10,
+      "rndW": 99,
+      "rndL": 143,
+      "rank": 16,
+      "mapDiff": -8,
+      "rndDiff": -44
     }
   ],
   "Group Alpha": [
@@ -371,15 +371,15 @@
     {
       "abbr": "100T",
       "name": "100 Tony's",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 4,
-      "mapW": 5,
-      "mapL": 9,
-      "rndW": 147,
-      "rndL": 157,
+      "mapW": 7,
+      "mapL": 10,
+      "rndW": 179,
+      "rndL": 185,
       "rank": 5,
-      "mapDiff": -4,
-      "rndDiff": -10
+      "mapDiff": -3,
+      "rndDiff": -6
     },
     {
       "abbr": "BAKA",
@@ -411,14 +411,14 @@
       "abbr": "EPY",
       "name": "Team Entropy",
       "matchW": 0,
-      "matchL": 4,
-      "mapW": 1,
-      "mapL": 8,
-      "rndW": 71,
-      "rndL": 111,
+      "matchL": 5,
+      "mapW": 2,
+      "mapL": 10,
+      "rndW": 99,
+      "rndL": 143,
       "rank": 8,
-      "mapDiff": -7,
-      "rndDiff": -40
+      "mapDiff": -8,
+      "rndDiff": -44
     }
   ]
 }
