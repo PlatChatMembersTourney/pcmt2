@@ -118,6 +118,19 @@
       "rndDiff": -6
     },
     {
+      "abbr": "SSG",
+      "name": "Squirtle Squad Gaming",
+      "matchW": 2,
+      "matchL": 3,
+      "mapW": 6,
+      "mapL": 6,
+      "rndW": 146,
+      "rndL": 131,
+      "rank": 10,
+      "mapDiff": 0,
+      "rndDiff": 15
+    },
+    {
       "abbr": "BAKA",
       "name": "Beautiful and Kinda Adorable",
       "matchW": 2,
@@ -126,22 +139,9 @@
       "mapL": 10,
       "rndW": 148,
       "rndL": 184,
-      "rank": 10,
+      "rank": 11,
       "mapDiff": -5,
       "rndDiff": -36
-    },
-    {
-      "abbr": "SSG",
-      "name": "Squirtle Squad Gaming",
-      "matchW": 1,
-      "matchL": 3,
-      "mapW": 4,
-      "mapL": 5,
-      "rndW": 109,
-      "rndL": 98,
-      "rank": 11,
-      "mapDiff": -1,
-      "rndDiff": 11
     },
     {
       "abbr": "RRQ",
@@ -183,19 +183,6 @@
       "rndDiff": -37
     },
     {
-      "abbr": "FNC",
-      "name": "cow paulo FaN Club",
-      "matchW": 0,
-      "matchL": 5,
-      "mapW": 3,
-      "mapL": 10,
-      "rndW": 96,
-      "rndL": 161,
-      "rank": 15,
-      "mapDiff": -7,
-      "rndDiff": -65
-    },
-    {
       "abbr": "EPY",
       "name": "Team Entropy",
       "matchW": 0,
@@ -204,9 +191,22 @@
       "mapL": 10,
       "rndW": 99,
       "rndL": 143,
-      "rank": 16,
+      "rank": 15,
       "mapDiff": -8,
       "rndDiff": -44
+    },
+    {
+      "abbr": "FNC",
+      "name": "cow paulo FaN Club",
+      "matchW": 0,
+      "matchL": 6,
+      "mapW": 4,
+      "mapL": 12,
+      "rndW": 129,
+      "rndL": 198,
+      "rank": 16,
+      "mapDiff": -8,
+      "rndDiff": -69
     }
   ],
   "Group Alpha": [
@@ -265,15 +265,15 @@
     {
       "abbr": "SSG",
       "name": "Squirtle Squad Gaming",
-      "matchW": 1,
+      "matchW": 2,
       "matchL": 3,
-      "mapW": 4,
-      "mapL": 5,
-      "rndW": 109,
-      "rndL": 98,
+      "mapW": 6,
+      "mapL": 6,
+      "rndW": 146,
+      "rndL": 131,
       "rank": 5,
-      "mapDiff": -1,
-      "rndDiff": 11
+      "mapDiff": 0,
+      "rndDiff": 15
     },
     {
       "abbr": "RRQ",
@@ -305,14 +305,14 @@
       "abbr": "FNC",
       "name": "cow paulo FaN Club",
       "matchW": 0,
-      "matchL": 5,
-      "mapW": 3,
-      "mapL": 10,
-      "rndW": 96,
-      "rndL": 161,
+      "matchL": 6,
+      "mapW": 4,
+      "mapL": 12,
+      "rndW": 129,
+      "rndL": 198,
       "rank": 8,
-      "mapDiff": -7,
-      "rndDiff": -65
+      "mapDiff": -8,
+      "rndDiff": -69
     }
   ],
   "Group Omega": [

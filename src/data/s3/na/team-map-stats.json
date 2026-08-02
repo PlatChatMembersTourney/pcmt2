@@ -887,8 +887,8 @@
   "FNC": {
     "team": "FNC",
     "teamName": "cow paulo FaN Club",
-    "overallAtkPct": 0.405,
-    "overallDefPct": 0.346,
+    "overallAtkPct": 0.389,
+    "overallDefPct": 0.4,
     "maps": [
       {
         "map": "Abyss",
@@ -907,14 +907,14 @@
         "map": "Ascent",
         "pick": 0,
         "ban": 1,
-        "played": 3,
-        "won": 0,
-        "winPct": 0.0,
-        "rounds": 52,
-        "roundsWon": 13,
-        "roundPct": 0.25,
-        "atkPct": 0.333,
-        "defPct": 0.206
+        "played": 4,
+        "won": 1,
+        "winPct": 0.25,
+        "rounds": 76,
+        "roundsWon": 26,
+        "roundPct": 0.342,
+        "atkPct": 0.267,
+        "defPct": 0.391
       },
       {
         "map": "Bind",
@@ -931,16 +931,16 @@
       },
       {
         "map": "Breeze",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 23,
+        "roundsWon": 10,
+        "roundPct": 0.435,
+        "atkPct": 0.5,
+        "defPct": 0.364
       },
       {
         "map": "Corrode",
@@ -972,14 +972,14 @@
         "map": "Haven",
         "pick": 0,
         "ban": 3,
-        "played": 2,
+        "played": 3,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 39,
-        "roundsWon": 13,
-        "roundPct": 0.333,
-        "atkPct": 0.412,
-        "defPct": 0.273
+        "rounds": 62,
+        "roundsWon": 23,
+        "roundPct": 0.371,
+        "atkPct": 0.379,
+        "defPct": 0.364
       },
       {
         "map": "Icebox",
@@ -1023,7 +1023,7 @@
       {
         "map": "Split",
         "pick": 2,
-        "ban": 2,
+        "ban": 3,
         "played": 2,
         "won": 1,
         "winPct": 0.5,
@@ -1036,7 +1036,7 @@
       {
         "map": "Summit",
         "pick": 1,
-        "ban": 1,
+        "ban": 2,
         "played": 2,
         "won": 0,
         "winPct": 0.0,
@@ -2126,8 +2126,8 @@
   "SSG": {
     "team": "SSG",
     "teamName": "Squirtle Squad Gaming",
-    "overallAtkPct": 0.509,
-    "overallDefPct": 0.549,
+    "overallAtkPct": 0.48,
+    "overallDefPct": 0.583,
     "maps": [
       {
         "map": "Abyss",
@@ -2144,16 +2144,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 3,
+        "played": 4,
         "won": 1,
-        "winPct": 0.333,
-        "rounds": 61,
-        "roundsWon": 31,
-        "roundPct": 0.508,
-        "atkPct": 0.5,
-        "defPct": 0.52
+        "winPct": 0.25,
+        "rounds": 85,
+        "roundsWon": 42,
+        "roundPct": 0.494,
+        "atkPct": 0.396,
+        "defPct": 0.622
       },
       {
         "map": "Bind",
@@ -2172,14 +2172,14 @@
         "map": "Breeze",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 23,
+        "roundsWon": 13,
+        "roundPct": 0.565,
+        "atkPct": 0.636,
+        "defPct": 0.5
       },
       {
         "map": "Corrode",
@@ -2211,13 +2211,13 @@
         "map": "Haven",
         "pick": 2,
         "ban": 0,
-        "played": 2,
-        "won": 1,
-        "winPct": 0.5,
-        "rounds": 50,
-        "roundsWon": 25,
-        "roundPct": 0.5,
-        "atkPct": 0.346,
+        "played": 3,
+        "won": 2,
+        "winPct": 0.667,
+        "rounds": 73,
+        "roundsWon": 38,
+        "roundPct": 0.521,
+        "atkPct": 0.378,
         "defPct": 0.667
       },
       {
@@ -2236,7 +2236,7 @@
       {
         "map": "Lotus",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -2288,7 +2288,7 @@
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
