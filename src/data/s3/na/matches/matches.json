@@ -13,6 +13,19 @@
     "stage": "Group Omega"
   },
   {
+    "id": "ts-vs-spg-s3-group-omega-2026-08-05",
+    "team1": "TS",
+    "team2": "SPG",
+    "team1Name": "Team Slugshow",
+    "team2Name": "Spank Ptheory Gaming",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-08-05T23:00:00Z",
+    "stage": "Group Omega"
+  },
+  {
     "id": "tl-vs-c9-s3-group-alpha-2026-08-04",
     "team1": "TL",
     "team2": "C9",
