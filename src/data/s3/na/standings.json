@@ -16,15 +16,15 @@
     {
       "abbr": "C9",
       "name": "Clown9",
-      "matchW": 5,
+      "matchW": 6,
       "matchL": 1,
-      "mapW": 10,
-      "mapL": 6,
-      "rndW": 197,
-      "rndL": 162,
+      "mapW": 12,
+      "mapL": 7,
+      "rndW": 229,
+      "rndL": 196,
       "rank": 2,
-      "mapDiff": 4,
-      "rndDiff": 35
+      "mapDiff": 5,
+      "rndDiff": 33
     },
     {
       "abbr": "SPG",
@@ -95,14 +95,14 @@
       "abbr": "TL",
       "name": "Team Dyslexia",
       "matchW": 3,
-      "matchL": 2,
-      "mapW": 6,
-      "mapL": 6,
-      "rndW": 123,
-      "rndL": 130,
+      "matchL": 3,
+      "mapW": 7,
+      "mapL": 8,
+      "rndW": 157,
+      "rndL": 162,
       "rank": 8,
-      "mapDiff": 0,
-      "rndDiff": -7
+      "mapDiff": -1,
+      "rndDiff": -5
     },
     {
       "abbr": "100T",
@@ -213,15 +213,15 @@
     {
       "abbr": "C9",
       "name": "Clown9",
-      "matchW": 5,
+      "matchW": 6,
       "matchL": 1,
-      "mapW": 10,
-      "mapL": 6,
-      "rndW": 197,
-      "rndL": 162,
+      "mapW": 12,
+      "mapL": 7,
+      "rndW": 229,
+      "rndL": 196,
       "rank": 1,
-      "mapDiff": 4,
-      "rndDiff": 35
+      "mapDiff": 5,
+      "rndDiff": 33
     },
     {
       "abbr": "FSG",
@@ -253,14 +253,14 @@
       "abbr": "TL",
       "name": "Team Dyslexia",
       "matchW": 3,
-      "matchL": 2,
-      "mapW": 6,
-      "mapL": 6,
-      "rndW": 123,
-      "rndL": 130,
+      "matchL": 3,
+      "mapW": 7,
+      "mapL": 8,
+      "rndW": 157,
+      "rndL": 162,
       "rank": 4,
-      "mapDiff": 0,
-      "rndDiff": -7
+      "mapDiff": -1,
+      "rndDiff": -5
     },
     {
       "abbr": "SSG",
