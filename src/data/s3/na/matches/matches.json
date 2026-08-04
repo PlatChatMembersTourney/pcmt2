@@ -1,5 +1,18 @@
 [
   {
+    "id": "baka-vs-spg-s3-group-omega-2026-08-09",
+    "team1": "BAKA",
+    "team2": "SPG",
+    "team1Name": "Beautiful and Kinda Adorable",
+    "team2Name": "Spank Ptheory Gaming",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-08-09T23:00:00Z",
+    "stage": "Group Omega"
+  },
+  {
     "id": "ts-vs-spg-s3-group-omega-2026-08-05",
     "team1": "TS",
     "team2": "SPG",
