@@ -1241,8 +1241,8 @@
   "IHOP": {
     "team": "IHOP",
     "teamName": "I Hate Odin Party",
-    "overallAtkPct": 0.487,
-    "overallDefPct": 0.508,
+    "overallAtkPct": 0.497,
+    "overallDefPct": 0.472,
     "maps": [
       {
         "map": "Abyss",
@@ -1259,16 +1259,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 1,
+        "pick": 2,
         "ban": 3,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "winPct": 0.5,
-        "rounds": 39,
-        "roundsWon": 17,
-        "roundPct": 0.436,
-        "atkPct": 0.4,
-        "defPct": 0.458
+        "winPct": 0.333,
+        "rounds": 58,
+        "roundsWon": 23,
+        "roundPct": 0.397,
+        "atkPct": 0.407,
+        "defPct": 0.387
       },
       {
         "map": "Bind",
@@ -1286,7 +1286,7 @@
       {
         "map": "Breeze",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1325,7 +1325,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 2,
         "won": 0,
         "winPct": 0.0,
@@ -1352,14 +1352,14 @@
         "map": "Lotus",
         "pick": 3,
         "ban": 0,
-        "played": 4,
-        "won": 2,
-        "winPct": 0.5,
-        "rounds": 72,
-        "roundsWon": 40,
-        "roundPct": 0.556,
-        "atkPct": 0.625,
-        "defPct": 0.469
+        "played": 5,
+        "won": 3,
+        "winPct": 0.6,
+        "rounds": 96,
+        "roundsWon": 53,
+        "roundPct": 0.552,
+        "atkPct": 0.635,
+        "defPct": 0.455
       },
       {
         "map": "Pearl",
@@ -1378,14 +1378,14 @@
         "map": "Split",
         "pick": 0,
         "ban": 1,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 22,
+        "roundsWon": 9,
+        "roundPct": 0.409,
+        "atkPct": 0.5,
+        "defPct": 0.3
       },
       {
         "map": "Summit",
@@ -1595,8 +1595,8 @@
   "RRQ": {
     "team": "RRQ",
     "teamName": "Rage Re-Queuers",
-    "overallAtkPct": 0.417,
-    "overallDefPct": 0.525,
+    "overallAtkPct": 0.477,
+    "overallDefPct": 0.513,
     "maps": [
       {
         "map": "Abyss",
@@ -1615,14 +1615,14 @@
         "map": "Ascent",
         "pick": 1,
         "ban": 3,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 22,
-        "roundsWon": 13,
-        "roundPct": 0.591,
-        "atkPct": 0.5,
-        "defPct": 0.667
+        "rounds": 41,
+        "roundsWon": 26,
+        "roundPct": 0.634,
+        "atkPct": 0.647,
+        "defPct": 0.625
       },
       {
         "map": "Bind",
@@ -1704,16 +1704,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 3,
+        "pick": 4,
         "ban": 0,
-        "played": 3,
+        "played": 4,
         "won": 2,
-        "winPct": 0.667,
-        "rounds": 61,
-        "roundsWon": 37,
-        "roundPct": 0.607,
-        "atkPct": 0.56,
-        "defPct": 0.639
+        "winPct": 0.5,
+        "rounds": 85,
+        "roundsWon": 48,
+        "roundPct": 0.565,
+        "atkPct": 0.568,
+        "defPct": 0.562
       },
       {
         "map": "Pearl",
@@ -1732,19 +1732,19 @@
         "map": "Split",
         "pick": 0,
         "ban": 0,
-        "played": 2,
-        "won": 1,
-        "winPct": 0.5,
-        "rounds": 62,
-        "roundsWon": 31,
-        "roundPct": 0.5,
-        "atkPct": 0.433,
-        "defPct": 0.562
+        "played": 3,
+        "won": 2,
+        "winPct": 0.667,
+        "rounds": 84,
+        "roundsWon": 44,
+        "roundPct": 0.524,
+        "atkPct": 0.5,
+        "defPct": 0.545
       },
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1757,7 +1757,7 @@
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 0,
         "won": 0,
         "winPct": 0,

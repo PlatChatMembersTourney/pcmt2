@@ -131,6 +131,19 @@
       "rndDiff": 15
     },
     {
+      "abbr": "RRQ",
+      "name": "Rage Re-Queuers",
+      "matchW": 2,
+      "matchL": 3,
+      "mapW": 6,
+      "mapL": 7,
+      "rndW": 142,
+      "rndL": 144,
+      "rank": 11,
+      "mapDiff": -1,
+      "rndDiff": -2
+    },
+    {
       "abbr": "BAKA",
       "name": "Beautiful and Kinda Adorable",
       "matchW": 2,
@@ -139,35 +152,22 @@
       "mapL": 10,
       "rndW": 148,
       "rndL": 184,
-      "rank": 11,
+      "rank": 12,
       "mapDiff": -5,
       "rndDiff": -36
-    },
-    {
-      "abbr": "RRQ",
-      "name": "Rage Re-Queuers",
-      "matchW": 1,
-      "matchL": 3,
-      "mapW": 4,
-      "mapL": 6,
-      "rndW": 105,
-      "rndL": 116,
-      "rank": 12,
-      "mapDiff": -2,
-      "rndDiff": -11
     },
     {
       "abbr": "IHOP",
       "name": "I Hate Odin Party",
       "matchW": 1,
-      "matchL": 4,
-      "mapW": 4,
-      "mapL": 8,
-      "rndW": 123,
-      "rndL": 124,
+      "matchL": 5,
+      "mapW": 5,
+      "mapL": 10,
+      "rndW": 151,
+      "rndL": 161,
       "rank": 13,
-      "mapDiff": -4,
-      "rndDiff": -1
+      "mapDiff": -5,
+      "rndDiff": -10
     },
     {
       "abbr": "DFM",
@@ -278,28 +278,28 @@
     {
       "abbr": "RRQ",
       "name": "Rage Re-Queuers",
-      "matchW": 1,
+      "matchW": 2,
       "matchL": 3,
-      "mapW": 4,
-      "mapL": 6,
-      "rndW": 105,
-      "rndL": 116,
+      "mapW": 6,
+      "mapL": 7,
+      "rndW": 142,
+      "rndL": 144,
       "rank": 6,
-      "mapDiff": -2,
-      "rndDiff": -11
+      "mapDiff": -1,
+      "rndDiff": -2
     },
     {
       "abbr": "IHOP",
       "name": "I Hate Odin Party",
       "matchW": 1,
-      "matchL": 4,
-      "mapW": 4,
-      "mapL": 8,
-      "rndW": 123,
-      "rndL": 124,
+      "matchL": 5,
+      "mapW": 5,
+      "mapL": 10,
+      "rndW": 151,
+      "rndL": 161,
       "rank": 7,
-      "mapDiff": -4,
-      "rndDiff": -1
+      "mapDiff": -5,
+      "rndDiff": -10
     },
     {
       "abbr": "FNC",
