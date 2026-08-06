@@ -18,12 +18,1100 @@
     "team2": "SPG",
     "team1Name": "Team Slugshow",
     "team2Name": "Spank Ptheory Gaming",
-    "score1": 0,
-    "score2": 0,
-    "completed": false,
+    "score1": 1,
+    "score2": 2,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-08-05T23:00:00Z",
-    "stage": "Group Omega"
+    "stage": "Group Omega",
+    "veto": "TS bans Ascent, SPG bans Breeze, TS picks Lotus, SPG picks Sunset, TS bans Haven, SPG bans Split, Summit remains",
+    "maps": [
+      {
+        "name": "Lotus",
+        "score1": 11,
+        "score2": 13
+      },
+      {
+        "name": "Sunset",
+        "score1": 13,
+        "score2": 6
+      },
+      {
+        "name": "Summit",
+        "score1": 4,
+        "score2": 13
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "TS",
+        "teamName": "Team Slugshow",
+        "players": [
+          {
+            "Player": "avi",
+            "R1.0": 1.475,
+            "ACS": 333,
+            "K": 74,
+            "D": 41,
+            "A": 5,
+            "PlusMinus": 33,
+            "KAST": 0.817,
+            "ADR": 210.5,
+            "HS%": 0.364,
+            "FK": 14,
+            "FD": 3,
+            "PlusMinus2": 11
+          },
+          {
+            "Player": "straight",
+            "R1.0": 1.09,
+            "ACS": 224,
+            "K": 45,
+            "D": 45,
+            "A": 19,
+            "PlusMinus": 0,
+            "KAST": 0.817,
+            "ADR": 152.5,
+            "HS%": 0.149,
+            "FK": 7,
+            "FD": 7,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "lore",
+            "R1.0": 0.819,
+            "ACS": 152,
+            "K": 33,
+            "D": 40,
+            "A": 14,
+            "PlusMinus": -7,
+            "KAST": 0.683,
+            "ADR": 98.0,
+            "HS%": 0.09,
+            "FK": 1,
+            "FD": 4,
+            "PlusMinus2": -3
+          },
+          {
+            "Player": "roro",
+            "R1.0": 0.769,
+            "ACS": 158,
+            "K": 32,
+            "D": 47,
+            "A": 17,
+            "PlusMinus": -15,
+            "KAST": 0.65,
+            "ADR": 101.6,
+            "HS%": 0.221,
+            "FK": 5,
+            "FD": 5,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "pants",
+            "R1.0": 0.541,
+            "ACS": 97,
+            "K": 22,
+            "D": 49,
+            "A": 12,
+            "PlusMinus": -27,
+            "KAST": 0.616,
+            "ADR": 64.6,
+            "HS%": 0.12,
+            "FK": 2,
+            "FD": 12,
+            "PlusMinus2": -10
+          }
+        ]
+      },
+      {
+        "team": "SPG",
+        "teamName": "Spank Ptheory Gaming",
+        "players": [
+          {
+            "Player": "thighs",
+            "R1.0": 1.191,
+            "ACS": 238,
+            "K": 52,
+            "D": 40,
+            "A": 13,
+            "PlusMinus": 12,
+            "KAST": 0.883,
+            "ADR": 153.9,
+            "HS%": 0.365,
+            "FK": 4,
+            "FD": 2,
+            "PlusMinus2": 2
+          },
+          {
+            "Player": "derpina",
+            "R1.0": 1.131,
+            "ACS": 269,
+            "K": 54,
+            "D": 49,
+            "A": 9,
+            "PlusMinus": 5,
+            "KAST": 0.733,
+            "ADR": 173.6,
+            "HS%": 0.305,
+            "FK": 16,
+            "FD": 12,
+            "PlusMinus2": 4
+          },
+          {
+            "Player": "cooleo",
+            "R1.0": 1.068,
+            "ACS": 234,
+            "K": 47,
+            "D": 44,
+            "A": 16,
+            "PlusMinus": 3,
+            "KAST": 0.667,
+            "ADR": 157.1,
+            "HS%": 0.284,
+            "FK": 4,
+            "FD": 7,
+            "PlusMinus2": -3
+          },
+          {
+            "Player": "phuzzy",
+            "R1.0": 0.944,
+            "ACS": 185,
+            "K": 40,
+            "D": 39,
+            "A": 14,
+            "PlusMinus": 1,
+            "KAST": 0.7,
+            "ADR": 117.4,
+            "HS%": 0.236,
+            "FK": 4,
+            "FD": 4,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "dunkn",
+            "R1.0": 0.873,
+            "ACS": 138,
+            "K": 29,
+            "D": 34,
+            "A": 30,
+            "PlusMinus": -5,
+            "KAST": 0.8,
+            "ADR": 78.0,
+            "HS%": 0.266,
+            "FK": 3,
+            "FD": 4,
+            "PlusMinus2": -1
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Lotus",
+        "score1": 11,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 20,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 21,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 22,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 23,
+            "winner": 2,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 24,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          }
+        ],
+        "stats": [
+          {
+            "team": "TS",
+            "teamName": "Team Slugshow",
+            "players": [
+              {
+                "Player": "avi",
+                "Agent": "Jett",
+                "R1.0": 1.254,
+                "ACS": 267,
+                "K": 23,
+                "D": 16,
+                "A": 2,
+                "PlusMinus": 7,
+                "KAST": 0.792,
+                "ADR": 182.6,
+                "HS%": 0.264,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4
+              },
+              {
+                "Player": "straight",
+                "Agent": "Raze",
+                "R1.0": 1.06,
+                "ACS": 221,
+                "K": 17,
+                "D": 16,
+                "A": 6,
+                "PlusMinus": 1,
+                "KAST": 0.708,
+                "ADR": 155.2,
+                "HS%": 0.145,
+                "FK": 2,
+                "FD": 6,
+                "PlusMinus2": -4
+              },
+              {
+                "Player": "lore",
+                "Agent": "Fade",
+                "R1.0": 0.846,
+                "ACS": 174,
+                "K": 15,
+                "D": 16,
+                "A": 4,
+                "PlusMinus": -1,
+                "KAST": 0.625,
+                "ADR": 105.5,
+                "HS%": 0.052,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 0.659,
+                "ACS": 158,
+                "K": 13,
+                "D": 20,
+                "A": 3,
+                "PlusMinus": -7,
+                "KAST": 0.5,
+                "ADR": 97.5,
+                "HS%": 0.217,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "pants",
+                "Agent": "Vyse",
+                "R1.0": 0.594,
+                "ACS": 116,
+                "K": 10,
+                "D": 20,
+                "A": 5,
+                "PlusMinus": -10,
+                "KAST": 0.625,
+                "ADR": 75.7,
+                "HS%": 0.1,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "derpina",
+                "Agent": "Neon",
+                "R1.0": 1.239,
+                "ACS": 301,
+                "K": 24,
+                "D": 19,
+                "A": 3,
+                "PlusMinus": 5,
+                "KAST": 0.708,
+                "ADR": 195.8,
+                "HS%": 0.264,
+                "FK": 7,
+                "FD": 4,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "cooleo",
+                "Agent": "Viper",
+                "R1.0": 1.052,
+                "ACS": 231,
+                "K": 20,
+                "D": 17,
+                "A": 4,
+                "PlusMinus": 3,
+                "KAST": 0.625,
+                "ADR": 149.8,
+                "HS%": 0.315,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "thighs",
+                "Agent": "Fade",
+                "R1.0": 0.977,
+                "ACS": 170,
+                "K": 15,
+                "D": 15,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.875,
+                "ADR": 115.9,
+                "HS%": 0.368,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Chamber",
+                "R1.0": 0.932,
+                "ACS": 187,
+                "K": 17,
+                "D": 15,
+                "A": 2,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 116.8,
+                "HS%": 0.308,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.913,
+                "ACS": 151,
+                "K": 12,
+                "D": 12,
+                "A": 9,
+                "PlusMinus": 0,
+                "KAST": 0.833,
+                "ADR": 86.0,
+                "HS%": 0.2,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sunset",
+        "score1": 13,
+        "score2": 6,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          }
+        ],
+        "stats": [
+          {
+            "team": "TS",
+            "teamName": "Team Slugshow",
+            "players": [
+              {
+                "Player": "avi",
+                "Agent": "Phoenix",
+                "R1.0": 2.037,
+                "ACS": 468,
+                "K": 34,
+                "D": 11,
+                "A": 2,
+                "PlusMinus": 23,
+                "KAST": 0.895,
+                "ADR": 283.2,
+                "HS%": 0.338,
+                "FK": 7,
+                "FD": 0,
+                "PlusMinus2": 7
+              },
+              {
+                "Player": "straight",
+                "Agent": "Neon",
+                "R1.0": 1.168,
+                "ACS": 207,
+                "K": 14,
+                "D": 12,
+                "A": 9,
+                "PlusMinus": 2,
+                "KAST": 0.895,
+                "ADR": 141.9,
+                "HS%": 0.151,
+                "FK": 4,
+                "FD": 1,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 1.104,
+                "ACS": 180,
+                "K": 12,
+                "D": 10,
+                "A": 9,
+                "PlusMinus": 2,
+                "KAST": 0.947,
+                "ADR": 114.8,
+                "HS%": 0.2,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "lore",
+                "Agent": "Fade",
+                "R1.0": 0.933,
+                "ACS": 157,
+                "K": 11,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": 1,
+                "KAST": 0.789,
+                "ADR": 96.8,
+                "HS%": 0.122,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "pants",
+                "Agent": "Cypher",
+                "R1.0": 0.735,
+                "ACS": 120,
+                "K": 9,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": -4,
+                "KAST": 0.684,
+                "ADR": 81.5,
+                "HS%": 0.188,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "thighs",
+                "Agent": "Breach",
+                "R1.0": 1.125,
+                "ACS": 240,
+                "K": 16,
+                "D": 16,
+                "A": 7,
+                "PlusMinus": 0,
+                "KAST": 0.842,
+                "ADR": 154.6,
+                "HS%": 0.304,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "derpina",
+                "Agent": "Neon",
+                "R1.0": 0.881,
+                "ACS": 223,
+                "K": 14,
+                "D": 18,
+                "A": 3,
+                "PlusMinus": -4,
+                "KAST": 0.632,
+                "ADR": 143.7,
+                "HS%": 0.412,
+                "FK": 3,
+                "FD": 7,
+                "PlusMinus2": -4
+              },
+              {
+                "Player": "cooleo",
+                "Agent": "Fade",
+                "R1.0": 0.829,
+                "ACS": 185,
+                "K": 10,
+                "D": 17,
+                "A": 10,
+                "PlusMinus": -7,
+                "KAST": 0.684,
+                "ADR": 120.1,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Cypher",
+                "R1.0": 0.679,
+                "ACS": 158,
+                "K": 10,
+                "D": 16,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.579,
+                "ADR": 97.5,
+                "HS%": 0.154,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.603,
+                "ACS": 89,
+                "K": 6,
+                "D": 13,
+                "A": 6,
+                "PlusMinus": -7,
+                "KAST": 0.737,
+                "ADR": 51.7,
+                "HS%": 0.222,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Summit",
+        "score1": 4,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "TS",
+            "teamName": "Team Slugshow",
+            "players": [
+              {
+                "Player": "avi",
+                "Agent": "Phoenix",
+                "R1.0": 1.16,
+                "ACS": 276,
+                "K": 17,
+                "D": 14,
+                "A": 1,
+                "PlusMinus": 3,
+                "KAST": 0.765,
+                "ADR": 168.6,
+                "HS%": 0.536,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "straight",
+                "Agent": "Neon",
+                "R1.0": 1.044,
+                "ACS": 247,
+                "K": 14,
+                "D": 17,
+                "A": 4,
+                "PlusMinus": -3,
+                "KAST": 0.882,
+                "ADR": 160.6,
+                "HS%": 0.154,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "lore",
+                "Agent": "Fade",
+                "R1.0": 0.654,
+                "ACS": 116,
+                "K": 7,
+                "D": 14,
+                "A": 5,
+                "PlusMinus": -7,
+                "KAST": 0.647,
+                "ADR": 88.6,
+                "HS%": 0.107,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 0.551,
+                "ACS": 132,
+                "K": 7,
+                "D": 17,
+                "A": 5,
+                "PlusMinus": -10,
+                "KAST": 0.529,
+                "ADR": 92.5,
+                "HS%": 0.25,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "pants",
+                "Agent": "Sage",
+                "R1.0": 0.251,
+                "ACS": 45,
+                "K": 3,
+                "D": 16,
+                "A": 2,
+                "PlusMinus": -13,
+                "KAST": 0.529,
+                "ADR": 30.1,
+                "HS%": 0.071,
+                "FK": 0,
+                "FD": 6,
+                "PlusMinus2": -6
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "thighs",
+                "Agent": "Fade",
+                "R1.0": 1.567,
+                "ACS": 332,
+                "K": 21,
+                "D": 9,
+                "A": 1,
+                "PlusMinus": 12,
+                "KAST": 0.941,
+                "ADR": 206.8,
+                "HS%": 0.429,
+                "FK": 4,
+                "FD": 1,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "cooleo",
+                "Agent": "Viper",
+                "R1.0": 1.357,
+                "ACS": 293,
+                "K": 17,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": 7,
+                "KAST": 0.706,
+                "ADR": 208.6,
+                "HS%": 0.333,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "derpina",
+                "Agent": "Yoru",
+                "R1.0": 1.26,
+                "ACS": 275,
+                "K": 16,
+                "D": 12,
+                "A": 3,
+                "PlusMinus": 4,
+                "KAST": 0.882,
+                "ADR": 175.7,
+                "HS%": 0.244,
+                "FK": 6,
+                "FD": 1,
+                "PlusMinus2": 5
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Vyse",
+                "R1.0": 1.258,
+                "ACS": 213,
+                "K": 13,
+                "D": 8,
+                "A": 9,
+                "PlusMinus": 5,
+                "KAST": 0.882,
+                "ADR": 140.4,
+                "HS%": 0.225,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 1.119,
+                "ACS": 173,
+                "K": 11,
+                "D": 9,
+                "A": 15,
+                "PlusMinus": 2,
+                "KAST": 0.824,
+                "ADR": 96.1,
+                "HS%": 0.409,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=tAOIs6Qqk-Q"
   },
   {
     "id": "tl-vs-c9-s3-group-alpha-2026-08-04",
