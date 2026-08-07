@@ -322,74 +322,74 @@
     }
   },
   "Lotus": {
-    "mapsPlayed": 7,
-    "atkPct": 0.581,
-    "defPct": 0.419,
+    "mapsPlayed": 8,
+    "atkPct": 0.567,
+    "defPct": 0.433,
     "agents": [
-      {
-        "agent": "Omen",
-        "comps": 8,
-        "pickPct": 0.571
-      },
       {
         "agent": "Fade",
         "comps": 8,
-        "pickPct": 0.571
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Omen",
+        "comps": 8,
+        "pickPct": 0.5
       },
       {
         "agent": "Vyse",
         "comps": 6,
-        "pickPct": 0.429
+        "pickPct": 0.375
       },
       {
         "agent": "Neon",
         "comps": 5,
-        "pickPct": 0.357
+        "pickPct": 0.312
+      },
+      {
+        "agent": "Raze",
+        "comps": 4,
+        "pickPct": 0.25
       },
       {
         "agent": "Viper",
         "comps": 4,
-        "pickPct": 0.286
+        "pickPct": 0.25
       },
       {
-        "agent": "Raze",
+        "agent": "Jett",
         "comps": 3,
-        "pickPct": 0.214
+        "pickPct": 0.188
       },
       {
         "agent": "Chamber",
         "comps": 2,
-        "pickPct": 0.143
-      },
-      {
-        "agent": "Jett",
-        "comps": 2,
-        "pickPct": 0.143
+        "pickPct": 0.125
       },
       {
         "agent": "Cypher",
         "comps": 2,
-        "pickPct": 0.143
+        "pickPct": 0.125
       },
       {
         "agent": "Clove",
         "comps": 1,
-        "pickPct": 0.071
+        "pickPct": 0.062
       },
       {
         "agent": "Tejo",
         "comps": 1,
-        "pickPct": 0.071
+        "pickPct": 0.062
       },
       {
         "agent": "Phoenix",
         "comps": 1,
-        "pickPct": 0.071
+        "pickPct": 0.062
       },
       {
         "agent": "Killjoy",
         "comps": 1,
-        "pickPct": 0.071
+        "pickPct": 0.062
       }
     ],
     "teams": {
@@ -456,6 +456,7 @@
         "teamName": "Penguin Patrol",
         "agents": [
           "Fade",
+          "Jett",
           "Omen",
           "Raze",
           "Viper",
@@ -469,6 +470,7 @@
           "Fade",
           "Neon",
           "Omen",
+          "Raze",
           "Viper",
           "Vyse"
         ]
@@ -483,6 +485,72 @@
           "Neon",
           "Omen",
           "Vyse"
+        ]
+      }
+    }
+  },
+  "Split": {
+    "mapsPlayed": 1,
+    "atkPct": 0.5,
+    "defPct": 0.5,
+    "agents": [
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Viper",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Raze",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "NOOT": {
+        "team": "NOOT",
+        "teamName": "Penguin Patrol",
+        "agents": [
+          "Fade",
+          "Jett",
+          "Omen",
+          "Viper",
+          "Vyse"
+        ]
+      },
+      "SEAL": {
+        "team": "SEAL",
+        "teamName": "Stay Seally",
+        "agents": [
+          "Fade",
+          "Neon",
+          "Omen",
+          "Raze",
+          "Viper"
         ]
       }
     }

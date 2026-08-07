@@ -27,6 +27,19 @@
       "rndDiff": 9
     },
     {
+      "abbr": "NOOT",
+      "name": "Penguin Patrol",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 4,
+      "mapL": 2,
+      "rndW": 75,
+      "rndL": 49,
+      "rank": 3,
+      "mapDiff": 2,
+      "rndDiff": 26
+    },
+    {
       "abbr": "NIP",
       "name": "Name in Progress",
       "matchW": 2,
@@ -35,7 +48,7 @@
       "mapL": 3,
       "rndW": 80,
       "rndL": 65,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 1,
       "rndDiff": 15
     },
@@ -48,22 +61,9 @@
       "mapL": 2,
       "rndW": 59,
       "rndL": 57,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": 1,
       "rndDiff": 2
-    },
-    {
-      "abbr": "NOOT",
-      "name": "Penguin Patrol",
-      "matchW": 1,
-      "matchL": 1,
-      "mapW": 2,
-      "mapL": 2,
-      "rndW": 49,
-      "rndL": 41,
-      "rank": 5,
-      "mapDiff": 0,
-      "rndDiff": 8
     },
     {
       "abbr": "NATS",
@@ -105,19 +105,6 @@
       "rndDiff": -8
     },
     {
-      "abbr": "SEAL",
-      "name": "Stay Seally",
-      "matchW": 0,
-      "matchL": 2,
-      "mapW": 2,
-      "mapL": 4,
-      "rndW": 58,
-      "rndL": 69,
-      "rank": 9,
-      "mapDiff": -2,
-      "rndDiff": -11
-    },
-    {
       "abbr": "HOT",
       "name": "Honestly Outrageous Temperatures",
       "matchW": 0,
@@ -126,9 +113,22 @@
       "mapL": 4,
       "rndW": 35,
       "rndL": 53,
-      "rank": 10,
+      "rank": 9,
       "mapDiff": -4,
       "rndDiff": -18
+    },
+    {
+      "abbr": "SEAL",
+      "name": "Stay Seally",
+      "matchW": 0,
+      "matchL": 3,
+      "mapW": 2,
+      "mapL": 6,
+      "rndW": 66,
+      "rndL": 95,
+      "rank": 10,
+      "mapDiff": -4,
+      "rndDiff": -29
     }
   ],
   "Group Alpha": [
@@ -215,15 +215,15 @@
     {
       "abbr": "NOOT",
       "name": "Penguin Patrol",
-      "matchW": 1,
+      "matchW": 2,
       "matchL": 1,
-      "mapW": 2,
+      "mapW": 4,
       "mapL": 2,
-      "rndW": 49,
-      "rndL": 41,
+      "rndW": 75,
+      "rndL": 49,
       "rank": 2,
-      "mapDiff": 0,
-      "rndDiff": 8
+      "mapDiff": 2,
+      "rndDiff": 26
     },
     {
       "abbr": "NATS",
@@ -255,14 +255,14 @@
       "abbr": "SEAL",
       "name": "Stay Seally",
       "matchW": 0,
-      "matchL": 2,
+      "matchL": 3,
       "mapW": 2,
-      "mapL": 4,
-      "rndW": 58,
-      "rndL": 69,
+      "mapL": 6,
+      "rndW": 66,
+      "rndL": 95,
       "rank": 5,
-      "mapDiff": -2,
-      "rndDiff": -11
+      "mapDiff": -4,
+      "rndDiff": -29
     }
   ]
 }

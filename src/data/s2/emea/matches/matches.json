@@ -19,11 +19,757 @@
     "team1Name": "Stay Seally",
     "team2Name": "Penguin Patrol",
     "score1": 0,
-    "score2": 0,
-    "completed": false,
+    "score2": 2,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-08-07T17:00:00Z",
-    "stage": "Group Omega"
+    "stage": "Group Omega",
+    "veto": "SEAL bans Sunset, NOOT bans Summit, SEAL picks Split, NOOT picks Lotus, SEAL bans Ascent, NOOT bans Breeze, Haven remains",
+    "maps": [
+      {
+        "name": "Split",
+        "score1": 5,
+        "score2": 13
+      },
+      {
+        "name": "Lotus",
+        "score1": 3,
+        "score2": 13
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "SEAL",
+        "teamName": "Stay Seally",
+        "players": [
+          {
+            "Player": "Dovie",
+            "R1.0": 0.99,
+            "ACS": 249,
+            "K": 28,
+            "D": 31,
+            "A": 8,
+            "PlusMinus": -3,
+            "KAST": 0.676,
+            "ADR": 149.6,
+            "HS%": 0.189,
+            "FK": 7,
+            "FD": 7,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "Eva",
+            "R1.0": 0.876,
+            "ACS": 195,
+            "K": 22,
+            "D": 27,
+            "A": 10,
+            "PlusMinus": -5,
+            "KAST": 0.647,
+            "ADR": 120.5,
+            "HS%": 0.29,
+            "FK": 0,
+            "FD": 1,
+            "PlusMinus2": -1
+          },
+          {
+            "Player": "Ghrf6",
+            "R1.0": 0.681,
+            "ACS": 155,
+            "K": 17,
+            "D": 30,
+            "A": 8,
+            "PlusMinus": -13,
+            "KAST": 0.588,
+            "ADR": 103.0,
+            "HS%": 0.188,
+            "FK": 3,
+            "FD": 2,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "hmmmdead",
+            "R1.0": 0.675,
+            "ACS": 144,
+            "K": 17,
+            "D": 28,
+            "A": 5,
+            "PlusMinus": -11,
+            "KAST": 0.618,
+            "ADR": 94.4,
+            "HS%": 0.272,
+            "FK": 1,
+            "FD": 6,
+            "PlusMinus2": -5
+          },
+          {
+            "Player": "otaka",
+            "R1.0": 0.634,
+            "ACS": 138,
+            "K": 17,
+            "D": 31,
+            "A": 6,
+            "PlusMinus": -14,
+            "KAST": 0.647,
+            "ADR": 87.3,
+            "HS%": 0.119,
+            "FK": 1,
+            "FD": 6,
+            "PlusMinus2": -5
+          }
+        ]
+      },
+      {
+        "team": "NOOT",
+        "teamName": "Penguin Patrol",
+        "players": [
+          {
+            "Player": "Jetuamo",
+            "R1.0": 1.657,
+            "ACS": 348,
+            "K": 44,
+            "D": 19,
+            "A": 11,
+            "PlusMinus": 25,
+            "KAST": 0.882,
+            "ADR": 218.4,
+            "HS%": 0.269,
+            "FK": 5,
+            "FD": 1,
+            "PlusMinus2": 4
+          },
+          {
+            "Player": "Jamit",
+            "R1.0": 1.428,
+            "ACS": 282,
+            "K": 37,
+            "D": 18,
+            "A": 9,
+            "PlusMinus": 19,
+            "KAST": 0.853,
+            "ADR": 175.7,
+            "HS%": 0.245,
+            "FK": 7,
+            "FD": 2,
+            "PlusMinus2": 5
+          },
+          {
+            "Player": "King",
+            "R1.0": 1.292,
+            "ACS": 250,
+            "K": 30,
+            "D": 20,
+            "A": 11,
+            "PlusMinus": 10,
+            "KAST": 0.824,
+            "ADR": 174.9,
+            "HS%": 0.253,
+            "FK": 7,
+            "FD": 4,
+            "PlusMinus2": 3
+          },
+          {
+            "Player": "kramvi",
+            "R1.0": 1.032,
+            "ACS": 174,
+            "K": 20,
+            "D": 20,
+            "A": 13,
+            "PlusMinus": 0,
+            "KAST": 0.824,
+            "ADR": 130.0,
+            "HS%": 0.122,
+            "FK": 1,
+            "FD": 3,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "Pengu",
+            "R1.0": 0.803,
+            "ACS": 138,
+            "K": 16,
+            "D": 24,
+            "A": 15,
+            "PlusMinus": -8,
+            "KAST": 0.794,
+            "ADR": 82.8,
+            "HS%": 0.116,
+            "FK": 2,
+            "FD": 2,
+            "PlusMinus2": 0
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Split",
+        "score1": 5,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "SEAL",
+            "teamName": "Stay Seally",
+            "players": [
+              {
+                "Player": "Eva",
+                "Agent": "Omen",
+                "R1.0": 1.107,
+                "ACS": 254,
+                "K": 15,
+                "D": 13,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.722,
+                "ADR": 156.7,
+                "HS%": 0.375,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "Dovie",
+                "Agent": "Raze",
+                "R1.0": 1.037,
+                "ACS": 254,
+                "K": 16,
+                "D": 16,
+                "A": 3,
+                "PlusMinus": 0,
+                "KAST": 0.722,
+                "ADR": 150.6,
+                "HS%": 0.186,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "hmmmdead",
+                "Agent": "Viper",
+                "R1.0": 0.708,
+                "ACS": 133,
+                "K": 8,
+                "D": 13,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.667,
+                "ADR": 89.3,
+                "HS%": 0.194,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "Ghrf6",
+                "Agent": "Fade",
+                "R1.0": 0.539,
+                "ACS": 118,
+                "K": 7,
+                "D": 15,
+                "A": 2,
+                "PlusMinus": -8,
+                "KAST": 0.5,
+                "ADR": 84.2,
+                "HS%": 0.133,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "otaka",
+                "Agent": "Neon",
+                "R1.0": 0.452,
+                "ACS": 100,
+                "K": 6,
+                "D": 16,
+                "A": 3,
+                "PlusMinus": -10,
+                "KAST": 0.556,
+                "ADR": 59.2,
+                "HS%": 0.054,
+                "FK": 0,
+                "FD": 5,
+                "PlusMinus2": -5
+              }
+            ]
+          },
+          {
+            "team": "NOOT",
+            "teamName": "Penguin Patrol",
+            "players": [
+              {
+                "Player": "Jetuamo",
+                "Agent": "Viper",
+                "R1.0": 1.615,
+                "ACS": 352,
+                "K": 23,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": 12,
+                "KAST": 0.944,
+                "ADR": 215.7,
+                "HS%": 0.213,
+                "FK": 5,
+                "FD": 0,
+                "PlusMinus2": 5
+              },
+              {
+                "Player": "Jamit",
+                "Agent": "Vyse",
+                "R1.0": 1.262,
+                "ACS": 250,
+                "K": 16,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": 6,
+                "KAST": 0.889,
+                "ADR": 161.9,
+                "HS%": 0.267,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4
+              },
+              {
+                "Player": "King",
+                "Agent": "Jett",
+                "R1.0": 1.068,
+                "ACS": 213,
+                "K": 14,
+                "D": 12,
+                "A": 3,
+                "PlusMinus": 2,
+                "KAST": 0.778,
+                "ADR": 141.8,
+                "HS%": 0.19,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "kramvi",
+                "Agent": "Fade",
+                "R1.0": 1.038,
+                "ACS": 176,
+                "K": 12,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": 3,
+                "KAST": 0.722,
+                "ADR": 127.3,
+                "HS%": 0.1,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "Pengu",
+                "Agent": "Omen",
+                "R1.0": 0.84,
+                "ACS": 136,
+                "K": 8,
+                "D": 10,
+                "A": 7,
+                "PlusMinus": -2,
+                "KAST": 0.833,
+                "ADR": 77.2,
+                "HS%": 0.027,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lotus",
+        "score1": 3,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "SEAL",
+            "teamName": "Stay Seally",
+            "players": [
+              {
+                "Player": "Dovie",
+                "Agent": "Raze",
+                "R1.0": 0.937,
+                "ACS": 244,
+                "K": 12,
+                "D": 15,
+                "A": 5,
+                "PlusMinus": -3,
+                "KAST": 0.625,
+                "ADR": 148.4,
+                "HS%": 0.192,
+                "FK": 4,
+                "FD": 3,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "Ghrf6",
+                "Agent": "Fade",
+                "R1.0": 0.842,
+                "ACS": 196,
+                "K": 10,
+                "D": 15,
+                "A": 6,
+                "PlusMinus": -5,
+                "KAST": 0.688,
+                "ADR": 124.2,
+                "HS%": 0.25,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "otaka",
+                "Agent": "Neon",
+                "R1.0": 0.84,
+                "ACS": 181,
+                "K": 11,
+                "D": 15,
+                "A": 3,
+                "PlusMinus": -4,
+                "KAST": 0.75,
+                "ADR": 119.0,
+                "HS%": 0.192,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "hmmmdead",
+                "Agent": "Vyse",
+                "R1.0": 0.637,
+                "ACS": 157,
+                "K": 9,
+                "D": 15,
+                "A": 1,
+                "PlusMinus": -6,
+                "KAST": 0.562,
+                "ADR": 100.2,
+                "HS%": 0.36,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "Eva",
+                "Agent": "Omen",
+                "R1.0": 0.616,
+                "ACS": 128,
+                "K": 7,
+                "D": 14,
+                "A": 6,
+                "PlusMinus": -7,
+                "KAST": 0.562,
+                "ADR": 79.7,
+                "HS%": 0.194,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              }
+            ]
+          },
+          {
+            "team": "NOOT",
+            "teamName": "Penguin Patrol",
+            "players": [
+              {
+                "Player": "Jetuamo",
+                "Agent": "Viper",
+                "R1.0": 1.705,
+                "ACS": 343,
+                "K": 21,
+                "D": 8,
+                "A": 7,
+                "PlusMinus": 13,
+                "KAST": 0.812,
+                "ADR": 221.4,
+                "HS%": 0.333,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "Jamit",
+                "Agent": "Vyse",
+                "R1.0": 1.615,
+                "ACS": 317,
+                "K": 21,
+                "D": 8,
+                "A": 6,
+                "PlusMinus": 13,
+                "KAST": 0.812,
+                "ADR": 191.3,
+                "HS%": 0.22,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "King",
+                "Agent": "Jett",
+                "R1.0": 1.544,
+                "ACS": 291,
+                "K": 16,
+                "D": 8,
+                "A": 8,
+                "PlusMinus": 8,
+                "KAST": 0.875,
+                "ADR": 212.2,
+                "HS%": 0.323,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "kramvi",
+                "Agent": "Fade",
+                "R1.0": 1.025,
+                "ACS": 171,
+                "K": 8,
+                "D": 11,
+                "A": 9,
+                "PlusMinus": -3,
+                "KAST": 0.938,
+                "ADR": 133.1,
+                "HS%": 0.146,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "Pengu",
+                "Agent": "Omen",
+                "R1.0": 0.761,
+                "ACS": 141,
+                "K": 8,
+                "D": 14,
+                "A": 8,
+                "PlusMinus": -6,
+                "KAST": 0.75,
+                "ADR": 89.0,
+                "HS%": 0.217,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=F2De6i1W6YY"
   },
   {
     "id": "nats-vs-sog-s2-group-omega-2026-08-02",
