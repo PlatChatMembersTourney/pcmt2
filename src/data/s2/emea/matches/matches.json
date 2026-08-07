@@ -1,18 +1,5 @@
 [
   {
-    "id": "nats-vs-larp-s2-group-omega-2026-08-12",
-    "team1": "NATS",
-    "team2": "LARP",
-    "team1Name": "Never Available To Scrim",
-    "team2Name": "Larpiat\u00e1n",
-    "score1": 0,
-    "score2": 0,
-    "completed": false,
-    "bestOf": 3,
-    "date": "2026-08-12T17:00:00Z",
-    "stage": "Group Omega"
-  },
-  {
     "id": "atlc-vs-xtc-s2-group-alpha-2026-08-10",
     "team1": "ATLC",
     "team2": "XTC",
