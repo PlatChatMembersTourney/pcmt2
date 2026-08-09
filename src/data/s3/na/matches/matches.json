@@ -26,6 +26,19 @@
     "stage": "Group Alpha"
   },
   {
+    "id": "ts-vs-navi-s3-group-omega-2026-08-12",
+    "team1": "TS",
+    "team2": "NAVI",
+    "team1Name": "Team Slugshow",
+    "team2Name": "No Actual Valorant Intelligence",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-08-12T02:00:00Z",
+    "stage": "Group Omega"
+  },
+  {
     "id": "tl-vs-rrq-s3-group-alpha-2026-08-11",
     "team1": "TL",
     "team2": "RRQ",
