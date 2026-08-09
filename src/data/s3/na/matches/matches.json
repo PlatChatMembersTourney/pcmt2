@@ -1,5 +1,18 @@
 [
   {
+    "id": "ssg-vs-fsg-s3-group-alpha-2026-08-17",
+    "team1": "SSG",
+    "team2": "FSG",
+    "team1Name": "Squirtle Squad Gaming",
+    "team2Name": "Furry Squirrels Gaming",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-08-17T02:00:00Z",
+    "stage": "Group Alpha"
+  },
+  {
     "id": "ts-vs-epy-s3-group-omega-2026-08-17",
     "team1": "TS",
     "team2": "EPY",
