@@ -26,19 +26,6 @@
     "stage": "Group Omega"
   },
   {
-    "id": "t1-vs-fsg-s3-group-alpha-2026-08-16",
-    "team1": "T1",
-    "team2": "FSG",
-    "team1Name": "Team 1",
-    "team2Name": "Furry Squirrels Gaming",
-    "score1": 0,
-    "score2": 0,
-    "completed": false,
-    "bestOf": 3,
-    "date": "2026-08-16T01:00:00Z",
-    "stage": "Group Alpha"
-  },
-  {
     "id": "navi-vs-dfm-s3-group-omega-2026-08-15-2",
     "team1": "NAVI",
     "team2": "DFM",
