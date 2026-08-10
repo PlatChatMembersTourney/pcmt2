@@ -96,12 +96,842 @@
     "team2": "SPG",
     "team1Name": "Beautiful and Kinda Adorable",
     "team2Name": "Spank Ptheory Gaming",
-    "score1": 0,
+    "score1": 2,
     "score2": 0,
-    "completed": false,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-08-09T23:00:00Z",
-    "stage": "Group Omega"
+    "stage": "Group Omega",
+    "veto": "SPG bans Lotus, BAKA bans Summit, SPG picks Haven, BAKA picks Ascent, SPG bans Split, BAKA bans Sunset, Breeze remains",
+    "maps": [
+      {
+        "name": "Haven",
+        "score1": 13,
+        "score2": 5
+      },
+      {
+        "name": "Ascent",
+        "score1": 16,
+        "score2": 14
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "BAKA",
+        "teamName": "Beautiful and Kinda Adorable",
+        "players": [
+          {
+            "Player": "lucas",
+            "R1.0": 1.601,
+            "ACS": 308,
+            "K": 55,
+            "D": 24,
+            "A": 14,
+            "PlusMinus": 31,
+            "KAST": 0.854,
+            "ADR": 224.6,
+            "HS%": 0.387,
+            "FK": 3,
+            "FD": 1,
+            "PlusMinus2": 2
+          },
+          {
+            "Player": "james",
+            "R1.0": 1.092,
+            "ACS": 229,
+            "K": 42,
+            "D": 33,
+            "A": 3,
+            "PlusMinus": 9,
+            "KAST": 0.771,
+            "ADR": 144.3,
+            "HS%": 0.442,
+            "FK": 7,
+            "FD": 7,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "night",
+            "R1.0": 1.028,
+            "ACS": 216,
+            "K": 35,
+            "D": 36,
+            "A": 16,
+            "PlusMinus": -1,
+            "KAST": 0.75,
+            "ADR": 139.2,
+            "HS%": 0.144,
+            "FK": 5,
+            "FD": 8,
+            "PlusMinus2": -3
+          },
+          {
+            "Player": "tenyaku",
+            "R1.0": 0.896,
+            "ACS": 162,
+            "K": 26,
+            "D": 33,
+            "A": 21,
+            "PlusMinus": -7,
+            "KAST": 0.709,
+            "ADR": 112.3,
+            "HS%": 0.107,
+            "FK": 2,
+            "FD": 8,
+            "PlusMinus2": -6
+          },
+          {
+            "Player": "asher",
+            "R1.0": 0.891,
+            "ACS": 184,
+            "K": 29,
+            "D": 35,
+            "A": 15,
+            "PlusMinus": -6,
+            "KAST": 0.646,
+            "ADR": 123.2,
+            "HS%": 0.181,
+            "FK": 5,
+            "FD": 2,
+            "PlusMinus2": 3
+          }
+        ]
+      },
+      {
+        "team": "SPG",
+        "teamName": "Spank Ptheory Gaming",
+        "players": [
+          {
+            "Player": "cooleo",
+            "R1.0": 1.111,
+            "ACS": 257,
+            "K": 40,
+            "D": 42,
+            "A": 18,
+            "PlusMinus": -2,
+            "KAST": 0.667,
+            "ADR": 178.1,
+            "HS%": 0.361,
+            "FK": 7,
+            "FD": 5,
+            "PlusMinus2": 2
+          },
+          {
+            "Player": "thighs",
+            "R1.0": 1.097,
+            "ACS": 230,
+            "K": 38,
+            "D": 36,
+            "A": 12,
+            "PlusMinus": 2,
+            "KAST": 0.729,
+            "ADR": 163.4,
+            "HS%": 0.215,
+            "FK": 2,
+            "FD": 1,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "derpina",
+            "R1.0": 0.895,
+            "ACS": 213,
+            "K": 34,
+            "D": 38,
+            "A": 9,
+            "PlusMinus": -4,
+            "KAST": 0.625,
+            "ADR": 127.0,
+            "HS%": 0.214,
+            "FK": 15,
+            "FD": 10,
+            "PlusMinus2": 5
+          },
+          {
+            "Player": "phuzzy",
+            "R1.0": 0.855,
+            "ACS": 163,
+            "K": 28,
+            "D": 35,
+            "A": 13,
+            "PlusMinus": -7,
+            "KAST": 0.646,
+            "ADR": 117.0,
+            "HS%": 0.242,
+            "FK": 1,
+            "FD": 2,
+            "PlusMinus2": -1
+          },
+          {
+            "Player": "dunkn",
+            "R1.0": 0.764,
+            "ACS": 138,
+            "K": 21,
+            "D": 36,
+            "A": 25,
+            "PlusMinus": -15,
+            "KAST": 0.667,
+            "ADR": 90.7,
+            "HS%": 0.106,
+            "FK": 1,
+            "FD": 4,
+            "PlusMinus2": -3
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Haven",
+        "score1": 13,
+        "score2": 5,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          }
+        ],
+        "stats": [
+          {
+            "team": "BAKA",
+            "teamName": "Beautiful and Kinda Adorable",
+            "players": [
+              {
+                "Player": "lucas",
+                "Agent": "Iso",
+                "R1.0": 1.68,
+                "ACS": 302,
+                "K": 21,
+                "D": 7,
+                "A": 5,
+                "PlusMinus": 14,
+                "KAST": 0.833,
+                "ADR": 236.0,
+                "HS%": 0.388,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "asher",
+                "Agent": "Vyse",
+                "R1.0": 1.123,
+                "ACS": 211,
+                "K": 12,
+                "D": 11,
+                "A": 8,
+                "PlusMinus": 1,
+                "KAST": 0.889,
+                "ADR": 139.4,
+                "HS%": 0.174,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "james",
+                "Agent": "Waylay",
+                "R1.0": 1.1,
+                "ACS": 230,
+                "K": 15,
+                "D": 12,
+                "A": 2,
+                "PlusMinus": 3,
+                "KAST": 0.778,
+                "ADR": 147.4,
+                "HS%": 0.448,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "night",
+                "Agent": "Omen",
+                "R1.0": 1.014,
+                "ACS": 204,
+                "K": 13,
+                "D": 13,
+                "A": 8,
+                "PlusMinus": 0,
+                "KAST": 0.778,
+                "ADR": 116.9,
+                "HS%": 0.128,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "tenyaku",
+                "Agent": "Clove",
+                "R1.0": 0.959,
+                "ACS": 183,
+                "K": 12,
+                "D": 12,
+                "A": 6,
+                "PlusMinus": 0,
+                "KAST": 0.611,
+                "ADR": 128.2,
+                "HS%": 0.14,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "derpina",
+                "Agent": "Jett",
+                "R1.0": 1.01,
+                "ACS": 247,
+                "K": 16,
+                "D": 14,
+                "A": 2,
+                "PlusMinus": 2,
+                "KAST": 0.556,
+                "ADR": 146.4,
+                "HS%": 0.214,
+                "FK": 7,
+                "FD": 5,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "cooleo",
+                "Agent": "Phoenix",
+                "R1.0": 0.901,
+                "ACS": 201,
+                "K": 10,
+                "D": 16,
+                "A": 8,
+                "PlusMinus": -6,
+                "KAST": 0.667,
+                "ADR": 151.0,
+                "HS%": 0.359,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "thighs",
+                "Agent": "Sova",
+                "R1.0": 0.879,
+                "ACS": 191,
+                "K": 11,
+                "D": 15,
+                "A": 4,
+                "PlusMinus": -4,
+                "KAST": 0.722,
+                "ADR": 133.8,
+                "HS%": 0.14,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.84,
+                "ACS": 179,
+                "K": 12,
+                "D": 15,
+                "A": 7,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 97.7,
+                "HS%": 0.154,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Cypher",
+                "R1.0": 0.557,
+                "ACS": 97,
+                "K": 6,
+                "D": 13,
+                "A": 6,
+                "PlusMinus": -7,
+                "KAST": 0.5,
+                "ADR": 64.2,
+                "HS%": 0.222,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ascent",
+        "score1": 16,
+        "score2": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 20,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 22,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 23,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 24,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 25,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 26,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 27,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 28,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 29,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 30,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "BAKA",
+            "teamName": "Beautiful and Kinda Adorable",
+            "players": [
+              {
+                "Player": "lucas",
+                "Agent": "Sova",
+                "R1.0": 1.554,
+                "ACS": 311,
+                "K": 34,
+                "D": 17,
+                "A": 9,
+                "PlusMinus": 17,
+                "KAST": 0.867,
+                "ADR": 217.7,
+                "HS%": 0.386,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "james",
+                "Agent": "Veto",
+                "R1.0": 1.088,
+                "ACS": 228,
+                "K": 27,
+                "D": 21,
+                "A": 1,
+                "PlusMinus": 6,
+                "KAST": 0.767,
+                "ADR": 142.5,
+                "HS%": 0.438,
+                "FK": 4,
+                "FD": 3,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "night",
+                "Agent": "Raze",
+                "R1.0": 1.036,
+                "ACS": 224,
+                "K": 22,
+                "D": 23,
+                "A": 8,
+                "PlusMinus": -1,
+                "KAST": 0.733,
+                "ADR": 152.6,
+                "HS%": 0.154,
+                "FK": 4,
+                "FD": 7,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "tenyaku",
+                "Agent": "Cypher",
+                "R1.0": 0.858,
+                "ACS": 150,
+                "K": 14,
+                "D": 21,
+                "A": 15,
+                "PlusMinus": -7,
+                "KAST": 0.767,
+                "ADR": 102.8,
+                "HS%": 0.087,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "asher",
+                "Agent": "Deadlock",
+                "R1.0": 0.752,
+                "ACS": 168,
+                "K": 17,
+                "D": 24,
+                "A": 7,
+                "PlusMinus": -7,
+                "KAST": 0.5,
+                "ADR": 113.4,
+                "HS%": 0.185,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "cooleo",
+                "Agent": "Phoenix",
+                "R1.0": 1.238,
+                "ACS": 290,
+                "K": 30,
+                "D": 26,
+                "A": 10,
+                "PlusMinus": 4,
+                "KAST": 0.667,
+                "ADR": 194.4,
+                "HS%": 0.362,
+                "FK": 5,
+                "FD": 4,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "thighs",
+                "Agent": "Sova",
+                "R1.0": 1.228,
+                "ACS": 254,
+                "K": 27,
+                "D": 21,
+                "A": 8,
+                "PlusMinus": 6,
+                "KAST": 0.733,
+                "ADR": 181.2,
+                "HS%": 0.26,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Cypher",
+                "R1.0": 1.033,
+                "ACS": 202,
+                "K": 22,
+                "D": 22,
+                "A": 7,
+                "PlusMinus": 0,
+                "KAST": 0.733,
+                "ADR": 148.6,
+                "HS%": 0.254,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "derpina",
+                "Agent": "Yoru",
+                "R1.0": 0.827,
+                "ACS": 193,
+                "K": 18,
+                "D": 24,
+                "A": 7,
+                "PlusMinus": -6,
+                "KAST": 0.667,
+                "ADR": 115.4,
+                "HS%": 0.214,
+                "FK": 8,
+                "FD": 5,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.717,
+                "ACS": 114,
+                "K": 9,
+                "D": 21,
+                "A": 18,
+                "PlusMinus": -12,
+                "KAST": 0.667,
+                "ADR": 86.5,
+                "HS%": 0.077,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=-66wqgbCQcE"
   },
   {
     "id": "ts-vs-spg-s3-group-omega-2026-08-05",

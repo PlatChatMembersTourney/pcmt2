@@ -30,14 +30,14 @@
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
       "matchW": 5,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 11,
-      "mapL": 3,
-      "rndW": 176,
-      "rndL": 117,
+      "mapL": 5,
+      "rndW": 195,
+      "rndL": 146,
       "rank": 3,
-      "mapDiff": 8,
-      "rndDiff": 59
+      "mapDiff": 6,
+      "rndDiff": 49
     },
     {
       "abbr": "FSG",
@@ -118,6 +118,19 @@
       "rndDiff": -6
     },
     {
+      "abbr": "BAKA",
+      "name": "Beautiful and Kinda Adorable",
+      "matchW": 3,
+      "matchL": 4,
+      "mapW": 7,
+      "mapL": 10,
+      "rndW": 177,
+      "rndL": 203,
+      "rank": 10,
+      "mapDiff": -3,
+      "rndDiff": -26
+    },
+    {
       "abbr": "SSG",
       "name": "Squirtle Squad Gaming",
       "matchW": 2,
@@ -126,7 +139,7 @@
       "mapL": 6,
       "rndW": 146,
       "rndL": 131,
-      "rank": 10,
+      "rank": 11,
       "mapDiff": 0,
       "rndDiff": 15
     },
@@ -139,22 +152,9 @@
       "mapL": 7,
       "rndW": 142,
       "rndL": 144,
-      "rank": 11,
+      "rank": 12,
       "mapDiff": -1,
       "rndDiff": -2
-    },
-    {
-      "abbr": "BAKA",
-      "name": "Beautiful and Kinda Adorable",
-      "matchW": 2,
-      "matchL": 4,
-      "mapW": 5,
-      "mapL": 10,
-      "rndW": 148,
-      "rndL": 184,
-      "rank": 12,
-      "mapDiff": -5,
-      "rndDiff": -36
     },
     {
       "abbr": "IHOP",
@@ -333,14 +333,14 @@
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
       "matchW": 5,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 11,
-      "mapL": 3,
-      "rndW": 176,
-      "rndL": 117,
+      "mapL": 5,
+      "rndW": 195,
+      "rndL": 146,
       "rank": 2,
-      "mapDiff": 8,
-      "rndDiff": 59
+      "mapDiff": 6,
+      "rndDiff": 49
     },
     {
       "abbr": "NAVI",
@@ -384,15 +384,15 @@
     {
       "abbr": "BAKA",
       "name": "Beautiful and Kinda Adorable",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 4,
-      "mapW": 5,
+      "mapW": 7,
       "mapL": 10,
-      "rndW": 148,
-      "rndL": 184,
+      "rndW": 177,
+      "rndL": 203,
       "rank": 6,
-      "mapDiff": -5,
-      "rndDiff": -36
+      "mapDiff": -3,
+      "rndDiff": -26
     },
     {
       "abbr": "DFM",
