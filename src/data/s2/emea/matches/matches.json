@@ -7336,7 +7336,7 @@
             "PlusMinus2": -3
           },
           {
-            "Player": "eva",
+            "Player": "Eva",
             "R1.0": 0.878,
             "ACS": 167,
             "K": 35,
@@ -7563,7 +7563,7 @@
             "teamName": "Stay Seally",
             "players": [
               {
-                "Player": "eva",
+                "Player": "Eva",
                 "Agent": "Omen",
                 "R1.0": 0.877,
                 "ACS": 199,
@@ -7898,7 +7898,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "eva",
+                "Player": "Eva",
                 "Agent": "Omen",
                 "R1.0": 1.242,
                 "ACS": 181,
@@ -8243,7 +8243,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "eva",
+                "Player": "Eva",
                 "Agent": "Omen",
                 "R1.0": 0.696,
                 "ACS": 143,

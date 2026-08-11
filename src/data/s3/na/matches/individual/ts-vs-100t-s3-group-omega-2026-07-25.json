@@ -29,30 +29,184 @@
     }
   ],
   "combinedStats": [
-  {
-    "team": "TS",
-    "teamName": "Team Slugshow",
-    "players": [
-      { "Player": "avi",      "R1.0": 1.294, "ACS": 278, "K": 65, "D": 45, "A": 15, "PlusMinus": 20,  "KAST": 0.772, "ADR": 179.0, "HS%": 0.318, "FK": 11, "FD": 10, "PlusMinus2": 1 },
-      { "Player": "dino",     "R1.0": 1.075, "ACS": 197, "K": 55, "D": 43, "A": 13, "PlusMinus": 12,  "KAST": 0.732, "ADR": 129.1, "HS%": 0.344, "FK": 4,  "FD": 7,  "PlusMinus2": -3 },
-      { "Player": "Lore",     "R1.0": 0.950, "ACS": 140, "K": 13, "D": 10, "A": 6,  "PlusMinus": 3,   "KAST": 0.710, "ADR": 90.0,  "HS%": 0.120, "FK": 2,  "FD": 1,  "PlusMinus2": 1 },
-      { "Player": "straight", "R1.0": 1.074, "ACS": 192, "K": 46, "D": 43, "A": 25, "PlusMinus": 3,   "KAST": 0.749, "ADR": 140.3, "HS%": 0.113, "FK": 6,  "FD": 6,  "PlusMinus2": 0 },
-      { "Player": "Ceiliuir", "R1.0": 1.018, "ACS": 171, "K": 29, "D": 25, "A": 16, "PlusMinus": 4,   "KAST": 0.767, "ADR": 112.3, "HS%": 0.184, "FK": 0,  "FD": 1,  "PlusMinus2": -1 },
-      { "Player": "pants",    "R1.0": 0.711, "ACS": 117, "K": 23, "D": 42, "A": 23, "PlusMinus": -19, "KAST": 0.746, "ADR": 75.5,  "HS%": 0.153, "FK": 4,  "FD": 4,  "PlusMinus2": 0 }
-    ]
-  },
-  {
-    "team": "100T",
-    "teamName": "100 Tony's",
-    "players": [
-      { "Player": "abstracq", "R1.0": 1.099, "ACS": 233, "K": 51, "D": 48, "A": 15, "PlusMinus": 3,   "KAST": 0.759, "ADR": 159.6, "HS%": 0.256, "FK": 8,  "FD": 6,  "PlusMinus2": 2 },
-      { "Player": "psyclone", "R1.0": 1.036, "ACS": 238, "K": 50, "D": 48, "A": 10, "PlusMinus": 2,   "KAST": 0.741, "ADR": 147.6, "HS%": 0.275, "FK": 16, "FD": 10, "PlusMinus2": 6 },
-      { "Player": "shadow",   "R1.0": 0.936, "ACS": 179, "K": 43, "D": 44, "A": 10, "PlusMinus": -1,  "KAST": 0.711, "ADR": 124.4, "HS%": 0.163, "FK": 4,  "FD": 5,  "PlusMinus2": -1 },
-      { "Player": "xyn",      "R1.0": 0.901, "ACS": 167, "K": 36, "D": 45, "A": 23, "PlusMinus": -9,  "KAST": 0.749, "ADR": 113.8, "HS%": 0.160, "FK": 0,  "FD": 2,  "PlusMinus2": -2 },
-      { "Player": "catsmeow", "R1.0": 0.761, "ACS": 131, "K": 28, "D": 45, "A": 14, "PlusMinus": -17, "KAST": 0.800, "ADR": 92.6,  "HS%": 0.228, "FK": 1,  "FD": 4,  "PlusMinus2": -3 }
-    ]
-  }
-],
+    {
+      "team": "TS",
+      "teamName": "Team Slugshow",
+      "players": [
+        {
+          "Player": "avi",
+          "R1.0": 1.294,
+          "ACS": 278,
+          "K": 65,
+          "D": 45,
+          "A": 15,
+          "PlusMinus": 20,
+          "KAST": 0.772,
+          "ADR": 179.0,
+          "HS%": 0.318,
+          "FK": 11,
+          "FD": 10,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "dino",
+          "R1.0": 1.075,
+          "ACS": 197,
+          "K": 55,
+          "D": 43,
+          "A": 13,
+          "PlusMinus": 12,
+          "KAST": 0.732,
+          "ADR": 129.1,
+          "HS%": 0.344,
+          "FK": 4,
+          "FD": 7,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "lore",
+          "R1.0": 0.95,
+          "ACS": 140,
+          "K": 13,
+          "D": 10,
+          "A": 6,
+          "PlusMinus": 3,
+          "KAST": 0.71,
+          "ADR": 90.0,
+          "HS%": 0.12,
+          "FK": 2,
+          "FD": 1,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "straight",
+          "R1.0": 1.074,
+          "ACS": 192,
+          "K": 46,
+          "D": 43,
+          "A": 25,
+          "PlusMinus": 3,
+          "KAST": 0.749,
+          "ADR": 140.3,
+          "HS%": 0.113,
+          "FK": 6,
+          "FD": 6,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "Ceiliuir",
+          "R1.0": 1.018,
+          "ACS": 171,
+          "K": 29,
+          "D": 25,
+          "A": 16,
+          "PlusMinus": 4,
+          "KAST": 0.767,
+          "ADR": 112.3,
+          "HS%": 0.184,
+          "FK": 0,
+          "FD": 1,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "pants",
+          "R1.0": 0.711,
+          "ACS": 117,
+          "K": 23,
+          "D": 42,
+          "A": 23,
+          "PlusMinus": -19,
+          "KAST": 0.746,
+          "ADR": 75.5,
+          "HS%": 0.153,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        }
+      ]
+    },
+    {
+      "team": "100T",
+      "teamName": "100 Tony's",
+      "players": [
+        {
+          "Player": "abstracq",
+          "R1.0": 1.099,
+          "ACS": 233,
+          "K": 51,
+          "D": 48,
+          "A": 15,
+          "PlusMinus": 3,
+          "KAST": 0.759,
+          "ADR": 159.6,
+          "HS%": 0.256,
+          "FK": 8,
+          "FD": 6,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "psyclone",
+          "R1.0": 1.036,
+          "ACS": 238,
+          "K": 50,
+          "D": 48,
+          "A": 10,
+          "PlusMinus": 2,
+          "KAST": 0.741,
+          "ADR": 147.6,
+          "HS%": 0.275,
+          "FK": 16,
+          "FD": 10,
+          "PlusMinus2": 6
+        },
+        {
+          "Player": "shadow",
+          "R1.0": 0.936,
+          "ACS": 179,
+          "K": 43,
+          "D": 44,
+          "A": 10,
+          "PlusMinus": -1,
+          "KAST": 0.711,
+          "ADR": 124.4,
+          "HS%": 0.163,
+          "FK": 4,
+          "FD": 5,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "xyn",
+          "R1.0": 0.901,
+          "ACS": 167,
+          "K": 36,
+          "D": 45,
+          "A": 23,
+          "PlusMinus": -9,
+          "KAST": 0.749,
+          "ADR": 113.8,
+          "HS%": 0.16,
+          "FK": 0,
+          "FD": 2,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "catsmeow",
+          "R1.0": 0.761,
+          "ACS": 131,
+          "K": 28,
+          "D": 45,
+          "A": 14,
+          "PlusMinus": -17,
+          "KAST": 0.8,
+          "ADR": 92.6,
+          "HS%": 0.228,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        }
+      ]
+    }
+  ],
   "mapDetails": [
     {
       "name": "Sunset",
@@ -808,7 +962,7 @@
             {
               "Player": "avi",
               "Agent": "Phoenix",
-              "R1.0": 1.360,
+              "R1.0": 1.36,
               "ACS": 315,
               "K": 18,
               "D": 13,
@@ -816,7 +970,7 @@
               "PlusMinus": 5,
               "KAST": 0.78,
               "ADR": 207.3,
-              "HS%": 0.330,
+              "HS%": 0.33,
               "FK": 3,
               "FD": 3,
               "PlusMinus2": 0
@@ -854,9 +1008,9 @@
               "PlusMinus2": -1
             },
             {
-              "Player": "Lore",
+              "Player": "lore",
               "Agent": "Sage",
-              "R1.0": 0.950,
+              "R1.0": 0.95,
               "ACS": 140,
               "K": 13,
               "D": 10,

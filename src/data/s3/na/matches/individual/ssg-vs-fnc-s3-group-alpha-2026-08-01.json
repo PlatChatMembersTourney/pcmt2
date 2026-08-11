@@ -130,7 +130,7 @@
           "PlusMinus2": -2
         },
         {
-          "Player": "Night",
+          "Player": "night",
           "R1.0": 1.141,
           "ACS": 262,
           "K": 64,
@@ -445,7 +445,7 @@
               "PlusMinus2": -4
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Harbor",
               "R1.0": 1.041,
               "ACS": 232,
@@ -786,7 +786,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Clove",
               "R1.0": 1.102,
               "ACS": 259,
@@ -1073,7 +1073,7 @@
           "teamName": "cow paulo FaN Club",
           "players": [
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Clove",
               "R1.0": 1.282,
               "ACS": 294,
