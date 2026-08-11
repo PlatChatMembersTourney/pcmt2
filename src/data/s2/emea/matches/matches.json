@@ -1,5 +1,31 @@
 [
   {
+    "id": "larp-vs-sog-s2-group-omega-2026-08-16",
+    "team1": "LARP",
+    "team2": "SOG",
+    "team1Name": "Larpiat\u00e1n",
+    "team2Name": "The SOG",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-08-16T12:00:00Z",
+    "stage": "Group Omega"
+  },
+  {
+    "id": "seal-vs-sog-s2-group-omega-2026-08-15",
+    "team1": "SEAL",
+    "team2": "SOG",
+    "team1Name": "Stay Seally",
+    "team2Name": "The SOG",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-08-15T12:00:00Z",
+    "stage": "Group Omega"
+  },
+  {
     "id": "faze-vs-hot-s2-group-alpha-2026-08-13",
     "team1": "FaZe",
     "team2": "HOT",
