@@ -10194,18 +10194,5 @@
       }
     ],
     "streamLink": "https://www.youtube.com/watch?v=VnCinTsqXU0"
-  },
-  {
-    "id": "seal-vs-sog-s2-group-omega-2026-06-15",
-    "team1": "SEAL",
-    "team2": "SOG",
-    "team1Name": "Stay Seally",
-    "team2Name": "The SOG",
-    "score1": 0,
-    "score2": 0,
-    "completed": false,
-    "bestOf": 3,
-    "date": "2026-06-15T12:00:00Z",
-    "stage": "Group Omega"
   }
 ]
