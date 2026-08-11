@@ -1460,89 +1460,99 @@
     }
   },
   "Split": {
-    "mapsPlayed": 9,
-    "atkPct": 0.478,
-    "defPct": 0.522,
+    "mapsPlayed": 10,
+    "atkPct": 0.487,
+    "defPct": 0.513,
     "agents": [
       {
         "agent": "Raze",
         "comps": 11,
-        "pickPct": 0.611
+        "pickPct": 0.55
+      },
+      {
+        "agent": "Fade",
+        "comps": 8,
+        "pickPct": 0.4
       },
       {
         "agent": "Omen",
         "comps": 8,
-        "pickPct": 0.444
+        "pickPct": 0.4
       },
       {
-        "agent": "Fade",
-        "comps": 7,
-        "pickPct": 0.389
+        "agent": "Viper",
+        "comps": 6,
+        "pickPct": 0.3
       },
       {
         "agent": "Skye",
         "comps": 6,
-        "pickPct": 0.333
+        "pickPct": 0.3
       },
       {
-        "agent": "Viper",
-        "comps": 5,
-        "pickPct": 0.278
+        "agent": "Phoenix",
+        "comps": 4,
+        "pickPct": 0.2
+      },
+      {
+        "agent": "Waylay",
+        "comps": 4,
+        "pickPct": 0.2
       },
       {
         "agent": "Sage",
         "comps": 4,
-        "pickPct": 0.222
+        "pickPct": 0.2
       },
       {
         "agent": "Cypher",
         "comps": 4,
-        "pickPct": 0.222
+        "pickPct": 0.2
       },
       {
         "agent": "Neon",
         "comps": 4,
-        "pickPct": 0.222
-      },
-      {
-        "agent": "Phoenix",
-        "comps": 3,
-        "pickPct": 0.167
+        "pickPct": 0.2
       },
       {
         "agent": "Astra",
         "comps": 3,
-        "pickPct": 0.167
+        "pickPct": 0.15
       },
       {
         "agent": "Clove",
         "comps": 2,
-        "pickPct": 0.111
+        "pickPct": 0.1
       },
       {
         "agent": "Yoru",
         "comps": 2,
-        "pickPct": 0.111
-      },
-      {
-        "agent": "Waylay",
-        "comps": 2,
-        "pickPct": 0.111
+        "pickPct": 0.1
       },
       {
         "agent": "Vyse",
         "comps": 2,
-        "pickPct": 0.111
+        "pickPct": 0.1
+      },
+      {
+        "agent": "Miks",
+        "comps": 1,
+        "pickPct": 0.05
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.05
       },
       {
         "agent": "Chamber",
         "comps": 1,
-        "pickPct": 0.056
+        "pickPct": 0.05
       },
       {
         "agent": "Jett",
         "comps": 1,
-        "pickPct": 0.056
+        "pickPct": 0.05
       }
     ],
     "teams": {
@@ -1622,6 +1632,7 @@
         "team": "RRQ",
         "teamName": "Rage Re-Queuers",
         "agents": [
+          "Breach",
           "Clove",
           "Cypher",
           "Fade",
@@ -1630,6 +1641,7 @@
           "Raze",
           "Skye",
           "Viper",
+          "Waylay",
           "Yoru"
         ]
       },
@@ -1664,6 +1676,17 @@
           "Omen",
           "Phoenix",
           "Raze"
+        ]
+      },
+      "TL": {
+        "team": "TL",
+        "teamName": "Team Dyslexia",
+        "agents": [
+          "Fade",
+          "Miks",
+          "Phoenix",
+          "Viper",
+          "Waylay"
         ]
       },
       "TS": {
@@ -1895,89 +1918,94 @@
     }
   },
   "Sunset": {
-    "mapsPlayed": 10,
-    "atkPct": 0.448,
-    "defPct": 0.552,
+    "mapsPlayed": 11,
+    "atkPct": 0.481,
+    "defPct": 0.519,
     "agents": [
       {
         "agent": "Omen",
-        "comps": 11,
-        "pickPct": 0.55
+        "comps": 12,
+        "pickPct": 0.545
       },
       {
         "agent": "Fade",
-        "comps": 9,
-        "pickPct": 0.45
+        "comps": 10,
+        "pickPct": 0.455
       },
       {
         "agent": "Cypher",
-        "comps": 7,
-        "pickPct": 0.35
+        "comps": 8,
+        "pickPct": 0.364
+      },
+      {
+        "agent": "Raze",
+        "comps": 6,
+        "pickPct": 0.273
       },
       {
         "agent": "Neon",
         "comps": 6,
-        "pickPct": 0.3
+        "pickPct": 0.273
       },
       {
         "agent": "Sova",
         "comps": 6,
-        "pickPct": 0.3
+        "pickPct": 0.273
       },
       {
-        "agent": "Phoenix",
+        "agent": "Chamber",
         "comps": 5,
-        "pickPct": 0.25
+        "pickPct": 0.227
       },
       {
         "agent": "Waylay",
         "comps": 5,
-        "pickPct": 0.25
+        "pickPct": 0.227
       },
       {
-        "agent": "Raze",
+        "agent": "Phoenix",
         "comps": 5,
-        "pickPct": 0.25
+        "pickPct": 0.227
       },
       {
-        "agent": "Chamber",
+        "agent": "Sage",
         "comps": 4,
-        "pickPct": 0.2
+        "pickPct": 0.182
       },
       {
         "agent": "Yoru",
         "comps": 4,
-        "pickPct": 0.2
-      },
-      {
-        "agent": "Sage",
-        "comps": 3,
-        "pickPct": 0.15
+        "pickPct": 0.182
       },
       {
         "agent": "Vyse",
         "comps": 3,
-        "pickPct": 0.15
+        "pickPct": 0.136
       },
       {
         "agent": "Skye",
         "comps": 2,
-        "pickPct": 0.1
+        "pickPct": 0.091
+      },
+      {
+        "agent": "Iso",
+        "comps": 1,
+        "pickPct": 0.045
       },
       {
         "agent": "Breach",
         "comps": 1,
-        "pickPct": 0.05
+        "pickPct": 0.045
       },
       {
         "agent": "Deadlock",
         "comps": 1,
-        "pickPct": 0.05
+        "pickPct": 0.045
       },
       {
         "agent": "Clove",
         "comps": 1,
-        "pickPct": 0.05
+        "pickPct": 0.045
       }
     ],
     "teams": {
@@ -2067,6 +2095,17 @@
           "Vyse"
         ]
       },
+      "RRQ": {
+        "team": "RRQ",
+        "teamName": "Rage Re-Queuers",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Omen",
+          "Raze",
+          "Sage"
+        ]
+      },
       "SPG": {
         "team": "SPG",
         "teamName": "Spank Ptheory Gaming",
@@ -2098,9 +2137,11 @@
         "team": "TL",
         "teamName": "Team Dyslexia",
         "agents": [
+          "Chamber",
           "Cypher",
           "Deadlock",
           "Fade",
+          "Iso",
           "Omen",
           "Raze",
           "Sage",

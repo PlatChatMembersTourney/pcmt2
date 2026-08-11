@@ -66,6 +66,19 @@
       "rndDiff": 15
     },
     {
+      "abbr": "TL",
+      "name": "Team Dyslexia",
+      "matchW": 4,
+      "matchL": 3,
+      "mapW": 9,
+      "mapL": 8,
+      "rndW": 183,
+      "rndL": 178,
+      "rank": 6,
+      "mapDiff": 1,
+      "rndDiff": 5
+    },
+    {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
@@ -74,7 +87,7 @@
       "mapL": 4,
       "rndW": 114,
       "rndL": 97,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": 2,
       "rndDiff": 17
     },
@@ -87,22 +100,9 @@
       "mapL": 5,
       "rndW": 133,
       "rndL": 120,
-      "rank": 7,
+      "rank": 8,
       "mapDiff": 2,
       "rndDiff": 13
-    },
-    {
-      "abbr": "TL",
-      "name": "Team Dyslexia",
-      "matchW": 3,
-      "matchL": 3,
-      "mapW": 7,
-      "mapL": 8,
-      "rndW": 157,
-      "rndL": 162,
-      "rank": 8,
-      "mapDiff": -1,
-      "rndDiff": -5
     },
     {
       "abbr": "100T",
@@ -147,14 +147,14 @@
       "abbr": "RRQ",
       "name": "Rage Re-Queuers",
       "matchW": 2,
-      "matchL": 3,
+      "matchL": 4,
       "mapW": 6,
-      "mapL": 7,
-      "rndW": 142,
-      "rndL": 144,
+      "mapL": 9,
+      "rndW": 158,
+      "rndL": 170,
       "rank": 12,
-      "mapDiff": -1,
-      "rndDiff": -2
+      "mapDiff": -3,
+      "rndDiff": -12
     },
     {
       "abbr": "IHOP",
@@ -252,15 +252,15 @@
     {
       "abbr": "TL",
       "name": "Team Dyslexia",
-      "matchW": 3,
+      "matchW": 4,
       "matchL": 3,
-      "mapW": 7,
+      "mapW": 9,
       "mapL": 8,
-      "rndW": 157,
-      "rndL": 162,
+      "rndW": 183,
+      "rndL": 178,
       "rank": 4,
-      "mapDiff": -1,
-      "rndDiff": -5
+      "mapDiff": 1,
+      "rndDiff": 5
     },
     {
       "abbr": "SSG",
@@ -279,14 +279,14 @@
       "abbr": "RRQ",
       "name": "Rage Re-Queuers",
       "matchW": 2,
-      "matchL": 3,
+      "matchL": 4,
       "mapW": 6,
-      "mapL": 7,
-      "rndW": 142,
-      "rndL": 144,
+      "mapL": 9,
+      "rndW": 158,
+      "rndL": 170,
       "rank": 6,
-      "mapDiff": -1,
-      "rndDiff": -2
+      "mapDiff": -3,
+      "rndDiff": -12
     },
     {
       "abbr": "IHOP",
