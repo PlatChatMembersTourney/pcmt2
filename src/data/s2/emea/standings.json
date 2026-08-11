@@ -14,19 +14,6 @@
       "rndDiff": 14
     },
     {
-      "abbr": "ATLC",
-      "name": "ATLNTIC Esports",
-      "matchW": 2,
-      "matchL": 0,
-      "mapW": 4,
-      "mapL": 1,
-      "rndW": 61,
-      "rndL": 52,
-      "rank": 2,
-      "mapDiff": 3,
-      "rndDiff": 9
-    },
-    {
       "abbr": "NOOT",
       "name": "Penguin Patrol",
       "matchW": 2,
@@ -35,7 +22,7 @@
       "mapL": 2,
       "rndW": 75,
       "rndL": 49,
-      "rank": 3,
+      "rank": 2,
       "mapDiff": 2,
       "rndDiff": 26
     },
@@ -48,9 +35,22 @@
       "mapL": 3,
       "rndW": 80,
       "rndL": 65,
-      "rank": 4,
+      "rank": 3,
       "mapDiff": 1,
       "rndDiff": 15
+    },
+    {
+      "abbr": "ATLC",
+      "name": "ATLNTIC Esports",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 4,
+      "mapL": 3,
+      "rndW": 79,
+      "rndL": 78,
+      "rank": 4,
+      "mapDiff": 1,
+      "rndDiff": 1
     },
     {
       "abbr": "FaZe",
@@ -66,6 +66,19 @@
       "rndDiff": 2
     },
     {
+      "abbr": "XTC",
+      "name": "Xually Terribly Cursed",
+      "matchW": 1,
+      "matchL": 1,
+      "mapW": 3,
+      "mapL": 2,
+      "rndW": 49,
+      "rndL": 49,
+      "rank": 6,
+      "mapDiff": 1,
+      "rndDiff": 0
+    },
+    {
       "abbr": "NATS",
       "name": "Never Available To Scrim",
       "matchW": 1,
@@ -74,7 +87,7 @@
       "mapL": 3,
       "rndW": 54,
       "rndL": 54,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": -1,
       "rndDiff": 0
     },
@@ -87,22 +100,9 @@
       "mapL": 3,
       "rndW": 45,
       "rndL": 56,
-      "rank": 7,
-      "mapDiff": -1,
-      "rndDiff": -11
-    },
-    {
-      "abbr": "XTC",
-      "name": "Xually Terribly Cursed",
-      "matchW": 0,
-      "matchL": 1,
-      "mapW": 1,
-      "mapL": 2,
-      "rndW": 23,
-      "rndL": 31,
       "rank": 8,
       "mapDiff": -1,
-      "rndDiff": -8
+      "rndDiff": -11
     },
     {
       "abbr": "HOT",
@@ -133,19 +133,6 @@
   ],
   "Group Alpha": [
     {
-      "abbr": "ATLC",
-      "name": "ATLNTIC Esports",
-      "matchW": 2,
-      "matchL": 0,
-      "mapW": 4,
-      "mapL": 1,
-      "rndW": 61,
-      "rndL": 52,
-      "rank": 1,
-      "mapDiff": 3,
-      "rndDiff": 9
-    },
-    {
       "abbr": "NIP",
       "name": "Name in Progress",
       "matchW": 2,
@@ -154,9 +141,22 @@
       "mapL": 3,
       "rndW": 80,
       "rndL": 65,
-      "rank": 2,
+      "rank": 1,
       "mapDiff": 1,
       "rndDiff": 15
+    },
+    {
+      "abbr": "ATLC",
+      "name": "ATLNTIC Esports",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 4,
+      "mapL": 3,
+      "rndW": 79,
+      "rndL": 78,
+      "rank": 2,
+      "mapDiff": 1,
+      "rndDiff": 1
     },
     {
       "abbr": "FaZe",
@@ -174,15 +174,15 @@
     {
       "abbr": "XTC",
       "name": "Xually Terribly Cursed",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 1,
-      "mapW": 1,
+      "mapW": 3,
       "mapL": 2,
-      "rndW": 23,
-      "rndL": 31,
+      "rndW": 49,
+      "rndL": 49,
       "rank": 4,
-      "mapDiff": -1,
-      "rndDiff": -8
+      "mapDiff": 1,
+      "rndDiff": 0
     },
     {
       "abbr": "HOT",

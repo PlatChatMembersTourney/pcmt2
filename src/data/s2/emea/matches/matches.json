@@ -45,11 +45,832 @@
     "team1Name": "ATLNTIC Esports",
     "team2Name": "Xually Terribly Cursed",
     "score1": 0,
-    "score2": 0,
-    "completed": false,
+    "score2": 2,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-08-10T17:00:00Z",
-    "stage": "Group Alpha"
+    "stage": "Group Alpha",
+    "veto": "XTC bans Sunset, ATLC bans Lotus, XTC picks Haven, ATLC picks Ascent, XTC bans Split, ATLC bans Summit, Breeze remains",
+    "maps": [
+      {
+        "name": "Haven",
+        "score1": 8,
+        "score2": 13
+      },
+      {
+        "name": "Ascent",
+        "score1": 10,
+        "score2": 13
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "ATLC",
+        "teamName": "ATLNTIC Esports",
+        "players": [
+          {
+            "Player": "bonkashi",
+            "R1.0": 1.116,
+            "ACS": 208,
+            "K": 42,
+            "D": 34,
+            "A": 10,
+            "PlusMinus": 8,
+            "KAST": 0.818,
+            "ADR": 130.1,
+            "HS%": 0.205,
+            "FK": 6,
+            "FD": 2,
+            "PlusMinus2": 4
+          },
+          {
+            "Player": "Night",
+            "R1.0": 1.028,
+            "ACS": 183,
+            "K": 36,
+            "D": 34,
+            "A": 17,
+            "PlusMinus": 2,
+            "KAST": 0.818,
+            "ADR": 110.5,
+            "HS%": 0.29,
+            "FK": 4,
+            "FD": 6,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "Sky",
+            "R1.0": 0.839,
+            "ACS": 175,
+            "K": 11,
+            "D": 17,
+            "A": 7,
+            "PlusMinus": -6,
+            "KAST": 0.667,
+            "ADR": 129.4,
+            "HS%": 0.217,
+            "FK": 1,
+            "FD": 0,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "Ellie",
+            "R1.0": 0.703,
+            "ACS": 92,
+            "K": 12,
+            "D": 17,
+            "A": 4,
+            "PlusMinus": -5,
+            "KAST": 0.783,
+            "ADR": 63.3,
+            "HS%": 0.226,
+            "FK": 0,
+            "FD": 2,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "Optimus",
+            "R1.0": 0.69,
+            "ACS": 100,
+            "K": 20,
+            "D": 33,
+            "A": 13,
+            "PlusMinus": -13,
+            "KAST": 0.727,
+            "ADR": 70.7,
+            "HS%": 0.336,
+            "FK": 1,
+            "FD": 2,
+            "PlusMinus2": -1
+          },
+          {
+            "Player": "ria",
+            "R1.0": 0.542,
+            "ACS": 102,
+            "K": 20,
+            "D": 39,
+            "A": 6,
+            "PlusMinus": -19,
+            "KAST": 0.636,
+            "ADR": 60.9,
+            "HS%": 0.165,
+            "FK": 2,
+            "FD": 6,
+            "PlusMinus2": -4
+          }
+        ]
+      },
+      {
+        "team": "XTC",
+        "teamName": "Xually Terribly Cursed",
+        "players": [
+          {
+            "Player": "alex",
+            "R1.0": 1.251,
+            "ACS": 208,
+            "K": 43,
+            "D": 27,
+            "A": 15,
+            "PlusMinus": 16,
+            "KAST": 0.864,
+            "ADR": 135.3,
+            "HS%": 0.158,
+            "FK": 9,
+            "FD": 2,
+            "PlusMinus2": 7
+          },
+          {
+            "Player": "sinderinho",
+            "R1.0": 1.193,
+            "ACS": 220,
+            "K": 41,
+            "D": 29,
+            "A": 9,
+            "PlusMinus": 12,
+            "KAST": 0.841,
+            "ADR": 145.4,
+            "HS%": 0.399,
+            "FK": 6,
+            "FD": 4,
+            "PlusMinus2": 2
+          },
+          {
+            "Player": "Yessi",
+            "R1.0": 1.05,
+            "ACS": 161,
+            "K": 35,
+            "D": 30,
+            "A": 10,
+            "PlusMinus": 5,
+            "KAST": 0.864,
+            "ADR": 117.0,
+            "HS%": 0.139,
+            "FK": 1,
+            "FD": 2,
+            "PlusMinus2": -1
+          },
+          {
+            "Player": "ZiDin",
+            "R1.0": 0.949,
+            "ACS": 126,
+            "K": 28,
+            "D": 30,
+            "A": 21,
+            "PlusMinus": -2,
+            "KAST": 0.841,
+            "ADR": 91.5,
+            "HS%": 0.314,
+            "FK": 0,
+            "FD": 2,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "Duck",
+            "R1.0": 0.874,
+            "ACS": 118,
+            "K": 26,
+            "D": 25,
+            "A": 10,
+            "PlusMinus": 1,
+            "KAST": 0.796,
+            "ADR": 80.2,
+            "HS%": 0.146,
+            "FK": 2,
+            "FD": 4,
+            "PlusMinus2": -2
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Haven",
+        "score1": 8,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 20,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "ATLC",
+            "teamName": "ATLNTIC Esports",
+            "players": [
+              {
+                "Player": "bonkashi",
+                "Agent": "Astra",
+                "R1.0": 1.485,
+                "ACS": 328,
+                "K": 25,
+                "D": 15,
+                "A": 7,
+                "PlusMinus": 10,
+                "KAST": 0.81,
+                "ADR": 207.3,
+                "HS%": 0.284,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "Night",
+                "Agent": "Phoenix",
+                "R1.0": 1.055,
+                "ACS": 226,
+                "K": 16,
+                "D": 17,
+                "A": 10,
+                "PlusMinus": -1,
+                "KAST": 0.762,
+                "ADR": 138.5,
+                "HS%": 0.375,
+                "FK": 4,
+                "FD": 4,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "Sky",
+                "Agent": "Cypher",
+                "R1.0": 0.839,
+                "ACS": 175,
+                "K": 11,
+                "D": 17,
+                "A": 7,
+                "PlusMinus": -6,
+                "KAST": 0.667,
+                "ADR": 129.4,
+                "HS%": 0.217,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "ria",
+                "Agent": "Neon",
+                "R1.0": 0.749,
+                "ACS": 178,
+                "K": 13,
+                "D": 19,
+                "A": 5,
+                "PlusMinus": -6,
+                "KAST": 0.619,
+                "ADR": 103.9,
+                "HS%": 0.103,
+                "FK": 2,
+                "FD": 5,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "Optimus",
+                "Agent": "Sova",
+                "R1.0": 0.746,
+                "ACS": 128,
+                "K": 8,
+                "D": 16,
+                "A": 10,
+                "PlusMinus": -8,
+                "KAST": 0.714,
+                "ADR": 96.2,
+                "HS%": 0.323,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              }
+            ]
+          },
+          {
+            "team": "XTC",
+            "teamName": "Xually Terribly Cursed",
+            "players": [
+              {
+                "Player": "alex",
+                "Agent": "Chamber",
+                "R1.0": 1.374,
+                "ACS": 303,
+                "K": 23,
+                "D": 14,
+                "A": 4,
+                "PlusMinus": 9,
+                "KAST": 0.762,
+                "ADR": 194.5,
+                "HS%": 0.255,
+                "FK": 5,
+                "FD": 2,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "Yessi",
+                "Agent": "Phoenix",
+                "R1.0": 1.275,
+                "ACS": 260,
+                "K": 20,
+                "D": 15,
+                "A": 5,
+                "PlusMinus": 5,
+                "KAST": 0.81,
+                "ADR": 184.3,
+                "HS%": 0.188,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "sinderinho",
+                "Agent": "Jett",
+                "R1.0": 1.198,
+                "ACS": 256,
+                "K": 19,
+                "D": 15,
+                "A": 3,
+                "PlusMinus": 4,
+                "KAST": 0.81,
+                "ADR": 172.3,
+                "HS%": 0.409,
+                "FK": 5,
+                "FD": 1,
+                "PlusMinus2": 4
+              },
+              {
+                "Player": "ZiDin",
+                "Agent": "Omen",
+                "R1.0": 0.925,
+                "ACS": 168,
+                "K": 12,
+                "D": 15,
+                "A": 7,
+                "PlusMinus": -3,
+                "KAST": 0.762,
+                "ADR": 125.1,
+                "HS%": 0.324,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "Duck",
+                "Agent": "Fade",
+                "R1.0": 0.727,
+                "ACS": 119,
+                "K": 9,
+                "D": 14,
+                "A": 6,
+                "PlusMinus": -5,
+                "KAST": 0.667,
+                "ADR": 85.0,
+                "HS%": 0.132,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ascent",
+        "score1": 10,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 20,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 22,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 23,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "ATLC",
+            "teamName": "ATLNTIC Esports",
+            "players": [
+              {
+                "Player": "Night",
+                "Agent": "Omen",
+                "R1.0": 1.005,
+                "ACS": 144,
+                "K": 20,
+                "D": 17,
+                "A": 7,
+                "PlusMinus": 3,
+                "KAST": 0.87,
+                "ADR": 84.9,
+                "HS%": 0.212,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "bonkashi",
+                "Agent": "Phoenix",
+                "R1.0": 0.779,
+                "ACS": 98,
+                "K": 17,
+                "D": 19,
+                "A": 3,
+                "PlusMinus": -2,
+                "KAST": 0.826,
+                "ADR": 59.6,
+                "HS%": 0.133,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "Ellie",
+                "Agent": "Cypher",
+                "R1.0": 0.703,
+                "ACS": 92,
+                "K": 12,
+                "D": 17,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.783,
+                "ADR": 63.3,
+                "HS%": 0.226,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "Optimus",
+                "Agent": "Sova",
+                "R1.0": 0.64,
+                "ACS": 74,
+                "K": 12,
+                "D": 17,
+                "A": 3,
+                "PlusMinus": -5,
+                "KAST": 0.739,
+                "ADR": 47.4,
+                "HS%": 0.348,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "ria",
+                "Agent": "Neon",
+                "R1.0": 0.352,
+                "ACS": 32,
+                "K": 7,
+                "D": 20,
+                "A": 1,
+                "PlusMinus": -13,
+                "KAST": 0.652,
+                "ADR": 21.6,
+                "HS%": 0.222,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              }
+            ]
+          },
+          {
+            "team": "XTC",
+            "teamName": "Xually Terribly Cursed",
+            "players": [
+              {
+                "Player": "sinderinho",
+                "Agent": "Neon",
+                "R1.0": 1.189,
+                "ACS": 188,
+                "K": 22,
+                "D": 14,
+                "A": 6,
+                "PlusMinus": 8,
+                "KAST": 0.87,
+                "ADR": 120.8,
+                "HS%": 0.39,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "alex",
+                "Agent": "Cypher",
+                "R1.0": 1.138,
+                "ACS": 121,
+                "K": 20,
+                "D": 13,
+                "A": 11,
+                "PlusMinus": 7,
+                "KAST": 0.957,
+                "ADR": 81.3,
+                "HS%": 0.07,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4
+              },
+              {
+                "Player": "Duck",
+                "Agent": "Sova",
+                "R1.0": 1.008,
+                "ACS": 118,
+                "K": 17,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": 6,
+                "KAST": 0.913,
+                "ADR": 75.9,
+                "HS%": 0.158,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "ZiDin",
+                "Agent": "Omen",
+                "R1.0": 0.97,
+                "ACS": 88,
+                "K": 16,
+                "D": 15,
+                "A": 14,
+                "PlusMinus": 1,
+                "KAST": 0.913,
+                "ADR": 60.8,
+                "HS%": 0.304,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "Yessi",
+                "Agent": "Jett",
+                "R1.0": 0.843,
+                "ACS": 70,
+                "K": 15,
+                "D": 15,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.913,
+                "ADR": 55.5,
+                "HS%": 0.095,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=WajuYD0TxU8"
   },
   {
     "id": "seal-vs-noot-s2-group-omega-2026-08-07",
