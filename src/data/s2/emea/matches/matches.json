@@ -26,6 +26,19 @@
     "stage": "Group Omega"
   },
   {
+    "id": "noot-vs-nats-s2-group-omega-2026-08-14",
+    "team1": "NOOT",
+    "team2": "NATS",
+    "team1Name": "Penguin Patrol",
+    "team2Name": "Never Available To Scrim",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-08-14T15:00:00Z",
+    "stage": "Group Omega"
+  },
+  {
     "id": "faze-vs-hot-s2-group-alpha-2026-08-13",
     "team1": "FaZe",
     "team2": "HOT",
