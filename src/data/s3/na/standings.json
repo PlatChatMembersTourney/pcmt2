@@ -53,6 +53,19 @@
       "rndDiff": 23
     },
     {
+      "abbr": "TS",
+      "name": "Team Slugshow",
+      "matchW": 4,
+      "matchL": 2,
+      "mapW": 9,
+      "mapL": 5,
+      "rndW": 159,
+      "rndL": 133,
+      "rank": 5,
+      "mapDiff": 4,
+      "rndDiff": 26
+    },
+    {
       "abbr": "T1",
       "name": "Team 1",
       "matchW": 4,
@@ -61,7 +74,7 @@
       "mapL": 4,
       "rndW": 131,
       "rndL": 116,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": 4,
       "rndDiff": 15
     },
@@ -74,7 +87,7 @@
       "mapL": 8,
       "rndW": 183,
       "rndL": 178,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": 1,
       "rndDiff": 5
     },
@@ -82,27 +95,14 @@
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
-      "matchL": 2,
+      "matchL": 3,
       "mapW": 6,
-      "mapL": 4,
-      "rndW": 114,
-      "rndL": 97,
-      "rank": 7,
-      "mapDiff": 2,
-      "rndDiff": 17
-    },
-    {
-      "abbr": "TS",
-      "name": "Team Slugshow",
-      "matchW": 3,
-      "matchL": 2,
-      "mapW": 7,
-      "mapL": 5,
-      "rndW": 133,
-      "rndL": 120,
+      "mapL": 6,
+      "rndW": 127,
+      "rndL": 123,
       "rank": 8,
-      "mapDiff": 2,
-      "rndDiff": 13
+      "mapDiff": 0,
+      "rndDiff": 4
     },
     {
       "abbr": "100T",
@@ -343,30 +343,30 @@
       "rndDiff": 49
     },
     {
+      "abbr": "TS",
+      "name": "Team Slugshow",
+      "matchW": 4,
+      "matchL": 2,
+      "mapW": 9,
+      "mapL": 5,
+      "rndW": 159,
+      "rndL": 133,
+      "rank": 3,
+      "mapDiff": 4,
+      "rndDiff": 26
+    },
+    {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
-      "matchL": 2,
+      "matchL": 3,
       "mapW": 6,
-      "mapL": 4,
-      "rndW": 114,
-      "rndL": 97,
-      "rank": 3,
-      "mapDiff": 2,
-      "rndDiff": 17
-    },
-    {
-      "abbr": "TS",
-      "name": "Team Slugshow",
-      "matchW": 3,
-      "matchL": 2,
-      "mapW": 7,
-      "mapL": 5,
-      "rndW": 133,
-      "rndL": 120,
+      "mapL": 6,
+      "rndW": 127,
+      "rndL": 123,
       "rank": 4,
-      "mapDiff": 2,
-      "rndDiff": 13
+      "mapDiff": 0,
+      "rndDiff": 4
     },
     {
       "abbr": "100T",
