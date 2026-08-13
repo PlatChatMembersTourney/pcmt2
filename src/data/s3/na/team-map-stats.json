@@ -1418,8 +1418,8 @@
   "NAVI": {
     "team": "NAVI",
     "teamName": "No Actual Valorant Intelligence",
-    "overallAtkPct": 0.557,
-    "overallDefPct": 0.445,
+    "overallAtkPct": 0.543,
+    "overallDefPct": 0.408,
     "maps": [
       {
         "map": "Abyss",
@@ -1437,7 +1437,7 @@
       {
         "map": "Ascent",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 2,
         "won": 1,
         "winPct": 0.5,
@@ -1462,16 +1462,16 @@
       },
       {
         "map": "Breeze",
-        "pick": 3,
+        "pick": 4,
         "ban": 0,
-        "played": 3,
+        "played": 4,
         "won": 2,
-        "winPct": 0.667,
-        "rounds": 63,
-        "roundsWon": 36,
-        "roundPct": 0.571,
-        "atkPct": 0.722,
-        "defPct": 0.37
+        "winPct": 0.5,
+        "rounds": 86,
+        "roundsWon": 46,
+        "roundPct": 0.535,
+        "atkPct": 0.708,
+        "defPct": 0.316
       },
       {
         "map": "Corrode",
@@ -1529,14 +1529,14 @@
         "map": "Lotus",
         "pick": 0,
         "ban": 3,
-        "played": 3,
+        "played": 4,
         "won": 2,
-        "winPct": 0.667,
-        "rounds": 63,
-        "roundsWon": 29,
-        "roundPct": 0.46,
-        "atkPct": 0.556,
-        "defPct": 0.333
+        "winPct": 0.5,
+        "rounds": 79,
+        "roundsWon": 32,
+        "roundPct": 0.405,
+        "atkPct": 0.479,
+        "defPct": 0.29
       },
       {
         "map": "Pearl",
@@ -1554,7 +1554,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 4,
+        "ban": 5,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -2657,8 +2657,8 @@
   "TS": {
     "team": "TS",
     "teamName": "Team Slugshow",
-    "overallAtkPct": 0.587,
-    "overallDefPct": 0.506,
+    "overallAtkPct": 0.614,
+    "overallDefPct": 0.511,
     "maps": [
       {
         "map": "Abyss",
@@ -2703,14 +2703,14 @@
         "map": "Breeze",
         "pick": 2,
         "ban": 1,
-        "played": 3,
-        "won": 2,
-        "winPct": 0.667,
-        "rounds": 66,
-        "roundsWon": 38,
-        "roundPct": 0.576,
-        "atkPct": 0.7,
-        "defPct": 0.472
+        "played": 4,
+        "won": 3,
+        "winPct": 0.75,
+        "rounds": 89,
+        "roundsWon": 51,
+        "roundPct": 0.573,
+        "atkPct": 0.732,
+        "defPct": 0.438
       },
       {
         "map": "Corrode",
@@ -2741,7 +2741,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 3,
+        "ban": 4,
         "played": 1,
         "won": 1,
         "winPct": 1.0,
@@ -2766,16 +2766,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 2,
+        "pick": 3,
         "ban": 0,
-        "played": 2,
-        "won": 1,
-        "winPct": 0.5,
-        "rounds": 40,
-        "roundsWon": 24,
-        "roundPct": 0.6,
-        "atkPct": 0.75,
-        "defPct": 0.5
+        "played": 3,
+        "won": 2,
+        "winPct": 0.667,
+        "rounds": 56,
+        "roundsWon": 37,
+        "roundPct": 0.661,
+        "atkPct": 0.8,
+        "defPct": 0.583
       },
       {
         "map": "Pearl",
@@ -2806,7 +2806,7 @@
       {
         "map": "Summit",
         "pick": 1,
-        "ban": 1,
+        "ban": 2,
         "played": 4,
         "won": 2,
         "winPct": 0.5,
