@@ -40,19 +40,6 @@
       "rndDiff": 49
     },
     {
-      "abbr": "TS",
-      "name": "Team Slugshow",
-      "matchW": 5,
-      "matchL": 2,
-      "mapW": 11,
-      "mapL": 5,
-      "rndW": 185,
-      "rndL": 146,
-      "rank": 4,
-      "mapDiff": 6,
-      "rndDiff": 39
-    },
-    {
       "abbr": "FSG",
       "name": "Furry Squirrels Gaming",
       "matchW": 4,
@@ -61,9 +48,22 @@
       "mapL": 2,
       "rndW": 119,
       "rndL": 96,
-      "rank": 5,
+      "rank": 4,
       "mapDiff": 6,
       "rndDiff": 23
+    },
+    {
+      "abbr": "TS",
+      "name": "Team Slugshow",
+      "matchW": 4,
+      "matchL": 2,
+      "mapW": 9,
+      "mapL": 5,
+      "rndW": 159,
+      "rndL": 133,
+      "rank": 5,
+      "mapDiff": 4,
+      "rndDiff": 26
     },
     {
       "abbr": "T1",
@@ -95,14 +95,14 @@
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
-      "matchL": 4,
+      "matchL": 3,
       "mapW": 6,
-      "mapL": 8,
-      "rndW": 140,
-      "rndL": 149,
+      "mapL": 6,
+      "rndW": 127,
+      "rndL": 123,
       "rank": 8,
-      "mapDiff": -2,
-      "rndDiff": -9
+      "mapDiff": 0,
+      "rndDiff": 4
     },
     {
       "abbr": "100T",
@@ -345,28 +345,28 @@
     {
       "abbr": "TS",
       "name": "Team Slugshow",
-      "matchW": 5,
+      "matchW": 4,
       "matchL": 2,
-      "mapW": 11,
+      "mapW": 9,
       "mapL": 5,
-      "rndW": 185,
-      "rndL": 146,
+      "rndW": 159,
+      "rndL": 133,
       "rank": 3,
-      "mapDiff": 6,
-      "rndDiff": 39
+      "mapDiff": 4,
+      "rndDiff": 26
     },
     {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
-      "matchL": 4,
+      "matchL": 3,
       "mapW": 6,
-      "mapL": 8,
-      "rndW": 140,
-      "rndL": 149,
+      "mapL": 6,
+      "rndW": 127,
+      "rndL": 123,
       "rank": 4,
-      "mapDiff": -2,
-      "rndDiff": -9
+      "mapDiff": 0,
+      "rndDiff": 4
     },
     {
       "abbr": "100T",

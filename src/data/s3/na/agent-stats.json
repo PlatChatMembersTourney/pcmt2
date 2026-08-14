@@ -311,79 +311,79 @@
     }
   },
   "Breeze": {
-    "mapsPlayed": 8,
-    "atkPct": 0.594,
-    "defPct": 0.406,
+    "mapsPlayed": 7,
+    "atkPct": 0.572,
+    "defPct": 0.428,
     "agents": [
       {
         "agent": "Sova",
         "comps": 8,
-        "pickPct": 0.5
+        "pickPct": 0.571
       },
       {
         "agent": "Jett",
         "comps": 7,
-        "pickPct": 0.438
+        "pickPct": 0.5
       },
       {
         "agent": "Harbor",
         "comps": 7,
-        "pickPct": 0.438
+        "pickPct": 0.5
       },
       {
         "agent": "Viper",
         "comps": 6,
-        "pickPct": 0.375
+        "pickPct": 0.429
       },
       {
         "agent": "Omen",
         "comps": 3,
-        "pickPct": 0.188
+        "pickPct": 0.214
       },
       {
         "agent": "Neon",
         "comps": 3,
-        "pickPct": 0.188
+        "pickPct": 0.214
       },
       {
         "agent": "Astra",
         "comps": 3,
-        "pickPct": 0.188
+        "pickPct": 0.214
       },
       {
         "agent": "Chamber",
         "comps": 2,
-        "pickPct": 0.125
+        "pickPct": 0.143
       },
       {
         "agent": "Phoenix",
         "comps": 2,
-        "pickPct": 0.125
+        "pickPct": 0.143
       },
       {
         "agent": "Yoru",
         "comps": 2,
-        "pickPct": 0.125
+        "pickPct": 0.143
       },
       {
         "agent": "Cypher",
         "comps": 1,
-        "pickPct": 0.062
+        "pickPct": 0.071
       },
       {
         "agent": "Skye",
         "comps": 1,
-        "pickPct": 0.062
+        "pickPct": 0.071
       },
       {
         "agent": "Iso",
         "comps": 1,
-        "pickPct": 0.062
+        "pickPct": 0.071
       },
       {
         "agent": "Reyna",
         "comps": 1,
-        "pickPct": 0.062
+        "pickPct": 0.071
       }
     ],
     "teams": {
@@ -930,94 +930,94 @@
     }
   },
   "Lotus": {
-    "mapsPlayed": 25,
-    "atkPct": 0.527,
-    "defPct": 0.473,
+    "mapsPlayed": 24,
+    "atkPct": 0.53,
+    "defPct": 0.47,
     "agents": [
       {
         "agent": "Raze",
         "comps": 16,
-        "pickPct": 0.32
+        "pickPct": 0.333
       },
       {
         "agent": "Fade",
         "comps": 16,
-        "pickPct": 0.32
+        "pickPct": 0.333
       },
       {
         "agent": "Omen",
         "comps": 15,
-        "pickPct": 0.3
+        "pickPct": 0.312
       },
       {
         "agent": "Vyse",
         "comps": 12,
-        "pickPct": 0.24
+        "pickPct": 0.25
       },
       {
         "agent": "Chamber",
         "comps": 10,
-        "pickPct": 0.2
+        "pickPct": 0.208
       },
       {
         "agent": "Neon",
         "comps": 6,
-        "pickPct": 0.12
+        "pickPct": 0.125
       },
       {
         "agent": "Viper",
         "comps": 5,
-        "pickPct": 0.1
+        "pickPct": 0.104
       },
       {
         "agent": "Yoru",
         "comps": 4,
-        "pickPct": 0.08
+        "pickPct": 0.083
       },
       {
         "agent": "Jett",
         "comps": 3,
-        "pickPct": 0.06
+        "pickPct": 0.062
       },
       {
         "agent": "Tejo",
         "comps": 3,
-        "pickPct": 0.06
+        "pickPct": 0.062
       },
       {
         "agent": "Clove",
         "comps": 3,
-        "pickPct": 0.06
+        "pickPct": 0.062
       },
       {
         "agent": "Killjoy",
         "comps": 2,
-        "pickPct": 0.04
+        "pickPct": 0.042
       },
       {
         "agent": "Waylay",
         "comps": 2,
-        "pickPct": 0.04
+        "pickPct": 0.042
       },
       {
         "agent": "Phoenix",
         "comps": 2,
-        "pickPct": 0.04
+        "pickPct": 0.042
       },
       {
         "agent": "Deadlock",
         "comps": 1,
-        "pickPct": 0.02
+        "pickPct": 0.021
       },
       {
         "agent": "Astra",
         "comps": 1,
-        "pickPct": 0.02
+        "pickPct": 0.021
       },
       {
         "agent": "Skye",
         "comps": 1,
-        "pickPct": 0.02
+        "pickPct": 0.021
       }
     ],
     "teams": {
