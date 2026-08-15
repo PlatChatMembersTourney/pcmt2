@@ -40,17 +40,17 @@
       "rndDiff": 49
     },
     {
-      "abbr": "FSG",
-      "name": "Furry Squirrels Gaming",
-      "matchW": 4,
-      "matchL": 0,
-      "mapW": 8,
-      "mapL": 2,
-      "rndW": 119,
-      "rndL": 96,
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 5,
+      "matchL": 1,
+      "mapW": 10,
+      "mapL": 4,
+      "rndW": 157,
+      "rndL": 132,
       "rank": 4,
       "mapDiff": 6,
-      "rndDiff": 23
+      "rndDiff": 25
     },
     {
       "abbr": "TS",
@@ -66,17 +66,17 @@
       "rndDiff": 26
     },
     {
-      "abbr": "T1",
-      "name": "Team 1",
+      "abbr": "FSG",
+      "name": "Furry Squirrels Gaming",
       "matchW": 4,
       "matchL": 1,
       "mapW": 8,
       "mapL": 4,
-      "rndW": 131,
-      "rndL": 116,
+      "rndW": 135,
+      "rndL": 122,
       "rank": 6,
       "mapDiff": 4,
-      "rndDiff": 15
+      "rndDiff": 13
     },
     {
       "abbr": "TL",
@@ -224,30 +224,30 @@
       "rndDiff": 33
     },
     {
-      "abbr": "FSG",
-      "name": "Furry Squirrels Gaming",
-      "matchW": 4,
-      "matchL": 0,
-      "mapW": 8,
-      "mapL": 2,
-      "rndW": 119,
-      "rndL": 96,
-      "rank": 2,
-      "mapDiff": 6,
-      "rndDiff": 23
-    },
-    {
       "abbr": "T1",
       "name": "Team 1",
+      "matchW": 5,
+      "matchL": 1,
+      "mapW": 10,
+      "mapL": 4,
+      "rndW": 157,
+      "rndL": 132,
+      "rank": 2,
+      "mapDiff": 6,
+      "rndDiff": 25
+    },
+    {
+      "abbr": "FSG",
+      "name": "Furry Squirrels Gaming",
       "matchW": 4,
       "matchL": 1,
       "mapW": 8,
       "mapL": 4,
-      "rndW": 131,
-      "rndL": 116,
+      "rndW": 135,
+      "rndL": 122,
       "rank": 3,
       "mapDiff": 4,
-      "rndDiff": 15
+      "rndDiff": 13
     },
     {
       "abbr": "TL",
