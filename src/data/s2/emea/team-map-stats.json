@@ -1241,8 +1241,8 @@
   "SEAL": {
     "team": "SEAL",
     "teamName": "Stay Seally",
-    "overallAtkPct": 0.366,
-    "overallDefPct": 0.471,
+    "overallAtkPct": 0.392,
+    "overallDefPct": 0.435,
     "maps": [
       {
         "map": "Abyss",
@@ -1261,14 +1261,14 @@
         "map": "Ascent",
         "pick": 0,
         "ban": 3,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 20,
+        "roundsWon": 13,
+        "roundPct": 0.65,
+        "atkPct": 0.625,
+        "defPct": 0.667
       },
       {
         "map": "Bind",
@@ -1287,14 +1287,14 @@
         "map": "Breeze",
         "pick": 0,
         "ban": 2,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 21,
+        "roundsWon": 8,
+        "roundPct": 0.381,
+        "atkPct": 0.667,
+        "defPct": 0.0
       },
       {
         "map": "Corrode",
@@ -1376,21 +1376,21 @@
       },
       {
         "map": "Split",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 18,
-        "roundsWon": 5,
-        "roundPct": 0.278,
-        "atkPct": 0.333,
-        "defPct": 0.167
+        "rounds": 33,
+        "roundsWon": 7,
+        "roundPct": 0.212,
+        "atkPct": 0.25,
+        "defPct": 0.111
       },
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1403,7 +1403,7 @@
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 2,
         "won": 0,
         "winPct": 0.0,
@@ -1418,8 +1418,8 @@
   "SOG": {
     "team": "SOG",
     "teamName": "The SOG",
-    "overallAtkPct": 0.681,
-    "overallDefPct": 0.467,
+    "overallAtkPct": 0.676,
+    "overallDefPct": 0.494,
     "maps": [
       {
         "map": "Abyss",
@@ -1436,16 +1436,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 24,
-        "roundsWon": 13,
-        "roundPct": 0.542,
-        "atkPct": 0.75,
-        "defPct": 0.333
+        "winPct": 0.5,
+        "rounds": 44,
+        "roundsWon": 20,
+        "roundPct": 0.455,
+        "atkPct": 0.542,
+        "defPct": 0.35
       },
       {
         "map": "Bind",
@@ -1464,14 +1464,14 @@
         "map": "Breeze",
         "pick": 0,
         "ban": 1,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 21,
+        "roundsWon": 13,
+        "roundPct": 0.619,
+        "atkPct": 1.0,
+        "defPct": 0.333
       },
       {
         "map": "Corrode",
@@ -1502,7 +1502,7 @@
       {
         "map": "Haven",
         "pick": 1,
-        "ban": 0,
+        "ban": 1,
         "played": 1,
         "won": 1,
         "winPct": 1.0,
@@ -1528,7 +1528,7 @@
       {
         "map": "Lotus",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 2,
         "won": 2,
         "winPct": 1.0,
@@ -1555,14 +1555,14 @@
         "map": "Split",
         "pick": 0,
         "ban": 1,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 15,
+        "roundsWon": 13,
+        "roundPct": 0.867,
+        "atkPct": 1.0,
+        "defPct": 0.833
       },
       {
         "map": "Summit",

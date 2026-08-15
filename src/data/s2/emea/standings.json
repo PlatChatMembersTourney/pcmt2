@@ -3,15 +3,15 @@
     {
       "abbr": "SOG",
       "name": "The SOG",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 0,
-      "mapW": 4,
-      "mapL": 0,
-      "rndW": 53,
-      "rndL": 39,
+      "mapW": 6,
+      "mapL": 1,
+      "rndW": 86,
+      "rndL": 62,
       "rank": 1,
-      "mapDiff": 4,
-      "rndDiff": 14
+      "mapDiff": 5,
+      "rndDiff": 24
     },
     {
       "abbr": "NOOT",
@@ -121,14 +121,14 @@
       "abbr": "SEAL",
       "name": "Stay Seally",
       "matchW": 0,
-      "matchL": 3,
-      "mapW": 2,
-      "mapL": 6,
-      "rndW": 66,
-      "rndL": 95,
+      "matchL": 4,
+      "mapW": 3,
+      "mapL": 8,
+      "rndW": 89,
+      "rndL": 128,
       "rank": 10,
-      "mapDiff": -4,
-      "rndDiff": -29
+      "mapDiff": -5,
+      "rndDiff": -39
     }
   ],
   "Group Alpha": [
@@ -202,15 +202,15 @@
     {
       "abbr": "SOG",
       "name": "The SOG",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 0,
-      "mapW": 4,
-      "mapL": 0,
-      "rndW": 53,
-      "rndL": 39,
+      "mapW": 6,
+      "mapL": 1,
+      "rndW": 86,
+      "rndL": 62,
       "rank": 1,
-      "mapDiff": 4,
-      "rndDiff": 14
+      "mapDiff": 5,
+      "rndDiff": 24
     },
     {
       "abbr": "NOOT",
@@ -255,14 +255,14 @@
       "abbr": "SEAL",
       "name": "Stay Seally",
       "matchW": 0,
-      "matchL": 3,
-      "mapW": 2,
-      "mapL": 6,
-      "rndW": 66,
-      "rndL": 95,
+      "matchL": 4,
+      "mapW": 3,
+      "mapL": 8,
+      "rndW": 89,
+      "rndL": 128,
       "rank": 5,
-      "mapDiff": -4,
-      "rndDiff": -29
+      "mapDiff": -5,
+      "rndDiff": -39
     }
   ]
 }
