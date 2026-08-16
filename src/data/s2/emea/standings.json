@@ -4,14 +4,14 @@
       "abbr": "SOG",
       "name": "The SOG",
       "matchW": 3,
-      "matchL": 0,
+      "matchL": 1,
       "mapW": 6,
-      "mapL": 1,
-      "rndW": 86,
-      "rndL": 62,
+      "mapL": 3,
+      "rndW": 105,
+      "rndL": 90,
       "rank": 1,
-      "mapDiff": 5,
-      "rndDiff": 24
+      "mapDiff": 3,
+      "rndDiff": 15
     },
     {
       "abbr": "NOOT",
@@ -53,6 +53,19 @@
       "rndDiff": 1
     },
     {
+      "abbr": "LARP",
+      "name": "Larpiat\u00e1n",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 4,
+      "mapL": 3,
+      "rndW": 73,
+      "rndL": 75,
+      "rank": 5,
+      "mapDiff": 1,
+      "rndDiff": -2
+    },
+    {
       "abbr": "NATS",
       "name": "Never Available To Scrim",
       "matchW": 2,
@@ -61,7 +74,7 @@
       "mapL": 4,
       "rndW": 86,
       "rndL": 83,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": 0,
       "rndDiff": 3
     },
@@ -74,7 +87,7 @@
       "mapL": 2,
       "rndW": 59,
       "rndL": 57,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": 1,
       "rndDiff": 2
     },
@@ -87,22 +100,9 @@
       "mapL": 2,
       "rndW": 49,
       "rndL": 49,
-      "rank": 7,
+      "rank": 8,
       "mapDiff": 1,
       "rndDiff": 0
-    },
-    {
-      "abbr": "LARP",
-      "name": "Larpiat\u00e1n",
-      "matchW": 1,
-      "matchL": 1,
-      "mapW": 2,
-      "mapL": 3,
-      "rndW": 45,
-      "rndL": 56,
-      "rank": 8,
-      "mapDiff": -1,
-      "rndDiff": -11
     },
     {
       "abbr": "HOT",
@@ -203,14 +203,14 @@
       "abbr": "SOG",
       "name": "The SOG",
       "matchW": 3,
-      "matchL": 0,
+      "matchL": 1,
       "mapW": 6,
-      "mapL": 1,
-      "rndW": 86,
-      "rndL": 62,
+      "mapL": 3,
+      "rndW": 105,
+      "rndL": 90,
       "rank": 1,
-      "mapDiff": 5,
-      "rndDiff": 24
+      "mapDiff": 3,
+      "rndDiff": 15
     },
     {
       "abbr": "NOOT",
@@ -226,6 +226,19 @@
       "rndDiff": 23
     },
     {
+      "abbr": "LARP",
+      "name": "Larpiat\u00e1n",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 4,
+      "mapL": 3,
+      "rndW": 73,
+      "rndL": 75,
+      "rank": 3,
+      "mapDiff": 1,
+      "rndDiff": -2
+    },
+    {
       "abbr": "NATS",
       "name": "Never Available To Scrim",
       "matchW": 2,
@@ -234,22 +247,9 @@
       "mapL": 4,
       "rndW": 86,
       "rndL": 83,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 0,
       "rndDiff": 3
-    },
-    {
-      "abbr": "LARP",
-      "name": "Larpiat\u00e1n",
-      "matchW": 1,
-      "matchL": 1,
-      "mapW": 2,
-      "mapL": 3,
-      "rndW": 45,
-      "rndL": 56,
-      "rank": 4,
-      "mapDiff": -1,
-      "rndDiff": -11
     },
     {
       "abbr": "SEAL",
