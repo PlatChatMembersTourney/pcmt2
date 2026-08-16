@@ -79,6 +79,19 @@
       "rndDiff": 13
     },
     {
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
+      "matchW": 4,
+      "matchL": 3,
+      "mapW": 8,
+      "mapL": 7,
+      "rndW": 162,
+      "rndL": 154,
+      "rank": 7,
+      "mapDiff": 1,
+      "rndDiff": 8
+    },
+    {
       "abbr": "TL",
       "name": "Team Dyslexia",
       "matchW": 4,
@@ -87,22 +100,9 @@
       "mapL": 8,
       "rndW": 183,
       "rndL": 178,
-      "rank": 7,
+      "rank": 8,
       "mapDiff": 1,
       "rndDiff": 5
-    },
-    {
-      "abbr": "NAVI",
-      "name": "No Actual Valorant Intelligence",
-      "matchW": 3,
-      "matchL": 3,
-      "mapW": 6,
-      "mapL": 6,
-      "rndW": 127,
-      "rndL": 123,
-      "rank": 8,
-      "mapDiff": 0,
-      "rndDiff": 4
     },
     {
       "abbr": "100T",
@@ -173,14 +173,14 @@
       "abbr": "DFM",
       "name": "Dementia Found Me",
       "matchW": 1,
-      "matchL": 4,
-      "mapW": 4,
-      "mapL": 9,
-      "rndW": 110,
-      "rndL": 147,
+      "matchL": 5,
+      "mapW": 5,
+      "mapL": 11,
+      "rndW": 141,
+      "rndL": 182,
       "rank": 14,
-      "mapDiff": -5,
-      "rndDiff": -37
+      "mapDiff": -6,
+      "rndDiff": -41
     },
     {
       "abbr": "EPY",
@@ -358,15 +358,15 @@
     {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
-      "matchW": 3,
+      "matchW": 4,
       "matchL": 3,
-      "mapW": 6,
-      "mapL": 6,
-      "rndW": 127,
-      "rndL": 123,
+      "mapW": 8,
+      "mapL": 7,
+      "rndW": 162,
+      "rndL": 154,
       "rank": 4,
-      "mapDiff": 0,
-      "rndDiff": 4
+      "mapDiff": 1,
+      "rndDiff": 8
     },
     {
       "abbr": "100T",
@@ -398,14 +398,14 @@
       "abbr": "DFM",
       "name": "Dementia Found Me",
       "matchW": 1,
-      "matchL": 4,
-      "mapW": 4,
-      "mapL": 9,
-      "rndW": 110,
-      "rndL": 147,
+      "matchL": 5,
+      "mapW": 5,
+      "mapL": 11,
+      "rndW": 141,
+      "rndL": 182,
       "rank": 7,
-      "mapDiff": -5,
-      "rndDiff": -37
+      "mapDiff": -6,
+      "rndDiff": -41
     },
     {
       "abbr": "EPY",

@@ -533,8 +533,8 @@
   "DFM": {
     "team": "DFM",
     "teamName": "Dementia Found Me",
-    "overallAtkPct": 0.402,
-    "overallDefPct": 0.454,
+    "overallAtkPct": 0.44,
+    "overallDefPct": 0.433,
     "maps": [
       {
         "map": "Abyss",
@@ -552,7 +552,7 @@
       {
         "map": "Ascent",
         "pick": 0,
-        "ban": 4,
+        "ban": 5,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -578,7 +578,7 @@
       {
         "map": "Breeze",
         "pick": 1,
-        "ban": 2,
+        "ban": 3,
         "played": 2,
         "won": 0,
         "winPct": 0.0,
@@ -642,16 +642,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 3,
-        "won": 1,
-        "winPct": 0.333,
-        "rounds": 63,
-        "roundsWon": 29,
-        "roundPct": 0.46,
-        "atkPct": 0.433,
-        "defPct": 0.485
+        "played": 4,
+        "won": 2,
+        "winPct": 0.5,
+        "rounds": 85,
+        "roundsWon": 42,
+        "roundPct": 0.494,
+        "atkPct": 0.525,
+        "defPct": 0.467
       },
       {
         "map": "Pearl",
@@ -670,27 +670,27 @@
         "map": "Split",
         "pick": 0,
         "ban": 3,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 16,
-        "roundsWon": 3,
-        "roundPct": 0.188,
-        "atkPct": 0.167,
-        "defPct": 0.25
+        "rounds": 38,
+        "roundsWon": 12,
+        "roundPct": 0.316,
+        "atkPct": 0.409,
+        "defPct": 0.188
       },
       {
         "map": "Summit",
         "pick": 0,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 22,
+        "roundsWon": 9,
+        "roundPct": 0.409,
+        "atkPct": 0.333,
+        "defPct": 0.5
       },
       {
         "map": "Sunset",
@@ -1418,8 +1418,8 @@
   "NAVI": {
     "team": "NAVI",
     "teamName": "No Actual Valorant Intelligence",
-    "overallAtkPct": 0.557,
-    "overallDefPct": 0.445,
+    "overallAtkPct": 0.575,
+    "overallDefPct": 0.437,
     "maps": [
       {
         "map": "Abyss",
@@ -1502,7 +1502,7 @@
       {
         "map": "Haven",
         "pick": 1,
-        "ban": 1,
+        "ban": 2,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -1529,14 +1529,14 @@
         "map": "Lotus",
         "pick": 0,
         "ban": 3,
-        "played": 3,
+        "played": 4,
         "won": 2,
-        "winPct": 0.667,
-        "rounds": 63,
-        "roundsWon": 29,
-        "roundPct": 0.46,
-        "atkPct": 0.556,
-        "defPct": 0.333
+        "winPct": 0.5,
+        "rounds": 85,
+        "roundsWon": 38,
+        "roundPct": 0.447,
+        "atkPct": 0.562,
+        "defPct": 0.297
       },
       {
         "map": "Pearl",
@@ -1553,34 +1553,34 @@
       },
       {
         "map": "Split",
-        "pick": 0,
+        "pick": 1,
         "ban": 4,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 22,
+        "roundsWon": 13,
+        "roundPct": 0.591,
+        "atkPct": 0.833,
+        "defPct": 0.3
       },
       {
         "map": "Summit",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 22,
+        "roundsWon": 13,
+        "roundPct": 0.591,
+        "atkPct": 0.5,
+        "defPct": 0.667
       },
       {
         "map": "Sunset",
         "pick": 1,
-        "ban": 0,
+        "ban": 1,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
