@@ -53,19 +53,6 @@
       "rndDiff": 25
     },
     {
-      "abbr": "TS",
-      "name": "Team Slugshow",
-      "matchW": 4,
-      "matchL": 2,
-      "mapW": 9,
-      "mapL": 5,
-      "rndW": 159,
-      "rndL": 133,
-      "rank": 5,
-      "mapDiff": 4,
-      "rndDiff": 26
-    },
-    {
       "abbr": "FSG",
       "name": "Furry Squirrels Gaming",
       "matchW": 4,
@@ -74,9 +61,22 @@
       "mapL": 4,
       "rndW": 135,
       "rndL": 122,
-      "rank": 6,
+      "rank": 5,
       "mapDiff": 4,
       "rndDiff": 13
+    },
+    {
+      "abbr": "TS",
+      "name": "Team Slugshow",
+      "matchW": 4,
+      "matchL": 3,
+      "mapW": 10,
+      "mapL": 7,
+      "rndW": 182,
+      "rndL": 165,
+      "rank": 6,
+      "mapDiff": 3,
+      "rndDiff": 17
     },
     {
       "abbr": "NAVI",
@@ -185,15 +185,15 @@
     {
       "abbr": "EPY",
       "name": "Team Entropy",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 5,
-      "mapW": 2,
-      "mapL": 10,
-      "rndW": 99,
-      "rndL": 143,
+      "mapW": 4,
+      "mapL": 11,
+      "rndW": 131,
+      "rndL": 166,
       "rank": 15,
-      "mapDiff": -8,
-      "rndDiff": -44
+      "mapDiff": -7,
+      "rndDiff": -35
     },
     {
       "abbr": "FNC",
@@ -346,14 +346,14 @@
       "abbr": "TS",
       "name": "Team Slugshow",
       "matchW": 4,
-      "matchL": 2,
-      "mapW": 9,
-      "mapL": 5,
-      "rndW": 159,
-      "rndL": 133,
+      "matchL": 3,
+      "mapW": 10,
+      "mapL": 7,
+      "rndW": 182,
+      "rndL": 165,
       "rank": 3,
-      "mapDiff": 4,
-      "rndDiff": 26
+      "mapDiff": 3,
+      "rndDiff": 17
     },
     {
       "abbr": "NAVI",
@@ -410,15 +410,15 @@
     {
       "abbr": "EPY",
       "name": "Team Entropy",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 5,
-      "mapW": 2,
-      "mapL": 10,
-      "rndW": 99,
-      "rndL": 143,
+      "mapW": 4,
+      "mapL": 11,
+      "rndW": 131,
+      "rndL": 166,
       "rank": 8,
-      "mapDiff": -8,
-      "rndDiff": -44
+      "mapDiff": -7,
+      "rndDiff": -35
     }
   ]
 }
