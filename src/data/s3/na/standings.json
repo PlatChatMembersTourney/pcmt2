@@ -14,6 +14,19 @@
       "rndDiff": 34
     },
     {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 6,
+      "matchL": 1,
+      "mapW": 12,
+      "mapL": 4,
+      "rndW": 185,
+      "rndL": 154,
+      "rank": 2,
+      "mapDiff": 8,
+      "rndDiff": 31
+    },
+    {
       "abbr": "C9",
       "name": "Clown9",
       "matchW": 6,
@@ -22,7 +35,7 @@
       "mapL": 7,
       "rndW": 229,
       "rndL": 196,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": 5,
       "rndDiff": 33
     },
@@ -35,22 +48,9 @@
       "mapL": 5,
       "rndW": 195,
       "rndL": 146,
-      "rank": 3,
-      "mapDiff": 6,
-      "rndDiff": 49
-    },
-    {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 5,
-      "matchL": 1,
-      "mapW": 10,
-      "mapL": 4,
-      "rndW": 157,
-      "rndL": 132,
       "rank": 4,
       "mapDiff": 6,
-      "rndDiff": 25
+      "rndDiff": 49
     },
     {
       "abbr": "FSG",
@@ -157,19 +157,6 @@
       "rndDiff": -12
     },
     {
-      "abbr": "IHOP",
-      "name": "I Hate Odin Party",
-      "matchW": 1,
-      "matchL": 5,
-      "mapW": 5,
-      "mapL": 10,
-      "rndW": 151,
-      "rndL": 161,
-      "rank": 13,
-      "mapDiff": -5,
-      "rndDiff": -10
-    },
-    {
       "abbr": "DFM",
       "name": "Dementia Found Me",
       "matchW": 1,
@@ -178,9 +165,22 @@
       "mapL": 11,
       "rndW": 141,
       "rndL": 182,
-      "rank": 14,
+      "rank": 13,
       "mapDiff": -6,
       "rndDiff": -41
+    },
+    {
+      "abbr": "IHOP",
+      "name": "I Hate Odin Party",
+      "matchW": 1,
+      "matchL": 6,
+      "mapW": 5,
+      "mapL": 12,
+      "rndW": 173,
+      "rndL": 189,
+      "rank": 14,
+      "mapDiff": -7,
+      "rndDiff": -16
     },
     {
       "abbr": "EPY",
@@ -211,6 +211,19 @@
   ],
   "Group Alpha": [
     {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 6,
+      "matchL": 1,
+      "mapW": 12,
+      "mapL": 4,
+      "rndW": 185,
+      "rndL": 154,
+      "rank": 1,
+      "mapDiff": 8,
+      "rndDiff": 31
+    },
+    {
       "abbr": "C9",
       "name": "Clown9",
       "matchW": 6,
@@ -219,22 +232,9 @@
       "mapL": 7,
       "rndW": 229,
       "rndL": 196,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 5,
       "rndDiff": 33
-    },
-    {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 5,
-      "matchL": 1,
-      "mapW": 10,
-      "mapL": 4,
-      "rndW": 157,
-      "rndL": 132,
-      "rank": 2,
-      "mapDiff": 6,
-      "rndDiff": 25
     },
     {
       "abbr": "FSG",
@@ -292,14 +292,14 @@
       "abbr": "IHOP",
       "name": "I Hate Odin Party",
       "matchW": 1,
-      "matchL": 5,
+      "matchL": 6,
       "mapW": 5,
-      "mapL": 10,
-      "rndW": 151,
-      "rndL": 161,
+      "mapL": 12,
+      "rndW": 173,
+      "rndL": 189,
       "rank": 7,
-      "mapDiff": -5,
-      "rndDiff": -10
+      "mapDiff": -7,
+      "rndDiff": -16
     },
     {
       "abbr": "FNC",

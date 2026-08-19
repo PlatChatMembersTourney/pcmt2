@@ -4,10 +4,852 @@
   "team2": "IHOP",
   "team1Name": "Team 1",
   "team2Name": "I Hate Odin Party",
-  "score1": 0,
+  "score1": 2,
   "score2": 0,
-  "completed": false,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-08-19T00:00:00Z",
-  "stage": "Group Alpha"
+  "stage": "Group Alpha",
+  "veto": "T1 bans Lotus, IHOP bans Sunset, T1 picks Haven, IHOP picks Split, T1 bans Abyss, IHOP bans Ascent, Summit remains",
+  "maps": [
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 9
+    },
+    {
+      "name": "Split",
+      "score1": 15,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "T1",
+      "teamName": "Team 1",
+      "players": [
+        {
+          "Player": "MrCrocMan",
+          "R1.0": 1.541,
+          "ACS": 335,
+          "K": 58,
+          "D": 32,
+          "A": 13,
+          "PlusMinus": 26,
+          "KAST": 0.82,
+          "ADR": 228.9,
+          "HS%": 0.234,
+          "FK": 11,
+          "FD": 2,
+          "PlusMinus2": 9
+        },
+        {
+          "Player": "Pi",
+          "R1.0": 1.361,
+          "ACS": 297,
+          "K": 51,
+          "D": 31,
+          "A": 19,
+          "PlusMinus": 20,
+          "KAST": 0.8,
+          "ADR": 175.7,
+          "HS%": 0.11,
+          "FK": 9,
+          "FD": 3,
+          "PlusMinus2": 6
+        },
+        {
+          "Player": "corina",
+          "R1.0": 1.032,
+          "ACS": 235,
+          "K": 42,
+          "D": 39,
+          "A": 4,
+          "PlusMinus": 3,
+          "KAST": 0.68,
+          "ADR": 153.6,
+          "HS%": 0.268,
+          "FK": 12,
+          "FD": 2,
+          "PlusMinus2": 10
+        },
+        {
+          "Player": "Ceiliuir",
+          "R1.0": 0.941,
+          "ACS": 155,
+          "K": 29,
+          "D": 27,
+          "A": 11,
+          "PlusMinus": 2,
+          "KAST": 0.8,
+          "ADR": 104.6,
+          "HS%": 0.208,
+          "FK": 2,
+          "FD": 3,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "roro",
+          "R1.0": 0.793,
+          "ACS": 127,
+          "K": 20,
+          "D": 33,
+          "A": 29,
+          "PlusMinus": -13,
+          "KAST": 0.74,
+          "ADR": 80.5,
+          "HS%": 0.197,
+          "FK": 1,
+          "FD": 5,
+          "PlusMinus2": -4
+        }
+      ]
+    },
+    {
+      "team": "IHOP",
+      "teamName": "I Hate Odin Party",
+      "players": [
+        {
+          "Player": "ethan",
+          "R1.0": 1.291,
+          "ACS": 288,
+          "K": 49,
+          "D": 37,
+          "A": 19,
+          "PlusMinus": 12,
+          "KAST": 0.7,
+          "ADR": 189.6,
+          "HS%": 0.261,
+          "FK": 4,
+          "FD": 7,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "pavel",
+          "R1.0": 1.054,
+          "ACS": 247,
+          "K": 39,
+          "D": 43,
+          "A": 16,
+          "PlusMinus": -4,
+          "KAST": 0.76,
+          "ADR": 157.6,
+          "HS%": 0.242,
+          "FK": 6,
+          "FD": 10,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "eve",
+          "R1.0": 0.788,
+          "ACS": 165,
+          "K": 27,
+          "D": 41,
+          "A": 14,
+          "PlusMinus": -14,
+          "KAST": 0.64,
+          "ADR": 115.7,
+          "HS%": 0.239,
+          "FK": 4,
+          "FD": 8,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "platinum",
+          "R1.0": 0.753,
+          "ACS": 165,
+          "K": 25,
+          "D": 41,
+          "A": 15,
+          "PlusMinus": -16,
+          "KAST": 0.62,
+          "ADR": 111.0,
+          "HS%": 0.206,
+          "FK": 1,
+          "FD": 8,
+          "PlusMinus2": -7
+        },
+        {
+          "Player": "slow",
+          "R1.0": 0.711,
+          "ACS": 142,
+          "K": 22,
+          "D": 38,
+          "A": 13,
+          "PlusMinus": -16,
+          "KAST": 0.58,
+          "ADR": 105.4,
+          "HS%": 0.19,
+          "FK": 0,
+          "FD": 2,
+          "PlusMinus2": -2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 9,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 1.61,
+              "ACS": 347,
+              "K": 27,
+              "D": 10,
+              "A": 8,
+              "PlusMinus": 17,
+              "KAST": 0.864,
+              "ADR": 194.7,
+              "HS%": 0.099,
+              "FK": 4,
+              "FD": 0,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Phoenix",
+              "R1.0": 1.29,
+              "ACS": 255,
+              "K": 19,
+              "D": 13,
+              "A": 8,
+              "PlusMinus": 6,
+              "KAST": 0.773,
+              "ADR": 181.3,
+              "HS%": 0.206,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "corina",
+              "Agent": "Neon",
+              "R1.0": 1.177,
+              "ACS": 268,
+              "K": 22,
+              "D": 16,
+              "A": 1,
+              "PlusMinus": 6,
+              "KAST": 0.682,
+              "ADR": 170.2,
+              "HS%": 0.389,
+              "FK": 8,
+              "FD": 1,
+              "PlusMinus2": 7
+            },
+            {
+              "Player": "roro",
+              "Agent": "Omen",
+              "R1.0": 1.075,
+              "ACS": 190,
+              "K": 14,
+              "D": 15,
+              "A": 15,
+              "PlusMinus": -1,
+              "KAST": 0.909,
+              "ADR": 114.8,
+              "HS%": 0.269,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 0.919,
+              "ACS": 146,
+              "K": 12,
+              "D": 11,
+              "A": 4,
+              "PlusMinus": 1,
+              "KAST": 0.818,
+              "ADR": 97.8,
+              "HS%": 0.214,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "IHOP",
+          "teamName": "I Hate Odin Party",
+          "players": [
+            {
+              "Player": "ethan",
+              "Agent": "Chamber",
+              "R1.0": 1.02,
+              "ACS": 251,
+              "K": 18,
+              "D": 19,
+              "A": 2,
+              "PlusMinus": -1,
+              "KAST": 0.591,
+              "ADR": 178.1,
+              "HS%": 0.264,
+              "FK": 3,
+              "FD": 6,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "pavel",
+              "Agent": "Neon",
+              "R1.0": 0.909,
+              "ACS": 195,
+              "K": 14,
+              "D": 18,
+              "A": 6,
+              "PlusMinus": -4,
+              "KAST": 0.727,
+              "ADR": 132.4,
+              "HS%": 0.269,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "slow",
+              "Agent": "Omen",
+              "R1.0": 0.719,
+              "ACS": 154,
+              "K": 11,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -6,
+              "KAST": 0.5,
+              "ADR": 119.2,
+              "HS%": 0.267,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "platinum",
+              "Agent": "Sova",
+              "R1.0": 0.674,
+              "ACS": 152,
+              "K": 11,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": -7,
+              "KAST": 0.591,
+              "ADR": 97.5,
+              "HS%": 0.214,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "eve",
+              "Agent": "Clove",
+              "R1.0": 0.644,
+              "ACS": 151,
+              "K": 11,
+              "D": 22,
+              "A": 6,
+              "PlusMinus": -11,
+              "KAST": 0.591,
+              "ADR": 104.9,
+              "HS%": 0.22,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Split",
+      "score1": 15,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 25,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 26,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 27,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 28,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Phoenix",
+              "R1.0": 1.738,
+              "ACS": 398,
+              "K": 39,
+              "D": 19,
+              "A": 5,
+              "PlusMinus": 20,
+              "KAST": 0.857,
+              "ADR": 266.3,
+              "HS%": 0.256,
+              "FK": 8,
+              "FD": 0,
+              "PlusMinus2": 8
+            },
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 1.165,
+              "ACS": 258,
+              "K": 24,
+              "D": 21,
+              "A": 11,
+              "PlusMinus": 3,
+              "KAST": 0.75,
+              "ADR": 160.7,
+              "HS%": 0.118,
+              "FK": 5,
+              "FD": 3,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 0.957,
+              "ACS": 162,
+              "K": 17,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": 1,
+              "KAST": 0.786,
+              "ADR": 109.9,
+              "HS%": 0.203,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "corina",
+              "Agent": "Raze",
+              "R1.0": 0.918,
+              "ACS": 209,
+              "K": 20,
+              "D": 23,
+              "A": 3,
+              "PlusMinus": -3,
+              "KAST": 0.679,
+              "ADR": 140.5,
+              "HS%": 0.173,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "roro",
+              "Agent": "Omen",
+              "R1.0": 0.571,
+              "ACS": 78,
+              "K": 6,
+              "D": 18,
+              "A": 14,
+              "PlusMinus": -12,
+              "KAST": 0.607,
+              "ADR": 53.6,
+              "HS%": 0.14,
+              "FK": 0,
+              "FD": 4,
+              "PlusMinus2": -4
+            }
+          ]
+        },
+        {
+          "team": "IHOP",
+          "teamName": "I Hate Odin Party",
+          "players": [
+            {
+              "Player": "ethan",
+              "Agent": "Miks",
+              "R1.0": 1.504,
+              "ACS": 317,
+              "K": 31,
+              "D": 18,
+              "A": 17,
+              "PlusMinus": 13,
+              "KAST": 0.786,
+              "ADR": 198.6,
+              "HS%": 0.259,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "pavel",
+              "Agent": "Raze",
+              "R1.0": 1.168,
+              "ACS": 287,
+              "K": 25,
+              "D": 25,
+              "A": 10,
+              "PlusMinus": 0,
+              "KAST": 0.786,
+              "ADR": 177.4,
+              "HS%": 0.22,
+              "FK": 5,
+              "FD": 7,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "eve",
+              "Agent": "Iso",
+              "R1.0": 0.902,
+              "ACS": 176,
+              "K": 16,
+              "D": 19,
+              "A": 8,
+              "PlusMinus": -3,
+              "KAST": 0.679,
+              "ADR": 124.1,
+              "HS%": 0.254,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "platinum",
+              "Agent": "Fade",
+              "R1.0": 0.815,
+              "ACS": 176,
+              "K": 14,
+              "D": 23,
+              "A": 12,
+              "PlusMinus": -9,
+              "KAST": 0.643,
+              "ADR": 121.6,
+              "HS%": 0.2,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "slow",
+              "Agent": "Cypher",
+              "R1.0": 0.704,
+              "ACS": 132,
+              "K": 11,
+              "D": 21,
+              "A": 10,
+              "PlusMinus": -10,
+              "KAST": 0.643,
+              "ADR": 94.5,
+              "HS%": 0.129,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=MjTinmXZw5U"
 }
