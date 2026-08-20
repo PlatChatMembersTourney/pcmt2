@@ -14,6 +14,19 @@
       "rndDiff": 15
     },
     {
+      "abbr": "XTC",
+      "name": "Xually Terribly Cursed",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 5,
+      "mapL": 3,
+      "rndW": 87,
+      "rndL": 85,
+      "rank": 2,
+      "mapDiff": 2,
+      "rndDiff": 2
+    },
+    {
       "abbr": "NOOT",
       "name": "Penguin Patrol",
       "matchW": 2,
@@ -22,7 +35,7 @@
       "mapL": 4,
       "rndW": 104,
       "rndL": 81,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": 1,
       "rndDiff": 23
     },
@@ -35,7 +48,7 @@
       "mapL": 3,
       "rndW": 80,
       "rndL": 65,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 1,
       "rndDiff": 15
     },
@@ -48,7 +61,7 @@
       "mapL": 3,
       "rndW": 79,
       "rndL": 78,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": 1,
       "rndDiff": 1
     },
@@ -61,7 +74,7 @@
       "mapL": 3,
       "rndW": 73,
       "rndL": 75,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": 1,
       "rndDiff": -2
     },
@@ -74,7 +87,7 @@
       "mapL": 4,
       "rndW": 86,
       "rndL": 83,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": 0,
       "rndDiff": 3
     },
@@ -87,35 +100,22 @@
       "mapL": 2,
       "rndW": 59,
       "rndL": 57,
-      "rank": 7,
-      "mapDiff": 1,
-      "rndDiff": 2
-    },
-    {
-      "abbr": "XTC",
-      "name": "Xually Terribly Cursed",
-      "matchW": 1,
-      "matchL": 1,
-      "mapW": 3,
-      "mapL": 2,
-      "rndW": 49,
-      "rndL": 49,
       "rank": 8,
       "mapDiff": 1,
-      "rndDiff": 0
+      "rndDiff": 2
     },
     {
       "abbr": "HOT",
       "name": "Honestly Outrageous Temperatures",
       "matchW": 0,
-      "matchL": 2,
-      "mapW": 0,
-      "mapL": 4,
-      "rndW": 35,
-      "rndL": 53,
+      "matchL": 3,
+      "mapW": 1,
+      "mapL": 6,
+      "rndW": 71,
+      "rndL": 91,
       "rank": 9,
-      "mapDiff": -4,
-      "rndDiff": -18
+      "mapDiff": -5,
+      "rndDiff": -20
     },
     {
       "abbr": "SEAL",
@@ -133,6 +133,19 @@
   ],
   "Group Alpha": [
     {
+      "abbr": "XTC",
+      "name": "Xually Terribly Cursed",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 5,
+      "mapL": 3,
+      "rndW": 87,
+      "rndL": 85,
+      "rank": 1,
+      "mapDiff": 2,
+      "rndDiff": 2
+    },
+    {
       "abbr": "NIP",
       "name": "Name in Progress",
       "matchW": 2,
@@ -141,7 +154,7 @@
       "mapL": 3,
       "rndW": 80,
       "rndL": 65,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 1,
       "rndDiff": 15
     },
@@ -154,7 +167,7 @@
       "mapL": 3,
       "rndW": 79,
       "rndL": 78,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": 1,
       "rndDiff": 1
     },
@@ -167,35 +180,22 @@
       "mapL": 2,
       "rndW": 59,
       "rndL": 57,
-      "rank": 3,
-      "mapDiff": 1,
-      "rndDiff": 2
-    },
-    {
-      "abbr": "XTC",
-      "name": "Xually Terribly Cursed",
-      "matchW": 1,
-      "matchL": 1,
-      "mapW": 3,
-      "mapL": 2,
-      "rndW": 49,
-      "rndL": 49,
       "rank": 4,
       "mapDiff": 1,
-      "rndDiff": 0
+      "rndDiff": 2
     },
     {
       "abbr": "HOT",
       "name": "Honestly Outrageous Temperatures",
       "matchW": 0,
-      "matchL": 2,
-      "mapW": 0,
-      "mapL": 4,
-      "rndW": 35,
-      "rndL": 53,
+      "matchL": 3,
+      "mapW": 1,
+      "mapL": 6,
+      "rndW": 71,
+      "rndL": 91,
       "rank": 5,
-      "mapDiff": -4,
-      "rndDiff": -18
+      "mapDiff": -5,
+      "rndDiff": -20
     }
   ],
   "Group Omega": [

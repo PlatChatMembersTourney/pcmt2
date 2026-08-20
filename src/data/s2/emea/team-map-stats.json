@@ -356,8 +356,8 @@
   "HOT": {
     "team": "HOT",
     "teamName": "Honestly Outrageous Temperatures",
-    "overallAtkPct": 0.488,
-    "overallDefPct": 0.319,
+    "overallAtkPct": 0.443,
+    "overallDefPct": 0.434,
     "maps": [
       {
         "map": "Abyss",
@@ -376,14 +376,14 @@
         "map": "Ascent",
         "pick": 0,
         "ban": 1,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 24,
-        "roundsWon": 11,
+        "rounds": 48,
+        "roundsWon": 22,
         "roundPct": 0.458,
-        "atkPct": 0.5,
-        "defPct": 0.417
+        "atkPct": 0.458,
+        "defPct": 0.458
       },
       {
         "map": "Bind",
@@ -439,16 +439,16 @@
       },
       {
         "map": "Haven",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 1,
-        "won": 0,
-        "winPct": 0.0,
-        "rounds": 21,
-        "roundsWon": 8,
-        "roundPct": 0.381,
-        "atkPct": 0.5,
-        "defPct": 0.222
+        "played": 2,
+        "won": 1,
+        "winPct": 0.5,
+        "rounds": 45,
+        "roundsWon": 21,
+        "roundPct": 0.467,
+        "atkPct": 0.417,
+        "defPct": 0.524
       },
       {
         "map": "Icebox",
@@ -466,7 +466,7 @@
       {
         "map": "Lotus",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -493,19 +493,19 @@
         "map": "Split",
         "pick": 0,
         "ban": 1,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 26,
+        "roundsWon": 12,
+        "roundPct": 0.462,
+        "atkPct": 0.429,
+        "defPct": 0.5
       },
       {
         "map": "Summit",
         "pick": 1,
-        "ban": 0,
+        "ban": 1,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -1595,8 +1595,8 @@
   "XTC": {
     "team": "XTC",
     "teamName": "Xually Terribly Cursed",
-    "overallAtkPct": 0.436,
-    "overallDefPct": 0.542,
+    "overallAtkPct": 0.427,
+    "overallDefPct": 0.567,
     "maps": [
       {
         "map": "Abyss",
@@ -1613,16 +1613,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 2,
-        "won": 1,
-        "winPct": 0.5,
-        "rounds": 44,
-        "roundsWon": 21,
-        "roundPct": 0.477,
-        "atkPct": 0.429,
-        "defPct": 0.522
+        "played": 3,
+        "won": 2,
+        "winPct": 0.667,
+        "rounds": 68,
+        "roundsWon": 34,
+        "roundPct": 0.5,
+        "atkPct": 0.455,
+        "defPct": 0.543
       },
       {
         "map": "Bind",
@@ -1640,7 +1640,7 @@
       {
         "map": "Breeze",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1680,14 +1680,14 @@
         "map": "Haven",
         "pick": 1,
         "ban": 0,
-        "played": 2,
+        "played": 3,
         "won": 2,
-        "winPct": 1.0,
-        "rounds": 39,
-        "roundsWon": 26,
-        "roundPct": 0.667,
-        "atkPct": 0.533,
-        "defPct": 0.75
+        "winPct": 0.667,
+        "rounds": 63,
+        "roundsWon": 37,
+        "roundPct": 0.587,
+        "atkPct": 0.407,
+        "defPct": 0.722
       },
       {
         "map": "Icebox",
@@ -1732,14 +1732,14 @@
         "map": "Split",
         "pick": 0,
         "ban": 2,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 26,
+        "roundsWon": 14,
+        "roundPct": 0.538,
+        "atkPct": 0.5,
+        "defPct": 0.571
       },
       {
         "map": "Summit",
@@ -1757,7 +1757,7 @@
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
