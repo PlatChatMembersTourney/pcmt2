@@ -130,7 +130,7 @@
           "PlusMinus2": -1
         },
         {
-          "Player": "acedian",
+          "Player": "autumn",
           "R1.0": 1.118,
           "ACS": 241,
           "K": 33,
@@ -697,7 +697,7 @@
           "teamName": "The SOG",
           "players": [
             {
-              "Player": "acedian",
+              "Player": "autumn",
               "Agent": "Viper",
               "R1.0": 1.814,
               "ACS": 369,
@@ -1068,7 +1068,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "acedian",
+              "Player": "autumn",
               "Agent": "Harbor",
               "R1.0": 0.62,
               "ACS": 149,
