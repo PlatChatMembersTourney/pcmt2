@@ -4,10 +4,1134 @@
   "team2": "FSG",
   "team1Name": "cow paulo FaN Club",
   "team2Name": "Furry Squirrels Gaming",
-  "score1": 0,
-  "score2": 0,
-  "completed": false,
+  "score1": 2,
+  "score2": 1,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-08-22T00:00:00Z",
-  "stage": "Group Alpha"
+  "stage": "Group Alpha",
+  "veto": "FSG bans Summit, FNC bans Sunset, FSG picks Split, FNC picks Abyss, FSG bans Lotus, FNC bans Ascent, Haven remains",
+  "maps": [
+    {
+      "name": "Split",
+      "score1": 6,
+      "score2": 13
+    },
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 6
+    },
+    {
+      "name": "Haven",
+      "score1": 15,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "FNC",
+      "teamName": "cow paulo FaN Club",
+      "players": [
+        {
+          "Player": "james",
+          "R1.0": 1.384,
+          "ACS": 303,
+          "K": 76,
+          "D": 45,
+          "A": 9,
+          "PlusMinus": 31,
+          "KAST": 0.772,
+          "ADR": 192.5,
+          "HS%": 0.409,
+          "FK": 12,
+          "FD": 7,
+          "PlusMinus2": 5
+        },
+        {
+          "Player": "Night",
+          "R1.0": 1.104,
+          "ACS": 247,
+          "K": 54,
+          "D": 51,
+          "A": 20,
+          "PlusMinus": 3,
+          "KAST": 0.742,
+          "ADR": 158.0,
+          "HS%": 0.236,
+          "FK": 13,
+          "FD": 7,
+          "PlusMinus2": 6
+        },
+        {
+          "Player": "li",
+          "R1.0": 1.035,
+          "ACS": 202,
+          "K": 41,
+          "D": 47,
+          "A": 37,
+          "PlusMinus": -6,
+          "KAST": 0.833,
+          "ADR": 128.0,
+          "HS%": 0.178,
+          "FK": 8,
+          "FD": 5,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "hascan",
+          "R1.0": 0.824,
+          "ACS": 159,
+          "K": 39,
+          "D": 48,
+          "A": 13,
+          "PlusMinus": -9,
+          "KAST": 0.652,
+          "ADR": 108.9,
+          "HS%": 0.232,
+          "FK": 2,
+          "FD": 6,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "niboos",
+          "R1.0": 0.807,
+          "ACS": 150,
+          "K": 35,
+          "D": 43,
+          "A": 17,
+          "PlusMinus": -8,
+          "KAST": 0.637,
+          "ADR": 98.6,
+          "HS%": 0.215,
+          "FK": 1,
+          "FD": 5,
+          "PlusMinus2": -4
+        }
+      ]
+    },
+    {
+      "team": "FSG",
+      "teamName": "Furry Squirrels Gaming",
+      "players": [
+        {
+          "Player": "nolan",
+          "R1.0": 1.153,
+          "ACS": 265,
+          "K": 61,
+          "D": 52,
+          "A": 15,
+          "PlusMinus": 9,
+          "KAST": 0.712,
+          "ADR": 167.4,
+          "HS%": 0.217,
+          "FK": 9,
+          "FD": 6,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "masao",
+          "R1.0": 1.144,
+          "ACS": 233,
+          "K": 51,
+          "D": 44,
+          "A": 24,
+          "PlusMinus": 7,
+          "KAST": 0.803,
+          "ADR": 152.2,
+          "HS%": 0.144,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "skye",
+          "R1.0": 0.985,
+          "ACS": 206,
+          "K": 49,
+          "D": 49,
+          "A": 15,
+          "PlusMinus": 0,
+          "KAST": 0.712,
+          "ADR": 132.2,
+          "HS%": 0.185,
+          "FK": 11,
+          "FD": 13,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "radical",
+          "R1.0": 0.862,
+          "ACS": 171,
+          "K": 40,
+          "D": 52,
+          "A": 13,
+          "PlusMinus": -12,
+          "KAST": 0.712,
+          "ADR": 123.7,
+          "HS%": 0.172,
+          "FK": 6,
+          "FD": 8,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "rudra",
+          "R1.0": 0.823,
+          "ACS": 146,
+          "K": 33,
+          "D": 48,
+          "A": 34,
+          "PlusMinus": -15,
+          "KAST": 0.712,
+          "ADR": 91.9,
+          "HS%": 0.249,
+          "FK": 2,
+          "FD": 5,
+          "PlusMinus2": -3
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Split",
+      "score1": 6,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "FNC",
+          "teamName": "cow paulo FaN Club",
+          "players": [
+            {
+              "Player": "james",
+              "Agent": "Waylay",
+              "R1.0": 1.348,
+              "ACS": 296,
+              "K": 21,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": 7,
+              "KAST": 0.684,
+              "ADR": 197.1,
+              "HS%": 0.49,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Night",
+              "Agent": "Neon",
+              "R1.0": 1.016,
+              "ACS": 254,
+              "K": 16,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -1,
+              "KAST": 0.684,
+              "ADR": 159.3,
+              "HS%": 0.103,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "li",
+              "Agent": "Omen",
+              "R1.0": 0.779,
+              "ACS": 166,
+              "K": 10,
+              "D": 16,
+              "A": 10,
+              "PlusMinus": -6,
+              "KAST": 0.632,
+              "ADR": 97.1,
+              "HS%": 0.128,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "niboos",
+              "Agent": "Chamber",
+              "R1.0": 0.584,
+              "ACS": 109,
+              "K": 7,
+              "D": 13,
+              "A": 2,
+              "PlusMinus": -6,
+              "KAST": 0.474,
+              "ADR": 84.6,
+              "HS%": 0.238,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "hascan",
+              "Agent": "Fade",
+              "R1.0": 0.436,
+              "ACS": 89,
+              "K": 6,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -10,
+              "KAST": 0.474,
+              "ADR": 64.6,
+              "HS%": 0.182,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "FSG",
+          "teamName": "Furry Squirrels Gaming",
+          "players": [
+            {
+              "Player": "nolan",
+              "Agent": "Cypher",
+              "R1.0": 1.413,
+              "ACS": 307,
+              "K": 21,
+              "D": 12,
+              "A": 7,
+              "PlusMinus": 9,
+              "KAST": 0.789,
+              "ADR": 182.1,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "skye",
+              "Agent": "Neon",
+              "R1.0": 1.29,
+              "ACS": 270,
+              "K": 18,
+              "D": 12,
+              "A": 6,
+              "PlusMinus": 6,
+              "KAST": 0.789,
+              "ADR": 172.3,
+              "HS%": 0.113,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "rudra",
+              "Agent": "Astra",
+              "R1.0": 1.059,
+              "ACS": 173,
+              "K": 12,
+              "D": 10,
+              "A": 9,
+              "PlusMinus": 2,
+              "KAST": 0.895,
+              "ADR": 103.3,
+              "HS%": 0.212,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "radical",
+              "Agent": "Raze",
+              "R1.0": 1.03,
+              "ACS": 186,
+              "K": 12,
+              "D": 12,
+              "A": 4,
+              "PlusMinus": 0,
+              "KAST": 0.842,
+              "ADR": 140.6,
+              "HS%": 0.091,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "masao",
+              "Agent": "Skye",
+              "R1.0": 0.973,
+              "ACS": 186,
+              "K": 13,
+              "D": 14,
+              "A": 6,
+              "PlusMinus": -1,
+              "KAST": 0.789,
+              "ADR": 121.5,
+              "HS%": 0.125,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 6,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "FNC",
+          "teamName": "cow paulo FaN Club",
+          "players": [
+            {
+              "Player": "hascan",
+              "Agent": "Sova",
+              "R1.0": 1.347,
+              "ACS": 261,
+              "K": 19,
+              "D": 12,
+              "A": 6,
+              "PlusMinus": 7,
+              "KAST": 0.895,
+              "ADR": 170.5,
+              "HS%": 0.279,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "james",
+              "Agent": "Waylay",
+              "R1.0": 1.276,
+              "ACS": 266,
+              "K": 20,
+              "D": 12,
+              "A": 1,
+              "PlusMinus": 8,
+              "KAST": 0.789,
+              "ADR": 167.9,
+              "HS%": 0.4,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Night",
+              "Agent": "Jett",
+              "R1.0": 1.261,
+              "ACS": 271,
+              "K": 19,
+              "D": 13,
+              "A": 4,
+              "PlusMinus": 6,
+              "KAST": 0.789,
+              "ADR": 168.1,
+              "HS%": 0.314,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "li",
+              "Agent": "Harbor",
+              "R1.0": 1.244,
+              "ACS": 242,
+              "K": 15,
+              "D": 13,
+              "A": 12,
+              "PlusMinus": 2,
+              "KAST": 0.947,
+              "ADR": 149.3,
+              "HS%": 0.212,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "niboos",
+              "Agent": "Omen",
+              "R1.0": 0.707,
+              "ACS": 102,
+              "K": 7,
+              "D": 10,
+              "A": 7,
+              "PlusMinus": -3,
+              "KAST": 0.632,
+              "ADR": 62.7,
+              "HS%": 0.148,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "FSG",
+          "teamName": "Furry Squirrels Gaming",
+          "players": [
+            {
+              "Player": "nolan",
+              "Agent": "Cypher",
+              "R1.0": 1.32,
+              "ACS": 327,
+              "K": 22,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": 5,
+              "KAST": 0.684,
+              "ADR": 211.5,
+              "HS%": 0.215,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "masao",
+              "Agent": "Sova",
+              "R1.0": 1.074,
+              "ACS": 228,
+              "K": 14,
+              "D": 14,
+              "A": 7,
+              "PlusMinus": 0,
+              "KAST": 0.842,
+              "ADR": 138.8,
+              "HS%": 0.15,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "radical",
+              "Agent": "Yoru",
+              "R1.0": 0.774,
+              "ACS": 153,
+              "K": 11,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.632,
+              "ADR": 112.4,
+              "HS%": 0.194,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "skye",
+              "Agent": "Jett",
+              "R1.0": 0.644,
+              "ACS": 129,
+              "K": 8,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": -8,
+              "KAST": 0.632,
+              "ADR": 99.8,
+              "HS%": 0.321,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "rudra",
+              "Agent": "Omen",
+              "R1.0": 0.537,
+              "ACS": 112,
+              "K": 5,
+              "D": 17,
+              "A": 9,
+              "PlusMinus": -12,
+              "KAST": 0.579,
+              "ADR": 78.7,
+              "HS%": 0.174,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 15,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 25,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 26,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 27,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 28,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "FNC",
+          "teamName": "cow paulo FaN Club",
+          "players": [
+            {
+              "Player": "james",
+              "Agent": "Jett",
+              "R1.0": 1.482,
+              "ACS": 333,
+              "K": 35,
+              "D": 19,
+              "A": 3,
+              "PlusMinus": 16,
+              "KAST": 0.821,
+              "ADR": 206.1,
+              "HS%": 0.359,
+              "FK": 6,
+              "FD": 3,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "li",
+              "Agent": "Cypher",
+              "R1.0": 1.067,
+              "ACS": 199,
+              "K": 16,
+              "D": 18,
+              "A": 15,
+              "PlusMinus": -2,
+              "KAST": 0.893,
+              "ADR": 134.4,
+              "HS%": 0.189,
+              "FK": 5,
+              "FD": 3,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Night",
+              "Agent": "Phoenix",
+              "R1.0": 1.057,
+              "ACS": 227,
+              "K": 19,
+              "D": 21,
+              "A": 13,
+              "PlusMinus": -2,
+              "KAST": 0.75,
+              "ADR": 150.2,
+              "HS%": 0.274,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "niboos",
+              "Agent": "Omen",
+              "R1.0": 1.027,
+              "ACS": 210,
+              "K": 21,
+              "D": 20,
+              "A": 8,
+              "PlusMinus": 1,
+              "KAST": 0.75,
+              "ADR": 132.5,
+              "HS%": 0.246,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "hascan",
+              "Agent": "Sova",
+              "R1.0": 0.732,
+              "ACS": 137,
+              "K": 14,
+              "D": 20,
+              "A": 5,
+              "PlusMinus": -6,
+              "KAST": 0.607,
+              "ADR": 97.1,
+              "HS%": 0.235,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "FSG",
+          "teamName": "Furry Squirrels Gaming",
+          "players": [
+            {
+              "Player": "masao",
+              "Agent": "Sova",
+              "R1.0": 1.308,
+              "ACS": 268,
+              "K": 24,
+              "D": 16,
+              "A": 11,
+              "PlusMinus": 8,
+              "KAST": 0.786,
+              "ADR": 182.2,
+              "HS%": 0.152,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "skye",
+              "Agent": "Neon",
+              "R1.0": 1.009,
+              "ACS": 216,
+              "K": 23,
+              "D": 21,
+              "A": 6,
+              "PlusMinus": 2,
+              "KAST": 0.714,
+              "ADR": 126.9,
+              "HS%": 0.141,
+              "FK": 5,
+              "FD": 6,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "nolan",
+              "Agent": "Cypher",
+              "R1.0": 0.863,
+              "ACS": 195,
+              "K": 18,
+              "D": 23,
+              "A": 5,
+              "PlusMinus": -5,
+              "KAST": 0.679,
+              "ADR": 127.4,
+              "HS%": 0.229,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "rudra",
+              "Agent": "Omen",
+              "R1.0": 0.858,
+              "ACS": 151,
+              "K": 16,
+              "D": 21,
+              "A": 16,
+              "PlusMinus": -5,
+              "KAST": 0.679,
+              "ADR": 93.1,
+              "HS%": 0.324,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "radical",
+              "Agent": "Jett",
+              "R1.0": 0.808,
+              "ACS": 174,
+              "K": 17,
+              "D": 24,
+              "A": 5,
+              "PlusMinus": -7,
+              "KAST": 0.679,
+              "ADR": 119.8,
+              "HS%": 0.211,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=_7xhkrksP78"
 }
