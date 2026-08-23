@@ -157,17 +157,17 @@
       "rndDiff": -12
     },
     {
-      "abbr": "DFM",
-      "name": "Dementia Found Me",
-      "matchW": 1,
+      "abbr": "EPY",
+      "name": "Team Entropy",
+      "matchW": 2,
       "matchL": 5,
-      "mapW": 5,
-      "mapL": 11,
-      "rndW": 141,
-      "rndL": 182,
+      "mapW": 6,
+      "mapL": 12,
+      "rndW": 165,
+      "rndL": 199,
       "rank": 13,
       "mapDiff": -6,
-      "rndDiff": -41
+      "rndDiff": -34
     },
     {
       "abbr": "IHOP",
@@ -183,17 +183,17 @@
       "rndDiff": -16
     },
     {
-      "abbr": "EPY",
-      "name": "Team Entropy",
+      "abbr": "DFM",
+      "name": "Dementia Found Me",
       "matchW": 1,
-      "matchL": 5,
-      "mapW": 4,
-      "mapL": 11,
-      "rndW": 131,
-      "rndL": 166,
+      "matchL": 6,
+      "mapW": 6,
+      "mapL": 13,
+      "rndW": 174,
+      "rndL": 216,
       "rank": 15,
       "mapDiff": -7,
-      "rndDiff": -35
+      "rndDiff": -42
     },
     {
       "abbr": "FNC",
@@ -254,12 +254,12 @@
       "name": "Team Dyslexia",
       "matchW": 4,
       "matchL": 3,
-      "mapW": 999,
+      "mapW": 9,
       "mapL": 8,
       "rndW": 183,
       "rndL": 178,
       "rank": 4,
-      "mapDiff": 991,
+      "mapDiff": 1,
       "rndDiff": 5
     },
     {
@@ -395,30 +395,30 @@
       "rndDiff": -26
     },
     {
+      "abbr": "EPY",
+      "name": "Team Entropy",
+      "matchW": 2,
+      "matchL": 5,
+      "mapW": 6,
+      "mapL": 12,
+      "rndW": 165,
+      "rndL": 199,
+      "rank": 7,
+      "mapDiff": -6,
+      "rndDiff": -34
+    },
+    {
       "abbr": "DFM",
       "name": "Dementia Found Me",
       "matchW": 1,
-      "matchL": 5,
-      "mapW": 5,
-      "mapL": 11,
-      "rndW": 141,
-      "rndL": 182,
-      "rank": 7,
-      "mapDiff": -6,
-      "rndDiff": -41
-    },
-    {
-      "abbr": "EPY",
-      "name": "Team Entropy",
-      "matchW": 1,
-      "matchL": 5,
-      "mapW": 4,
-      "mapL": 11,
-      "rndW": 131,
-      "rndL": 166,
+      "matchL": 6,
+      "mapW": 6,
+      "mapL": 13,
+      "rndW": 174,
+      "rndL": 216,
       "rank": 8,
       "mapDiff": -7,
-      "rndDiff": -35
+      "rndDiff": -42
     }
   ]
 }
