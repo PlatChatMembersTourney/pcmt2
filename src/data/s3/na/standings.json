@@ -53,6 +53,19 @@
       "rndDiff": 49
     },
     {
+      "abbr": "FSG",
+      "name": "Furry Squirrels Gaming",
+      "matchW": 5,
+      "matchL": 2,
+      "mapW": 11,
+      "mapL": 6,
+      "rndW": 193,
+      "rndL": 172,
+      "rank": 5,
+      "mapDiff": 5,
+      "rndDiff": 21
+    },
+    {
       "abbr": "TS",
       "name": "Team Slugshow",
       "matchW": 4,
@@ -61,22 +74,9 @@
       "mapL": 7,
       "rndW": 182,
       "rndL": 165,
-      "rank": 5,
-      "mapDiff": 3,
-      "rndDiff": 17
-    },
-    {
-      "abbr": "FSG",
-      "name": "Furry Squirrels Gaming",
-      "matchW": 4,
-      "matchL": 2,
-      "mapW": 9,
-      "mapL": 6,
-      "rndW": 167,
-      "rndL": 156,
       "rank": 6,
       "mapDiff": 3,
-      "rndDiff": 11
+      "rndDiff": 17
     },
     {
       "abbr": "NAVI",
@@ -134,14 +134,14 @@
       "abbr": "SSG",
       "name": "Squirtle Squad Gaming",
       "matchW": 2,
-      "matchL": 3,
+      "matchL": 4,
       "mapW": 6,
-      "mapL": 6,
-      "rndW": 146,
-      "rndL": 131,
+      "mapL": 8,
+      "rndW": 162,
+      "rndL": 157,
       "rank": 11,
-      "mapDiff": 0,
-      "rndDiff": 15
+      "mapDiff": -2,
+      "rndDiff": 5
     },
     {
       "abbr": "RRQ",
@@ -239,15 +239,15 @@
     {
       "abbr": "FSG",
       "name": "Furry Squirrels Gaming",
-      "matchW": 4,
+      "matchW": 5,
       "matchL": 2,
-      "mapW": 9,
+      "mapW": 11,
       "mapL": 6,
-      "rndW": 167,
-      "rndL": 156,
+      "rndW": 193,
+      "rndL": 172,
       "rank": 3,
-      "mapDiff": 3,
-      "rndDiff": 11
+      "mapDiff": 5,
+      "rndDiff": 21
     },
     {
       "abbr": "TL",
@@ -266,14 +266,14 @@
       "abbr": "SSG",
       "name": "Squirtle Squad Gaming",
       "matchW": 2,
-      "matchL": 3,
+      "matchL": 4,
       "mapW": 6,
-      "mapL": 6,
-      "rndW": 146,
-      "rndL": 131,
+      "mapL": 8,
+      "rndW": 162,
+      "rndL": 157,
       "rank": 5,
-      "mapDiff": 0,
-      "rndDiff": 15
+      "mapDiff": -2,
+      "rndDiff": 5
     },
     {
       "abbr": "RRQ",

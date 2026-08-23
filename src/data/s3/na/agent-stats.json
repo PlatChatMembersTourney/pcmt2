@@ -760,99 +760,99 @@
     }
   },
   "Haven": {
-    "mapsPlayed": 21,
-    "atkPct": 0.507,
-    "defPct": 0.493,
+    "mapsPlayed": 22,
+    "atkPct": 0.518,
+    "defPct": 0.482,
     "agents": [
       {
         "agent": "Sova",
         "comps": 15,
-        "pickPct": 0.357
-      },
-      {
-        "agent": "Cypher",
-        "comps": 14,
-        "pickPct": 0.333
+        "pickPct": 0.341
       },
       {
         "agent": "Omen",
         "comps": 14,
-        "pickPct": 0.333
+        "pickPct": 0.318
       },
       {
-        "agent": "Jett",
-        "comps": 12,
-        "pickPct": 0.286
+        "agent": "Cypher",
+        "comps": 14,
+        "pickPct": 0.318
       },
       {
         "agent": "Phoenix",
         "comps": 12,
-        "pickPct": 0.286
+        "pickPct": 0.273
+      },
+      {
+        "agent": "Jett",
+        "comps": 12,
+        "pickPct": 0.273
       },
       {
         "agent": "Neon",
         "comps": 7,
-        "pickPct": 0.167
+        "pickPct": 0.159
       },
       {
         "agent": "Waylay",
         "comps": 5,
-        "pickPct": 0.119
-      },
-      {
-        "agent": "Chamber",
-        "comps": 4,
-        "pickPct": 0.095
-      },
-      {
-        "agent": "Clove",
-        "comps": 4,
-        "pickPct": 0.095
-      },
-      {
-        "agent": "Vyse",
-        "comps": 4,
-        "pickPct": 0.095
+        "pickPct": 0.114
       },
       {
         "agent": "Killjoy",
         "comps": 4,
-        "pickPct": 0.095
+        "pickPct": 0.091
       },
       {
         "agent": "Yoru",
-        "comps": 3,
-        "pickPct": 0.071
+        "comps": 4,
+        "pickPct": 0.091
+      },
+      {
+        "agent": "Chamber",
+        "comps": 4,
+        "pickPct": 0.091
+      },
+      {
+        "agent": "Clove",
+        "comps": 4,
+        "pickPct": 0.091
+      },
+      {
+        "agent": "Vyse",
+        "comps": 4,
+        "pickPct": 0.091
       },
       {
         "agent": "Fade",
-        "comps": 2,
-        "pickPct": 0.048
+        "comps": 3,
+        "pickPct": 0.068
       },
       {
         "agent": "Iso",
         "comps": 2,
-        "pickPct": 0.048
+        "pickPct": 0.045
       },
       {
         "agent": "Viper",
         "comps": 2,
-        "pickPct": 0.048
+        "pickPct": 0.045
       },
       {
         "agent": "Skye",
         "comps": 1,
-        "pickPct": 0.024
+        "pickPct": 0.023
       },
       {
         "agent": "Breach",
         "comps": 1,
-        "pickPct": 0.024
+        "pickPct": 0.023
       },
       {
         "agent": "Sage",
         "comps": 1,
-        "pickPct": 0.024
+        "pickPct": 0.023
       }
     ],
     "teams": {
@@ -931,12 +931,14 @@
         "teamName": "Furry Squirrels Gaming",
         "agents": [
           "Cypher",
+          "Fade",
           "Jett",
           "Neon",
           "Omen",
           "Phoenix",
           "Skye",
-          "Sova"
+          "Sova",
+          "Yoru"
         ]
       },
       "IHOP": {
@@ -1672,104 +1674,104 @@
     }
   },
   "Split": {
-    "mapsPlayed": 15,
-    "atkPct": 0.5,
-    "defPct": 0.5,
+    "mapsPlayed": 16,
+    "atkPct": 0.507,
+    "defPct": 0.493,
     "agents": [
+      {
+        "agent": "Raze",
+        "comps": 12,
+        "pickPct": 0.375
+      },
       {
         "agent": "Fade",
         "comps": 11,
-        "pickPct": 0.367
-      },
-      {
-        "agent": "Raze",
-        "comps": 11,
-        "pickPct": 0.367
+        "pickPct": 0.344
       },
       {
         "agent": "Omen",
         "comps": 9,
-        "pickPct": 0.3
+        "pickPct": 0.281
+      },
+      {
+        "agent": "Viper",
+        "comps": 8,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Skye",
+        "comps": 8,
+        "pickPct": 0.25
       },
       {
         "agent": "Neon",
         "comps": 8,
-        "pickPct": 0.267
-      },
-      {
-        "agent": "Skye",
-        "comps": 7,
-        "pickPct": 0.233
-      },
-      {
-        "agent": "Viper",
-        "comps": 7,
-        "pickPct": 0.233
+        "pickPct": 0.25
       },
       {
         "agent": "Waylay",
         "comps": 6,
-        "pickPct": 0.2
+        "pickPct": 0.188
       },
       {
         "agent": "Phoenix",
         "comps": 6,
-        "pickPct": 0.2
+        "pickPct": 0.188
       },
       {
         "agent": "Cypher",
         "comps": 5,
-        "pickPct": 0.167
+        "pickPct": 0.156
+      },
+      {
+        "agent": "Vyse",
+        "comps": 4,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Astra",
+        "comps": 4,
+        "pickPct": 0.125
       },
       {
         "agent": "Sage",
         "comps": 4,
-        "pickPct": 0.133
+        "pickPct": 0.125
       },
       {
         "agent": "Yoru",
         "comps": 4,
-        "pickPct": 0.133
+        "pickPct": 0.125
       },
       {
         "agent": "Chamber",
         "comps": 3,
-        "pickPct": 0.1
-      },
-      {
-        "agent": "Astra",
-        "comps": 3,
-        "pickPct": 0.1
-      },
-      {
-        "agent": "Vyse",
-        "comps": 3,
-        "pickPct": 0.1
+        "pickPct": 0.094
       },
       {
         "agent": "Miks",
         "comps": 2,
-        "pickPct": 0.067
+        "pickPct": 0.062
       },
       {
         "agent": "Clove",
         "comps": 2,
-        "pickPct": 0.067
+        "pickPct": 0.062
       },
       {
         "agent": "Iso",
         "comps": 1,
-        "pickPct": 0.033
+        "pickPct": 0.031
       },
       {
         "agent": "Breach",
         "comps": 1,
-        "pickPct": 0.033
+        "pickPct": 0.031
       },
       {
         "agent": "Jett",
         "comps": 1,
-        "pickPct": 0.033
+        "pickPct": 0.031
       }
     ],
     "teams": {
@@ -1906,6 +1908,17 @@
           "Raze",
           "Skye",
           "Viper"
+        ]
+      },
+      "SSG": {
+        "team": "SSG",
+        "teamName": "Squirtle Squad Gaming",
+        "agents": [
+          "Astra",
+          "Raze",
+          "Skye",
+          "Viper",
+          "Vyse"
         ]
       },
       "T1": {
