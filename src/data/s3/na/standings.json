@@ -1,6 +1,19 @@
 {
   "Overall": [
     {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 7,
+      "matchL": 1,
+      "mapW": 14,
+      "mapL": 4,
+      "rndW": 211,
+      "rndL": 164,
+      "rank": 1,
+      "mapDiff": 10,
+      "rndDiff": 47
+    },
+    {
       "abbr": "SRB",
       "name": "Sunshine and Rainbows",
       "matchW": 6,
@@ -9,22 +22,9 @@
       "mapL": 4,
       "rndW": 207,
       "rndL": 173,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 9,
       "rndDiff": 34
-    },
-    {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 6,
-      "matchL": 1,
-      "mapW": 12,
-      "mapL": 4,
-      "rndW": 185,
-      "rndL": 154,
-      "rank": 2,
-      "mapDiff": 8,
-      "rndDiff": 31
     },
     {
       "abbr": "C9",
@@ -66,19 +66,6 @@
       "rndDiff": 21
     },
     {
-      "abbr": "TS",
-      "name": "Team Slugshow",
-      "matchW": 4,
-      "matchL": 3,
-      "mapW": 10,
-      "mapL": 7,
-      "rndW": 182,
-      "rndL": 165,
-      "rank": 6,
-      "mapDiff": 3,
-      "rndDiff": 17
-    },
-    {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 4,
@@ -87,7 +74,7 @@
       "mapL": 7,
       "rndW": 162,
       "rndL": 154,
-      "rank": 7,
+      "rank": 6,
       "mapDiff": 1,
       "rndDiff": 8
     },
@@ -100,9 +87,22 @@
       "mapL": 8,
       "rndW": 183,
       "rndL": 178,
-      "rank": 8,
+      "rank": 7,
       "mapDiff": 1,
       "rndDiff": 5
+    },
+    {
+      "abbr": "TS",
+      "name": "Team Slugshow",
+      "matchW": 4,
+      "matchL": 4,
+      "mapW": 10,
+      "mapL": 9,
+      "rndW": 192,
+      "rndL": 191,
+      "rank": 8,
+      "mapDiff": 1,
+      "rndDiff": 1
     },
     {
       "abbr": "100T",
@@ -419,6 +419,34 @@
       "rank": 8,
       "mapDiff": -7,
       "rndDiff": -42
+    }
+  ],
+  "Playoffs": [
+    {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 1,
+      "matchL": 0,
+      "mapW": 2,
+      "mapL": 0,
+      "rndW": 26,
+      "rndL": 10,
+      "rank": 1,
+      "mapDiff": 2,
+      "rndDiff": 16
+    },
+    {
+      "abbr": "TS",
+      "name": "Team Slugshow",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 0,
+      "mapL": 2,
+      "rndW": 10,
+      "rndL": 26,
+      "rank": 2,
+      "mapDiff": -2,
+      "rndDiff": -16
     }
   ]
 }
