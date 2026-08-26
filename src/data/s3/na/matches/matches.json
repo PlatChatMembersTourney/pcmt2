@@ -1,5 +1,18 @@
 [
   {
+    "id": "t1-vs-ts-s3-playoffs-2026-08-26",
+    "team1": "T1",
+    "team2": "TS",
+    "team1Name": "Team 1",
+    "team2Name": "Team Slugshow",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-08-26T00:00:00Z",
+    "stage": "Playoffs"
+  },
+  {
     "id": "ssg-vs-fsg-s3-group-alpha-2026-08-23",
     "team1": "SSG",
     "team2": "FSG",
