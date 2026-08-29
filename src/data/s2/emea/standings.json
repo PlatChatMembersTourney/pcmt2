@@ -1,6 +1,19 @@
 {
   "Overall": [
     {
+      "abbr": "XTC",
+      "name": "Xually Terribly Cursed",
+      "matchW": 3,
+      "matchL": 1,
+      "mapW": 7,
+      "mapL": 3,
+      "rndW": 113,
+      "rndL": 94,
+      "rank": 1,
+      "mapDiff": 4,
+      "rndDiff": 19
+    },
+    {
       "abbr": "SOG",
       "name": "The SOG",
       "matchW": 3,
@@ -9,22 +22,9 @@
       "mapL": 3,
       "rndW": 105,
       "rndL": 90,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 3,
       "rndDiff": 15
-    },
-    {
-      "abbr": "XTC",
-      "name": "Xually Terribly Cursed",
-      "matchW": 2,
-      "matchL": 1,
-      "mapW": 5,
-      "mapL": 3,
-      "rndW": 87,
-      "rndL": 85,
-      "rank": 2,
-      "mapDiff": 2,
-      "rndDiff": 2
     },
     {
       "abbr": "NOOT",
@@ -95,14 +95,14 @@
       "abbr": "FaZe",
       "name": "Fabulous and Zesty",
       "matchW": 1,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 3,
-      "mapL": 2,
-      "rndW": 59,
-      "rndL": 57,
+      "mapL": 4,
+      "rndW": 68,
+      "rndL": 83,
       "rank": 8,
-      "mapDiff": 1,
-      "rndDiff": 2
+      "mapDiff": -1,
+      "rndDiff": -15
     },
     {
       "abbr": "HOT",
@@ -135,15 +135,15 @@
     {
       "abbr": "XTC",
       "name": "Xually Terribly Cursed",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 1,
-      "mapW": 5,
+      "mapW": 7,
       "mapL": 3,
-      "rndW": 87,
-      "rndL": 85,
+      "rndW": 113,
+      "rndL": 94,
       "rank": 1,
-      "mapDiff": 2,
-      "rndDiff": 2
+      "mapDiff": 4,
+      "rndDiff": 19
     },
     {
       "abbr": "NIP",
@@ -175,14 +175,14 @@
       "abbr": "FaZe",
       "name": "Fabulous and Zesty",
       "matchW": 1,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 3,
-      "mapL": 2,
-      "rndW": 59,
-      "rndL": 57,
+      "mapL": 4,
+      "rndW": 68,
+      "rndL": 83,
       "rank": 4,
-      "mapDiff": 1,
-      "rndDiff": 2
+      "mapDiff": -1,
+      "rndDiff": -15
     },
     {
       "abbr": "HOT",

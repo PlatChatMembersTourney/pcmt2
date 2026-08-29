@@ -179,8 +179,8 @@
   "FaZe": {
     "team": "FaZe",
     "teamName": "Fabulous and Zesty",
-    "overallAtkPct": 0.618,
-    "overallDefPct": 0.41,
+    "overallAtkPct": 0.549,
+    "overallDefPct": 0.362,
     "maps": [
       {
         "map": "Abyss",
@@ -225,14 +225,14 @@
         "map": "Breeze",
         "pick": 0,
         "ban": 1,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 16,
+        "roundsWon": 3,
+        "roundPct": 0.188,
+        "atkPct": 0.5,
+        "defPct": 0.083
       },
       {
         "map": "Corrode",
@@ -263,7 +263,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -315,7 +315,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -327,16 +327,16 @@
       },
       {
         "map": "Summit",
-        "pick": 1,
+        "pick": 2,
         "ban": 1,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 22,
-        "roundsWon": 9,
-        "roundPct": 0.409,
-        "atkPct": 0.7,
-        "defPct": 0.167
+        "rounds": 41,
+        "roundsWon": 15,
+        "roundPct": 0.366,
+        "atkPct": 0.455,
+        "defPct": 0.263
       },
       {
         "map": "Sunset",
@@ -1595,8 +1595,8 @@
   "XTC": {
     "team": "XTC",
     "teamName": "Xually Terribly Cursed",
-    "overallAtkPct": 0.427,
-    "overallDefPct": 0.567,
+    "overallAtkPct": 0.5,
+    "overallDefPct": 0.584,
     "maps": [
       {
         "map": "Abyss",
@@ -1639,16 +1639,16 @@
       },
       {
         "map": "Breeze",
-        "pick": 0,
+        "pick": 1,
         "ban": 1,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 16,
+        "roundsWon": 13,
+        "roundPct": 0.812,
+        "atkPct": 0.917,
+        "defPct": 0.5
       },
       {
         "map": "Corrode",
@@ -1705,7 +1705,7 @@
       {
         "map": "Lotus",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1745,19 +1745,19 @@
         "map": "Summit",
         "pick": 0,
         "ban": 0,
-        "played": 1,
-        "won": 0,
-        "winPct": 0.0,
-        "rounds": 15,
-        "roundsWon": 2,
-        "roundPct": 0.133,
-        "atkPct": 0.0,
-        "defPct": 0.167
+        "played": 2,
+        "won": 1,
+        "winPct": 0.5,
+        "rounds": 34,
+        "roundsWon": 15,
+        "roundPct": 0.441,
+        "atkPct": 0.4,
+        "defPct": 0.458
       },
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 0,
         "won": 0,
         "winPct": 0,
