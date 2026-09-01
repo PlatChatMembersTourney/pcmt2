@@ -105,6 +105,19 @@
       "rndDiff": 1
     },
     {
+      "abbr": "SSG",
+      "name": "Squirtle Squad Gaming",
+      "matchW": 3,
+      "matchL": 4,
+      "mapW": 8,
+      "mapL": 8,
+      "rndW": 188,
+      "rndL": 170,
+      "rank": 9,
+      "mapDiff": 0,
+      "rndDiff": 18
+    },
+    {
       "abbr": "100T",
       "name": "100 Tony's",
       "matchW": 3,
@@ -113,7 +126,7 @@
       "mapL": 10,
       "rndW": 179,
       "rndL": 185,
-      "rank": 9,
+      "rank": 10,
       "mapDiff": -3,
       "rndDiff": -6
     },
@@ -126,35 +139,22 @@
       "mapL": 10,
       "rndW": 177,
       "rndL": 203,
-      "rank": 10,
+      "rank": 11,
       "mapDiff": -3,
       "rndDiff": -26
-    },
-    {
-      "abbr": "SSG",
-      "name": "Squirtle Squad Gaming",
-      "matchW": 2,
-      "matchL": 4,
-      "mapW": 6,
-      "mapL": 8,
-      "rndW": 162,
-      "rndL": 157,
-      "rank": 11,
-      "mapDiff": -2,
-      "rndDiff": 5
     },
     {
       "abbr": "RRQ",
       "name": "Rage Re-Queuers",
       "matchW": 2,
-      "matchL": 4,
+      "matchL": 5,
       "mapW": 6,
-      "mapL": 9,
-      "rndW": 158,
-      "rndL": 170,
+      "mapL": 11,
+      "rndW": 171,
+      "rndL": 196,
       "rank": 12,
-      "mapDiff": -3,
-      "rndDiff": -12
+      "mapDiff": -5,
+      "rndDiff": -25
     },
     {
       "abbr": "EPY",
@@ -265,28 +265,28 @@
     {
       "abbr": "SSG",
       "name": "Squirtle Squad Gaming",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 4,
-      "mapW": 6,
+      "mapW": 8,
       "mapL": 8,
-      "rndW": 162,
-      "rndL": 157,
+      "rndW": 188,
+      "rndL": 170,
       "rank": 5,
-      "mapDiff": -2,
-      "rndDiff": 5
+      "mapDiff": 0,
+      "rndDiff": 18
     },
     {
       "abbr": "RRQ",
       "name": "Rage Re-Queuers",
       "matchW": 2,
-      "matchL": 4,
+      "matchL": 5,
       "mapW": 6,
-      "mapL": 9,
-      "rndW": 158,
-      "rndL": 170,
+      "mapL": 11,
+      "rndW": 171,
+      "rndL": 196,
       "rank": 6,
-      "mapDiff": -3,
-      "rndDiff": -12
+      "mapDiff": -5,
+      "rndDiff": -25
     },
     {
       "abbr": "IHOP",
