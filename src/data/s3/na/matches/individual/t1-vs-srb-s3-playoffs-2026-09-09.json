@@ -4,10 +4,816 @@
   "team2": "SRB",
   "team1Name": "Team 1",
   "team2Name": "Sunshine and Rainbows",
-  "score1": 0,
+  "score1": 2,
   "score2": 0,
-  "completed": false,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-09-09T13:00:00Z",
-  "stage": "Playoffs"
+  "stage": "Playoffs",
+  "veto": "T1 bans Sunset, SRB bans Haven, T1 picks Summit, SRB picks Split, T1 bans Abyss, SRB bans Ascent, Lotus remains",
+  "maps": [
+    {
+      "name": "Summit",
+      "score1": 13,
+      "score2": 8
+    },
+    {
+      "name": "Split",
+      "score1": 13,
+      "score2": 10
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "T1",
+      "teamName": "Team 1",
+      "players": [
+        {
+          "Player": "MrCrocMan",
+          "R1.0": 1.625,
+          "ACS": 357,
+          "K": 57,
+          "D": 30,
+          "A": 13,
+          "PlusMinus": 27,
+          "KAST": 0.887,
+          "ADR": 228.3,
+          "HS%": 0.256,
+          "FK": 13,
+          "FD": 3,
+          "PlusMinus2": 10
+        },
+        {
+          "Player": "radical",
+          "R1.0": 1.164,
+          "ACS": 255,
+          "K": 39,
+          "D": 32,
+          "A": 8,
+          "PlusMinus": 7,
+          "KAST": 0.773,
+          "ADR": 166.1,
+          "HS%": 0.184,
+          "FK": 7,
+          "FD": 7,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "Ceiliuir",
+          "R1.0": 1.1,
+          "ACS": 199,
+          "K": 33,
+          "D": 25,
+          "A": 12,
+          "PlusMinus": 8,
+          "KAST": 0.795,
+          "ADR": 131.7,
+          "HS%": 0.167,
+          "FK": 2,
+          "FD": 1,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "Pi",
+          "R1.0": 0.972,
+          "ACS": 174,
+          "K": 24,
+          "D": 29,
+          "A": 26,
+          "PlusMinus": -5,
+          "KAST": 0.841,
+          "ADR": 106.5,
+          "HS%": 0.118,
+          "FK": 3,
+          "FD": 3,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "roro",
+          "R1.0": 0.831,
+          "ACS": 140,
+          "K": 20,
+          "D": 32,
+          "A": 25,
+          "PlusMinus": -12,
+          "KAST": 0.75,
+          "ADR": 95.2,
+          "HS%": 0.308,
+          "FK": 2,
+          "FD": 3,
+          "PlusMinus2": -1
+        }
+      ]
+    },
+    {
+      "team": "SRB",
+      "teamName": "Sunshine and Rainbows",
+      "players": [
+        {
+          "Player": "izz",
+          "R1.0": 1.446,
+          "ACS": 345,
+          "K": 52,
+          "D": 31,
+          "A": 7,
+          "PlusMinus": 21,
+          "KAST": 0.659,
+          "ADR": 226.7,
+          "HS%": 0.152,
+          "FK": 7,
+          "FD": 7,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "jaypee",
+          "R1.0": 1.024,
+          "ACS": 233,
+          "K": 32,
+          "D": 38,
+          "A": 14,
+          "PlusMinus": -6,
+          "KAST": 0.75,
+          "ADR": 159.3,
+          "HS%": 0.284,
+          "FK": 5,
+          "FD": 7,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "androobee",
+          "R1.0": 0.892,
+          "ACS": 191,
+          "K": 30,
+          "D": 36,
+          "A": 11,
+          "PlusMinus": -6,
+          "KAST": 0.704,
+          "ADR": 120.3,
+          "HS%": 0.237,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "longclaw",
+          "R1.0": 0.774,
+          "ACS": 151,
+          "K": 21,
+          "D": 34,
+          "A": 17,
+          "PlusMinus": -13,
+          "KAST": 0.614,
+          "ADR": 108.9,
+          "HS%": 0.23,
+          "FK": 0,
+          "FD": 6,
+          "PlusMinus2": -6
+        },
+        {
+          "Player": "timothy",
+          "R1.0": 0.606,
+          "ACS": 99,
+          "K": 13,
+          "D": 34,
+          "A": 24,
+          "PlusMinus": -21,
+          "KAST": 0.682,
+          "ADR": 58.6,
+          "HS%": 0.134,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Summit",
+      "score1": 13,
+      "score2": 8,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def",
+          "endType": "Round timer expired"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Phoenix",
+              "R1.0": 1.601,
+              "ACS": 344,
+              "K": 25,
+              "D": 14,
+              "A": 10,
+              "PlusMinus": 11,
+              "KAST": 0.81,
+              "ADR": 232.3,
+              "HS%": 0.191,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 1.149,
+              "ACS": 202,
+              "K": 17,
+              "D": 11,
+              "A": 6,
+              "PlusMinus": 6,
+              "KAST": 0.762,
+              "ADR": 133.6,
+              "HS%": 0.147,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "radical",
+              "Agent": "Yoru",
+              "R1.0": 1.058,
+              "ACS": 225,
+              "K": 15,
+              "D": 14,
+              "A": 8,
+              "PlusMinus": 1,
+              "KAST": 0.714,
+              "ADR": 140.4,
+              "HS%": 0.218,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 0.981,
+              "ACS": 189,
+              "K": 13,
+              "D": 14,
+              "A": 8,
+              "PlusMinus": -1,
+              "KAST": 0.81,
+              "ADR": 118.4,
+              "HS%": 0.125,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "roro",
+              "Agent": "Omen",
+              "R1.0": 0.911,
+              "ACS": 160,
+              "K": 12,
+              "D": 16,
+              "A": 13,
+              "PlusMinus": -4,
+              "KAST": 0.762,
+              "ADR": 101.6,
+              "HS%": 0.324,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "SRB",
+          "teamName": "Sunshine and Rainbows",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": "Raze",
+              "R1.0": 1.714,
+              "ACS": 431,
+              "K": 31,
+              "D": 14,
+              "A": 2,
+              "PlusMinus": 17,
+              "KAST": 0.667,
+              "ADR": 267.7,
+              "HS%": 0.158,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "androobee",
+              "Agent": "Cypher",
+              "R1.0": 0.83,
+              "ACS": 170,
+              "K": 11,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": -6,
+              "KAST": 0.762,
+              "ADR": 114.0,
+              "HS%": 0.111,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "longclaw",
+              "Agent": "Omen",
+              "R1.0": 0.787,
+              "ACS": 159,
+              "K": 11,
+              "D": 17,
+              "A": 9,
+              "PlusMinus": -6,
+              "KAST": 0.619,
+              "ADR": 105.9,
+              "HS%": 0.317,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "jaypee",
+              "Agent": "Neon",
+              "R1.0": 0.749,
+              "ACS": 184,
+              "K": 12,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": -6,
+              "KAST": 0.571,
+              "ADR": 120.5,
+              "HS%": 0.312,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "timothy",
+              "Agent": "Skye",
+              "R1.0": 0.535,
+              "ACS": 82,
+              "K": 4,
+              "D": 16,
+              "A": 12,
+              "PlusMinus": -12,
+              "KAST": 0.619,
+              "ADR": 57.0,
+              "HS%": 0.148,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Split",
+      "score1": 13,
+      "score2": 10,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Phoenix",
+              "R1.0": 1.646,
+              "ACS": 368,
+              "K": 32,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": 16,
+              "KAST": 0.957,
+              "ADR": 224.6,
+              "HS%": 0.316,
+              "FK": 10,
+              "FD": 2,
+              "PlusMinus2": 8
+            },
+            {
+              "Player": "radical",
+              "Agent": "Raze",
+              "R1.0": 1.259,
+              "ACS": 283,
+              "K": 24,
+              "D": 18,
+              "A": 0,
+              "PlusMinus": 6,
+              "KAST": 0.826,
+              "ADR": 189.5,
+              "HS%": 0.153,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 1.055,
+              "ACS": 196,
+              "K": 16,
+              "D": 14,
+              "A": 6,
+              "PlusMinus": 2,
+              "KAST": 0.826,
+              "ADR": 130.0,
+              "HS%": 0.186,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 0.964,
+              "ACS": 160,
+              "K": 11,
+              "D": 15,
+              "A": 18,
+              "PlusMinus": -4,
+              "KAST": 0.87,
+              "ADR": 95.7,
+              "HS%": 0.111,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "roro",
+              "Agent": "Omen",
+              "R1.0": 0.757,
+              "ACS": 121,
+              "K": 8,
+              "D": 16,
+              "A": 12,
+              "PlusMinus": -8,
+              "KAST": 0.739,
+              "ADR": 89.3,
+              "HS%": 0.294,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "SRB",
+          "teamName": "Sunshine and Rainbows",
+          "players": [
+            {
+              "Player": "jaypee",
+              "Agent": "Neon",
+              "R1.0": 1.276,
+              "ACS": 278,
+              "K": 20,
+              "D": 20,
+              "A": 11,
+              "PlusMinus": 0,
+              "KAST": 0.913,
+              "ADR": 194.7,
+              "HS%": 0.258,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "izz",
+              "Agent": "Raze",
+              "R1.0": 1.201,
+              "ACS": 267,
+              "K": 21,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 4,
+              "KAST": 0.652,
+              "ADR": 189.3,
+              "HS%": 0.146,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "androobee",
+              "Agent": "Viper",
+              "R1.0": 0.948,
+              "ACS": 211,
+              "K": 19,
+              "D": 19,
+              "A": 4,
+              "PlusMinus": 0,
+              "KAST": 0.652,
+              "ADR": 126.1,
+              "HS%": 0.353,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "longclaw",
+              "Agent": "Omen",
+              "R1.0": 0.762,
+              "ACS": 144,
+              "K": 10,
+              "D": 17,
+              "A": 8,
+              "PlusMinus": -7,
+              "KAST": 0.609,
+              "ADR": 111.7,
+              "HS%": 0.151,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "timothy",
+              "Agent": "Skye",
+              "R1.0": 0.67,
+              "ACS": 114,
+              "K": 9,
+              "D": 18,
+              "A": 12,
+              "PlusMinus": -9,
+              "KAST": 0.739,
+              "ADR": 60.1,
+              "HS%": 0.121,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=e-EMcPejUJo"
 }

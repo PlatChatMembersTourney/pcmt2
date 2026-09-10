@@ -3,28 +3,28 @@
     {
       "abbr": "T1",
       "name": "Team 1",
-      "matchW": 7,
+      "matchW": 8,
       "matchL": 1,
-      "mapW": 14,
+      "mapW": 16,
       "mapL": 4,
-      "rndW": 211,
-      "rndL": 164,
+      "rndW": 237,
+      "rndL": 182,
       "rank": 1,
-      "mapDiff": 10,
-      "rndDiff": 47
+      "mapDiff": 12,
+      "rndDiff": 55
     },
     {
       "abbr": "SRB",
       "name": "Sunshine and Rainbows",
       "matchW": 6,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 13,
-      "mapL": 4,
-      "rndW": 207,
-      "rndL": 173,
+      "mapL": 6,
+      "rndW": 225,
+      "rndL": 199,
       "rank": 2,
-      "mapDiff": 9,
-      "rndDiff": 34
+      "mapDiff": 7,
+      "rndDiff": 26
     },
     {
       "abbr": "C9",
@@ -425,15 +425,28 @@
     {
       "abbr": "T1",
       "name": "Team 1",
-      "matchW": 1,
+      "matchW": 2,
       "matchL": 0,
-      "mapW": 2,
+      "mapW": 4,
       "mapL": 0,
-      "rndW": 26,
-      "rndL": 10,
+      "rndW": 52,
+      "rndL": 28,
       "rank": 1,
-      "mapDiff": 2,
-      "rndDiff": 16
+      "mapDiff": 4,
+      "rndDiff": 24
+    },
+    {
+      "abbr": "SRB",
+      "name": "Sunshine and Rainbows",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 0,
+      "mapL": 2,
+      "rndW": 18,
+      "rndL": 26,
+      "rank": 2,
+      "mapDiff": -2,
+      "rndDiff": -8
     },
     {
       "abbr": "TS",
@@ -444,7 +457,7 @@
       "mapL": 2,
       "rndW": 10,
       "rndL": 26,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": -2,
       "rndDiff": -16
     }
