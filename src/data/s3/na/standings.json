@@ -14,6 +14,19 @@
       "rndDiff": 55
     },
     {
+      "abbr": "SPG",
+      "name": "Spank Ptheory Gaming",
+      "matchW": 6,
+      "matchL": 2,
+      "mapW": 13,
+      "mapL": 5,
+      "rndW": 223,
+      "rndL": 162,
+      "rank": 2,
+      "mapDiff": 8,
+      "rndDiff": 61
+    },
+    {
       "abbr": "SRB",
       "name": "Sunshine and Rainbows",
       "matchW": 6,
@@ -22,7 +35,7 @@
       "mapL": 6,
       "rndW": 225,
       "rndL": 199,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": 7,
       "rndDiff": 26
     },
@@ -35,35 +48,22 @@
       "mapL": 7,
       "rndW": 229,
       "rndL": 196,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 5,
       "rndDiff": 33
-    },
-    {
-      "abbr": "SPG",
-      "name": "Spank Ptheory Gaming",
-      "matchW": 5,
-      "matchL": 2,
-      "mapW": 11,
-      "mapL": 5,
-      "rndW": 195,
-      "rndL": 146,
-      "rank": 4,
-      "mapDiff": 6,
-      "rndDiff": 49
     },
     {
       "abbr": "FSG",
       "name": "Furry Squirrels Gaming",
       "matchW": 5,
-      "matchL": 2,
+      "matchL": 3,
       "mapW": 11,
-      "mapL": 6,
-      "rndW": 193,
-      "rndL": 172,
+      "mapL": 8,
+      "rndW": 209,
+      "rndL": 200,
       "rank": 5,
-      "mapDiff": 5,
-      "rndDiff": 21
+      "mapDiff": 3,
+      "rndDiff": 9
     },
     {
       "abbr": "NAVI",
@@ -436,6 +436,19 @@
       "rndDiff": 24
     },
     {
+      "abbr": "SPG",
+      "name": "Spank Ptheory Gaming",
+      "matchW": 1,
+      "matchL": 0,
+      "mapW": 2,
+      "mapL": 0,
+      "rndW": 28,
+      "rndL": 16,
+      "rank": 2,
+      "mapDiff": 2,
+      "rndDiff": 12
+    },
+    {
       "abbr": "SRB",
       "name": "Sunshine and Rainbows",
       "matchW": 0,
@@ -444,9 +457,22 @@
       "mapL": 2,
       "rndW": 18,
       "rndL": 26,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": -2,
       "rndDiff": -8
+    },
+    {
+      "abbr": "FSG",
+      "name": "Furry Squirrels Gaming",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 0,
+      "mapL": 2,
+      "rndW": 16,
+      "rndL": 28,
+      "rank": 4,
+      "mapDiff": -2,
+      "rndDiff": -12
     },
     {
       "abbr": "TS",
@@ -457,7 +483,7 @@
       "mapL": 2,
       "rndW": 10,
       "rndL": 26,
-      "rank": 3,
+      "rank": 5,
       "mapDiff": -2,
       "rndDiff": -16
     }

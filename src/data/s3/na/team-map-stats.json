@@ -1064,13 +1064,13 @@
   "FSG": {
     "team": "FSG",
     "teamName": "Furry Squirrels Gaming",
-    "overallAtkPct": 0.574,
-    "overallDefPct": 0.484,
+    "overallAtkPct": 0.562,
+    "overallDefPct": 0.462,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -1084,14 +1084,14 @@
         "map": "Ascent",
         "pick": 1,
         "ban": 2,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 24,
-        "roundsWon": 13,
-        "roundPct": 0.542,
+        "winPct": 0.5,
+        "rounds": 52,
+        "roundsWon": 26,
+        "roundPct": 0.5,
         "atkPct": 0.5,
-        "defPct": 0.583
+        "defPct": 0.5
       },
       {
         "map": "Bind",
@@ -1147,16 +1147,16 @@
       },
       {
         "map": "Haven",
-        "pick": 1,
+        "pick": 2,
         "ban": 1,
-        "played": 5,
+        "played": 6,
         "won": 3,
-        "winPct": 0.6,
-        "rounds": 112,
-        "roundsWon": 62,
-        "roundPct": 0.554,
-        "atkPct": 0.613,
-        "defPct": 0.48
+        "winPct": 0.5,
+        "rounds": 128,
+        "roundsWon": 65,
+        "roundPct": 0.508,
+        "atkPct": 0.591,
+        "defPct": 0.419
       },
       {
         "map": "Icebox",
@@ -1213,7 +1213,7 @@
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 3,
+        "ban": 4,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1772,8 +1772,8 @@
   "SPG": {
     "team": "SPG",
     "teamName": "Spank Ptheory Gaming",
-    "overallAtkPct": 0.62,
-    "overallDefPct": 0.528,
+    "overallAtkPct": 0.63,
+    "overallDefPct": 0.531,
     "maps": [
       {
         "map": "Abyss",
@@ -1790,16 +1790,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 2,
+        "pick": 3,
         "ban": 0,
-        "played": 4,
-        "won": 2,
-        "winPct": 0.5,
-        "rounds": 104,
-        "roundsWon": 55,
-        "roundPct": 0.529,
-        "atkPct": 0.667,
-        "defPct": 0.38
+        "played": 5,
+        "won": 3,
+        "winPct": 0.6,
+        "rounds": 132,
+        "roundsWon": 70,
+        "roundPct": 0.53,
+        "atkPct": 0.647,
+        "defPct": 0.406
       },
       {
         "map": "Bind",
@@ -1857,14 +1857,14 @@
         "map": "Haven",
         "pick": 1,
         "ban": 3,
-        "played": 2,
-        "won": 1,
-        "winPct": 0.5,
-        "rounds": 40,
-        "roundsWon": 18,
-        "roundPct": 0.45,
-        "atkPct": 0.5,
-        "defPct": 0.409
+        "played": 3,
+        "won": 2,
+        "winPct": 0.667,
+        "rounds": 56,
+        "roundsWon": 31,
+        "roundPct": 0.554,
+        "atkPct": 0.633,
+        "defPct": 0.462
       },
       {
         "map": "Icebox",
@@ -1908,7 +1908,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 5,
+        "ban": 6,
         "played": 1,
         "won": 1,
         "winPct": 1.0,
@@ -1934,7 +1934,7 @@
       {
         "map": "Sunset",
         "pick": 1,
-        "ban": 0,
+        "ban": 1,
         "played": 2,
         "won": 1,
         "winPct": 0.5,

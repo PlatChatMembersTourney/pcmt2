@@ -108,84 +108,84 @@
     }
   },
   "Ascent": {
-    "mapsPlayed": 26,
-    "atkPct": 0.508,
-    "defPct": 0.492,
+    "mapsPlayed": 27,
+    "atkPct": 0.509,
+    "defPct": 0.491,
     "agents": [
       {
         "agent": "Omen",
         "comps": 16,
-        "pickPct": 0.308
+        "pickPct": 0.296
       },
       {
-        "agent": "Jett",
+        "agent": "Phoenix",
         "comps": 15,
-        "pickPct": 0.288
+        "pickPct": 0.278
       },
       {
         "agent": "Sova",
         "comps": 15,
-        "pickPct": 0.288
+        "pickPct": 0.278
       },
       {
-        "agent": "Phoenix",
-        "comps": 14,
-        "pickPct": 0.269
+        "agent": "Jett",
+        "comps": 15,
+        "pickPct": 0.278
       },
       {
         "agent": "Killjoy",
         "comps": 8,
-        "pickPct": 0.154
+        "pickPct": 0.148
       },
       {
         "agent": "Cypher",
         "comps": 7,
-        "pickPct": 0.135
+        "pickPct": 0.13
       },
       {
         "agent": "Vyse",
         "comps": 5,
-        "pickPct": 0.096
+        "pickPct": 0.093
       },
       {
         "agent": "Waylay",
         "comps": 4,
-        "pickPct": 0.077
+        "pickPct": 0.074
       },
       {
         "agent": "Chamber",
         "comps": 3,
-        "pickPct": 0.058
+        "pickPct": 0.056
       },
       {
         "agent": "Neon",
         "comps": 3,
-        "pickPct": 0.058
+        "pickPct": 0.056
       },
       {
         "agent": "Deadlock",
         "comps": 2,
-        "pickPct": 0.038
+        "pickPct": 0.037
       },
       {
         "agent": "Clove",
         "comps": 2,
-        "pickPct": 0.038
+        "pickPct": 0.037
       },
       {
         "agent": "Reyna",
         "comps": 2,
-        "pickPct": 0.038
+        "pickPct": 0.037
       },
       {
         "agent": "KAY/O",
         "comps": 2,
-        "pickPct": 0.038
+        "pickPct": 0.037
       },
       {
         "agent": "Fade",
         "comps": 2,
-        "pickPct": 0.038
+        "pickPct": 0.037
       },
       {
         "agent": "Veto",
@@ -313,6 +313,7 @@
           "Jett",
           "Killjoy",
           "Omen",
+          "Phoenix",
           "Skye",
           "Sova"
         ]
@@ -760,99 +761,99 @@
     }
   },
   "Haven": {
-    "mapsPlayed": 23,
-    "atkPct": 0.513,
-    "defPct": 0.487,
+    "mapsPlayed": 24,
+    "atkPct": 0.518,
+    "defPct": 0.482,
     "agents": [
       {
         "agent": "Sova",
         "comps": 15,
-        "pickPct": 0.326
+        "pickPct": 0.312
       },
       {
         "agent": "Cypher",
         "comps": 14,
-        "pickPct": 0.304
+        "pickPct": 0.292
       },
       {
         "agent": "Omen",
         "comps": 14,
-        "pickPct": 0.304
+        "pickPct": 0.292
       },
       {
         "agent": "Phoenix",
         "comps": 12,
-        "pickPct": 0.261
+        "pickPct": 0.25
       },
       {
         "agent": "Jett",
         "comps": 12,
-        "pickPct": 0.261
+        "pickPct": 0.25
       },
       {
         "agent": "Neon",
         "comps": 7,
-        "pickPct": 0.152
+        "pickPct": 0.146
       },
       {
         "agent": "Waylay",
         "comps": 5,
-        "pickPct": 0.109
-      },
-      {
-        "agent": "Killjoy",
-        "comps": 4,
-        "pickPct": 0.087
+        "pickPct": 0.104
       },
       {
         "agent": "Yoru",
         "comps": 4,
-        "pickPct": 0.087
+        "pickPct": 0.083
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 4,
+        "pickPct": 0.083
       },
       {
         "agent": "Chamber",
         "comps": 4,
-        "pickPct": 0.087
+        "pickPct": 0.083
       },
       {
         "agent": "Clove",
         "comps": 4,
-        "pickPct": 0.087
+        "pickPct": 0.083
       },
       {
         "agent": "Vyse",
         "comps": 4,
-        "pickPct": 0.087
+        "pickPct": 0.083
       },
       {
         "agent": "Fade",
         "comps": 3,
-        "pickPct": 0.065
+        "pickPct": 0.062
       },
       {
         "agent": "Iso",
         "comps": 2,
-        "pickPct": 0.043
+        "pickPct": 0.042
       },
       {
         "agent": "Viper",
         "comps": 2,
-        "pickPct": 0.043
+        "pickPct": 0.042
       },
       {
         "agent": "Skye",
         "comps": 1,
-        "pickPct": 0.022
+        "pickPct": 0.021
       },
       {
         "agent": "Breach",
         "comps": 1,
-        "pickPct": 0.022
+        "pickPct": 0.021
       },
       {
         "agent": "Sage",
         "comps": 1,
-        "pickPct": 0.022
+        "pickPct": 0.021
       }
     ],
     "teams": {
