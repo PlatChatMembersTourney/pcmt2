@@ -12,10 +12,10 @@
 		],
 		"lower": [
 			[{ "teams": [null, "SEAL"], "placeholders": ["Alpha #4",null] }, { "teams": ["LARP", null], "placeholders": [null, "Alpha #5"] }],
-			[{ "teams": [null, null], "placeholders": ["Upper Quarterfinal Loser #1", null] }, { "teams": [null, null], "placeholders": ["Upper Quarterfinal Loser #2", null] }],
-			[{ "teams": [null, null], "placeholders": ["Upper Semifinal Loser #1", null]  }, { "teams": [null, null], "placeholders": ["Upper Semifinal Loser #2", null]  }],
+			[{ "teams": [null, null], "placeholders": ["Upper QF Loser #1", null] }, { "teams": [null, null], "placeholders": ["Upper QF Loser #2", null] }],
+			[{ "teams": [null, null], "placeholders": ["Upper SF Loser #1", null]  }, { "teams": [null, null], "placeholders": ["Upper SF Loser #2", null]  }],
 			[{ "teams": [null, null] }],
-            [{ "teams": [null, null], "placeholders": ["Upper Final Loser", null] }]
+            [{ "teams": [null, null], "placeholders": ["Upper F Loser", null] }]
 		],
 		"final": [{ "teams": [null, null] }]
 	}
