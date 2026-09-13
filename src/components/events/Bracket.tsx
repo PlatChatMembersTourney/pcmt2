@@ -2,26 +2,69 @@ import { useEffect } from 'react';
 import slugify from 'slugify';
 import type { Match as ViewerMatch, Participant, Stage } from 'brackets-model';
 import type { BracketsViewer, RoundNameInfo } from 'brackets-viewer';
-import 'brackets-viewer/dist/brackets-viewer.min.css';
 import type { BracketLayout, BracketSlot, Event, Match, TeamInfo } from '../../types/types.ts';
 
 interface BracketProps {
 	event: Event;
-	stage: string; // stage name, e.g. "Playoffs"
+	stage: string;
 	layout: BracketLayout;
-	matches: Match[]; // matches from this stage only
+	matches: Match[];
 	teams: Record<string, TeamInfo>;
 }
 
-// values from brackets-model's Status enum (the package only ships a CJS build, so no runtime import)
+// Values from brackets-model's Status enum
 const LOCKED = 0;
 const READY = 2;
 const COMPLETED = 4;
 
-// shown in the logo spot of any row without a team yet (public/icons/vlr_team.png)
+// Icon for rows without a team
 const EMPTY_TEAM_ICON = '/icons/vlr_team.png';
 
-// converts our bracket.json layout + played matches into the format brackets-viewer renders
+// Space between rounds in px
+const ROUND_GAP = 24;
+
+// How much lower a round sits than the round it feeds straight into
+const STRAIGHT_DROP = 50;
+
+// Top of a bracket's first match (label space + match margin)
+const FIRST_MATCH_TOP = 42;
+
+// Space for the date line under a match
+const DATE_LINE_SPACE = 22;
+
+const bracketClasses = [
+	'[--primary-background:transparent] [--secondary-background:transparent] [--match-background:transparent]',
+	'[--font-color:#444] dark:[--font-color:#d4d4d4]',
+	'[--connector-color:#aaa] [--border-color:#aaa] [--border-hover-color:#666] [--border-selected-color:#666]',
+	'dark:[--connector-color:#acaeaf] dark:[--border-color:#acaeaf]',
+	'dark:[--border-hover-color:#85b6e0] dark:[--border-selected-color:#85b6e0]',
+	'[--text-size:11px] [--round-margin:24px] [--match-width:144px] [--participant-image-size:20px]',
+	'[--match-horizontal-padding:0px] [--match-vertical-padding:0px]',
+	'[--connector-border-width:2px] [--match-border-width:2px] [--match-border-radius:3px]',
+	'm-0 px-5 pt-[15px] pb-[25px] [font-family:inherit]',
+
+	'[&_h1]:hidden [&_.bracket>h2]:hidden',
+	// Round labels: plain bold text
+	'[&_.round]:relative [&_.round]:pt-[26px]',
+	'[&_h3]:absolute [&_h3]:top-0 [&_h3]:left-0 [&_h3]:m-0 [&_h3]:p-0 [&_h3]:bg-transparent',
+	'[&_h3]:text-[11px] [&_h3]:leading-[11px] [&_h3]:font-bold',
+	// Match spacing
+	'[&_.match]:my-4 [&_.bracket+.bracket]:mt-6',
+	'[&_.opponents:hover]:border-2',
+	// Team rows: logo + name, score
+	'[&_.participant]:h-[33px] [&_.participant]:items-center [&_.participant]:p-0',
+	'[&_.participant:nth-of-type(1)]:border-b [&_.participant:nth-of-type(1)]:border-[#ccc]',
+	'dark:[&_.participant:nth-of-type(1)]:border-[#929496]',
+	'[&_.name]:w-auto [&_.name]:min-w-0 [&_.name]:flex-1 [&_.name]:leading-8',
+	'[&_.name>img]:inline-block [&_.name>img]:mx-[5px] [&_.name>img]:bottom-0',
+	'[&_.name>img]:rounded-none [&_.name>img]:object-contain',
+	'[&_.result]:m-0 [&_.result]:h-full [&_.result]:w-8 [&_.result]:flex-none [&_.result]:leading-8',
+	'[&_.result]:border-l [&_.result]:border-[#ccc] dark:[&_.result]:border-[#929496] [&_.result]:text-inherit',
+	'[&_.participant.win]:bg-[#cee9d3] [&_.participant.win]:font-bold [&_.participant.win]:text-[#444]',
+	'dark:[&_.participant.win]:bg-[#9ec7a6] dark:[&_.participant.win]:text-[#333]',
+].join(' ');
+
+// Convert bracket.json to brackets-viewer data
 const toViewerData = (
 	stageName: string,
 	layout: BracketLayout,
@@ -31,20 +74,23 @@ const toViewerData = (
 	const abbrs = Object.keys(teams);
 	const byDate = [...matches].sort((a, b) => a.date.localeCompare(b.date));
 	const used = new Set<string>();
-	const pcmtMatches = new Map<number, Match>(); // viewer match id -> our match
-	const hiddenIds = new Set<number>(); // invisible matches for empty slots
+	const pcmtMatches = new Map<number, Match>();
+	const hiddenIds = new Set<number>();
 
-	// placeholder texts
+	// Placeholder texts
 	const placeholders: string[] = [];
 	const placeholderId = (text: string) => {
 		if (!placeholders.includes(text)) placeholders.push(text);
 		return abbrs.length + placeholders.indexOf(text);
 	};
 
-	// upper round 1 lines up 1:1 with round 2 (straight lines) instead of feeding it in pairs
-	const straightFirstRound = layout.upper.length > 1 && layout.upper[0].length === layout.upper[1].length;
+	// Single elim final is the last upper round
+	const upperRounds = !layout.lower && layout.final ? [...layout.upper, layout.final] : layout.upper;
 
-	// a slot's match is found by its two teams (earliest unused one, so rematches line up in order)
+	// Round 1 same size as round 2
+	const straightFirstRound = upperRounds.length > 1 && upperRounds[0].length === upperRounds[1].length;
+
+	// Find a slot's match by its teams
 	const findMatch = (slot: NonNullable<BracketSlot>) => {
 		if (slot.match) return byDate.find((m) => m.id === slot.match);
 		const [a, b] = slot.teams ?? [null, null];
@@ -54,7 +100,7 @@ const toViewerData = (
 		);
 	};
 
-	const groups = layout.lower ? [layout.upper, layout.lower, [layout.final ?? []]] : [layout.upper];
+	const groups = layout.lower ? [upperRounds, layout.lower, [layout.final ?? []]] : [upperRounds];
 	const viewerMatches: ViewerMatch[] = [];
 	let roundId = 0;
 
@@ -72,8 +118,8 @@ const toViewerData = (
 				};
 
 				if (!slot) {
-					if (!(straightFirstRound && groupId === 0 && roundIdx === 0)) return; // bye, the viewer hides it
-					// keeps the other round 1 matches level with their round 2 match
+					if (!(straightFirstRound && groupId === 0 && roundIdx === 0)) return; // Bye
+					// Hidden spacer
 					hiddenIds.add(id);
 					viewerMatches.push({ ...base, status: LOCKED, opponent1: null, opponent2: null });
 					return;
@@ -83,7 +129,7 @@ const toViewerData = (
 				if (match) used.add(match.id);
 				const [top, bottom] = slot.teams ?? [match!.team1, match!.team2];
 
-				// upper round 2 says which round 1 slot each team came from, so the viewer can place byes
+				// Round 2 positions place the byes
 				const fromSlot = !straightFirstRound && groupId === 0 && roundIdx === 1;
 
 				const opponent = (abbr: string | null, other: string | null, side: number) => {
@@ -137,14 +183,14 @@ const toViewerData = (
 		pcmtMatches,
 		hiddenIds,
 		placeholderIds: placeholders.map((_, idx) => abbrs.length + idx),
-		straightFirstRound,
 		finalRoundId: layout.lower ? roundId - 1 : null,
+		singleFinal: !layout.lower && !!layout.final,
 	};
 };
 
 type ViewerData = ReturnType<typeof toViewerData>;
 // Round names
-const roundName = (names: BracketLayout['names']) => (info: RoundNameInfo) => {
+const roundName = ({ names, upper, lower, final }: BracketLayout) => (info: RoundNameInfo) => {
 	if (info.groupType === 'final-group') return names?.final || 'Grand Final';
 	const idx = info.roundNumber - 1;
 	const fromEnd = info.roundCount - info.roundNumber;
@@ -157,10 +203,11 @@ const roundName = (names: BracketLayout['names']) => (info: RoundNameInfo) => {
 	if (info.groupType === 'loser-bracket') {
 		return names?.lower?.[idx] || (fromEnd === 0 ? 'Lower Final' : `Lower Round ${info.roundNumber}`);
 	}
-	return names?.upper?.[idx] || ''; // single elimination - '' falls back to the viewer's own name
+	// Single elim final
+	if (!lower && final && idx === upper.length) return names?.final || 'Grand Final';
+	return names?.upper?.[idx] || '';
 };
 
-// "6:00 pm EDT, Aug 26" like vlr's line under each match
 const timeFormat = new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
 const dayFormat = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' });
 const matchTime = (date: string) => {
@@ -168,65 +215,44 @@ const matchTime = (date: string) => {
 	return `${timeFormat.format(d).replace('AM', 'am').replace('PM', 'pm')}, ${dayFormat.format(d)}`;
 };
 
-// the viewer puts the grand final at the end of the upper bracket row - move it into its own column
-// after both brackets, level between the two finals. returns a function that draws its lines
-const placeGrandFinal = (root: HTMLElement, finalRoundId: number) => {
+// Grand final in the lower final's column, level with the upper final
+const placeGrandFinal = (root: HTMLElement, container: HTMLElement, finalRoundId: number) => {
 	const [upper, lower] = root.querySelectorAll<HTMLElement>('.bracket');
 	const final = upper.querySelector<HTMLElement>(`.round[data-round-id="${finalRoundId}"]`)!;
-	final.classList.add('pcmt-bracket-final');
+	final.style.position = 'absolute';
+	container.append(final);
 
-	const container = document.createElement('div');
-	container.className = 'pcmt-bracket-layout';
-	upper.before(container);
-	const columns = document.createElement('div');
-	columns.append(upper, lower);
-	const lines = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-	lines.classList.add('pcmt-bracket-lines');
-	const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-	lines.append(path);
-	container.append(columns, final, lines);
-
-	const upperFinal = upper.querySelector('.rounds')!.lastElementChild!.querySelector<HTMLElement>('.match')!;
-	const lowerFinal = lower.querySelector('.rounds')!.lastElementChild!.querySelector<HTMLElement>('.match')!;
-	const finalMatch = final.querySelector<HTMLElement>('.match')!;
-
-	// the viewer's own stub lines, replaced by the ones drawn below
-	upperFinal.classList.remove('connect-next', 'straight');
-	finalMatch.querySelector('.opponents')!.classList.remove('connect-previous', 'straight');
+	const upperFinal = upper.querySelector('.rounds')!.lastElementChild!.querySelector('.opponents')!;
+	const lowerFinal = lower.querySelector('.rounds')!.lastElementChild!.querySelector('.opponents')!;
+	const finalBox = final.querySelector('.opponents')!;
 
 	return () => {
 		const box = container.getBoundingClientRect();
-		const rectOf = (match: HTMLElement) => match.querySelector('.opponents')!.getBoundingClientRect();
-		const centerY = (rect: DOMRect) => rect.top + rect.height / 2 - box.top;
+		const rect = (el: Element) => el.getBoundingClientRect();
+		const centerY = (el: Element) => rect(el).top + rect(el).height / 2;
 
-		finalMatch.style.marginTop = '0px';
-		const up = rectOf(upperFinal);
-		const low = rectOf(lowerFinal);
-		const midY = (centerY(up) + centerY(low)) / 2;
-		finalMatch.style.marginTop = `${midY - centerY(rectOf(finalMatch))}px`;
-
-		const finalX = rectOf(finalMatch).left - box.left;
-		const lowX = low.right - box.left;
-		const joinX = (lowX + finalX) / 2;
-		path.setAttribute(
-			'd',
-			`M${up.right - box.left} ${centerY(up)}H${joinX}V${centerY(low)}` +
-				`M${lowX} ${centerY(low)}H${joinX}M${joinX} ${midY}H${finalX}`
-		);
+		final.style.left = `${Math.max(rect(lowerFinal).left, rect(upperFinal).right + ROUND_GAP) - box.left}px`;
+		final.style.top = '0px';
+		const boxOffset = centerY(finalBox) - rect(final).top;
+		final.style.top = `${centerY(upperFinal) - box.top - boxOffset}px`;
 	};
 };
 
-// bits of vlr's layout the viewer has no option for, added once it has rendered. returns a cleanup function
-const decorate = (root: HTMLElement, { pcmtMatches, hiddenIds, placeholderIds, finalRoundId }: ViewerData) => {
-	// date line under each match that has one
+// Layout added after the viewer renders
+const decorate = (
+	root: HTMLElement,
+	{ pcmtMatches, hiddenIds, placeholderIds, finalRoundId, singleFinal }: ViewerData
+) => {
+	// Date lines
 	for (const [id, match] of pcmtMatches) {
-		const container = root.querySelector<HTMLElement>(`.match[data-match-id="${id}"]`);
-		if (!container) continue;
+		const opponents = root.querySelector<HTMLElement>(`.match[data-match-id="${id}"] .opponents`);
+		if (!opponents) continue;
 		const status = document.createElement('div');
-		status.className = 'pcmt-bracket-status';
+		status.className =
+			"absolute top-[calc(100%+5px)] left-0 pl-2 leading-[15px] whitespace-nowrap before:absolute before:left-0 before:content-['-']";
 		status.textContent = matchTime(match.date);
-		container.querySelector('.opponents')!.append(status);
-		container.classList.add('pcmt-bracket-link');
+		opponents.append(status);
+		opponents.classList.add('cursor-pointer');
 	}
 
 	for (const id of hiddenIds) {
@@ -234,14 +260,7 @@ const decorate = (root: HTMLElement, { pcmtMatches, hiddenIds, placeholderIds, f
 		if (match) match.style.visibility = 'hidden';
 	}
 
-	// placeholder rows get vlr's italic placeholder style
-	for (const id of placeholderIds) {
-		root.querySelectorAll(`.participant[data-participant-id="${id}"]`).forEach((row) => {
-			row.classList.add('pcmt-bracket-placeholder');
-		});
-	}
-
-	// rows with no team yet (blank or placeholder text) get the generic team icon
+	// Empty team icon
 	root.querySelectorAll('.match:not([style*="hidden"]) .participant').forEach((row) => {
 		const id = row.getAttribute('data-participant-id');
 		if (id !== null && !placeholderIds.includes(Number(id))) return;
@@ -250,29 +269,117 @@ const decorate = (root: HTMLElement, { pcmtMatches, hiddenIds, placeholderIds, f
 		row.querySelector('.name')!.prepend(icon);
 	});
 
-	const drawFinal = finalRoundId !== null ? placeGrandFinal(root, finalRoundId) : () => {};
+	// Wrapper for the grand final and lines
+	const brackets = [...root.querySelectorAll<HTMLElement>('.bracket')];
+	const container = document.createElement('div');
+	container.className = 'relative flex items-start';
+	brackets[0].before(container);
+	const columns = document.createElement('div');
+	columns.append(...brackets);
+	const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+	svg.setAttribute('class', 'pointer-events-none absolute inset-0 size-full overflow-visible');
+	const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+	path.setAttribute('class', 'fill-none stroke-[#aaa] stroke-2 dark:stroke-[#acaeaf]');
+	svg.append(path);
+	container.append(columns, svg);
 
-	// lines between rounds, from how many matches each round actually has: straight into a round with the
-	// same count, joined in pairs into a round with fewer
-	for (const bracket of root.querySelectorAll('.bracket')) {
-		const rounds = [...bracket.querySelectorAll('.rounds > .round')]; // grand final already moved out
+	const placeFinal = finalRoundId !== null ? placeGrandFinal(root, container, finalRoundId) : () => {};
+
+	// Remove the viewer's lines
+	root.querySelectorAll('.connect-next, .connect-previous, .straight').forEach((el) => {
+		el.classList.remove('connect-next', 'connect-previous', 'straight');
+	});
+
+	// Lines follow the winner into the next match
+	const lines: { from: Element; toRow: Element }[] = [];
+	const roundOffsets: { bracket: HTMLElement; rounds: { round: HTMLElement; offset: number }[] }[] = [];
+	for (const bracket of brackets) {
+		const allRounds = [...bracket.querySelectorAll<HTMLElement>('.rounds > .round')];
+		const rounds = singleFinal ? allRounds.slice(0, -1) : allRounds;
+
+		// Rounds that feed straight across sit lower
+		const offsets = [0];
 		rounds.forEach((round, idx) => {
 			const next = rounds[idx + 1];
-			const matches = round.querySelectorAll<HTMLElement>('.match');
-			const straight = !!next && next.querySelectorAll('.match').length === matches.length;
+			if (!next) return;
+			const straight = round.querySelectorAll('.match').length === next.querySelectorAll('.match').length;
+			offsets.push(offsets[idx] - (straight ? STRAIGHT_DROP : 0));
+		});
+		roundOffsets.push({
+			bracket,
+			rounds: allRounds.map((round, idx) => ({ round, offset: offsets[Math.min(idx, offsets.length - 1)] })),
+		});
 
-			matches.forEach((match) => {
-				match.classList.toggle('connect-next', !!next && match.style.visibility !== 'hidden');
-				match.classList.toggle('straight', straight);
-			});
-			next?.querySelectorAll('.opponents').forEach((opponents) => {
-				opponents.classList.toggle('connect-previous', !straight); // straight lines reach on their own
-				opponents.classList.remove('straight');
+		rounds.forEach((round, idx) => {
+			const next = rounds[idx + 1];
+			if (!next) return;
+			const matches = [...round.querySelectorAll<HTMLElement>('.match')];
+			const nextMatches = [...next.querySelectorAll<HTMLElement>('.match')];
+			const straight = matches.length === nextMatches.length;
+
+			matches.forEach((match, k) => {
+				const target = nextMatches[straight ? k : Math.floor(k / 2)];
+				if (match.style.visibility === 'hidden' || !target) return;
+
+				const winner = match.querySelector('.participant.win');
+				const winnerId = winner?.getAttribute('data-participant-id');
+				const targetRows = [...target.querySelectorAll('.participant')];
+				const toRow =
+					(winnerId && target.querySelector(`.participant[data-participant-id="${winnerId}"]`)) ||
+					targetRows[straight ? 1 : k % 2];
+
+				lines.push({
+					from: match.querySelector('.opponents')!,
+					toRow: toRow ?? target.querySelector('.opponents')!,
+				});
 			});
 		});
 	}
 
-	// each round's label sits just above its first match, instead of in a row across the top
+	const drawLines = () => {
+		const box = container.getBoundingClientRect();
+		const rect = (el: Element) => el.getBoundingClientRect();
+		path.setAttribute(
+			'd',
+			lines
+				.map(({ from, toRow }) => {
+					const x1 = rect(from).right - box.left;
+					const x2 = rect(toRow.closest('.opponents')!).left - box.left;
+					const y1 = rect(from).top + rect(from).height / 2 - box.top;
+					const y2 = rect(toRow).top + rect(toRow).height / 2 - box.top;
+					const midX = (x1 + x2) / 2;
+					return `M${x1} ${y1}H${midX}V${y2}H${x2}`;
+				})
+				.join('')
+		);
+	};
+
+	// Shift rounds so the highest match starts at the top, with room below
+	const shiftRounds = () => {
+		for (const { bracket, rounds } of roundOffsets) {
+			const move = (extra: number) => {
+				for (const { round, offset } of rounds) {
+					round.querySelectorAll<HTMLElement>('.match').forEach((match) => {
+						match.style.transform = `translateY(${offset + extra}px)`;
+					});
+				}
+			};
+			move(0);
+			bracket.style.paddingBottom = '0px';
+
+			const top = bracket.getBoundingClientRect().top;
+			const boxes = [...bracket.querySelectorAll('.opponents')]
+				.filter((el) => el.closest<HTMLElement>('.match')!.style.visibility !== 'hidden')
+				.map((el) => el.getBoundingClientRect());
+			const extra = FIRST_MATCH_TOP - (Math.min(...boxes.map((b) => b.top)) - top);
+			move(extra);
+
+			const bottom = Math.max(...boxes.map((b) => b.bottom)) - top + extra + DATE_LINE_SPACE;
+			bracket.style.paddingBottom = `${Math.max(0, bottom - bracket.offsetHeight)}px`;
+		}
+	};
+
+	// Labels above each round's first match
 	const placeLabels = () => {
 		for (const round of root.querySelectorAll<HTMLElement>('.round')) {
 			const label = round.querySelector('h3');
@@ -286,11 +393,13 @@ const decorate = (root: HTMLElement, { pcmtMatches, hiddenIds, placeholderIds, f
 	};
 
 	const layout = () => {
-		drawFinal();
+		shiftRounds();
+		placeFinal();
 		placeLabels();
+		drawLines();
 	};
 	layout();
-	const observer = new ResizeObserver(layout); // e.g. the site font loading in after the first layout
+	const observer = new ResizeObserver(layout);
 	observer.observe(root);
 	return () => observer.disconnect();
 };
@@ -302,7 +411,7 @@ const Bracket: React.FC<BracketProps> = ({ event, stage, layout, matches, teams 
 		let cancelled = false;
 		let cleanup = () => {};
 
-		// the viewer touches `window` as soon as it loads, so it can only be imported in the browser
+		// Browser only
 		import('brackets-viewer/dist/brackets-viewer.min.js').then(async () => {
 			if (cancelled) return;
 			const viewer = (window as unknown as { bracketsViewer: BracketsViewer }).bracketsViewer;
@@ -317,7 +426,7 @@ const Bracket: React.FC<BracketProps> = ({ event, stage, layout, matches, teams 
 				participantOriginPlacement: 'none',
 				showSlotsOrigin: false,
 				highlightParticipantOnHover: false,
-				customRoundName: roundName(layout.names),
+				customRoundName: roundName(layout),
 				onMatchClick: (match) => {
 					const pcmtMatch = viewerData.pcmtMatches.get(match.id as number);
 					if (pcmtMatch) window.location.href = `/events/${event.id}/${slugify(pcmtMatch.id)}`;
@@ -333,7 +442,7 @@ const Bracket: React.FC<BracketProps> = ({ event, stage, layout, matches, teams 
 		};
 	}, [elementId, stage, layout, matches, teams, event.id]);
 
-	return <div id={elementId} className="brackets-viewer pcmt-bracket" />;
+	return <div id={elementId} className={`brackets-viewer ${bracketClasses}`} />;
 };
 
 export default Bracket;

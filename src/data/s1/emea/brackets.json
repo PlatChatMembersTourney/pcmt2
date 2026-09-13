@@ -1,0 +1,13 @@
+{
+	"Playoffs": {
+		"names": {
+		"upper": ["Quarterfinal", "Semifinal"],
+		"final": "Grand Final"
+	},
+		"upper": [
+			[{ "teams": ["T4K", "<3"] }],
+			[{ "teams": ["MISC", "<3"] }]
+		],
+		"final": [{ "teams": ["WFC", "MISC"] }]
+	}
+}

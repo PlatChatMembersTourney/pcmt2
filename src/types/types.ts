@@ -134,7 +134,7 @@ export interface BracketLayout {
 	// (e.g. top seeds get a bye), otherwise round 1 has twice as many
 	upper: BracketSlot[][];
 	lower?: BracketSlot[][]; // leave out for single elimination
-	final?: BracketSlot[]; // grand final
+	final?: BracketSlot[]; // grand final - in single elimination it's drawn as the last upper round
 	// optional round labels, left to right - a missing or null entry keeps the default vlr-style name
 	names?: {
 		upper?: (string | null)[];
