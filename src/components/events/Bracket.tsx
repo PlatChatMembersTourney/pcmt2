@@ -237,12 +237,11 @@ const placeGrandFinal = (root: HTMLElement, container: HTMLElement, finalRoundId
 	const lastBox = (bracket: HTMLElement) =>
 		bracket.querySelector('.rounds')!.lastElementChild!.querySelector('.opponents')!;
 	const upperFinal = lastBox(upper);
-	const lowerFinal = lastBox(lower);
 	const finalBox = final.querySelector('.opponents')!;
 
 	return () => {
 		const box = rect(container);
-		final.style.left = `${Math.max(rect(lowerFinal).left, rect(upperFinal).right + ROUND_GAP) - box.left}px`;
+		final.style.left = `${rect(upperFinal).right + ROUND_GAP - box.left}px`;
 		final.style.top = '0px';
 		const boxOffset = centerY(finalBox) - rect(final).top;
 		final.style.top = `${centerY(upperFinal) - box.top - boxOffset}px`;
@@ -294,6 +293,16 @@ const decorate = (
 
 	// Moves the grand final out of the upper bracket, so it draws no feed line
 	const placeFinal = placeGrandFinal(root, container, finalRoundId);
+
+	// Shorter bracket moves in so the lower final is under the grand final
+	if (finalRoundId !== null && brackets.length > 1) {
+		const [upper, lower] = brackets;
+		const upperColumns = upper.querySelectorAll('.rounds > .round').length + 1;
+		const lowerColumns = lower.querySelectorAll('.rounds > .round').length;
+		const columnWidth = rect(upper.querySelector('.round')!).width + ROUND_GAP;
+		const shorter = upperColumns < lowerColumns ? upper : lower;
+		shorter.style.paddingLeft = `${Math.abs(lowerColumns - upperColumns) * columnWidth}px`;
+	}
 
 	// Remove the viewer's lines
 	root.querySelectorAll('.connect-next, .connect-previous, .straight').forEach((el) =>
