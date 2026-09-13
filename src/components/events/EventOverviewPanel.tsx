@@ -53,17 +53,19 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 				{bracket ? (
 					<>
 						<h2 className="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">Bracket</h2>
-						<Bracket
-							event={event}
-							stage={stageName}
-							layout={bracket}
-							matches={matches.filter((match) => match.stage === stageName)}
-							teams={teams}
-						/>
+						<div className="bg-vlr-gray-200 dark:bg-vlr-gray-600">
+							<Bracket
+								event={event}
+								stage={stageName}
+								layout={bracket}
+								matches={matches.filter((match) => match.stage === stageName)}
+								teams={teams}
+							/>
+						</div>
 					</>
 				) : format &&
-				['round-robin', 'showmatch'].includes(format?.type) &&
-				Object.entries(allStandings).length > 0 ? (
+				  ['round-robin', 'showmatch'].includes(format?.type) &&
+				  Object.entries(allStandings).length > 0 ? (
 					<>
 						<h2 className="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">Groups</h2>
 						<div className="flex flex-col gap-3 md:flex-row">
