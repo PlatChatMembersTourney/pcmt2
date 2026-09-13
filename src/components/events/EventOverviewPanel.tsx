@@ -1,18 +1,23 @@
 import { useState } from 'react';
 import { useStore } from '@nanostores/react';
 import type { Event, Standing } from '../../types/types.ts';
-import { $standings, $teams } from '../../stores/store.ts';
+import { $brackets, $matches, $standings, $teams } from '../../stores/store.ts';
 import GroupStandingsBox from './GroupStandingsBox.tsx';
+import Bracket from './Bracket.tsx';
 
 const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
 
 	const allStandings: Record<string, Standing[]> = useStore($standings)[event.id];
 	const teams = useStore($teams)[event.id];
+	const brackets = useStore($brackets)[event.id];
+	const matches = useStore($matches)[event.id];
 
 	const [activeStage, setActiveStage] = useState(event.stages.length - 1);
 
 	const format = event.stages[activeStage].format;
+	const stageName = event.stages[activeStage].name;
+	const bracket = brackets[stageName]; // from the event's brackets.json, if this stage has one
 
 	return (
 		<div className="flex flex-col">
@@ -45,7 +50,18 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 				})}
 			</div>
 			<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 dark:text-vlr-text-white px-4 pt-6 pb-4 text-black sm:px-6">
-				{format &&
+				{bracket ? (
+					<>
+						<h2 className="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">Bracket</h2>
+						<Bracket
+							event={event}
+							stage={stageName}
+							layout={bracket}
+							matches={matches.filter((match) => match.stage === stageName)}
+							teams={teams}
+						/>
+					</>
+				) : format &&
 				['round-robin', 'showmatch'].includes(format?.type) &&
 				Object.entries(allStandings).length > 0 ? (
 					<>

@@ -1,5 +1,5 @@
 import { atom, map } from 'nanostores';
-import type { Match, PlayerStats, Standing, TeamInfo, TeamMapStats } from '../types/types.ts';
+import type { BracketLayout, Event, Match, PlayerStats, Standing, TeamInfo, TeamMapStats } from '../types/types.ts';
 
 // load match data for all seasons
 
@@ -12,7 +12,6 @@ import s2EMEAMatchesRaw from '../data/s2/emea/matches/matches.json';
 import s1NAShowmatchMatchesRaw from '../data/showmatch1/na/matches/matches.json';
 import s2NAShowmatchMatchesRaw from '../data/showmatch2/na/matches/matches.json';
 
-// export this so i can load static paths for each match
 export const matches: Record<string, Match[]> = {
 	's1-na': s1NAMatchesRaw as Match[],
 	's2-na': s2NAMatchesRaw as Match[],
@@ -112,6 +111,22 @@ const teamMapStats: Record<string, Record<string, TeamMapStats>> = {
 	'showmatch-s1-na': s1NAShowmatchTeamMapStatsRaw as Record<string, TeamMapStats>,
 	'showmatch-s2-na': s2NAShowmatchTeamMapStatsRaw as Record<string, TeamMapStats>,
 };
+
+// load bracket layouts - any <season>/<region>/brackets.json is picked up automatically,
+// one layout per stage name
+
+import eventsRaw from '../data/events.json';
+
+const bracketFiles = import.meta.glob<Record<string, BracketLayout>>('../data/*/*/brackets.json', {
+	eager: true,
+	import: 'default',
+});
+
+const brackets: Record<string, Record<string, BracketLayout>> = Object.fromEntries(
+	(eventsRaw as Event[]).map((event) => [event.id, bracketFiles[`../data/${event.path}/brackets.json`] ?? {}])
+);
+
+export const $brackets = atom<Record<string, Record<string, BracketLayout>>>(brackets);
 
 export const $matches = atom<Record<string, Match[]>>(matches);
 

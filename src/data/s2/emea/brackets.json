@@ -1,0 +1,22 @@
+{
+	"Playoffs": {
+		"names": {
+		"upper": ["Upper Quarterfinal", "Upper Semifinal", "Upper Final"],
+		"lower": ["Lower Round 1", "Lower Round 2", "Lower Quarterfinal", "Lower Semifinal", "Lower Final"],
+		"final": "Grand Final"
+	},
+		"upper": [
+			[{ "teams": [null, "NOOT"], "placeholders": ["Group Alpha #2", null] }, { "teams": [null, "NATS"], "placeholders": ["Group Alpha #3", null] }],
+			[{ "teams": ["SOG", null] }, { "teams": [null, null], "placeholders": ["Group Alpha #1", null] }],
+			[{ "teams": [null, null] }]
+		],
+		"lower": [
+			[{ "teams": [null, "SEAL"], "placeholders": ["Group Alpha #4",null] }, { "teams": ["LARP", null], "placeholders": [null, "Group Alpha #5"] }],
+			[{ "teams": [null, null], "placeholders": ["Upper Quarterfinal Loser #1", null] }, { "teams": [null, null], "placeholders": ["Upper Quarterfinal Loser #2", null] }],
+			[{ "teams": [null, null], "placeholders": ["Upper Semifinal Loser #1", null]  }, { "teams": [null, null], "placeholders": ["Upper Semifinal Loser #2", null]  }],
+			[{ "teams": [null, null] }],
+            [{ "teams": [null, null], "placeholders": ["Upper Final Loser", null] }]
+		],
+		"final": [{ "teams": [null, null] }]
+	}
+}

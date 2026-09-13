@@ -194,11 +194,14 @@
 		"stages": [
 			{
 				"name": "Playoffs",
-				"dates": "TBD"
+				"dates": "Aug 26 - TBD",
+				"format": {
+					"type": "bracket"
+				}
 			},
 			{
 				"name": "Group Stage",
-				"dates": "May 14 - TBD",
+				"dates": "May 14 - Aug 31",
 				"format": {
 					"type": "round-robin",
 					"groups": 2,

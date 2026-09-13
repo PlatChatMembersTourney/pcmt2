@@ -121,6 +121,28 @@ export interface Format {
 	}[];
 }
 
+
+export type BracketSlot = {
+	teams?: [string | null, string | null]; // team abbrs, top then bottom - null while TBD
+	match?: string; // match id - only needed if the same two teams play each other twice
+	placeholders?: [string | null, string | null]; // text shown while that team is null, e.g. "Group Alpha #2"
+} | null;
+
+// Hand-written bracket layout - <season>/<region>/brackets.json maps stage name -> BracketLayout
+export interface BracketLayout {
+	// rounds, left to right - if round 1 has as many slots as round 2, they're joined by straight lines
+	// (e.g. top seeds get a bye), otherwise round 1 has twice as many
+	upper: BracketSlot[][];
+	lower?: BracketSlot[][]; // leave out for single elimination
+	final?: BracketSlot[]; // grand final
+	// optional round labels, left to right - a missing or null entry keeps the default vlr-style name
+	names?: {
+		upper?: (string | null)[];
+		lower?: (string | null)[];
+		final?: string;
+	};
+}
+
 export interface Standing {
 	abbr: string;
 	name: string;
