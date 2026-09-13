@@ -1,0 +1,22 @@
+{
+	"LCQ": {
+		"names": {
+			"upper": ["Opening", "Winner's"],
+			"lower": ["Elimination", "Decider"],
+			"final": null
+		},
+		"upper": [[{ "teams": ["JDG", "MIBR"] }, { "teams": ["DRG", "ZIRC"] }], [{ "teams": ["JDG", "DRG"] }]],
+		"lower": [[{ "teams": ["ZIRC", "MIBR"] }], [{ "teams": ["MIBR", "JDG"] }]],
+		"final": []
+	},
+	"Playoffs": {
+		"names": {
+			"upper": ["Quarterfinal", "Winner's"],
+			"lower": ["Elimination", "Decider"],
+			"final": "Grand Final"
+		},
+		"upper": [[{ "teams": ["DRG", "WING"] }, { "teams": ["EMEA", "JDG"] }], [{ "teams": ["DRG", "JDG"] }]],
+		"lower": [[{ "teams": ["EMEA", "WING"] }], [{ "teams": ["DRG", "EMEA"] }]],
+		"final": [{ "teams": ["DRG", "JDG"] }]
+	}
+}
