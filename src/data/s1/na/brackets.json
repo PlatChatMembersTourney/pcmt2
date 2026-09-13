@@ -1,0 +1,18 @@
+{
+	"Playoffs": {
+		"names": {
+		"upper": ["Upper Semifinal", "Upper Final"],
+		"lower": ["Lower Semifinal", "Lower Final"],
+		"final": "Grand Final"
+	},
+		"upper": [
+			[{ "teams": ["WALL", "YD"] }, { "teams": ["CIN", "KAT"] }],
+			[{ "teams": ["YD", "KAT"] }]
+		],
+		"lower": [
+			[{ "teams": ["WALL", "CIN"] }],
+			[{ "teams": ["KAT", "WALL"] }]
+		],
+		"final": [{ "teams": ["YD", "KAT"] }]
+	}
+}

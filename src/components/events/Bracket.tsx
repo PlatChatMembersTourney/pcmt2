@@ -217,13 +217,12 @@ const matchTime = (date: string) => {
 
 // Grand final in the lower final's column, level with the upper final
 const placeGrandFinal = (root: HTMLElement, container: HTMLElement, finalRoundId: number) => {
-	const [upper, lower] = root.querySelectorAll<HTMLElement>('.bracket');
+	const [upper] = root.querySelectorAll<HTMLElement>('.bracket');
 	const final = upper.querySelector<HTMLElement>(`.round[data-round-id="${finalRoundId}"]`)!;
 	final.style.position = 'absolute';
 	container.append(final);
 
 	const upperFinal = upper.querySelector('.rounds')!.lastElementChild!.querySelector('.opponents')!;
-	const lowerFinal = lower.querySelector('.rounds')!.lastElementChild!.querySelector('.opponents')!;
 	const finalBox = final.querySelector('.opponents')!;
 
 	return () => {
@@ -231,7 +230,7 @@ const placeGrandFinal = (root: HTMLElement, container: HTMLElement, finalRoundId
 		const rect = (el: Element) => el.getBoundingClientRect();
 		const centerY = (el: Element) => rect(el).top + rect(el).height / 2;
 
-		final.style.left = `${Math.max(rect(lowerFinal).left, rect(upperFinal).right + ROUND_GAP) - box.left}px`;
+		final.style.left = `${rect(upperFinal).right + ROUND_GAP - box.left}px`;
 		final.style.top = '0px';
 		const boxOffset = centerY(finalBox) - rect(final).top;
 		final.style.top = `${centerY(upperFinal) - box.top - boxOffset}px`;
@@ -284,6 +283,16 @@ const decorate = (
 	container.append(columns, svg);
 
 	const placeFinal = finalRoundId !== null ? placeGrandFinal(root, container, finalRoundId) : () => {};
+
+	// Shorter bracket moves in so the lower final is under the grand final
+	if (finalRoundId !== null) {
+		const [upper, lower] = brackets;
+		const upperColumns = upper.querySelectorAll('.rounds > .round').length + 1;
+		const lowerColumns = lower.querySelectorAll('.rounds > .round').length;
+		const columnWidth = upper.querySelector('.round')!.getBoundingClientRect().width + ROUND_GAP;
+		const shorter = upperColumns < lowerColumns ? upper : lower;
+		shorter.style.paddingLeft = `${Math.abs(lowerColumns - upperColumns) * columnWidth}px`;
+	}
 
 	// Remove the viewer's lines
 	root.querySelectorAll('.connect-next, .connect-previous, .straight').forEach((el) => {
