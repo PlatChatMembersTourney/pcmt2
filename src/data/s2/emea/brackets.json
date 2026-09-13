@@ -6,12 +6,12 @@
 		"final": "Grand Final"
 	},
 		"upper": [
-			[{ "teams": [null, "NOOT"], "placeholders": ["Group Alpha #2", null] }, { "teams": [null, "NATS"], "placeholders": ["Group Alpha #3", null] }],
-			[{ "teams": ["SOG", null] }, { "teams": [null, null], "placeholders": ["Group Alpha #1", null] }],
+			[{ "teams": [null, "NOOT"], "placeholders": ["Alpha #2", null] }, { "teams": [null, "NATS"], "placeholders": ["Alpha #3", null] }],
+			[{ "teams": ["SOG", null] }, { "teams": [null, null], "placeholders": ["Alpha #1", null] }],
 			[{ "teams": [null, null] }]
 		],
 		"lower": [
-			[{ "teams": [null, "SEAL"], "placeholders": ["Group Alpha #4",null] }, { "teams": ["LARP", null], "placeholders": [null, "Group Alpha #5"] }],
+			[{ "teams": [null, "SEAL"], "placeholders": ["Alpha #4",null] }, { "teams": ["LARP", null], "placeholders": [null, "Alpha #5"] }],
 			[{ "teams": [null, null], "placeholders": ["Upper Quarterfinal Loser #1", null] }, { "teams": [null, null], "placeholders": ["Upper Quarterfinal Loser #2", null] }],
 			[{ "teams": [null, null], "placeholders": ["Upper Semifinal Loser #1", null]  }, { "teams": [null, null], "placeholders": ["Upper Semifinal Loser #2", null]  }],
 			[{ "teams": [null, null] }],
