@@ -11,8 +11,8 @@
 	},
 	"Playoffs": {
 		"names": {
-			"upper": ["Quarterfinal", "Winner's"],
-			"lower": ["Elimination", "Decider"],
+			"upper": ["Upper Semifinal", "Upper Final"],
+			"lower": ["Lower Semifinal", "Lower Final"],
 			"final": "Grand Final"
 		},
 		"upper": [[{ "teams": ["DRG", "WING"] }, { "teams": ["EMEA", "JDG"] }], [{ "teams": ["DRG", "JDG"] }]],
