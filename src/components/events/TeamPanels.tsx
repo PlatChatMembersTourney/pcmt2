@@ -1,18 +1,27 @@
 import { useEffect, useState } from 'react';
 import type { Event, Match, TeamInfo } from '../../types/types.ts';
 
-import { $matches, $teamMapStats } from '../../stores/store.ts';
+import { $matches, $teamMapStats, $teams } from '../../stores/store.ts';
 import { useStore } from '@nanostores/react';
 import { groupByDay } from '../../utils/datetime.ts';
 import MatchCard from '../matches/MatchCard.tsx';
 import TeamMapStatsTable from './TeamMapStatsTable.tsx';
 import { playerFlag } from '../../utils/images.ts';
+import eventsRaw from '../../data/events.json';
+
+const allEvents = eventsRaw as Event[];
 
 interface TeamPanelsProps {
 	event: Event;
 	team: TeamInfo;
 	fun?: boolean;
 }
+
+// Showmatch teams with the same abbr are one team across all showmatches
+export const teamEvents = (event: Event, team: TeamInfo, teams: Record<string, Record<string, TeamInfo>>) =>
+	event.id.startsWith('showmatch')
+		? allEvents.filter((e) => e.id.startsWith('showmatch') && team.abbr in (teams[e.id] ?? {}))
+		: [event];
 
 const pctFormatter = new Intl.NumberFormat('en-US', {
 	style: 'percent',
@@ -29,7 +38,10 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 
 	const [timezone, setTimezone] = useState('America/Chicago');
 
-	const teamMapStats = useStore($teamMapStats)[event.id];
+	const allTeams = useStore($teams);
+	const allMatches = useStore($matches);
+	const allTeamMapStats = useStore($teamMapStats);
+	const events = teamEvents(event, team, allTeams);
 
 	useEffect(() => {
 		// Fetch the IANA timezone string from the browser
@@ -37,15 +49,29 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 		setTimezone(userTimezone);
 	}, []);
 
-	const matches: Match[] = useStore($matches)[event.id].filter((match) => {
-		return match.team1Name === team.name || match.team2Name === team.name;
-	});
+	const matches = events.flatMap((e) =>
+		allMatches[e.id]
+			.filter((match: Match) => match.team1Name === team.name || match.team2Name === team.name)
+			.map((match) => ({ date: match.date, match, event: e }))
+	);
 
-	let matchesGrouped = groupByDay<Match>(matches, timezone);
+	let matchesGrouped = groupByDay(matches, timezone);
 	if (!reverse) {
 		// change default to reversed
 		matchesGrouped = matchesGrouped.reverse();
 	}
+
+	// Everyone who played, with the events they played in
+	const roster = new Map<string, { player: string; events: Event[] }>();
+	for (const e of events) {
+		for (const player of allTeams[e.id][team.abbr].players) {
+			const entry = roster.get(player.toLowerCase()) ?? { player, events: [] };
+			entry.events.push(e);
+			roster.set(player.toLowerCase(), entry);
+		}
+	}
+
+	const statsEvents = events.filter((e) => team.abbr in (allTeamMapStats[e.id] ?? {}));
 
 	return (
 		<div className="flex h-full flex-col">
@@ -94,14 +120,14 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 			{active === 'Overview' && (
 				<div className="mx-4 mt-6 flex flex-col sm:mx-6">
 					<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase">
-						Current Roster
+						{events.length > 1 ? 'Roster' : 'Current Roster'}
 					</h2>
 					<div className="vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 dark:text-vlr-text-white text-vlr-text-dark flex flex-col gap-2 p-4">
-						{team.players.map((player) => {
+						{[...roster.values()].map(({ player, events: playerEvents }) => {
 							return (
 								<p className="flex items-center gap-1 text-sm" key={player}>
 									<img
-										src={playerFlag(player, event.id, event.region)}
+										src={playerFlag(player, playerEvents[0].id, playerEvents[0].region)}
 										alt={'flag'}
 										className="h-4 w-auto"
 									/>
@@ -109,6 +135,11 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 										? player
 										: [...player].sort(() => Math.random() - 0.5).join('')}
 									{exclamations[Math.floor(Math.random() * exclamations.length)]}
+									{events.length > 1 && (
+										<span className="text-vlr-text-gray ml-1 text-xs">
+											{playerEvents.map((e) => e.shortName).join(', ')}
+										</span>
+									)}
 								</p>
 							);
 						})}
@@ -137,11 +168,11 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 											{date}
 										</h2>
 										<div className="vlr-box-shadow flex flex-col">
-											{items.map((match) => {
+											{items.map(({ match, event: matchEvent }) => {
 												return (
 													<MatchCard
 														match={match}
-														event={event}
+														event={matchEvent}
 														addlClass="not-first:border-t-1 dark:border-t-vlr-border-gray! border-t-vlr-border-light!"
 														key={match.id}
 													/>
@@ -162,16 +193,28 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 				</div>
 			)}
 			{active === 'Stats' &&
-				(team.abbr in teamMapStats ? (
-					<div className="flex flex-col p-4 sm:p-6">
-						<p className="text-vlr-text-dark dark:text-vlr-text-white mb-4 text-sm">
-							Overall win rates: ATK {pctFormatter.format(teamMapStats[team.abbr].overallAtkPct)} DEF{' '}
-							{pctFormatter.format(teamMapStats[team.abbr].overallDefPct)}
-						</p>
-						<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase">
-							Map Stats
-						</h2>
-						<TeamMapStatsTable teamMapStats={teamMapStats[team.abbr]} />
+				(statsEvents.length > 0 ? (
+					<div className="flex flex-col gap-8 p-4 sm:p-6">
+						{statsEvents.map((e) => {
+							const stats = allTeamMapStats[e.id][team.abbr];
+							return (
+								<div className="flex flex-col" key={e.id}>
+									{events.length > 1 && (
+										<h2 className="dark:text-vlr-text-white mb-2 text-base font-bold text-black">
+											{e.name}
+										</h2>
+									)}
+									<p className="text-vlr-text-dark dark:text-vlr-text-white mb-4 text-sm">
+										Overall win rates: ATK {pctFormatter.format(stats.overallAtkPct)} DEF{' '}
+										{pctFormatter.format(stats.overallDefPct)}
+									</p>
+									<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase">
+										Map Stats
+									</h2>
+									<TeamMapStatsTable teamMapStats={stats} />
+								</div>
+							);
+						})}
 					</div>
 				) : (
 					<div className="text-vlr-text-dark dark:text-vlr-text-white flex flex-col p-4 sm:p-6">

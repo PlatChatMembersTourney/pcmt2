@@ -1,6 +1,8 @@
 import type { TeamInfo, Event } from '../../types/types.ts';
-import TeamPanels from './TeamPanels.tsx';
+import TeamPanels, { teamEvents } from './TeamPanels.tsx';
 import { useEffect, useState } from 'react';
+import { useStore } from '@nanostores/react';
+import { $teams } from '../../stores/store.ts';
 
 interface TeamPageProps {
 	team: TeamInfo;
@@ -23,6 +25,9 @@ const TeamPage: React.FC<TeamPageProps> = (props) => {
 	const dyslexia = team.name === 'Team Dyslexia';
 	const fun = funVal === 'yes';
 
+	// Team spans several showmatches
+	const acrossShowmatches = teamEvents(event, team, useStore($teams)).length > 1;
+
 	return (
 		<div className="font-[roboto]">
 			<div className="bg-vlr-gray-100 dark:bg-vlr-gray-600 flex items-center gap-4 p-4 sm:gap-6 sm:p-6">
@@ -33,9 +38,9 @@ const TeamPage: React.FC<TeamPageProps> = (props) => {
 				</div>
 
 				<div className="flex flex-col gap-2">
-					<a href={`/events/${event.id}`} className="text-pb text-[10pt] leading-4">
-						{dyslexia && fun ? 'Palt Chat Mbemres Tuoranmnte:' : 'Plat Chat Members Tournament:'} S
-						{event.season} {event.region.toUpperCase()}
+					<a href={acrossShowmatches ? '/events' : `/events/${event.id}`} className="text-pb text-[10pt] leading-4">
+						{dyslexia && fun ? 'Palt Chat Mbemres Tuoranmnte:' : 'Plat Chat Members Tournament:'}{' '}
+						{acrossShowmatches ? 'Showmatches' : `S${event.season} ${event.region.toUpperCase()}`}
 					</a>
 					<h1 className="dark:text-vlr-text-white mb-1 text-xl font-bold text-black sm:text-2xl">
 						{dyslexia && fun ? 'Taem Lydsexia' : team.name}{' '}
