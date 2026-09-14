@@ -83,7 +83,7 @@
 		"id": "showmatch-s1-na",
 		"name": "NA S1 Showmatch",
 		"shortName": "SM S1 NA",
-		"season": 2,
+		"season": 1,
 		"region": "na",
 		"path": "showmatch1/na",
 		"status": "completed",
