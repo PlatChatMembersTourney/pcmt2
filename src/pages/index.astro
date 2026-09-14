@@ -2,6 +2,37 @@
 // import global styles
 import '../styles/global.css';
 import Layout from '../layouts/Layout.astro';
+import slugify from 'slugify';
+import events from '../data/events.json';
+import { matches, teams } from '../stores/store.ts';
+import type { Event } from '../types/types.ts';
+
+// Showmatch results against Plat Chat
+const showmatches = (events as Event[])
+	.filter((event) => event.id.startsWith('showmatch'))
+	.flatMap((event) =>
+		(matches[event.id] ?? [])
+			.filter((match) => match.completed)
+			.map((match) => {
+				const platFirst = match.team1 === 'PLAT';
+				const members = platFirst ? match.team2 : match.team1;
+				const [membersScore, platScore] = platFirst
+					? [match.score2, match.score1]
+					: [match.score1, match.score2];
+				return {
+					event,
+					date: match.date,
+					team: teams[event.id][members],
+					score: `${membersScore}-${platScore}`,
+					membersWon: membersScore > platScore,
+					href: `/events/${event.id}/${slugify(match.id)}`,
+				};
+			})
+	)
+	.sort((a, b) => a.date.localeCompare(b.date));
+
+const trophies = showmatches.filter((showmatch) => showmatch.membersWon);
+const platWins = showmatches.length - trophies.length;
 ---
 
 <Layout activePage="Home" desc="sting lurked all the way onto this description" title="Plat Chat Members Tourney Home">
@@ -39,6 +70,35 @@ import Layout from '../layouts/Layout.astro';
 					more handsome, more knowledgeable than us"
 				</p>
 				<p class="text-right text-lg">-Sideshow, Plat Chat Ep. 247</p>
+
+				<!-- Trophy case -->
+				<div class="mt-6 flex flex-col items-end font-sans not-italic">
+					<div class="flex items-end gap-5">
+						{
+							trophies.map(({ event, team, score, href }) => (
+								<a
+									href={href}
+									title={`${event.name}: ${team.name} ${score} Plat Chat`}
+									class="group flex flex-col items-center"
+								>
+									<img
+										src="/icons/trophy.png"
+										alt=""
+										class="h-16 w-16 object-contain drop-shadow-md transition-transform duration-200 group-hover:-translate-y-1 group-hover:-rotate-6"
+									/>
+									<span class="mt-1 text-xs font-bold">{event.shortName}</span>
+									<span class="flex items-center gap-1 text-xs">
+										<img src={team.logo} alt={team.name} class="h-4 w-4 object-contain" />
+										{score}
+									</span>
+								</a>
+							))
+						}
+					</div>
+					<p class="text-pb mt-2 text-sm font-bold uppercase">
+						Members {trophies.length} - {platWins} Plat Chat
+					</p>
+				</div>
 			</div>
 		</section>
 
