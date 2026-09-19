@@ -8,7 +8,7 @@
 		"upper": [
 			[{ "teams": ["SPG", "FSG"] }, { "teams": ["T1", "TS"] }],
 			[{ "teams": ["C9", "SPG"] }, { "teams": ["SRB", "T1"] }],
-			[{ "teams": ["C9", "T1"] }]
+			[{ "teams": ["SPG", "T1"] }]
 		],
 		"lower": [
 			[{ "teams": ["FSG", "NAVI"] }, { "teams": ["TS", "TL"] }],
