@@ -8,11 +8,11 @@
 		"upper": [
 			[{ "teams": ["SPG", "FSG"] }, { "teams": ["T1", "TS"] }],
 			[{ "teams": ["C9", "SPG"] }, { "teams": ["SRB", "T1"] }],
-			[{ "teams": [null, "T1"] }]
+			[{ "teams": ["C9", "T1"] }]
 		],
 		"lower": [
 			[{ "teams": ["FSG", "NAVI"] }, { "teams": ["TS", "TL"] }],
-			[{ "teams": ["SRB", null] }, { "teams": [null, null] }],
+			[{ "teams": ["SRB", "NAVI"] }, { "teams": [null, null] }],
 			[{ "teams": [null, null] }],
 			[{ "teams": [null, null] }]
 		],
