@@ -53,30 +53,30 @@
       "rndDiff": 17
     },
     {
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
+      "matchW": 5,
+      "matchL": 3,
+      "mapW": 10,
+      "mapL": 7,
+      "rndW": 188,
+      "rndL": 176,
+      "rank": 5,
+      "mapDiff": 3,
+      "rndDiff": 12
+    },
+    {
       "abbr": "FSG",
       "name": "Furry Squirrels Gaming",
       "matchW": 5,
-      "matchL": 3,
+      "matchL": 4,
       "mapW": 11,
-      "mapL": 8,
-      "rndW": 209,
-      "rndL": 200,
-      "rank": 5,
-      "mapDiff": 3,
-      "rndDiff": 9
-    },
-    {
-      "abbr": "NAVI",
-      "name": "No Actual Valorant Intelligence",
-      "matchW": 4,
-      "matchL": 3,
-      "mapW": 8,
-      "mapL": 7,
-      "rndW": 162,
-      "rndL": 154,
+      "mapL": 10,
+      "rndW": 231,
+      "rndL": 226,
       "rank": 6,
       "mapDiff": 1,
-      "rndDiff": 8
+      "rndDiff": 5
     },
     {
       "abbr": "TL",
@@ -449,6 +449,19 @@
       "rndDiff": 24
     },
     {
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
+      "matchW": 1,
+      "matchL": 0,
+      "mapW": 2,
+      "mapL": 0,
+      "rndW": 26,
+      "rndL": 22,
+      "rank": 3,
+      "mapDiff": 2,
+      "rndDiff": 4
+    },
+    {
       "abbr": "SRB",
       "name": "Sunshine and Rainbows",
       "matchW": 0,
@@ -457,22 +470,9 @@
       "mapL": 2,
       "rndW": 18,
       "rndL": 26,
-      "rank": 3,
-      "mapDiff": -2,
-      "rndDiff": -8
-    },
-    {
-      "abbr": "FSG",
-      "name": "Furry Squirrels Gaming",
-      "matchW": 0,
-      "matchL": 1,
-      "mapW": 0,
-      "mapL": 2,
-      "rndW": 16,
-      "rndL": 28,
       "rank": 4,
       "mapDiff": -2,
-      "rndDiff": -12
+      "rndDiff": -8
     },
     {
       "abbr": "C9",
@@ -498,6 +498,19 @@
       "rndL": 26,
       "rank": 6,
       "mapDiff": -2,
+      "rndDiff": -16
+    },
+    {
+      "abbr": "FSG",
+      "name": "Furry Squirrels Gaming",
+      "matchW": 0,
+      "matchL": 2,
+      "mapW": 0,
+      "mapL": 4,
+      "rndW": 38,
+      "rndL": 54,
+      "rank": 7,
+      "mapDiff": -4,
       "rndDiff": -16
     }
   ]

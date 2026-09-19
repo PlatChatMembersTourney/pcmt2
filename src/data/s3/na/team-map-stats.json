@@ -1064,8 +1064,8 @@
   "FSG": {
     "team": "FSG",
     "teamName": "Furry Squirrels Gaming",
-    "overallAtkPct": 0.562,
-    "overallDefPct": 0.462,
+    "overallAtkPct": 0.56,
+    "overallDefPct": 0.453,
     "maps": [
       {
         "map": "Abyss",
@@ -1083,7 +1083,7 @@
       {
         "map": "Ascent",
         "pick": 1,
-        "ban": 2,
+        "ban": 3,
         "played": 2,
         "won": 1,
         "winPct": 0.5,
@@ -1148,7 +1148,7 @@
       {
         "map": "Haven",
         "pick": 2,
-        "ban": 1,
+        "ban": 2,
         "played": 6,
         "won": 3,
         "winPct": 0.5,
@@ -1199,29 +1199,29 @@
       },
       {
         "map": "Split",
-        "pick": 3,
+        "pick": 4,
         "ban": 0,
-        "played": 4,
+        "played": 5,
         "won": 3,
-        "winPct": 0.75,
-        "rounds": 95,
-        "roundsWon": 51,
-        "roundPct": 0.537,
-        "atkPct": 0.522,
-        "defPct": 0.551
+        "winPct": 0.6,
+        "rounds": 119,
+        "roundsWon": 62,
+        "roundPct": 0.521,
+        "atkPct": 0.534,
+        "defPct": 0.508
       },
       {
         "map": "Summit",
         "pick": 0,
         "ban": 4,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 24,
+        "roundsWon": 11,
+        "roundPct": 0.458,
+        "atkPct": 0.5,
+        "defPct": 0.417
       },
       {
         "map": "Sunset",
@@ -1418,8 +1418,8 @@
   "NAVI": {
     "team": "NAVI",
     "teamName": "No Actual Valorant Intelligence",
-    "overallAtkPct": 0.575,
-    "overallDefPct": 0.437,
+    "overallAtkPct": 0.581,
+    "overallDefPct": 0.44,
     "maps": [
       {
         "map": "Abyss",
@@ -1528,7 +1528,7 @@
       {
         "map": "Lotus",
         "pick": 0,
-        "ban": 3,
+        "ban": 4,
         "played": 4,
         "won": 2,
         "winPct": 0.5,
@@ -1555,32 +1555,32 @@
         "map": "Split",
         "pick": 1,
         "ban": 4,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 22,
-        "roundsWon": 13,
-        "roundPct": 0.591,
-        "atkPct": 0.833,
-        "defPct": 0.3
+        "rounds": 46,
+        "roundsWon": 26,
+        "roundPct": 0.565,
+        "atkPct": 0.75,
+        "defPct": 0.364
       },
       {
         "map": "Summit",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 22,
-        "roundsWon": 13,
-        "roundPct": 0.591,
-        "atkPct": 0.5,
-        "defPct": 0.667
+        "rounds": 46,
+        "roundsWon": 26,
+        "roundPct": 0.565,
+        "atkPct": 0.545,
+        "defPct": 0.583
       },
       {
         "map": "Sunset",
         "pick": 1,
-        "ban": 1,
+        "ban": 2,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
