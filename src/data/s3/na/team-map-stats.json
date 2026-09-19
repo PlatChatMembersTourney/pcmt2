@@ -356,13 +356,13 @@
   "C9": {
     "team": "C9",
     "teamName": "Clown9",
-    "overallAtkPct": 0.537,
-    "overallDefPct": 0.54,
+    "overallAtkPct": 0.526,
+    "overallDefPct": 0.511,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -375,7 +375,7 @@
       {
         "map": "Ascent",
         "pick": 1,
-        "ban": 0,
+        "ban": 1,
         "played": 6,
         "won": 3,
         "winPct": 0.5,
@@ -465,16 +465,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 5,
+        "played": 6,
         "won": 3,
-        "winPct": 0.6,
-        "rounds": 111,
-        "roundsWon": 60,
-        "roundPct": 0.541,
-        "atkPct": 0.542,
-        "defPct": 0.538
+        "winPct": 0.5,
+        "rounds": 133,
+        "roundsWon": 69,
+        "roundPct": 0.519,
+        "atkPct": 0.521,
+        "defPct": 0.516
       },
       {
         "map": "Pearl",
@@ -493,14 +493,14 @@
         "map": "Split",
         "pick": 0,
         "ban": 4,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 14,
+        "roundsWon": 1,
+        "roundPct": 0.071,
+        "atkPct": 0.0,
+        "defPct": 0.083
       },
       {
         "map": "Summit",
@@ -1772,8 +1772,8 @@
   "SPG": {
     "team": "SPG",
     "teamName": "Spank Ptheory Gaming",
-    "overallAtkPct": 0.63,
-    "overallDefPct": 0.531,
+    "overallAtkPct": 0.645,
+    "overallDefPct": 0.538,
     "maps": [
       {
         "map": "Abyss",
@@ -1883,14 +1883,14 @@
         "map": "Lotus",
         "pick": 2,
         "ban": 1,
-        "played": 4,
-        "won": 3,
-        "winPct": 0.75,
-        "rounds": 84,
-        "roundsWon": 51,
-        "roundPct": 0.607,
-        "atkPct": 0.64,
-        "defPct": 0.559
+        "played": 5,
+        "won": 4,
+        "winPct": 0.8,
+        "rounds": 106,
+        "roundsWon": 64,
+        "roundPct": 0.604,
+        "atkPct": 0.633,
+        "defPct": 0.565
       },
       {
         "map": "Pearl",
@@ -1907,21 +1907,21 @@
       },
       {
         "map": "Split",
-        "pick": 0,
+        "pick": 1,
         "ban": 6,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 24,
-        "roundsWon": 13,
-        "roundPct": 0.542,
-        "atkPct": 0.583,
-        "defPct": 0.5
+        "rounds": 38,
+        "roundsWon": 26,
+        "roundPct": 0.684,
+        "atkPct": 0.75,
+        "defPct": 0.571
       },
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 1,
         "won": 1,
         "winPct": 1.0,
@@ -1934,7 +1934,7 @@
       {
         "map": "Sunset",
         "pick": 1,
-        "ban": 1,
+        "ban": 2,
         "played": 2,
         "won": 1,
         "winPct": 0.5,

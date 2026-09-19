@@ -16,15 +16,15 @@
     {
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
-      "matchW": 6,
+      "matchW": 7,
       "matchL": 2,
-      "mapW": 13,
+      "mapW": 15,
       "mapL": 5,
-      "rndW": 223,
-      "rndL": 162,
+      "rndW": 249,
+      "rndL": 172,
       "rank": 2,
-      "mapDiff": 8,
-      "rndDiff": 61
+      "mapDiff": 10,
+      "rndDiff": 77
     },
     {
       "abbr": "SRB",
@@ -43,14 +43,14 @@
       "abbr": "C9",
       "name": "Clown9",
       "matchW": 6,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 12,
-      "mapL": 7,
-      "rndW": 229,
-      "rndL": 196,
+      "mapL": 9,
+      "rndW": 239,
+      "rndL": 222,
       "rank": 4,
-      "mapDiff": 5,
-      "rndDiff": 33
+      "mapDiff": 3,
+      "rndDiff": 17
     },
     {
       "abbr": "FSG",
@@ -423,6 +423,19 @@
   ],
   "Playoffs": [
     {
+      "abbr": "SPG",
+      "name": "Spank Ptheory Gaming",
+      "matchW": 2,
+      "matchL": 0,
+      "mapW": 4,
+      "mapL": 0,
+      "rndW": 54,
+      "rndL": 26,
+      "rank": 1,
+      "mapDiff": 4,
+      "rndDiff": 28
+    },
+    {
       "abbr": "T1",
       "name": "Team 1",
       "matchW": 2,
@@ -431,22 +444,9 @@
       "mapL": 0,
       "rndW": 52,
       "rndL": 28,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 4,
       "rndDiff": 24
-    },
-    {
-      "abbr": "SPG",
-      "name": "Spank Ptheory Gaming",
-      "matchW": 1,
-      "matchL": 0,
-      "mapW": 2,
-      "mapL": 0,
-      "rndW": 28,
-      "rndL": 16,
-      "rank": 2,
-      "mapDiff": 2,
-      "rndDiff": 12
     },
     {
       "abbr": "SRB",
@@ -475,6 +475,19 @@
       "rndDiff": -12
     },
     {
+      "abbr": "C9",
+      "name": "Clown9",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 0,
+      "mapL": 2,
+      "rndW": 10,
+      "rndL": 26,
+      "rank": 5,
+      "mapDiff": -2,
+      "rndDiff": -16
+    },
+    {
       "abbr": "TS",
       "name": "Team Slugshow",
       "matchW": 0,
@@ -483,7 +496,7 @@
       "mapL": 2,
       "rndW": 10,
       "rndL": 26,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": -2,
       "rndDiff": -16
     }
