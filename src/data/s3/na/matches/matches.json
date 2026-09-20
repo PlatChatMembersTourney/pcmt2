@@ -5,12 +5,800 @@
     "team2": "TS",
     "team1Name": "Team Dyslexia",
     "team2Name": "Team Slugshow",
-    "score1": 0,
+    "score1": 2,
     "score2": 0,
-    "completed": false,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-09-20T00:00:00Z",
-    "stage": "Playoffs"
+    "stage": "Playoffs",
+    "veto": "TL bans Sunset, TS bans Summit, TL picks Ascent, TS picks Lotus, TL bans Split, TS bans Haven, Abyss remains",
+    "maps": [
+      {
+        "name": "Ascent",
+        "score1": 13,
+        "score2": 6
+      },
+      {
+        "name": "Lotus",
+        "score1": 13,
+        "score2": 9
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "TL",
+        "teamName": "Team Dyslexia",
+        "players": [
+          {
+            "Player": "haych",
+            "R1.0": 1.629,
+            "ACS": 338,
+            "K": 49,
+            "D": 20,
+            "A": 10,
+            "PlusMinus": 29,
+            "KAST": 0.805,
+            "ADR": 233.2,
+            "HS%": 0.236,
+            "FK": 11,
+            "FD": 2,
+            "PlusMinus2": 9
+          },
+          {
+            "Player": "jaypee",
+            "R1.0": 1.108,
+            "ACS": 250,
+            "K": 35,
+            "D": 31,
+            "A": 11,
+            "PlusMinus": 4,
+            "KAST": 0.683,
+            "ADR": 159.2,
+            "HS%": 0.244,
+            "FK": 5,
+            "FD": 6,
+            "PlusMinus2": -1
+          },
+          {
+            "Player": "longclaw",
+            "R1.0": 0.991,
+            "ACS": 176,
+            "K": 26,
+            "D": 24,
+            "A": 10,
+            "PlusMinus": 2,
+            "KAST": 0.707,
+            "ADR": 130.4,
+            "HS%": 0.284,
+            "FK": 3,
+            "FD": 0,
+            "PlusMinus2": 3
+          },
+          {
+            "Player": "slow",
+            "R1.0": 0.902,
+            "ACS": 143,
+            "K": 23,
+            "D": 25,
+            "A": 18,
+            "PlusMinus": -2,
+            "KAST": 0.756,
+            "ADR": 90.9,
+            "HS%": 0.214,
+            "FK": 2,
+            "FD": 3,
+            "PlusMinus2": -1
+          },
+          {
+            "Player": "caleb",
+            "R1.0": 0.881,
+            "ACS": 168,
+            "K": 24,
+            "D": 27,
+            "A": 10,
+            "PlusMinus": -3,
+            "KAST": 0.707,
+            "ADR": 109.5,
+            "HS%": 0.218,
+            "FK": 6,
+            "FD": 3,
+            "PlusMinus2": 3
+          }
+        ]
+      },
+      {
+        "team": "TS",
+        "teamName": "Team Slugshow",
+        "players": [
+          {
+            "Player": "straight",
+            "R1.0": 1.53,
+            "ACS": 363,
+            "K": 52,
+            "D": 29,
+            "A": 6,
+            "PlusMinus": 23,
+            "KAST": 0.732,
+            "ADR": 233.8,
+            "HS%": 0.222,
+            "FK": 8,
+            "FD": 7,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "avi",
+            "R1.0": 1.034,
+            "ACS": 235,
+            "K": 33,
+            "D": 32,
+            "A": 9,
+            "PlusMinus": 1,
+            "KAST": 0.683,
+            "ADR": 149.2,
+            "HS%": 0.238,
+            "FK": 4,
+            "FD": 10,
+            "PlusMinus2": -6
+          },
+          {
+            "Player": "dino",
+            "R1.0": 0.628,
+            "ACS": 149,
+            "K": 20,
+            "D": 34,
+            "A": 4,
+            "PlusMinus": -14,
+            "KAST": 0.512,
+            "ADR": 97.1,
+            "HS%": 0.227,
+            "FK": 1,
+            "FD": 3,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "tery",
+            "R1.0": 0.553,
+            "ACS": 81,
+            "K": 10,
+            "D": 29,
+            "A": 20,
+            "PlusMinus": -19,
+            "KAST": 0.61,
+            "ADR": 51.8,
+            "HS%": 0.045,
+            "FK": 0,
+            "FD": 2,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "lore",
+            "R1.0": 0.52,
+            "ACS": 95,
+            "K": 12,
+            "D": 33,
+            "A": 10,
+            "PlusMinus": -21,
+            "KAST": 0.561,
+            "ADR": 72.9,
+            "HS%": 0.13,
+            "FK": 1,
+            "FD": 5,
+            "PlusMinus2": -4
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Ascent",
+        "score1": 13,
+        "score2": 6,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "TL",
+            "teamName": "Team Dyslexia",
+            "players": [
+              {
+                "Player": "haych",
+                "Agent": "Cypher",
+                "R1.0": 1.74,
+                "ACS": 373,
+                "K": 25,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": 15,
+                "KAST": 0.842,
+                "ADR": 251.7,
+                "HS%": 0.324,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "longclaw",
+                "Agent": "Sova",
+                "R1.0": 1.299,
+                "ACS": 241,
+                "K": 16,
+                "D": 9,
+                "A": 5,
+                "PlusMinus": 7,
+                "KAST": 0.842,
+                "ADR": 169.7,
+                "HS%": 0.268,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "jaypee",
+                "Agent": "Neon",
+                "R1.0": 1.275,
+                "ACS": 301,
+                "K": 20,
+                "D": 14,
+                "A": 3,
+                "PlusMinus": 6,
+                "KAST": 0.737,
+                "ADR": 182.4,
+                "HS%": 0.308,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "caleb",
+                "Agent": "Omen",
+                "R1.0": 0.888,
+                "ACS": 175,
+                "K": 12,
+                "D": 14,
+                "A": 5,
+                "PlusMinus": -2,
+                "KAST": 0.737,
+                "ADR": 110.6,
+                "HS%": 0.188,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "slow",
+                "Agent": "Phoenix",
+                "R1.0": 0.578,
+                "ACS": 61,
+                "K": 6,
+                "D": 12,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.684,
+                "ADR": 53.7,
+                "HS%": 0.312,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              }
+            ]
+          },
+          {
+            "team": "TS",
+            "teamName": "Team Slugshow",
+            "players": [
+              {
+                "Player": "straight",
+                "Agent": "Jett",
+                "R1.0": 1.268,
+                "ACS": 302,
+                "K": 20,
+                "D": 14,
+                "A": 3,
+                "PlusMinus": 6,
+                "KAST": 0.632,
+                "ADR": 192.8,
+                "HS%": 0.214,
+                "FK": 4,
+                "FD": 5,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "avi",
+                "Agent": "Phoenix",
+                "R1.0": 1.201,
+                "ACS": 296,
+                "K": 20,
+                "D": 16,
+                "A": 3,
+                "PlusMinus": 4,
+                "KAST": 0.737,
+                "ADR": 171.3,
+                "HS%": 0.283,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "dino",
+                "Agent": "Cypher",
+                "R1.0": 0.696,
+                "ACS": 167,
+                "K": 11,
+                "D": 17,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.526,
+                "ADR": 108.7,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "lore",
+                "Agent": "Sova",
+                "R1.0": 0.473,
+                "ACS": 97,
+                "K": 5,
+                "D": 16,
+                "A": 4,
+                "PlusMinus": -11,
+                "KAST": 0.526,
+                "ADR": 74.5,
+                "HS%": 0.182,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "tery",
+                "Agent": "Omen",
+                "R1.0": 0.427,
+                "ACS": 68,
+                "K": 3,
+                "D": 16,
+                "A": 11,
+                "PlusMinus": -13,
+                "KAST": 0.526,
+                "ADR": 45.6,
+                "HS%": 0.04,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lotus",
+        "score1": 13,
+        "score2": 9,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 20,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 21,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 22,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "TL",
+            "teamName": "Team Dyslexia",
+            "players": [
+              {
+                "Player": "haych",
+                "Agent": "Chamber",
+                "R1.0": 1.532,
+                "ACS": 307,
+                "K": 24,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": 14,
+                "KAST": 0.773,
+                "ADR": 217.2,
+                "HS%": 0.16,
+                "FK": 10,
+                "FD": 0,
+                "PlusMinus2": 10
+              },
+              {
+                "Player": "slow",
+                "Agent": "Omen",
+                "R1.0": 1.181,
+                "ACS": 213,
+                "K": 17,
+                "D": 13,
+                "A": 15,
+                "PlusMinus": 4,
+                "KAST": 0.818,
+                "ADR": 123.0,
+                "HS%": 0.13,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "jaypee",
+                "Agent": "Raze",
+                "R1.0": 0.963,
+                "ACS": 206,
+                "K": 15,
+                "D": 17,
+                "A": 8,
+                "PlusMinus": -2,
+                "KAST": 0.636,
+                "ADR": 139.1,
+                "HS%": 0.188,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "caleb",
+                "Agent": "Tejo",
+                "R1.0": 0.874,
+                "ACS": 162,
+                "K": 12,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": -1,
+                "KAST": 0.682,
+                "ADR": 108.6,
+                "HS%": 0.244,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "longclaw",
+                "Agent": "Fade",
+                "R1.0": 0.726,
+                "ACS": 120,
+                "K": 10,
+                "D": 15,
+                "A": 5,
+                "PlusMinus": -5,
+                "KAST": 0.591,
+                "ADR": 96.5,
+                "HS%": 0.297,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              }
+            ]
+          },
+          {
+            "team": "TS",
+            "teamName": "Team Slugshow",
+            "players": [
+              {
+                "Player": "straight",
+                "Agent": "Raze",
+                "R1.0": 1.757,
+                "ACS": 415,
+                "K": 32,
+                "D": 15,
+                "A": 3,
+                "PlusMinus": 17,
+                "KAST": 0.818,
+                "ADR": 269.3,
+                "HS%": 0.229,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "avi",
+                "Agent": "Neon",
+                "R1.0": 0.89,
+                "ACS": 183,
+                "K": 13,
+                "D": 16,
+                "A": 6,
+                "PlusMinus": -3,
+                "KAST": 0.636,
+                "ADR": 130.1,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 8,
+                "PlusMinus2": -8
+              },
+              {
+                "Player": "tery",
+                "Agent": "Omen",
+                "R1.0": 0.662,
+                "ACS": 92,
+                "K": 7,
+                "D": 13,
+                "A": 9,
+                "PlusMinus": -6,
+                "KAST": 0.682,
+                "ADR": 57.1,
+                "HS%": 0.049,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "dino",
+                "Agent": "Vyse",
+                "R1.0": 0.568,
+                "ACS": 134,
+                "K": 9,
+                "D": 17,
+                "A": 1,
+                "PlusMinus": -8,
+                "KAST": 0.5,
+                "ADR": 87.1,
+                "HS%": 0.25,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "lore",
+                "Agent": "Fade",
+                "R1.0": 0.56,
+                "ACS": 94,
+                "K": 7,
+                "D": 17,
+                "A": 6,
+                "PlusMinus": -10,
+                "KAST": 0.591,
+                "ADR": 71.5,
+                "HS%": 0.086,
+                "FK": 0,
+                "FD": 5,
+                "PlusMinus2": -5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=_rd_OQibFao"
   },
   {
     "id": "fsg-vs-navi-s3-playoffs-2026-09-19",
