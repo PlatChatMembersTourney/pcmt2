@@ -11,7 +11,7 @@
 			[{ "teams": [null, null] }]
 		],
 		"lower": [
-			[{ "teams": [null, "SEAL"], "placeholders": ["Alpha #4",null] }, { "teams": ["LARP", null], "placeholders": [null, "Alpha #5"] }],
+			[{ "teams": [null, "SEAL"], "placeholders": ["Alpha #4",null] }, { "teams": ["LARP", "HOT"], "placeholders": [null, null] }],
 			[{ "teams": [null, null], "placeholders": ["Upper QF Loser #1", null] }, { "teams": [null, null], "placeholders": ["Upper QF Loser #2", null] }],
 			[{ "teams": [null, null], "placeholders": ["Upper SF Loser #1", null]  }, { "teams": [null, null], "placeholders": ["Upper SF Loser #2", null]  }],
 			[{ "teams": [null, null] }],
