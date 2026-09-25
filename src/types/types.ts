@@ -18,6 +18,7 @@ export interface Player {
 	FK: number;
 	FD: number;
 	PlusMinus2: number;
+	Rounds?: number; // Only when they played part of the map
 }
 
 export interface PlayerStats extends Player {

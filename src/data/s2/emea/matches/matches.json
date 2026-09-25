@@ -49,15 +49,15 @@
         "players": [
           {
             "Player": "Jamit",
-            "R1.0": 1.197,
-            "ACS": 266,
+            "R1.0": 1.265,
+            "ACS": 267,
             "K": 36,
             "D": 26,
             "A": 8,
             "PlusMinus": 10,
-            "KAST": 0.792,
-            "ADR": 172.4,
-            "HS%": 0.332,
+            "KAST": 0.81,
+            "ADR": 175.4,
+            "HS%": 0.319,
             "FK": 11,
             "FD": 4,
             "PlusMinus2": 7
@@ -93,6 +93,21 @@
             "PlusMinus2": -1
           },
           {
+            "Player": "heef",
+            "R1.0": 0.948,
+            "ACS": 183,
+            "K": 23,
+            "D": 24,
+            "A": 6,
+            "PlusMinus": -1,
+            "KAST": 0.634,
+            "ADR": 138.6,
+            "HS%": 0.265,
+            "FK": 3,
+            "FD": 5,
+            "PlusMinus2": -2
+          },
+          {
             "Player": "dragonflyod",
             "R1.0": 0.924,
             "ACS": 198,
@@ -108,46 +123,31 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "heef",
-            "R1.0": 0.921,
-            "ACS": 172,
-            "K": 23,
-            "D": 24,
-            "A": 6,
-            "PlusMinus": -1,
-            "KAST": 0.638,
-            "ADR": 134.8,
-            "HS%": 0.218,
-            "FK": 3,
-            "FD": 5,
-            "PlusMinus2": -2
-          },
-          {
             "Player": "Sky",
-            "R1.0": 0.603,
-            "ACS": 103,
+            "R1.0": 0.577,
+            "ACS": 94,
             "K": 12,
             "D": 26,
             "A": 9,
             "PlusMinus": -14,
-            "KAST": 0.59,
-            "ADR": 72.5,
-            "HS%": 0.287,
+            "KAST": 0.595,
+            "ADR": 67.2,
+            "HS%": 0.221,
             "FK": 0,
             "FD": 4,
             "PlusMinus2": -4
           },
           {
             "Player": "thorny",
-            "R1.0": 0.534,
-            "ACS": 87,
+            "R1.0": 0.533,
+            "ACS": 98,
             "K": 12,
             "D": 28,
             "A": 6,
             "PlusMinus": -16,
-            "KAST": 0.638,
-            "ADR": 58.0,
-            "HS%": 0.082,
+            "KAST": 0.634,
+            "ADR": 66.7,
+            "HS%": 0.099,
             "FK": 3,
             "FD": 7,
             "PlusMinus2": -4
@@ -189,21 +189,6 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "Riyako",
-            "R1.0": 0.909,
-            "ACS": 201,
-            "K": 23,
-            "D": 24,
-            "A": 3,
-            "PlusMinus": -1,
-            "KAST": 0.689,
-            "ADR": 134.5,
-            "HS%": 0.145,
-            "FK": 1,
-            "FD": 2,
-            "PlusMinus2": -1
-          },
-          {
             "Player": "Sovaraa",
             "R1.0": 0.903,
             "ACS": 149,
@@ -219,16 +204,31 @@
             "PlusMinus2": -5
           },
           {
+            "Player": "Riyako",
+            "R1.0": 0.856,
+            "ACS": 165,
+            "K": 23,
+            "D": 24,
+            "A": 3,
+            "PlusMinus": -1,
+            "KAST": 0.649,
+            "ADR": 112.2,
+            "HS%": 0.141,
+            "FK": 1,
+            "FD": 2,
+            "PlusMinus2": -1
+          },
+          {
             "Player": "Hioz",
-            "R1.0": 0.807,
-            "ACS": 132,
+            "R1.0": 0.813,
+            "ACS": 141,
             "K": 18,
             "D": 24,
             "A": 8,
             "PlusMinus": -6,
-            "KAST": 0.704,
-            "ADR": 104.0,
-            "HS%": 0.157,
+            "KAST": 0.666,
+            "ADR": 108.4,
+            "HS%": 0.191,
             "FK": 3,
             "FD": 1,
             "PlusMinus2": 2
@@ -698,7 +698,8 @@
                 "HS%": 0.385,
                 "FK": 2,
                 "FD": 0,
-                "PlusMinus2": 2
+                "PlusMinus2": 2,
+                "Rounds": 7
               },
               {
                 "K": 7,
@@ -714,7 +715,8 @@
                 "Agent": "Cypher",
                 "PlusMinus": 0,
                 "PlusMinus2": -4,
-                "R1.0": 0.881
+                "R1.0": 0.881,
+                "Rounds": 9
               },
               {
                 "Player": "Sky",
@@ -730,7 +732,8 @@
                 "HS%": 0.556,
                 "FK": 0,
                 "FD": 2,
-                "PlusMinus2": -2
+                "PlusMinus2": -2,
+                "Rounds": 7
               },
               {
                 "K": 7,
@@ -794,7 +797,8 @@
                 "Agent": "Phoenix",
                 "PlusMinus": -8,
                 "PlusMinus2": -1,
-                "R1.0": 0.245
+                "R1.0": 0.245,
+                "Rounds": 9
               }
             ]
           },
@@ -816,7 +820,8 @@
                 "HS%": 0.161,
                 "FK": 1,
                 "FD": 0,
-                "PlusMinus2": 1
+                "PlusMinus2": 1,
+                "Rounds": 7
               },
               {
                 "K": 20,
@@ -896,7 +901,8 @@
                 "Agent": "Cypher",
                 "PlusMinus": 1,
                 "PlusMinus2": 2,
-                "R1.0": 0.943
+                "R1.0": 0.943,
+                "Rounds": 9
               }
             ]
           }
