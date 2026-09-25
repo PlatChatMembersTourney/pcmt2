@@ -64,7 +64,7 @@
           "PlusMinus2": 0
         },
         {
-          "Player": "kramvi",
+          "Player": "Kramvi",
           "R1.0": 1.086,
           "ACS": 206,
           "K": 46,
@@ -367,7 +367,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "kramvi",
+              "Player": "Kramvi",
               "Agent": "Sova",
               "R1.0": 1.281,
               "ACS": 225,
@@ -608,7 +608,7 @@
           "teamName": "Penguin Patrol",
           "players": [
             {
-              "Player": "kramvi",
+              "Player": "Kramvi",
               "Agent": "Fade",
               "R1.0": 1.161,
               "ACS": 237,
@@ -981,7 +981,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "kramvi",
+              "Player": "Kramvi",
               "Agent": "Sova",
               "R1.0": 0.874,
               "ACS": 168,

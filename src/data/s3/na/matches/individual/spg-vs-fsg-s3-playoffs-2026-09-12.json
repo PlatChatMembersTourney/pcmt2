@@ -125,7 +125,7 @@
           "PlusMinus2": 0
         },
         {
-          "Player": "Night",
+          "Player": "night",
           "R1.0": 1.096,
           "ACS": 229,
           "K": 35,
@@ -398,7 +398,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Omen",
               "R1.0": 0.801,
               "ACS": 185,
@@ -747,7 +747,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Omen",
               "R1.0": 1.264,
               "ACS": 254,

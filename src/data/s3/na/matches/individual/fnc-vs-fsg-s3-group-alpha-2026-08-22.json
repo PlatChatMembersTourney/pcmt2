@@ -49,7 +49,7 @@
           "PlusMinus2": 5
         },
         {
-          "Player": "Night",
+          "Player": "night",
           "R1.0": 1.104,
           "ACS": 247,
           "K": 54,
@@ -335,7 +335,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Neon",
               "R1.0": 1.016,
               "ACS": 254,
@@ -646,7 +646,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Jett",
               "R1.0": 1.261,
               "ACS": 271,
@@ -995,7 +995,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Phoenix",
               "R1.0": 1.057,
               "ACS": 227,

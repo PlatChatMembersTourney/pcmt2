@@ -59,7 +59,7 @@
           "PlusMinus2": 1
         },
         {
-          "Player": "Night",
+          "Player": "night",
           "R1.0": 1.177,
           "ACS": 265,
           "K": 42,
@@ -314,7 +314,7 @@
           "teamName": "Team 1",
           "players": [
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Neon",
               "R1.0": 1.418,
               "ACS": 312,
@@ -665,7 +665,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Neon",
               "R1.0": 0.978,
               "ACS": 226,

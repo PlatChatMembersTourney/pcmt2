@@ -140,7 +140,7 @@
           "PlusMinus2": 1
         },
         {
-          "Player": "Night",
+          "Player": "night",
           "R1.0": 1.204,
           "ACS": 270,
           "K": 40,
@@ -428,7 +428,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Fade",
               "R1.0": 1.322,
               "ACS": 271,
@@ -767,7 +767,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "Night",
+              "Player": "night",
               "Agent": "Neon",
               "R1.0": 1.087,
               "ACS": 268,

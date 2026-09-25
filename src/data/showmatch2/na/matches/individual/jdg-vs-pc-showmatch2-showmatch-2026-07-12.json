@@ -79,7 +79,7 @@
 					"PlusMinus2": 0
 				},
 				{
-					"Player": "Luca",
+					"Player": "luca",
 					"R1.0": 1.077,
 					"ACS": 231,
 					"K": 50,
@@ -365,7 +365,7 @@
 							"PlusMinus2": 1
 						},
 						{
-							"Player": "Luca",
+							"Player": "luca",
 							"Agent": "Chamber",
 							"R1.0": 1.209,
 							"ACS": 272,
@@ -688,7 +688,7 @@
 							"PlusMinus2": 1
 						},
 						{
-							"Player": "Luca",
+							"Player": "luca",
 							"Agent": "Chamber",
 							"R1.0": 1.085,
 							"ACS": 245,
@@ -1003,7 +1003,7 @@
 							"PlusMinus2": -1
 						},
 						{
-							"Player": "Luca",
+							"Player": "luca",
 							"Agent": "Skye",
 							"R1.0": 0.88,
 							"ACS": 157,

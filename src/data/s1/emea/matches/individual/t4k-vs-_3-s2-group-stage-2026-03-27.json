@@ -94,7 +94,7 @@
           "PlusMinus2": -3
         },
         {
-          "Player": "linus",
+          "Player": "Linus",
           "R1.0": 0.833,
           "ACS": 172,
           "K": 31,
@@ -359,7 +359,7 @@
               "PlusMinus2": -3
             },
             {
-              "Player": "linus",
+              "Player": "Linus",
               "Agent": "Skye",
               "R1.0": 0.557,
               "ACS": 122,
@@ -660,7 +660,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "linus",
+              "Player": "Linus",
               "Agent": "Raze",
               "R1.0": 0.895,
               "ACS": 189,
@@ -941,7 +941,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "linus",
+              "Player": "Linus",
               "Agent": "Neon",
               "R1.0": 1.006,
               "ACS": 196,

@@ -126,7 +126,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "Night",
+            "Player": "night",
             "R1.0": 1.096,
             "ACS": 229,
             "K": 35,
@@ -399,7 +399,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Omen",
                 "R1.0": 0.801,
                 "ACS": 185,
@@ -748,7 +748,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Omen",
                 "R1.0": 1.264,
                 "ACS": 254,
@@ -3339,7 +3339,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "Night",
+            "Player": "night",
             "R1.0": 1.204,
             "ACS": 270,
             "K": 40,
@@ -3627,7 +3627,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Fade",
                 "R1.0": 1.322,
                 "ACS": 271,
@@ -3966,7 +3966,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Neon",
                 "R1.0": 1.087,
                 "ACS": 268,
@@ -5198,7 +5198,7 @@
             "PlusMinus2": 5
           },
           {
-            "Player": "Night",
+            "Player": "night",
             "R1.0": 1.104,
             "ACS": 247,
             "K": 54,
@@ -5484,7 +5484,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Neon",
                 "R1.0": 1.016,
                 "ACS": 254,
@@ -5795,7 +5795,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Jett",
                 "R1.0": 1.261,
                 "ACS": 271,
@@ -6144,7 +6144,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Phoenix",
                 "R1.0": 1.057,
                 "ACS": 227,
@@ -8276,7 +8276,7 @@
             "PlusMinus2": -2
           },
           {
-            "Player": "Night",
+            "Player": "night",
             "R1.0": 1.126,
             "ACS": 263,
             "K": 59,
@@ -8580,7 +8580,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Neon",
                 "R1.0": 1.106,
                 "ACS": 244,
@@ -8909,7 +8909,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Neon",
                 "R1.0": 1.135,
                 "ACS": 273,
@@ -9222,7 +9222,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Neon",
                 "R1.0": 1.135,
                 "ACS": 272,
@@ -9423,7 +9423,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "Night",
+            "Player": "night",
             "R1.0": 1.177,
             "ACS": 265,
             "K": 42,
@@ -9678,7 +9678,7 @@
             "teamName": "Team 1",
             "players": [
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Neon",
                 "R1.0": 1.418,
                 "ACS": 312,
@@ -10029,7 +10029,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "Night",
+                "Player": "night",
                 "Agent": "Neon",
                 "R1.0": 0.978,
                 "ACS": 226,

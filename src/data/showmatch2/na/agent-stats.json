@@ -52,8 +52,8 @@
           "Sova"
         ]
       },
-      "PC": {
-        "team": "PC",
+      "PLAT": {
+        "team": "PLAT",
         "teamName": "Plat Chat",
         "agents": [
           "Jett",
@@ -123,8 +123,8 @@
           "Sova"
         ]
       },
-      "PC": {
-        "team": "PC",
+      "PLAT": {
+        "team": "PLAT",
         "teamName": "Plat Chat",
         "agents": [
           "Jett",
@@ -199,8 +199,8 @@
           "Waylay"
         ]
       },
-      "PC": {
-        "team": "PC",
+      "PLAT": {
+        "team": "PLAT",
         "teamName": "Plat Chat",
         "agents": [
           "Fade",

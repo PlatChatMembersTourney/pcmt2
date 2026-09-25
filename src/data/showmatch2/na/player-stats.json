@@ -74,7 +74,7 @@
     },
     {
       "Player": "Shyo",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 1.14,
@@ -97,7 +97,7 @@
       "KMAX": 25
     },
     {
-      "Player": "Luca",
+      "Player": "luca",
       "Team": "JDG",
       "MP": 3,
       "Rounds": 62,
@@ -122,7 +122,7 @@
     },
     {
       "Player": "Mini",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 1.077,
@@ -146,7 +146,7 @@
     },
     {
       "Player": "Sideshow",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 0.764,
@@ -194,7 +194,7 @@
     },
     {
       "Player": "Bren",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 0.691,
@@ -218,7 +218,7 @@
     },
     {
       "Player": "mimi",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 0.678,
@@ -316,7 +316,7 @@
     },
     {
       "Player": "Shyo",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 1.14,
@@ -339,7 +339,7 @@
       "KMAX": 25
     },
     {
-      "Player": "Luca",
+      "Player": "luca",
       "Team": "JDG",
       "MP": 3,
       "Rounds": 62,
@@ -364,7 +364,7 @@
     },
     {
       "Player": "Mini",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 1.077,
@@ -388,7 +388,7 @@
     },
     {
       "Player": "Sideshow",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 0.764,
@@ -436,7 +436,7 @@
     },
     {
       "Player": "Bren",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 0.691,
@@ -460,7 +460,7 @@
     },
     {
       "Player": "mimi",
-      "Team": "PC",
+      "Team": "PLAT",
       "MP": 3,
       "Rounds": 62,
       "R1.0": 0.678,
