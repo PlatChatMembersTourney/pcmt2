@@ -505,55 +505,6 @@
       "KMAX": 38
     },
     {
-<<<<<<< HEAD
-      "Player": "straight",
-      "Team": "TS",
-      "MP": 19,
-      "Rounds": 383,
-      "R1.0": 1.136,
-      "ACS": 249,
-      "K": 329,
-      "D": 286,
-      "A": 94,
-      "K/D": 1.15,
-      "PlusMinus": 43,
-      "KPR": 0.86,
-      "DPR": 0.75,
-      "KAST": 0.742,
-      "ADR": 162.6,
-      "HS%": 0.169,
-      "FK": 73,
-      "FD": 46,
-      "FKPR": 0.19,
-      "FDPR": 0.12,
-      "PlusMinus2": 27,
-      "KMAX": 32
-=======
-      "Player": "Night",
-      "Team": "BAKA",
-      "MP": 12,
-      "Rounds": 260,
-      "R1.0": 1.136,
-      "ACS": 255,
-      "K": 230,
-      "D": 197,
-      "A": 67,
-      "K/D": 1.17,
-      "PlusMinus": 33,
-      "KPR": 0.88,
-      "DPR": 0.76,
-      "KAST": 0.738,
-      "ADR": 158.1,
-      "HS%": 0.236,
-      "FK": 40,
-      "FD": 22,
-      "FKPR": 0.15,
-      "FDPR": 0.08,
-      "PlusMinus2": 18,
-      "KMAX": 25
->>>>>>> 5ef1a064dd5f7bbdeae378697641a296613fec6f
-    },
-    {
       "Player": "psyclone",
       "Team": "100T",
       "MP": 17,
@@ -962,30 +913,6 @@
       "KMAX": 24
     },
     {
-<<<<<<< HEAD
-      "Player": "caleb",
-      "Team": "TL",
-      "MP": 22,
-      "Rounds": 462,
-      "R1.0": 0.999,
-      "ACS": 211,
-      "K": 333,
-      "D": 339,
-      "A": 145,
-      "K/D": 0.98,
-      "PlusMinus": -6,
-      "KPR": 0.72,
-      "DPR": 0.73,
-      "KAST": 0.719,
-      "ADR": 132.4,
-      "HS%": 0.15,
-      "FK": 42,
-      "FD": 42,
-      "FKPR": 0.09,
-      "FDPR": 0.09,
-      "PlusMinus2": 0,
-      "KMAX": 27
-=======
       "Player": "dunkn",
       "Team": "SPG",
       "MP": 20,
@@ -1008,31 +935,6 @@
       "FDPR": 0.05,
       "PlusMinus2": 0,
       "KMAX": 23
-    },
-    {
-      "Player": "night",
-      "Team": "BAKA",
-      "MP": 20,
-      "Rounds": 450,
-      "R1.0": 1.001,
-      "ACS": 214,
-      "K": 331,
-      "D": 348,
-      "A": 142,
-      "K/D": 0.95,
-      "PlusMinus": -17,
-      "KPR": 0.74,
-      "DPR": 0.77,
-      "KAST": 0.68,
-      "ADR": 141.5,
-      "HS%": 0.269,
-      "FK": 33,
-      "FD": 54,
-      "FKPR": 0.07,
-      "FDPR": 0.12,
-      "PlusMinus2": -21,
-      "KMAX": 30
->>>>>>> 5ef1a064dd5f7bbdeae378697641a296613fec6f
     },
     {
       "Player": "snowfall",
@@ -3535,55 +3437,6 @@
       "KMAX": 27
     },
     {
-<<<<<<< HEAD
-      "Player": "straight",
-      "Team": "TS",
-      "MP": 19,
-      "Rounds": 383,
-      "R1.0": 1.136,
-      "ACS": 249,
-      "K": 329,
-      "D": 286,
-      "A": 94,
-      "K/D": 1.15,
-      "PlusMinus": 43,
-      "KPR": 0.86,
-      "DPR": 0.75,
-      "KAST": 0.742,
-      "ADR": 162.6,
-      "HS%": 0.169,
-      "FK": 73,
-      "FD": 46,
-      "FKPR": 0.19,
-      "FDPR": 0.12,
-      "PlusMinus2": 27,
-      "KMAX": 32
-=======
-      "Player": "Night",
-      "Team": "BAKA",
-      "MP": 12,
-      "Rounds": 260,
-      "R1.0": 1.136,
-      "ACS": 255,
-      "K": 230,
-      "D": 197,
-      "A": 67,
-      "K/D": 1.17,
-      "PlusMinus": 33,
-      "KPR": 0.88,
-      "DPR": 0.76,
-      "KAST": 0.738,
-      "ADR": 158.1,
-      "HS%": 0.236,
-      "FK": 40,
-      "FD": 22,
-      "FKPR": 0.15,
-      "FDPR": 0.08,
-      "PlusMinus2": 18,
-      "KMAX": 25
->>>>>>> 5ef1a064dd5f7bbdeae378697641a296613fec6f
-    },
-    {
       "Player": "psyclone",
       "Team": "100T",
       "MP": 17,
@@ -3874,24 +3727,6 @@
     {
       "Player": "dunkn",
       "Team": "SPG",
-<<<<<<< HEAD
-      "MP": 18,
-      "Rounds": 385,
-      "R1.0": 0.994,
-      "ACS": 175,
-      "K": 235,
-      "D": 234,
-      "A": 204,
-      "K/D": 1.0,
-      "PlusMinus": 1,
-      "KPR": 0.61,
-      "DPR": 0.61,
-      "KAST": 0.764,
-      "ADR": 107.4,
-      "HS%": 0.156,
-      "FK": 20,
-      "FD": 20,
-=======
       "MP": 20,
       "Rounds": 421,
       "R1.0": 1.002,
@@ -3908,40 +3743,12 @@
       "HS%": 0.162,
       "FK": 22,
       "FD": 22,
->>>>>>> 5ef1a064dd5f7bbdeae378697641a296613fec6f
       "FKPR": 0.05,
       "FDPR": 0.05,
       "PlusMinus2": 0,
       "KMAX": 23
     },
     {
-<<<<<<< HEAD
-=======
-      "Player": "night",
-      "Team": "BAKA",
-      "MP": 20,
-      "Rounds": 450,
-      "R1.0": 1.001,
-      "ACS": 214,
-      "K": 331,
-      "D": 348,
-      "A": 142,
-      "K/D": 0.95,
-      "PlusMinus": -17,
-      "KPR": 0.74,
-      "DPR": 0.77,
-      "KAST": 0.68,
-      "ADR": 141.5,
-      "HS%": 0.269,
-      "FK": 33,
-      "FD": 54,
-      "FKPR": 0.07,
-      "FDPR": 0.12,
-      "PlusMinus2": -21,
-      "KMAX": 30
-    },
-    {
->>>>>>> 5ef1a064dd5f7bbdeae378697641a296613fec6f
       "Player": "kaydeg",
       "Team": "NAVI",
       "MP": 22,
@@ -4832,9 +4639,6 @@
       "KMAX": 20
     },
     {
-<<<<<<< HEAD
-      "Player": "night",
-=======
       "Player": "phuzzy",
       "Team": "SPG",
       "MP": 4,
@@ -4883,8 +4687,7 @@
       "KMAX": 25
     },
     {
-      "Player": "Night",
->>>>>>> 5ef1a064dd5f7bbdeae378697641a296613fec6f
+      "Player": "night",
       "Team": "BAKA",
       "MP": 2,
       "Rounds": 44,
