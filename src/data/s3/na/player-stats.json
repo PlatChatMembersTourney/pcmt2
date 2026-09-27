@@ -1994,7 +1994,7 @@
     },
     {
       "Player": "Latineao",
-      "Team": "(sub)",
+      "Team": "EPY",
       "MP": 14,
       "Rounds": 291,
       "R1.0": 0.501,
@@ -3123,30 +3123,6 @@
       "KMAX": 14
     },
     {
-      "Player": "Latineao",
-      "Team": "(sub)",
-      "MP": 14,
-      "Rounds": 291,
-      "R1.0": 0.501,
-      "ACS": 85,
-      "K": 85,
-      "D": 226,
-      "A": 53,
-      "K/D": 0.38,
-      "PlusMinus": -141,
-      "KPR": 0.29,
-      "DPR": 0.78,
-      "KAST": 0.605,
-      "ADR": 60.9,
-      "HS%": 0.226,
-      "FK": 11,
-      "FD": 24,
-      "FKPR": 0.04,
-      "FDPR": 0.08,
-      "PlusMinus2": -13,
-      "KMAX": 9
-    },
-    {
       "Player": "Epsilon",
       "Team": "(sub)",
       "MP": 2,
@@ -4254,7 +4230,7 @@
     },
     {
       "Player": "Latineao",
-      "Team": "(sub)",
+      "Team": "EPY",
       "MP": 14,
       "Rounds": 291,
       "R1.0": 0.501,
