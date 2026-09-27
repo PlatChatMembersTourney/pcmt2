@@ -21,6 +21,8 @@ const TeamsPage: React.FC = () => {
 	const [stickyPlayerNames, setStickyPlayerNames] = useState(true);
 	const [showShowmatches, setShowShowmatches] = useState(false);
 
+	const [showSubs, setShowSubs] = useState(true);
+
 	const allPlayerStats = useStore($allPlayerStats);
 
 	const handleRegionChange = (newValue: string[]) => {
@@ -60,6 +62,10 @@ const TeamsPage: React.FC = () => {
 			};
 		})
 	);
+
+	// filter out subs if showSubs is false
+	// player is a sub if their team is (sub)
+	const filteredPlayers = showSubs ? players : players.filter((player) => !player.Team.includes('(sub)'));
 
 	return (
 		<div className="dark:bg-vlr-gray-800 bg-vlr-gray-300 flex h-full min-h-0 flex-col font-[roboto]">
@@ -152,13 +158,19 @@ const TeamsPage: React.FC = () => {
 					onClick={() => setShowShowmatches(!showShowmatches)}
 					className={`${showShowmatches ? 'font-bold' : 'font-normal'} bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:text-vlr-text-white text-vlr-text-dark ml-auto cursor-pointer rounded-sm p-2 text-xs`}
 				>
-					Show Showmatches
+					Showmatches
+				</button>
+				<button
+					onClick={() => setShowSubs(!showSubs)}
+					className={`${showSubs ? 'font-bold' : 'font-normal'} bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:text-vlr-text-white text-vlr-text-dark ml-2 cursor-pointer rounded-sm p-2 text-xs`}
+				>
+					Show Subs
 				</button>
 			</div>
 
 			{players.length > 0 ? (
 				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 min-h-0 flex-1 px-4 pt-2 pb-4 sm:px-6 sm:pt-4 sm:pb-6">
-					<PlayerStatTable playerStats={players} showSeason={true} stickyPlayerNames={stickyPlayerNames} />
+					<PlayerStatTable playerStats={filteredPlayers} showSeason={true} stickyPlayerNames={stickyPlayerNames} />
 				</div>
 			) : (
 				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 dark:text-vlr-text-white h-full p-4 text-black sm:p-6">

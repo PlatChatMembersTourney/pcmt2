@@ -13,12 +13,14 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 
 	const [activeStage, setActiveStage] = useState(0);
 	const [stickyPlayerNames, setStickyPlayerNames] = useState(true);
+	const [showSubs, setShowSubs] = useState(true);
 
 	if (!event.stages) {
 		return <div className="flex flex-col">No stages available for this event yet.</div>;
 	}
 
 	const players = playerStats[activeStage === 0 ? 'Overall' : stages[activeStage]] || [];
+	const filteredPlayers = showSubs ? players : players.filter((player) => !player.Team.includes('(sub)'));
 
 	return (
 		<div className="flex flex-col">
@@ -56,17 +58,23 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 			</div>
 			{players.length > 0 ? (
 				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 flex h-full max-h-[80vh] flex-col gap-2 p-4 sm:p-6">
-					<div>
+					<div className="flex">
 						<button
 							onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
 							className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:text-vlr-text-white text-vlr-text-dark cursor-pointer rounded-sm p-2 text-xs`}
 						>
 							Sticky Player Names
 						</button>
+						<button
+							onClick={() => setShowSubs(!showSubs)}
+							className={`${showSubs ? 'font-bold' : 'font-normal'} bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:text-vlr-text-white text-vlr-text-dark ml-auto cursor-pointer rounded-sm p-2 text-xs`}
+						>
+							Show Subs
+						</button>
 					</div>
 
 					<PlayerStatTable
-						playerStats={players.map((player: PlayerStats & { eventId?: string }) => {
+						playerStats={filteredPlayers.map((player: PlayerStats & { eventId?: string }) => {
 							player.eventId = event.id;
 							return player;
 						})}
