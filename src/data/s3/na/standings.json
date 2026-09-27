@@ -27,17 +27,30 @@
       "rndDiff": 77
     },
     {
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
+      "matchW": 6,
+      "matchL": 3,
+      "mapW": 12,
+      "mapL": 7,
+      "rndW": 216,
+      "rndL": 194,
+      "rank": 3,
+      "mapDiff": 5,
+      "rndDiff": 22
+    },
+    {
       "abbr": "SRB",
       "name": "Sunshine and Rainbows",
       "matchW": 6,
-      "matchL": 2,
+      "matchL": 3,
       "mapW": 13,
-      "mapL": 6,
-      "rndW": 225,
-      "rndL": 199,
-      "rank": 3,
-      "mapDiff": 7,
-      "rndDiff": 26
+      "mapL": 8,
+      "rndW": 243,
+      "rndL": 227,
+      "rank": 4,
+      "mapDiff": 5,
+      "rndDiff": 16
     },
     {
       "abbr": "C9",
@@ -48,7 +61,7 @@
       "mapL": 9,
       "rndW": 239,
       "rndL": 222,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": 3,
       "rndDiff": 17
     },
@@ -61,22 +74,9 @@
       "mapL": 8,
       "rndW": 209,
       "rndL": 193,
-      "rank": 5,
-      "mapDiff": 3,
-      "rndDiff": 16
-    },
-    {
-      "abbr": "NAVI",
-      "name": "No Actual Valorant Intelligence",
-      "matchW": 5,
-      "matchL": 3,
-      "mapW": 10,
-      "mapL": 7,
-      "rndW": 188,
-      "rndL": 176,
       "rank": 6,
       "mapDiff": 3,
-      "rndDiff": 12
+      "rndDiff": 16
     },
     {
       "abbr": "FSG",
@@ -320,14 +320,14 @@
       "abbr": "SRB",
       "name": "Sunshine and Rainbows",
       "matchW": 6,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 13,
-      "mapL": 4,
-      "rndW": 207,
-      "rndL": 173,
+      "mapL": 6,
+      "rndW": 225,
+      "rndL": 201,
       "rank": 1,
-      "mapDiff": 9,
-      "rndDiff": 34
+      "mapDiff": 7,
+      "rndDiff": 24
     },
     {
       "abbr": "SPG",
@@ -343,6 +343,19 @@
       "rndDiff": 49
     },
     {
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
+      "matchW": 5,
+      "matchL": 3,
+      "mapW": 10,
+      "mapL": 7,
+      "rndW": 190,
+      "rndL": 172,
+      "rank": 3,
+      "mapDiff": 3,
+      "rndDiff": 18
+    },
+    {
       "abbr": "TS",
       "name": "Team Slugshow",
       "matchW": 4,
@@ -351,22 +364,9 @@
       "mapL": 7,
       "rndW": 182,
       "rndL": 165,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 3,
       "rndDiff": 17
-    },
-    {
-      "abbr": "NAVI",
-      "name": "No Actual Valorant Intelligence",
-      "matchW": 4,
-      "matchL": 3,
-      "mapW": 8,
-      "mapL": 7,
-      "rndW": 162,
-      "rndL": 154,
-      "rank": 4,
-      "mapDiff": 1,
-      "rndDiff": 8
     },
     {
       "abbr": "100T",

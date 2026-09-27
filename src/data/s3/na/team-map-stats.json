@@ -1418,8 +1418,8 @@
   "NAVI": {
     "team": "NAVI",
     "teamName": "No Actual Valorant Intelligence",
-    "overallAtkPct": 0.581,
-    "overallDefPct": 0.44,
+    "overallAtkPct": 0.585,
+    "overallDefPct": 0.457,
     "maps": [
       {
         "map": "Abyss",
@@ -1437,7 +1437,7 @@
       {
         "map": "Ascent",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 2,
         "won": 1,
         "winPct": 0.5,
@@ -1529,14 +1529,14 @@
         "map": "Lotus",
         "pick": 0,
         "ban": 4,
-        "played": 4,
-        "won": 2,
-        "winPct": 0.5,
-        "rounds": 85,
-        "roundsWon": 38,
-        "roundPct": 0.447,
-        "atkPct": 0.562,
-        "defPct": 0.297
+        "played": 5,
+        "won": 3,
+        "winPct": 0.6,
+        "rounds": 113,
+        "roundsWon": 53,
+        "roundPct": 0.469,
+        "atkPct": 0.565,
+        "defPct": 0.353
       },
       {
         "map": "Pearl",
@@ -1566,21 +1566,21 @@
       },
       {
         "map": "Summit",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 2,
-        "won": 2,
+        "played": 3,
+        "won": 3,
         "winPct": 1.0,
-        "rounds": 46,
-        "roundsWon": 26,
-        "roundPct": 0.565,
-        "atkPct": 0.545,
-        "defPct": 0.583
+        "rounds": 64,
+        "roundsWon": 39,
+        "roundPct": 0.609,
+        "atkPct": 0.588,
+        "defPct": 0.633
       },
       {
         "map": "Sunset",
         "pick": 1,
-        "ban": 2,
+        "ban": 3,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -1949,13 +1949,13 @@
   "SRB": {
     "team": "SRB",
     "teamName": "Sunshine and Rainbows",
-    "overallAtkPct": 0.578,
-    "overallDefPct": 0.481,
+    "overallAtkPct": 0.563,
+    "overallDefPct": 0.47,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -2033,7 +2033,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 7,
+        "ban": 8,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -2058,16 +2058,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 0,
+        "pick": 1,
         "ban": 2,
-        "played": 2,
+        "played": 3,
         "won": 2,
-        "winPct": 1.0,
-        "rounds": 54,
-        "roundsWon": 29,
-        "roundPct": 0.537,
-        "atkPct": 0.385,
-        "defPct": 0.679
+        "winPct": 0.667,
+        "rounds": 82,
+        "roundsWon": 42,
+        "roundPct": 0.512,
+        "atkPct": 0.425,
+        "defPct": 0.595
       },
       {
         "map": "Pearl",
@@ -2099,14 +2099,14 @@
         "map": "Summit",
         "pick": 1,
         "ban": 0,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "winPct": 0.5,
-        "rounds": 38,
-        "roundsWon": 21,
-        "roundPct": 0.553,
-        "atkPct": 0.619,
-        "defPct": 0.471
+        "winPct": 0.333,
+        "rounds": 56,
+        "roundsWon": 26,
+        "roundPct": 0.464,
+        "atkPct": 0.519,
+        "defPct": 0.414
       },
       {
         "map": "Sunset",

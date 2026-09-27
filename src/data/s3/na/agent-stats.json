@@ -1133,109 +1133,109 @@
     }
   },
   "Lotus": {
-    "mapsPlayed": 30,
+    "mapsPlayed": 31,
     "atkPct": 0.53,
     "defPct": 0.47,
     "agents": [
       {
-        "agent": "Raze",
-        "comps": 16,
-        "pickPct": 0.267
-      },
-      {
         "agent": "Fade",
         "comps": 16,
-        "pickPct": 0.267
+        "pickPct": 0.258
+      },
+      {
+        "agent": "Raze",
+        "comps": 16,
+        "pickPct": 0.258
       },
       {
         "agent": "Omen",
         "comps": 15,
-        "pickPct": 0.25
+        "pickPct": 0.242
+      },
+      {
+        "agent": "Chamber",
+        "comps": 12,
+        "pickPct": 0.194
       },
       {
         "agent": "Vyse",
         "comps": 12,
-        "pickPct": 0.2
-      },
-      {
-        "agent": "Chamber",
-        "comps": 11,
-        "pickPct": 0.183
+        "pickPct": 0.194
       },
       {
         "agent": "Neon",
         "comps": 10,
-        "pickPct": 0.167
+        "pickPct": 0.161
       },
       {
         "agent": "Viper",
-        "comps": 6,
-        "pickPct": 0.1
+        "comps": 7,
+        "pickPct": 0.113
       },
       {
         "agent": "Clove",
         "comps": 5,
-        "pickPct": 0.083
+        "pickPct": 0.081
       },
       {
         "agent": "Yoru",
         "comps": 5,
-        "pickPct": 0.083
+        "pickPct": 0.081
       },
       {
         "agent": "Tejo",
         "comps": 3,
-        "pickPct": 0.05
+        "pickPct": 0.048
       },
       {
         "agent": "Jett",
         "comps": 3,
-        "pickPct": 0.05
+        "pickPct": 0.048
       },
       {
         "agent": "Cypher",
         "comps": 3,
-        "pickPct": 0.05
+        "pickPct": 0.048
       },
       {
         "agent": "Skye",
         "comps": 2,
-        "pickPct": 0.033
+        "pickPct": 0.032
       },
       {
         "agent": "Phoenix",
         "comps": 2,
-        "pickPct": 0.033
+        "pickPct": 0.032
       },
       {
         "agent": "Breach",
         "comps": 2,
-        "pickPct": 0.033
+        "pickPct": 0.032
       },
       {
         "agent": "Killjoy",
         "comps": 2,
-        "pickPct": 0.033
+        "pickPct": 0.032
       },
       {
         "agent": "Waylay",
         "comps": 2,
-        "pickPct": 0.033
+        "pickPct": 0.032
       },
       {
         "agent": "Reyna",
         "comps": 1,
-        "pickPct": 0.017
+        "pickPct": 0.016
       },
       {
         "agent": "Deadlock",
         "comps": 1,
-        "pickPct": 0.017
+        "pickPct": 0.016
       },
       {
         "agent": "Astra",
         "comps": 1,
-        "pickPct": 0.017
+        "pickPct": 0.016
       }
     ],
     "teams": {
@@ -1387,10 +1387,12 @@
         "team": "SRB",
         "teamName": "Sunshine and Rainbows",
         "agents": [
+          "Chamber",
           "Fade",
           "Neon",
           "Omen",
           "Raze",
+          "Viper",
           "Vyse"
         ]
       },
@@ -2009,119 +2011,119 @@
     }
   },
   "Summit": {
-    "mapsPlayed": 12,
-    "atkPct": 0.54,
-    "defPct": 0.46,
+    "mapsPlayed": 13,
+    "atkPct": 0.538,
+    "defPct": 0.462,
     "agents": [
       {
         "agent": "Fade",
-        "comps": 9,
-        "pickPct": 0.375
+        "comps": 10,
+        "pickPct": 0.385
       },
       {
         "agent": "Neon",
         "comps": 8,
-        "pickPct": 0.333
+        "pickPct": 0.308
       },
       {
         "agent": "Phoenix",
         "comps": 8,
-        "pickPct": 0.333
+        "pickPct": 0.308
       },
       {
         "agent": "Omen",
         "comps": 7,
-        "pickPct": 0.292
+        "pickPct": 0.269
       },
       {
         "agent": "Cypher",
         "comps": 6,
-        "pickPct": 0.25
+        "pickPct": 0.231
       },
       {
         "agent": "Chamber",
         "comps": 5,
-        "pickPct": 0.208
+        "pickPct": 0.192
       },
       {
         "agent": "Jett",
         "comps": 5,
-        "pickPct": 0.208
+        "pickPct": 0.192
       },
       {
         "agent": "Sova",
         "comps": 5,
-        "pickPct": 0.208
+        "pickPct": 0.192
       },
       {
         "agent": "Harbor",
         "comps": 4,
-        "pickPct": 0.167
+        "pickPct": 0.154
       },
       {
         "agent": "Viper",
         "comps": 4,
-        "pickPct": 0.167
+        "pickPct": 0.154
+      },
+      {
+        "agent": "Yoru",
+        "comps": 3,
+        "pickPct": 0.115
       },
       {
         "agent": "Clove",
         "comps": 3,
-        "pickPct": 0.125
+        "pickPct": 0.115
       },
       {
         "agent": "Vyse",
         "comps": 3,
-        "pickPct": 0.125
+        "pickPct": 0.115
       },
       {
         "agent": "Astra",
         "comps": 3,
-        "pickPct": 0.125
+        "pickPct": 0.115
       },
       {
         "agent": "Waylay",
         "comps": 3,
-        "pickPct": 0.125
+        "pickPct": 0.115
       },
       {
         "agent": "Gekko",
         "comps": 2,
-        "pickPct": 0.083
-      },
-      {
-        "agent": "Yoru",
-        "comps": 2,
-        "pickPct": 0.083
+        "pickPct": 0.077
       },
       {
         "agent": "Raze",
         "comps": 2,
-        "pickPct": 0.083
+        "pickPct": 0.077
       },
       {
         "agent": "Sage",
         "comps": 2,
-        "pickPct": 0.083
+        "pickPct": 0.077
       },
       {
         "agent": "Skye",
         "comps": 1,
-        "pickPct": 0.042
+        "pickPct": 0.038
       },
       {
         "agent": "KAY/O",
         "comps": 1,
-        "pickPct": 0.042
+        "pickPct": 0.038
       },
       {
         "agent": "Deadlock",
         "comps": 1,
-        "pickPct": 0.042
+        "pickPct": 0.038
       },
       {
         "agent": "Reyna",
         "comps": 1,
-        "pickPct": 0.042
+        "pickPct": 0.038
       }
     ],
     "teams": {
@@ -2245,11 +2247,13 @@
         "teamName": "Sunshine and Rainbows",
         "agents": [
           "Cypher",
+          "Fade",
           "Neon",
           "Omen",
           "Raze",
           "Skye",
-          "Vyse"
+          "Vyse",
+          "Yoru"
         ]
       },
       "SSG": {
