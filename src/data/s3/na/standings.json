@@ -27,6 +27,19 @@
       "rndDiff": 77
     },
     {
+      "abbr": "C9",
+      "name": "Clown9",
+      "matchW": 6,
+      "matchL": 2,
+      "mapW": 12,
+      "mapL": 9,
+      "rndW": 239,
+      "rndL": 222,
+      "rank": 3,
+      "mapDiff": 3,
+      "rndDiff": 17
+    },
+    {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 6,
@@ -35,7 +48,7 @@
       "mapL": 7,
       "rndW": 216,
       "rndL": 194,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 5,
       "rndDiff": 22
     },
@@ -48,22 +61,9 @@
       "mapL": 8,
       "rndW": 243,
       "rndL": 227,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": 5,
       "rndDiff": 16
-    },
-    {
-      "abbr": "C9",
-      "name": "Clown9",
-      "matchW": 6,
-      "matchL": 2,
-      "mapW": 12,
-      "mapL": 9,
-      "rndW": 239,
-      "rndL": 222,
-      "rank": 5,
-      "mapDiff": 3,
-      "rndDiff": 17
     },
     {
       "abbr": "TL",
@@ -105,19 +105,6 @@
       "rndDiff": -10
     },
     {
-      "abbr": "SSG",
-      "name": "Squirtle Squad Gaming",
-      "matchW": 3,
-      "matchL": 4,
-      "mapW": 8,
-      "mapL": 8,
-      "rndW": 188,
-      "rndL": 170,
-      "rank": 9,
-      "mapDiff": 0,
-      "rndDiff": 18
-    },
-    {
       "abbr": "100T",
       "name": "100 Tony's",
       "matchW": 3,
@@ -126,9 +113,22 @@
       "mapL": 10,
       "rndW": 179,
       "rndL": 185,
-      "rank": 10,
+      "rank": 9,
       "mapDiff": -3,
       "rndDiff": -6
+    },
+    {
+      "abbr": "SSG",
+      "name": "Squirtle Squad Gaming",
+      "matchW": 3,
+      "matchL": 4,
+      "mapW": 8,
+      "mapL": 8,
+      "rndW": 188,
+      "rndL": 170,
+      "rank": 10,
+      "mapDiff": 0,
+      "rndDiff": 18
     },
     {
       "abbr": "BAKA",
@@ -211,19 +211,6 @@
   ],
   "Group Alpha": [
     {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 6,
-      "matchL": 1,
-      "mapW": 12,
-      "mapL": 4,
-      "rndW": 185,
-      "rndL": 154,
-      "rank": 1,
-      "mapDiff": 8,
-      "rndDiff": 31
-    },
-    {
       "abbr": "C9",
       "name": "Clown9",
       "matchW": 6,
@@ -232,9 +219,22 @@
       "mapL": 7,
       "rndW": 229,
       "rndL": 196,
-      "rank": 2,
+      "rank": 1,
       "mapDiff": 5,
       "rndDiff": 33
+    },
+    {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 6,
+      "matchL": 1,
+      "mapW": 12,
+      "mapL": 4,
+      "rndW": 185,
+      "rndL": 154,
+      "rank": 2,
+      "mapDiff": 8,
+      "rndDiff": 31
     },
     {
       "abbr": "FSG",

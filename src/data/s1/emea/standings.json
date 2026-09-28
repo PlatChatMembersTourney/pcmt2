@@ -122,19 +122,6 @@
       "rndDiff": 12
     },
     {
-      "abbr": "<3",
-      "name": "Less Than Three",
-      "matchW": 1,
-      "matchL": 1,
-      "mapW": 3,
-      "mapL": 2,
-      "rndW": 57,
-      "rndL": 54,
-      "rank": 2,
-      "mapDiff": 1,
-      "rndDiff": 3
-    },
-    {
       "abbr": "MISC",
       "name": "Mischifs",
       "matchW": 1,
@@ -143,9 +130,22 @@
       "mapL": 4,
       "rndW": 59,
       "rndL": 69,
-      "rank": 3,
+      "rank": 2,
       "mapDiff": -2,
       "rndDiff": -10
+    },
+    {
+      "abbr": "<3",
+      "name": "Less Than Three",
+      "matchW": 1,
+      "matchL": 1,
+      "mapW": 3,
+      "mapL": 2,
+      "rndW": 57,
+      "rndL": 54,
+      "rank": 3,
+      "mapDiff": 1,
+      "rndDiff": 3
     },
     {
       "abbr": "T4K",
