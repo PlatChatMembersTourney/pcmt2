@@ -6,12 +6,12 @@
 		"final": "Grand Final"
 	},
 		"upper": [
-			[{ "teams": [null, "NOOT"], "placeholders": ["Alpha #2", null] }, { "teams": [null, "NATS"], "placeholders": ["Alpha #3", null] }],
-			[{ "teams": ["SOG", null] }, { "teams": [null, null], "placeholders": ["Alpha #1", null] }],
+			[{ "teams": ["XTC", "NOOT"], "placeholders": [null, null] }, { "teams": ["ATLC", "NATS"], "placeholders": [null, null] }],
+			[{ "teams": ["SOG", null] }, { "teams": ["NIP", null], "placeholders": ["Alpha #1", null] }],
 			[{ "teams": [null, null] }]
 		],
 		"lower": [
-			[{ "teams": [null, "SEAL"], "placeholders": ["Alpha #4",null] }, { "teams": ["LARP", "HOT"], "placeholders": [null, null] }],
+			[{ "teams": ["FAZE", "SEAL"], "placeholders": [null, null] }, { "teams": ["LARP", "HOT"], "placeholders": [null, null] }],
 			[{ "teams": [null, null], "placeholders": ["Upper QF Loser #1", null] }, { "teams": [null, null], "placeholders": ["Upper QF Loser #2", null] }],
 			[{ "teams": [null, null], "placeholders": ["Upper SF Loser #1", null]  }, { "teams": [null, null], "placeholders": ["Upper SF Loser #2", null]  }],
 			[{ "teams": [null, null] }],
