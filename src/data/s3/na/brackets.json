@@ -13,7 +13,7 @@
 		"lower": [
 			[{ "teams": ["FSG", "NAVI"] }, { "teams": ["TS", "TL"] }],
 			[{ "teams": ["SRB", "NAVI"] }, { "teams": ["C9", "TL"] }],
-			[{ "teams": ["NAVI", null] }],
+			[{ "teams": ["NAVI", "C9"] }],
 			[{ "teams": [null, null] }]
 		],
 		"final": [{ "teams": [null, null] }]
