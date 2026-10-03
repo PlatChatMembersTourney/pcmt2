@@ -1,30 +1,30 @@
 {
   "Overall": [
     {
+      "abbr": "SPG",
+      "name": "Spank Ptheory Gaming",
+      "matchW": 8,
+      "matchL": 2,
+      "mapW": 17,
+      "mapL": 6,
+      "rndW": 284,
+      "rndL": 196,
+      "rank": 1,
+      "mapDiff": 11,
+      "rndDiff": 88
+    },
+    {
       "abbr": "T1",
       "name": "Team 1",
       "matchW": 8,
-      "matchL": 1,
-      "mapW": 16,
-      "mapL": 4,
-      "rndW": 237,
-      "rndL": 182,
-      "rank": 1,
-      "mapDiff": 12,
-      "rndDiff": 55
-    },
-    {
-      "abbr": "SPG",
-      "name": "Spank Ptheory Gaming",
-      "matchW": 7,
       "matchL": 2,
-      "mapW": 15,
-      "mapL": 5,
-      "rndW": 249,
-      "rndL": 172,
+      "mapW": 17,
+      "mapL": 6,
+      "rndW": 261,
+      "rndL": 217,
       "rank": 2,
-      "mapDiff": 10,
-      "rndDiff": 77
+      "mapDiff": 11,
+      "rndDiff": 44
     },
     {
       "abbr": "C9",
@@ -425,28 +425,15 @@
     {
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 0,
-      "mapW": 4,
-      "mapL": 0,
-      "rndW": 54,
-      "rndL": 26,
+      "mapW": 6,
+      "mapL": 1,
+      "rndW": 89,
+      "rndL": 50,
       "rank": 1,
-      "mapDiff": 4,
-      "rndDiff": 28
-    },
-    {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 2,
-      "matchL": 0,
-      "mapW": 4,
-      "mapL": 0,
-      "rndW": 52,
-      "rndL": 28,
-      "rank": 2,
-      "mapDiff": 4,
-      "rndDiff": 24
+      "mapDiff": 5,
+      "rndDiff": 39
     },
     {
       "abbr": "NAVI",
@@ -457,9 +444,22 @@
       "mapL": 0,
       "rndW": 54,
       "rndL": 40,
-      "rank": 3,
+      "rank": 2,
       "mapDiff": 4,
       "rndDiff": 14
+    },
+    {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 5,
+      "mapL": 2,
+      "rndW": 76,
+      "rndL": 63,
+      "rank": 3,
+      "mapDiff": 3,
+      "rndDiff": 13
     },
     {
       "abbr": "TL",
