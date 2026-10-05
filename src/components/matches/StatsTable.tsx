@@ -52,9 +52,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 													<p className="text-bright">
 														0.898 * KPR + 0.228 * APR + 0.0025 * ADRa
 													</p>
-													<p className="mb-1 text-bright">
-														+ 0.313 * KAST + 0.295
-													</p>
+													<p className="text-bright mb-1">+ 0.313 * KAST + 0.295</p>
 													<p>(ADRa = [(ADR * Rounds) - (140 * Kills)] / Rounds)</p>
 												</div>
 											}
@@ -74,12 +72,8 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 													<p className="mb-1">(So like a 1.5, according to Angus.)</p>
 
 													<p className="mb-1">The formula:</p>
-													<p className="text-bright">
-														1.26 * KPR - 0.13 * DPR + 0.55 * APR
-													</p>
-													<p className="text-bright">
-														+ 0.25 * FKPR - 0.26 * FDPR
-													</p>
+													<p className="text-bright">1.26 * KPR - 0.13 * DPR + 0.55 * APR</p>
+													<p className="text-bright">+ 0.25 * FKPR - 0.26 * FDPR</p>
 												</div>
 											}
 											title={"Angus's Rating"}
@@ -98,13 +92,11 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 													<p className="mb-1">Valorant's very own ACS.</p>
 
 													<p className="mb-1">In case you forgot how to calculate it:</p>
-													<p className="text-bright">
-														Combat Score: 1 pt / damage dealt,
-													</p>
+													<p className="text-bright">Combat Score: 1 pt / damage dealt,</p>
 													<p className="text-bright">
 														150/130/110/90/70 pts/kill based on enemies alive,
 													</p>
-													<p className="mb-1 text-bright">
+													<p className="text-bright mb-1">
 														+50 per additional kill, +25 for non-damaging assists
 													</p>
 													<p className="text-bright">
@@ -114,9 +106,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											}
 											title={'Average Combat Score'}
 										>
-											<span className="border-faint border-b-2 border-dotted px-0.5">
-												ACS
-											</span>
+											<span className="border-faint border-b-2 border-dotted px-0.5">ACS</span>
 										</CustomPopover>
 									</th>
 									<th title="Kills">
@@ -146,14 +136,13 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 									const a = [...agents[player.Player]];
 									const pRounds = typeof rounds === 'number' ? rounds : rounds[player.Player];
 									return (
-										<tr
-											className="text-muted px-0.75 text-[11px]"
-											key={player.Player}
-										>
+										<tr className="text-muted px-0.75 text-[11px]" key={player.Player}>
 											<td className="flex h-10 items-center gap-2 bg-transparent! sm:w-25">
 												<img src={playerFlag(player.Player, event.id, event.region)} />
 												<div className="flex flex-col items-start leading-snug">
-													<p className="text-pb text-xs font-medium text-nowrap">{player.Player}</p>
+													<p className="text-pb text-xs font-medium text-nowrap">
+														{player.Player}
+													</p>
 													<p className="text-vlr-text-light text-nowrap">{team.team}</p>
 												</div>
 											</td>
@@ -163,7 +152,13 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 														return (
 															<img
 																src={agentIcon(agent)}
-																className={a.length === 1 ? 'h-7 w-7' : a.length === 2 ? 'h-6 w-6' : 'h-5 w-5'}
+																className={
+																	a.length === 1
+																		? 'h-7 w-7'
+																		: a.length === 2
+																			? 'h-6 w-6'
+																			: 'h-5 w-5'
+																}
 																key={agent}
 															/>
 														);
@@ -196,9 +191,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											</td>
 											<td>
 												<div className="stats-cell mr-1.25 ml-0.5 flex w-8! justify-center font-medium">
-													<span
-														className={plusMinusColor(player.PlusMinus)}
-													>
+													<span className={plusMinusColor(player.PlusMinus)}>
 														{`${player.PlusMinus > 0 ? '+' : ''}${player.PlusMinus}`}
 													</span>
 												</div>
@@ -224,9 +217,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											</td>
 											<td>
 												<div className="stats-cell font-medium">
-													<span
-														className={plusMinusColor(player.PlusMinus2)}
-													>
+													<span className={plusMinusColor(player.PlusMinus2)}>
 														{`${player.PlusMinus2 > 0 ? '+' : ''}${player.PlusMinus2}`}
 													</span>
 												</div>

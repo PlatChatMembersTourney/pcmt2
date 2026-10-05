@@ -24,7 +24,7 @@ const Teams: React.FC<{ event: Event }> = (props: { event: Event }) => {
 					return (
 						<button
 							className={cx(
-								'border-line relative cursor-pointer border-r px-5 py-5 text-xs font-bold first:border-l hover:bg-vlr-gray-300 dark:hover:bg-vlr-gray-500',
+								'border-line hover:bg-vlr-gray-300 dark:hover:bg-vlr-gray-500 relative cursor-pointer border-r px-5 py-5 text-xs font-bold first:border-l',
 								active === label ? 'text-bright' : 'text-pb'
 							)}
 							onClick={() => setActive(idx)}
@@ -41,7 +41,9 @@ const Teams: React.FC<{ event: Event }> = (props: { event: Event }) => {
 										width="16"
 										className={cx(
 											'absolute -bottom-px left-1/2 -translate-x-1/2',
-											['Overview', 'Matches'].includes(active) ? 'fill-shade-200' : 'fill-shade-300'
+											['Overview', 'Matches'].includes(active)
+												? 'fill-shade-200'
+												: 'fill-shade-300'
 										)}
 									>
 										<path d="M0 8 L16 8 L8 0 Z" />

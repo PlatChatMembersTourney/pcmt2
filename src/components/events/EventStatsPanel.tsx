@@ -25,7 +25,7 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 
 	return (
 		<div className="flex flex-col">
-			<div className="bg-shade-200 vlr-box-shadow flex h-15 items-center gap-3 pl-9 text-main sm:pl-11">
+			<div className="bg-shade-200 vlr-box-shadow text-main flex h-15 items-center gap-3 pl-9 sm:pl-11">
 				<div>
 					<p className="text-[10px] font-medium text-red-400 uppercase">Stage:</p>
 				</div>
@@ -44,8 +44,8 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 								className={cx(
 									'box-border h-6 text-xs leading-6',
 									isActive
-										? 'border-b-3 border-red-400 font-bold text-black dark:text-vlr-text-fullwhite'
-										: 'border-b border-dotted border-vlr-border-mid text-main hover:border-transparent hover:font-bold hover:dark:text-vlr-text-fullwhite'
+										? 'dark:text-vlr-text-fullwhite border-b-3 border-red-400 font-bold text-black'
+										: 'border-vlr-border-mid text-main hover:dark:text-vlr-text-fullwhite border-b border-dotted hover:border-transparent hover:font-bold'
 								)}
 							>
 								{stage}
@@ -59,13 +59,19 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 					<div className="flex">
 						<button
 							onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
-							className={cx('bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs', stickyPlayerNames ? 'font-bold' : 'font-normal')}
+							className={cx(
+								'bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs',
+								stickyPlayerNames ? 'font-bold' : 'font-normal'
+							)}
 						>
 							Sticky Player Names
 						</button>
 						<button
 							onClick={() => setShowSubs(!showSubs)}
-							className={cx('bg-shade-100 text-muted ml-auto cursor-pointer rounded-sm p-2 text-xs', showSubs ? 'font-bold' : 'font-normal')}
+							className={cx(
+								'bg-shade-100 text-muted ml-auto cursor-pointer rounded-sm p-2 text-xs',
+								showSubs ? 'font-bold' : 'font-normal'
+							)}
 						>
 							Show Subs
 						</button>
@@ -78,7 +84,7 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 					/>
 				</div>
 			) : (
-				<div className="flex flex-col p-6 text-main">No stats yet. D:</div>
+				<div className="text-main flex flex-col p-6">No stats yet. D:</div>
 			)}
 		</div>
 	);

@@ -131,19 +131,15 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 										</a>
 
 										<p className="mb-1">The formula:</p>
-										<p className="text-bright">
-											0.898 * KPR + 0.228 * APR + 0.0025 * ADRa
-										</p>
-										<p className="mb-1 text-bright">+ 0.313 * KAST + 0.295</p>
+										<p className="text-bright">0.898 * KPR + 0.228 * APR + 0.0025 * ADRa</p>
+										<p className="text-bright mb-1">+ 0.313 * KAST + 0.295</p>
 										<p>(ADRa = [(ADR * Rounds) - (140 * Kills)] / Rounds)</p>
 									</div>
 								}
 								title={"Toxic's Rating"}
 								hover={true}
 							>
-								<span className="border-faint border-b-2 border-dotted px-0.5">
-									Toxic
-								</span>
+								<span className="border-faint border-b-2 border-dotted px-0.5">Toxic</span>
 							</CustomPopover>
 						),
 						id: 'Toxic',
@@ -170,10 +166,8 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 										<p className="mb-1">(So like a 1.5, according to Angus.)</p>
 
 										<p className="mb-1">The formula:</p>
-										<p className="text-bright">
-											1.26 * KPR - 0.13 * DPR + 0.55 * APR
-										</p>
-										<p className="mb-1 text-bright">+ 0.25 * FKPR - 0.26 * FDPR</p>
+										<p className="text-bright">1.26 * KPR - 0.13 * DPR + 0.55 * APR</p>
+										<p className="text-bright mb-1">+ 0.25 * FKPR - 0.26 * FDPR</p>
 										<p>Additionally, on the stats pages, anyone with</p>
 										<p>3 or less maps played incurs a 20% penalty.</p>
 									</div>
@@ -181,9 +175,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 								title={"Angus's Rating"}
 								hover={true}
 							>
-								<span className="border-faint border-b-2 border-dotted px-0.5">
-									Angus
-								</span>
+								<span className="border-faint border-b-2 border-dotted px-0.5">Angus</span>
 							</CustomPopover>
 						),
 						id: 'Angus',
@@ -203,23 +195,17 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 
 									<p className="mb-1">In case you forgot how to calculate it:</p>
 									<p className="text-bright">Combat Score: 1 pt / damage dealt,</p>
-									<p className="text-bright">
-										150/130/110/90/70 pts/kill based on enemies alive,
-									</p>
-									<p className="mb-1 text-bright">
+									<p className="text-bright">150/130/110/90/70 pts/kill based on enemies alive,</p>
+									<p className="text-bright mb-1">
 										+50 per additional kill, +25 for non-damaging assists
 									</p>
-									<p className="text-bright">
-										ACS = Average combat score across all rounds
-									</p>
+									<p className="text-bright">ACS = Average combat score across all rounds</p>
 								</div>
 							}
 							title={'Average Combat Score'}
 							hover={true}
 						>
-							<span className="border-faint border-b-2 border-dotted px-0.5">
-								ACS
-							</span>
+							<span className="border-faint border-b-2 border-dotted px-0.5">ACS</span>
 						</CustomPopover>
 					),
 					id: 'ACS',
@@ -386,15 +372,20 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 										key={header.id}
 										colSpan={header.colSpan}
 										className={cx(
-											'sticky bg-gray-100 dark:bg-vlr-gray-900',
+											'dark:bg-vlr-gray-900 sticky bg-gray-100',
 											isGroupBoundary(header.column) && 'border-line border-r px-1 py-1',
 											stickyClass(header.column.id),
-											groupIdx === 0 ? 'cool-border-top cool-border-pb relative top-0 h-8.75 pt-1.75 after:top-0!' : 'top-8.75'
+											groupIdx === 0
+												? 'cool-border-top cool-border-pb relative top-0 h-8.75 pt-1.75 after:top-0!'
+												: 'top-8.75'
 										)}
 									>
 										{header.isPlaceholder ? null : (
 											<div
-												className={cx(header.column.getCanSort() && 'cursor-pointer text-bright select-none')}
+												className={cx(
+													header.column.getCanSort() &&
+														'text-bright cursor-pointer select-none'
+												)}
 												onClick={header.column.getToggleSortingHandler()}
 												title={
 													header.column.getCanSort()
@@ -423,10 +414,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				</thead>
 				<tbody>
 					{table.getRowModel().rows.map((row, idx) => (
-						<tr
-							key={row.id}
-							className="group odd:bg-shade-100 even:bg-shade-200"
-						>
+						<tr key={row.id} className="group odd:bg-shade-100 even:bg-shade-200">
 							<td className="border-line group-odd:bg-shade-100 group-even:bg-shade-200 sticky left-0 z-10 w-12 min-w-12 border-r px-2.5 py-1">
 								{idx + 1}
 							</td>

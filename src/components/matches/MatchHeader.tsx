@@ -31,7 +31,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 		<div
 			className={cx(
 				event.showmatch ? 'cool-border-pb' : `cool-border-${event.region}`,
-				'vlr-box-shadow bg-shade-100 cool-border-top text-vlr-text-darker relative p-4 sm:p-5 dark:text-vlr-text-white'
+				'vlr-box-shadow bg-shade-100 cool-border-top text-vlr-text-darker dark:text-vlr-text-white relative p-4 sm:p-5'
 			)}
 		>
 			<div className="flex h-9 items-center gap-2">

@@ -1,0 +1,2 @@
+# Generated data files - keep their existing format
+src/data/**/*.json

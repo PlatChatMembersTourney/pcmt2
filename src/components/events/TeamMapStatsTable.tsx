@@ -94,7 +94,10 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 									>
 										{header.isPlaceholder ? null : (
 											<div
-												className={cx(header.column.getCanSort() && 'cursor-pointer text-bright select-none')}
+												className={cx(
+													header.column.getCanSort() &&
+														'text-bright cursor-pointer select-none'
+												)}
 												onClick={header.column.getToggleSortingHandler()}
 												title={
 													header.column.getCanSort()
@@ -121,10 +124,7 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 				</thead>
 				<tbody>
 					{table.getRowModel().rows.map((row, idx) => (
-						<tr
-							key={row.id}
-							className="group odd:bg-shade-100 even:bg-shade-200"
-						>
+						<tr key={row.id} className="group odd:bg-shade-100 even:bg-shade-200">
 							{row.getVisibleCells().map((cell) => (
 								<td
 									key={cell.id}

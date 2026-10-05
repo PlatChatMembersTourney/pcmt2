@@ -65,15 +65,13 @@ const TeamsPage: React.FC = () => {
 			<div className="mx-4 mt-4 flex flex-col gap-2 sm:mx-6 sm:mt-6 sm:gap-4 md:flex-row">
 				<div className="bg-shade-200 vlr-box-shadow flex h-9 w-full items-stretch sm:h-12">
 					<div className="border-line flex items-center border-r px-5">
-						<p className="text-subtle text-[11px] font-bold uppercase">
-							Region
-						</p>
+						<p className="text-subtle text-[11px] font-bold uppercase">Region</p>
 					</div>
 					<ToggleGroup
 						aria-label="NA or EMEA"
 						value={region}
 						onValueChange={handleRegionChange}
-						className="relative flex flex-none text-[12px] text-main"
+						className="text-main relative flex flex-none text-[12px]"
 					>
 						{['All', 'NA', 'EMEA'].map((item) => (
 							<Toggle aria-label={item} value={item} key={item}>
@@ -102,15 +100,13 @@ const TeamsPage: React.FC = () => {
 				</div>
 				<div className="bg-shade-200 vlr-box-shadow flex h-9 w-full items-stretch sm:h-12">
 					<div className="border-line flex items-center border-r px-5">
-						<p className="text-subtle text-[11px] font-bold uppercase">
-							Season
-						</p>
+						<p className="text-subtle text-[11px] font-bold uppercase">Season</p>
 					</div>
 					<ToggleGroup
 						aria-label="Season Number"
 						value={season}
 						onValueChange={handleSeasonChange}
-						className="relative flex flex-none text-[12px] text-main"
+						className="text-main relative flex flex-none text-[12px]"
 					>
 						{['All', 'S1', 'S2', 'S3'].map((item) => (
 							<Toggle aria-label={item} value={item} key={item}>
@@ -141,19 +137,28 @@ const TeamsPage: React.FC = () => {
 			<div className="mx-4 mt-2 flex sm:mx-6 sm:mt-4">
 				<button
 					onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
-					className={cx('bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs', stickyPlayerNames ? 'font-bold' : 'font-normal')}
+					className={cx(
+						'bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs',
+						stickyPlayerNames ? 'font-bold' : 'font-normal'
+					)}
 				>
 					Sticky Player Names
 				</button>
 				<button
 					onClick={() => setShowShowmatches(!showShowmatches)}
-					className={cx('bg-shade-100 text-muted ml-auto cursor-pointer rounded-sm p-2 text-xs', showShowmatches ? 'font-bold' : 'font-normal')}
+					className={cx(
+						'bg-shade-100 text-muted ml-auto cursor-pointer rounded-sm p-2 text-xs',
+						showShowmatches ? 'font-bold' : 'font-normal'
+					)}
 				>
 					Showmatches
 				</button>
 				<button
 					onClick={() => setShowSubs(!showSubs)}
-					className={cx('bg-shade-100 text-muted ml-2 cursor-pointer rounded-sm p-2 text-xs', showSubs ? 'font-bold' : 'font-normal')}
+					className={cx(
+						'bg-shade-100 text-muted ml-2 cursor-pointer rounded-sm p-2 text-xs',
+						showSubs ? 'font-bold' : 'font-normal'
+					)}
 				>
 					Show Subs
 				</button>
@@ -161,10 +166,14 @@ const TeamsPage: React.FC = () => {
 
 			{players.length > 0 ? (
 				<div className="bg-shade-300 min-h-0 flex-1 px-4 pt-2 pb-4 sm:px-6 sm:pt-4 sm:pb-6">
-					<PlayerStatTable playerStats={filteredPlayers} showSeason={true} stickyPlayerNames={stickyPlayerNames} />
+					<PlayerStatTable
+						playerStats={filteredPlayers}
+						showSeason={true}
+						stickyPlayerNames={stickyPlayerNames}
+					/>
 				</div>
 			) : (
-				<div className="bg-shade-300 h-full p-4 text-main sm:p-6">
+				<div className="bg-shade-300 text-main h-full p-4 sm:p-6">
 					<div>
 						<img src={'/res/revealed_no_one.gif'} />
 					</div>

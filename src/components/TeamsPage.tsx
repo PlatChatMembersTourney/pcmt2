@@ -61,7 +61,7 @@ const TeamsPage: React.FC = (props: TeamsPageProps) => {
 		<div className="mt-6 flex flex-col">
 			<div className="flex w-full">
 				<div className="flex-grow">
-					<h1 className="text-xl text-bright">Teams</h1>
+					<h1 className="text-bright text-xl">Teams</h1>
 				</div>
 				<ToggleGroup
 					aria-label="NA or EMEA"

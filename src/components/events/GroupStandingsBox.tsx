@@ -33,7 +33,7 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 
 	return (
 		<table className="[&_th]:border-line [&_td]:border-line vlr-box-shadow overflow-x-auto border-hidden [&_td]:border [&_th]:border">
-			<thead className="dark:bg-vlr-gray-700 h-9 border-collapse bg-neutral-200 text-[10px] text-subtle">
+			<thead className="dark:bg-vlr-gray-700 text-subtle h-9 border-collapse bg-neutral-200 text-[10px]">
 				<th className="h-9 px-3 text-left text-[11px] font-bold">{name}</th>
 				<th className="px-3 font-normal uppercase">REC</th>
 				<th className="px-3 font-normal uppercase">MAP</th>
@@ -41,13 +41,16 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 				<th className="px-3 font-normal uppercase">Δ</th>
 			</thead>
 
-			<tbody className="bg-shade-100 text-[11px] text-subtle">
+			<tbody className="bg-shade-100 text-subtle text-[11px]">
 				{standings.map((standing, index) => {
 					return (
 						<tr key={index}>
 							<td className="h-13 w-full">
 								<div
-									className={cx(groupBorders[colors[index]], 'flex h-full items-center gap-3 border-l-3 px-3 pl-3')}
+									className={cx(
+										groupBorders[colors[index]],
+										'flex h-full items-center gap-3 border-l-3 px-3 pl-3'
+									)}
 								>
 									<div className="flex h-6.25 w-6.25 items-center justify-center">
 										<img
@@ -68,9 +71,8 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 								</div>
 							</td>
 							<td className="px-3 text-center whitespace-nowrap">
-								<span className="font-bold text-main">{standing.matchW}</span>{' '}
-								-{' '}
-								<span className="font-bold text-main">{standing.matchL}</span>
+								<span className="text-main font-bold">{standing.matchW}</span> -{' '}
+								<span className="text-main font-bold">{standing.matchL}</span>
 							</td>
 							<td className="px-3 text-center whitespace-nowrap">
 								<p>

@@ -32,7 +32,7 @@ const shitpostPaths = [
 	'larp.webp',
 	'james1.webp',
 	'angus1.webp',
-	'lucas1.webp'
+	'lucas1.webp',
 ];
 
 function pickN<T>(items: T[], N: number): T[] {
@@ -74,7 +74,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 									href={link}
 									target="_blank"
 									rel="noopener noreferrer"
-									className="vlr-box-shadow bg-shade-200 dark:text-vlr-text-white hover:bg-shade-100 flex h-9 items-center gap-2 pl-4 text-[11px] text-vlr-text-darker sm:pl-5"
+									className="vlr-box-shadow bg-shade-200 dark:text-vlr-text-white hover:bg-shade-100 text-vlr-text-darker flex h-9 items-center gap-2 pl-4 text-[11px] sm:pl-5"
 								>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										viewBox="0 0 24 24"
-										className="dark:stroke-vlr-text-white mr-2 ml-auto h-4 w-4 stroke-vlr-text-darker"
+										className="dark:stroke-vlr-text-white stroke-vlr-text-darker mr-2 ml-auto h-4 w-4"
 									>
 										<path d="M0 0h24v24H0z" fill="none" stroke="none" />
 										<path

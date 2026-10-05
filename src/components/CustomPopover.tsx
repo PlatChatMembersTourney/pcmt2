@@ -25,9 +25,7 @@ const CustomPopover: React.FC<CustomPopoverProps> = ({ children, title, content,
 								side === 'top' ? 'popover-arrow-top' : 'popover-arrow-bottom'
 							)}
 						/>
-						<Popover.Title className="mb-1 text-sm font-medium text-bright">
-							{title}
-						</Popover.Title>
+						<Popover.Title className="text-bright mb-1 text-sm font-medium">{title}</Popover.Title>
 						<Popover.Description className="">{content}</Popover.Description>
 					</Popover.Popup>
 				</Popover.Positioner>

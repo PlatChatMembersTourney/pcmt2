@@ -6,7 +6,7 @@
 export interface Player {
 	Player: string;
 	Agent?: string | null;
-	"R1.0": number;
+	'R1.0': number;
 	ACS: number;
 	K: number;
 	D: number;
@@ -14,7 +14,7 @@ export interface Player {
 	PlusMinus: number;
 	KAST: number;
 	ADR: number;
-	"HS%": number;
+	'HS%': number;
 	FK: number;
 	FD: number;
 	PlusMinus2: number;
@@ -22,7 +22,7 @@ export interface Player {
 }
 
 export interface PlayerStats extends Player {
-	"K/D": number;
+	'K/D': number;
 	Team: string;
 	MP: number;
 	Rounds: number;
@@ -54,8 +54,8 @@ export interface MapScore {
 export interface Round {
 	round: number;
 	winner: 0 | 1 | 2; // which team won - 0 for placeholder rounds
-	side: "atk" | "def";
-	endType?: "Eliminated" | "Bomb detonated" | "Bomb defused" | "Round timer expired"; // how the round ended
+	side: 'atk' | 'def';
+	endType?: 'Eliminated' | 'Bomb detonated' | 'Bomb defused' | 'Round timer expired'; // how the round ended
 	// this only exists on newer data (so may not exist for all games)
 }
 
@@ -82,10 +82,12 @@ export interface Match {
 	maps: MapScore[];
 	combinedStats: TeamStats[]; // whole-match totals per team
 	mapDetails: MapDetail[]; // per-map breakdown
-	streamLink?: string | {
-		link: string;
-		name: string;
-	}[];
+	streamLink?:
+		| string
+		| {
+				link: string;
+				name: string;
+		  }[];
 }
 
 export interface TeamInfo {
@@ -117,7 +119,7 @@ export interface StageInfo {
 }
 
 export interface Format {
-	type: "round-robin" | "bracket" | "showmatch";
+	type: 'round-robin' | 'bracket' | 'showmatch';
 	groups?: number;
 	groupNames?: string[];
 	teamsPerGroup?: number;
@@ -126,7 +128,6 @@ export interface Format {
 		color: string;
 	}[];
 }
-
 
 export type BracketSlot = {
 	teams?: [string | null, string | null]; // team abbrs, top then bottom - null while TBD

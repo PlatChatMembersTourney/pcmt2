@@ -60,15 +60,13 @@ const TeamsPage: React.FC = () => {
 			<div className="flex flex-col gap-4 md:flex-row">
 				<div className="bg-shade-200 vlr-box-shadow flex h-12 w-full items-stretch">
 					<div className="border-line flex items-center border-r px-5">
-						<p className="text-subtle text-[11px] font-bold uppercase">
-							Region
-						</p>
+						<p className="text-subtle text-[11px] font-bold uppercase">Region</p>
 					</div>
 					<ToggleGroup
 						aria-label="NA or EMEA"
 						value={region}
 						onValueChange={handleRegionChange}
-						className="relative flex flex-none text-[12px] text-main"
+						className="text-main relative flex flex-none text-[12px]"
 					>
 						{['All', 'NA', 'EMEA'].map((item) => (
 							<Toggle aria-label={item} value={item} key={item}>
@@ -97,15 +95,13 @@ const TeamsPage: React.FC = () => {
 				</div>
 				<div className="bg-shade-200 vlr-box-shadow flex h-12 w-full items-stretch">
 					<div className="border-line flex items-center border-r px-5">
-						<p className="text-subtle text-[11px] font-bold uppercase">
-							Season
-						</p>
+						<p className="text-subtle text-[11px] font-bold uppercase">Season</p>
 					</div>
 					<ToggleGroup
 						aria-label="Season Number"
 						value={season}
 						onValueChange={handleSeasonChange}
-						className="relative flex flex-none text-[12px] text-main"
+						className="text-main relative flex flex-none text-[12px]"
 					>
 						{['All', 'S1', 'S2', 'S3'].map((item) => (
 							<Toggle aria-label={item} value={item} key={item}>
@@ -135,7 +131,7 @@ const TeamsPage: React.FC = () => {
 			</div>
 
 			{matchesGrouped?.length > 0 ? (
-				<div className="bg-shade-300 flex flex-col gap-7.5 py-6 text-main">
+				<div className="bg-shade-300 text-main flex flex-col gap-7.5 py-6">
 					{matchesGrouped.map(({ date, items }) => {
 						return (
 							<div className="flex flex-col" key={date}>
@@ -159,7 +155,7 @@ const TeamsPage: React.FC = () => {
 					})}
 				</div>
 			) : (
-				<div className="bg-shade-300 h-full py-6 text-main">
+				<div className="bg-shade-300 text-main h-full py-6">
 					<div>
 						<img src={'/res/exist.png'} />
 					</div>

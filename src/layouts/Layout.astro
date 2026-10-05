@@ -1,27 +1,19 @@
 ---
-import '../styles/global.css'
-import Header from '../components/Header.astro'
-import Footer from '../components/Footer.astro'
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 interface Props {
-	title: string
-	desc: string
-	ogTitle?: string
-	img?: string
-	activePage: string
-	bodyClass?: string
-	mainClass?: string
+	title: string;
+	desc: string;
+	ogTitle?: string;
+	img?: string;
+	activePage: string;
+	bodyClass?: string;
+	mainClass?: string;
 }
 
-const {
-	title,
-	desc,
-	ogTitle,
-	img = '/icons/PCMT Logo.png',
-	activePage,
-	bodyClass,
-	mainClass
-} = Astro.props
+const { title, desc, ogTitle, img = '/icons/PCMT Logo.png', activePage, bodyClass, mainClass } = Astro.props;
 ---
 
 <html lang="en">
@@ -50,13 +42,13 @@ const {
 
 		<!-- Prevent FART -->
 		<script is:inline>
-			if (localStorage?.getItem("theme") === 'light') {
+			if (localStorage?.getItem('theme') === 'light') {
 				document.body.classList.remove('dark');
 			} else {
 				document.body.classList.add('dark');
 			}
 
-			if (localStorage?.getItem("fun") === 'yes') {
+			if (localStorage?.getItem('fun') === 'yes') {
 				document.body.classList.add('fun');
 			} else {
 				document.body.classList.remove('fun');
@@ -64,10 +56,11 @@ const {
 		</script>
 	</head>
 	<body
-		class={bodyClass ?? "bg-white text-bright dark:bg-vlr-gray-800 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"}
+		class={bodyClass ??
+			'bg-white text-bright dark:bg-vlr-gray-800 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]'}
 	>
 		<Header activePage={activePage} />
-		<main class={mainClass ?? "mx-auto w-full max-w-315 root min-w-0"}>
+		<main class={mainClass ?? 'mx-auto w-full max-w-315 root min-w-0'}>
 			<slot />
 		</main>
 		<Footer />

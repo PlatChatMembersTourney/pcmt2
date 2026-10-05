@@ -26,7 +26,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 			href={`/events/${event.id}/${slugify(match.id)}`}
 			className={cx(
 				event.showmatch ? 'cool-border-pb' : `cool-border-${event.region}`,
-				'bg-shade-100 cool-border relative flex h-14 w-full items-center px-4 hover:bg-vlr-gray-150 md:px-5 dark:hover:bg-vlr-gray-500',
+				'bg-shade-100 cool-border hover:bg-vlr-gray-150 dark:hover:bg-vlr-gray-500 relative flex h-14 w-full items-center px-4 md:px-5',
 				addlClass
 			)}
 		>
@@ -71,17 +71,15 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 								<p
 									className={cx(
 										'ml-auto flex-none underline',
-										winner ? 'text-muted font-medium' : 'text-vlr-text-gray dark:text-vlr-text-light font-normal'
+										winner
+											? 'text-muted font-medium'
+											: 'text-vlr-text-gray dark:text-vlr-text-light font-normal'
 									)}
 								>
 									{score}
 								</p>
 							) : (
-								<p
-									className="text-muted ml-auto flex-none font-medium"
-								>
-									-
-								</p>
+								<p className="text-muted ml-auto flex-none font-medium">-</p>
 							)}
 						</div>
 					);
@@ -90,19 +88,19 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 			<div className="hidden items-center text-[11px] sm:flex">
 				{match.completed ? (
 					<>
-						<div className="rounded-l-sm bg-vlr-text-silver px-1.5 py-1 text-white dark:bg-vlr-text-gray dark:text-vlr-text-offwhite">
+						<div className="bg-vlr-text-silver dark:bg-vlr-text-gray dark:text-vlr-text-offwhite rounded-l-sm px-1.5 py-1 text-white">
 							Completed
 						</div>
-						<div className="rounded-r-sm bg-vlr-text-gray py-1 pr-1.5 pl-1 font-medium text-white dark:bg-[#777] dark:text-vlr-text-offwhite">
+						<div className="bg-vlr-text-gray dark:text-vlr-text-offwhite rounded-r-sm py-1 pr-1.5 pl-1 font-medium text-white dark:bg-[#777]">
 							{timeAgo(match.date)}
 						</div>
 					</>
 				) : (
 					<>
-						<div className="rounded-l-sm bg-vlr-green-dark px-1.5 py-1 text-white dark:bg-vlr-green dark:text-vlr-text-offwhite">
+						<div className="bg-vlr-green-dark dark:bg-vlr-green dark:text-vlr-text-offwhite rounded-l-sm px-1.5 py-1 text-white">
 							Upcoming
 						</div>
-						<div className="rounded-r-sm bg-vlr-green py-1 pr-1.5 pl-1 font-medium text-white dark:bg-vlr-green-dark dark:text-vlr-text-offwhite">
+						<div className="bg-vlr-green dark:bg-vlr-green-dark dark:text-vlr-text-offwhite rounded-r-sm py-1 pr-1.5 pl-1 font-medium text-white">
 							{timeUntil(match.date)}
 						</div>
 					</>

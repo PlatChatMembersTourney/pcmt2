@@ -76,7 +76,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 					return (
 						<button
 							className={cx(
-								'border-line relative cursor-pointer border-r px-5 py-5 text-xs font-bold first:border-l hover:bg-vlr-gray-300 dark:hover:bg-vlr-gray-500',
+								'border-line hover:bg-vlr-gray-300 dark:hover:bg-vlr-gray-500 relative cursor-pointer border-r px-5 py-5 text-xs font-bold first:border-l',
 								active === label ? 'text-bright' : 'text-pb'
 							)}
 							onClick={() => setActive(label)}
@@ -141,10 +141,13 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 			{active === 'Matches' && (
 				<div className="mx-4 sm:mx-6">
 					{matchesGrouped?.length > 0 ? (
-						<div className="bg-shade-300 flex flex-col gap-7.5 py-6 text-main">
+						<div className="bg-shade-300 text-main flex flex-col gap-7.5 py-6">
 							<div>
 								<button
-									className={cx('bg-shade-100 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs', reverse && 'font-bold')}
+									className={cx(
+										'bg-shade-100 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs',
+										reverse && 'font-bold'
+									)}
 									onClick={() => setReverse(!reverse)}
 								>
 									{reverse ? 'esreveR' : 'Reverse'}
@@ -173,7 +176,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 							})}
 						</div>
 					) : (
-						<div className="bg-shade-300 h-full py-6 text-main">
+						<div className="bg-shade-300 text-main h-full py-6">
 							<div>
 								<img src={'/res/exist.png'} />
 							</div>
@@ -189,9 +192,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 							return (
 								<div className="flex flex-col" key={e.id}>
 									{events.length > 1 && (
-										<h2 className="mb-2 text-base font-bold text-main">
-											{e.name}
-										</h2>
+										<h2 className="text-main mb-2 text-base font-bold">{e.name}</h2>
 									)}
 									<p className="text-muted mb-4 text-sm">
 										Overall win rates: ATK {pctFormatter.format(stats.overallAtkPct)} DEF{' '}

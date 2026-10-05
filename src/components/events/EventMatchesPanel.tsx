@@ -51,7 +51,7 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 
 	return (
 		<div className="flex flex-col">
-			<div className="bg-shade-200 vlr-box-shadow flex h-15 items-center gap-3 pl-9 text-main sm:pl-11">
+			<div className="bg-shade-200 vlr-box-shadow text-main flex h-15 items-center gap-3 pl-9 sm:pl-11">
 				<div>
 					<p className="text-[10px] font-medium text-red-400 uppercase">Stage:</p>
 				</div>
@@ -70,8 +70,8 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 								className={cx(
 									'box-border h-6 text-xs leading-6',
 									isActive
-										? 'border-b-3 border-red-400 font-bold text-black dark:text-vlr-text-fullwhite'
-										: 'border-b border-dotted border-vlr-border-mid text-main hover:border-transparent hover:font-bold hover:dark:text-vlr-text-fullwhite'
+										? 'dark:text-vlr-text-fullwhite border-b-3 border-red-400 font-bold text-black'
+										: 'border-vlr-border-mid text-main hover:dark:text-vlr-text-fullwhite border-b border-dotted hover:border-transparent hover:font-bold'
 								)}
 							>
 								{stage}
@@ -80,14 +80,17 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 					);
 				})}
 				<button
-					className={cx('bg-shade-100 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs', reverse && 'font-bold')}
+					className={cx(
+						'bg-shade-100 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs',
+						reverse && 'font-bold'
+					)}
 					onClick={() => setReverse(!reverse)}
 				>
 					{reverse ? 'esreveR' : 'Reverse'}
 				</button>
 			</div>
 			{filteredMatches.length > 0 ? (
-				<div className="bg-shade-300 flex flex-col gap-7.5 p-6 text-main">
+				<div className="bg-shade-300 text-main flex flex-col gap-7.5 p-6">
 					{matchesGrouped.map(({ date, items }) => {
 						return (
 							<div className="flex flex-col" key={date}>
@@ -111,7 +114,7 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 					})}
 				</div>
 			) : (
-				<div className="flex flex-col p-6 text-main">No matches yet. :(</div>
+				<div className="text-main flex flex-col p-6">No matches yet. :(</div>
 			)}
 		</div>
 	);

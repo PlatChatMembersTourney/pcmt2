@@ -1,8 +1,8 @@
 /* who up tailing they wind */
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* brackets-viewer's stylesheet, in the components layer so tailwind utilities can override it (see Bracket.tsx) */
-@import "brackets-viewer/dist/brackets-viewer.min.css" layer(components);
+@import 'brackets-viewer/dist/brackets-viewer.min.css' layer(components);
 
 /* dont use device theme */
 @custom-variant dark (&:where(.dark, .dark *));
@@ -10,187 +10,187 @@
 
 /* For Base UI */
 .root {
-    isolation: isolate;
+	isolation: isolate;
 }
 
 /* Custom colors */
 @theme {
-    /* Dark Theme */
-    --color-vlr-gray-950: #1e1e1e; /* header and footer */
-    --color-vlr-gray-925: #282828; /* home page cards */
-    --color-vlr-gray-900: #292e32;
-    --color-vlr-gray-800: #2f3337;
-    --color-vlr-gray-700: #353b40;
-    --color-vlr-gray-650: #373e43;
-    --color-vlr-gray-600: #3e454c;
-    --color-vlr-gray-500: #4e575f; /* used for button hover */
-    /* Light Theme */
-    --color-vlr-gray-400: #c4c6c6;
-    --color-vlr-gray-300: #dcdcda;
-    --color-vlr-gray-275: #e8e8e8; /* home page cards (gradient end) */
-    --color-vlr-gray-250: #ebebea;
-    --color-vlr-gray-200: #eeeeec;
-    --color-vlr-gray-175: #f0f0f0; /* home page cards (gradient start) */
-    --color-vlr-gray-150: #f1f1f1; /* card hover */
-    --color-vlr-gray-100: #fafafa;
+	/* Dark Theme */
+	--color-vlr-gray-950: #1e1e1e; /* header and footer */
+	--color-vlr-gray-925: #282828; /* home page cards */
+	--color-vlr-gray-900: #292e32;
+	--color-vlr-gray-800: #2f3337;
+	--color-vlr-gray-700: #353b40;
+	--color-vlr-gray-650: #373e43;
+	--color-vlr-gray-600: #3e454c;
+	--color-vlr-gray-500: #4e575f; /* used for button hover */
+	/* Light Theme */
+	--color-vlr-gray-400: #c4c6c6;
+	--color-vlr-gray-300: #dcdcda;
+	--color-vlr-gray-275: #e8e8e8; /* home page cards (gradient end) */
+	--color-vlr-gray-250: #ebebea;
+	--color-vlr-gray-200: #eeeeec;
+	--color-vlr-gray-175: #f0f0f0; /* home page cards (gradient start) */
+	--color-vlr-gray-150: #f1f1f1; /* card hover */
+	--color-vlr-gray-100: #fafafa;
 
-    /* Text */
-    --color-vlr-text-fullwhite: #f4f4f4;
-    --color-vlr-text-offwhite: #eee; /* match card badges */
-    --color-vlr-text-white: #d4d4d4;
-    --color-vlr-text-light: #b4b4b4;
-    --color-vlr-text-silver: #aaa; /* header links */
-    --color-vlr-text-gray: #848688;
-    --color-vlr-text-dark: #444;
-    --color-vlr-text-darker: #333;
+	/* Text */
+	--color-vlr-text-fullwhite: #f4f4f4;
+	--color-vlr-text-offwhite: #eee; /* match card badges */
+	--color-vlr-text-white: #d4d4d4;
+	--color-vlr-text-light: #b4b4b4;
+	--color-vlr-text-silver: #aaa; /* header links */
+	--color-vlr-text-gray: #848688;
+	--color-vlr-text-dark: #444;
+	--color-vlr-text-darker: #333;
 
-    --color-vlr-border-dark: #333; /* header and footer */
-    --color-vlr-border-mid: #666; /* stage picker underlines */
-    --color-vlr-border-gray: #5b6167;
-    --color-vlr-border-light: #d4d4d4;
+	--color-vlr-border-dark: #333; /* header and footer */
+	--color-vlr-border-mid: #666; /* stage picker underlines */
+	--color-vlr-border-gray: #5b6167;
+	--color-vlr-border-light: #d4d4d4;
 
-    /* Match results */
-    --color-vlr-green: #5ca36c;
-    --color-vlr-green-dark: #498357;
-    --color-vlr-atk: #e25d5a; /* round won on attack */
-    --color-vlr-def: #24b298; /* round won on defense */
+	/* Match results */
+	--color-vlr-green: #5ca36c;
+	--color-vlr-green-dark: #498357;
+	--color-vlr-atk: #e25d5a; /* round won on attack */
+	--color-vlr-def: #24b298; /* round won on defense */
 
-    /* Plat Chat Blue */
-    --color-plat-blue: #6dc5c7;
-    --color-plat-blue-dark: #2a8a8c;
+	/* Plat Chat Blue */
+	--color-plat-blue: #6dc5c7;
+	--color-plat-blue-dark: #2a8a8c;
 }
 
 /* Theme-aware colors: one name that switches with dark mode (e.g. text-main, bg-shade-100, border-line) */
 :root {
-    --main: var(--color-black);
-    --bright: var(--color-black);
-    --muted: var(--color-vlr-text-dark);
-    --subtle: var(--color-vlr-text-gray);
-    --faint: var(--color-vlr-text-dark);
-    --win: var(--color-green-600);
-    --pb: var(--color-plat-blue-dark); /* plat blue */
+	--main: var(--color-black);
+	--bright: var(--color-black);
+	--muted: var(--color-vlr-text-dark);
+	--subtle: var(--color-vlr-text-gray);
+	--faint: var(--color-vlr-text-dark);
+	--win: var(--color-green-600);
+	--pb: var(--color-plat-blue-dark); /* plat blue */
 
-    --shade-100: var(--color-vlr-gray-100);
-    --shade-200: var(--color-vlr-gray-200);
-    --shade-300: var(--color-vlr-gray-300);
-    --shade-400: var(--color-vlr-gray-400);
+	--shade-100: var(--color-vlr-gray-100);
+	--shade-200: var(--color-vlr-gray-200);
+	--shade-300: var(--color-vlr-gray-300);
+	--shade-400: var(--color-vlr-gray-400);
 
-    --line: var(--color-vlr-border-light);
-    --nav: var(--color-neutral-200);
+	--line: var(--color-vlr-border-light);
+	--nav: var(--color-neutral-200);
 }
 
 .dark {
-    --main: var(--color-vlr-text-white);
-    --bright: var(--color-white);
-    --muted: var(--color-vlr-text-white);
-    --subtle: var(--color-vlr-text-white);
-    --faint: var(--color-vlr-text-light);
-    --win: var(--color-green-400);
-    --pb: var(--color-plat-blue);
+	--main: var(--color-vlr-text-white);
+	--bright: var(--color-white);
+	--muted: var(--color-vlr-text-white);
+	--subtle: var(--color-vlr-text-white);
+	--faint: var(--color-vlr-text-light);
+	--win: var(--color-green-400);
+	--pb: var(--color-plat-blue);
 
-    --shade-100: var(--color-vlr-gray-600);
-    --shade-200: var(--color-vlr-gray-700);
-    --shade-300: var(--color-vlr-gray-800);
-    --shade-400: var(--color-vlr-gray-900);
+	--shade-100: var(--color-vlr-gray-600);
+	--shade-200: var(--color-vlr-gray-700);
+	--shade-300: var(--color-vlr-gray-800);
+	--shade-400: var(--color-vlr-gray-900);
 
-    --line: var(--color-vlr-border-gray);
-    --nav: var(--color-vlr-border-dark);
+	--line: var(--color-vlr-border-gray);
+	--nav: var(--color-vlr-border-dark);
 }
 
 /* inline, so each utility reads the variable where it's used (inside .dark) instead of once on :root */
 @theme inline {
-    --color-main: var(--main);
-    --color-bright: var(--bright);
-    --color-muted: var(--muted);
-    --color-subtle: var(--subtle);
-    --color-faint: var(--faint);
-    --color-win: var(--win);
-    --color-pb: var(--pb);
+	--color-main: var(--main);
+	--color-bright: var(--bright);
+	--color-muted: var(--muted);
+	--color-subtle: var(--subtle);
+	--color-faint: var(--faint);
+	--color-win: var(--win);
+	--color-pb: var(--pb);
 
-    --color-shade-100: var(--shade-100);
-    --color-shade-200: var(--shade-200);
-    --color-shade-300: var(--shade-300);
-    --color-shade-400: var(--shade-400);
+	--color-shade-100: var(--shade-100);
+	--color-shade-200: var(--shade-200);
+	--color-shade-300: var(--shade-300);
+	--color-shade-400: var(--shade-400);
 
-    --color-line: var(--line);
-    --color-nav: var(--nav);
+	--color-line: var(--line);
+	--color-nav: var(--nav);
 }
 
 .cool-border::after {
-    content: '';
-    position: absolute;
-    right: -3px;
-    top: 1px;
-    width: 3px;
-    height: calc(100% - 1px);
+	content: '';
+	position: absolute;
+	right: -3px;
+	top: 1px;
+	width: 3px;
+	height: calc(100% - 1px);
 }
 
 .cool-border-top::after {
-    content: '';
-    position: absolute;
-    top: -3px;
-    left: 0;
-    width: 100%;
-    height: 3px;
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 100%;
+	height: 3px;
 }
 
 .cool-border-pb::after {
-    background: repeating-linear-gradient(-45deg, #6dc5c7 -2px, #6dc5c7 4px, #2a8a8c 4px, #2a8a8c 8px) !important
+	background: repeating-linear-gradient(-45deg, #6dc5c7 -2px, #6dc5c7 4px, #2a8a8c 4px, #2a8a8c 8px) !important;
 }
 
 .cool-border-na::after {
-    background: repeating-linear-gradient(-45deg, #ff8a54 -2px, #ff8a54 4px, #ff570c 4px, #ff570c 8px) !important
+	background: repeating-linear-gradient(-45deg, #ff8a54 -2px, #ff8a54 4px, #ff570c 4px, #ff570c 8px) !important;
 }
 
 .cool-border-emea::after {
-    background: repeating-linear-gradient(-45deg, #9ebe11 -2px, #9ebe11 4px, #d5ff1d 4px, #d5ff1d 8px) !important
+	background: repeating-linear-gradient(-45deg, #9ebe11 -2px, #9ebe11 4px, #d5ff1d 4px, #d5ff1d 8px) !important;
 }
 
 .vlr-box-shadow {
-    box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.35);
+	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.35);
 }
 
 .stats-cell {
-    @apply h-7.5;
-    @apply my-1.25;
-    @apply bg-vlr-gray-300;
-    @apply dark:bg-vlr-gray-500;
-    @apply text-center;
-    @apply flex;
-    @apply items-center;
-    @apply justify-center;
-    @apply px-1.75;
-    @apply rounded-xs;
-    @apply text-xs;
+	@apply h-7.5;
+	@apply my-1.25;
+	@apply bg-vlr-gray-300;
+	@apply dark:bg-vlr-gray-500;
+	@apply text-center;
+	@apply flex;
+	@apply items-center;
+	@apply justify-center;
+	@apply px-1.75;
+	@apply rounded-xs;
+	@apply text-xs;
 }
 
 .popover-arrow {
-    @apply block;
-    @apply relative;
-    @apply w-3;
-    @apply h-1.5;
-    @apply overflow-clip;
+	@apply block;
+	@apply relative;
+	@apply w-3;
+	@apply h-1.5;
+	@apply overflow-clip;
 }
 
 .popover-arrow-top {
-    @apply -bottom-1.5;
-    @apply rotate-180;
+	@apply -bottom-1.5;
+	@apply rotate-180;
 }
 
 .popover-arrow-bottom {
-    @apply -top-1.5;
-    @apply rotate-0;
+	@apply -top-1.5;
+	@apply rotate-0;
 }
 
 .popover-arrow::before {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    box-sizing: border-box;
-    width: calc(6px * sqrt(2));
-    height: calc(6px * sqrt(2));
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-    transform: translate(-50%, 50%) rotate(45deg);
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	box-sizing: border-box;
+	width: calc(6px * sqrt(2));
+	height: calc(6px * sqrt(2));
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	transform: translate(-50%, 50%) rotate(45deg);
 }

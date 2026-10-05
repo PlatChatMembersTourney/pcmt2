@@ -32,15 +32,13 @@ const TeamsPage: React.FC = () => {
 		<div className="bg-shade-300 mx-4 mt-4 flex flex-col font-[roboto] sm:mx-6 sm:mt-6">
 			<div className="bg-shade-200 vlr-box-shadow flex h-12 w-full items-center items-stretch">
 				<div className="border-line flex items-center border-r px-5">
-					<p className="text-subtle text-[11px] font-bold uppercase">
-						Region
-					</p>
+					<p className="text-subtle text-[11px] font-bold uppercase">Region</p>
 				</div>
 				<ToggleGroup
 					aria-label="NA or EMEA"
 					value={region}
 					onValueChange={handleRegionChange}
-					className="relative flex flex-none text-[12px] text-main"
+					className="text-main relative flex flex-none text-[12px]"
 				>
 					{['All', 'NA', 'EMEA'].map((item) => (
 						<Toggle aria-label={item} value={item} key={item}>

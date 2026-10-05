@@ -37,11 +37,14 @@ const TeamPage: React.FC<TeamPageProps> = (props) => {
 				</div>
 
 				<div className="flex flex-col gap-2">
-					<a href={acrossShowmatches ? '/events' : `/events/${event.id}`} className="text-pb text-[10pt] leading-4">
+					<a
+						href={acrossShowmatches ? '/events' : `/events/${event.id}`}
+						className="text-pb text-[10pt] leading-4"
+					>
 						{dyslexia && fun ? 'Palt Chat Mbemres Tuoranmnte:' : 'Plat Chat Members Tournament:'}{' '}
 						{acrossShowmatches ? 'Showmatches' : `S${event.season} ${event.region.toUpperCase()}`}
 					</a>
-					<h1 className="mb-1 text-xl font-bold text-main sm:text-2xl">
+					<h1 className="text-main mb-1 text-xl font-bold sm:text-2xl">
 						{dyslexia && fun ? 'Taem Lydsexia' : team.name}{' '}
 						<span className="text-vlr-text-gray font-normal">{team.abbr}</span>
 					</h1>

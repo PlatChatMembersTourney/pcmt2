@@ -106,7 +106,9 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 							className={cx(
 								'h-full flex-1 cursor-pointer rounded-xs text-center text-[11px]',
 								match.bestOf === 3 ? 'min-w-20' : 'min-w-15',
-								selectedMap === idx ? 'bg-vlr-border-mid text-white dark:bg-[#848f9a]' : 'text-muted bg-shade-100'
+								selectedMap === idx
+									? 'bg-vlr-border-mid text-white dark:bg-[#848f9a]'
+									: 'text-muted bg-shade-100'
 							)}
 						>
 							<p className={idx === 0 ? '' : 'mb-0.5'}>
@@ -129,15 +131,15 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 								<p
 									className={cx(
 										'text-4xl leading-none font-normal',
-										match.maps[selectedMap - 1].score1 > match.maps[selectedMap - 1].score2 ? 'text-win' : 'text-muted'
+										match.maps[selectedMap - 1].score1 > match.maps[selectedMap - 1].score2
+											? 'text-win'
+											: 'text-muted'
 									)}
 								>
 									{match.maps[selectedMap - 1].score1}
 								</p>
 								<div className="flex h-9 flex-col justify-center">
-									<p className="text-muted text-xs font-medium">
-										{match.team1Name}
-									</p>
+									<p className="text-muted text-xs font-medium">{match.team1Name}</p>
 								</div>
 							</div>
 							<h2 className="text-muted text-xl leading-none font-bold">
@@ -145,21 +147,21 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 							</h2>
 							<div className="ml-auto flex gap-3">
 								<div className="flex h-9 flex-col items-end justify-center">
-									<p className="text-muted text-right text-xs font-medium">
-										{match.team2Name}
-									</p>
+									<p className="text-muted text-right text-xs font-medium">{match.team2Name}</p>
 								</div>
 								<p
 									className={cx(
 										'text-4xl leading-none font-normal',
-										match.maps[selectedMap - 1].score1 < match.maps[selectedMap - 1].score2 ? 'text-win' : 'text-muted'
+										match.maps[selectedMap - 1].score1 < match.maps[selectedMap - 1].score2
+											? 'text-win'
+											: 'text-muted'
 									)}
 								>
 									{match.maps[selectedMap - 1].score2}
 								</p>
 							</div>
 						</div>
-						{(match.mapDetails[selectedMap - 1].rounds !== null) && (
+						{match.mapDetails[selectedMap - 1].rounds !== null && (
 							<div className="mb-5">
 								<Timeline
 									rounds={match.mapDetails[selectedMap - 1].rounds!}
