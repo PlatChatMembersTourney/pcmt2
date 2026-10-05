@@ -1,15 +1,11 @@
 ---
 import { eventLogo, regionFlag } from '../../utils/images.ts';
+import type { Event } from '../../types/types.ts';
 interface Props {
-	name: string;
-	desc: string;
-	region: string;
-	dates: string;
-	prize: string;
-	showmatch?: boolean;
+	event: Event;
 }
 
-const { name, desc, region, dates, prize, showmatch } = Astro.props;
+const { name, desc, region, dates, prize, showmatch } = Astro.props.event;
 ---
 
 <div class="bg-vlr-gray-100 dark:bg-vlr-gray-600 flex gap-4 p-4 sm:gap-6 sm:p-6">

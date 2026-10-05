@@ -9,6 +9,7 @@
 		"status": "completed",
 		"desc": "Season 1 of the Plat Chat members tournament for NA, where 4 teams held a mickey mouse event.",
 		"dates": "May 29 - Aug 10, 2025",
+		"prize": "a showmatch idk",
 		"stages": [
 			{
 				"name": "Playoffs",
@@ -45,6 +46,7 @@
 		"status": "completed",
 		"desc": "Season 2 of the Plat Chat members tournament for NA, which took 12 teams approximately 500 years to finish.",
 		"dates": "Oct 10, 2025 - Apr 26, 2026",
+		"prize": "a showmatch idk",
 		"stages": [
 			{
 				"name": "Playoffs",
@@ -90,6 +92,7 @@
 		"status": "completed",
 		"desc": "The Season 1 showmatch - champions You Get Shot You Die took on a Plat Chat squad.",
 		"dates": "Jan 4, 2026",
+		"prize": "wyatt's weekly award",
 		"stages": [
 			{
 				"name": "Showmatch",
@@ -123,6 +126,7 @@
 		"status": "completed",
 		"desc": "Season 1 of the Plat Chat members tournament for EMEA, where 4 teams held a mickey mouse event.",
 		"dates": "Mar 27 - May 30, 2026",
+		"prize": "a showmatch idk",
 		"stages": [
 			{
 				"name": "Playoffs",
@@ -160,6 +164,7 @@
 		"status": "completed",
 		"desc": "The Season 2 showmatch - champions Just Dudes Gaming took on a Plat Chat squad.",
 		"dates": "Jul 12, 2026",
+		"prize": "wyatt's weekly award",
 		"stages": [
 			{
 				"name": "Showmatch",
@@ -193,6 +198,7 @@
 		"status": "ongoing",
 		"desc": "Season 3 of the Plat Chat members tournament for NA, where 16 teams had a 2-group slugfest.",
 		"dates": "May 14 - TBD",
+		"prize": "a showmatch idk",
 		"stages": [
 			{
 				"name": "Playoffs",
@@ -233,6 +239,7 @@
 		"status": "ongoing",
 		"desc": "Season 2 of the Plat Chat members tournament for EMEA, where 10 teams did some group activities.",
 		"dates": "July 5 - TBD",
+		"prize": "a showmatch idk",
 		"stages": [
 			{
 				"name": "Playoffs",

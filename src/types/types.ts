@@ -106,6 +106,7 @@ export interface Event {
 	status: string;
 	desc: string;
 	dates: string;
+	prize: string;
 	stages: StageInfo[]; // will be showed in order, last one default
 }
 

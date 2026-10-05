@@ -8,13 +8,12 @@ interface GroupStandingsBoxProps {
 		color: string;
 	}[];
 	name: string;
-	region: string;
 	teams: Record<string, TeamInfo>;
 	event: Event;
 }
 
 const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
-	const { standings, teamColors, name, region, teams, event } = props;
+	const { standings, teamColors, name, teams, event } = props;
 
 	// convert teamColors into an array of colors
 	const colors: string[] = [];
@@ -63,7 +62,7 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 										>
 											{standing.name}
 										</a>
-										<p className="text-[10px] font-normal text-nowrap uppercase">{region}</p>
+										<p className="text-[10px] font-normal text-nowrap uppercase">{event.region}</p>
 									</div>
 								</div>
 							</td>

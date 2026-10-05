@@ -1,17 +1,14 @@
-import { regionFlag } from '../../utils/images.ts';
+import { eventLogo, regionFlag } from '../../utils/images.ts';
+import type { Event } from '../../types/types.ts';
 
 interface EventCardProps {
-	name: string;
-	id: string;
-	region: string;
-	status: string;
-	prizePool: string;
-	dates: string;
-	logo: string;
+	event: Event;
 }
 
 const EventCard: React.FC<EventCardProps> = (props) => {
-	const { name, id, region, status, prizePool, dates, logo } = props;
+	const { id, region, status, dates, prize, showmatch } = props.event;
+	const name = 'Plat Chat Members Tournament: ' + props.event.name;
+	const logo = eventLogo(showmatch, region);
 	return (
 		<a className="vlr-box-shadow flex h-22.5 max-w-150 cursor-pointer items-center" href={'/events/' + id}>
 			<div className="h-22.5 flex-1">
@@ -37,7 +34,7 @@ const EventCard: React.FC<EventCardProps> = (props) => {
 						</div>
 						<div className="hidden flex-1 flex-col gap-1 md:flex">
 							<dd className="dark:text-vlr-text-light text-xs leading-none font-normal text-black">
-								{prizePool}
+								{prize}
 							</dd>
 							<dt className="text-vlr-text-light dark:text-vlr-text-gray text-[10px] leading-none uppercase">
 								Prize Pool

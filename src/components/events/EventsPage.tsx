@@ -3,7 +3,6 @@ import { ToggleGroup } from '@base-ui/react/toggle-group';
 import { motion } from 'motion/react';
 import { useState } from 'react';
 import type { TeamInfo, Event } from '../../types/types.ts';
-import { eventLogo } from '../../utils/images.ts';
 
 import eventsRaw from '../../data/events.json';
 import { fromJson } from '../../utils/json.ts';
@@ -75,16 +74,7 @@ const TeamsPage: React.FC = () => {
 				<div className="lg:w-150 lg:flex-none">
 					<div className="flex flex-col gap-1">
 						{filteredEvents.map((event: Event) => (
-							<EventCard
-								name={'Plat Chat Members Tournament: ' + event.name}
-								id={event.id}
-								region={event.region}
-								status={event.status}
-								prizePool={event.showmatch ? "wyatt's weekly award" : 'a showmatch idk'}
-								dates={event.dates}
-								logo={eventLogo(event.showmatch, event.region)}
-								key={event.id}
-							/>
+							<EventCard event={event} key={event.id} />
 						))}
 					</div>
 				</div>

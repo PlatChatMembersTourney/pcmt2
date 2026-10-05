@@ -79,7 +79,6 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 										teamColors={format.teamColors!}
 										name={event.stages[activeStage].name}
 										teams={teams}
-										region={event.region}
 										event={event}
 									/>
 								</div>
@@ -92,7 +91,6 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 											name={groupName}
 											teams={teams}
 											key={groupName}
-											region={event.region}
 											event={event}
 										/>
 									</div>

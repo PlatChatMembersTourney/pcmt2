@@ -11,14 +11,7 @@ const { event } = Astro.props;
 ---
 
 <div class="h-full font-[roboto]">
-	<EventHeader
-		name={event.name}
-		desc={event.desc}
-		region={event.region}
-		dates={event.dates}
-		prize={event.showmatch ? "wyatt's weekly award" : 'a showmatch idk'}
-		showmatch={event.showmatch}
-	/>
+	<EventHeader event={event} />
 
 	<EventPanels event={event} client:load />
 </div>
