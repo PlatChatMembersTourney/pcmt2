@@ -2,7 +2,7 @@
 	{
 		"id": "s1-na",
 		"name": "NA Season 1",
-		"shortName": "NA S1",
+		"shortName": "S1 NA",
 		"season": 1,
 		"region": "na",
 		"path": "s1/na",
@@ -38,7 +38,7 @@
 	{
 		"id": "s2-na",
 		"name": "NA Season 2",
-		"shortName": "NA S2",
+		"shortName": "S2 NA",
 		"season": 2,
 		"region": "na",
 		"path": "s2/na",
@@ -83,6 +83,7 @@
 		"id": "showmatch-s1-na",
 		"name": "NA S1 Showmatch",
 		"shortName": "SM S1 NA",
+		"showmatch": true,
 		"season": 1,
 		"region": "na",
 		"path": "showmatch1/na",
@@ -115,7 +116,7 @@
 	{
 		"id": "s1-emea",
 		"name": "EMEA Season 1",
-		"shortName": "EMEA S1",
+		"shortName": "S1 EMEA",
 		"season": 1,
 		"region": "emea",
 		"path": "s1/emea",
@@ -152,6 +153,7 @@
 		"id": "showmatch-s2-na",
 		"name": "NA S2 Showmatch",
 		"shortName": "SM S2 NA",
+		"showmatch": true,
 		"season": 2,
 		"region": "na",
 		"path": "showmatch2/na",
@@ -184,7 +186,7 @@
 	{
 		"id": "s3-na",
 		"name": "NA Season 3",
-		"shortName": "NA S3",
+		"shortName": "S3 NA",
 		"season": 3,
 		"region": "na",
 		"path": "s3/na",
@@ -224,7 +226,7 @@
 	{
 		"id": "s2-emea",
 		"name": "EMEA Season 2",
-		"shortName": "EMEA S2",
+		"shortName": "S2 EMEA",
 		"season": 2,
 		"region": "emea",
 		"path": "s2/emea",

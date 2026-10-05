@@ -31,7 +31,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 	return (
 		<div
 			className={`${
-				event.id.includes('showmatch')
+				event.showmatch
 					? 'cool-border-pb'
 					: {
 							na: 'cool-border-na',
@@ -40,7 +40,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 			} vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 cool-border-top dark:text-vlr-text-white relative p-4 text-[#333] sm:p-5`}
 		>
 			<div className="flex h-9 items-center gap-2">
-				<img src={eventLogo(event.id.includes('showmatch'), event.region)} className="h-8 w-8" />
+				<img src={eventLogo(event.showmatch, event.region)} className="h-8 w-8" />
 				<div className="flex flex-col">
 					<a href={`/events/${event.id}`} className="text-pb flex-1 text-xs leading-4.5 font-bold">
 						PCMT: {event.name}

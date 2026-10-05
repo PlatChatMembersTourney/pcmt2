@@ -8,8 +8,9 @@ import MatchCard from '../matches/MatchCard.tsx';
 import TeamMapStatsTable from './TeamMapStatsTable.tsx';
 import { playerFlag } from '../../utils/images.ts';
 import eventsRaw from '../../data/events.json';
+import { fromJson } from '../../utils/json.ts';
 
-const allEvents = eventsRaw as Event[];
+const allEvents = fromJson<Event[]>(eventsRaw);
 
 interface TeamPanelsProps {
 	event: Event;
@@ -19,9 +20,7 @@ interface TeamPanelsProps {
 
 // Showmatch teams with the same abbr are one team across all showmatches
 export const teamEvents = (event: Event, team: TeamInfo, teams: Record<string, Record<string, TeamInfo>>) =>
-	event.id.startsWith('showmatch')
-		? allEvents.filter((e) => e.id.startsWith('showmatch') && team.abbr in (teams[e.id] ?? {}))
-		: [event];
+	event.showmatch ? allEvents.filter((e) => e.showmatch && team.abbr in (teams[e.id] ?? {})) : [event];
 
 const pctFormatter = new Intl.NumberFormat('en-US', {
 	style: 'percent',

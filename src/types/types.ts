@@ -96,6 +96,7 @@ export interface Event {
 	id: string;
 	name: string;
 	shortName: string;
+	showmatch?: boolean;
 	season: number;
 	region: string;
 	path: string;
@@ -112,7 +113,7 @@ export interface StageInfo {
 }
 
 export interface Format {
-	type: "round-robin" | "bracket";
+	type: "round-robin" | "bracket" | "showmatch";
 	groups?: number;
 	groupNames?: string[];
 	teamsPerGroup?: number;

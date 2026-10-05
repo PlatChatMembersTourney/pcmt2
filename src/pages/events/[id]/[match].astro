@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import seasons from '../../../data/events.json';
+import { fromJson } from '../../../utils/json.ts';
 import EventPage from '../../../components/events/EventPage.astro';
 import type { Event } from '../../../types/types.ts';
 import slugify from 'slugify';
@@ -24,7 +25,7 @@ export const getStaticPaths = () => {
 					match: slugify(match.id),
 				},
 				props: {
-					event: seasons.filter((event: Event) => {
+					event: fromJson<Event[]>(seasons).filter((event) => {
 						return event.id === id;
 					})[0],
 					matchName: match.team1Name + ' vs ' + match.team2Name,

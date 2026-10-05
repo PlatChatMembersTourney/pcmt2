@@ -1,13 +1,14 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import seasons from '../../../data/events.json';
+import { fromJson } from '../../../utils/json.ts';
 import EventPage from '../../../components/events/EventPage.astro';
 import type { Event } from '../../../types/types.ts';
 
 type Props = Event;
 
 export const getStaticPaths = () => {
-	return seasons.map((entry: Event) => {
+	return fromJson<Event[]>(seasons).map((entry) => {
 		return {
 			params: {
 				id: entry.id,

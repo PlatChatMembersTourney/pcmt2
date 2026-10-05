@@ -8,9 +8,10 @@ import { useStore } from '@nanostores/react';
 import { groupByDay } from '../../utils/datetime.ts';
 
 import eventsRaw from '../../data/events.json';
+import { fromJson } from '../../utils/json.ts';
 import PlayerStatTable from './PlayerStatTable.tsx';
 
-const events = eventsRaw as Event[];
+const events = fromJson<Event[]>(eventsRaw);
 
 type PlayerStatsWithEventId = PlayerStats & { eventId: string };
 
@@ -42,15 +43,11 @@ const TeamsPage: React.FC = () => {
 	};
 
 	const filteredKeys = Object.keys(allPlayerStats).filter((key) => {
-		if (key.includes('showmatch')) {
-			if (!showShowmatches) {
-				return false;
-			}
-			key = key.replace('showmatch-', '');
-		}
+		const event = events.find((e) => e.id === key)!;
 		return (
-			(region[0] === 'All' || key.endsWith(region[0].toLowerCase())) &&
-			(season[0] === 'All' || key.startsWith(season[0].toLowerCase()))
+			(showShowmatches || !event.showmatch) &&
+			(region[0] === 'All' || event.region === region[0].toLowerCase()) &&
+			(season[0] === 'All' || `S${event.season}` === season[0])
 		);
 	});
 

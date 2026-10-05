@@ -6,9 +6,10 @@ import type { TeamInfo, Event } from '../../types/types.ts';
 import { eventLogo } from '../../utils/images.ts';
 
 import eventsRaw from '../../data/events.json';
+import { fromJson } from '../../utils/json.ts';
 import EventCard from './EventCard.tsx';
 
-const events = eventsRaw as Event[];
+const events = fromJson<Event[]>(eventsRaw);
 
 const TeamsPage: React.FC = () => {
 	const [region, setRegion] = useState(['All']);
@@ -79,9 +80,9 @@ const TeamsPage: React.FC = () => {
 								id={event.id}
 								region={event.region}
 								status={event.status}
-								prizePool={event.id.includes('showmatch') ? "wyatt's weekly award" : 'a showmatch idk'}
+								prizePool={event.showmatch ? "wyatt's weekly award" : 'a showmatch idk'}
 								dates={event.dates}
-								logo={eventLogo(event.id.includes('showmatch'), event.region)}
+								logo={eventLogo(event.showmatch, event.region)}
 								key={event.id}
 							/>
 						))}

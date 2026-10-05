@@ -9,8 +9,9 @@ import { groupByDay } from '../../utils/datetime.ts';
 import MatchCard from './MatchCard.tsx';
 
 import eventsRaw from '../../data/events.json';
+import { fromJson } from '../../utils/json.ts';
 
-const events = eventsRaw as Event[];
+const events = fromJson<Event[]>(eventsRaw);
 
 type MatchWithEventId = Match & { eventId: string };
 
@@ -45,9 +46,10 @@ const TeamsPage: React.FC = () => {
 	};
 
 	const filteredKeys = Object.keys(allMatches).filter((key) => {
+		const event = events.find((e) => e.id === key)!;
 		return (
-			(region[0] === 'All' || key.endsWith(region[0].toLowerCase())) &&
-			(season[0] === 'All' || key.startsWith(season[0].toLowerCase()))
+			(region[0] === 'All' || event.region === region[0].toLowerCase()) &&
+			(season[0] === 'All' || `S${event.season}` === season[0])
 		);
 	});
 

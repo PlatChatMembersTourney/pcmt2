@@ -25,7 +25,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 			href={`/events/${event.id}/${slugify(match.id)}`}
 			className={
 				`${
-					event.id.includes('showmatch')
+					event.showmatch
 						? 'cool-border-pb'
 						: {
 								na: 'cool-border-na',

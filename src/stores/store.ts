@@ -1,5 +1,6 @@
 import { atom, map } from 'nanostores';
 import type { BracketLayout, Event, Match, PlayerStats, Standing, TeamInfo, TeamMapStats } from '../types/types.ts';
+import { fromJson } from '../utils/json.ts';
 
 // load match data for all seasons
 
@@ -13,14 +14,14 @@ import s1NAShowmatchMatchesRaw from '../data/showmatch1/na/matches/matches.json'
 import s2NAShowmatchMatchesRaw from '../data/showmatch2/na/matches/matches.json';
 
 export const matches: Record<string, Match[]> = {
-	's1-na': s1NAMatchesRaw as Match[],
-	's2-na': s2NAMatchesRaw as Match[],
-	's3-na': s3NAMatchesRaw as Match[],
-	's1-emea': s1EMEAMatchesRaw as Match[],
-	's2-emea': s2EMEAMatchesRaw as Match[],
+	's1-na': fromJson<Match[]>(s1NAMatchesRaw),
+	's2-na': fromJson<Match[]>(s2NAMatchesRaw),
+	's3-na': fromJson<Match[]>(s3NAMatchesRaw),
+	's1-emea': fromJson<Match[]>(s1EMEAMatchesRaw),
+	's2-emea': fromJson<Match[]>(s2EMEAMatchesRaw),
 
-	'showmatch-s1-na': s1NAShowmatchMatchesRaw as Match[],
-	'showmatch-s2-na': s2NAShowmatchMatchesRaw as Match[],
+	'showmatch-s1-na': fromJson<Match[]>(s1NAShowmatchMatchesRaw),
+	'showmatch-s2-na': fromJson<Match[]>(s2NAShowmatchMatchesRaw),
 };
 
 // load standings data for all seasons
@@ -35,14 +36,14 @@ import s1NAShowmatchStandingsRaw from '../data/showmatch1/na/standings.json';
 import s2NAShowmatchStandingsRaw from '../data/showmatch2/na/standings.json';
 
 const standings: Record<string, Record<string, Standing[]>> = {
-	's1-na': s1NAStandingsRaw as Record<string, Standing[]>,
-	's2-na': s2NAStandingsRaw as Record<string, Standing[]>,
-	's3-na': s3NAStandingsRaw as Record<string, Standing[]>,
-	's1-emea': s1EMEAStandingsRaw as Record<string, Standing[]>,
-	's2-emea': s2EMEAStandingsRaw as Record<string, Standing[]>,
+	's1-na': fromJson<Record<string, Standing[]>>(s1NAStandingsRaw),
+	's2-na': fromJson<Record<string, Standing[]>>(s2NAStandingsRaw),
+	's3-na': fromJson<Record<string, Standing[]>>(s3NAStandingsRaw),
+	's1-emea': fromJson<Record<string, Standing[]>>(s1EMEAStandingsRaw),
+	's2-emea': fromJson<Record<string, Standing[]>>(s2EMEAStandingsRaw),
 
-	'showmatch-s1-na': s1NAShowmatchStandingsRaw as Record<string, Standing[]>,
-	'showmatch-s2-na': s2NAShowmatchStandingsRaw as Record<string, Standing[]>,
+	'showmatch-s1-na': fromJson<Record<string, Standing[]>>(s1NAShowmatchStandingsRaw),
+	'showmatch-s2-na': fromJson<Record<string, Standing[]>>(s2NAShowmatchStandingsRaw),
 };
 
 // load teams data for all seasons
@@ -58,14 +59,14 @@ import s2NAShowmatchTeamsRaw from '../data/showmatch2/na/teams.json';
 
 // export this so i can load static paths for each team
 export const teams: Record<string, Record<string, TeamInfo>> = {
-	's1-na': s1NATeamsRaw as Record<string, TeamInfo>,
-	's2-na': s2NATeamsRaw as Record<string, TeamInfo>,
-	's3-na': s3NATeamsRaw as Record<string, TeamInfo>,
-	's1-emea': s1EMEATeamsRaw as Record<string, TeamInfo>,
-	's2-emea': s2EMEATeamsRaw as Record<string, TeamInfo>,
+	's1-na': fromJson<Record<string, TeamInfo>>(s1NATeamsRaw),
+	's2-na': fromJson<Record<string, TeamInfo>>(s2NATeamsRaw),
+	's3-na': fromJson<Record<string, TeamInfo>>(s3NATeamsRaw),
+	's1-emea': fromJson<Record<string, TeamInfo>>(s1EMEATeamsRaw),
+	's2-emea': fromJson<Record<string, TeamInfo>>(s2EMEATeamsRaw),
 
-	'showmatch-s1-na': s1NAShowmatchTeamsRaw as Record<string, TeamInfo>,
-	'showmatch-s2-na': s2NAShowmatchTeamsRaw as Record<string, TeamInfo>,
+	'showmatch-s1-na': fromJson<Record<string, TeamInfo>>(s1NAShowmatchTeamsRaw),
+	'showmatch-s2-na': fromJson<Record<string, TeamInfo>>(s2NAShowmatchTeamsRaw),
 };
 
 // load stats for all teams
@@ -80,14 +81,14 @@ import s1NAShowmatchPlayerStatsRaw from '../data/showmatch1/na/player-stats.json
 import s2NAShowmatchPlayerStatsRaw from '../data/showmatch2/na/player-stats.json';
 
 const playerStats: Record<string, Record<string, PlayerStats[]>> = {
-	's1-na': s1NAPlayerStatsRaw as Record<string, PlayerStats[]>,
-	's2-na': s2NAPlayerStatsRaw as Record<string, PlayerStats[]>,
-	's3-na': s3NAPlayerStatsRaw as Record<string, PlayerStats[]>,
-	's1-emea': s1EMEAPlayerStatsRaw as Record<string, PlayerStats[]>,
-	's2-emea': s2EMEAPlayerStatsRaw as Record<string, PlayerStats[]>,
+	's1-na': fromJson<Record<string, PlayerStats[]>>(s1NAPlayerStatsRaw),
+	's2-na': fromJson<Record<string, PlayerStats[]>>(s2NAPlayerStatsRaw),
+	's3-na': fromJson<Record<string, PlayerStats[]>>(s3NAPlayerStatsRaw),
+	's1-emea': fromJson<Record<string, PlayerStats[]>>(s1EMEAPlayerStatsRaw),
+	's2-emea': fromJson<Record<string, PlayerStats[]>>(s2EMEAPlayerStatsRaw),
 
-	'showmatch-s1-na': s1NAShowmatchPlayerStatsRaw as Record<string, PlayerStats[]>,
-	'showmatch-s2-na': s2NAShowmatchPlayerStatsRaw as Record<string, PlayerStats[]>,
+	'showmatch-s1-na': fromJson<Record<string, PlayerStats[]>>(s1NAShowmatchPlayerStatsRaw),
+	'showmatch-s2-na': fromJson<Record<string, PlayerStats[]>>(s2NAShowmatchPlayerStatsRaw),
 };
 
 // load team map stats
@@ -102,14 +103,14 @@ import s1NAShowmatchTeamMapStatsRaw from '../data/showmatch1/na/team-map-stats.j
 import s2NAShowmatchTeamMapStatsRaw from '../data/showmatch2/na/team-map-stats.json';
 
 const teamMapStats: Record<string, Record<string, TeamMapStats>> = {
-	's1-na': s1NATeamMapStatsRaw as Record<string, TeamMapStats>,
-	's2-na': s2NATeamMapStatsRaw as Record<string, TeamMapStats>,
-	's3-na': s3NATeamMapStatsRaw as Record<string, TeamMapStats>,
-	's1-emea': s1EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
-	's2-emea': s2EMEATeamMapStatsRaw as Record<string, TeamMapStats>,
+	's1-na': fromJson<Record<string, TeamMapStats>>(s1NATeamMapStatsRaw),
+	's2-na': fromJson<Record<string, TeamMapStats>>(s2NATeamMapStatsRaw),
+	's3-na': fromJson<Record<string, TeamMapStats>>(s3NATeamMapStatsRaw),
+	's1-emea': fromJson<Record<string, TeamMapStats>>(s1EMEATeamMapStatsRaw),
+	's2-emea': fromJson<Record<string, TeamMapStats>>(s2EMEATeamMapStatsRaw),
 
-	'showmatch-s1-na': s1NAShowmatchTeamMapStatsRaw as Record<string, TeamMapStats>,
-	'showmatch-s2-na': s2NAShowmatchTeamMapStatsRaw as Record<string, TeamMapStats>,
+	'showmatch-s1-na': fromJson<Record<string, TeamMapStats>>(s1NAShowmatchTeamMapStatsRaw),
+	'showmatch-s2-na': fromJson<Record<string, TeamMapStats>>(s2NAShowmatchTeamMapStatsRaw),
 };
 
 // load bracket layouts - any <season>/<region>/brackets.json is picked up automatically,
@@ -123,7 +124,7 @@ const bracketFiles = import.meta.glob<Record<string, BracketLayout>>('../data/*/
 });
 
 const brackets: Record<string, Record<string, BracketLayout>> = Object.fromEntries(
-	(eventsRaw as Event[]).map((event) => [event.id, bracketFiles[`../data/${event.path}/brackets.json`] ?? {}])
+	fromJson<Event[]>(eventsRaw).map((event) => [event.id, bracketFiles[`../data/${event.path}/brackets.json`] ?? {}])
 );
 
 export const $brackets = atom<Record<string, Record<string, BracketLayout>>>(brackets);

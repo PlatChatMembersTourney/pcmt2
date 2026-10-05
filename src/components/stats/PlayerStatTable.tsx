@@ -21,13 +21,15 @@ interface PlayerStatTableProps {
 }
 
 import eventsRaw from '../../data/events.json';
+import { fromJson } from '../../utils/json.ts';
 import { angusRating } from '../../utils/rating.ts';
 import { $teams } from '../../stores/store.ts';
 import { useStore } from '@nanostores/react';
 import CustomPopover from '../CustomPopover.tsx';
 import slugify from 'slugify';
 
-const events = eventsRaw as Event[];
+const events = fromJson<Event[]>(eventsRaw);
+const eventOf = (id?: string) => events.find((e) => e.id === id);
 
 const pctFormatter = new Intl.NumberFormat('en-US', {
 	style: 'percent',
@@ -63,16 +65,12 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	];
 	if (showSeason) {
 		playerInfoColumns.push(
-			columnHelper.accessor((row) => row.eventId!.replace('-', ' ').toUpperCase(), {
+			columnHelper.accessor((row) => eventOf(row.eventId)!.shortName, {
 				header: 'Season',
 				id: 'Season',
 				cell: (info) => {
 					const r = info.row.original;
-					return (
-						<a href={`/events/${r.eventId}`}>
-							{r.eventId!.replaceAll('-', ' ').toUpperCase().replace('SHOWMATCH', 'SM')}
-						</a>
-					);
+					return <a href={`/events/${r.eventId}`}>{info.getValue()}</a>;
 				},
 			})
 		);
@@ -160,7 +158,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				columnHelper.accessor(
 					(row) => {
 						let ar = angusRating(row, row.Rounds);
-						if (row.MP <= 3 && !row.eventId?.includes('showmatch')) {
+						if (row.MP <= 3 && !eventOf(row.eventId)?.showmatch) {
 							ar = ar * 0.8;
 						}
 						return ar;

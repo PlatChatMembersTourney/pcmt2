@@ -16,8 +16,8 @@ const { event } = Astro.props;
 		desc={event.desc}
 		region={event.region}
 		dates={event.dates}
-		prize={event.id.includes('showmatch') ? "wyatt's weekly award" : 'a showmatch idk'}
-		showmatch={event.id.includes('showmatch')}
+		prize={event.showmatch ? "wyatt's weekly award" : 'a showmatch idk'}
+		showmatch={event.showmatch}
 	/>
 
 	<EventPanels event={event} client:load />
