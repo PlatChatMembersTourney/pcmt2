@@ -3,6 +3,7 @@ import slugify from 'slugify';
 import { useStore } from '@nanostores/react';
 import { $teams } from '../../stores/store.ts';
 import { timeUntil } from '../../utils/datetime.ts';
+import { eventLogo } from '../../utils/images.ts';
 
 interface MatchHeaderProps {
 	match: Match;
@@ -39,16 +40,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 			} vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 cool-border-top dark:text-vlr-text-white relative p-4 text-[#333] sm:p-5`}
 		>
 			<div className="flex h-9 items-center gap-2">
-				<img
-					src={
-						event.id.includes('showmatch')
-							? '/icons/PC%20Logo%20Box.png'
-							: event.region === 'na'
-								? '/icons/NA%20Logo.png'
-								: '/icons/EMEA%20Logo.png'
-					}
-					className="h-8 w-8"
-				/>
+				<img src={eventLogo(event.id.includes('showmatch'), event.region)} className="h-8 w-8" />
 				<div className="flex flex-col">
 					<a href={`/events/${event.id}`} className="text-pb flex-1 text-xs leading-4.5 font-bold">
 						PCMT: {event.name}

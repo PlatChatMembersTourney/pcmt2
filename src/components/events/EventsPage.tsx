@@ -3,6 +3,7 @@ import { ToggleGroup } from '@base-ui/react/toggle-group';
 import { motion } from 'motion/react';
 import { useState } from 'react';
 import type { TeamInfo, Event } from '../../types/types.ts';
+import { eventLogo } from '../../utils/images.ts';
 
 import eventsRaw from '../../data/events.json';
 import EventCard from './EventCard.tsx';
@@ -80,13 +81,7 @@ const TeamsPage: React.FC = () => {
 								status={event.status}
 								prizePool={event.id.includes('showmatch') ? "wyatt's weekly award" : 'a showmatch idk'}
 								dates={event.dates}
-								logo={
-									event.id.includes('showmatch')
-										? '/icons/PC%20Logo%20Box.png'
-										: event.region === 'na'
-											? '/icons/NA%20Logo.png'
-											: '/icons/EMEA%20Logo.png'
-								}
+								logo={eventLogo(event.id.includes('showmatch'), event.region)}
 								key={event.id}
 							/>
 						))}

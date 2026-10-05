@@ -1,5 +1,5 @@
 import flagsRaw from '../data/flags.json'
-import type { Flags } from '../types/types.ts'
+import type { Flags, Round } from '../types/types.ts'
 const flags = flagsRaw as Flags
 
 export const playerFlag = (playerName: string, eventId: string, region: string) => {
@@ -27,4 +27,20 @@ export const agentIcon = (agent: string) => {
 		agent = 'KAYO'
 	}
 	return `/agents/${agent}_icon.png`;
+}
+
+export const eventLogo = (showmatch: boolean, region: string) => {
+	if (showmatch) return '/icons/PC%20Logo%20Box.png';
+	return region === 'na' ? '/icons/NA%20Logo.png' : '/icons/EMEA%20Logo.png';
+}
+
+const roundIcons: Record<NonNullable<Round['endType']>, string> = {
+	Eliminated: 'elim.webp',
+	'Bomb detonated': 'boom.webp',
+	'Bomb defused': 'defuse.webp',
+	'Round timer expired': 'time.webp',
+};
+
+export const roundIcon = (endType: NonNullable<Round['endType']>) => {
+	return `/icons/rounds/${roundIcons[endType]}`;
 }

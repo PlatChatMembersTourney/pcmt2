@@ -1,5 +1,5 @@
 ---
-import { regionFlag } from '../../utils/images.ts';
+import { eventLogo, regionFlag } from '../../utils/images.ts';
 interface Props {
 	name: string;
 	desc: string;
@@ -14,14 +14,7 @@ const { name, desc, region, dates, prize, showmatch } = Astro.props;
 
 <div class="bg-vlr-gray-100 dark:bg-vlr-gray-600 flex gap-4 p-4 sm:gap-6 sm:p-6">
 	<div class="flex h-30 w-30 flex-none items-center justify-center rounded-sm border border-neutral-500">
-		<img
-			src={showmatch
-				? '/icons/PC%20Logo%20Box.png'
-				: region === 'na'
-					? '/icons/NA%20Logo.png'
-					: '/icons/EMEA%20Logo.png'}
-			class="h-28 w-28 rounded-sm"
-		/>
+		<img src={eventLogo(!!showmatch, region)} class="h-28 w-28 rounded-sm" />
 	</div>
 
 	<div class="flex flex-col">

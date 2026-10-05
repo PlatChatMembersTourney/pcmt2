@@ -1,5 +1,6 @@
 import type { Round, TeamInfo } from '../../types/types.ts';
 import { useEffect } from 'react';
+import { roundIcon } from '../../utils/images.ts';
 
 interface TimelineProps {
 	rounds: Round[];
@@ -72,18 +73,7 @@ const Timeline: React.FC<TimelineProps> = (props) => {
 							}
 						>
 							{round.winner === 1 && round.endType && (
-								<img
-									src={`
-								/icons/rounds/${
-									{
-										Eliminated: 'elim.webp',
-										'Bomb detonated': 'boom.webp',
-										'Bomb defused': 'defuse.webp',
-										'Round timer expired': 'time.webp',
-									}[round.endType]
-								}`}
-									className="h-4.5 w-4.5 object-contain"
-								/>
+								<img src={roundIcon(round.endType)} className="h-4.5 w-4.5 object-contain" />
 							)}
 						</div>
 						<div
@@ -97,18 +87,7 @@ const Timeline: React.FC<TimelineProps> = (props) => {
 							}
 						>
 							{round.winner === 2 && round.endType && (
-								<img
-									src={`
-								/icons/rounds/${
-									{
-										Eliminated: 'elim.webp',
-										'Bomb detonated': 'boom.webp',
-										'Bomb defused': 'defuse.webp',
-										'Round timer expired': 'time.webp',
-									}[round.endType]
-								}`}
-									className="h-4.5 w-4.5 object-contain"
-								/>
+								<img src={roundIcon(round.endType)} className="h-4.5 w-4.5 object-contain" />
 							)}
 						</div>
 					</div>
