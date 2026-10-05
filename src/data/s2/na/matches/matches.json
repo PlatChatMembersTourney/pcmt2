@@ -4842,7 +4842,7 @@
             "PlusMinus": -16,
             "KAST": 0.735,
             "ADR": 87.035,
-            "HS%": null,
+            "HS%": 0.185,
             "FK": 4,
             "FD": 3,
             "PlusMinus2": 1
@@ -16424,7 +16424,7 @@
                 "K": 21,
                 "D": 16,
                 "A": 2,
-                "PlusMinus": "",
+                "PlusMinus": 5,
                 "KAST": 0.71,
                 "ADR": 165.4,
                 "HS%": 0.38,
@@ -18395,7 +18395,7 @@
                 "HS%": 0.25,
                 "FK": 0,
                 "FD": 2,
-                "PlusMinus2": null
+                "PlusMinus2": -2
               },
               {
                 "Player": "basil",
@@ -18411,7 +18411,7 @@
                 "HS%": 0.14,
                 "FK": 8,
                 "FD": 3,
-                "PlusMinus2": null
+                "PlusMinus2": 5
               },
               {
                 "Player": "lazy",
@@ -18427,7 +18427,7 @@
                 "HS%": 0.25,
                 "FK": 1,
                 "FD": 2,
-                "PlusMinus2": null
+                "PlusMinus2": -1
               },
               {
                 "Player": "androobee",
@@ -18443,7 +18443,7 @@
                 "HS%": 0.08,
                 "FK": 3,
                 "FD": 1,
-                "PlusMinus2": null
+                "PlusMinus2": 2
               },
               {
                 "Player": "spaceman",
@@ -18459,7 +18459,7 @@
                 "HS%": 0.19,
                 "FK": 1,
                 "FD": 0,
-                "PlusMinus2": null
+                "PlusMinus2": 1
               }
             ]
           },
@@ -18691,7 +18691,7 @@
                 "HS%": 0.33,
                 "FK": 3,
                 "FD": 1,
-                "PlusMinus2": 1
+                "PlusMinus2": 2
               },
               {
                 "Player": "basil",
@@ -18707,7 +18707,7 @@
                 "HS%": 0.38,
                 "FK": 9,
                 "FD": 5,
-                "PlusMinus2": 1
+                "PlusMinus2": 4
               },
               {
                 "Player": "jay",
@@ -18723,7 +18723,7 @@
                 "HS%": 0.22,
                 "FK": 2,
                 "FD": 2,
-                "PlusMinus2": -3
+                "PlusMinus2": 0
               },
               {
                 "Player": "spaceman",
@@ -18739,7 +18739,7 @@
                 "HS%": 0.13,
                 "FK": 1,
                 "FD": 0,
-                "PlusMinus2": -5
+                "PlusMinus2": 1
               },
               {
                 "Player": "androobee",
@@ -18755,7 +18755,7 @@
                 "HS%": 0.18,
                 "FK": 0,
                 "FD": 0,
-                "PlusMinus2": -1
+                "PlusMinus2": 0
               }
             ]
           },
@@ -24518,7 +24518,7 @@
                 "HS%": 0.23,
                 "FK": 7,
                 "FD": 4,
-                "PlusMinus2": 4
+                "PlusMinus2": 3
               },
               {
                 "Player": "straight",
@@ -24534,7 +24534,7 @@
                 "HS%": 0.47,
                 "FK": 6,
                 "FD": 2,
-                "PlusMinus2": 2
+                "PlusMinus2": 4
               },
               {
                 "Player": "jooah",
@@ -24550,7 +24550,7 @@
                 "HS%": 0.41,
                 "FK": 1,
                 "FD": 0,
-                "PlusMinus2": 0
+                "PlusMinus2": 1
               },
               {
                 "Player": "amara",
@@ -24566,7 +24566,7 @@
                 "HS%": 0.15,
                 "FK": 1,
                 "FD": 2,
-                "PlusMinus2": 2
+                "PlusMinus2": -1
               },
               {
                 "Player": "hascan",
@@ -24916,7 +24916,7 @@
                 "HS%": 0.29,
                 "FK": 7,
                 "FD": 2,
-                "PlusMinus2": null
+                "PlusMinus2": 5
               },
               {
                 "Player": "basil",
@@ -24932,7 +24932,7 @@
                 "HS%": 0.33,
                 "FK": 3,
                 "FD": 1,
-                "PlusMinus2": null
+                "PlusMinus2": 2
               },
               {
                 "Player": "dunkn",
@@ -24948,7 +24948,7 @@
                 "HS%": 0.14,
                 "FK": 0,
                 "FD": 2,
-                "PlusMinus2": null
+                "PlusMinus2": -2
               },
               {
                 "Player": "snowfall",
@@ -24964,7 +24964,7 @@
                 "HS%": 0.26,
                 "FK": 0,
                 "FD": 3,
-                "PlusMinus2": null
+                "PlusMinus2": -3
               },
               {
                 "Player": "Tenyaku",
@@ -24980,7 +24980,7 @@
                 "HS%": 0.23,
                 "FK": 1,
                 "FD": 3,
-                "PlusMinus2": null
+                "PlusMinus2": -2
               }
             ]
           },
@@ -25675,7 +25675,7 @@
                 "K": 23,
                 "D": 17,
                 "A": 7,
-                "PlusMinus": 17,
+                "PlusMinus": 6,
                 "KAST": 0.83,
                 "ADR": 173,
                 "HS%": 0.42,
@@ -25691,7 +25691,7 @@
                 "K": 17,
                 "D": 13,
                 "A": 11,
-                "PlusMinus": 13,
+                "PlusMinus": 4,
                 "KAST": 0.83,
                 "ADR": 137,
                 "HS%": 0.13,
@@ -25707,7 +25707,7 @@
                 "K": 16,
                 "D": 16,
                 "A": 6,
-                "PlusMinus": 16,
+                "PlusMinus": 0,
                 "KAST": 0.74,
                 "ADR": 147.4,
                 "HS%": 0.24,
@@ -25723,7 +25723,7 @@
                 "K": 16,
                 "D": 15,
                 "A": 6,
-                "PlusMinus": 15,
+                "PlusMinus": 1,
                 "KAST": 0.74,
                 "ADR": 121.3,
                 "HS%": 0.35,
@@ -25739,7 +25739,7 @@
                 "K": 14,
                 "D": 15,
                 "A": 7,
-                "PlusMinus": 15,
+                "PlusMinus": -1,
                 "KAST": 0.78,
                 "ADR": 116.5,
                 "HS%": 0.19,
@@ -55879,7 +55879,7 @@
                 "HS%": 0.21,
                 "FK": 3,
                 "FD": 3,
-                "PlusMinus2": 1
+                "PlusMinus2": 0
               },
               {
                 "Player": "skye",
@@ -56503,7 +56503,7 @@
                 "HS%": 0.19,
                 "FK": 2,
                 "FD": 1,
-                "PlusMinus2": 0
+                "PlusMinus2": 1
               },
               {
                 "Player": "shadow",
@@ -56519,7 +56519,7 @@
                 "HS%": 0.32,
                 "FK": 2,
                 "FD": 1,
-                "PlusMinus2": 0
+                "PlusMinus2": 1
               },
               {
                 "Player": "igneous",
@@ -62055,7 +62055,7 @@
                 "K": 20,
                 "D": 17,
                 "A": 4,
-                "PlusMinus": 16,
+                "PlusMinus": 3,
                 "KAST": 0.7,
                 "ADR": 169.6,
                 "HS%": 0.52,
@@ -62071,7 +62071,7 @@
                 "K": 20,
                 "D": 16,
                 "A": 9,
-                "PlusMinus": 11,
+                "PlusMinus": 4,
                 "KAST": 0.65,
                 "ADR": 136.1,
                 "HS%": 0.25,
@@ -62087,7 +62087,7 @@
                 "K": 16,
                 "D": 13,
                 "A": 7,
-                "PlusMinus": 9,
+                "PlusMinus": 3,
                 "KAST": 0.65,
                 "ADR": 143.2,
                 "HS%": 0.04,
@@ -62103,7 +62103,7 @@
                 "K": 14,
                 "D": 14,
                 "A": 5,
-                "PlusMinus": 9,
+                "PlusMinus": 0,
                 "KAST": 0.65,
                 "ADR": 130.5,
                 "HS%": 0.2,
@@ -62119,7 +62119,7 @@
                 "K": 12,
                 "D": 15,
                 "A": 8,
-                "PlusMinus": 4,
+                "PlusMinus": -3,
                 "KAST": 0.74,
                 "ADR": 108.5,
                 "HS%": 0.12,

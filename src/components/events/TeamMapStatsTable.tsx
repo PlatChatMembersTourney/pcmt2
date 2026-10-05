@@ -1,11 +1,17 @@
 import type { MapStat, TeamMapStats } from '../../types/types.ts';
 
 import {
-	useReactTable,
+	useTable,
+	tableFeatures,
+	rowSortingFeature,
+	columnVisibilityFeature,
+	createSortedRowModel,
+	sortFn_alphanumeric,
+	sortFn_basic,
+	sortFn_datetime,
+	sortFn_text,
 	createColumnHelper,
-	getSortedRowModel,
 	flexRender,
-	getCoreRowModel,
 	type SortingState,
 } from '@tanstack/react-table';
 import { useState } from 'react';
@@ -14,6 +20,20 @@ import { cx } from '../../utils/cx.ts';
 interface TeamMapStatsTableProps {
 	teamMapStats: TeamMapStats;
 }
+
+// Table features used: sorting, plus column visibility for row.getVisibleCells()
+const features = tableFeatures({
+	rowSortingFeature,
+	columnVisibilityFeature,
+	sortedRowModel: createSortedRowModel(),
+	// the sort functions automatic sorting can pick (registering all of them would bundle every one)
+	sortFns: {
+		alphanumeric: sortFn_alphanumeric,
+		basic: sortFn_basic,
+		datetime: sortFn_datetime,
+		text: sortFn_text,
+	},
+});
 
 const pctFormatter = new Intl.NumberFormat('en-US', {
 	style: 'percent',
@@ -26,9 +46,9 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 	const [sorting, setSorting] = useState<SortingState>([]);
 
 	// use TanStack table
-	const columnHelper = createColumnHelper<MapStat>();
+	const columnHelper = createColumnHelper<typeof features, MapStat>();
 
-	const columns = [
+	const columns = columnHelper.columns([
 		columnHelper.accessor('map', {
 			header: 'Map',
 		}),
@@ -59,13 +79,12 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 				return pctFormatter.format(getValue());
 			},
 		}),
-	];
+	]);
 
-	const table = useReactTable({
+	const table = useTable({
+		features,
 		data: teamMapStats.maps,
 		columns,
-		getSortedRowModel: getSortedRowModel(),
-		getCoreRowModel: getCoreRowModel(),
 		onSortingChange: setSorting,
 		state: {
 			sorting,

@@ -41,8 +41,10 @@ const { title, desc, ogTitle, img = '/icons/PCMT Logo.png', activePage, bodyClas
 		/>
 	</head>
 	<body
-		class={bodyClass ??
-			'bg-white text-bright dark:bg-vlr-gray-800 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]'}
+		class={
+			bodyClass ??
+			'bg-white text-bright dark:bg-vlr-gray-800 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]'
+		}
 	>
 		<!-- Prevent FART: set the theme before anything renders. Dark defaults to the OS setting, fun defaults to on -->
 		<script is:inline>

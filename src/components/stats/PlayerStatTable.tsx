@@ -1,13 +1,18 @@
 import type { PlayerStatsWithEventId } from '../../types/types.ts';
 
 import {
-	useReactTable,
+	useTable,
+	tableFeatures,
+	rowSortingFeature,
+	columnVisibilityFeature,
+	createSortedRowModel,
+	sortFn_alphanumeric,
+	sortFn_basic,
+	sortFn_datetime,
+	sortFn_text,
 	createColumnHelper,
-	getSortedRowModel,
 	flexRender,
-	getCoreRowModel,
 	type SortingState,
-	type ColumnDef,
 	type Column,
 } from '@tanstack/react-table';
 import { useState } from 'react';
@@ -28,6 +33,20 @@ import { cx } from '../../utils/cx.ts';
 
 const eventOf = (id: string) => events.find((e) => e.id === id);
 
+// Table features used: sorting, plus column visibility for getVisibleLeafColumns()
+const features = tableFeatures({
+	rowSortingFeature,
+	columnVisibilityFeature,
+	sortedRowModel: createSortedRowModel(),
+	// the sort functions automatic sorting can pick (registering all of them would bundle every one)
+	sortFns: {
+		alphanumeric: sortFn_alphanumeric,
+		basic: sortFn_basic,
+		datetime: sortFn_datetime,
+		text: sortFn_text,
+	},
+});
+
 const pctFormatter = new Intl.NumberFormat('en-US', {
 	style: 'percent',
 	maximumFractionDigits: 0,
@@ -40,11 +59,13 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 
 	// use TanStack table
 
-	const columnHelper = createColumnHelper<PlayerStatsWithEventId>();
+	const columnHelper = createColumnHelper<typeof features, PlayerStatsWithEventId>();
 
-	const playerInfoColumns: ColumnDef<PlayerStatsWithEventId, string>[] = [
+	const playerInfoColumns = columnHelper.columns([
 		columnHelper.accessor('Team', {
 			header: 'Team',
+			// team names mix letters and numbers (C9, 100T) - sort them alphanumerically, as before the v9 upgrade
+			sortFn: 'alphanumeric',
 			cell: (info) => {
 				const r = info.row.original;
 				if (!(r.Team in teams[r.eventId])) {
@@ -58,7 +79,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 			},
 			id: 'Team',
 		}),
-	];
+	]);
 	if (showSeason) {
 		playerInfoColumns.push(
 			columnHelper.accessor((row) => eventOf(row.eventId)!.shortName, {
@@ -71,7 +92,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 			})
 		);
 	}
-	const columns = [
+	const columns = columnHelper.columns([
 		columnHelper.accessor('Player', {
 			header: 'Player',
 			id: 'Player',
@@ -100,7 +121,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 		}),
 		columnHelper.group({
 			header: 'Rating',
-			columns: [
+			columns: columnHelper.columns([
 				columnHelper.accessor(
 					(row) => {
 						let tr = row['R1.0'];
@@ -209,22 +230,22 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 					),
 					id: 'ACS',
 				}),
-			],
+			]),
 		}),
 		columnHelper.group({
 			header: 'Played',
-			columns: [
+			columns: columnHelper.columns([
 				columnHelper.accessor('MP', {
 					header: 'MP',
 				}),
 				columnHelper.accessor('Rounds', {
 					header: 'RP',
 				}),
-			],
+			]),
 		}),
 		columnHelper.group({
 			header: 'Total Stats',
-			columns: [
+			columns: columnHelper.columns([
 				columnHelper.accessor('K', {
 					header: 'K',
 				}),
@@ -234,11 +255,11 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				columnHelper.accessor('A', {
 					header: 'A',
 				}),
-			],
+			]),
 		}),
 		columnHelper.group({
 			header: 'Ratio',
-			columns: [
+			columns: columnHelper.columns([
 				columnHelper.accessor((row) => row.K / row.D, {
 					header: 'K/D',
 					cell: ({ getValue }) => {
@@ -251,11 +272,11 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 						return getValue().toFixed(2);
 					},
 				}),
-			],
+			]),
 		}),
 		columnHelper.group({
 			header: 'Per Round',
-			columns: [
+			columns: columnHelper.columns([
 				columnHelper.accessor('KPR', {
 					header: 'KPR',
 					cell: ({ getValue }) => {
@@ -286,11 +307,11 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 						return getValue().toFixed(1);
 					},
 				}),
-			],
+			]),
 		}),
 		columnHelper.group({
 			header: 'First Blood',
-			columns: [
+			columns: columnHelper.columns([
 				columnHelper.accessor('FK', {
 					header: 'FK',
 				}),
@@ -312,26 +333,25 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				columnHelper.accessor((row) => row.FK - row.FD, {
 					header: '+/-',
 				}),
-			],
+			]),
 		}),
 		columnHelper.group({
 			header: 'The GOATs',
-			columns: [
+			columns: columnHelper.columns([
 				columnHelper.accessor((row) => pctFormatter.format(row['HS%']), {
 					header: 'HS%',
 				}),
 				columnHelper.accessor('KMAX', {
 					header: 'KMAX',
 				}),
-			],
+			]),
 		}),
-	];
+	]);
 
-	const table = useReactTable({
+	const table = useTable({
+		features,
 		data: playerStats,
 		columns,
-		getSortedRowModel: getSortedRowModel(),
-		getCoreRowModel: getCoreRowModel(),
 		onSortingChange: setSorting,
 		state: {
 			sorting,
@@ -340,7 +360,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 
 	const lastLeafId = table.getVisibleLeafColumns().at(-1)?.id;
 
-	const isGroupBoundary = (column: Column<PlayerStatsWithEventId, unknown>) => {
+	const isGroupBoundary = (column: Column<typeof features, PlayerStatsWithEventId, unknown>) => {
 		// no border on anything that ends at the table's right edge
 		if (column.getLeafColumns().at(-1)?.id === lastLeafId) return false;
 		const parent = column.parent;
