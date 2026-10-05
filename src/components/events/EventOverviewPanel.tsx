@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useUrlTab } from '../../utils/urlTab.ts';
 import { useStore } from '@nanostores/react';
 import type { Event, Standing } from '../../types/types.ts';
 import { $brackets, $matches, $standings, $teams } from '../../stores/store.ts';
@@ -13,7 +13,11 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 	const brackets = useStore($brackets)[event.id];
 	const matches = useStore($matches)[event.id];
 
-	const [activeStage, setActiveStage] = useState(event.stages.length - 1);
+	const [activeStage, setActiveStage] = useUrlTab(
+		'overview',
+		event.stages.map((stage) => stage.name),
+		event.stages.length - 1
+	);
 
 	const format = event.stages[activeStage].format;
 	const stageName = event.stages[activeStage].name;

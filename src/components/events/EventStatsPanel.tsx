@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useUrlTab } from '../../utils/urlTab.ts';
 import type { Event, PlayerStats } from '../../types/types.ts';
 import { useStore } from '@nanostores/react';
 import { $playerStats } from '../../stores/store.ts';
@@ -11,7 +12,7 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 
 	const stages = ['All', ...Object.keys(playerStats).filter((name) => name !== 'Overall')];
 
-	const [activeStage, setActiveStage] = useState(0);
+	const [activeStage, setActiveStage] = useUrlTab('stats', stages);
 	const [stickyPlayerNames, setStickyPlayerNames] = useState(true);
 	const [showSubs, setShowSubs] = useState(true);
 

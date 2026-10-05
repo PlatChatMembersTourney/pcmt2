@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useUrlTab } from '../../utils/urlTab.ts';
 import type { Event, Match } from '../../types/types.ts';
 import { useStore } from '@nanostores/react';
 import { $matches, $teams } from '../../stores/store.ts';
@@ -24,7 +25,7 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 			? ['All', ...event.stages?.map((stage) => stage.name)]
 			: event.stages?.map((stage) => stage.name);
 
-	const [activeStage, setActiveStage] = useState(0);
+	const [activeStage, setActiveStage] = useUrlTab('matches', stages);
 	const [reverse, setReverse] = useState(false);
 
 	if (!event.stages) {

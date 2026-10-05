@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useUrlTab } from '../../utils/urlTab.ts';
 import type { Event, Match } from '../../types/types.ts';
 
 import EventOverviewPanel from './EventOverviewPanel.tsx';
@@ -12,14 +12,15 @@ import { useStore } from '@nanostores/react';
 const Teams: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
 	const pages = ['Overview', 'Matches', 'Stats', 'Agents'];
-	const [active, setActive] = useState<string>('Overview');
+	const [activeIdx, setActive] = useUrlTab('tab', pages);
+	const active = pages[activeIdx];
 
 	const matches: Match[] = useStore($matches)[event.id];
 
 	return (
 		<div className="flex flex-col">
 			<div className="bg-vlr-gray-100 dark:bg-vlr-gray-600 vlr-box-shadow vlr-border flex flex-row border-t border-b pl-4 sm:pl-6 dark:border-b-0">
-				{pages.map((label) => {
+				{pages.map((label, idx) => {
 					return (
 						<button
 							className={
@@ -27,7 +28,7 @@ const Teams: React.FC<{ event: Event }> = (props: { event: Event }) => {
 								'vlr-border border-r px-5 py-5 text-xs font-bold first:border-l ' +
 								'dark:hover:bg-vlr-gray-500 hover:bg-vlr-gray-300 relative cursor-pointer'
 							}
-							onClick={() => setActive(label)}
+							onClick={() => setActive(idx)}
 							key={label}
 						>
 							{label}
