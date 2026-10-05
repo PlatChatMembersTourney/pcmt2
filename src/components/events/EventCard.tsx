@@ -1,5 +1,12 @@
 import { eventLogo, regionFlag } from '../../utils/images.ts';
 import type { Event } from '../../types/types.ts';
+import { cx } from '../../utils/cx.ts';
+
+const statusColors: Record<string, string> = {
+	completed: 'text-pb',
+	ongoing: 'text-red-400',
+	upcoming: 'text-green-400',
+};
 
 interface EventCardProps {
 	event: Event;
@@ -12,19 +19,14 @@ const EventCard: React.FC<EventCardProps> = (props) => {
 	return (
 		<a className="vlr-box-shadow flex h-22.5 max-w-150 cursor-pointer items-center" href={'/events/' + id}>
 			<div className="h-22.5 flex-1">
-				<div className="bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:hover:bg-vlr-gray-500 flex h-full flex-col px-4 py-3 hover:bg-[#f1f1f1]">
-					<div className="dark:text-vlr-text-white flex-1 text-[14px] leading-tight font-bold text-black">
+				<div className="bg-shade-100 dark:hover:bg-vlr-gray-500 flex h-full flex-col px-4 py-3 hover:bg-vlr-gray-150">
+					<div className="flex-1 text-[14px] leading-tight font-bold text-main">
 						{name}
 					</div>
 					<div className="flex flex-none flex-row items-end gap-4">
 						<div className="flex w-15 flex-none flex-col gap-1 sm:w-20">
 							<dd
-								className={
-									'text-xs leading-none font-bold' +
-									(status === 'completed' ? ' text-pb' : '') +
-									(status === 'ongoing' ? ' text-red-400' : '') +
-									(status === 'upcoming' ? ' text-green-400' : '')
-								}
+								className={cx('text-xs leading-none font-bold', statusColors[status])}
 							>
 								{status.charAt(0).toUpperCase() + status.slice(1)}
 							</dd>

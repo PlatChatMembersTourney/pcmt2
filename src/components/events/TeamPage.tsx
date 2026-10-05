@@ -29,7 +29,7 @@ const TeamPage: React.FC<TeamPageProps> = (props) => {
 
 	return (
 		<div className="font-[roboto]">
-			<div className="bg-vlr-gray-100 dark:bg-vlr-gray-600 flex items-center gap-4 p-4 sm:gap-6 sm:p-6">
+			<div className="bg-shade-100 flex items-center gap-4 p-4 sm:gap-6 sm:p-6">
 				<div className="flex h-30 w-30 flex-none items-center justify-center rounded-sm border border-neutral-500">
 					<div className={'bg-vlr-gray-200 dark:bg-vlr-gray-800 flex h-28 w-28 items-center justify-center'}>
 						<img src={team.logo} className="h-auto w-28 rounded-sm" />
@@ -41,7 +41,7 @@ const TeamPage: React.FC<TeamPageProps> = (props) => {
 						{dyslexia && fun ? 'Palt Chat Mbemres Tuoranmnte:' : 'Plat Chat Members Tournament:'}{' '}
 						{acrossShowmatches ? 'Showmatches' : `S${event.season} ${event.region.toUpperCase()}`}
 					</a>
-					<h1 className="dark:text-vlr-text-white mb-1 text-xl font-bold text-black sm:text-2xl">
+					<h1 className="mb-1 text-xl font-bold text-main sm:text-2xl">
 						{dyslexia && fun ? 'Taem Lydsexia' : team.name}{' '}
 						<span className="text-vlr-text-gray font-normal">{team.abbr}</span>
 					</h1>

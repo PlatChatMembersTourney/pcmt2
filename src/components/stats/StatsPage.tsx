@@ -9,6 +9,7 @@ import { groupByDay } from '../../utils/datetime.ts';
 import eventsRaw from '../../data/events.json';
 import { fromJson } from '../../utils/json.ts';
 import PlayerStatTable from './PlayerStatTable.tsx';
+import { cx } from '../../utils/cx.ts';
 
 const events = fromJson<Event[]>(eventsRaw);
 
@@ -60,11 +61,11 @@ const TeamsPage: React.FC = () => {
 	const filteredPlayers = showSubs ? players : players.filter((player) => !player.Team.includes('(sub)'));
 
 	return (
-		<div className="dark:bg-vlr-gray-800 bg-vlr-gray-300 flex h-full min-h-0 flex-col font-[roboto]">
+		<div className="bg-shade-300 flex h-full min-h-0 flex-col font-[roboto]">
 			<div className="mx-4 mt-4 flex flex-col gap-2 sm:mx-6 sm:mt-6 sm:gap-4 md:flex-row">
-				<div className="bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow flex h-9 w-full items-stretch sm:h-12">
-					<div className="border-vlr-border-light dark:border-vlr-border-gray flex items-center border-r px-5">
-						<p className="text-vlr-text-gray dark:text-vlr-text-white text-[11px] font-bold uppercase">
+				<div className="bg-shade-200 vlr-box-shadow flex h-9 w-full items-stretch sm:h-12">
+					<div className="border-line flex items-center border-r px-5">
+						<p className="text-subtle text-[11px] font-bold uppercase">
 							Region
 						</p>
 					</div>
@@ -72,16 +73,15 @@ const TeamsPage: React.FC = () => {
 						aria-label="NA or EMEA"
 						value={region}
 						onValueChange={handleRegionChange}
-						className="dark:text-vlr-text-white relative flex flex-none text-[12px] text-black"
+						className="relative flex flex-none text-[12px] text-main"
 					>
 						{['All', 'NA', 'EMEA'].map((item) => (
 							<Toggle aria-label={item} value={item} key={item}>
 								<div
-									className={
-										(region[0] === item ? 'bg-vlr-gray-100 dark:bg-vlr-gray-800 ' : '') +
-										'relative flex h-full cursor-pointer items-center justify-center px-3 transition-colors duration-200 ' +
-										'border-vlr-border-light dark:border-vlr-border-gray border-r'
-									}
+									className={cx(
+										'border-line relative flex h-full cursor-pointer items-center justify-center border-r px-3 transition-colors duration-200',
+										region[0] === item && 'bg-vlr-gray-100 dark:bg-vlr-gray-800'
+									)}
 								>
 									{region[0] === item && (
 										<motion.div
@@ -100,9 +100,9 @@ const TeamsPage: React.FC = () => {
 						))}
 					</ToggleGroup>
 				</div>
-				<div className="bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow flex h-9 w-full items-stretch sm:h-12">
-					<div className="border-vlr-border-light dark:border-vlr-border-gray flex items-center border-r px-5">
-						<p className="text-vlr-text-gray dark:text-vlr-text-white text-[11px] font-bold uppercase">
+				<div className="bg-shade-200 vlr-box-shadow flex h-9 w-full items-stretch sm:h-12">
+					<div className="border-line flex items-center border-r px-5">
+						<p className="text-subtle text-[11px] font-bold uppercase">
 							Season
 						</p>
 					</div>
@@ -110,16 +110,15 @@ const TeamsPage: React.FC = () => {
 						aria-label="Season Number"
 						value={season}
 						onValueChange={handleSeasonChange}
-						className="dark:text-vlr-text-white relative flex flex-none text-[12px] text-black"
+						className="relative flex flex-none text-[12px] text-main"
 					>
 						{['All', 'S1', 'S2', 'S3'].map((item) => (
 							<Toggle aria-label={item} value={item} key={item}>
 								<div
-									className={
-										(season[0] === item ? 'bg-vlr-gray-100 dark:bg-vlr-gray-800 ' : '') +
-										'relative flex h-full cursor-pointer items-center justify-center px-3 transition-colors duration-200 ' +
-										'border-vlr-border-light dark:border-vlr-border-gray border-r'
-									}
+									className={cx(
+										'border-line relative flex h-full cursor-pointer items-center justify-center border-r px-3 transition-colors duration-200',
+										season[0] === item && 'bg-vlr-gray-100 dark:bg-vlr-gray-800'
+									)}
 								>
 									{season[0] === item && (
 										<motion.div
@@ -142,30 +141,30 @@ const TeamsPage: React.FC = () => {
 			<div className="mx-4 mt-2 flex sm:mx-6 sm:mt-4">
 				<button
 					onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
-					className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:text-vlr-text-white text-vlr-text-dark cursor-pointer rounded-sm p-2 text-xs`}
+					className={cx('bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs', stickyPlayerNames ? 'font-bold' : 'font-normal')}
 				>
 					Sticky Player Names
 				</button>
 				<button
 					onClick={() => setShowShowmatches(!showShowmatches)}
-					className={`${showShowmatches ? 'font-bold' : 'font-normal'} bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:text-vlr-text-white text-vlr-text-dark ml-auto cursor-pointer rounded-sm p-2 text-xs`}
+					className={cx('bg-shade-100 text-muted ml-auto cursor-pointer rounded-sm p-2 text-xs', showShowmatches ? 'font-bold' : 'font-normal')}
 				>
 					Showmatches
 				</button>
 				<button
 					onClick={() => setShowSubs(!showSubs)}
-					className={`${showSubs ? 'font-bold' : 'font-normal'} bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:text-vlr-text-white text-vlr-text-dark ml-2 cursor-pointer rounded-sm p-2 text-xs`}
+					className={cx('bg-shade-100 text-muted ml-2 cursor-pointer rounded-sm p-2 text-xs', showSubs ? 'font-bold' : 'font-normal')}
 				>
 					Show Subs
 				</button>
 			</div>
 
 			{players.length > 0 ? (
-				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 min-h-0 flex-1 px-4 pt-2 pb-4 sm:px-6 sm:pt-4 sm:pb-6">
+				<div className="bg-shade-300 min-h-0 flex-1 px-4 pt-2 pb-4 sm:px-6 sm:pt-4 sm:pb-6">
 					<PlayerStatTable playerStats={filteredPlayers} showSeason={true} stickyPlayerNames={stickyPlayerNames} />
 				</div>
 			) : (
-				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 dark:text-vlr-text-white h-full p-4 text-black sm:p-6">
+				<div className="bg-shade-300 h-full p-4 text-main sm:p-6">
 					<div>
 						<img src={'/res/revealed_no_one.gif'} />
 					</div>

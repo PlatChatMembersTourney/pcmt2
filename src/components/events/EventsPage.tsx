@@ -7,6 +7,7 @@ import type { TeamInfo, Event } from '../../types/types.ts';
 import eventsRaw from '../../data/events.json';
 import { fromJson } from '../../utils/json.ts';
 import EventCard from './EventCard.tsx';
+import { cx } from '../../utils/cx.ts';
 
 const events = fromJson<Event[]>(eventsRaw);
 
@@ -28,10 +29,10 @@ const TeamsPage: React.FC = () => {
 		.reverse();
 
 	return (
-		<div className="dark:bg-vlr-gray-800 bg-vlr-gray-300 mx-4 mt-4 flex flex-col font-[roboto] sm:mx-6 sm:mt-6">
-			<div className="bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow flex h-12 w-full items-center items-stretch">
-				<div className="border-vlr-border-light dark:border-vlr-border-gray flex items-center border-r px-5">
-					<p className="text-vlr-text-gray dark:text-vlr-text-white text-[11px] font-bold uppercase">
+		<div className="bg-shade-300 mx-4 mt-4 flex flex-col font-[roboto] sm:mx-6 sm:mt-6">
+			<div className="bg-shade-200 vlr-box-shadow flex h-12 w-full items-center items-stretch">
+				<div className="border-line flex items-center border-r px-5">
+					<p className="text-subtle text-[11px] font-bold uppercase">
 						Region
 					</p>
 				</div>
@@ -39,16 +40,15 @@ const TeamsPage: React.FC = () => {
 					aria-label="NA or EMEA"
 					value={region}
 					onValueChange={handleRegionChange}
-					className="dark:text-vlr-text-white relative flex flex-none text-[12px] text-black"
+					className="relative flex flex-none text-[12px] text-main"
 				>
 					{['All', 'NA', 'EMEA'].map((item) => (
 						<Toggle aria-label={item} value={item} key={item}>
 							<div
-								className={
-									(region[0] === item ? 'bg-vlr-gray-100 dark:bg-vlr-gray-800 ' : '') +
-									'relative flex h-full cursor-pointer items-center justify-center px-3 transition-colors duration-200 ' +
-									'border-vlr-border-light dark:border-vlr-border-gray border-r'
-								}
+								className={cx(
+									'border-line relative flex h-full cursor-pointer items-center justify-center border-r px-3 transition-colors duration-200',
+									region[0] === item && 'bg-vlr-gray-100 dark:bg-vlr-gray-800'
+								)}
 							>
 								{region[0] === item && (
 									<motion.div

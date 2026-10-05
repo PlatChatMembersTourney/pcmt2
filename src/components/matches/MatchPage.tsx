@@ -51,7 +51,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 	const { event, match, teams } = props;
 
 	return (
-		<div className="dark:bg-vlr-gray-800 bg-vlr-gray-300 flex h-full flex-col font-[roboto]">
+		<div className="bg-shade-300 flex h-full flex-col font-[roboto]">
 			<div className="m-6 grid grid-cols-1 gap-6 xl:grid-cols-[auto_1fr]">
 				<div className="flex max-w-185 min-w-0 flex-col gap-4 md:w-185">
 					<MatchHeader event={event} match={match} teams={teams} />
@@ -74,7 +74,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 									href={link}
 									target="_blank"
 									rel="noopener noreferrer"
-									className="vlr-box-shadow bg-vlr-gray-200 dark:bg-vlr-gray-700 dark:text-vlr-text-white hover:bg-vlr-gray-100 dark:hover:bg-vlr-gray-600 flex h-9 items-center gap-2 pl-4 text-[11px] text-[#333] sm:pl-5"
+									className="vlr-box-shadow bg-shade-200 dark:text-vlr-text-white hover:bg-shade-100 flex h-9 items-center gap-2 pl-4 text-[11px] text-vlr-text-darker sm:pl-5"
 								>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										viewBox="0 0 24 24"
-										className="dark:stroke-vlr-text-white mr-2 ml-auto h-4 w-4 stroke-[#333]"
+										className="dark:stroke-vlr-text-white mr-2 ml-auto h-4 w-4 stroke-vlr-text-darker"
 									>
 										<path d="M0 0h24v24H0z" fill="none" stroke="none" />
 										<path

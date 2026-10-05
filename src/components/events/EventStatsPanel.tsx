@@ -3,6 +3,7 @@ import { useUrlTab } from '../../utils/urlTab.ts';
 import type { Event } from '../../types/types.ts';
 import { playerStats as allPlayerStats } from '../../stores/store.ts';
 import PlayerStatTable from '../stats/PlayerStatTable.tsx';
+import { cx } from '../../utils/cx.ts';
 
 const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
@@ -24,7 +25,7 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 
 	return (
 		<div className="flex flex-col">
-			<div className="bg-vlr-gray-200 dark:bg-vlr-gray-700 dark:text-vlr-text-white vlr-box-shadow flex h-15 items-center gap-3 pl-9 text-black sm:pl-11">
+			<div className="bg-shade-200 vlr-box-shadow flex h-15 items-center gap-3 pl-9 text-main sm:pl-11">
 				<div>
 					<p className="text-[10px] font-medium text-red-400 uppercase">Stage:</p>
 				</div>
@@ -34,21 +35,18 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 					return (
 						<button
 							key={stage}
-							className={
-								'flex h-full cursor-pointer flex-col items-start justify-center gap-1 border-b-3 border-transparent pt-0.75 ' +
-								(isActive ? '' : '')
-							}
+							className="flex h-full cursor-pointer flex-col items-start justify-center gap-1 border-b-3 border-transparent pt-0.75"
 							onClick={() => {
 								setActiveStage(idx);
 							}}
 						>
 							<p
-								className={
-									'box-border h-6 text-xs leading-6 ' +
-									(isActive
-										? 'dark:text-vlr-text-fullwhite border-b-3 border-red-400 font-bold text-black'
-										: 'dark:text-vlr-text-white hover:dark:text-vlr-text-fullwhite border-b border-dotted border-[#666666] text-black hover:border-transparent hover:font-bold')
-								}
+								className={cx(
+									'box-border h-6 text-xs leading-6',
+									isActive
+										? 'border-b-3 border-red-400 font-bold text-black dark:text-vlr-text-fullwhite'
+										: 'border-b border-dotted border-vlr-border-mid text-main hover:border-transparent hover:font-bold hover:dark:text-vlr-text-fullwhite'
+								)}
 							>
 								{stage}
 							</p>
@@ -57,17 +55,17 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 				})}
 			</div>
 			{players.length > 0 ? (
-				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 flex h-full max-h-[80vh] flex-col gap-2 p-4 sm:p-6">
+				<div className="bg-shade-300 flex h-full max-h-[80vh] flex-col gap-2 p-4 sm:p-6">
 					<div className="flex">
 						<button
 							onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
-							className={`${stickyPlayerNames ? 'font-bold' : 'font-normal'} bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:text-vlr-text-white text-vlr-text-dark cursor-pointer rounded-sm p-2 text-xs`}
+							className={cx('bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs', stickyPlayerNames ? 'font-bold' : 'font-normal')}
 						>
 							Sticky Player Names
 						</button>
 						<button
 							onClick={() => setShowSubs(!showSubs)}
-							className={`${showSubs ? 'font-bold' : 'font-normal'} bg-vlr-gray-100 dark:bg-vlr-gray-600 dark:text-vlr-text-white text-vlr-text-dark ml-auto cursor-pointer rounded-sm p-2 text-xs`}
+							className={cx('bg-shade-100 text-muted ml-auto cursor-pointer rounded-sm p-2 text-xs', showSubs ? 'font-bold' : 'font-normal')}
 						>
 							Show Subs
 						</button>
@@ -80,7 +78,7 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 					/>
 				</div>
 			) : (
-				<div className="dark:text-vlr-text-white flex flex-col p-6 text-black">No stats yet. D:</div>
+				<div className="flex flex-col p-6 text-main">No stats yet. D:</div>
 			)}
 		</div>
 	);

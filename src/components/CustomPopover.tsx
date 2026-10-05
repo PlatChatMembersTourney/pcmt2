@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { Popover } from '@base-ui/react/popover';
 import InfoIcon from './icons/InfoIcon.tsx';
+import { cx } from '../utils/cx.ts';
 
 interface CustomPopoverProps {
 	children: ReactNode;
@@ -19,12 +20,12 @@ const CustomPopover: React.FC<CustomPopoverProps> = ({ children, title, content,
 				<Popover.Positioner sideOffset={8} side={side} align="center">
 					<Popover.Popup className="bg-vlr-gray-100 dark:bg-vlr-gray-900 vlr-box-shadow p-2 font-[roboto]">
 						<Popover.Arrow
-							className={
-								'before:bg-vlr-gray-100 dark:before:bg-vlr-gray-900 popover-arrow ' +
-								(side === 'top' ? 'popover-arrow-top' : 'popover-arrow-bottom')
-							}
+							className={cx(
+								'popover-arrow before:bg-vlr-gray-100 dark:before:bg-vlr-gray-900',
+								side === 'top' ? 'popover-arrow-top' : 'popover-arrow-bottom'
+							)}
 						/>
-						<Popover.Title className="mb-1 text-sm font-medium text-black dark:text-white">
+						<Popover.Title className="mb-1 text-sm font-medium text-bright">
 							{title}
 						</Popover.Title>
 						<Popover.Description className="">{content}</Popover.Description>

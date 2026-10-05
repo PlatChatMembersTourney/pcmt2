@@ -9,6 +9,7 @@ import {
 	type SortingState,
 } from '@tanstack/react-table';
 import { useState } from 'react';
+import { cx } from '../../utils/cx.ts';
 
 interface TeamMapStatsTableProps {
 	teamMapStats: TeamMapStats;
@@ -72,7 +73,7 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 	});
 
 	return (
-		<div className="dark:text-vlr-text-white text-vlr-text-dark overflow-x-auto text-base">
+		<div className="text-muted overflow-x-auto text-base">
 			<table className="vlr-box-shadow border-separate border-spacing-0">
 				<thead>
 					{table.getHeaderGroups().map((headerGroup, groupIdx) => (
@@ -80,23 +81,20 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 							{headerGroup.headers.map((header) => {
 								const stickyClass = (columnId: string) =>
 									columnId === 'map'
-										? 'sticky left-0 z-20 bg-gray-100 dark:bg-vlr-gray-900 border-r vlr-border'
+										? 'sticky left-0 z-20 bg-gray-100 dark:bg-vlr-gray-900 border-r border-line'
 										: '';
 								return (
 									<th
 										key={header.id}
 										colSpan={header.colSpan}
-										className={`${stickyClass(
-											header.column.id
-										)} cool-border-top cool-border-pb relative px-1 pt-1.75 pb-1 after:top-0!`}
+										className={cx(
+											stickyClass(header.column.id),
+											'cool-border-top cool-border-pb relative px-1 pt-1.75 pb-1 after:top-0!'
+										)}
 									>
 										{header.isPlaceholder ? null : (
 											<div
-												className={
-													header.column.getCanSort()
-														? 'cursor-pointer text-black select-none dark:text-white'
-														: ''
-												}
+												className={cx(header.column.getCanSort() && 'cursor-pointer text-bright select-none')}
 												onClick={header.column.getToggleSortingHandler()}
 												title={
 													header.column.getCanSort()
@@ -125,16 +123,17 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 					{table.getRowModel().rows.map((row, idx) => (
 						<tr
 							key={row.id}
-							className="group odd:dark:bg-vlr-gray-600 even:dark:bg-vlr-gray-700 odd:bg-vlr-gray-100 even:bg-vlr-gray-200"
+							className="group odd:bg-shade-100 even:bg-shade-200"
 						>
 							{row.getVisibleCells().map((cell) => (
 								<td
 									key={cell.id}
-									className={`min-w-15 px-2.5 py-1 whitespace-nowrap ${
+									className={cx(
+										'min-w-15 px-2.5 py-1 whitespace-nowrap',
 										cell.column.id === 'map'
-											? 'vlr-border group-odd:bg-vlr-gray-100 group-even:bg-vlr-gray-200 group-odd:dark:bg-vlr-gray-600 group-even:dark:bg-vlr-gray-700 sticky left-0 z-10 border-r'
+											? 'border-line group-odd:bg-shade-100 group-even:bg-shade-200 sticky left-0 z-10 border-r'
 											: 'text-center'
-									}`}
+									)}
 								>
 									{flexRender(cell.column.columnDef.cell, cell.getContext())}
 								</td>

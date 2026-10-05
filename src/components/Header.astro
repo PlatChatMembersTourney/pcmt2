@@ -13,28 +13,28 @@ const links = [
 ];
 ---
 
-<header class="sticky top-0 z-50 h-16 w-full bg-gray-300 text-[larger] text-white dark:bg-[#1e1e1e]">
+<header class="sticky top-0 z-50 h-16 w-full bg-gray-300 text-[larger] text-white dark:bg-vlr-gray-950">
 	<div class="mx-auto flex h-full max-w-315 items-stretch justify-between">
 		<!-- left group: logo + title + nav links -->
 		<div class="hidden items-stretch md:flex">
-			<a href="/" class="flex items-center gap-6 border-l border-neutral-200 pr-4 pl-4 dark:border-[#333]">
+			<a href="/" class="flex items-center gap-6 border-l border-nav pr-4 pl-4">
 				<img src="/icons/PCMT Logo.png" alt="PCMT Logo" class="hidden h-auto w-12 dark:block" />
 				<img src="/icons/PCMT Logo Light.png" alt="PCMT Logo" class="block h-auto w-12 dark:hidden" />
-				<span class="hidden text-black lg:block dark:text-white">Plat Chat Members Tournament</span>
-				<span class="block text-black lg:hidden dark:text-white">PCMT</span>
+				<span class="hidden text-bright lg:block">Plat Chat Members Tournament</span>
+				<span class="block text-bright lg:hidden">PCMT</span>
 			</a>
 
-			<nav class="flex items-stretch border-r border-neutral-200 dark:border-[#333]">
+			<nav class="flex items-stretch border-r border-nav">
 				{
 					links.map((link) => (
 						<a
 							href={link.href}
-							class={
-								(link.label === activePage
-									? 'text-black dark:text-white '
-									: 'text-neutral-600 hover:text-neutral-500 dark:text-[#aaa] dark:hover:text-white ') +
-								'flex items-center border-l border-neutral-200 px-6 text-[15px] transition-colors dark:border-[#333]'
-							}
+							class:list={[
+								'flex items-center border-l border-nav px-6 text-[15px] transition-colors',
+								link.label === activePage
+									? 'text-bright'
+									: 'text-neutral-600 hover:text-neutral-500 dark:text-vlr-text-silver dark:hover:text-white',
+							]}
 						>
 							{link.label}
 						</a>
@@ -79,12 +79,12 @@ const links = [
 						links.map((link) => (
 							<a
 								href={link.href}
-								class={
-									(link.label === activePage
-										? 'text-black dark:text-white '
-										: 'text-neutral-600 hover:text-neutral-500 dark:text-[#aaa] dark:hover:text-white ') +
-									'mb-0 flex items-center border-neutral-200 px-6 py-3 text-[15px] transition-colors not-last:border-b dark:border-[#333]'
-								}
+								class:list={[
+									'mb-0 flex items-center border-nav px-6 py-3 text-[15px] transition-colors not-last:border-b',
+									link.label === activePage
+										? 'text-bright'
+										: 'text-neutral-600 hover:text-neutral-500 dark:text-vlr-text-silver dark:hover:text-white',
+								]}
 							>
 								{link.label}
 							</a>
@@ -95,11 +95,11 @@ const links = [
 		</div>
 
 		<div class="mr-auto ml-2 flex md:hidden">
-			<a href="/" class="flex items-center gap-4 dark:border-[#333]">
+			<a href="/" class="flex items-center gap-4 dark:border-vlr-border-dark">
 				<img src="/icons/PCMT Logo.png" alt="PCMT Logo" class="hidden h-12 w-auto dark:block" />
 				<img src="/icons/PCMT Logo Light.png" alt="PCMT Logo" class="block h-12 w-auto dark:hidden" />
-				<span class="hidden text-black md:block dark:text-white">Plat Chat Members Tournament</span>
-				<span class="block text-black md:hidden dark:text-white">PCMT</span>
+				<span class="hidden text-bright md:block">Plat Chat Members Tournament</span>
+				<span class="block text-bright md:hidden">PCMT</span>
 			</a>
 		</div>
 
@@ -108,7 +108,7 @@ const links = [
 			<button
 				id="funToggle"
 				type="button"
-				class="flex flex-none cursor-pointer items-center gap-1 border-l border-neutral-200 px-4 text-[11px] text-neutral-800 transition-colors hover:text-neutral-500 dark:border-[#333] dark:text-[#aaa] dark:hover:text-white"
+				class="flex flex-none cursor-pointer items-center gap-1 border-l border-nav px-4 text-[11px] text-neutral-800 transition-colors hover:text-neutral-500 dark:text-vlr-text-silver dark:hover:text-white"
 			>
 				<img src="/res/night.png" id="night-pfp" class="fun:inline hidden h-4 w-4" />
 				<img src="/res/night-bw.png" id="night-pfp" class="fun:hidden inline h-4 w-4" />
@@ -120,14 +120,14 @@ const links = [
 			<button
 				id="themeToggle"
 				type="button"
-				class="flex flex-none cursor-pointer items-center gap-1 border-r border-l border-neutral-200 px-4 text-[11px] text-neutral-800 transition-colors hover:text-neutral-500 dark:border-[#333] dark:text-[#aaa] dark:hover:text-white"
+				class="flex flex-none cursor-pointer items-center gap-1 border-r border-l border-nav px-4 text-[11px] text-neutral-800 transition-colors hover:text-neutral-500 dark:text-vlr-text-silver dark:hover:text-white"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="16"
 					height="16"
 					viewBox="0 0 24 24"
-					class="fill-neutral-800 hover:fill-neutral-500 dark:fill-[#aaa] dark:hover:fill-white"
+					class="fill-neutral-800 hover:fill-neutral-500 dark:fill-vlr-text-silver dark:hover:fill-white"
 				>
 					<path d="M0 0h24v24H0z" fill="none"></path>
 					<path d="M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z"></path>

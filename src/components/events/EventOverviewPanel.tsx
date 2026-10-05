@@ -3,6 +3,7 @@ import type { Event, Standing } from '../../types/types.ts';
 import { brackets as allBrackets, matches as allMatches, standings, teams as allTeams } from '../../stores/store.ts';
 import GroupStandingsBox from './GroupStandingsBox.tsx';
 import Bracket from './Bracket.tsx';
+import { cx } from '../../utils/cx.ts';
 
 const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
@@ -24,27 +25,24 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 
 	return (
 		<div className="flex flex-col">
-			<div className="bg-vlr-gray-200 dark:bg-vlr-gray-700 dark:text-vlr-text-white vlr-box-shadow flex h-15 items-center gap-6 pl-9 text-black sm:pl-11">
+			<div className="bg-shade-200 vlr-box-shadow flex h-15 items-center gap-6 pl-9 text-main sm:pl-11">
 				{event.stages?.map((stage, idx) => {
 					const isActive = activeStage === idx;
 
 					return (
 						<button
 							key={stage.name}
-							className={
-								'flex h-full cursor-pointer flex-col items-start justify-center gap-1 border-b-3 border-transparent pt-0.75 ' +
-								(isActive ? 'border-red-400!' : 'hover:border-[#666666]')
-							}
+							className={cx(
+								'flex h-full cursor-pointer flex-col items-start justify-center gap-1 border-b-3 border-transparent pt-0.75',
+								isActive ? 'border-red-400!' : 'hover:border-vlr-border-mid'
+							)}
 							onClick={() => {
 								setActiveStage(idx);
 							}}
 						>
 							<p className="text-vlr-text-gray text-[10px] leading-none uppercase">{stage.dates}</p>
 							<p
-								className={
-									'text-[12px] leading-none font-medium ' +
-									(isActive ? 'dark:text-vlr-text-white text-black' : 'text-pb')
-								}
+								className={cx('text-[12px] leading-none font-medium', isActive ? 'text-main' : 'text-pb')}
 							>
 								{stage.name}
 							</p>
@@ -52,7 +50,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 					);
 				})}
 			</div>
-			<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 dark:text-vlr-text-white px-4 pt-6 pb-4 text-black sm:px-6">
+			<div className="bg-shade-300 px-4 pt-6 pb-4 text-main sm:px-6">
 				{bracket ? (
 					<>
 						<h2 className="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">Bracket</h2>

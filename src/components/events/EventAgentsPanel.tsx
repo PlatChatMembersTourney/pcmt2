@@ -6,7 +6,7 @@ const EventAgentsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =
 
 	return (
 		<div className="flex flex-col">
-			<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 dark:text-vlr-text-white h-30 px-6 pt-6 text-black">
+			<div className="bg-shade-300 h-30 px-6 pt-6 text-main">
 				WIP
 			</div>
 		</div>

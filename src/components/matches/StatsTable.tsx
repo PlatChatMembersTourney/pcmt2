@@ -3,6 +3,10 @@ import { angusRating } from '../../utils/rating.ts';
 import CustomPopover from '../CustomPopover.tsx';
 import { agentIcon, playerFlag } from '../../utils/images.ts';
 
+// Green when positive, red when negative
+const plusMinusColor = (value: number) =>
+	value === 0 ? 'text-main' : value > 0 ? 'text-win' : 'text-red-500 dark:text-red-400';
+
 interface StatsTableProps {
 	agents: Record<string, Set<string>>;
 	event: Event;
@@ -24,14 +28,14 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 					<div className="overflow-x-auto pb-2" key={i}>
 						<table>
 							<thead>
-								<tr className="text-vlr-text-gray dark:text-vlr-text-white px-0.75 text-[11px] font-bold">
+								<tr className="text-subtle px-0.75 text-[11px] font-bold">
 									<th></th>
 									<th title="Agent"></th>
 									<th>
 										<CustomPopover
 											side={'top'}
 											content={
-												<div className="text-vlr-text-dark dark:text-vlr-text-light flex flex-col text-xs">
+												<div className="text-faint flex flex-col text-xs">
 													<p className="mb-1">
 														I say "toxic", but really it's stolen (with some tweaks).
 													</p>
@@ -45,10 +49,10 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 													</a>
 
 													<p className="mb-1">The formula:</p>
-													<p className="text-black dark:text-white">
+													<p className="text-bright">
 														0.898 * KPR + 0.228 * APR + 0.0025 * ADRa
 													</p>
-													<p className="mb-1 text-black dark:text-white">
+													<p className="mb-1 text-bright">
 														+ 0.313 * KAST + 0.295
 													</p>
 													<p>(ADRa = [(ADR * Rounds) - (140 * Kills)] / Rounds)</p>
@@ -56,7 +60,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											}
 											title={"Toxic's Rating"}
 										>
-											<span className="border-vlr-text-dark dark:border-vlr-text-light border-b-2 border-dotted px-0.5">
+											<span className="border-faint border-b-2 border-dotted px-0.5">
 												R<sup>T</sup>
 											</span>
 										</CustomPopover>
@@ -65,22 +69,22 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 										<CustomPopover
 											side={'top'}
 											content={
-												<div className="text-vlr-text-dark dark:text-vlr-text-light flex flex-col text-xs">
+												<div className="text-faint flex flex-col text-xs">
 													<p>Adjusted version of VLR rating version 1.0.</p>
 													<p className="mb-1">(So like a 1.5, according to Angus.)</p>
 
 													<p className="mb-1">The formula:</p>
-													<p className="text-black dark:text-white">
+													<p className="text-bright">
 														1.26 * KPR - 0.13 * DPR + 0.55 * APR
 													</p>
-													<p className="text-black dark:text-white">
+													<p className="text-bright">
 														+ 0.25 * FKPR - 0.26 * FDPR
 													</p>
 												</div>
 											}
 											title={"Angus's Rating"}
 										>
-											<span className="border-vlr-text-dark dark:border-vlr-text-light border-b-2 border-dotted px-0.5">
+											<span className="border-faint border-b-2 border-dotted px-0.5">
 												R<sup>A</sup>
 											</span>
 										</CustomPopover>
@@ -89,28 +93,28 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 										<CustomPopover
 											side={'top'}
 											content={
-												<div className="text-vlr-text-dark dark:text-vlr-text-light flex flex-col text-xs">
+												<div className="text-faint flex flex-col text-xs">
 													<p>You know it, you love it:</p>
 													<p className="mb-1">Valorant's very own ACS.</p>
 
 													<p className="mb-1">In case you forgot how to calculate it:</p>
-													<p className="text-black dark:text-white">
+													<p className="text-bright">
 														Combat Score: 1 pt / damage dealt,
 													</p>
-													<p className="text-black dark:text-white">
+													<p className="text-bright">
 														150/130/110/90/70 pts/kill based on enemies alive,
 													</p>
-													<p className="mb-1 text-black dark:text-white">
+													<p className="mb-1 text-bright">
 														+50 per additional kill, +25 for non-damaging assists
 													</p>
-													<p className="text-black dark:text-white">
+													<p className="text-bright">
 														ACS = Average combat score across all rounds
 													</p>
 												</div>
 											}
 											title={'Average Combat Score'}
 										>
-											<span className="border-vlr-text-dark dark:border-vlr-text-light border-b-2 border-dotted px-0.5">
+											<span className="border-faint border-b-2 border-dotted px-0.5">
 												ACS
 											</span>
 										</CustomPopover>
@@ -143,7 +147,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 									const pRounds = typeof rounds === 'number' ? rounds : rounds[player.Player];
 									return (
 										<tr
-											className="text-vlr-text-dark dark:text-vlr-text-white px-0.75 text-[11px]"
+											className="text-muted px-0.75 text-[11px]"
 											key={player.Player}
 										>
 											<td className="flex h-10 items-center gap-2 bg-transparent! sm:w-25">
@@ -159,11 +163,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 														return (
 															<img
 																src={agentIcon(agent)}
-																className={
-																	(a.length === 1 ? 'h-7 w-7' : '') +
-																	(a.length === 2 ? 'h-6 w-6' : '') +
-																	(a.length >= 3 ? 'h-5 w-5' : '')
-																}
+																className={a.length === 1 ? 'h-7 w-7' : a.length === 2 ? 'h-6 w-6' : 'h-5 w-5'}
 																key={agent}
 															/>
 														);
@@ -197,13 +197,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											<td>
 												<div className="stats-cell mr-1.25 ml-0.5 flex w-8! justify-center font-medium">
 													<span
-														className={
-															player.PlusMinus === 0
-																? 'dark:text-vlr-text-white text-black'
-																: player.PlusMinus >= 0
-																	? 'text-green-600 dark:text-green-400'
-																	: 'text-red-500 dark:text-red-400'
-														}
+														className={plusMinusColor(player.PlusMinus)}
 													>
 														{`${player.PlusMinus > 0 ? '+' : ''}${player.PlusMinus}`}
 													</span>
@@ -231,13 +225,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											<td>
 												<div className="stats-cell font-medium">
 													<span
-														className={
-															player.PlusMinus2 === 0
-																? 'dark:text-vlr-text-white text-black'
-																: player.PlusMinus2 >= 0
-																	? 'text-green-600 dark:text-green-400'
-																	: 'text-red-500 dark:text-red-400'
-														}
+														className={plusMinusColor(player.PlusMinus2)}
 													>
 														{`${player.PlusMinus2 > 0 ? '+' : ''}${player.PlusMinus2}`}
 													</span>

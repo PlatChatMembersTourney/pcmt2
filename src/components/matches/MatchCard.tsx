@@ -3,6 +3,7 @@ import slugify from 'slugify';
 
 import { timeAgo, timeUntil } from '../../utils/datetime.ts';
 import { regionFlag, teamFlag } from '../../utils/images.ts';
+import { cx } from '../../utils/cx.ts';
 
 interface MatchCardProps {
 	match: Match;
@@ -23,17 +24,11 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 	return (
 		<a
 			href={`/events/${event.id}/${slugify(match.id)}`}
-			className={
-				`${
-					event.showmatch
-						? 'cool-border-pb'
-						: {
-								na: 'cool-border-na',
-								emea: 'cool-border-emea',
-							}[event.region]
-				} dark:bg-vlr-gray-600 dark:hover:bg-vlr-gray-500 bg-vlr-gray-100 cool-border relative flex h-14 w-full items-center px-4 hover:bg-[#f1f1f1] md:px-5` +
-				(addlClass ? ` ${addlClass}` : '')
-			}
+			className={cx(
+				event.showmatch ? 'cool-border-pb' : `cool-border-${event.region}`,
+				'bg-shade-100 cool-border relative flex h-14 w-full items-center px-4 hover:bg-vlr-gray-150 md:px-5 dark:hover:bg-vlr-gray-500',
+				addlClass
+			)}
 		>
 			<p className="w-14 text-right text-xs md:mr-15 md:w-17.5">{formatter.format(date)}</p>
 			<div className="ml-auto flex w-60 flex-col sm:mr-15 md:ml-0">
@@ -54,7 +49,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 					return (
 						<div
 							key={'Team ' + idx}
-							className="dark:text-vlr-text-white text-vlr-text-dark flex h-5 w-60 items-center gap-1.75 text-xs font-medium whitespace-nowrap"
+							className="text-muted flex h-5 w-60 items-center gap-1.75 text-xs font-medium whitespace-nowrap"
 						>
 							<div className="flex flex-none items-center">
 								<div className="mr-0.5 flex w-3 items-center">
@@ -74,20 +69,16 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 							<span className="shrink overflow-hidden text-ellipsis">{name}</span>
 							{match.completed ? (
 								<p
-									className={
-										'ml-auto flex-none underline ' +
-										(winner
-											? 'text-vlr-text-dark dark:text-vlr-text-white font-medium'
-											: 'text-vlr-text-gray dark:text-vlr-text-light font-normal')
-									}
+									className={cx(
+										'ml-auto flex-none underline',
+										winner ? 'text-muted font-medium' : 'text-vlr-text-gray dark:text-vlr-text-light font-normal'
+									)}
 								>
 									{score}
 								</p>
 							) : (
 								<p
-									className={
-										'text-vlr-text-dark dark:text-vlr-text-white ml-auto flex-none font-medium'
-									}
+									className="text-muted ml-auto flex-none font-medium"
 								>
 									-
 								</p>
@@ -99,19 +90,19 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 			<div className="hidden items-center text-[11px] sm:flex">
 				{match.completed ? (
 					<>
-						<div className="rounded-l-sm bg-[#aaa] px-1.5 py-1 text-white dark:bg-[#888] dark:text-[#eee]">
+						<div className="rounded-l-sm bg-vlr-text-silver px-1.5 py-1 text-white dark:bg-vlr-text-gray dark:text-vlr-text-offwhite">
 							Completed
 						</div>
-						<div className="rounded-r-sm bg-[#888] py-1 pr-1.5 pl-1 font-medium text-white dark:bg-[#777] dark:text-[#eee]">
+						<div className="rounded-r-sm bg-vlr-text-gray py-1 pr-1.5 pl-1 font-medium text-white dark:bg-[#777] dark:text-vlr-text-offwhite">
 							{timeAgo(match.date)}
 						</div>
 					</>
 				) : (
 					<>
-						<div className="rounded-l-sm bg-[#498357] px-1.5 py-1 text-white dark:bg-[#5ca36c] dark:text-[#eee]">
+						<div className="rounded-l-sm bg-vlr-green-dark px-1.5 py-1 text-white dark:bg-vlr-green dark:text-vlr-text-offwhite">
 							Upcoming
 						</div>
-						<div className="rounded-r-sm bg-[#5ca36c] py-1 pr-1.5 pl-1 font-medium text-white dark:bg-[#498357] dark:text-[#eee]">
+						<div className="rounded-r-sm bg-vlr-green py-1 pr-1.5 pl-1 font-medium text-white dark:bg-vlr-green-dark dark:text-vlr-text-offwhite">
 							{timeUntil(match.date)}
 						</div>
 					</>

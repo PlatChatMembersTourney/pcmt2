@@ -8,6 +8,7 @@ import TeamMapStatsTable from './TeamMapStatsTable.tsx';
 import { playerFlag } from '../../utils/images.ts';
 import eventsRaw from '../../data/events.json';
 import { fromJson } from '../../utils/json.ts';
+import { cx } from '../../utils/cx.ts';
 
 const allEvents = fromJson<Event[]>(eventsRaw);
 
@@ -70,15 +71,14 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 
 	return (
 		<div className="flex h-full flex-col">
-			<div className="bg-vlr-gray-100 dark:bg-vlr-gray-600 vlr-box-shadow vlr-border flex flex-row border-t border-b pl-4 sm:pl-6 dark:border-b-0">
+			<div className="bg-shade-100 vlr-box-shadow border-line flex flex-row border-t border-b pl-4 sm:pl-6 dark:border-b-0">
 				{pages.map((label) => {
 					return (
 						<button
-							className={
-								(active === label ? 'text-black dark:text-white ' : 'text-pb ') +
-								'vlr-border border-r px-5 py-5 text-xs font-bold first:border-l ' +
-								'dark:hover:bg-vlr-gray-500 hover:bg-vlr-gray-300 relative cursor-pointer'
-							}
+							className={cx(
+								'border-line relative cursor-pointer border-r px-5 py-5 text-xs font-bold first:border-l hover:bg-vlr-gray-300 dark:hover:bg-vlr-gray-500',
+								active === label ? 'text-bright' : 'text-pb'
+							)}
 							onClick={() => setActive(label)}
 							key={label}
 						>
@@ -91,10 +91,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 									<svg
 										height="8"
 										width="16"
-										className={
-											'absolute -bottom-px left-1/2 -translate-x-1/2 ' +
-											'dark:fill-vlr-gray-800 fill-vlr-gray-300'
-										}
+										className="fill-shade-300 absolute -bottom-px left-1/2 -translate-x-1/2"
 									>
 										<path d="M0 8 L16 8 L8 0 Z" />
 									</svg>
@@ -117,7 +114,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 					<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase">
 						{events.length > 1 ? 'Roster' : 'Current Roster'}
 					</h2>
-					<div className="vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 dark:text-vlr-text-white text-vlr-text-dark flex flex-col gap-2 p-4">
+					<div className="vlr-box-shadow bg-shade-100 text-muted flex flex-col gap-2 p-4">
 						{[...roster.values()].map(({ player, events: playerEvents }) => {
 							return (
 								<p className="flex items-center gap-1 text-sm" key={player}>
@@ -144,13 +141,10 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 			{active === 'Matches' && (
 				<div className="mx-4 sm:mx-6">
 					{matchesGrouped?.length > 0 ? (
-						<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 dark:text-vlr-text-white flex flex-col gap-7.5 py-6 text-black">
+						<div className="bg-shade-300 flex flex-col gap-7.5 py-6 text-main">
 							<div>
 								<button
-									className={
-										'bg-vlr-gray-100 dark:bg-vlr-gray-600 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs ' +
-										(reverse ? 'font-bold' : '')
-									}
+									className={cx('bg-shade-100 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs', reverse && 'font-bold')}
 									onClick={() => setReverse(!reverse)}
 								>
 									{reverse ? 'esreveR' : 'Reverse'}
@@ -168,7 +162,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 													<MatchCard
 														match={match}
 														event={matchEvent}
-														addlClass="not-first:border-t-1 dark:border-t-vlr-border-gray! border-t-vlr-border-light!"
+														addlClass="not-first:border-t-1 border-t-line!"
 														key={match.id}
 													/>
 												);
@@ -179,7 +173,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 							})}
 						</div>
 					) : (
-						<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 dark:text-vlr-text-white h-full py-6 text-black">
+						<div className="bg-shade-300 h-full py-6 text-main">
 							<div>
 								<img src={'/res/exist.png'} />
 							</div>
@@ -195,11 +189,11 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 							return (
 								<div className="flex flex-col" key={e.id}>
 									{events.length > 1 && (
-										<h2 className="dark:text-vlr-text-white mb-2 text-base font-bold text-black">
+										<h2 className="mb-2 text-base font-bold text-main">
 											{e.name}
 										</h2>
 									)}
-									<p className="text-vlr-text-dark dark:text-vlr-text-white mb-4 text-sm">
+									<p className="text-muted mb-4 text-sm">
 										Overall win rates: ATK {pctFormatter.format(stats.overallAtkPct)} DEF{' '}
 										{pctFormatter.format(stats.overallDefPct)}
 									</p>
@@ -212,7 +206,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 						})}
 					</div>
 				) : (
-					<div className="text-vlr-text-dark dark:text-vlr-text-white flex flex-col p-4 sm:p-6">
+					<div className="text-muted flex flex-col p-4 sm:p-6">
 						You literally haven't played a game yet. Why are you checking your stats panel
 					</div>
 				))}

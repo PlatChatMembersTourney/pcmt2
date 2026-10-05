@@ -1,6 +1,9 @@
 import type { Round, TeamInfo } from '../../types/types.ts';
 import { useEffect } from 'react';
 import { roundIcon } from '../../utils/images.ts';
+import { cx } from '../../utils/cx.ts';
+
+const sideColors = { atk: 'bg-vlr-atk', def: 'bg-vlr-def' };
 
 interface TimelineProps {
 	rounds: Round[];
@@ -45,11 +48,11 @@ const Timeline: React.FC<TimelineProps> = (props) => {
 				<div className="h-3" />
 				<div className="mr-10 flex h-5 items-center gap-2">
 					<img src={team1.logo} className="h-5 w-5" />
-					<p className="text-vlr-text-dark dark:text-vlr-text-white text-[11px]">{team1.abbr}</p>
+					<p className="text-muted text-[11px]">{team1.abbr}</p>
 				</div>
 				<div className="mr-10 flex h-5 items-center gap-2">
 					<img src={team2.logo} className="h-5 w-5" />
-					<p className="text-vlr-text-dark dark:text-vlr-text-white text-[11px]">{team2.abbr}</p>
+					<p className="text-muted text-[11px]">{team2.abbr}</p>
 				</div>
 			</div>
 
@@ -63,28 +66,20 @@ const Timeline: React.FC<TimelineProps> = (props) => {
 					<div key={index} className="flex flex-col items-center gap-0.75">
 						<p className="text-vlr-text-gray h-3 text-[9px] leading-none">{round.round}</p>
 						<div
-							className={
-								'flex h-5 w-5 items-center justify-center rounded-xs ' +
-								(round.winner === 1
-									? round.side === 'def'
-										? 'bg-[#24b298]'
-										: 'bg-[#e25d5a]'
-									: 'dark:bg-vlr-gray-500 bg-[#dddddd]')
-							}
+							className={cx(
+								'flex h-5 w-5 items-center justify-center rounded-xs',
+								round.winner !== 1 ? 'bg-vlr-gray-300 dark:bg-vlr-gray-500' : sideColors[round.side]
+							)}
 						>
 							{round.winner === 1 && round.endType && (
 								<img src={roundIcon(round.endType)} className="h-4.5 w-4.5 object-contain" />
 							)}
 						</div>
 						<div
-							className={
-								'flex h-5 w-5 items-center justify-center rounded-xs ' +
-								(round.winner === 2
-									? round.side === 'def'
-										? 'bg-[#24b298]'
-										: 'bg-[#e25d5a]'
-									: 'dark:bg-vlr-gray-500 bg-[#dddddd]')
-							}
+							className={cx(
+								'flex h-5 w-5 items-center justify-center rounded-xs',
+								round.winner !== 2 ? 'bg-vlr-gray-300 dark:bg-vlr-gray-500' : sideColors[round.side]
+							)}
 						>
 							{round.winner === 2 && round.endType && (
 								<img src={roundIcon(round.endType)} className="h-4.5 w-4.5 object-contain" />

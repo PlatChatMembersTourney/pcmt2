@@ -2,6 +2,7 @@ import type { Match, Event, TeamInfo } from '../../types/types.ts';
 import slugify from 'slugify';
 import { timeUntil } from '../../utils/datetime.ts';
 import { eventLogo } from '../../utils/images.ts';
+import { cx } from '../../utils/cx.ts';
 
 interface MatchHeaderProps {
 	match: Match;
@@ -28,14 +29,10 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 
 	return (
 		<div
-			className={`${
-				event.showmatch
-					? 'cool-border-pb'
-					: {
-							na: 'cool-border-na',
-							emea: 'cool-border-emea',
-						}[event.region]
-			} vlr-box-shadow dark:bg-vlr-gray-600 bg-vlr-gray-100 cool-border-top dark:text-vlr-text-white relative p-4 text-[#333] sm:p-5`}
+			className={cx(
+				event.showmatch ? 'cool-border-pb' : `cool-border-${event.region}`,
+				'vlr-box-shadow bg-shade-100 cool-border-top text-vlr-text-darker relative p-4 sm:p-5 dark:text-vlr-text-white'
+			)}
 		>
 			<div className="flex h-9 items-center gap-2">
 				<img src={eventLogo(event.showmatch, event.region)} className="h-8 w-8" />
@@ -72,11 +69,11 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 							<span className="text-vlr-text-gray font-normal">–</span>
 						) : (
 							<>
-								<span className={team1Winner ? 'text-green-500 dark:text-green-400' : ''}>
+								<span className={cx(team1Winner && 'text-green-500 dark:text-green-400')}>
 									{match.score1}
 								</span>
 								{' : '}
-								<span className={!team1Winner ? 'text-green-500 dark:text-green-400' : ''}>
+								<span className={cx(!team1Winner && 'text-green-500 dark:text-green-400')}>
 									{match.score2}
 								</span>
 							</>

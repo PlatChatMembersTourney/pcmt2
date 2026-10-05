@@ -3,6 +3,7 @@ import { useState } from 'react';
 import StatsTable from './StatsTable.tsx';
 import Timeline from './Timeline.tsx';
 import { Fragment } from 'react';
+import { cx } from '../../utils/cx.ts';
 
 interface MatchStatsBoxProps {
 	match: Match;
@@ -85,7 +86,7 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 
 	if (!match.completed) {
 		return (
-			<div className="bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow text-vlr-text-dark dark:text-vlr-text-white flex flex-col p-4 text-sm sm:p-5">
+			<div className="bg-shade-200 vlr-box-shadow text-muted flex flex-col p-4 text-sm sm:p-5">
 				{copypastas[Math.floor(Math.random() * copypastas.length)]}
 			</div>
 		);
@@ -95,19 +96,18 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 	const [selectedMap, setSelectedMap] = useState(0);
 
 	return (
-		<div className="bg-vlr-gray-200 dark:bg-vlr-gray-700 vlr-box-shadow flex flex-col">
-			<div className="vlr-border flex h-18.5 items-center gap-3 overflow-x-auto border-b p-3">
+		<div className="bg-shade-200 vlr-box-shadow flex flex-col">
+			<div className="border-line flex h-18.5 items-center gap-3 overflow-x-auto border-b p-3">
 				{[{ name: 'All' }, ...match.maps].map(({ name }, idx) => {
 					return (
 						<button
 							key={name}
 							onClick={() => setSelectedMap(idx)}
-							className={
-								`flex-1 ${match.bestOf === 3 ? 'min-w-20' : 'min-w-15'} h-full cursor-pointer rounded-xs text-center text-[11px] ` +
-								(selectedMap === idx
-									? 'bg-[#666] text-white dark:bg-[#848f9a]'
-									: 'text-vlr-text-dark dark:text-vlr-text-white bg-vlr-gray-100 dark:bg-vlr-gray-600')
-							}
+							className={cx(
+								'h-full flex-1 cursor-pointer rounded-xs text-center text-[11px]',
+								match.bestOf === 3 ? 'min-w-20' : 'min-w-15',
+								selectedMap === idx ? 'bg-vlr-border-mid text-white dark:bg-[#848f9a]' : 'text-muted bg-shade-100'
+							)}
 						>
 							<p className={idx === 0 ? '' : 'mb-0.5'}>
 								{name !== 'All' && (
@@ -127,37 +127,33 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 						<div className="mb-5 grid w-full grid-cols-[1fr_auto_1fr] items-center">
 							<div className="flex gap-3">
 								<p
-									className={
-										'text-4xl leading-none font-normal ' +
-										(match.maps[selectedMap - 1].score1 > match.maps[selectedMap - 1].score2
-											? 'text-green-600 dark:text-green-400'
-											: 'text-vlr-text-dark dark:text-vlr-text-white')
-									}
+									className={cx(
+										'text-4xl leading-none font-normal',
+										match.maps[selectedMap - 1].score1 > match.maps[selectedMap - 1].score2 ? 'text-win' : 'text-muted'
+									)}
 								>
 									{match.maps[selectedMap - 1].score1}
 								</p>
 								<div className="flex h-9 flex-col justify-center">
-									<p className="text-vlr-text-dark dark:text-vlr-text-white text-xs font-medium">
+									<p className="text-muted text-xs font-medium">
 										{match.team1Name}
 									</p>
 								</div>
 							</div>
-							<h2 className="text-vlr-text-dark dark:text-vlr-text-white text-xl leading-none font-bold">
+							<h2 className="text-muted text-xl leading-none font-bold">
 								{match.maps[selectedMap - 1].name}
 							</h2>
 							<div className="ml-auto flex gap-3">
 								<div className="flex h-9 flex-col items-end justify-center">
-									<p className="text-vlr-text-dark dark:text-vlr-text-white text-right text-xs font-medium">
+									<p className="text-muted text-right text-xs font-medium">
 										{match.team2Name}
 									</p>
 								</div>
 								<p
-									className={
-										'text-4xl leading-none font-normal ' +
-										(match.maps[selectedMap - 1].score1 < match.maps[selectedMap - 1].score2
-											? 'text-green-600 dark:text-green-400'
-											: 'text-vlr-text-dark dark:text-vlr-text-white')
-									}
+									className={cx(
+										'text-4xl leading-none font-normal',
+										match.maps[selectedMap - 1].score1 < match.maps[selectedMap - 1].score2 ? 'text-win' : 'text-muted'
+									)}
 								>
 									{match.maps[selectedMap - 1].score2}
 								</p>

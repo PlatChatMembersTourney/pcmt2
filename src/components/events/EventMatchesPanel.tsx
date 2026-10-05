@@ -4,6 +4,7 @@ import type { Event, Match } from '../../types/types.ts';
 import { matches as allMatches, teams as allTeams } from '../../stores/store.ts';
 import { groupByDay } from '../../utils/datetime.ts';
 import MatchCard from '../matches/MatchCard.tsx';
+import { cx } from '../../utils/cx.ts';
 
 const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
@@ -50,7 +51,7 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 
 	return (
 		<div className="flex flex-col">
-			<div className="bg-vlr-gray-200 dark:bg-vlr-gray-700 dark:text-vlr-text-white vlr-box-shadow flex h-15 items-center gap-3 pl-9 text-black sm:pl-11">
+			<div className="bg-shade-200 vlr-box-shadow flex h-15 items-center gap-3 pl-9 text-main sm:pl-11">
 				<div>
 					<p className="text-[10px] font-medium text-red-400 uppercase">Stage:</p>
 				</div>
@@ -60,21 +61,18 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 					return (
 						<button
 							key={stage}
-							className={
-								'flex h-full cursor-pointer flex-col items-start justify-center gap-1 border-b-3 border-transparent pt-0.75 ' +
-								(isActive ? '' : '')
-							}
+							className="flex h-full cursor-pointer flex-col items-start justify-center gap-1 border-b-3 border-transparent pt-0.75"
 							onClick={() => {
 								setActiveStage(idx);
 							}}
 						>
 							<p
-								className={
-									'box-border h-6 text-xs leading-6 ' +
-									(isActive
-										? 'dark:text-vlr-text-fullwhite border-b-3 border-red-400 font-bold text-black'
-										: 'dark:text-vlr-text-white hover:dark:text-vlr-text-fullwhite border-b border-dotted border-[#666666] text-black hover:border-transparent hover:font-bold')
-								}
+								className={cx(
+									'box-border h-6 text-xs leading-6',
+									isActive
+										? 'border-b-3 border-red-400 font-bold text-black dark:text-vlr-text-fullwhite'
+										: 'border-b border-dotted border-vlr-border-mid text-main hover:border-transparent hover:font-bold hover:dark:text-vlr-text-fullwhite'
+								)}
 							>
 								{stage}
 							</p>
@@ -82,17 +80,14 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 					);
 				})}
 				<button
-					className={
-						'bg-vlr-gray-100 dark:bg-vlr-gray-600 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs ' +
-						(reverse ? 'font-bold' : '')
-					}
+					className={cx('bg-shade-100 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs', reverse && 'font-bold')}
 					onClick={() => setReverse(!reverse)}
 				>
 					{reverse ? 'esreveR' : 'Reverse'}
 				</button>
 			</div>
 			{filteredMatches.length > 0 ? (
-				<div className="bg-vlr-gray-300 dark:bg-vlr-gray-800 dark:text-vlr-text-white flex flex-col gap-7.5 p-6 text-black">
+				<div className="bg-shade-300 flex flex-col gap-7.5 p-6 text-main">
 					{matchesGrouped.map(({ date, items }) => {
 						return (
 							<div className="flex flex-col" key={date}>
@@ -105,7 +100,7 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 											<MatchCard
 												match={match}
 												event={event}
-												addlClass="not-first:border-t-1 dark:border-t-vlr-border-gray! border-t-vlr-border-light!"
+												addlClass="not-first:border-t-1 border-t-line!"
 												key={match.id}
 											/>
 										);
@@ -116,7 +111,7 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 					})}
 				</div>
 			) : (
-				<div className="dark:text-vlr-text-white flex flex-col p-6 text-black">No matches yet. :(</div>
+				<div className="flex flex-col p-6 text-main">No matches yet. :(</div>
 			)}
 		</div>
 	);

@@ -1,5 +1,12 @@
 import type { Standing, TeamInfo, Event } from '../../types/types.ts';
 import slugify from 'slugify';
+import { cx } from '../../utils/cx.ts';
+
+const groupBorders: Record<string, string> = {
+	yellow: 'border-yellow-400',
+	red: 'border-red-400',
+	green: 'border-green-400',
+};
 
 interface GroupStandingsBoxProps {
 	standings: Standing[];
@@ -25,8 +32,8 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 	}
 
 	return (
-		<table className="[&_th]:dark:border-vlr-border-gray [&_th]:border-vlr-border-light [&_td]:dark:border-vlr-border-gray [&_td]:border-vlr-border-light vlr-box-shadow overflow-x-auto border-hidden [&_td]:border [&_th]:border">
-			<thead className="dark:bg-vlr-gray-700 dark:text-vlr-text-white h-9 border-collapse bg-neutral-200 text-[10px] text-[#888]">
+		<table className="[&_th]:border-line [&_td]:border-line vlr-box-shadow overflow-x-auto border-hidden [&_td]:border [&_th]:border">
+			<thead className="dark:bg-vlr-gray-700 h-9 border-collapse bg-neutral-200 text-[10px] text-subtle">
 				<th className="h-9 px-3 text-left text-[11px] font-bold">{name}</th>
 				<th className="px-3 font-normal uppercase">REC</th>
 				<th className="px-3 font-normal uppercase">MAP</th>
@@ -34,19 +41,13 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 				<th className="px-3 font-normal uppercase">Δ</th>
 			</thead>
 
-			<tbody className="dark:text-vlr-text-white bg-vlr-gray-100 dark:bg-vlr-gray-600 text-[11px] text-[#888]">
+			<tbody className="bg-shade-100 text-[11px] text-subtle">
 				{standings.map((standing, index) => {
 					return (
 						<tr key={index}>
 							<td className="h-13 w-full">
 								<div
-									className={`${
-										{
-											yellow: 'border-yellow-400',
-											red: 'border-red-400',
-											green: 'border-green-400',
-										}[colors[index]]
-									} flex h-full items-center gap-3 border-l-3 px-3 pl-3`}
+									className={cx(groupBorders[colors[index]], 'flex h-full items-center gap-3 border-l-3 px-3 pl-3')}
 								>
 									<div className="flex h-6.25 w-6.25 items-center justify-center">
 										<img
@@ -67,29 +68,26 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 								</div>
 							</td>
 							<td className="px-3 text-center whitespace-nowrap">
-								<span className="dark:text-vlr-text-white font-bold text-black">{standing.matchW}</span>{' '}
+								<span className="font-bold text-main">{standing.matchW}</span>{' '}
 								-{' '}
-								<span className="dark:text-vlr-text-white font-bold text-black">{standing.matchL}</span>
+								<span className="font-bold text-main">{standing.matchL}</span>
 							</td>
 							<td className="px-3 text-center whitespace-nowrap">
 								<p>
-									<span className="dark:text-vlr-text-white text-black">{standing.mapW}</span> /{' '}
-									<span className="dark:text-vlr-text-white text-black">{standing.mapL}</span>
+									<span className="text-main">{standing.mapW}</span> /{' '}
+									<span className="text-main">{standing.mapL}</span>
 								</p>
 							</td>
 							<td className="px-2 text-center whitespace-nowrap">
-								<span className="dark:text-vlr-text-white text-black">{standing.rndW}</span> /{' '}
-								<span className="dark:text-vlr-text-white text-black">{standing.rndL}</span>
+								<span className="text-main">{standing.rndW}</span> /{' '}
+								<span className="text-main">{standing.rndL}</span>
 							</td>
 							<td
-								className={
-									'px-3 text-center ' +
-									(standing.rndDiff > 0
-										? ' text-green-500 dark:text-green-300'
-										: standing.rndDiff < 0
-											? 'text-red-500 dark:text-red-300'
-											: '')
-								}
+								className={cx(
+									'px-3 text-center',
+									standing.rndDiff > 0 && 'text-green-500 dark:text-green-300',
+									standing.rndDiff < 0 && 'text-red-500 dark:text-red-300'
+								)}
 							>
 								{standing.rndDiff > 0 ? '+' : ''}
 								{standing.rndDiff}
