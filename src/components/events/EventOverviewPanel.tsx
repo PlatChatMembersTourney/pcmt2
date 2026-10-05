@@ -1,6 +1,9 @@
 import { useUrlTab } from '../../utils/urlTab.ts';
 import type { Event, Standing } from '../../types/types.ts';
-import { brackets as allBrackets, matches as allMatches, standings, teams as allTeams } from '../../stores/store.ts';
+import { brackets as allBrackets } from '../../stores/brackets.ts';
+import { matches as allMatches } from '../../stores/matches.ts';
+import { standings } from '../../stores/standings.ts';
+import { teams as allTeams } from '../../stores/teams.ts';
 import GroupStandingsBox from './GroupStandingsBox.tsx';
 import Bracket from './Bracket.tsx';
 import { cx } from '../../utils/cx.ts';

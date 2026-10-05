@@ -1,5 +1,4 @@
 import type { Round, TeamInfo } from '../../types/types.ts';
-import { useEffect } from 'react';
 import { roundIcon } from '../../utils/images.ts';
 import { cx } from '../../utils/cx.ts';
 
@@ -59,7 +58,7 @@ const Timeline: React.FC<TimelineProps> = (props) => {
 			{newRounds.map((round, index) => {
 				if (round.round === -1) {
 					// return a spacer between the halves
-					return <div className="w-5 min-w-5" key="spacer" />;
+					return <div className="w-5 min-w-5" key={`spacer-${index}`} />;
 				}
 
 				return (

@@ -2,7 +2,7 @@ import type { Match, Event } from '../../types/types.ts';
 import slugify from 'slugify';
 
 import { timeAgo, timeUntil } from '../../utils/datetime.ts';
-import { regionFlag, teamFlag } from '../../utils/images.ts';
+import { teamFlag } from '../../utils/images.ts';
 import { cx } from '../../utils/cx.ts';
 
 interface MatchCardProps {

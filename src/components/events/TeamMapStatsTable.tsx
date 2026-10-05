@@ -76,7 +76,7 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 		<div className="text-muted overflow-x-auto text-base">
 			<table className="vlr-box-shadow border-separate border-spacing-0">
 				<thead>
-					{table.getHeaderGroups().map((headerGroup, groupIdx) => (
+					{table.getHeaderGroups().map((headerGroup) => (
 						<tr key={headerGroup.id} className="dark:bg-vlr-gray-900 bg-gray-100">
 							{headerGroup.headers.map((header) => {
 								const stickyClass = (columnId: string) =>
@@ -123,7 +123,7 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 					))}
 				</thead>
 				<tbody>
-					{table.getRowModel().rows.map((row, idx) => (
+					{table.getRowModel().rows.map((row) => (
 						<tr key={row.id} className="group odd:bg-shade-100 even:bg-shade-200">
 							{row.getVisibleCells().map((cell) => (
 								<td

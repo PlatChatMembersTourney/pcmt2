@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { useUrlTab } from '../../utils/urlTab.ts';
 import type { Event } from '../../types/types.ts';
-import { playerStats as allPlayerStats } from '../../stores/store.ts';
+import { playerStats as allPlayerStats } from '../../stores/playerStats.ts';
 import PlayerStatTable from '../stats/PlayerStatTable.tsx';
 import { cx } from '../../utils/cx.ts';
+import StagePicker from './StagePicker.tsx';
 
 const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
@@ -26,33 +27,7 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 	return (
 		<div className="flex flex-col">
 			<div className="bg-shade-200 vlr-box-shadow text-main flex h-15 items-center gap-3 pl-9 sm:pl-11">
-				<div>
-					<p className="text-[10px] font-medium text-red-400 uppercase">Stage:</p>
-				</div>
-				{stages.map((stage, idx) => {
-					const isActive = activeStage === idx;
-
-					return (
-						<button
-							key={stage}
-							className="flex h-full cursor-pointer flex-col items-start justify-center gap-1 border-b-3 border-transparent pt-0.75"
-							onClick={() => {
-								setActiveStage(idx);
-							}}
-						>
-							<p
-								className={cx(
-									'box-border h-6 text-xs leading-6',
-									isActive
-										? 'dark:text-vlr-text-fullwhite border-b-3 border-red-400 font-bold text-black'
-										: 'border-vlr-border-mid text-main hover:dark:text-vlr-text-fullwhite border-b border-dotted hover:border-transparent hover:font-bold'
-								)}
-							>
-								{stage}
-							</p>
-						</button>
-					);
-				})}
+				<StagePicker stages={stages} active={activeStage} onSelect={setActiveStage} />
 			</div>
 			{players.length > 0 ? (
 				<div className="bg-shade-300 flex h-full max-h-[80vh] flex-col gap-2 p-4 sm:p-6">

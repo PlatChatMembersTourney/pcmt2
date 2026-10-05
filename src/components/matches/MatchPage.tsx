@@ -1,7 +1,7 @@
 import type { Event, Match, TeamInfo } from '../../types/types.ts';
 import MatchHeader from './MatchHeader.tsx';
-import { useEffect, useState } from 'react';
 import MatchStatsBox from './MatchStatsBox.tsx';
+import { useRandom } from '../../utils/useRandom.ts';
 
 interface MatchPageProps {
 	event: Event;
@@ -38,17 +38,18 @@ const shitpostPaths = [
 function pickN<T>(items: T[], N: number): T[] {
 	const indexes = Array.from({ length: items.length }, (_, i) => i);
 
-	// Partial Fisher–Yates: shuffle just the first 3 positions
+	// Partial Fisher–Yates: shuffle just the first N positions
 	for (let i = 0; i < N; i++) {
 		const j = i + Math.floor(Math.random() * (indexes.length - i));
 		[indexes[i], indexes[j]] = [indexes[j], indexes[i]];
 	}
 
-	return indexes.slice(0, 3).map((i) => items[i]);
+	return indexes.slice(0, N).map((i) => items[i]);
 }
 
 const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 	const { event, match, teams } = props;
+	const ads = useRandom(() => pickN(shitpostPaths, 3));
 
 	return (
 		<div className="bg-shade-300 flex h-full flex-col font-[roboto]">
@@ -131,7 +132,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 						Advertisement
 					</h2>
 					<div className="flex flex-col gap-6">
-						{pickN(shitpostPaths, 3).map((path, i) => (
+						{ads?.map((path) => (
 							<img src={`/res/garbage/${path}`} key={path} />
 						))}
 					</div>

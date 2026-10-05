@@ -3,13 +3,13 @@
 import '../styles/global.css';
 import Layout from '../layouts/Layout.astro';
 import slugify from 'slugify';
-import events from '../data/events.json';
-import { fromJson } from '../utils/json.ts';
-import { matches, teams } from '../stores/store.ts';
-import type { Event } from '../types/types.ts';
+import { events } from '../stores/events.ts';
+
+import { matches } from '../stores/matches.ts';
+import { teams } from '../stores/teams.ts';
 
 // Showmatch results against Plat Chat
-const showmatches = fromJson<Event[]>(events)
+const showmatches = events
 	.filter((event) => event.showmatch)
 	.flatMap((event) =>
 		(matches[event.id] ?? [])

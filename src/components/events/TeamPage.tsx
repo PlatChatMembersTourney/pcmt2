@@ -1,7 +1,7 @@
 import type { TeamInfo, Event } from '../../types/types.ts';
 import TeamPanels, { teamEvents } from './TeamPanels.tsx';
 import { useEffect, useState } from 'react';
-import { teams } from '../../stores/store.ts';
+import { teams } from '../../stores/teams.ts';
 
 interface TeamPageProps {
 	team: TeamInfo;
@@ -10,19 +10,12 @@ interface TeamPageProps {
 
 const TeamPage: React.FC<TeamPageProps> = (props) => {
 	const { event, team } = props;
-	const region = event.region;
 
-	const [funVal, setFunVal] = useState('off');
-
-	useEffect(() => {
-		const savedToken = localStorage.getItem('fun');
-		if (savedToken) {
-			setFunVal(savedToken);
-		}
-	});
+	// fun mode is set on <body> before the page renders (see Layout.astro)
+	const [fun, setFun] = useState(false);
+	useEffect(() => setFun(document.body.classList.contains('fun')), []);
 
 	const dyslexia = team.name === 'Team Dyslexia';
-	const fun = funVal === 'yes';
 
 	// Team spans several showmatches
 	const acrossShowmatches = teamEvents(event, team, teams).length > 1;

@@ -31,8 +31,8 @@ const DATE_LINE_CLASSES =
 
 const bracketClasses = [
 	// Palette: light values, then the dark overrides, declared once each
-	'[--font-color:#444] [--line-color:#aaa] [--row-border:#ccc] [--hover-color:#666] [--win-background:#cee9d3] [--win-font-color:#444]',
-	'dark:[--font-color:#d4d4d4] dark:[--line-color:#acaeaf] dark:[--row-border:#929496] dark:[--hover-color:#85b6e0] dark:[--win-background:#9ec7a6] dark:[--win-font-color:#333]',
+	'[--font-color:var(--color-vlr-text-dark)] [--line-color:var(--color-vlr-text-silver)] [--row-border:#ccc] [--hover-color:var(--color-vlr-border-mid)] [--win-background:#cee9d3] [--win-font-color:var(--color-vlr-text-dark)]',
+	'dark:[--font-color:var(--color-vlr-text-white)] dark:[--line-color:#acaeaf] dark:[--row-border:#929496] dark:[--hover-color:#85b6e0] dark:[--win-background:#9ec7a6] dark:[--win-font-color:var(--color-vlr-text-darker)]',
 	// brackets-viewer's own variables, fed from the palette above
 	'[--primary-background:transparent] [--secondary-background:transparent] [--match-background:transparent]',
 	'[--connector-color:var(--line-color)] [--border-color:var(--line-color)]',

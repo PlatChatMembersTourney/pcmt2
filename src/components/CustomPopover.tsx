@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react';
 import { Popover } from '@base-ui/react/popover';
-import InfoIcon from './icons/InfoIcon.tsx';
 import { cx } from '../utils/cx.ts';
 
 interface CustomPopoverProps {

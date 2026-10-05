@@ -1,4 +1,4 @@
-import type { TeamStats, Event, Flags } from '../../types/types.ts';
+import type { TeamStats, Event } from '../../types/types.ts';
 import { angusRating } from '../../utils/rating.ts';
 import CustomPopover from '../CustomPopover.tsx';
 import { agentIcon, playerFlag } from '../../utils/images.ts';

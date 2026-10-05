@@ -1,4 +1,4 @@
-import type { Event, PlayerStatsWithEventId } from '../../types/types.ts';
+import type { PlayerStatsWithEventId } from '../../types/types.ts';
 
 import {
 	useReactTable,
@@ -18,15 +18,14 @@ interface PlayerStatTableProps {
 	stickyPlayerNames: boolean;
 }
 
-import eventsRaw from '../../data/events.json';
-import { fromJson } from '../../utils/json.ts';
+import { events } from '../../stores/events.ts';
+
 import { angusRating } from '../../utils/rating.ts';
-import { teams } from '../../stores/store.ts';
+import { teams } from '../../stores/teams.ts';
 import CustomPopover from '../CustomPopover.tsx';
 import slugify from 'slugify';
 import { cx } from '../../utils/cx.ts';
 
-const events = fromJson<Event[]>(eventsRaw);
 const eventOf = (id: string) => events.find((e) => e.id === id);
 
 const pctFormatter = new Intl.NumberFormat('en-US', {
@@ -113,7 +112,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 						return tr;
 					},
 					{
-						header: (info) => (
+						header: () => (
 							<CustomPopover
 								side={'bottom'}
 								content={
@@ -157,7 +156,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 						return ar;
 					},
 					{
-						header: (info) => (
+						header: () => (
 							<CustomPopover
 								side={'bottom'}
 								content={
@@ -185,7 +184,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 					}
 				),
 				columnHelper.accessor('ACS', {
-					header: (info) => (
+					header: () => (
 						<CustomPopover
 							side={'bottom'}
 							content={

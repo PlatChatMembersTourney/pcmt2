@@ -39,20 +39,19 @@ const { title, desc, ogTitle, img = '/icons/PCMT Logo.png', activePage, bodyClas
 			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet"
 		/>
-
 	</head>
 	<body
 		class={bodyClass ??
 			'bg-white text-bright dark:bg-vlr-gray-800 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]'}
 	>
-		<!-- Prevent FART -->
+		<!-- Prevent FART: set the theme before anything renders. Dark defaults to the OS setting, fun defaults to on -->
 		<script is:inline>
 			{
 				const savedTheme = localStorage?.getItem('theme');
 				const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 				const isDark = ['dark', 'light'].includes(savedTheme) ? savedTheme === 'dark' : prefersDark;
 				document.body.classList.toggle('dark', isDark);
-				document.body.classList.toggle('fun', localStorage?.getItem('fun') === 'yes');
+				document.body.classList.toggle('fun', localStorage?.getItem('fun') !== 'no');
 			}
 		</script>
 		<Header activePage={activePage} />

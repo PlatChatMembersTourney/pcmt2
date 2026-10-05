@@ -1,23 +1,18 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useUrlTab } from '../../utils/urlTab.ts';
 import type { Event, Match } from '../../types/types.ts';
-import { matches as allMatches, teams as allTeams } from '../../stores/store.ts';
+import { matches as allMatches } from '../../stores/matches.ts';
 import { groupByDay } from '../../utils/datetime.ts';
 import MatchCard from '../matches/MatchCard.tsx';
 import { cx } from '../../utils/cx.ts';
+import StagePicker from './StagePicker.tsx';
+import { useTimezone } from '../../utils/useTimezone.ts';
 
 const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
 
-	const [timezone, setTimezone] = useState('America/Chicago');
+	const timezone = useTimezone();
 
-	useEffect(() => {
-		// Fetch the IANA timezone string from the browser
-		const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-		setTimezone(userTimezone);
-	}, []);
-
-	const teams = allTeams[event.id];
 	const matches = allMatches[event.id];
 
 	const stages =
@@ -52,33 +47,7 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 	return (
 		<div className="flex flex-col">
 			<div className="bg-shade-200 vlr-box-shadow text-main flex h-15 items-center gap-3 pl-9 sm:pl-11">
-				<div>
-					<p className="text-[10px] font-medium text-red-400 uppercase">Stage:</p>
-				</div>
-				{stages.map((stage, idx) => {
-					const isActive = activeStage === idx;
-
-					return (
-						<button
-							key={stage}
-							className="flex h-full cursor-pointer flex-col items-start justify-center gap-1 border-b-3 border-transparent pt-0.75"
-							onClick={() => {
-								setActiveStage(idx);
-							}}
-						>
-							<p
-								className={cx(
-									'box-border h-6 text-xs leading-6',
-									isActive
-										? 'dark:text-vlr-text-fullwhite border-b-3 border-red-400 font-bold text-black'
-										: 'border-vlr-border-mid text-main hover:dark:text-vlr-text-fullwhite border-b border-dotted hover:border-transparent hover:font-bold'
-								)}
-							>
-								{stage}
-							</p>
-						</button>
-					);
-				})}
+				<StagePicker stages={stages} active={activeStage} onSelect={setActiveStage} />
 				<button
 					className={cx(
 						'bg-shade-100 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs',

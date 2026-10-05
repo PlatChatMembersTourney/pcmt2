@@ -34,11 +34,13 @@ const GroupStandingsBox: React.FC<GroupStandingsBoxProps> = (props) => {
 	return (
 		<table className="[&_th]:border-line [&_td]:border-line vlr-box-shadow overflow-x-auto border-hidden [&_td]:border [&_th]:border">
 			<thead className="dark:bg-vlr-gray-700 text-subtle h-9 border-collapse bg-neutral-200 text-[10px]">
-				<th className="h-9 px-3 text-left text-[11px] font-bold">{name}</th>
-				<th className="px-3 font-normal uppercase">REC</th>
-				<th className="px-3 font-normal uppercase">MAP</th>
-				<th className="px-3 font-normal uppercase">RND</th>
-				<th className="px-3 font-normal uppercase">Δ</th>
+				<tr>
+					<th className="h-9 px-3 text-left text-[11px] font-bold">{name}</th>
+					<th className="px-3 font-normal uppercase">REC</th>
+					<th className="px-3 font-normal uppercase">MAP</th>
+					<th className="px-3 font-normal uppercase">RND</th>
+					<th className="px-3 font-normal uppercase">Δ</th>
+				</tr>
 			</thead>
 
 			<tbody className="bg-shade-100 text-subtle text-[11px]">

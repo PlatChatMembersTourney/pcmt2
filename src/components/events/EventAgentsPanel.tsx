@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import type { Event } from '../../types/types.ts';
 
 const EventAgentsPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {

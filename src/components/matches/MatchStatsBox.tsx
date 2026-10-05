@@ -2,8 +2,8 @@ import type { Match, Event, TeamInfo, MapDetail } from '../../types/types.ts';
 import { useState } from 'react';
 import StatsTable from './StatsTable.tsx';
 import Timeline from './Timeline.tsx';
-import { Fragment } from 'react';
 import { cx } from '../../utils/cx.ts';
+import { randomItem, useRandom } from '../../utils/useRandom.ts';
 
 interface MatchStatsBoxProps {
 	match: Match;
@@ -83,17 +83,19 @@ const copypastas = [
 
 const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 	const { match, event, teams } = props;
+	// map 0: all maps
+	const [selectedMap, setSelectedMap] = useState(0);
+	// the selected map's score and details (unused while "All Maps" is selected)
+	const map = match.maps[selectedMap - 1];
+	const mapDetail = match.mapDetails[selectedMap - 1];
+	// shown instead of stats while the match hasn't been played
+	const copypasta = useRandom(() => randomItem(copypastas));
 
 	if (!match.completed) {
 		return (
-			<div className="bg-shade-200 vlr-box-shadow text-muted flex flex-col p-4 text-sm sm:p-5">
-				{copypastas[Math.floor(Math.random() * copypastas.length)]}
-			</div>
+			<div className="bg-shade-200 vlr-box-shadow text-muted flex flex-col p-4 text-sm sm:p-5">{copypasta}</div>
 		);
 	}
-
-	// map 0: all maps
-	const [selectedMap, setSelectedMap] = useState(0);
 
 	return (
 		<div className="bg-shade-200 vlr-box-shadow flex flex-col">
@@ -131,20 +133,16 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 								<p
 									className={cx(
 										'text-4xl leading-none font-normal',
-										match.maps[selectedMap - 1].score1 > match.maps[selectedMap - 1].score2
-											? 'text-win'
-											: 'text-muted'
+										map.score1 > map.score2 ? 'text-win' : 'text-muted'
 									)}
 								>
-									{match.maps[selectedMap - 1].score1}
+									{map.score1}
 								</p>
 								<div className="flex h-9 flex-col justify-center">
 									<p className="text-muted text-xs font-medium">{match.team1Name}</p>
 								</div>
 							</div>
-							<h2 className="text-muted text-xl leading-none font-bold">
-								{match.maps[selectedMap - 1].name}
-							</h2>
+							<h2 className="text-muted text-xl leading-none font-bold">{map.name}</h2>
 							<div className="ml-auto flex gap-3">
 								<div className="flex h-9 flex-col items-end justify-center">
 									<p className="text-muted text-right text-xs font-medium">{match.team2Name}</p>
@@ -152,19 +150,17 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 								<p
 									className={cx(
 										'text-4xl leading-none font-normal',
-										match.maps[selectedMap - 1].score1 < match.maps[selectedMap - 1].score2
-											? 'text-win'
-											: 'text-muted'
+										map.score1 < map.score2 ? 'text-win' : 'text-muted'
 									)}
 								>
-									{match.maps[selectedMap - 1].score2}
+									{map.score2}
 								</p>
 							</div>
 						</div>
-						{match.mapDetails[selectedMap - 1].rounds !== null && (
+						{mapDetail.rounds !== null && (
 							<div className="mb-5">
 								<Timeline
-									rounds={match.mapDetails[selectedMap - 1].rounds!}
+									rounds={mapDetail.rounds!}
 									team1={teams[match.team1]}
 									team2={teams[match.team2]}
 									showAllRounds={true}
@@ -181,19 +177,15 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 						rounds={getRounds(match.mapDetails)}
 					/>
 				)}
-				{match.maps.map((map, idx) => (
-					<Fragment key={idx}>
-						{selectedMap === idx + 1 && (
-							<StatsTable
-								agents={getAgents([match.mapDetails[idx]])}
-								event={event}
-								teamStats={match.mapDetails[idx].stats}
-								rounds={match.maps[idx].score1 + match.maps[idx].score2}
-								key={idx}
-							/>
-						)}
-					</Fragment>
-				))}
+				{selectedMap !== 0 && (
+					<StatsTable
+						agents={getAgents([mapDetail])}
+						event={event}
+						teamStats={mapDetail.stats}
+						rounds={map.score1 + map.score2}
+						key={selectedMap}
+					/>
+				)}
 			</div>
 		</div>
 	);

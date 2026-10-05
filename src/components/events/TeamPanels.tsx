@@ -1,16 +1,19 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import type { Event, Match, TeamInfo } from '../../types/types.ts';
 
-import { matches as allMatches, teamMapStats as allTeamMapStats, teams as allTeams } from '../../stores/store.ts';
+import { matches as allMatches } from '../../stores/matches.ts';
+import { teamMapStats as allTeamMapStats } from '../../stores/teamMapStats.ts';
+import { teams as allTeams } from '../../stores/teams.ts';
 import { groupByDay } from '../../utils/datetime.ts';
 import MatchCard from '../matches/MatchCard.tsx';
 import TeamMapStatsTable from './TeamMapStatsTable.tsx';
+import TabBar from './TabBar.tsx';
 import { playerFlag } from '../../utils/images.ts';
-import eventsRaw from '../../data/events.json';
-import { fromJson } from '../../utils/json.ts';
-import { cx } from '../../utils/cx.ts';
+import { events as allEvents } from '../../stores/events.ts';
 
-const allEvents = fromJson<Event[]>(eventsRaw);
+import { cx } from '../../utils/cx.ts';
+import { useTimezone } from '../../utils/useTimezone.ts';
+import { randomItem, useRandom } from '../../utils/useRandom.ts';
 
 interface TeamPanelsProps {
 	event: Event;
@@ -35,15 +38,9 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 	const [active, setActive] = useState<string>('Overview');
 	const [reverse, setReverse] = useState(false);
 
-	const [timezone, setTimezone] = useState('America/Chicago');
+	const timezone = useTimezone();
 
 	const events = teamEvents(event, team, allTeams);
-
-	useEffect(() => {
-		// Fetch the IANA timezone string from the browser
-		const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-		setTimezone(userTimezone);
-	}, []);
 
 	const matches = events.flatMap((e) =>
 		allMatches[e.id]
@@ -67,47 +64,31 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 		}
 	}
 
+	// Each player's exclamation and scrambled name (for Team Dyslexia), picked after the page loads
+	const randomBits = useRandom(
+		() =>
+			new Map(
+				[...roster.values()].map(({ player }) => [
+					player,
+					{
+						exclamation: randomItem(exclamations),
+						scrambled: [...player].sort(() => Math.random() - 0.5).join(''),
+					},
+				])
+			)
+	);
+
 	const statsEvents = events.filter((e) => team.abbr in (allTeamMapStats[e.id] ?? {}));
 
 	return (
 		<div className="flex h-full flex-col">
-			<div className="bg-shade-100 vlr-box-shadow border-line flex flex-row border-t border-b pl-4 sm:pl-6 dark:border-b-0">
-				{pages.map((label) => {
-					return (
-						<button
-							className={cx(
-								'border-line hover:bg-vlr-gray-300 dark:hover:bg-vlr-gray-500 relative cursor-pointer border-r px-5 py-5 text-xs font-bold first:border-l',
-								active === label ? 'text-bright' : 'text-pb'
-							)}
-							onClick={() => setActive(label)}
-							key={label}
-						>
-							{label}
-							{label === 'Matches' && (
-								<sup className="text-vlr-text-gray font-normal"> ({matches.length})</sup>
-							)}
-							{active === label && (
-								<>
-									<svg
-										height="8"
-										width="16"
-										className="fill-shade-300 absolute -bottom-px left-1/2 -translate-x-1/2"
-									>
-										<path d="M0 8 L16 8 L8 0 Z" />
-									</svg>
-									<svg
-										height="8"
-										width="16"
-										className="stroke-vlr-border-light absolute -bottom-px left-1/2 -translate-x-1/2 dark:hidden"
-									>
-										<path d="M0 8 L8 0 L16 8" fill="none" />
-									</svg>
-								</>
-							)}
-						</button>
-					);
-				})}
-			</div>
+			<TabBar
+				tabs={pages}
+				active={active}
+				onSelect={setActive}
+				matchCount={matches.length}
+				arrowFill="fill-shade-300"
+			/>
 
 			{active === 'Overview' && (
 				<div className="mx-4 mt-6 flex flex-col sm:mx-6">
@@ -123,10 +104,10 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 										alt={'flag'}
 										className="h-4 w-auto"
 									/>
-									{team.name !== 'Team Dyslexia' || !fun
-										? player
-										: [...player].sort(() => Math.random() - 0.5).join('')}
-									{exclamations[Math.floor(Math.random() * exclamations.length)]}
+									{team.name === 'Team Dyslexia' && fun
+										? (randomBits?.get(player)?.scrambled ?? player)
+										: player}
+									{randomBits?.get(player)?.exclamation}
 									{events.length > 1 && (
 										<span className="text-vlr-text-gray ml-1 text-xs">
 											{playerEvents.map((e) => e.shortName).join(', ')}

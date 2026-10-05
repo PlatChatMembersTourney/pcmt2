@@ -1,8 +1,7 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
-import seasons from '../../../../data/events.json';
-import { fromJson } from '../../../../utils/json.ts';
-import EventPage from '../../../../components/events/EventPage.astro';
+import { events } from '../../../../stores/events.ts';
+
 import type { Event, TeamInfo } from '../../../../types/types.ts';
 import slugify from 'slugify';
 
@@ -11,7 +10,7 @@ interface Props {
 	team: TeamInfo;
 }
 
-import { teams } from '../../../../stores/store.ts';
+import { teams } from '../../../../stores/teams.ts';
 import TeamPage from '../../../../components/events/TeamPage';
 
 export const getStaticPaths = () => {
@@ -23,9 +22,7 @@ export const getStaticPaths = () => {
 					team: slugify(team.name, { lower: true }),
 				},
 				props: {
-					event: fromJson<Event[]>(seasons).filter((event) => {
-						return event.id === id;
-					})[0],
+					event: events.find((event) => event.id === id)!,
 					team: team,
 				},
 			};
