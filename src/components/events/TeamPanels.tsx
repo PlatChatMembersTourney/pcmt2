@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { Event, Match, TeamInfo } from '../../types/types.ts';
 
-import { $matches, $teamMapStats, $teams } from '../../stores/store.ts';
-import { useStore } from '@nanostores/react';
+import { matches as allMatches, teamMapStats as allTeamMapStats, teams as allTeams } from '../../stores/store.ts';
 import { groupByDay } from '../../utils/datetime.ts';
 import MatchCard from '../matches/MatchCard.tsx';
 import TeamMapStatsTable from './TeamMapStatsTable.tsx';
@@ -37,9 +36,6 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 
 	const [timezone, setTimezone] = useState('America/Chicago');
 
-	const allTeams = useStore($teams);
-	const allMatches = useStore($matches);
-	const allTeamMapStats = useStore($teamMapStats);
 	const events = teamEvents(event, team, allTeams);
 
 	useEffect(() => {

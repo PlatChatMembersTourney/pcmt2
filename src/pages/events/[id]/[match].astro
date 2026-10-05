@@ -3,17 +3,18 @@ import Layout from '../../../layouts/Layout.astro';
 import seasons from '../../../data/events.json';
 import { fromJson } from '../../../utils/json.ts';
 import EventPage from '../../../components/events/EventPage.astro';
-import type { Event } from '../../../types/types.ts';
+import type { Event, Match, TeamInfo } from '../../../types/types.ts';
 import slugify from 'slugify';
 
 interface Props {
 	event: Event;
 	matchName: string;
-	matchId: string;
+	match: Match;
+	teams: Record<string, TeamInfo>;
 	stage: string;
 }
 
-import { matches } from '../../../stores/store.ts';
+import { matches, teams as allTeams } from '../../../stores/store.ts';
 import MatchPage from '../../../components/matches/MatchPage';
 
 export const getStaticPaths = () => {
@@ -29,7 +30,8 @@ export const getStaticPaths = () => {
 						return event.id === id;
 					})[0],
 					matchName: match.team1Name + ' vs ' + match.team2Name,
-					matchId: match.id,
+					match,
+					teams: allTeams[id],
 					stage: match.stage,
 				},
 			};
@@ -37,7 +39,7 @@ export const getStaticPaths = () => {
 	});
 };
 
-const { event, matchName, matchId, stage } = Astro.props;
+const { event, matchName, match, teams, stage } = Astro.props;
 ---
 
 <Layout
@@ -48,6 +50,6 @@ const { event, matchName, matchId, stage } = Astro.props;
 	mainClass="mx-auto w-full max-w-315 root dark:bg-vlr-gray-800 min-w-0"
 >
 	<div class="h-full">
-		<MatchPage event={event} matchId={matchId} client:load />
+		<MatchPage event={event} match={match} teams={teams} client:load />
 	</div>
 </Layout>

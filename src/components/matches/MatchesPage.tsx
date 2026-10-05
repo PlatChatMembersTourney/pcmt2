@@ -2,9 +2,8 @@ import { Toggle } from '@base-ui/react/toggle';
 import { ToggleGroup } from '@base-ui/react/toggle-group';
 import { motion } from 'motion/react';
 import { useEffect, useState } from 'react';
-import type { Event, Match } from '../../types/types.ts';
-import { $matches } from '../../stores/store.ts';
-import { useStore } from '@nanostores/react';
+import type { Event } from '../../types/types.ts';
+import { matches as allMatches } from '../../stores/store.ts';
 import { groupByDay } from '../../utils/datetime.ts';
 import MatchCard from './MatchCard.tsx';
 
@@ -12,8 +11,6 @@ import eventsRaw from '../../data/events.json';
 import { fromJson } from '../../utils/json.ts';
 
 const events = fromJson<Event[]>(eventsRaw);
-
-type MatchWithEventId = Match & { eventId: string };
 
 const TeamsPage: React.FC = () => {
 	const [region, setRegion] = useState(['All']);
@@ -26,8 +23,6 @@ const TeamsPage: React.FC = () => {
 		const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 		setTimezone(userTimezone);
 	}, []);
-
-	const allMatches = useStore($matches);
 
 	const handleRegionChange = (newValue: string[]) => {
 		if (newValue.length === 0) {
@@ -53,15 +48,11 @@ const TeamsPage: React.FC = () => {
 		);
 	});
 
-	const matches: MatchWithEventId[] = filteredKeys.flatMap((key) =>
-		allMatches[key].map((entry: Match): MatchWithEventId => {
-			return {
-				eventId: key,
-				...entry,
-			};
-		})
-	);
-	const matchesGrouped = groupByDay<MatchWithEventId>(matches, timezone).reverse();
+	const matches = filteredKeys.flatMap((key) => {
+		const event = events.find((e) => e.id === key)!;
+		return allMatches[key].map((match) => ({ date: match.date, match, event }));
+	});
+	const matchesGrouped = groupByDay(matches, timezone).reverse();
 
 	return (
 		<div className="dark:bg-vlr-gray-800 bg-vlr-gray-300 mx-4 mt-4 flex flex-col font-[roboto] sm:mx-6 sm:mt-6">
@@ -153,14 +144,11 @@ const TeamsPage: React.FC = () => {
 									{date}
 								</h2>
 								<div className="vlr-box-shadow flex flex-col">
-									{items.map((match) => {
-										const event = events.find((e) => {
-											return e.id === match.eventId;
-										});
+									{items.map(({ match, event }) => {
 										return (
 											<MatchCard
 												match={match}
-												event={event!}
+												event={event}
 												addlClass="not-first:border-t-1 dark:border-t-vlr-border-gray! border-t-vlr-border-light!"
 												key={match.id}
 											/>

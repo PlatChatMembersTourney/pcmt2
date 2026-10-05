@@ -1,17 +1,16 @@
 import { useUrlTab } from '../../utils/urlTab.ts';
-import { useStore } from '@nanostores/react';
 import type { Event, Standing } from '../../types/types.ts';
-import { $brackets, $matches, $standings, $teams } from '../../stores/store.ts';
+import { brackets as allBrackets, matches as allMatches, standings, teams as allTeams } from '../../stores/store.ts';
 import GroupStandingsBox from './GroupStandingsBox.tsx';
 import Bracket from './Bracket.tsx';
 
 const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
 
-	const allStandings: Record<string, Standing[]> = useStore($standings)[event.id];
-	const teams = useStore($teams)[event.id];
-	const brackets = useStore($brackets)[event.id];
-	const matches = useStore($matches)[event.id];
+	const allStandings: Record<string, Standing[]> = standings[event.id];
+	const teams = allTeams[event.id];
+	const brackets = allBrackets[event.id];
+	const matches = allMatches[event.id];
 
 	const [activeStage, setActiveStage] = useUrlTab(
 		'overview',

@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useUrlTab } from '../../utils/urlTab.ts';
 import type { Event, Match } from '../../types/types.ts';
-import { useStore } from '@nanostores/react';
-import { $matches, $teams } from '../../stores/store.ts';
+import { matches as allMatches, teams as allTeams } from '../../stores/store.ts';
 import { groupByDay } from '../../utils/datetime.ts';
 import MatchCard from '../matches/MatchCard.tsx';
 
@@ -17,8 +16,8 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 		setTimezone(userTimezone);
 	}, []);
 
-	const teams = useStore($teams)[event.id];
-	const matches = useStore($matches)[event.id];
+	const teams = allTeams[event.id];
+	const matches = allMatches[event.id];
 
 	const stages =
 		event.stages.length > 1

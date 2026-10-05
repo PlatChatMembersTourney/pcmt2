@@ -1,4 +1,4 @@
-import type { Event, PlayerStats } from '../../types/types.ts';
+import type { Event, PlayerStatsWithEventId } from '../../types/types.ts';
 
 import {
 	useReactTable,
@@ -12,8 +12,6 @@ import {
 } from '@tanstack/react-table';
 import { useState } from 'react';
 
-type PlayerStatsWithEventId = PlayerStats & { eventId?: string };
-
 interface PlayerStatTableProps {
 	playerStats: PlayerStatsWithEventId[];
 	showSeason?: boolean;
@@ -23,13 +21,12 @@ interface PlayerStatTableProps {
 import eventsRaw from '../../data/events.json';
 import { fromJson } from '../../utils/json.ts';
 import { angusRating } from '../../utils/rating.ts';
-import { $teams } from '../../stores/store.ts';
-import { useStore } from '@nanostores/react';
+import { teams } from '../../stores/store.ts';
 import CustomPopover from '../CustomPopover.tsx';
 import slugify from 'slugify';
 
 const events = fromJson<Event[]>(eventsRaw);
-const eventOf = (id?: string) => events.find((e) => e.id === id);
+const eventOf = (id: string) => events.find((e) => e.id === id);
 
 const pctFormatter = new Intl.NumberFormat('en-US', {
 	style: 'percent',
@@ -38,7 +35,6 @@ const pctFormatter = new Intl.NumberFormat('en-US', {
 
 const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	const { playerStats, showSeason, stickyPlayerNames } = props;
-	const teams = useStore($teams);
 
 	const [sorting, setSorting] = useState<SortingState>([]);
 
@@ -51,11 +47,11 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 			header: 'Team',
 			cell: (info) => {
 				const r = info.row.original;
-				if (!(r.Team in teams[r.eventId!])) {
+				if (!(r.Team in teams[r.eventId])) {
 					return <p>{r.Team}</p>;
 				}
 				return (
-					<a href={`/events/${r.eventId}/teams/${slugify(teams[r.eventId!][r.Team].name, { lower: true })}`}>
+					<a href={`/events/${r.eventId}/teams/${slugify(teams[r.eventId][r.Team].name, { lower: true })}`}>
 						{r.Team}
 					</a>
 				);
@@ -81,16 +77,16 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 			id: 'Player',
 			cell: (info) => {
 				const r = info.row.original;
-				if (!(r.Team in teams[r.eventId!])) {
+				if (!(r.Team in teams[r.eventId])) {
 					return <p>{r.Player}</p>;
 				}
 				return (
 					<div className="flex min-w-max flex-row items-center gap-1.5">
 						<div className="flex h-6 w-6 items-center justify-center">
-							<img src={teams[r.eventId!][r.Team].logo} className="h-6 w-auto" alt={r.Team} />
+							<img src={teams[r.eventId][r.Team].logo} className="h-6 w-auto" alt={r.Team} />
 						</div>
 						<a
-							href={`/events/${r.eventId}/teams/${slugify(teams[r.eventId!][r.Team].name, { lower: true })}`}
+							href={`/events/${r.eventId}/teams/${slugify(teams[r.eventId][r.Team].name, { lower: true })}`}
 						>
 							{r.Player}
 						</a>

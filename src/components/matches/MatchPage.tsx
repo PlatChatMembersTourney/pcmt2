@@ -1,13 +1,12 @@
-import type { Event } from '../../types/types.ts';
-import { useStore } from '@nanostores/react';
-import { $matches } from '../../stores/store.ts';
+import type { Event, Match, TeamInfo } from '../../types/types.ts';
 import MatchHeader from './MatchHeader.tsx';
 import { useEffect, useState } from 'react';
 import MatchStatsBox from './MatchStatsBox.tsx';
 
 interface MatchPageProps {
 	event: Event;
-	matchId: string;
+	match: Match;
+	teams: Record<string, TeamInfo>;
 }
 
 const shitpostPaths = [
@@ -49,25 +48,13 @@ function pickN<T>(items: T[], N: number): T[] {
 }
 
 const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
-	const { event, matchId } = props;
-
-	const allMatches = useStore($matches)[event.id];
-
-	const match = allMatches.find((m) => m.id === matchId);
-
-	if (!match) {
-		return (
-			<div className="h-full font-[roboto]">
-				<img src={'/res/exist.png'} />
-			</div>
-		);
-	}
+	const { event, match, teams } = props;
 
 	return (
 		<div className="dark:bg-vlr-gray-800 bg-vlr-gray-300 flex h-full flex-col font-[roboto]">
 			<div className="m-6 grid grid-cols-1 gap-6 xl:grid-cols-[auto_1fr]">
 				<div className="flex max-w-185 min-w-0 flex-col gap-4 md:w-185">
-					<MatchHeader event={event} match={match} />
+					<MatchHeader event={event} match={match} teams={teams} />
 					{match.streamLink && (
 						<div className="mt-2 flex flex-col gap-2">
 							<h2 className="mb-1 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase sm:ml-5">
@@ -136,7 +123,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 						<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase sm:ml-5">
 							Maps/Stats
 						</h2>
-						<MatchStatsBox match={match} event={event} />
+						<MatchStatsBox match={match} event={event} teams={teams} />
 					</div>
 				</div>
 				<div className="fun:xl:flex hidden flex-col">

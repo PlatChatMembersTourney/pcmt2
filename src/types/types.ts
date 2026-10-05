@@ -33,6 +33,9 @@ export interface PlayerStats extends Player {
 	KMAX: number;
 }
 
+// A player-stats row tagged with the event it's from (for tables that mix events)
+export type PlayerStatsWithEventId = PlayerStats & { eventId: string };
+
 // A team's roster of player stat lines
 export interface TeamStats {
 	team: string; // short code, e.g. "TL"

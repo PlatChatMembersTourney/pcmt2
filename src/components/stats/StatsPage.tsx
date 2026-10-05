@@ -2,9 +2,8 @@ import { Toggle } from '@base-ui/react/toggle';
 import { ToggleGroup } from '@base-ui/react/toggle-group';
 import { motion } from 'motion/react';
 import { useState } from 'react';
-import type { Event, Match, PlayerStats } from '../../types/types.ts';
-import { $allPlayerStats, $matches, $playerStats } from '../../stores/store.ts';
-import { useStore } from '@nanostores/react';
+import type { Event, PlayerStats, PlayerStatsWithEventId } from '../../types/types.ts';
+import { allPlayerStats } from '../../stores/store.ts';
 import { groupByDay } from '../../utils/datetime.ts';
 
 import eventsRaw from '../../data/events.json';
@@ -12,8 +11,6 @@ import { fromJson } from '../../utils/json.ts';
 import PlayerStatTable from './PlayerStatTable.tsx';
 
 const events = fromJson<Event[]>(eventsRaw);
-
-type PlayerStatsWithEventId = PlayerStats & { eventId: string };
 
 const TeamsPage: React.FC = () => {
 	const [region, setRegion] = useState(['All']);
@@ -23,8 +20,6 @@ const TeamsPage: React.FC = () => {
 	const [showShowmatches, setShowShowmatches] = useState(false);
 
 	const [showSubs, setShowSubs] = useState(true);
-
-	const allPlayerStats = useStore($allPlayerStats);
 
 	const handleRegionChange = (newValue: string[]) => {
 		if (newValue.length === 0) {

@@ -6,8 +6,7 @@ import EventStatsPanel from './EventStatsPanel.tsx';
 import EventMatchesPanel from './EventMatchesPanel.tsx';
 import EventAgentsPanel from './EventAgentsPanel.tsx';
 
-import { $matches } from '../../stores/store.ts';
-import { useStore } from '@nanostores/react';
+import { matches as allMatches } from '../../stores/store.ts';
 
 const Teams: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
@@ -15,7 +14,7 @@ const Teams: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const [activeIdx, setActive] = useUrlTab('tab', pages);
 	const active = pages[activeIdx];
 
-	const matches: Match[] = useStore($matches)[event.id];
+	const matches: Match[] = allMatches[event.id];
 
 	return (
 		<div className="flex flex-col">

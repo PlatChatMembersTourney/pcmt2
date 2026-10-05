@@ -2,13 +2,12 @@ import type { Match, Event, TeamInfo, MapDetail } from '../../types/types.ts';
 import { useState } from 'react';
 import StatsTable from './StatsTable.tsx';
 import Timeline from './Timeline.tsx';
-import { useStore } from '@nanostores/react';
-import { $teams } from '../../stores/store.ts';
 import { Fragment } from 'react';
 
 interface MatchStatsBoxProps {
 	match: Match;
 	event: Event;
+	teams: Record<string, TeamInfo>;
 }
 
 const getAgents = (mapDetails: MapDetail[]) => {
@@ -82,8 +81,7 @@ const copypastas = [
 ];
 
 const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
-	const { match, event } = props;
-	const teams: Record<string, TeamInfo> = useStore($teams)[event.id];
+	const { match, event, teams } = props;
 
 	if (!match.completed) {
 		return (

@@ -1,14 +1,13 @@
 import { useState } from 'react';
 import { useUrlTab } from '../../utils/urlTab.ts';
-import type { Event, PlayerStats } from '../../types/types.ts';
-import { useStore } from '@nanostores/react';
-import { $playerStats } from '../../stores/store.ts';
+import type { Event } from '../../types/types.ts';
+import { playerStats as allPlayerStats } from '../../stores/store.ts';
 import PlayerStatTable from '../stats/PlayerStatTable.tsx';
 
 const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
 
-	const playerStats = useStore($playerStats)[event.id];
+	const playerStats = allPlayerStats[event.id];
 
 	const stages = ['All', ...Object.keys(playerStats).filter((name) => name !== 'Overall')];
 
@@ -75,10 +74,7 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 					</div>
 
 					<PlayerStatTable
-						playerStats={filteredPlayers.map((player: PlayerStats & { eventId?: string }) => {
-							player.eventId = event.id;
-							return player;
-						})}
+						playerStats={filteredPlayers.map((player) => ({ ...player, eventId: event.id }))}
 						showSeason={false}
 						stickyPlayerNames={stickyPlayerNames}
 					/>

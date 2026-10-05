@@ -1,13 +1,12 @@
 import type { Match, Event, TeamInfo } from '../../types/types.ts';
 import slugify from 'slugify';
-import { useStore } from '@nanostores/react';
-import { $teams } from '../../stores/store.ts';
 import { timeUntil } from '../../utils/datetime.ts';
 import { eventLogo } from '../../utils/images.ts';
 
 interface MatchHeaderProps {
 	match: Match;
 	event: Event;
+	teams: Record<string, TeamInfo>;
 }
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
@@ -23,9 +22,8 @@ const timeFormatter = new Intl.DateTimeFormat('en-US', {
 });
 
 const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
-	const { match, event } = props;
+	const { match, event, teams } = props;
 
-	const teams: Record<string, TeamInfo> = useStore($teams)[event.id];
 	const team1Winner = match.completed && match.score1 > match.score2;
 
 	return (

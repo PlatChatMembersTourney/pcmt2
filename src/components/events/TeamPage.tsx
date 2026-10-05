@@ -1,8 +1,7 @@
 import type { TeamInfo, Event } from '../../types/types.ts';
 import TeamPanels, { teamEvents } from './TeamPanels.tsx';
 import { useEffect, useState } from 'react';
-import { useStore } from '@nanostores/react';
-import { $teams } from '../../stores/store.ts';
+import { teams } from '../../stores/store.ts';
 
 interface TeamPageProps {
 	team: TeamInfo;
@@ -26,7 +25,7 @@ const TeamPage: React.FC<TeamPageProps> = (props) => {
 	const fun = funVal === 'yes';
 
 	// Team spans several showmatches
-	const acrossShowmatches = teamEvents(event, team, useStore($teams)).length > 1;
+	const acrossShowmatches = teamEvents(event, team, teams).length > 1;
 
 	return (
 		<div className="font-[roboto]">
