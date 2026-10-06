@@ -59,6 +59,7 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 	const [timespan, setTimespan] = useState('All');
 	const [showSubs, setShowSubs] = useState(false);
 	const [includeSubs, setIncludeSubs] = useState(true);
+	const [hiddenEvents, setHiddenEvents] = useState<string[]>([]); // event ids toggled off in the Agents filter
 
 	// Every team the player was on (roster) or played for (e.g. as a sub), newest event first - not showmatch teams
 	const playerTeams = [...events].reverse().flatMap((event) => {
@@ -85,10 +86,11 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 
 	// The player's totals on each agent, and across every map ("All", which includes maps with no agent recorded)
 	const cutoff = Date.now() - timespans[timespan] * DAY; // -Infinity for All
+	const playedEvents = events.filter((event) => matches.some((m) => m.event.id === event.id));
 	const all = newTotals('All');
 	const byAgent = new Map<string, Totals>();
 	for (const { match, event } of matches) {
-		if (new Date(match.date).getTime() < cutoff) continue;
+		if (new Date(match.date).getTime() < cutoff || hiddenEvents.includes(event.id)) continue;
 		for (const map of match.mapDetails) {
 			for (const team of map.stats) {
 				if (!includeSubs && isSub(event, team.team)) continue;
@@ -142,35 +144,62 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 				))}
 			</div>
 
-			<div className="mt-6 mb-3 ml-4 flex items-center justify-between">
-				<h2 className="text-[11px] leading-none font-bold text-red-400 uppercase">Agents</h2>
-				<div className="text-faint flex items-center gap-1 text-[10px]">
-					<button
-						onClick={() => setIncludeSubs(!includeSubs)}
-						className={cx(
-							'bg-shade-100 text-muted mr-3 cursor-pointer rounded-sm p-2 text-xs',
-							includeSubs ? 'font-bold' : 'font-normal'
-						)}
-					>
-						Include Subs
-					</button>
-					<span className="mr-1 font-bold uppercase">Past:</span>
-					{Object.keys(timespans).map((option) => (
+			<div className="mt-6 mb-3 ml-4 flex items-end justify-between gap-2">
+				{/* as tall as the Include Subs row, so it's centered on that row when the filters wrap */}
+				<h2 className="flex h-8 items-center text-[11px] leading-none font-bold text-red-400 uppercase">
+					Agents
+				</h2>
+				{/* Events filter: next to the other filters, or above them when there isn't room */}
+				<div className="flex flex-col items-end gap-2 md:flex-row md:items-center md:gap-4">
+					<div className="text-faint flex flex-wrap items-center justify-end gap-1 text-[10px]">
+						<span className="mr-1 font-bold uppercase">Events:</span>
+						{playedEvents.map((event) => (
+							<button
+								className={cx(
+									'cursor-pointer rounded-xs px-1 py-0.5',
+									hiddenEvents.includes(event.id) ? 'text-pb' : 'bg-vlr-text-dark text-white'
+								)}
+								onClick={() =>
+									setHiddenEvents((hidden) =>
+										hidden.includes(event.id)
+											? hidden.filter((id) => id !== event.id)
+											: [...hidden, event.id]
+									)
+								}
+								key={event.id}
+							>
+								{event.shortName}
+							</button>
+						))}
+					</div>
+					<div className="text-faint flex items-center gap-1 text-[10px]">
 						<button
+							onClick={() => setIncludeSubs(!includeSubs)}
 							className={cx(
-								'cursor-pointer rounded-xs px-1 py-0.5',
-								option === timespan ? 'bg-vlr-text-dark text-white' : 'text-pb'
+								'bg-shade-100 text-muted mr-3 cursor-pointer rounded-sm p-2 text-xs',
+								includeSubs ? 'font-bold' : 'font-normal'
 							)}
-							onClick={() => setTimespan(option)}
-							key={option}
 						>
-							{option}
+							Include Subs
 						</button>
-					))}
+						<span className="mr-1 font-bold uppercase">Past:</span>
+						{Object.keys(timespans).map((option) => (
+							<button
+								className={cx(
+									'cursor-pointer rounded-xs px-1 py-0.5',
+									option === timespan ? 'bg-vlr-text-dark text-white' : 'text-pb'
+								)}
+								onClick={() => setTimespan(option)}
+								key={option}
+							>
+								{option}
+							</button>
+						))}
+					</div>
 				</div>
 			</div>
 			{all.MP === 0 ? (
-				<div className="text-muted text-sm">No games in this time span.</div>
+				<img src={'/res/revealed_no_one.gif'} className="max-w-160" />
 			) : (
 				<PlayerAgentTable rows={rows} />
 			)}
