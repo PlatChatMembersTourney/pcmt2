@@ -1,8 +1,8 @@
 /* who up tailing they wind */
 @import 'tailwindcss';
 
-/* brackets-viewer's stylesheet, in the components layer so tailwind utilities can override it (see Bracket.tsx) */
-@import 'brackets-viewer/dist/brackets-viewer.min.css' layer(components);
+/* the bracket's styles (brackets-viewer and our overrides for it) */
+@import './brackets.css';
 
 /* dont use device theme */
 @custom-variant dark (&:where(.dark, .dark *));

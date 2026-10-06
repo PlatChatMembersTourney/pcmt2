@@ -124,7 +124,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 			columns: columnHelper.columns([
 				columnHelper.accessor(
 					(row) => {
-						let tr = row['R1.0'];
+						const tr = row['R1.0'];
 						// doing this messes up the ordering, since unmodified toxic rating is the default sort
 						// implement this in the calculation for toxic rating itself
 						// if (row.MP <= 3 && !row.eventId?.includes('showmatch')) {

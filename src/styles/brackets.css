@@ -1,0 +1,129 @@
+/*
+ * Bracket styles (see Bracket.tsx). The bracket's markup comes from the brackets-viewer library,
+ * so it's styled with plain CSS here rather than Tailwind classes.
+ */
+
+/* The library's own stylesheet, in the components layer so the unlayered overrides below always win over it */
+@import 'brackets-viewer/dist/brackets-viewer.min.css' layer(components);
+
+.brackets-viewer {
+	/* Palette */
+	--font-color: var(--color-vlr-text-dark);
+	--line-color: var(--color-vlr-text-silver);
+	--row-border: #ccc;
+	--hover-color: var(--color-vlr-border-mid);
+	--win-background: #cee9d3;
+	--win-font-color: var(--color-vlr-text-dark);
+
+	/* The library's variables, fed from the palette */
+	--primary-background: transparent;
+	--secondary-background: transparent;
+	--match-background: transparent;
+	--connector-color: var(--line-color);
+	--border-color: var(--line-color);
+	--border-hover-color: var(--hover-color);
+	--border-selected-color: var(--hover-color);
+	--text-size: 11px;
+	--round-margin: 24px;
+	--match-width: 144px;
+	--participant-image-size: 20px;
+	--match-horizontal-padding: 0px;
+	--match-vertical-padding: 0px;
+	--connector-border-width: 2px;
+	--match-border-width: 2px;
+	--match-border-radius: 3px;
+	--row-radius: calc(var(--match-border-radius) - var(--match-border-width));
+
+	margin: 0;
+	padding: 15px 20px 25px;
+	font-family: inherit;
+
+	.dark & {
+		--font-color: var(--color-vlr-text-white);
+		--line-color: #acaeaf;
+		--row-border: #929496;
+		--hover-color: #85b6e0;
+		--win-background: #9ec7a6;
+		--win-font-color: var(--color-vlr-text-darker);
+	}
+
+	h1,
+	.bracket > h2 {
+		display: none;
+	}
+
+	/* Rounds, with a plain bold label above the first match */
+	.round {
+		position: relative;
+		padding-top: 26px;
+	}
+	.match {
+		margin-block: 16px;
+	}
+	.bracket + .bracket {
+		margin-top: 24px;
+	}
+	h3 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		background-color: transparent;
+		font-size: 11px;
+		line-height: 11px;
+		font-weight: 700;
+	}
+
+	/* Team rows: logo + name, then score */
+	.opponents:hover {
+		border-style: solid;
+		border-width: 2px;
+	}
+	.participant {
+		height: 33px;
+		align-items: center;
+		padding: 0;
+	}
+	/* Rows sit inside the box's border, so their corners follow its inner edge (outer radius minus border width) */
+	.participant:nth-of-type(1) {
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-color: var(--row-border);
+		border-top-left-radius: var(--row-radius);
+		border-top-right-radius: var(--row-radius);
+	}
+	.participant:nth-of-type(2) {
+		border-bottom-left-radius: var(--row-radius);
+		border-bottom-right-radius: var(--row-radius);
+	}
+	.name {
+		width: auto;
+		min-width: 0;
+		flex: 1;
+		line-height: 32px;
+	}
+	.name > img {
+		display: inline-block;
+		margin-inline: 5px;
+		bottom: 0;
+		border-radius: 0;
+		object-fit: contain;
+	}
+	.result {
+		margin: 0;
+		height: 100%;
+		width: 32px;
+		flex: none;
+		line-height: 32px;
+		color: inherit;
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-color: var(--row-border);
+	}
+	.participant.win {
+		background-color: var(--win-background);
+		color: var(--win-font-color);
+		font-weight: 700;
+	}
+}

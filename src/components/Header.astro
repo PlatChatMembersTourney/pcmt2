@@ -43,7 +43,7 @@ const links = [
 
 		<div class="flex flex-col md:hidden">
 			<button
-				onclick="toggleNav()"
+				id="navToggle"
 				class="my-auto ml-2 inline-flex items-center justify-center rounded-md p-2 text-neutral-400 hover:bg-neutral-400 hover:text-white focus:ring-2 focus:ring-white focus:outline-none focus:ring-inset dark:hover:bg-neutral-700"
 				aria-expanded="false"
 			>
@@ -152,9 +152,9 @@ const links = [
 	let mobileNavExpanded = false;
 
 	function toggleNav() {
-		let classes = document.getElementById('mobile-menu')?.classList;
-		let closeIcon = document.getElementById('nav-menu-closed')?.classList;
-		let openIcon = document.getElementById('nav-menu-open')?.classList;
+		const classes = document.getElementById('mobile-menu')?.classList;
+		const closeIcon = document.getElementById('nav-menu-closed')?.classList;
+		const openIcon = document.getElementById('nav-menu-open')?.classList;
 
 		if (!classes || !closeIcon || !openIcon) {
 			return;
@@ -216,10 +216,10 @@ const links = [
 		localStorage.setItem('theme', isDark ? 'dark' : 'light');
 
 		if (isDark) {
-			let smoke = new Audio('/res/smoke.mp3');
+			const smoke = new Audio('/res/smoke.mp3');
 			smoke.play();
 		} else {
-			let flashbang = new Audio('/res/flashbang.mp3');
+			const flashbang = new Audio('/res/flashbang.mp3');
 			flashbang.play();
 		}
 
@@ -235,6 +235,7 @@ const links = [
 		updateFunLabel();
 	};
 
+	document.getElementById('navToggle')?.addEventListener('click', toggleNav);
 	document.getElementById('themeToggle')?.addEventListener('click', handleToggleClick);
 	document.getElementById('funToggle')?.addEventListener('click', handleFunClick);
 	updateNightLabel();

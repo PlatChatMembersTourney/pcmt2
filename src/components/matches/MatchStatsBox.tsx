@@ -160,7 +160,7 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 						{mapDetail.rounds !== null && (
 							<div className="mb-5">
 								<Timeline
-									rounds={mapDetail.rounds!}
+									rounds={mapDetail.rounds}
 									team1={teams[match.team1]}
 									team2={teams[match.team2]}
 									showAllRounds={true}

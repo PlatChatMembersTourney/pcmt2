@@ -4,6 +4,13 @@ import type { Match as ViewerMatch, Participant, Stage } from 'brackets-model';
 import type { BracketsViewer, RoundNameInfo } from 'brackets-viewer';
 import type { BracketLayout, BracketSlot, Event, Match, TeamInfo } from '../../types/types.ts';
 
+// The viewer's bundled build sets window.bracketsViewer when loaded
+declare global {
+	interface Window {
+		bracketsViewer: BracketsViewer;
+	}
+}
+
 interface BracketProps {
 	event: Event;
 	stage: string;
@@ -28,32 +35,6 @@ const SVG_NS = 'http://www.w3.org/2000/svg';
 
 const DATE_LINE_CLASSES =
 	"absolute top-[calc(100%+6px)] left-0 pl-2 leading-[15px] whitespace-nowrap before:absolute before:left-0 before:content-['-']";
-
-const bracketClasses = [
-	// Palette: light values, then the dark overrides, declared once each
-	'[--font-color:var(--color-vlr-text-dark)] [--line-color:var(--color-vlr-text-silver)] [--row-border:#ccc] [--hover-color:var(--color-vlr-border-mid)] [--win-background:#cee9d3] [--win-font-color:var(--color-vlr-text-dark)]',
-	'dark:[--font-color:var(--color-vlr-text-white)] dark:[--line-color:#acaeaf] dark:[--row-border:#929496] dark:[--hover-color:#85b6e0] dark:[--win-background:#9ec7a6] dark:[--win-font-color:var(--color-vlr-text-darker)]',
-	// brackets-viewer's own variables, fed from the palette above
-	'[--primary-background:transparent] [--secondary-background:transparent] [--match-background:transparent]',
-	'[--connector-color:var(--line-color)] [--border-color:var(--line-color)]',
-	'[--border-hover-color:var(--hover-color)] [--border-selected-color:var(--hover-color)]',
-	'[--text-size:11px] [--round-margin:24px] [--match-width:144px] [--participant-image-size:20px]',
-	'[--match-horizontal-padding:0px] [--match-vertical-padding:0px]',
-	'[--connector-border-width:2px] [--match-border-width:2px] [--match-border-radius:3px]',
-	// Frame
-	'm-0 px-5 pt-[15px] pb-[25px] [font-family:inherit] [&_h1]:hidden [&_.bracket>h2]:hidden',
-	// Rounds, with a plain bold label above the first match
-	'[&_.round]:relative [&_.round]:pt-[26px] [&_.match]:my-4 [&_.bracket+.bracket]:mt-6',
-	'[&_h3]:absolute [&_h3]:top-0 [&_h3]:left-0 [&_h3]:m-0 [&_h3]:p-0 [&_h3]:bg-transparent [&_h3]:text-[11px] [&_h3]:leading-[11px] [&_h3]:font-bold',
-	// Team rows: logo + name, then score
-	'[&_.opponents:hover]:border-2 [&_.participant]:h-[33px] [&_.participant]:items-center [&_.participant]:p-0',
-	'[&_.participant:nth-of-type(1)]:border-b [&_.participant:nth-of-type(1)]:border-[color:var(--row-border)]',
-	'[&_.name]:w-auto [&_.name]:min-w-0 [&_.name]:flex-1 [&_.name]:leading-8',
-	'[&_.name>img]:inline-block [&_.name>img]:mx-[5px] [&_.name>img]:bottom-0 [&_.name>img]:rounded-none [&_.name>img]:object-contain',
-	'[&_.result]:m-0 [&_.result]:h-full [&_.result]:w-8 [&_.result]:flex-none [&_.result]:leading-8 [&_.result]:text-inherit',
-	'[&_.result]:border-l [&_.result]:border-[color:var(--row-border)]',
-	'[&_.participant.win]:bg-[color:var(--win-background)] [&_.participant.win]:text-[color:var(--win-font-color)] [&_.participant.win]:font-bold',
-].join(' ');
 
 const rect = (el: Element) => el.getBoundingClientRect();
 const centerY = (el: Element) => rect(el).top + rect(el).height / 2;
@@ -439,10 +420,11 @@ const Bracket: React.FC<BracketProps> = ({ event, stage, layout, matches, teams 
 		let cancelled = false;
 		let cleanup = () => {};
 
-		// Browser only
-		import('brackets-viewer/dist/brackets-viewer.min.js').then(async () => {
+		const render = async () => {
+			// Browser only
+			await import('brackets-viewer/dist/brackets-viewer.min.js');
 			if (cancelled) return;
-			const viewer = (window as unknown as { bracketsViewer: BracketsViewer }).bracketsViewer;
+			const viewer = window.bracketsViewer;
 			const viewerData = toViewerData(stage, layout, matches, teams);
 
 			viewer.setParticipantImages(
@@ -462,7 +444,8 @@ const Bracket: React.FC<BracketProps> = ({ event, stage, layout, matches, teams 
 			});
 
 			if (!cancelled) cleanup = decorate(document.getElementById(elementId)!, viewerData);
-		});
+		};
+		render().catch((error: unknown) => console.error(`Couldn't render the ${stage} bracket`, error));
 
 		return () => {
 			cancelled = true;
@@ -470,7 +453,8 @@ const Bracket: React.FC<BracketProps> = ({ event, stage, layout, matches, teams 
 		};
 	}, [elementId, stage, layout, matches, teams, event.id]);
 
-	return <div id={elementId} className={`brackets-viewer ${bracketClasses}`} />;
+	// Styled in src/styles/brackets.css
+	return <div id={elementId} className="brackets-viewer" />;
 };
 
 export default Bracket;

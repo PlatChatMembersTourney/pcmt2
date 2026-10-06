@@ -17,8 +17,8 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 
 	const stages =
 		event.stages.length > 1
-			? ['All', ...event.stages?.map((stage) => stage.name)]
-			: event.stages?.map((stage) => stage.name);
+			? ['All', ...event.stages.map((stage) => stage.name)]
+			: event.stages.map((stage) => stage.name);
 
 	const [activeStage, setActiveStage] = useUrlTab('matches', stages);
 	const [reverse, setReverse] = useState(false);
