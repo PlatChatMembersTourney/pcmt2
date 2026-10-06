@@ -4803,6 +4803,36 @@
             "PlusMinus2": 4
           },
           {
+            "Player": "kaydeg",
+            "R1.0": 1.034,
+            "ACS": 224,
+            "K": 41,
+            "D": 39,
+            "A": 10,
+            "PlusMinus": 2,
+            "KAST": 0.694,
+            "ADR": 148.7,
+            "HS%": 0.259,
+            "FK": 5,
+            "FD": 3,
+            "PlusMinus2": 2
+          },
+          {
+            "Player": "pavel",
+            "R1.0": 1.001,
+            "ACS": 216,
+            "K": 37,
+            "D": 37,
+            "A": 8,
+            "PlusMinus": 0,
+            "KAST": 0.656,
+            "ADR": 153.7,
+            "HS%": 0.216,
+            "FK": 8,
+            "FD": 7,
+            "PlusMinus2": 1
+          },
+          {
             "Player": "caleb",
             "R1.0": 0.949,
             "ACS": 205.5,
@@ -4818,49 +4848,19 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "kaydeg",
-            "R1.0": 1.14,
-            "ACS": 213.5,
-            "K": 46,
-            "D": 37,
-            "A": 8,
-            "PlusMinus": 9,
-            "KAST": 0.673,
-            "ADR": 169.354,
-            "HS%": 0.262,
-            "FK": 8,
-            "FD": 4,
-            "PlusMinus2": 4
-          },
-          {
             "Player": "guilty crown",
-            "R1.0": 0.749,
-            "ACS": 102,
-            "K": 24,
+            "R1.0": 0.656,
+            "ACS": 107,
+            "K": 16,
             "D": 40,
-            "A": 20,
-            "PlusMinus": -16,
-            "KAST": 0.735,
-            "ADR": 87.035,
-            "HS%": 0.185,
-            "FK": 4,
-            "FD": 3,
-            "PlusMinus2": 1
-          },
-          {
-            "Player": "pavel",
-            "R1.0": 0.802,
-            "ACS": 216,
-            "K": 24,
-            "D": 39,
-            "A": 15,
-            "PlusMinus": -15,
-            "KAST": 0.732,
-            "ADR": 113.85,
-            "HS%": 0.158,
-            "FK": 4,
-            "FD": 4,
-            "PlusMinus2": 0
+            "A": 25,
+            "PlusMinus": -24,
+            "KAST": 0.79,
+            "ADR": 67.9,
+            "HS%": 0.176,
+            "FK": 3,
+            "FD": 1,
+            "PlusMinus2": 2
           }
         ]
       },
@@ -5432,10 +5432,10 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "kaydeg",
+                "Player": "pavel",
                 "Agent": "Chamber",
                 "R1.0": 0.909,
-                "ACS": 143,
+                "ACS": 216,
                 "K": 16,
                 "D": 16,
                 "A": 1,
@@ -5448,10 +5448,10 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "guilty crown",
+                "Player": "kaydeg",
                 "Agent": "Neon",
                 "R1.0": 0.659,
-                "ACS": 70,
+                "ACS": 143,
                 "K": 11,
                 "D": 18,
                 "A": 3,
@@ -5464,10 +5464,10 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "pavel",
+                "Player": "guilty crown",
                 "Agent": "Sova",
                 "R1.0": 0.439,
-                "ACS": 216,
+                "ACS": 70,
                 "K": 3,
                 "D": 18,
                 "A": 8,
