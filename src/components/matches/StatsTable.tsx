@@ -2,6 +2,7 @@ import type { TeamStats, Event } from '../../types/types.ts';
 import { angusRating } from '../../utils/rating.ts';
 import CustomPopover from '../CustomPopover.tsx';
 import { agentIcon, playerFlag } from '../../utils/images.ts';
+import { playerSlug } from '../../utils/playerSlug.ts';
 
 // Green when positive, red when negative
 const plusMinusColor = (value: number) =>
@@ -140,9 +141,12 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 											<td className="flex h-10 items-center gap-2 bg-transparent! sm:w-25">
 												<img src={playerFlag(player.Player, event.id, event.region)} />
 												<div className="flex flex-col items-start leading-snug">
-													<p className="text-pb text-xs font-medium text-nowrap">
+													<a
+														href={`/players/${playerSlug(player.Player)}`}
+														className="text-pb text-xs font-medium text-nowrap"
+													>
 														{player.Player}
-													</p>
+													</a>
 													<p className="text-vlr-text-light text-nowrap">{team.team}</p>
 												</div>
 											</td>

@@ -1,0 +1,78 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { events as allEvents } from '../../stores/events.ts';
+import { matches } from '../../stores/matches.ts';
+import { teams } from '../../stores/teams.ts';
+import { playerFlag } from '../../utils/images.ts';
+import { playerSlug } from '../../utils/playerSlug.ts';
+
+import PlayerPanels from '../../components/players/PlayerPanels.tsx';
+import type { Event } from '../../types/types.ts';
+
+interface Props {
+	slug: string;
+	name: string; // the spelling used most often
+	events: Event[]; // every event they were on a roster or played a match in
+}
+
+export const getStaticPaths = () => {
+	// Everyone on a roster or in a match's stats, with how often each spelling of their name is used
+	const players = new Map<string, { events: Event[]; spellings: Map<string, number> }>();
+	const add = (name: string, event: Event) => {
+		const slug = playerSlug(name);
+		const player = players.get(slug) ?? { events: [] as Event[], spellings: new Map<string, number>() };
+		if (!player.events.includes(event)) player.events.push(event);
+		player.spellings.set(name, (player.spellings.get(name) ?? 0) + 1);
+		players.set(slug, player);
+	};
+	for (const event of allEvents) {
+		for (const team of Object.values(teams[event.id])) team.players.forEach((name) => add(name, event));
+		for (const match of matches[event.id]) {
+			for (const team of match.combinedStats) team.players.forEach((player) => add(player.Player, event));
+		}
+	}
+	return [...players].map(([slug, { events, spellings }]) => {
+		const name = [...spellings].sort(([, a], [, b]) => b - a)[0][0];
+		return { params: { player: slug }, props: { slug, name, events } };
+	});
+};
+
+const { slug, name, events } = Astro.props;
+const latest = events[events.length - 1];
+---
+
+<Layout
+	activePage="Stats"
+	desc={`Is ${name} the best player in PCMT?`}
+	title={name + ' | PCMT'}
+	bodyClass="bg-shade-400 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
+	mainClass="mx-auto w-full max-w-315 root bg-shade-300 min-w-0"
+>
+	<div class="h-full font-[roboto]">
+		<div class="bg-shade-100 flex p-4 sm:p-6">
+			<div class="flex flex-col">
+				<a href="/stats" class="text-pb text-[10pt] leading-4">
+					{' '}
+					Plat Chat Members Tournament{' '}
+				</a>
+				<h1 class="text-main mb-2 text-xl font-black sm:text-2xl">{name}</h1>
+				<dl class="flex flex-row gap-6">
+					<div class="flex flex-col gap-1.5">
+						<dt class="dark:text-vlr-text-light text-[10px] leading-none uppercase">Events</dt>
+						<dd class="dark:text-vlr-text-white text-xs leading-tight">
+							{events.map((event) => event.shortName).join(', ')}
+						</dd>
+					</div>
+					<div class="flex flex-col gap-1.5">
+						<dt class="dark:text-vlr-text-light text-[10px] leading-none uppercase">Flag</dt>
+						<dd class="h-4">
+							<img src={playerFlag(name, latest.id, latest.region)} />
+						</dd>
+					</div>
+				</dl>
+			</div>
+		</div>
+
+		<PlayerPanels slug={slug} events={events} client:load />
+	</div>
+</Layout>
