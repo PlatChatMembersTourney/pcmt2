@@ -35,7 +35,7 @@
         "teamName": "DeRank Gamers",
         "players": [
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 0.913,
             "ACS": 213,
             "K": 34,
@@ -296,7 +296,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Chamber",
                 "R1.0": 0.99,
                 "ACS": 256,
@@ -573,7 +573,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Viper",
                 "R1.0": 0.84,
                 "ACS": 189,
@@ -855,7 +855,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Viper",
                 "R1.0": 0.914,
                 "ACS": 199,
@@ -1046,7 +1046,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.122,
             "ACS": 234,
             "K": 60,
@@ -1312,7 +1312,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Chamber",
                 "R1.0": 1.413,
                 "ACS": 289,
@@ -1662,7 +1662,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Viper",
                 "R1.0": 0.772,
                 "ACS": 161,
@@ -1955,7 +1955,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Viper",
                 "R1.0": 1.152,
                 "ACS": 245,
@@ -2157,7 +2157,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.044,
             "ACS": 228,
             "K": 37,
@@ -2433,7 +2433,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Iso",
                 "R1.0": 1.282,
                 "ACS": 274,
@@ -2751,7 +2751,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Viper",
                 "R1.0": 0.772,
                 "ACS": 176,
@@ -4048,7 +4048,7 @@
             "PlusMinus2": 4
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.158,
             "ACS": 241.5,
             "K": 37,
@@ -4326,7 +4326,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Viper",
                 "R1.0": 1.124,
                 "ACS": 227,
@@ -4617,7 +4617,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Viper",
                 "R1.0": 1.192,
                 "ACS": 256,
@@ -6825,7 +6825,7 @@
             "PlusMinus2": 5
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.122,
             "ACS": 226,
             "K": 40,
@@ -7076,7 +7076,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Chamber",
                 "R1.0": 1.369,
                 "ACS": 271,
@@ -7435,7 +7435,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Iso",
                 "R1.0": 0.922,
                 "ACS": 181,
@@ -9360,7 +9360,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.033,
             "ACS": 221.667,
             "K": 68,
@@ -9729,7 +9729,7 @@
                 "PlusMinus2": -6
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Chamber",
                 "R1.0": 0.973,
                 "ACS": 205,
@@ -10040,7 +10040,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Viper",
                 "R1.0": 0.772,
                 "ACS": 166,
@@ -10304,7 +10304,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": "Viper",
                 "R1.0": 1.423,
                 "ACS": 294,
@@ -12367,7 +12367,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.684,
             "ACS": 138.667,
             "K": 30,
@@ -12642,7 +12642,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.878,
                 "ACS": 164,
@@ -12943,7 +12943,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.754,
                 "ACS": 140,
@@ -13214,7 +13214,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.406,
                 "ACS": 112,
@@ -14284,7 +14284,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.836,
             "ACS": 171.333,
             "K": 42,
@@ -14567,7 +14567,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 1.055,
                 "ACS": 209,
@@ -14884,7 +14884,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.759,
                 "ACS": 152,
@@ -15180,7 +15180,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.7,
                 "ACS": 153,
@@ -16054,7 +16054,7 @@
             "PlusMinus2": 8
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.143,
             "ACS": 264.667,
             "K": 53,
@@ -16331,7 +16331,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.201,
                 "ACS": 291,
@@ -16628,7 +16628,7 @@
                 "PlusMinus2": 5
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 0.972,
                 "ACS": 246,
@@ -16903,7 +16903,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.244,
                 "ACS": 257,
@@ -17766,7 +17766,7 @@
     "team1Name": "Made in Bronze",
     "team2Name": "The Wooden Fence",
     "score1": 2,
-    "score2": 0,
+    "score2": 1,
     "completed": true,
     "bestOf": 3,
     "date": "2026-01-09",
@@ -20858,7 +20858,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.997,
             "ACS": 210.5,
             "K": 36,
@@ -21172,7 +21172,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.938,
                 "ACS": 187,
@@ -21426,7 +21426,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 1.077,
                 "ACS": 234,
@@ -22377,7 +22377,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.713,
             "ACS": 159,
             "K": 26,
@@ -22609,7 +22609,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.983,
                 "ACS": 196,
@@ -22958,7 +22958,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.51,
                 "ACS": 122,
@@ -23963,7 +23963,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.046,
             "ACS": 217.5,
             "K": 32,
@@ -24241,7 +24241,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 0.775,
                 "ACS": 165,
@@ -24505,7 +24505,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.247,
                 "ACS": 270,
@@ -24733,7 +24733,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.727,
             "ACS": 170.5,
             "K": 23,
@@ -25053,7 +25053,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.732,
                 "ACS": 150,
@@ -25260,7 +25260,7 @@
             "teamName": "Dementia Real Exists",
             "players": [
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.72,
                 "ACS": 191,
@@ -26503,7 +26503,7 @@
             "PlusMinus2": 4
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.089,
             "ACS": 223.667,
             "K": 53,
@@ -26745,7 +26745,7 @@
                 "PlusMinus2": 5
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.38,
                 "ACS": 247,
@@ -27078,7 +27078,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 0.902,
                 "ACS": 195,
@@ -27321,7 +27321,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.086,
                 "ACS": 229,
@@ -30517,7 +30517,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.537,
             "ACS": 134,
             "K": 18,
@@ -30786,7 +30786,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.445,
                 "ACS": 96,
@@ -31036,7 +31036,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.635,
                 "ACS": 172,
@@ -31921,7 +31921,7 @@
         "teamName": "DeRank Gamers",
         "players": [
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.33,
             "ACS": 280.667,
             "K": 63,
@@ -32062,7 +32062,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.579,
             "ACS": 127.667,
             "K": 25,
@@ -32207,7 +32207,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.082,
                 "ACS": 240,
@@ -32341,7 +32341,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.84,
                 "ACS": 167,
@@ -32498,7 +32498,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.48,
                 "ACS": 316,
@@ -32648,7 +32648,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.406,
                 "ACS": 100,
@@ -32765,7 +32765,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.502,
                 "ACS": 286,
@@ -32899,7 +32899,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.423,
                 "ACS": 116,
@@ -34053,7 +34053,7 @@
             "PlusMinus2": 8
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.275,
             "ACS": 274.5,
             "K": 37,
@@ -34372,7 +34372,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 0.912,
                 "ACS": 180,
@@ -34595,7 +34595,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.758,
                 "ACS": 369,
@@ -40281,7 +40281,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.276,
             "ACS": 241,
             "K": 29,
@@ -40590,7 +40590,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.095,
                 "ACS": 202,
@@ -40824,7 +40824,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.499,
                 "ACS": 280,
@@ -45654,7 +45654,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.02,
             "ACS": 216.5,
             "K": 34,
@@ -45900,7 +45900,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 0.743,
                 "ACS": 175,
@@ -46201,7 +46201,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.212,
                 "ACS": 258,
@@ -46469,7 +46469,7 @@
             "PlusMinus2": 4
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.891,
             "ACS": 173.667,
             "K": 35,
@@ -46743,7 +46743,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.847,
                 "ACS": 142,
@@ -47004,7 +47004,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 1.039,
                 "ACS": 211,
@@ -47290,7 +47290,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.827,
                 "ACS": 168,
@@ -50096,7 +50096,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.941,
             "ACS": 199,
             "K": 45,
@@ -50359,7 +50359,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.963,
                 "ACS": 228,
@@ -50655,7 +50655,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.967,
                 "ACS": 184,
@@ -50956,7 +50956,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.897,
                 "ACS": 185,
@@ -52778,7 +52778,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.08,
             "ACS": 229,
             "K": 30,
@@ -53029,7 +53029,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.324,
                 "ACS": 290,
@@ -53378,7 +53378,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 0.897,
                 "ACS": 168,
@@ -56576,7 +56576,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.227,
                 "ACS": 253,
@@ -58004,7 +58004,7 @@
         "teamName": "DeRank Gamers",
         "players": [
           {
-            "Player": "sizable",
+            "Player": "sizeable",
             "R1.0": 1.024,
             "ACS": 204.333,
             "K": 45,
@@ -58286,7 +58286,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 0.999,
                 "ACS": 236,
@@ -58571,7 +58571,7 @@
             "teamName": "DeRank Gamers",
             "players": [
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 1.371,
                 "ACS": 280,
@@ -58854,7 +58854,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "sizable",
+                "Player": "sizeable",
                 "Agent": null,
                 "R1.0": 0.464,
                 "ACS": 97,
@@ -58998,7 +58998,7 @@
     "id": "koi-vs-mibr-s2-group-stage-2025-10-12",
     "team1": "KOI",
     "team2": "MIBR",
-    "team1Name": "Keep on Inting",
+    "team1Name": "Keep On Inting",
     "team2Name": "Made in Bronze",
     "score1": 0,
     "score2": 2,
@@ -60579,7 +60579,7 @@
     "team1": "WOOD",
     "team2": "KOI",
     "team1Name": "The Wooden Fence",
-    "team2Name": "Keep on Inting",
+    "team2Name": "Keep On Inting",
     "score1": 0,
     "score2": 2,
     "completed": true,
@@ -60665,7 +60665,7 @@
             "PlusMinus2": -4
           },
           {
-            "Player": "teklologik",
+            "Player": "teklo",
             "R1.0": 0.792,
             "ACS": 176,
             "K": 29,
@@ -60950,7 +60950,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.53,
                 "ACS": 131,
@@ -61203,7 +61203,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "teklologik",
+                "Player": "teklo",
                 "Agent": null,
                 "R1.0": 0.948,
                 "ACS": 221,

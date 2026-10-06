@@ -6505,21 +6505,6 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "autumn",
-            "R1.0": 1.118,
-            "ACS": 241,
-            "K": 33,
-            "D": 27,
-            "A": 5,
-            "PlusMinus": 6,
-            "KAST": 0.722,
-            "ADR": 155.3,
-            "HS%": 0.229,
-            "FK": 7,
-            "FD": 8,
-            "PlusMinus2": -1
-          },
-          {
             "Player": "magmoz",
             "R1.0": 1.107,
             "ACS": 225,
@@ -6551,18 +6536,18 @@
           },
           {
             "Player": "autumn",
-            "R1.0": 0.692,
-            "ACS": 174,
-            "K": 11,
-            "D": 18,
-            "A": 2,
-            "PlusMinus": -7,
-            "KAST": 0.5,
-            "ADR": 122.9,
-            "HS%": 0.178,
-            "FK": 4,
-            "FD": 8,
-            "PlusMinus2": -4
+            "R1.0": 0.966,
+            "ACS": 217,
+            "K": 44,
+            "D": 45,
+            "A": 7,
+            "PlusMinus": -1,
+            "KAST": 0.643,
+            "ADR": 143.7,
+            "HS%": 0.211,
+            "FK": 11,
+            "FD": 16,
+            "PlusMinus2": -5
           },
           {
             "Player": "Charlotte",

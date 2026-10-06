@@ -3,13 +3,13 @@
         "name": "DeRank Gamers",
         "abbr": "DRG",
         "logo": "/icons/s2_teams/DeRankGamers.png",
-        "players": ["straight", "sizable", "jooah", "amara", "hascan"]
+        "players": ["straight", "sizeable", "jooah", "amara", "hascan"]
     },
     "DRX": {
         "name": "Dementia Real Exists",
         "abbr": "DRX",
         "logo": "/icons/s2_teams/DementiaRealExists.png",
-        "players": ["izz", "longclaw", "rudesubs", "platinum", "teklologik"]
+        "players": ["izz", "longclaw", "rudesubs", "platinum", "teklo"]
     },
     "EMEA": {
         "name": "Tech Pause Esports",
