@@ -14,8 +14,8 @@
 			[{ "teams": ["FSG", "NAVI"] }, { "teams": ["TS", "TL"] }],
 			[{ "teams": ["SRB", "NAVI"] }, { "teams": ["C9", "TL"] }],
 			[{ "teams": ["NAVI", "C9"] }],
-			[{ "teams": [null, null] }]
+			[{ "teams": ["T1", null] }]
 		],
-		"final": [{ "teams": [null, null] }]
+		"final": [{ "teams": ["SPG", null] }]
 	}
 }
