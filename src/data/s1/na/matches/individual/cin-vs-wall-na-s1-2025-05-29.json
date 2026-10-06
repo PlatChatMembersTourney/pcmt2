@@ -24,7 +24,7 @@
             "teamName": "Absolute Cinema",
             "players": [
                 {
-                    "Player": "Platypus_Eggs",
+                    "Player": "platy",
                     "Agent": "Cypher",
                     "R1.0": 1.356,
                     "ACS": 306,
@@ -126,7 +126,7 @@
                     "PlusMinus2": -3
                 },
                 {
-                    "Player": "Lil Thighs",
+                    "Player": "thighs",
                     "Agent": "KAY/O",
                     "R1.0": 1.086,
                     "ACS": 194,
@@ -142,7 +142,7 @@
                     "PlusMinus2": 0
                 },
                 {
-                    "Player": "Mr Basil",
+                    "Player": "basil",
                     "Agent": "Jett",
                     "R1.0": 1.009,
                     "ACS": 243,
@@ -158,7 +158,7 @@
                     "PlusMinus2": -1
                 },
                 {
-                    "Player": "hyypernova",
+                    "Player": "nova",
                     "Agent": "Omen",
                     "R1.0": 0.895,
                     "ACS": 173,
@@ -325,7 +325,7 @@
                     "teamName": "Absolute Cinema",
                     "players": [
                         {
-                            "Player": "Platypus_Eggs",
+                            "Player": "platy",
                             "Agent": "Cypher",
                             "R1.0": 1.356,
                             "ACS": 306,
@@ -427,7 +427,7 @@
                             "PlusMinus2": -3
                         },
                         {
-                            "Player": "Lil Thighs",
+                            "Player": "thighs",
                             "Agent": "KAY/O",
                             "R1.0": 1.086,
                             "ACS": 194,
@@ -443,7 +443,7 @@
                             "PlusMinus2": 0
                         },
                         {
-                            "Player": "Mr Basil",
+                            "Player": "basil",
                             "Agent": "Jett",
                             "R1.0": 1.009,
                             "ACS": 243,
@@ -459,7 +459,7 @@
                             "PlusMinus2": -1
                         },
                         {
-                            "Player": "hyypernova",
+                            "Player": "nova",
                             "Agent": "Omen",
                             "R1.0": 0.895,
                             "ACS": 173,

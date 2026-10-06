@@ -39,13 +39,13 @@
         "name": "Made in Bronze",
         "abbr": "MIBR",
         "logo": "/icons/s2_teams/MadeInBronze.png",
-        "players": ["basil", "lazy", "jay", "spaceman", "androobee"]
+        "players": ["basil", "lazy", "jaypee", "spaceman", "androobee"]
     },
     "SLLY": {
         "name": "Silly Geese",
         "abbr": "SLLY",
         "logo": "/icons/s2_teams/SillyGeese.png",
-        "players": ["Angus", "pi", "hyypernova", "cloud", "lore"]
+        "players": ["Angus", "pi", "nova", "cloud", "lore"]
     },
     "TS": {
         "name": "Tequila Sunrise",
@@ -57,13 +57,13 @@
         "name": "Wingman Warriors",
         "abbr": "WING",
         "logo": "/icons/s2_teams/WingmanWarriors.png",
-        "players": ["Claps", "psyclone", "skye", "radical", "caesparz"]
+        "players": ["claps", "psyclone", "skye", "radical", "caesparz"]
     },
     "WOOD": {
         "name": "The Wooden Fence",
         "abbr": "WOOD",
         "logo": "/icons/s2_teams/TheWoodenFence.png",
-        "players": ["Thighs", "jenji", "snowfall", "Tenyaku", "dunkn"]
+        "players": ["thighs", "jenji", "snowfall", "Tenyaku", "dunkn"]
     },
     "ZIRC": {
         "name": "Zirconians",

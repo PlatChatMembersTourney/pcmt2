@@ -44,7 +44,7 @@
                     "PlusMinus2": -3
                 },
                 {
-                    "Player": "Mr Basil",
+                    "Player": "basil",
                     "R1.0": 1.065,
                     "ACS": 232,
                     "K": 37,
@@ -59,7 +59,7 @@
                     "PlusMinus2": -2
                 },
                 {
-                    "Player": "Lil Thighs",
+                    "Player": "thighs",
                     "R1.0": 1.027,
                     "ACS": 213,
                     "K": 34,
@@ -305,7 +305,7 @@
                     "teamName": "The Brick Wall",
                     "players": [
                         {
-                            "Player": "Lil Thighs",
+                            "Player": "thighs",
                             "Agent": "Raze",
                             "R1.0": 1.155,
                             "ACS": 258,
@@ -321,7 +321,7 @@
                             "PlusMinus2": 0
                         },
                         {
-                            "Player": "Mr Basil",
+                            "Player": "basil",
                             "Agent": "Fade",
                             "R1.0": 1.088,
                             "ACS": 226,
@@ -622,7 +622,7 @@
                             "PlusMinus2": 1
                         },
                         {
-                            "Player": "Mr Basil",
+                            "Player": "basil",
                             "Agent": "Yoru",
                             "R1.0": 1.044,
                             "ACS": 238,
@@ -654,7 +654,7 @@
                             "PlusMinus2": 1
                         },
                         {
-                            "Player": "Lil Thighs",
+                            "Player": "thighs",
                             "Agent": "Cypher",
                             "R1.0": 0.913,
                             "ACS": 168,

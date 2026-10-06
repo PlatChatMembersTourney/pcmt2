@@ -3008,7 +3008,7 @@
         "teamName": "Wingman Warriors",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.229,
             "ACS": 271,
             "K": 70,
@@ -3284,7 +3284,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.456,
                 "ACS": 321,
@@ -3621,7 +3621,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.054,
                 "ACS": 220,
@@ -3901,7 +3901,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.244,
                 "ACS": 290,
@@ -4099,7 +4099,7 @@
         "teamName": "Wingman Warriors",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 0.927,
             "ACS": 201.5,
             "K": 30,
@@ -4428,7 +4428,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 0.753,
                 "ACS": 160,
@@ -4687,7 +4687,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.109,
                 "ACS": 243,
@@ -5653,7 +5653,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 1.093,
             "ACS": 251,
             "K": 63,
@@ -5949,7 +5949,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": "Waylay",
                 "R1.0": 1.219,
                 "ACS": 283,
@@ -6251,7 +6251,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": "Neon",
                 "R1.0": 0.856,
                 "ACS": 211,
@@ -6511,7 +6511,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": "Neon",
                 "R1.0": 1.128,
                 "ACS": 259,
@@ -7635,7 +7635,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 1.053,
             "ACS": 221,
             "K": 50,
@@ -7893,7 +7893,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": "Waylay",
                 "R1.0": 0.857,
                 "ACS": 180,
@@ -8190,7 +8190,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": "Neon",
                 "R1.0": 1.191,
                 "ACS": 244,
@@ -8459,7 +8459,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": "Waylay",
                 "R1.0": 1.093,
                 "ACS": 239,
@@ -8686,7 +8686,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 0.813,
             "ACS": 186.5,
             "K": 25,
@@ -8959,7 +8959,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": "Waylay",
                 "R1.0": 1.034,
                 "ACS": 243,
@@ -9272,7 +9272,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": "Neon",
                 "R1.0": 0.57,
                 "ACS": 130,
@@ -10521,7 +10521,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 1.105,
             "ACS": 224.5,
             "K": 36,
@@ -10602,7 +10602,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 0.715,
             "ACS": 139,
             "K": 21,
@@ -10799,7 +10799,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.188,
                 "ACS": 234,
@@ -10901,7 +10901,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.672,
                 "ACS": 116,
@@ -11122,7 +11122,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.025,
                 "ACS": 215,
@@ -11160,7 +11160,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.757,
                 "ACS": 162,
@@ -13434,7 +13434,7 @@
         "teamName": "Made in Bronze",
         "players": [
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 1.311,
             "ACS": 301.5,
             "K": 49,
@@ -13725,7 +13725,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.206,
                 "ACS": 279,
@@ -14021,7 +14021,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.416,
                 "ACS": 324,
@@ -15360,7 +15360,7 @@
             "PlusMinus2": 4
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 1.06,
             "ACS": 235,
             "K": 40,
@@ -15653,7 +15653,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.982,
                 "ACS": 212,
@@ -15933,7 +15933,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 1.139,
                 "ACS": 258,
@@ -17825,7 +17825,7 @@
             "PlusMinus2": 14
           },
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 1.073,
             "ACS": 225.333,
             "K": 49,
@@ -17891,7 +17891,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "Thighs",
+            "Player": "thighs",
             "R1.0": 1.05,
             "ACS": 211.333,
             "K": 49,
@@ -18165,7 +18165,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.696,
                 "ACS": 134,
@@ -18219,7 +18219,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.116,
                 "ACS": 216,
@@ -18382,7 +18382,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.504,
                 "ACS": 306,
@@ -18516,7 +18516,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 0.775,
                 "ACS": 149,
@@ -18710,7 +18710,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.092,
                 "ACS": 236,
@@ -18764,7 +18764,7 @@
             "teamName": "The Wooden Fence",
             "players": [
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.221,
                 "ACS": 269,
@@ -18881,7 +18881,7 @@
         "teamName": "Made in Bronze",
         "players": [
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 0.969,
             "ACS": 209.5,
             "K": 38,
@@ -19188,7 +19188,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.121,
                 "ACS": 259,
@@ -19537,7 +19537,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.792,
                 "ACS": 160,
@@ -20747,7 +20747,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.145,
             "ACS": 283.5,
             "K": 43,
@@ -20873,7 +20873,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 0.984,
             "ACS": 204.5,
             "K": 38,
@@ -21038,7 +21038,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.135,
                 "ACS": 269,
@@ -21156,7 +21156,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.88,
                 "ACS": 202,
@@ -21324,7 +21324,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.157,
                 "ACS": 298,
@@ -21442,7 +21442,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 1.122,
                 "ACS": 207,
@@ -21527,7 +21527,7 @@
         "teamName": "Wingman Warriors",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.573,
             "ACS": 368,
             "K": 68,
@@ -21818,7 +21818,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.655,
                 "ACS": 381,
@@ -22114,7 +22114,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.466,
                 "ACS": 355,
@@ -22398,7 +22398,7 @@
         "teamName": "Tequila Sunrise",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.15,
             "ACS": 246.5,
             "K": 43,
@@ -22711,7 +22711,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 0.939,
                 "ACS": 193,
@@ -22980,7 +22980,7 @@
             "teamName": "Tequila Sunrise",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.309,
                 "ACS": 300,
@@ -23178,7 +23178,7 @@
         "teamName": "The Wooden Fence",
         "players": [
           {
-            "Player": "Thighs",
+            "Player": "thighs",
             "R1.0": 1.177,
             "ACS": 257.5,
             "K": 42,
@@ -23465,7 +23465,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.011,
                 "ACS": 222,
@@ -23750,7 +23750,7 @@
             "teamName": "The Wooden Fence",
             "players": [
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.289,
                 "ACS": 293,
@@ -23867,7 +23867,7 @@
         "teamName": "Wingman Warriors",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.546,
             "ACS": 351,
             "K": 49,
@@ -24123,7 +24123,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.598,
                 "ACS": 337,
@@ -24419,7 +24419,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.508,
                 "ACS": 365,
@@ -27620,7 +27620,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 0.838,
             "ACS": 158.5,
             "K": 27,
@@ -27950,7 +27950,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.6,
                 "ACS": 110,
@@ -28187,7 +28187,7 @@
             "teamName": "Silly Geese",
             "players": [
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 1.047,
                 "ACS": 207,
@@ -29496,7 +29496,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 0.913,
             "ACS": 186.333,
             "K": 40,
@@ -29745,7 +29745,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.194,
                 "ACS": 219,
@@ -30042,7 +30042,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.685,
                 "ACS": 144,
@@ -30322,7 +30322,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.904,
                 "ACS": 196,
@@ -31202,7 +31202,7 @@
         "teamName": "The Wooden Fence",
         "players": [
           {
-            "Player": "Thighs",
+            "Player": "thighs",
             "R1.0": 1.34,
             "ACS": 301.5,
             "K": 62,
@@ -31514,7 +31514,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.232,
                 "ACS": 281,
@@ -31799,7 +31799,7 @@
             "teamName": "The Wooden Fence",
             "players": [
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.416,
                 "ACS": 322,
@@ -34884,7 +34884,7 @@
         "teamName": "The Wooden Fence",
         "players": [
           {
-            "Player": "Thighs",
+            "Player": "thighs",
             "R1.0": 1.36,
             "ACS": 253.667,
             "K": 56,
@@ -35146,7 +35146,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.777,
                 "ACS": 292,
@@ -35431,7 +35431,7 @@
             "teamName": "The Wooden Fence",
             "players": [
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.252,
                 "ACS": 260,
@@ -35760,7 +35760,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.207,
                 "ACS": 209,
@@ -35859,7 +35859,7 @@
             "PlusMinus2": 5
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 0.952,
             "ACS": 195,
             "K": 36,
@@ -36168,7 +36168,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.941,
                 "ACS": 183,
@@ -36453,7 +36453,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.966,
                 "ACS": 207,
@@ -36629,7 +36629,7 @@
         "teamName": "Wingman Warriors",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.461,
             "ACS": 339,
             "K": 81,
@@ -36915,7 +36915,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.134,
                 "ACS": 299,
@@ -37212,7 +37212,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.434,
                 "ACS": 297,
@@ -37497,7 +37497,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.77,
                 "ACS": 421,
@@ -37796,7 +37796,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 0.631,
             "ACS": 141,
             "K": 18,
@@ -38105,7 +38105,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.744,
                 "ACS": 151,
@@ -38387,7 +38387,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.499,
                 "ACS": 131,
@@ -39521,7 +39521,7 @@
             "PlusMinus2": 3
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 1.022,
             "ACS": 222.5,
             "K": 34,
@@ -39572,7 +39572,7 @@
         "teamName": "The Wooden Fence",
         "players": [
           {
-            "Player": "Thighs",
+            "Player": "thighs",
             "R1.0": 1.128,
             "ACS": 224.5,
             "K": 35,
@@ -39846,7 +39846,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.779,
                 "ACS": 151,
@@ -39884,7 +39884,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.192,
                 "ACS": 242,
@@ -40063,7 +40063,7 @@
             "teamName": "Silly Geese",
             "players": [
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 1.313,
                 "ACS": 294,
@@ -40181,7 +40181,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.052,
                 "ACS": 207,
@@ -40347,7 +40347,7 @@
         "teamName": "Made in Bronze",
         "players": [
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 0.87,
             "ACS": 211.5,
             "K": 24,
@@ -40644,7 +40644,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.865,
                 "ACS": 207,
@@ -40910,7 +40910,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.875,
                 "ACS": 216,
@@ -41046,7 +41046,7 @@
             "PlusMinus2": 5
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 0.922,
             "ACS": 176.333,
             "K": 39,
@@ -41061,7 +41061,7 @@
             "PlusMinus2": 6
           },
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 0.838,
             "ACS": 180.667,
             "K": 37,
@@ -41324,7 +41324,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 1.25,
                 "ACS": 241,
@@ -41356,7 +41356,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.005,
                 "ACS": 192,
@@ -41585,7 +41585,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.701,
                 "ACS": 169,
@@ -41617,7 +41617,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.441,
                 "ACS": 96,
@@ -41881,7 +41881,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.957,
                 "ACS": 192,
@@ -41897,7 +41897,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.781,
                 "ACS": 181,
@@ -42067,7 +42067,7 @@
             "PlusMinus2": 10
           },
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.418,
             "ACS": 304.5,
             "K": 46,
@@ -42133,7 +42133,7 @@
         "teamName": "Made in Bronze",
         "players": [
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 0.982,
             "ACS": 231,
             "K": 34,
@@ -42344,7 +42344,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.291,
                 "ACS": 283,
@@ -42446,7 +42446,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.845,
                 "ACS": 194,
@@ -42609,7 +42609,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.551,
                 "ACS": 326,
@@ -42695,7 +42695,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.125,
                 "ACS": 268,
@@ -47450,7 +47450,7 @@
         "teamName": "Wingman Warriors",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.556,
             "ACS": 349.333,
             "K": 91,
@@ -47741,7 +47741,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.34,
                 "ACS": 322,
@@ -48027,7 +48027,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.572,
                 "ACS": 329,
@@ -48328,7 +48328,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.742,
                 "ACS": 397,
@@ -49367,7 +49367,7 @@
         "teamName": "Wingman Warriors",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.104,
             "ACS": 261,
             "K": 37,
@@ -49665,7 +49665,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 0.791,
                 "ACS": 182,
@@ -49929,7 +49929,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.35,
                 "ACS": 340,
@@ -50162,7 +50162,7 @@
             "PlusMinus2": 3
           },
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 0.921,
             "ACS": 215.333,
             "K": 50,
@@ -50477,7 +50477,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.95,
                 "ACS": 219,
@@ -50709,7 +50709,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.966,
                 "ACS": 240,
@@ -51042,7 +51042,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.851,
                 "ACS": 187,
@@ -51983,7 +51983,7 @@
             "PlusMinus2": 3
           },
           {
-            "Player": "Thighs",
+            "Player": "thighs",
             "R1.0": 1.174,
             "ACS": 240.5,
             "K": 47,
@@ -52280,7 +52280,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.192,
                 "ACS": 239,
@@ -52581,7 +52581,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.16,
                 "ACS": 242,
@@ -54478,7 +54478,7 @@
         "teamName": "Wingman Warriors",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.586,
             "ACS": 342.667,
             "K": 77,
@@ -54769,7 +54769,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.726,
                 "ACS": 389,
@@ -55030,7 +55030,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.541,
                 "ACS": 344,
@@ -55306,7 +55306,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.458,
                 "ACS": 295,
@@ -55524,7 +55524,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 1.005,
             "ACS": 177.5,
             "K": 28,
@@ -55590,7 +55590,7 @@
         "teamName": "Wingman Warriors",
         "players": [
           {
-            "Player": "Claps",
+            "Player": "claps",
             "R1.0": 1.859,
             "ACS": 417,
             "K": 57,
@@ -55812,7 +55812,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 1.084,
                 "ACS": 146,
@@ -55866,7 +55866,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.99,
                 "ACS": 465,
@@ -56083,7 +56083,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.917,
                 "ACS": 209,
@@ -56137,7 +56137,7 @@
             "teamName": "Wingman Warriors",
             "players": [
               {
-                "Player": "Claps",
+                "Player": "claps",
                 "Agent": null,
                 "R1.0": 1.713,
                 "ACS": 369,
@@ -58115,7 +58115,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 1.277,
             "ACS": 262.333,
             "K": 56,
@@ -58356,7 +58356,7 @@
             "teamName": "Silly Geese",
             "players": [
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 1.839,
                 "ACS": 413,
@@ -58673,7 +58673,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.948,
                 "ACS": 219,
@@ -58972,7 +58972,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 1.079,
                 "ACS": 155,
@@ -59136,7 +59136,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 1.025,
             "ACS": 226.5,
             "K": 36,
@@ -59402,7 +59402,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.24,
                 "ACS": 269,
@@ -59725,7 +59725,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.771,
                 "ACS": 184,
@@ -59840,7 +59840,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 0.866,
             "ACS": 181,
             "K": 33,
@@ -60133,7 +60133,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.804,
                 "ACS": 181,
@@ -60434,7 +60434,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": null,
                 "R1.0": 0.92,
                 "ACS": 181,
@@ -60605,7 +60605,7 @@
         "teamName": "The Wooden Fence",
         "players": [
           {
-            "Player": "Thighs",
+            "Player": "thighs",
             "R1.0": 1.408,
             "ACS": 268,
             "K": 43,
@@ -60886,7 +60886,7 @@
             "teamName": "The Wooden Fence",
             "players": [
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.176,
                 "ACS": 250,
@@ -61187,7 +61187,7 @@
             "teamName": "The Wooden Fence",
             "players": [
               {
-                "Player": "Thighs",
+                "Player": "thighs",
                 "Agent": null,
                 "R1.0": 1.465,
                 "ACS": 286,
@@ -61395,7 +61395,7 @@
         "teamName": "Made in Bronze",
         "players": [
           {
-            "Player": "jay",
+            "Player": "jaypee",
             "R1.0": 1.098,
             "ACS": 252.667,
             "K": 56,
@@ -61698,7 +61698,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.178,
                 "ACS": 261,
@@ -61962,7 +61962,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 1.12,
                 "ACS": 263,
@@ -62248,7 +62248,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "jay",
+                "Player": "jaypee",
                 "Agent": null,
                 "R1.0": 0.996,
                 "ACS": 234,

@@ -58,6 +58,7 @@ const toRow = (totals: Totals, usePct: number | null): AgentRow => {
 const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events, matches }) => {
 	const [timespan, setTimespan] = useState('All');
 	const [showSubs, setShowSubs] = useState(false);
+	const [includeSubs, setIncludeSubs] = useState(true);
 
 	// Every team the player was on (roster) or played for (e.g. as a sub), newest event first - not showmatch teams
 	const playerTeams = [...events].reverse().flatMap((event) => {
@@ -78,14 +79,19 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 
 	const shownTeams = showSubs ? playerTeams : playerTeams.filter(({ sub }) => !sub);
 
+	// Subbing: playing for a team whose roster they aren't on
+	const isSub = (event: Event, abbr: string) =>
+		!allTeams[event.id][abbr]?.players.some((player) => playerSlug(player) === slug);
+
 	// The player's totals on each agent, and across every map ("All", which includes maps with no agent recorded)
 	const cutoff = Date.now() - timespans[timespan] * DAY; // -Infinity for All
 	const all = newTotals('All');
 	const byAgent = new Map<string, Totals>();
-	for (const { match } of matches) {
+	for (const { match, event } of matches) {
 		if (new Date(match.date).getTime() < cutoff) continue;
 		for (const map of match.mapDetails) {
 			for (const team of map.stats) {
+				if (!includeSubs && isSub(event, team.team)) continue;
 				for (const player of team.players) {
 					if (playerSlug(player.Player) !== slug) continue;
 					const rounds = player.Rounds ?? map.score1 + map.score2;
@@ -113,7 +119,7 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 						showSubs ? 'font-bold' : 'font-normal'
 					)}
 				>
-					Show Subs
+					Show Subs ({playerTeams.filter(({ sub }) => sub).length})
 				</button>
 			</div>
 			{shownTeams.length === 0 && <div className="text-muted text-sm">Only played as a sub.</div>}
@@ -139,6 +145,15 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 			<div className="mt-6 mb-3 ml-4 flex items-center justify-between">
 				<h2 className="text-[11px] leading-none font-bold text-red-400 uppercase">Agents</h2>
 				<div className="text-faint flex items-center gap-1 text-[10px]">
+					<button
+						onClick={() => setIncludeSubs(!includeSubs)}
+						className={cx(
+							'bg-shade-100 text-muted mr-3 cursor-pointer rounded-sm p-2 text-xs',
+							includeSubs ? 'font-bold' : 'font-normal'
+						)}
+					>
+						Include Subs
+					</button>
 					<span className="mr-1 font-bold uppercase">Past:</span>
 					{Object.keys(timespans).map((option) => (
 						<button

@@ -39,7 +39,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
                 {
-                    "Player": "MrSirClaps*",
+                    "Player": "claps",
                     "R1.0": 1.631,
                     "ACS": 409.75,
                     "K": 119,
@@ -315,7 +315,7 @@
                     "teamName": "Kurt's Kittens",
                     "players": [
                         {
-                            "Player": "MrSirClaps*",
+                            "Player": "claps",
                             "Agent": "Clove",
                             "R1.0": 1.81,
                             "ACS": 467,
@@ -616,7 +616,7 @@
                     "teamName": "Kurt's Kittens",
                     "players": [
                         {
-                            "Player": "MrSirClaps*",
+                            "Player": "claps",
                             "Agent": "Jett",
                             "R1.0": 1.483,
                             "ACS": 342,
@@ -872,7 +872,7 @@
                     "teamName": "Kurt's Kittens",
                     "players": [
                         {
-                            "Player": "MrSirClaps*",
+                            "Player": "claps",
                             "Agent": "Clove",
                             "R1.0": 1.726,
                             "ACS": 387,
@@ -1173,7 +1173,7 @@
                     "teamName": "Kurt's Kittens",
                     "players": [
                         {
-                            "Player": "MrSirClaps*",
+                            "Player": "claps",
                             "Agent": "Clove",
                             "R1.0": 1.733,
                             "ACS": 443,

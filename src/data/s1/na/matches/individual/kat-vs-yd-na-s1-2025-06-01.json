@@ -24,7 +24,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
                 {
-                    "Player": "MrSirClaps*",
+                    "Player": "claps",
                     "Agent": "Clove",
                     "R1.0": 1.547,
                     "ACS": 351,
@@ -325,7 +325,7 @@
                     "teamName": "Kurt's Kittens",
                     "players": [
                         {
-                            "Player": "MrSirClaps*",
+                            "Player": "claps",
                             "Agent": "Clove",
                             "R1.0": 1.547,
                             "ACS": 351,

@@ -44,7 +44,7 @@
                     "PlusMinus2": 0
                 },
                 {
-                    "Player": "Platypus_Eggs",
+                    "Player": "platy",
                     "R1.0": 1.1,
                     "ACS": 242.5,
                     "K": 34,
@@ -89,7 +89,7 @@
                     "PlusMinus2": -5
                 },
                 {
-                    "Player": "WHOGOTPIE*",
+                    "Player": "WHOGOTPIE",
                     "R1.0": 0.378,
                     "ACS": 86,
                     "K": 11,
@@ -110,7 +110,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
                 {
-                    "Player": "MrSirClaps*",
+                    "Player": "claps",
                     "R1.0": 1.463,
                     "ACS": 319.5,
                     "K": 49,
@@ -331,7 +331,7 @@
                             "PlusMinus2": -1
                         },
                         {
-                            "Player": "Platypus_Eggs",
+                            "Player": "platy",
                             "Agent": "Cypher",
                             "R1.0": 1.133,
                             "ACS": 251,
@@ -379,7 +379,7 @@
                             "PlusMinus2": -3
                         },
                         {
-                            "Player": "WHOGOTPIE*",
+                            "Player": "WHOGOTPIE",
                             "Agent": "Clove",
                             "R1.0": 0.399,
                             "ACS": 85,
@@ -401,7 +401,7 @@
                     "teamName": "Kurt's Kittens",
                     "players": [
                         {
-                            "Player": "MrSirClaps*",
+                            "Player": "claps",
                             "Agent": "Clove",
                             "R1.0": 1.615,
                             "ACS": 348,
@@ -607,7 +607,7 @@
                             "PlusMinus2": 1
                         },
                         {
-                            "Player": "Platypus_Eggs",
+                            "Player": "platy",
                             "Agent": "Cypher",
                             "R1.0": 1.062,
                             "ACS": 234,
@@ -655,7 +655,7 @@
                             "PlusMinus2": -2
                         },
                         {
-                            "Player": "WHOGOTPIE*",
+                            "Player": "WHOGOTPIE",
                             "Agent": "Chamber",
                             "R1.0": 0.351,
                             "ACS": 87,
@@ -709,7 +709,7 @@
                             "PlusMinus2": 4
                         },
                         {
-                            "Player": "MrSirClaps*",
+                            "Player": "claps",
                             "Agent": "Clove",
                             "R1.0": 1.282,
                             "ACS": 291,

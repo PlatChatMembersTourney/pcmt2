@@ -40,7 +40,7 @@
         "teamName": "Kurt's Kittens",
         "players": [
           {
-            "Player": "MrSirClaps*",
+            "Player": "claps",
             "R1.0": 1.631,
             "ACS": 409.75,
             "K": 119,
@@ -316,7 +316,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.81,
                 "ACS": 467,
@@ -617,7 +617,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Jett",
                 "R1.0": 1.483,
                 "ACS": 342,
@@ -873,7 +873,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.726,
                 "ACS": 387,
@@ -1174,7 +1174,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.733,
                 "ACS": 443,
@@ -1391,7 +1391,7 @@
         "teamName": "Kurt's Kittens",
         "players": [
           {
-            "Player": "MrSirClaps*",
+            "Player": "claps",
             "R1.0": 1.535,
             "ACS": 366.4,
             "K": 126,
@@ -1472,7 +1472,7 @@
         "teamName": "The Brick Wall",
         "players": [
           {
-            "Player": "Lil Thighs",
+            "Player": "thighs",
             "R1.0": 1.012,
             "ACS": 193.2,
             "K": 71,
@@ -1487,7 +1487,7 @@
             "PlusMinus2": -2
           },
           {
-            "Player": "Mr Basil",
+            "Player": "basil",
             "R1.0": 1.087,
             "ACS": 243.8,
             "K": 84,
@@ -1517,7 +1517,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 0.879,
             "ACS": 186.6,
             "K": 65,
@@ -1672,7 +1672,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.532,
                 "ACS": 378,
@@ -1758,7 +1758,7 @@
             "teamName": "The Brick Wall",
             "players": [
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Skye",
                 "R1.0": 1.311,
                 "ACS": 262,
@@ -1806,7 +1806,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Mr Basil",
+                "Player": "basil",
                 "Agent": "Raze",
                 "R1.0": 0.82,
                 "ACS": 204,
@@ -1822,7 +1822,7 @@
                 "PlusMinus2": -9
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": "Cypher",
                 "R1.0": 0.786,
                 "ACS": 169,
@@ -1974,7 +1974,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.142,
                 "ACS": 269,
@@ -2060,7 +2060,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "Mr Basil",
+                "Player": "basil",
                 "Agent": "Fade",
                 "R1.0": 1.444,
                 "ACS": 310,
@@ -2076,7 +2076,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": "Omen",
                 "R1.0": 0.891,
                 "ACS": 174,
@@ -2092,7 +2092,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Raze",
                 "R1.0": 0.887,
                 "ACS": 169,
@@ -2244,7 +2244,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Jett",
                 "R1.0": 1.569,
                 "ACS": 357,
@@ -2330,7 +2330,7 @@
             "teamName": "The Brick Wall",
             "players": [
               {
-                "Player": "Mr Basil",
+                "Player": "basil",
                 "Agent": "Jett",
                 "R1.0": 1.275,
                 "ACS": 316,
@@ -2362,7 +2362,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": "Sova",
                 "R1.0": 1.006,
                 "ACS": 223,
@@ -2378,7 +2378,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Sage",
                 "R1.0": 0.925,
                 "ACS": 142,
@@ -2490,7 +2490,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 2.201,
                 "ACS": 479,
@@ -2576,7 +2576,7 @@
             "teamName": "The Brick Wall",
             "players": [
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Chamber",
                 "R1.0": 0.494,
                 "ACS": 117,
@@ -2592,7 +2592,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": "Omen",
                 "R1.0": 0.51,
                 "ACS": 162,
@@ -2624,7 +2624,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "Mr Basil",
+                "Player": "basil",
                 "Agent": "Yoru",
                 "R1.0": 0.259,
                 "ACS": 96,
@@ -2781,7 +2781,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.484,
                 "ACS": 349,
@@ -2867,7 +2867,7 @@
             "teamName": "The Brick Wall",
             "players": [
               {
-                "Player": "Mr Basil",
+                "Player": "basil",
                 "Agent": "Yoru",
                 "R1.0": 1.311,
                 "ACS": 293,
@@ -2883,7 +2883,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Raze",
                 "R1.0": 1.218,
                 "ACS": 276,
@@ -2899,7 +2899,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": "Omen",
                 "R1.0": 1.045,
                 "ACS": 205,
@@ -3099,7 +3099,7 @@
             "PlusMinus2": -8
           },
           {
-            "Player": "haych*",
+            "Player": "haych",
             "R1.0": 1.065,
             "ACS": 230.33333333333334,
             "K": 55,
@@ -3385,7 +3385,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "haych*",
+                "Player": "haych",
                 "Agent": "Clove",
                 "R1.0": 1.518,
                 "ACS": 359,
@@ -3720,7 +3720,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "haych*",
+                "Player": "haych",
                 "Agent": "Yoru",
                 "R1.0": 0.524,
                 "ACS": 114,
@@ -3964,7 +3964,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "haych*",
+                "Player": "haych",
                 "Agent": "Cypher",
                 "R1.0": 0.914,
                 "ACS": 218,
@@ -4048,7 +4048,7 @@
         "teamName": "Absolute Cinema",
         "players": [
           {
-            "Player": "Platypus_Eggs",
+            "Player": "platy",
             "R1.0": 1.003,
             "ACS": 211,
             "K": 36,
@@ -4129,7 +4129,7 @@
         "teamName": "The Brick Wall",
         "players": [
           {
-            "Player": "Lil Thighs",
+            "Player": "thighs",
             "R1.0": 1.372,
             "ACS": 301,
             "K": 52,
@@ -4144,7 +4144,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "R1.0": 1.172,
             "ACS": 226.5,
             "K": 41,
@@ -4319,7 +4319,7 @@
             "teamName": "Absolute Cinema",
             "players": [
               {
-                "Player": "Platypus_Eggs",
+                "Player": "platy",
                 "Agent": "Cypher",
                 "R1.0": 0.867,
                 "ACS": 180,
@@ -4405,7 +4405,7 @@
             "teamName": "The Brick Wall",
             "players": [
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Raze",
                 "R1.0": 1.387,
                 "ACS": 285,
@@ -4421,7 +4421,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": "Omen",
                 "R1.0": 1.247,
                 "ACS": 229,
@@ -4682,7 +4682,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Platypus_Eggs",
+                "Player": "platy",
                 "Agent": "Killjoy",
                 "R1.0": 1.094,
                 "ACS": 242,
@@ -4736,7 +4736,7 @@
             "teamName": "The Brick Wall",
             "players": [
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Raze",
                 "R1.0": 1.363,
                 "ACS": 317,
@@ -4752,7 +4752,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": "Omen",
                 "R1.0": 1.122,
                 "ACS": 224,
@@ -4867,7 +4867,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "Platypus_Eggs",
+            "Player": "platy",
             "R1.0": 1.1,
             "ACS": 242.5,
             "K": 34,
@@ -4912,7 +4912,7 @@
             "PlusMinus2": -5
           },
           {
-            "Player": "WHOGOTPIE*",
+            "Player": "WHOGOTPIE",
             "R1.0": 0.378,
             "ACS": 86,
             "K": 11,
@@ -4933,7 +4933,7 @@
         "teamName": "Kurt's Kittens",
         "players": [
           {
-            "Player": "MrSirClaps*",
+            "Player": "claps",
             "R1.0": 1.463,
             "ACS": 319.5,
             "K": 49,
@@ -5154,7 +5154,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "Platypus_Eggs",
+                "Player": "platy",
                 "Agent": "Cypher",
                 "R1.0": 1.133,
                 "ACS": 251,
@@ -5202,7 +5202,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "WHOGOTPIE*",
+                "Player": "WHOGOTPIE",
                 "Agent": "Clove",
                 "R1.0": 0.399,
                 "ACS": 85,
@@ -5224,7 +5224,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.615,
                 "ACS": 348,
@@ -5430,7 +5430,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Platypus_Eggs",
+                "Player": "platy",
                 "Agent": "Cypher",
                 "R1.0": 1.062,
                 "ACS": 234,
@@ -5478,7 +5478,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "WHOGOTPIE*",
+                "Player": "WHOGOTPIE",
                 "Agent": "Chamber",
                 "R1.0": 0.351,
                 "ACS": 87,
@@ -5532,7 +5532,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.282,
                 "ACS": 291,
@@ -5631,7 +5631,7 @@
             "PlusMinus2": -3
           },
           {
-            "Player": "Mr Basil",
+            "Player": "basil",
             "R1.0": 1.065,
             "ACS": 232,
             "K": 37,
@@ -5646,7 +5646,7 @@
             "PlusMinus2": -2
           },
           {
-            "Player": "Lil Thighs",
+            "Player": "thighs",
             "R1.0": 1.027,
             "ACS": 213,
             "K": 34,
@@ -5892,7 +5892,7 @@
             "teamName": "The Brick Wall",
             "players": [
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Raze",
                 "R1.0": 1.155,
                 "ACS": 258,
@@ -5908,7 +5908,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Mr Basil",
+                "Player": "basil",
                 "Agent": "Fade",
                 "R1.0": 1.088,
                 "ACS": 226,
@@ -6209,7 +6209,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Mr Basil",
+                "Player": "basil",
                 "Agent": "Yoru",
                 "R1.0": 1.044,
                 "ACS": 238,
@@ -6241,7 +6241,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Cypher",
                 "R1.0": 0.913,
                 "ACS": 168,
@@ -6476,7 +6476,7 @@
         "teamName": "Absolute Cinema",
         "players": [
           {
-            "Player": "Platypus_Eggs",
+            "Player": "platy",
             "Agent": "Cypher",
             "R1.0": 1.415,
             "ACS": 317,
@@ -6508,7 +6508,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "MrSirClaps*",
+            "Player": "claps",
             "Agent": "Fade",
             "R1.0": 1.305,
             "ACS": 278,
@@ -6747,7 +6747,7 @@
             "teamName": "Absolute Cinema",
             "players": [
               {
-                "Player": "Platypus_Eggs",
+                "Player": "platy",
                 "Agent": "Cypher",
                 "R1.0": 1.415,
                 "ACS": 317,
@@ -6779,7 +6779,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Fade",
                 "R1.0": 1.305,
                 "ACS": 278,
@@ -6890,7 +6890,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "Platypus_Eggs",
+            "Player": "platy",
             "Agent": "Cypher",
             "R1.0": 1.037,
             "ACS": 240,
@@ -6944,7 +6944,7 @@
         "teamName": "Kurt's Kittens",
         "players": [
           {
-            "Player": "MrSirClaps*",
+            "Player": "claps",
             "Agent": "Clove",
             "R1.0": 1.708,
             "ACS": 394,
@@ -7181,7 +7181,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "Platypus_Eggs",
+                "Player": "platy",
                 "Agent": "Cypher",
                 "R1.0": 1.037,
                 "ACS": 240,
@@ -7235,7 +7235,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.708,
                 "ACS": 394,
@@ -7346,7 +7346,7 @@
         "teamName": "Kurt's Kittens",
         "players": [
           {
-            "Player": "MrSirClaps*",
+            "Player": "claps",
             "Agent": "Clove",
             "R1.0": 1.547,
             "ACS": 351,
@@ -7647,7 +7647,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
               {
-                "Player": "MrSirClaps*",
+                "Player": "claps",
                 "Agent": "Clove",
                 "R1.0": 1.547,
                 "ACS": 351,
@@ -7930,7 +7930,7 @@
         "teamName": "The Brick Wall",
         "players": [
           {
-            "Player": "Lil Thighs",
+            "Player": "thighs",
             "Agent": "Raze",
             "R1.0": 1.557,
             "ACS": 270,
@@ -7946,7 +7946,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "Agent": "Clove",
             "R1.0": 1.582,
             "ACS": 325,
@@ -7978,7 +7978,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "Mr Basil",
+            "Player": "basil",
             "Agent": "Fade",
             "R1.0": 1.058,
             "ACS": 176,
@@ -8191,7 +8191,7 @@
             "teamName": "The Brick Wall",
             "players": [
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "Raze",
                 "R1.0": 1.557,
                 "ACS": 270,
@@ -8207,7 +8207,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": "Clove",
                 "R1.0": 1.582,
                 "ACS": 325,
@@ -8239,7 +8239,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "Mr Basil",
+                "Player": "basil",
                 "Agent": "Fade",
                 "R1.0": 1.058,
                 "ACS": 176,
@@ -8302,7 +8302,7 @@
         "teamName": "Absolute Cinema",
         "players": [
           {
-            "Player": "Platypus_Eggs",
+            "Player": "platy",
             "Agent": "Cypher",
             "R1.0": 1.356,
             "ACS": 306,
@@ -8404,7 +8404,7 @@
             "PlusMinus2": -3
           },
           {
-            "Player": "Lil Thighs",
+            "Player": "thighs",
             "Agent": "KAY/O",
             "R1.0": 1.086,
             "ACS": 194,
@@ -8420,7 +8420,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "Mr Basil",
+            "Player": "basil",
             "Agent": "Jett",
             "R1.0": 1.009,
             "ACS": 243,
@@ -8436,7 +8436,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "hyypernova",
+            "Player": "nova",
             "Agent": "Omen",
             "R1.0": 0.895,
             "ACS": 173,
@@ -8603,7 +8603,7 @@
             "teamName": "Absolute Cinema",
             "players": [
               {
-                "Player": "Platypus_Eggs",
+                "Player": "platy",
                 "Agent": "Cypher",
                 "R1.0": 1.356,
                 "ACS": 306,
@@ -8705,7 +8705,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "Lil Thighs",
+                "Player": "thighs",
                 "Agent": "KAY/O",
                 "R1.0": 1.086,
                 "ACS": 194,
@@ -8721,7 +8721,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Mr Basil",
+                "Player": "basil",
                 "Agent": "Jett",
                 "R1.0": 1.009,
                 "ACS": 243,
@@ -8737,7 +8737,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "hyypernova",
+                "Player": "nova",
                 "Agent": "Omen",
                 "R1.0": 0.895,
                 "ACS": 173,

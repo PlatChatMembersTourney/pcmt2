@@ -9,7 +9,7 @@
         "name": "Mischifs",
         "abbr": "MISC",
         "logo": "/icons/s1_teams/emea/Mischifs.png",
-        "players": ["Ghrf6", "Pandyro", "Ellie", "Otaka", "Taylor"]
+        "players": ["Ghrf6", "Pandyro", "Ellie", "Otaka", "taylorgzz"]
     },
     "<3": {
         "name": "Less Than Three",
@@ -21,6 +21,6 @@
         "name": "Team FourK",
         "abbr": "T4K",
         "logo": "/icons/s1_teams/emea/FourK.png",
-        "players": ["night", "Kramvi", "Eva", "thornyy", "Linus"]
+        "players": ["night", "Kramvi", "Eva", "thorny", "Linus"]
     }
 }

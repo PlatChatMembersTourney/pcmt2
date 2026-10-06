@@ -145,7 +145,7 @@
                     "PlusMinus2": -8
                 },
                 {
-                    "Player": "haych*",
+                    "Player": "haych",
                     "R1.0": 1.065,
                     "ACS": 230.33333333333334,
                     "K": 55,
@@ -431,7 +431,7 @@
                     "teamName": "Kurt's Kittens",
                     "players": [
                         {
-                            "Player": "haych*",
+                            "Player": "haych",
                             "Agent": "Clove",
                             "R1.0": 1.518,
                             "ACS": 359,
@@ -766,7 +766,7 @@
                             "PlusMinus2": 0
                         },
                         {
-                            "Player": "haych*",
+                            "Player": "haych",
                             "Agent": "Yoru",
                             "R1.0": 0.524,
                             "ACS": 114,
@@ -1010,7 +1010,7 @@
                             "PlusMinus2": 0
                         },
                         {
-                            "Player": "haych*",
+                            "Player": "haych",
                             "Agent": "Cypher",
                             "R1.0": 0.914,
                             "ACS": 218,

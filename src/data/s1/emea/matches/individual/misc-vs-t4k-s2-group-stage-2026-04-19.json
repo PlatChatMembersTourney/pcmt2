@@ -29,7 +29,7 @@
       "teamName": "Mischifs",
       "players": [
         {
-          "Player": "Taylor",
+          "Player": "taylorgzz",
           "R1.0": 1.273,
           "ACS": 243,
           "K": 32,
@@ -140,7 +140,7 @@
           "PlusMinus2": 0
         },
         {
-          "Player": "thornyy",
+          "Player": "thorny",
           "R1.0": 0.849,
           "ACS": 180,
           "K": 22,
@@ -316,7 +316,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "Taylor",
+              "Player": "taylorgzz",
               "Agent": "Fade",
               "R1.0": 1.186,
               "ACS": 240,
@@ -402,7 +402,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "thornyy",
+              "Player": "thorny",
               "Agent": "Skye",
               "R1.0": 0.889,
               "ACS": 181,
@@ -566,7 +566,7 @@
           "teamName": "Mischifs",
           "players": [
             {
-              "Player": "Taylor",
+              "Player": "taylorgzz",
               "Agent": "Omen",
               "R1.0": 1.375,
               "ACS": 246,
@@ -684,7 +684,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "thornyy",
+              "Player": "thorny",
               "Agent": "Omen",
               "R1.0": 0.802,
               "ACS": 178,

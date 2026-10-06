@@ -1,7 +1,7 @@
 {
   "Overall": [
     {
-      "Player": "MrSirClaps*",
+      "Player": "claps",
       "Team": "(sub)",
       "MP": 14,
       "Rounds": 290,
@@ -97,7 +97,7 @@
       "KMAX": 30
     },
     {
-      "Player": "Platypus_Eggs",
+      "Player": "platy",
       "Team": "CIN",
       "MP": 7,
       "Rounds": 156,
@@ -121,7 +121,7 @@
       "KMAX": 26
     },
     {
-      "Player": "Lil Thighs",
+      "Player": "thighs",
       "Team": "WALL",
       "MP": 11,
       "Rounds": 235,
@@ -145,7 +145,7 @@
       "KMAX": 32
     },
     {
-      "Player": "Mr Basil",
+      "Player": "basil",
       "Team": "WALL",
       "MP": 9,
       "Rounds": 185,
@@ -169,7 +169,7 @@
       "KMAX": 23
     },
     {
-      "Player": "haych*",
+      "Player": "haych",
       "Team": "(sub)",
       "MP": 3,
       "Rounds": 65,
@@ -265,7 +265,7 @@
       "KMAX": 27
     },
     {
-      "Player": "hyypernova",
+      "Player": "nova",
       "Team": "WALL",
       "MP": 9,
       "Rounds": 190,
@@ -434,7 +434,7 @@
     },
     {
       "Player": "AtmosFear",
-      "Team": "KAT",
+      "Team": "(sub)",
       "MP": 1,
       "Rounds": 16,
       "R1.0": 0.905,
@@ -577,7 +577,7 @@
       "KMAX": 14
     },
     {
-      "Player": "WHOGOTPIE*",
+      "Player": "WHOGOTPIE",
       "Team": "(sub)",
       "MP": 2,
       "Rounds": 42,
@@ -603,7 +603,7 @@
   ],
   "Group Stage": [
     {
-      "Player": "MrSirClaps*",
+      "Player": "claps",
       "Team": "(sub)",
       "MP": 3,
       "Rounds": 64,
@@ -627,7 +627,7 @@
       "KMAX": 32
     },
     {
-      "Player": "Lil Thighs",
+      "Player": "thighs",
       "Team": "WALL",
       "MP": 2,
       "Rounds": 40,
@@ -675,7 +675,7 @@
       "KMAX": 27
     },
     {
-      "Player": "Platypus_Eggs",
+      "Player": "platy",
       "Team": "CIN",
       "MP": 3,
       "Rounds": 64,
@@ -723,7 +723,7 @@
       "KMAX": 23
     },
     {
-      "Player": "hyypernova",
+      "Player": "nova",
       "Team": "WALL",
       "MP": 2,
       "Rounds": 40,
@@ -891,7 +891,7 @@
       "KMAX": 17
     },
     {
-      "Player": "Mr Basil",
+      "Player": "basil",
       "Team": "WALL",
       "MP": 2,
       "Rounds": 40,
@@ -964,7 +964,7 @@
     },
     {
       "Player": "AtmosFear",
-      "Team": "KAT",
+      "Team": "(sub)",
       "MP": 1,
       "Rounds": 16,
       "R1.0": 0.905,
@@ -1157,7 +1157,7 @@
   ],
   "Playoffs": [
     {
-      "Player": "MrSirClaps*",
+      "Player": "claps",
       "Team": "(sub)",
       "MP": 11,
       "Rounds": 226,
@@ -1253,7 +1253,7 @@
       "KMAX": 30
     },
     {
-      "Player": "Lil Thighs",
+      "Player": "thighs",
       "Team": "WALL",
       "MP": 9,
       "Rounds": 195,
@@ -1277,7 +1277,7 @@
       "KMAX": 32
     },
     {
-      "Player": "Mr Basil",
+      "Player": "basil",
       "Team": "WALL",
       "MP": 7,
       "Rounds": 145,
@@ -1325,7 +1325,7 @@
       "KMAX": 27
     },
     {
-      "Player": "haych*",
+      "Player": "haych",
       "Team": "(sub)",
       "MP": 3,
       "Rounds": 65,
@@ -1349,7 +1349,7 @@
       "KMAX": 36
     },
     {
-      "Player": "Platypus_Eggs",
+      "Player": "platy",
       "Team": "CIN",
       "MP": 4,
       "Rounds": 92,
@@ -1469,7 +1469,7 @@
       "KMAX": 19
     },
     {
-      "Player": "hyypernova",
+      "Player": "nova",
       "Team": "WALL",
       "MP": 7,
       "Rounds": 150,
@@ -1709,7 +1709,7 @@
       "KMAX": 6
     },
     {
-      "Player": "WHOGOTPIE*",
+      "Player": "WHOGOTPIE",
       "Team": "(sub)",
       "MP": 2,
       "Rounds": 42,

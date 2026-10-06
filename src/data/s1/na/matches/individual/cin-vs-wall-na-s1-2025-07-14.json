@@ -29,7 +29,7 @@
             "teamName": "Absolute Cinema",
             "players": [
                 {
-                    "Player": "Platypus_Eggs",
+                    "Player": "platy",
                     "R1.0": 1.003,
                     "ACS": 211,
                     "K": 36,
@@ -110,7 +110,7 @@
             "teamName": "The Brick Wall",
             "players": [
                 {
-                    "Player": "Lil Thighs",
+                    "Player": "thighs",
                     "R1.0": 1.372,
                     "ACS": 301,
                     "K": 52,
@@ -125,7 +125,7 @@
                     "PlusMinus2": 2
                 },
                 {
-                    "Player": "hyypernova",
+                    "Player": "nova",
                     "R1.0": 1.172,
                     "ACS": 226.5,
                     "K": 41,
@@ -300,7 +300,7 @@
                     "teamName": "Absolute Cinema",
                     "players": [
                         {
-                            "Player": "Platypus_Eggs",
+                            "Player": "platy",
                             "Agent": "Cypher",
                             "R1.0": 0.867,
                             "ACS": 180,
@@ -386,7 +386,7 @@
                     "teamName": "The Brick Wall",
                     "players": [
                         {
-                            "Player": "Lil Thighs",
+                            "Player": "thighs",
                             "Agent": "Raze",
                             "R1.0": 1.387,
                             "ACS": 285,
@@ -402,7 +402,7 @@
                             "PlusMinus2": 0
                         },
                         {
-                            "Player": "hyypernova",
+                            "Player": "nova",
                             "Agent": "Omen",
                             "R1.0": 1.247,
                             "ACS": 229,
@@ -663,7 +663,7 @@
                             "PlusMinus2": 1
                         },
                         {
-                            "Player": "Platypus_Eggs",
+                            "Player": "platy",
                             "Agent": "Killjoy",
                             "R1.0": 1.094,
                             "ACS": 242,
@@ -717,7 +717,7 @@
                     "teamName": "The Brick Wall",
                     "players": [
                         {
-                            "Player": "Lil Thighs",
+                            "Player": "thighs",
                             "Agent": "Raze",
                             "R1.0": 1.363,
                             "ACS": 317,
@@ -733,7 +733,7 @@
                             "PlusMinus2": 2
                         },
                         {
-                            "Player": "hyypernova",
+                            "Player": "nova",
                             "Agent": "Omen",
                             "R1.0": 1.122,
                             "ACS": 224,

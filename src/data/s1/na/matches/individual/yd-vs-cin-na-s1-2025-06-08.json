@@ -110,7 +110,7 @@
             "teamName": "Absolute Cinema",
             "players": [
                 {
-                    "Player": "Platypus_Eggs",
+                    "Player": "platy",
                     "Agent": "Cypher",
                     "R1.0": 1.415,
                     "ACS": 317,
@@ -142,7 +142,7 @@
                     "PlusMinus2": 2
                 },
                 {
-                    "Player": "MrSirClaps*",
+                    "Player": "claps",
                     "Agent": "Fade",
                     "R1.0": 1.305,
                     "ACS": 278,
@@ -381,7 +381,7 @@
                     "teamName": "Absolute Cinema",
                     "players": [
                         {
-                            "Player": "Platypus_Eggs",
+                            "Player": "platy",
                             "Agent": "Cypher",
                             "R1.0": 1.415,
                             "ACS": 317,
@@ -413,7 +413,7 @@
                             "PlusMinus2": 2
                         },
                         {
-                            "Player": "MrSirClaps*",
+                            "Player": "claps",
                             "Agent": "Fade",
                             "R1.0": 1.305,
                             "ACS": 278,

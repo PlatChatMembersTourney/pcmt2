@@ -56,7 +56,7 @@
                     "PlusMinus2": 1
                 },
                 {
-                    "Player": "Platypus_Eggs",
+                    "Player": "platy",
                     "Agent": "Cypher",
                     "R1.0": 1.037,
                     "ACS": 240,
@@ -110,7 +110,7 @@
             "teamName": "Kurt's Kittens",
             "players": [
                 {
-                    "Player": "MrSirClaps*",
+                    "Player": "claps",
                     "Agent": "Clove",
                     "R1.0": 1.708,
                     "ACS": 394,
@@ -347,7 +347,7 @@
                             "PlusMinus2": 1
                         },
                         {
-                            "Player": "Platypus_Eggs",
+                            "Player": "platy",
                             "Agent": "Cypher",
                             "R1.0": 1.037,
                             "ACS": 240,
@@ -401,7 +401,7 @@
                     "teamName": "Kurt's Kittens",
                     "players": [
                         {
-                            "Player": "MrSirClaps*",
+                            "Player": "claps",
                             "Agent": "Clove",
                             "R1.0": 1.708,
                             "ACS": 394,
