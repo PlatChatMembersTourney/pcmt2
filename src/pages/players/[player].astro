@@ -39,9 +39,11 @@ export const getStaticPaths = () => {
 
 const { slug, name, events } = Astro.props;
 const latest = events[events.length - 1];
-// Header: only the events they were on a roster for (not the ones they only subbed in)
-const rosterEvents = events.filter((event) =>
-	Object.values(teams[event.id]).some((team) => team.players.some((player) => playerSlug(player) === slug))
+// Header: only the events they were on a roster for (not the ones they only subbed in), and no showmatches
+const rosterEvents = events.filter(
+	(event) =>
+		!event.showmatch &&
+		Object.values(teams[event.id]).some((team) => team.players.some((player) => playerSlug(player) === slug))
 );
 ---
 
