@@ -24,7 +24,7 @@ const EventPanels: React.FC<{ event: Event }> = (props: { event: Event }) => {
 				active={active}
 				onSelect={(tab) => setActive(pages.indexOf(tab))}
 				matchCount={matches.length}
-				arrowFill={['Overview', 'Matches'].includes(active) ? 'fill-shade-200' : 'fill-shade-300'}
+				arrowFill={['Overview', 'Matches', 'Stats'].includes(active) ? 'fill-shade-200' : 'fill-shade-300'}
 			/>
 
 			{active === 'Overview' && <EventOverviewPanel event={event} />}
