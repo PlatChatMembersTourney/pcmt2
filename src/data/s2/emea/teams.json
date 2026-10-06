@@ -39,7 +39,7 @@
         "abbr": "SEAL",
         "logo": "/icons/s2_teams/emea/Stay Seally.png",
         "group": "Group Omega",
-        "players": ["Ghrf6", "hmmmdead", "Dovie", "otaka", "Eva"]
+        "players": ["Ghrf6", "hmmmdead", "Dovie", "otaka", "Eva", "Becosh"]
     },
     "NATS": {
         "name": "Never Available To Scrim",
@@ -67,6 +67,6 @@
         "abbr": "SOG",
         "logo": "/icons/s2_teams/emea/The SOG.png",
         "group": "Group Omega",
-        "players": ["autumn", "alet", "faye", "magmoz", "Charlotte"]
+        "players": ["autumn", "alet", "faye", "magmoz", "Charlotte", "k 9"]
     }
 }
