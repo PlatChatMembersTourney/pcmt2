@@ -54,6 +54,7 @@
 	--color-vlr-green-dark: #498357;
 	--color-vlr-atk: #e25d5a; /* round won on attack */
 	--color-vlr-def: #24b298; /* round won on defense */
+	--color-vlr-picked: #adabe3; /* agent a team played (agents tab) */
 
 	/* Plat Chat Blue */
 	--color-plat-blue: #6dc5c7;
@@ -77,6 +78,13 @@
 
 	--line: var(--color-vlr-border-light);
 	--nav: var(--color-neutral-200);
+	--grid: #ccc; /* vlr-style table grid lines */
+	--grid-head: var(--color-vlr-text-gray); /* line under vlr-style table headers */
+
+	/* .stat-color heatmap (vlr's): hue comes from each cell's --stat-h */
+	--stat-s: 50%;
+	--stat-l: 78%;
+	--stat-text: #333;
 }
 
 .dark {
@@ -95,6 +103,12 @@
 
 	--line: var(--color-vlr-border-gray);
 	--nav: var(--color-vlr-border-dark);
+	--grid: var(--color-vlr-border-gray);
+	--grid-head: #929496;
+
+	--stat-s: 20%;
+	--stat-l: 45%;
+	--stat-text: #fff;
 }
 
 /* inline, so each utility reads the variable where it's used (inside .dark) instead of once on :root */
@@ -114,6 +128,8 @@
 
 	--color-line: var(--line);
 	--color-nav: var(--nav);
+	--color-grid: var(--grid);
+	--color-grid-head: var(--grid-head);
 }
 
 .cool-border::after {
@@ -148,6 +164,12 @@
 
 .vlr-box-shadow {
 	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.35);
+}
+
+/* Heatmap cell like vlr's: set --stat-h per cell, from 0 (red, 0%) to 180 (teal, 100%) */
+.stat-color {
+	background-color: hsl(var(--stat-h) var(--stat-s) var(--stat-l));
+	color: var(--stat-text);
 }
 
 .stats-cell {

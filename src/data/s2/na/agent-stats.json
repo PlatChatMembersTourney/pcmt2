@@ -332,6 +332,11 @@
         "pickPct": 0.059
       },
       {
+        "agent": "Yoru",
+        "comps": 2,
+        "pickPct": 0.059
+      },
+      {
         "agent": "Fade",
         "comps": 2,
         "pickPct": 0.059
@@ -342,17 +347,7 @@
         "pickPct": 0.059
       },
       {
-        "agent": "Yoru",
-        "comps": 2,
-        "pickPct": 0.059
-      },
-      {
         "agent": "Veto",
-        "comps": 1,
-        "pickPct": 0.029
-      },
-      {
-        "agent": "Basil",
         "comps": 1,
         "pickPct": 0.029
       },
@@ -400,7 +395,6 @@
         "teamName": "Made in Bronze",
         "agents": [
           "Astra",
-          "Basil",
           "Fade",
           "Viper",
           "Waylay",
@@ -858,11 +852,6 @@
         "pickPct": 0.023
       },
       {
-        "agent": "FadeF",
-        "comps": 1,
-        "pickPct": 0.023
-      },
-      {
         "agent": "Clove",
         "comps": 1,
         "pickPct": 0.023
@@ -879,7 +868,6 @@
         "teamName": "DeRank Gamers",
         "agents": [
           "Fade",
-          "FadeF",
           "Omen",
           "Raze",
           "Skye",

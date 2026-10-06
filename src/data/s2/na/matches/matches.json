@@ -4650,7 +4650,7 @@
               },
               {
                 "Player": "hascan",
-                "Agent": "FadeF",
+                "Agent": "Fade",
                 "R1.0": 0.626,
                 "ACS": 84,
                 "K": 6,
@@ -7862,7 +7862,7 @@
             "players": [
               {
                 "Player": "basil",
-                "Agent": "Basil",
+                "Agent": "Yoru",
                 "R1.0": 1.097,
                 "ACS": 274,
                 "K": 17,
