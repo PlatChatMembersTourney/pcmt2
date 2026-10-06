@@ -57,9 +57,11 @@ const toRow = (totals: Totals, usePct: number | null): AgentRow => {
 
 const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events, matches }) => {
 	const [timespan, setTimespan] = useState('All');
+	const [showSubs, setShowSubs] = useState(false);
 
-	// Every team the player was on (roster) or played for (e.g. as a sub), newest event first
+	// Every team the player was on (roster) or played for (e.g. as a sub), newest event first - not showmatch teams
 	const playerTeams = [...events].reverse().flatMap((event) => {
+		if (event.showmatch) return [];
 		const teams = allTeams[event.id];
 		const roster = Object.keys(teams).filter((abbr) => teams[abbr].players.some((p) => playerSlug(p) === slug));
 		const played = matches
@@ -73,6 +75,8 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 			sub: !roster.includes(abbr),
 		}));
 	});
+
+	const shownTeams = showSubs ? playerTeams : playerTeams.filter(({ sub }) => !sub);
 
 	// The player's totals on each agent, and across every map ("All", which includes maps with no agent recorded)
 	const cutoff = Date.now() - timespans[timespan] * DAY; // -Infinity for All
@@ -100,9 +104,21 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 
 	return (
 		<div className="bg-shade-300 flex flex-col p-4 sm:p-6">
-			<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase">Teams</h2>
+			<div className="mb-3 ml-4 flex items-center justify-between">
+				<h2 className="text-[11px] leading-none font-bold text-red-400 uppercase">Teams</h2>
+				<button
+					onClick={() => setShowSubs(!showSubs)}
+					className={cx(
+						'bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs',
+						showSubs ? 'font-bold' : 'font-normal'
+					)}
+				>
+					Show Subs
+				</button>
+			</div>
+			{shownTeams.length === 0 && <div className="text-muted text-sm">Only played as a sub.</div>}
 			<div className="vlr-box-shadow bg-shade-100 flex flex-col">
-				{playerTeams.map(({ event, team, sub }) => (
+				{shownTeams.map(({ event, team, sub }) => (
 					<a
 						href={`/events/${event.id}/teams/${slugify(team.name, { lower: true })}`}
 						className="border-line hover:bg-vlr-gray-150 dark:hover:bg-vlr-gray-500 flex items-center gap-5 px-5 py-[15px] text-xs not-first:border-t"
