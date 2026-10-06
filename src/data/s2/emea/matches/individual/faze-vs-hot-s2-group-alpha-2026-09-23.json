@@ -175,7 +175,7 @@
           "PlusMinus2": 0
         },
         {
-          "Player": "Sovaraa",
+          "Player": "bi0",
           "R1.0": 0.903,
           "ACS": 149,
           "K": 40,
@@ -528,7 +528,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "Sovaraa",
+              "Player": "bi0",
               "Agent": "Fade",
               "R1.0": 0.789,
               "ACS": 125,
@@ -851,7 +851,7 @@
               "KAST": 1.0,
               "ADR": 147.8,
               "HS%": 0.263,
-              "Player": "Sovaraa",
+              "Player": "bi0",
               "Agent": "Sova",
               "PlusMinus": 6,
               "PlusMinus2": 1,
@@ -1204,7 +1204,7 @@
               "PlusMinus2": 3
             },
             {
-              "Player": "Sovaraa",
+              "Player": "bi0",
               "Agent": "Sage",
               "R1.0": 0.795,
               "ACS": 163,

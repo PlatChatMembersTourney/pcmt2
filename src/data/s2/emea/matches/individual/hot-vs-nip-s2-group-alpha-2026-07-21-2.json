@@ -89,7 +89,7 @@
           "PlusMinus2": -1
         },
         {
-          "Player": "Sovaraa",
+          "Player": "bi0",
           "R1.0": 0.577,
           "ACS": 116,
           "K": 15,
@@ -350,7 +350,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "Sovaraa",
+              "Player": "bi0",
               "Agent": "Neon",
               "R1.0": 0.649,
               "ACS": 152,
@@ -673,7 +673,7 @@
               "PlusMinus2": -3
             },
             {
-              "Player": "Sovaraa",
+              "Player": "bi0",
               "Agent": "Sova",
               "R1.0": 0.518,
               "ACS": 87,
