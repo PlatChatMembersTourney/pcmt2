@@ -9,6 +9,7 @@ import MatchCard from '../matches/MatchCard.tsx';
 import TeamMapStatsTable from './TeamMapStatsTable.tsx';
 import TabBar from './TabBar.tsx';
 import { playerFlag } from '../../utils/images.ts';
+import { playerSlug } from '../../utils/playerSlug.ts';
 import { events as allEvents } from '../../stores/events.ts';
 
 import { cx } from '../../utils/cx.ts';
@@ -104,9 +105,11 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 										alt={'flag'}
 										className="h-4 w-auto"
 									/>
-									{team.name === 'Team Dyslexia' && fun
-										? (randomBits?.get(player)?.scrambled ?? player)
-										: player}
+									<a href={`/players/${playerSlug(player)}`}>
+										{team.name === 'Team Dyslexia' && fun
+											? (randomBits?.get(player)?.scrambled ?? player)
+											: player}
+									</a>
 									{randomBits?.get(player)?.exclamation}
 									{events.length > 1 && (
 										<span className="text-vlr-text-gray ml-1 text-xs">
