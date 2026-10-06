@@ -1,6 +1,7 @@
 {
   "Bind": {
     "mapsPlayed": 1,
+    "recordedComps": 2,
     "atkPct": 0.542,
     "defPct": 0.458,
     "agents": [
@@ -8,11 +9,6 @@
         "agent": "Reyna",
         "comps": 2,
         "pickPct": 1.0
-      },
-      {
-        "agent": "Raze",
-        "comps": 1,
-        "pickPct": 0.5
       },
       {
         "agent": "Deadlock",
@@ -30,12 +26,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Cypher",
+        "agent": "Raze",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Yoru",
+        "agent": "Tejo",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -45,7 +41,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Tejo",
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Yoru",
         "comps": 1,
         "pickPct": 0.5
       }
@@ -77,26 +78,27 @@
   },
   "Haven": {
     "mapsPlayed": 1,
+    "recordedComps": 2,
     "atkPct": 0.476,
     "defPct": 0.524,
     "agents": [
-      {
-        "agent": "Sova",
-        "comps": 2,
-        "pickPct": 1.0
-      },
       {
         "agent": "Jett",
         "comps": 2,
         "pickPct": 1.0
       },
       {
-        "agent": "Killjoy",
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Breach",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Breach",
+        "agent": "Killjoy",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -148,16 +150,17 @@
   },
   "Pearl": {
     "mapsPlayed": 1,
+    "recordedComps": 2,
     "atkPct": 0.55,
     "defPct": 0.45,
     "agents": [
       {
-        "agent": "Astra",
+        "agent": "Chamber",
         "comps": 2,
         "pickPct": 1.0
       },
       {
-        "agent": "Chamber",
+        "agent": "Astra",
         "comps": 2,
         "pickPct": 1.0
       },
@@ -167,12 +170,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Yoru",
+        "agent": "Fade",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Fade",
+        "agent": "Yoru",
         "comps": 1,
         "pickPct": 0.5
       },

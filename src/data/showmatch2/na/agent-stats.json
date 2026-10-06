@@ -1,16 +1,17 @@
 {
   "Ascent": {
     "mapsPlayed": 1,
+    "recordedComps": 2,
     "atkPct": 0.333,
     "defPct": 0.667,
     "agents": [
       {
-        "agent": "Sova",
+        "agent": "Jett",
         "comps": 2,
         "pickPct": 1.0
       },
       {
-        "agent": "Jett",
+        "agent": "Sova",
         "comps": 2,
         "pickPct": 1.0
       },
@@ -30,12 +31,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Vyse",
+        "agent": "Sage",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Sage",
+        "agent": "Vyse",
         "comps": 1,
         "pickPct": 0.5
       }
@@ -67,6 +68,7 @@
   },
   "Breeze": {
     "mapsPlayed": 1,
+    "recordedComps": 2,
     "atkPct": 0.625,
     "defPct": 0.375,
     "agents": [
@@ -81,17 +83,22 @@
         "pickPct": 1.0
       },
       {
-        "agent": "Clove",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
         "agent": "Chamber",
         "comps": 1,
         "pickPct": 0.5
       },
       {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
         "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Viper",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -102,11 +109,6 @@
       },
       {
         "agent": "Sage",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Viper",
         "comps": 1,
         "pickPct": 0.5
       }
@@ -138,6 +140,7 @@
   },
   "Split": {
     "mapsPlayed": 1,
+    "recordedComps": 2,
     "atkPct": 0.588,
     "defPct": 0.412,
     "agents": [
@@ -145,6 +148,11 @@
         "agent": "Omen",
         "comps": 2,
         "pickPct": 1.0
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.5
       },
       {
         "agent": "Neon",
@@ -157,17 +165,7 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Viper",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
         "agent": "Skye",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Fade",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -177,12 +175,17 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Raze",
+        "agent": "Phoenix",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Phoenix",
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Raze",
         "comps": 1,
         "pickPct": 0.5
       }

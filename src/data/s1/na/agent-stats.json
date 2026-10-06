@@ -1,36 +1,57 @@
 {
   "Ascent": {
     "mapsPlayed": 5,
+    "recordedComps": 10,
     "atkPct": 0.489,
     "defPct": 0.511,
     "agents": [
       {
-        "agent": "Jett",
-        "comps": 4,
-        "pickPct": 0.4
+        "agent": "Cypher",
+        "comps": 8,
+        "pickPct": 0.8
       },
       {
-        "agent": "Cypher",
-        "comps": 4,
-        "pickPct": 0.4
+        "agent": "Jett",
+        "comps": 8,
+        "pickPct": 0.8
       },
       {
         "agent": "Omen",
+        "comps": 7,
+        "pickPct": 0.7
+      },
+      {
+        "agent": "Sova",
+        "comps": 6,
+        "pickPct": 0.6
+      },
+      {
+        "agent": "Yoru",
         "comps": 4,
         "pickPct": 0.4
       },
       {
-        "agent": "Yoru",
-        "comps": 3,
-        "pickPct": 0.3
-      },
-      {
-        "agent": "Sova",
-        "comps": 3,
-        "pickPct": 0.3
-      },
-      {
         "agent": "Clove",
+        "comps": 3,
+        "pickPct": 0.3
+      },
+      {
+        "agent": "KAY/O",
+        "comps": 3,
+        "pickPct": 0.3
+      },
+      {
+        "agent": "Fade",
+        "comps": 3,
+        "pickPct": 0.3
+      },
+      {
+        "agent": "Killjoy",
+        "comps": 3,
+        "pickPct": 0.3
+      },
+      {
+        "agent": "Vyse",
         "comps": 2,
         "pickPct": 0.2
       },
@@ -38,26 +59,6 @@
         "agent": "Chamber",
         "comps": 2,
         "pickPct": 0.2
-      },
-      {
-        "agent": "KAYO",
-        "comps": 2,
-        "pickPct": 0.2
-      },
-      {
-        "agent": "Killjoy",
-        "comps": 2,
-        "pickPct": 0.2
-      },
-      {
-        "agent": "Vyse",
-        "comps": 1,
-        "pickPct": 0.1
-      },
-      {
-        "agent": "Fade",
-        "comps": 1,
-        "pickPct": 0.1
       },
       {
         "agent": "Deadlock",
@@ -100,7 +101,7 @@
           "Chamber",
           "Cypher",
           "Jett",
-          "KAYO",
+          "KAY/O",
           "Omen",
           "Sova",
           "Vyse",
@@ -113,7 +114,7 @@
         "agents": [
           "Cypher",
           "Jett",
-          "KAYO",
+          "KAY/O",
           "Killjoy",
           "Omen",
           "Sova"
@@ -123,28 +124,39 @@
   },
   "Bind": {
     "mapsPlayed": 4,
+    "recordedComps": 8,
     "atkPct": 0.564,
     "defPct": 0.436,
     "agents": [
       {
+        "agent": "Fade",
+        "comps": 8,
+        "pickPct": 1.0
+      },
+      {
         "agent": "Raze",
-        "comps": 4,
-        "pickPct": 0.5
+        "comps": 7,
+        "pickPct": 0.875
       },
       {
         "agent": "Cypher",
-        "comps": 4,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Fade",
-        "comps": 4,
-        "pickPct": 0.5
+        "comps": 5,
+        "pickPct": 0.625
       },
       {
         "agent": "Viper",
-        "comps": 3,
-        "pickPct": 0.375
+        "comps": 5,
+        "pickPct": 0.625
+      },
+      {
+        "agent": "Clove",
+        "comps": 4,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Brimstone",
+        "comps": 4,
+        "pickPct": 0.5
       },
       {
         "agent": "Vyse",
@@ -152,17 +164,7 @@
         "pickPct": 0.375
       },
       {
-        "agent": "Clove",
-        "comps": 2,
-        "pickPct": 0.25
-      },
-      {
         "agent": "Skye",
-        "comps": 2,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Brimstone",
         "comps": 2,
         "pickPct": 0.25
       },
@@ -232,23 +234,29 @@
   },
   "Corrode": {
     "mapsPlayed": 3,
+    "recordedComps": 6,
     "atkPct": 0.39,
     "defPct": 0.61,
     "agents": [
       {
         "agent": "Fade",
+        "comps": 5,
+        "pickPct": 0.833
+      },
+      {
+        "agent": "Omen",
+        "comps": 5,
+        "pickPct": 0.833
+      },
+      {
+        "agent": "Viper",
         "comps": 4,
         "pickPct": 0.667
       },
       {
-        "agent": "Viper",
-        "comps": 3,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Omen",
-        "comps": 3,
-        "pickPct": 0.5
+        "agent": "Cypher",
+        "comps": 4,
+        "pickPct": 0.667
       },
       {
         "agent": "Yoru",
@@ -256,7 +264,7 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Cypher",
+        "agent": "Sova",
         "comps": 3,
         "pickPct": 0.5
       },
@@ -267,11 +275,6 @@
       },
       {
         "agent": "Jett",
-        "comps": 2,
-        "pickPct": 0.333
-      },
-      {
-        "agent": "Sova",
         "comps": 2,
         "pickPct": 0.333
       },
@@ -339,46 +342,52 @@
   },
   "Haven": {
     "mapsPlayed": 4,
+    "recordedComps": 8,
     "atkPct": 0.663,
     "defPct": 0.337,
     "agents": [
       {
         "agent": "Cypher",
-        "comps": 3,
-        "pickPct": 0.375
-      },
-      {
-        "agent": "Jett",
-        "comps": 3,
-        "pickPct": 0.375
+        "comps": 7,
+        "pickPct": 0.875
       },
       {
         "agent": "Breach",
-        "comps": 3,
-        "pickPct": 0.375
-      },
-      {
-        "agent": "Omen",
-        "comps": 3,
-        "pickPct": 0.375
+        "comps": 7,
+        "pickPct": 0.875
       },
       {
         "agent": "Sova",
+        "comps": 7,
+        "pickPct": 0.875
+      },
+      {
+        "agent": "Jett",
+        "comps": 5,
+        "pickPct": 0.625
+      },
+      {
+        "agent": "Omen",
+        "comps": 5,
+        "pickPct": 0.625
+      },
+      {
+        "agent": "Clove",
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Neon",
         "comps": 2,
         "pickPct": 0.25
       },
       {
-        "agent": "Clove",
+        "agent": "Killjoy",
         "comps": 1,
         "pickPct": 0.125
       },
       {
         "agent": "Yoru",
-        "comps": 1,
-        "pickPct": 0.125
-      },
-      {
-        "agent": "Killjoy",
         "comps": 1,
         "pickPct": 0.125
       },
@@ -389,11 +398,6 @@
       },
       {
         "agent": "Phoenix",
-        "comps": 1,
-        "pickPct": 0.125
-      },
-      {
-        "agent": "Neon",
         "comps": 1,
         "pickPct": 0.125
       }
@@ -441,11 +445,12 @@
   },
   "Icebox": {
     "mapsPlayed": 1,
+    "recordedComps": 2,
     "atkPct": 0.714,
     "defPct": 0.286,
     "agents": [
       {
-        "agent": "Jett",
+        "agent": "Viper",
         "comps": 2,
         "pickPct": 1.0
       },
@@ -455,12 +460,12 @@
         "pickPct": 1.0
       },
       {
-        "agent": "Viper",
+        "agent": "Sova",
         "comps": 2,
         "pickPct": 1.0
       },
       {
-        "agent": "Sova",
+        "agent": "Jett",
         "comps": 2,
         "pickPct": 1.0
       },
@@ -502,48 +507,49 @@
   },
   "Lotus": {
     "mapsPlayed": 4,
+    "recordedComps": 8,
     "atkPct": 0.511,
     "defPct": 0.489,
     "agents": [
       {
         "agent": "Viper",
-        "comps": 4,
-        "pickPct": 0.5
+        "comps": 7,
+        "pickPct": 0.875
       },
       {
         "agent": "Fade",
-        "comps": 4,
-        "pickPct": 0.5
+        "comps": 7,
+        "pickPct": 0.875
       },
       {
         "agent": "Raze",
-        "comps": 4,
-        "pickPct": 0.5
+        "comps": 6,
+        "pickPct": 0.75
       },
       {
         "agent": "Omen",
-        "comps": 4,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Clove",
-        "comps": 2,
-        "pickPct": 0.25
+        "comps": 5,
+        "pickPct": 0.625
       },
       {
         "agent": "Cypher",
-        "comps": 2,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Vyse",
-        "comps": 2,
-        "pickPct": 0.25
+        "comps": 3,
+        "pickPct": 0.375
       },
       {
         "agent": "Neon",
-        "comps": 1,
-        "pickPct": 0.125
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Clove",
+        "comps": 3,
+        "pickPct": 0.375
+      },
+      {
+        "agent": "Vyse",
+        "comps": 3,
+        "pickPct": 0.375
       },
       {
         "agent": "Breach",
@@ -616,6 +622,7 @@
   },
   "Sunset": {
     "mapsPlayed": 2,
+    "recordedComps": 4,
     "atkPct": 0.522,
     "defPct": 0.478,
     "agents": [
@@ -625,12 +632,17 @@
         "pickPct": 0.75
       },
       {
+        "agent": "Sova",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
         "agent": "Raze",
         "comps": 3,
         "pickPct": 0.75
       },
       {
-        "agent": "Sova",
+        "agent": "Chamber",
         "comps": 2,
         "pickPct": 0.5
       },
@@ -640,32 +652,27 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Jett",
-        "comps": 1,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Chamber",
-        "comps": 1,
-        "pickPct": 0.25
-      },
-      {
         "agent": "Breach",
         "comps": 1,
         "pickPct": 0.25
       },
       {
-        "agent": "KAYO",
+        "agent": "Jett",
         "comps": 1,
         "pickPct": 0.25
       },
       {
-        "agent": "Clove",
+        "agent": "KAY/O",
         "comps": 1,
         "pickPct": 0.25
       },
       {
         "agent": "Deadlock",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Clove",
         "comps": 1,
         "pickPct": 0.25
       },
@@ -711,7 +718,7 @@
         "teamName": "You Get Shot You Die",
         "agents": [
           "Cypher",
-          "KAYO",
+          "KAY/O",
           "Omen",
           "Raze",
           "Sova"

@@ -31,17 +31,21 @@ const AgentHeader = ({ agent }: { agent: string }) => (
 	</th>
 );
 
-// Pick rate as a heatmap square: red at 0%, teal at 100% (see .stat-color)
-const PickCell = ({ pct }: { pct: number }) => (
-	<td
-		className="stat-color min-w-10 text-center"
-		style={{ '--stat-h': Math.round(pct * 180) } as React.CSSProperties}
-	>
-		{pctFormatter.format(pct)}
-	</td>
-);
+// Pick rate as a heatmap square: red at 0%, teal at 100% (see .stat-color). null: no agents recorded
+const PickCell = ({ pct }: { pct: number | null }) =>
+	pct === null ? (
+		<td className="min-w-10 text-center">–</td>
+	) : (
+		<td
+			className="stat-color min-w-10 text-center"
+			style={{ '--stat-h': Math.round(pct * 180) } as React.CSSProperties}
+		>
+			{pctFormatter.format(pct)}
+		</td>
+	);
 
-const pickPct = (map: MapAgentStats, agent: string) => map.agents.find((a) => a.agent === agent)?.pickPct ?? 0;
+const pickPct = (map: MapAgentStats, agent: string) =>
+	map.recordedComps === 0 ? null : (map.agents.find((a) => a.agent === agent)?.pickPct ?? 0);
 
 const EventAgentsPanel: React.FC<{ event: Event }> = ({ event }) => {
 	const teams = allTeams[event.id];
@@ -59,9 +63,10 @@ const EventAgentsPanel: React.FC<{ event: Event }> = ({ event }) => {
 	}
 	const agents = [...comps].sort(([a, x], [b, y]) => y - x || a.localeCompare(b)).map(([agent]) => agent);
 
-	// All maps: each map is played by 2 teams, so 2 comps per map.
+	// All maps: pick rates are out of the comps with agents recorded, like each map's.
 	// The file has no round counts, so the atk/def win rates are weighted by maps played.
 	const totalMaps = maps.reduce((sum, [, map]) => sum + map.mapsPlayed, 0);
+	const totalRecorded = maps.reduce((sum, [, map]) => sum + map.recordedComps, 0);
 	const weighted = (pct: (map: MapAgentStats) => number) =>
 		maps.reduce((sum, [, map]) => sum + pct(map) * map.mapsPlayed, 0) / totalMaps;
 
@@ -99,7 +104,10 @@ const EventAgentsPanel: React.FC<{ event: Event }> = ({ event }) => {
 								{pctFormatter.format(weighted((map) => map.defPct))}
 							</td>
 							{agents.map((agent) => (
-								<PickCell pct={(comps.get(agent) ?? 0) / (2 * totalMaps)} key={agent} />
+								<PickCell
+									pct={totalRecorded ? (comps.get(agent) ?? 0) / totalRecorded : null}
+									key={agent}
+								/>
 							))}
 						</tr>
 						{maps.map(([name, map]) => (
