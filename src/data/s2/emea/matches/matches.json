@@ -10,7 +10,11 @@
     "completed": false,
     "bestOf": 3,
     "date": "2026-10-11T18:00:00Z",
-    "stage": "Playoffs"
+    "stage": "Playoffs",
+    "winChance": {
+      "team1": 0.556,
+      "team2": 0.444
+    }
   },
   {
     "id": "atlc-vs-nip-s2-group-alpha-2026-09-27",

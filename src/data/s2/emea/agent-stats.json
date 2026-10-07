@@ -61,12 +61,12 @@
         "pickPct": 0.111
       },
       {
-        "agent": "KAY/O",
+        "agent": "Tejo",
         "comps": 2,
         "pickPct": 0.111
       },
       {
-        "agent": "Tejo",
+        "agent": "KAY/O",
         "comps": 2,
         "pickPct": 0.111
       },
@@ -234,12 +234,12 @@
         "pickPct": 0.2
       },
       {
-        "agent": "Veto",
+        "agent": "Tejo",
         "comps": 1,
         "pickPct": 0.1
       },
       {
-        "agent": "Tejo",
+        "agent": "Veto",
         "comps": 1,
         "pickPct": 0.1
       },
@@ -438,12 +438,12 @@
         "pickPct": 0.056
       },
       {
-        "agent": "Reyna",
+        "agent": "Waylay",
         "comps": 1,
         "pickPct": 0.056
       },
       {
-        "agent": "Waylay",
+        "agent": "Reyna",
         "comps": 1,
         "pickPct": 0.056
       }
@@ -1022,12 +1022,12 @@
         "pickPct": 0.083
       },
       {
-        "agent": "Viper",
+        "agent": "Killjoy",
         "comps": 1,
         "pickPct": 0.083
       },
       {
-        "agent": "Killjoy",
+        "agent": "Viper",
         "comps": 1,
         "pickPct": 0.083
       }
@@ -1157,12 +1157,12 @@
         "pickPct": 0.2
       },
       {
-        "agent": "Deadlock",
+        "agent": "Jett",
         "comps": 1,
         "pickPct": 0.1
       },
       {
-        "agent": "Jett",
+        "agent": "Deadlock",
         "comps": 1,
         "pickPct": 0.1
       },
