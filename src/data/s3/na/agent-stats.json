@@ -41,12 +41,12 @@
         "pickPct": 0.333
       },
       {
-        "agent": "Astra",
+        "agent": "Reyna",
         "comps": 1,
         "pickPct": 0.167
       },
       {
-        "agent": "Reyna",
+        "agent": "Astra",
         "comps": 1,
         "pickPct": 0.167
       },
@@ -61,12 +61,12 @@
         "pickPct": 0.167
       },
       {
-        "agent": "Tejo",
+        "agent": "Brimstone",
         "comps": 1,
         "pickPct": 0.167
       },
       {
-        "agent": "Brimstone",
+        "agent": "Tejo",
         "comps": 1,
         "pickPct": 0.167
       },
@@ -515,12 +515,12 @@
         "pickPct": 0.214
       },
       {
-        "agent": "Neon",
+        "agent": "Yoru",
         "comps": 3,
         "pickPct": 0.214
       },
       {
-        "agent": "Yoru",
+        "agent": "Neon",
         "comps": 3,
         "pickPct": 0.214
       },
@@ -680,17 +680,17 @@
         "pickPct": 0.375
       },
       {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.25
+      },
+      {
         "agent": "Breach",
         "comps": 2,
         "pickPct": 0.25
       },
       {
         "agent": "Neon",
-        "comps": 2,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Chamber",
         "comps": 2,
         "pickPct": 0.25
       },
@@ -1112,12 +1112,12 @@
     "defPct": 0.524,
     "agents": [
       {
-        "agent": "Sova",
+        "agent": "Waylay",
         "comps": 2,
         "pickPct": 1.0
       },
       {
-        "agent": "Waylay",
+        "agent": "Sova",
         "comps": 2,
         "pickPct": 1.0
       },
@@ -1127,12 +1127,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Jett",
+        "agent": "Omen",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Omen",
+        "agent": "Jett",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -1249,12 +1249,12 @@
         "pickPct": 0.078
       },
       {
-        "agent": "Phoenix",
+        "agent": "Cypher",
         "comps": 3,
         "pickPct": 0.047
       },
       {
-        "agent": "Cypher",
+        "agent": "Phoenix",
         "comps": 3,
         "pickPct": 0.047
       },
