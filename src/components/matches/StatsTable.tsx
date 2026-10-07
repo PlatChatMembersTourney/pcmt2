@@ -57,7 +57,7 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 													<p>(ADRa = [(ADR * Rounds) - (140 * Kills)] / Rounds)</p>
 												</div>
 											}
-											title={"Toxic's Rating"}
+											title={"toxic's Rating"}
 										>
 											<span className="border-faint border-b-2 border-dotted px-0.5">
 												R<sup>T</sup>
