@@ -28,6 +28,7 @@ export const getStaticPaths = () => {
 	for (const event of allEvents) {
 		for (const team of Object.values(teams[event.id])) team.players.forEach((name) => add(name, event));
 		for (const match of matches[event.id]) {
+			if (!match.completed) continue; // upcoming matches have no stats yet
 			for (const team of match.combinedStats) team.players.forEach((player) => add(player.Player, event));
 		}
 	}

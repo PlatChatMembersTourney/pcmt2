@@ -72,10 +72,10 @@ export const ToxicHeader = () => (
 				<p>(ADRa = [(ADR * Rounds) - (140 * Kills)] / Rounds)</p>
 			</div>
 		}
-		title={"Toxic's Rating"}
+		title={"toxic's Rating"}
 		hover={true}
 	>
-		<span className="border-faint border-b-2 border-dotted px-0.5">Toxic</span>
+		<span className="border-faint border-b-2 border-dotted px-0.5">toxic</span>
 	</CustomPopover>
 );
 

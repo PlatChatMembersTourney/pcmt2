@@ -24,8 +24,12 @@ const PlayerPanels: React.FC<PlayerPanelsProps> = ({ slug, events }) => {
 	// Every match the player has stats in
 	const matches = events.flatMap((event) =>
 		allMatches[event.id]
-			.filter((match) =>
-				match.combinedStats.some((team) => team.players.some((player) => playerSlug(player.Player) === slug))
+			.filter(
+				(match) =>
+					match.completed &&
+					match.combinedStats.some((team) =>
+						team.players.some((player) => playerSlug(player.Player) === slug)
+					)
 			)
 			.map((match) => ({ date: match.date, match, event }))
 	);

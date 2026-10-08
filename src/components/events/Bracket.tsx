@@ -121,7 +121,8 @@ const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[]
 						const placeholder = slot.placeholders?.[side - 1];
 						return { id: placeholder ? placeholderId(placeholder) : null, position };
 					}
-					if (!match) return { id: abbrs.indexOf(abbr), position };
+					// No score until it's played, so the viewer shows "-" instead of 0
+					if (!match?.completed) return { id: abbrs.indexOf(abbr), position };
 
 					const score = match.team1 === abbr ? match.score1 : match.score2;
 					const otherScore = match.team1 === other ? match.score1 : match.score2;
@@ -129,7 +130,7 @@ const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[]
 						id: abbrs.indexOf(abbr),
 						position,
 						score,
-						result: match.completed ? (score > otherScore ? 'win' : 'loss') : undefined,
+						result: score > otherScore ? 'win' : 'loss',
 					} as const;
 				};
 

@@ -243,11 +243,11 @@
 		"stages": [
 			{
 				"name": "Playoffs",
-				"dates": "TBD"
+				"dates": "Oct 11 - TBD"
 			},
 			{
 				"name": "Group Stage",
-				"dates": "July 5 - TBD",
+				"dates": "July 5 - Sep 27",
 				"format": {
 					"type": "round-robin",
 					"groups": 2,

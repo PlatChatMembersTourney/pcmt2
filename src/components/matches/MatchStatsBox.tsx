@@ -85,9 +85,6 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 	const { match, event, teams } = props;
 	// map 0: all maps
 	const [selectedMap, setSelectedMap] = useState(0);
-	// the selected map's score and details (unused while "All Maps" is selected)
-	const map = match.maps[selectedMap - 1];
-	const mapDetail = match.mapDetails[selectedMap - 1];
 	// shown instead of stats while the match hasn't been played
 	const copypasta = useRandom(() => randomItem(copypastas));
 
@@ -96,6 +93,10 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 			<div className="bg-shade-200 vlr-box-shadow text-muted flex flex-col p-4 text-sm sm:p-5">{copypasta}</div>
 		);
 	}
+
+	// the selected map's score and details (unused while "All Maps" is selected)
+	const map = match.maps[selectedMap - 1];
+	const mapDetail = match.mapDetails[selectedMap - 1];
 
 	return (
 		<div className="bg-shade-200 vlr-box-shadow flex flex-col">
