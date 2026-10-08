@@ -1,19 +1,6 @@
 {
   "Overall": [
     {
-      "abbr": "XTC",
-      "name": "Xually Terribly Cursed",
-      "matchW": 3,
-      "matchL": 1,
-      "mapW": 7,
-      "mapL": 3,
-      "rndW": 113,
-      "rndL": 94,
-      "rank": 1,
-      "mapDiff": 4,
-      "rndDiff": 19
-    },
-    {
       "abbr": "SOG",
       "name": "The SOG",
       "matchW": 3,
@@ -22,7 +9,7 @@
       "mapL": 3,
       "rndW": 105,
       "rndL": 90,
-      "rank": 2,
+      "rank": 1,
       "mapDiff": 3,
       "rndDiff": 15
     },
@@ -35,9 +22,22 @@
       "mapL": 4,
       "rndW": 118,
       "rndL": 96,
-      "rank": 3,
+      "rank": 2,
       "mapDiff": 2,
       "rndDiff": 22
+    },
+    {
+      "abbr": "XTC",
+      "name": "Xually Terribly Cursed",
+      "matchW": 3,
+      "matchL": 1,
+      "mapW": 7,
+      "mapL": 3,
+      "rndW": 113,
+      "rndL": 94,
+      "rank": 3,
+      "mapDiff": 4,
+      "rndDiff": 19
     },
     {
       "abbr": "NATS",
@@ -133,19 +133,6 @@
   ],
   "Group Alpha": [
     {
-      "abbr": "XTC",
-      "name": "Xually Terribly Cursed",
-      "matchW": 3,
-      "matchL": 1,
-      "mapW": 7,
-      "mapL": 3,
-      "rndW": 113,
-      "rndL": 94,
-      "rank": 1,
-      "mapDiff": 4,
-      "rndDiff": 19
-    },
-    {
       "abbr": "NIP",
       "name": "Name in Progress",
       "matchW": 3,
@@ -154,9 +141,22 @@
       "mapL": 4,
       "rndW": 118,
       "rndL": 96,
-      "rank": 2,
+      "rank": 1,
       "mapDiff": 2,
       "rndDiff": 22
+    },
+    {
+      "abbr": "XTC",
+      "name": "Xually Terribly Cursed",
+      "matchW": 3,
+      "matchL": 1,
+      "mapW": 7,
+      "mapL": 3,
+      "rndW": 113,
+      "rndL": 94,
+      "rank": 2,
+      "mapDiff": 4,
+      "rndDiff": 19
     },
     {
       "abbr": "ATLC",
