@@ -1,51 +1,16 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { events as allEvents } from '../../stores/events.ts';
-import { matches } from '../../stores/matches.ts';
-import { teams } from '../../stores/teams.ts';
+import { players, type PlayerInfo } from '../../stores/players.ts';
 import { playerFlag } from '../../utils/images.ts';
-import { playerSlug } from '../../utils/playerSlug.ts';
 
 import PlayerPanels from '../../components/players/PlayerPanels.tsx';
-import type { Event } from '../../types/types.ts';
 
-interface Props {
-	slug: string;
-	name: string; // the spelling used most often
-	events: Event[]; // every event they were on a roster or played a match in
-}
+type Props = PlayerInfo;
 
-export const getStaticPaths = () => {
-	// Everyone on a roster or in a match's stats, with how often each spelling of their name is used
-	const players = new Map<string, { events: Event[]; spellings: Map<string, number> }>();
-	const add = (name: string, event: Event) => {
-		const slug = playerSlug(name);
-		const player = players.get(slug) ?? { events: [] as Event[], spellings: new Map<string, number>() };
-		if (!player.events.includes(event)) player.events.push(event);
-		player.spellings.set(name, (player.spellings.get(name) ?? 0) + 1);
-		players.set(slug, player);
-	};
-	for (const event of allEvents) {
-		for (const team of Object.values(teams[event.id])) team.players.forEach((name) => add(name, event));
-		for (const match of matches[event.id]) {
-			if (!match.completed) continue; // upcoming matches have no stats yet
-			for (const team of match.combinedStats) team.players.forEach((player) => add(player.Player, event));
-		}
-	}
-	return [...players].map(([slug, { events, spellings }]) => {
-		const name = [...spellings].sort(([, a], [, b]) => b - a)[0][0];
-		return { params: { player: slug }, props: { slug, name, events } };
-	});
-};
+export const getStaticPaths = () => players.map((player) => ({ params: { player: player.slug }, props: player }));
 
-const { slug, name, events } = Astro.props;
+const { slug, name, events, rosterEvents } = Astro.props;
 const latest = events[events.length - 1];
-// Header: only the events they were on a roster for (not the ones they only subbed in), and no showmatches
-const rosterEvents = events.filter(
-	(event) =>
-		!event.showmatch &&
-		Object.values(teams[event.id]).some((team) => team.players.some((player) => playerSlug(player) === slug))
-);
 ---
 
 <Layout

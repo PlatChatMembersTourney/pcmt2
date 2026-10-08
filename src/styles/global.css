@@ -15,6 +15,8 @@
 
 /* Custom colors */
 @theme {
+	--breakpoint-nav: 56.25rem; /* 900px: the full header (nav links + search) fits a half-screen 1080p window */
+
 	/* Dark Theme */
 	--color-vlr-gray-950: #1e1e1e; /* header and footer */
 	--color-vlr-gray-925: #282828; /* home page cards */

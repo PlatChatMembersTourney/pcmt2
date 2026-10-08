@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import slugify from 'slugify';
-import type { Event, Match, Player } from '../../types/types.ts';
+import type { CompletedMatch, Event, Player } from '../../types/types.ts';
 import { teams as allTeams } from '../../stores/teams.ts';
 import { angusRating, toxicRating } from '../../utils/rating.ts';
 import { cx } from '../../utils/cx.ts';
@@ -10,7 +10,7 @@ import PlayerAgentTable, { type AgentRow } from './PlayerAgentTable.tsx';
 interface PlayerOverviewPanelProps {
 	slug: string;
 	events: Event[];
-	matches: { match: Match; event: Event }[];
+	matches: { match: CompletedMatch; event: Event }[];
 }
 
 const DAY = 24 * 60 * 60 * 1000;

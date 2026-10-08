@@ -65,8 +65,8 @@ export interface MapDetail extends MapScore {
 	stats: TeamStats[];
 }
 
-// A complete match.
-export interface Match {
+// What every match has, played or not
+interface MatchBase {
 	id: string;
 	team1: string;
 	team2: string;
@@ -74,14 +74,10 @@ export interface Match {
 	team2Name: string;
 	score1: number;
 	score2: number;
-	completed: boolean;
 	bestOf: number;
 	date: string; // ISO-ish date string
 	stage: string; // e.g. "group-stage", "playoffs"
-	veto: string; // the veto sequence
-	maps: MapScore[];
-	combinedStats: TeamStats[]; // whole-match totals per team
-	mapDetails: MapDetail[]; // per-map breakdown
+	winChance?: { team1: number; team2: number }; // the bot's prediction, 0-1 each
 	streamLink?:
 		| string
 		| {
@@ -89,6 +85,23 @@ export interface Match {
 				name: string;
 		  }[];
 }
+
+// A match that hasn't been played yet - no veto, maps or stats
+export interface UpcomingMatch extends MatchBase {
+	completed: false;
+}
+
+// A played match, with its veto, maps and stats
+export interface CompletedMatch extends MatchBase {
+	completed: true;
+	veto: string; // the veto sequence
+	maps: MapScore[];
+	combinedStats: TeamStats[]; // whole-match totals per team
+	mapDetails: MapDetail[]; // per-map breakdown
+}
+
+// Check match.completed before using the stats (TypeScript enforces it)
+export type Match = UpcomingMatch | CompletedMatch;
 
 export interface TeamInfo {
 	name: string;

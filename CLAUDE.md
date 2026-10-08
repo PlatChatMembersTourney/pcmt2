@@ -17,6 +17,9 @@ Stats site for the PCMT (Plat Chat Members Tournament), a community Valorant tou
 ### Conventions
 
 - Data is loaded in `src/stores/`, one file per data type (`matches.ts`, `teams.ts`, `playerStats.ts`, ...). Import from the specific file you need, so each page only downloads that data. Data is static: plain exports, no state library.
+- `src/stores/` is where anything that brings in data lives; `src/utils/` never imports data. `stores/players.ts` is derived (from matches and rosters) and is used at build time only: by the player pages and the search index.
+- Search: `src/pages/search-index.json.ts` builds `/search-index.json` at build time; `src/utils/search.ts` matches it in the browser (typo tolerant, prefix matches first); `src/components/Search.tsx` is the box in the header (and first in the mobile menu). Add new kinds of pages to the index there.
+- The header switches between its desktop and mobile layouts at the custom `nav:` breakpoint (900px, in `global.css`), so the desktop layout still fits a half-screen 1080p window.
 - Colors: use the theme-aware names from `src/styles/global.css` (`text-main`, `text-muted`, `bg-shade-100`–`400`, `border-line`, `text-pb`, ...), which switch with dark mode on their own, instead of `x dark:y` pairs. Add reused one-off colors to the palette there rather than using arbitrary `[#hex]` values.
 - Conditional classes: `cx()` from `src/utils/cx.ts` (`class:list` in `.astro` files) instead of string concatenation.
 - Anything random (`Math.random()`) must be picked after load with `useRandom` (`src/utils/useRandom.ts`), or the static HTML and the browser disagree (hydration mismatch).

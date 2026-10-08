@@ -93,7 +93,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 					{match.team2Name}
 				</a>
 			</div>
-			<p className="text-center text-[11px] leading-normal italic md:text-xs">{match.veto}</p>
+			<p className="text-center text-[11px] leading-normal italic md:text-xs">{match.completed && match.veto}</p>
 		</div>
 	);
 };
