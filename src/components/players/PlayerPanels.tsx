@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react';
-import type { CompletedMatch, Event } from '../../types/types.ts';
+import type { CompletedMatch, Event, Player } from '../../types/types.ts';
 import { useUrlTab } from '../../utils/urlTab.ts';
 import { useTimezone } from '../../utils/useTimezone.ts';
 import { groupByDay } from '../../utils/datetime.ts';
@@ -13,24 +13,18 @@ import PlayerOverviewPanel from './PlayerOverviewPanel.tsx';
 import MatchCard from '../matches/MatchCard.tsx';
 import TabBar from '../events/TabBar.tsx';
 
-// The player's line for one match, shown under its card: Toxic and Angus ratings, K / D / A, and the agents they played
-const PlayerMatchStats = ({ match, slug }: { match: CompletedMatch; slug: string }) => {
-	const line = match.combinedStats.flatMap((team) => team.players).find((p) => playerSlug(p.Player) === slug);
-	if (!line) return null;
+interface StatStripProps {
+	heading: string; // "Rating", or the map's name
+	line: Player; // the player's stat line
+	rounds: number; // rounds they played, for the Angus rating
+	agents: string[];
+	agentLabel: string;
+	won?: boolean; // map strips: colours the map name green or red
+	divider?: boolean; // border above the strip - off between map strips
+}
 
-	// Rounds they played (for the Angus rating) and their agents, from the per-map stats
-	let rounds = 0;
-	const agents = new Set<string>();
-	for (const map of match.mapDetails) {
-		for (const team of map.stats) {
-			for (const p of team.players) {
-				if (playerSlug(p.Player) !== slug) continue;
-				rounds += p.Rounds ?? map.score1 + map.score2;
-				if (p.Agent) agents.add(p.Agent);
-			}
-		}
-	}
-
+// One strip of the player's stats under a match card: Toxic and Angus ratings, K / D / A, and agents
+const StatStrip = ({ heading, line, rounds, agents, agentLabel, won, divider = true }: StatStripProps) => {
 	const label = 'text-subtle text-[10px] leading-none font-bold uppercase';
 	const unit = 'text-subtle ml-1 text-[10px] font-bold';
 	return (
@@ -38,14 +32,28 @@ const PlayerMatchStats = ({ match, slug }: { match: CompletedMatch; slug: string
 		// so the divider above reaches as far right as the stripes - ! because cool-border's CSS isn't layered
 		// Rating and K / D / A have fixed widths so every strip's columns line up.
 		// Phones: every column centred, and the strip grows to fit the agent icons (stacked under their label there)
-		<div className="bg-shade-200 border-line text-muted cool-border cool-border-pb after:border-line relative flex items-center gap-3 border-t px-4 py-2 text-xs tabular-nums after:-top-px! after:h-[calc(100%+1px)]! after:border-t sm:gap-6 md:h-11 md:py-0 md:pl-37.5">
-			<div className="flex w-21 flex-none flex-col gap-1">
-				<span className={label}>Rating</span>
+		// Without the divider, the stripe runs the full height instead, so stripes of strips in a row join up
+		<div
+			className={cx(
+				'bg-shade-200 text-muted cool-border cool-border-pb relative flex items-center gap-2.5 px-4 py-2 text-xs tabular-nums sm:gap-6 md:h-11 md:py-0 md:pl-37.5',
+				divider
+					? 'border-line after:border-line border-t after:-top-px! after:h-[calc(100%+1px)]! after:border-t'
+					: 'after:top-0! after:h-full!'
+			)}
+		>
+			<div className="flex w-23 flex-none flex-col gap-1">
+				<span className={cx(label, won !== undefined && (won ? 'text-win' : 'text-red-500 dark:text-red-400'))}>
+					{heading}
+				</span>
 				<span className="leading-none">
 					{line['R1.0'].toFixed(2)}
-					<span className={unit}>T</span>
-					<span className="ml-3">{angusRating(line, rounds).toFixed(2)}</span>
-					<span className={unit}>A</span>
+					<span className={unit}>
+						R<sup>T</sup>
+					</span>
+					<span className="ml-2">{angusRating(line, rounds).toFixed(2)}</span>
+					<span className={unit}>
+						R<sup>A</sup>
+					</span>
 				</span>
 			</div>
 			<div className="flex w-19 flex-none flex-col gap-1">
@@ -56,16 +64,64 @@ const PlayerMatchStats = ({ match, slug }: { match: CompletedMatch; slug: string
 			</div>
 			{/* Stacked like the others on phones (to fit 5 icons), label to the left of the icons from md up */}
 			<div className="flex flex-col gap-1 md:flex-row md:items-center md:gap-1.5">
-				<span className={label}>Agents</span>
+				<span className={label}>{agentLabel}</span>
 				<span className="flex h-6 items-center">
-					{agents.size > 0
-						? [...agents].map((agent) => (
+					{agents.length > 0
+						? agents.map((agent) => (
 								<img src={agentIcon(agent)} alt={agent} title={agent} className="h-6 w-6" key={agent} />
 							))
 						: '–'}
 				</span>
 			</div>
 		</div>
+	);
+};
+
+// The player's stats for one match, under its card - the whole match, then (with showMaps) each map they played
+const PlayerMatchStats = ({ match, slug, showMaps }: { match: CompletedMatch; slug: string; showMaps: boolean }) => {
+	const line = match.combinedStats.flatMap((team) => team.players).find((p) => playerSlug(p.Player) === slug);
+	if (!line) return null;
+
+	// The player's line on each map, with the rounds they played there
+	const maps = match.mapDetails.flatMap((map) =>
+		map.stats
+			.flatMap((team) => team.players)
+			.filter((p) => playerSlug(p.Player) === slug)
+			.map((p) => {
+				const team1 = map.stats.find((team) => team.players.includes(p))?.team === match.team1;
+				return {
+					name: map.name,
+					line: p,
+					rounds: p.Rounds ?? map.score1 + map.score2,
+					won: team1 ? map.score1 > map.score2 : map.score2 > map.score1,
+				};
+			})
+	);
+	const agents = [...new Set(maps.flatMap(({ line }) => (line.Agent ? [line.Agent] : [])))];
+
+	return (
+		<>
+			<StatStrip
+				heading="Rating"
+				line={line}
+				rounds={maps.reduce((sum, map) => sum + map.rounds, 0)}
+				agents={agents}
+				agentLabel="Agents"
+			/>
+			{showMaps &&
+				maps.map((map, i) => (
+					<StatStrip
+						heading={map.name}
+						line={map.line}
+						rounds={map.rounds}
+						agents={map.line.Agent ? [map.line.Agent] : []}
+						agentLabel="Agent"
+						won={map.won}
+						divider={i === 0}
+						key={i}
+					/>
+				))}
+		</>
 	);
 };
 
@@ -81,6 +137,7 @@ const PlayerPanels: React.FC<PlayerPanelsProps> = ({ slug, events }) => {
 
 	const timezone = useTimezone();
 	const [showStats, setShowStats] = useState(false);
+	const [showMaps, setShowMaps] = useState(false);
 
 	// Every match the player has stats in
 	const matches = events.flatMap((event) =>
@@ -117,6 +174,17 @@ const PlayerPanels: React.FC<PlayerPanelsProps> = ({ slug, events }) => {
 							>
 								Show Stats
 							</button>
+							{showStats && (
+								<button
+									onClick={() => setShowMaps(!showMaps)}
+									className={cx(
+										'bg-shade-100 text-muted ml-2 cursor-pointer rounded-sm p-2 text-xs',
+										showMaps ? 'font-bold' : 'font-normal'
+									)}
+								>
+									Show Maps
+								</button>
+							)}
 						</div>
 						{matchesGrouped.map(({ date, items }) => {
 							return (
@@ -133,7 +201,13 @@ const PlayerPanels: React.FC<PlayerPanelsProps> = ({ slug, events }) => {
 														event={event}
 														addlClass="not-first:border-t-1 border-t-line!"
 													/>
-													{showStats && <PlayerMatchStats match={match} slug={slug} />}
+													{showStats && (
+														<PlayerMatchStats
+															match={match}
+															slug={slug}
+															showMaps={showMaps}
+														/>
+													)}
 												</Fragment>
 											);
 										})}
