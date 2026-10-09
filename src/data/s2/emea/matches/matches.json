@@ -1,5 +1,22 @@
 [
   {
+    "id": "noot-vs-xtc-s2-playoffs-2026-10-17-2",
+    "team1": "NOOT",
+    "team2": "XTC",
+    "team1Name": "Penguin Patrol",
+    "team2Name": "Xually Terribly Cursed",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-10-17T18:00:00Z",
+    "stage": "Playoffs",
+    "winChance": {
+      "team1": 0.454,
+      "team2": 0.546
+    }
+  },
+  {
     "id": "noot-vs-xtc-s2-playoffs-2026-10-17",
     "team1": "NOOT",
     "team2": "XTC",
