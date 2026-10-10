@@ -27,30 +27,30 @@
       "rndDiff": 44
     },
     {
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
+      "matchW": 7,
+      "matchL": 3,
+      "mapW": 14,
+      "mapL": 8,
+      "rndW": 249,
+      "rndL": 225,
+      "rank": 3,
+      "mapDiff": 6,
+      "rndDiff": 24
+    },
+    {
       "abbr": "C9",
       "name": "Clown9",
       "matchW": 7,
-      "matchL": 2,
-      "mapW": 14,
-      "mapL": 10,
-      "rndW": 271,
-      "rndL": 251,
-      "rank": 3,
-      "mapDiff": 4,
-      "rndDiff": 20
-    },
-    {
-      "abbr": "NAVI",
-      "name": "No Actual Valorant Intelligence",
-      "matchW": 6,
       "matchL": 3,
-      "mapW": 12,
-      "mapL": 7,
-      "rndW": 216,
-      "rndL": 194,
+      "mapW": 15,
+      "mapL": 12,
+      "rndW": 302,
+      "rndL": 284,
       "rank": 4,
-      "mapDiff": 5,
-      "rndDiff": 22
+      "mapDiff": 3,
+      "rndDiff": 18
     },
     {
       "abbr": "SRB",
@@ -438,15 +438,15 @@
     {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
-      "matchW": 2,
+      "matchW": 3,
       "matchL": 0,
-      "mapW": 4,
-      "mapL": 0,
-      "rndW": 54,
-      "rndL": 40,
+      "mapW": 6,
+      "mapL": 1,
+      "rndW": 87,
+      "rndL": 71,
       "rank": 2,
-      "mapDiff": 4,
-      "rndDiff": 14
+      "mapDiff": 5,
+      "rndDiff": 16
     },
     {
       "abbr": "T1",
@@ -465,14 +465,14 @@
       "abbr": "C9",
       "name": "Clown9",
       "matchW": 1,
-      "matchL": 1,
-      "mapW": 2,
-      "mapL": 3,
-      "rndW": 42,
-      "rndL": 55,
+      "matchL": 2,
+      "mapW": 3,
+      "mapL": 5,
+      "rndW": 73,
+      "rndL": 88,
       "rank": 4,
-      "mapDiff": -1,
-      "rndDiff": -13
+      "mapDiff": -2,
+      "rndDiff": -15
     },
     {
       "abbr": "TL",
