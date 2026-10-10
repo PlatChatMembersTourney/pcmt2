@@ -14,19 +14,6 @@
       "rndDiff": 88
     },
     {
-      "abbr": "C9",
-      "name": "Clown9",
-      "matchW": 8,
-      "matchL": 2,
-      "mapW": 16,
-      "mapL": 11,
-      "rndW": 303,
-      "rndL": 276,
-      "rank": 2,
-      "mapDiff": 5,
-      "rndDiff": 27
-    },
-    {
       "abbr": "T1",
       "name": "Team 1",
       "matchW": 8,
@@ -35,9 +22,35 @@
       "mapL": 6,
       "rndW": 261,
       "rndL": 217,
-      "rank": 3,
+      "rank": 2,
       "mapDiff": 11,
       "rndDiff": 44
+    },
+    {
+      "abbr": "C9",
+      "name": "Clown9",
+      "matchW": 7,
+      "matchL": 2,
+      "mapW": 14,
+      "mapL": 10,
+      "rndW": 271,
+      "rndL": 251,
+      "rank": 3,
+      "mapDiff": 4,
+      "rndDiff": 20
+    },
+    {
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
+      "matchW": 6,
+      "matchL": 3,
+      "mapW": 12,
+      "mapL": 7,
+      "rndW": 216,
+      "rndL": 194,
+      "rank": 4,
+      "mapDiff": 5,
+      "rndDiff": 22
     },
     {
       "abbr": "SRB",
@@ -48,22 +61,9 @@
       "mapL": 8,
       "rndW": 243,
       "rndL": 227,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": 5,
       "rndDiff": 16
-    },
-    {
-      "abbr": "NAVI",
-      "name": "No Actual Valorant Intelligence",
-      "matchW": 6,
-      "matchL": 4,
-      "mapW": 13,
-      "mapL": 9,
-      "rndW": 241,
-      "rndL": 226,
-      "rank": 5,
-      "mapDiff": 4,
-      "rndDiff": 15
     },
     {
       "abbr": "FSG",
@@ -436,17 +436,17 @@
       "rndDiff": 39
     },
     {
-      "abbr": "C9",
-      "name": "Clown9",
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
       "matchW": 2,
-      "matchL": 1,
+      "matchL": 0,
       "mapW": 4,
-      "mapL": 4,
-      "rndW": 74,
-      "rndL": 80,
+      "mapL": 0,
+      "rndW": 54,
+      "rndL": 40,
       "rank": 2,
-      "mapDiff": 0,
-      "rndDiff": -6
+      "mapDiff": 4,
+      "rndDiff": 14
     },
     {
       "abbr": "T1",
@@ -462,17 +462,17 @@
       "rndDiff": 13
     },
     {
-      "abbr": "NAVI",
-      "name": "No Actual Valorant Intelligence",
-      "matchW": 2,
+      "abbr": "C9",
+      "name": "Clown9",
+      "matchW": 1,
       "matchL": 1,
-      "mapW": 5,
-      "mapL": 2,
-      "rndW": 79,
-      "rndL": 72,
+      "mapW": 2,
+      "mapL": 3,
+      "rndW": 42,
+      "rndL": 55,
       "rank": 4,
-      "mapDiff": 3,
-      "rndDiff": 7
+      "mapDiff": -1,
+      "rndDiff": -13
     },
     {
       "abbr": "TL",
