@@ -92,7 +92,12 @@ const Search: React.FC<{ placeholder?: string }> = ({ placeholder = 'Search' }) 
 			</label>
 
 			{open && query.trim() && (
-				<div className="border-line bg-shade-100 vlr-box-shadow nav:min-w-96 absolute top-full left-0 z-50 mt-1 max-h-[75vh] w-full overflow-y-auto rounded-sm border py-1">
+				<div
+					className="border-line bg-shade-100 vlr-box-shadow nav:min-w-96 absolute top-full left-0 z-50 mt-1 max-h-[75vh] w-full overflow-y-auto rounded-sm border py-1"
+					// Keep focus in the search box when pressing a result: phones don't focus a tapped link, so the box
+					// would blur and close the results before the tap's click lands
+					onMouseDown={(e) => e.preventDefault()}
+				>
 					{!index && <p className="text-subtle px-3 py-2 text-xs">Loading…</p>}
 					{index && groups.length === 0 && <p className="text-subtle px-3 py-2 text-xs">Revealed no one.</p>}
 					{groups.map((group) => (
