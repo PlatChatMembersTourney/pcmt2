@@ -14,6 +14,19 @@
       "rndDiff": 88
     },
     {
+      "abbr": "C9",
+      "name": "Clown9",
+      "matchW": 8,
+      "matchL": 2,
+      "mapW": 16,
+      "mapL": 11,
+      "rndW": 303,
+      "rndL": 276,
+      "rank": 2,
+      "mapDiff": 5,
+      "rndDiff": 27
+    },
+    {
       "abbr": "T1",
       "name": "Team 1",
       "matchW": 8,
@@ -22,35 +35,9 @@
       "mapL": 6,
       "rndW": 261,
       "rndL": 217,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": 11,
       "rndDiff": 44
-    },
-    {
-      "abbr": "C9",
-      "name": "Clown9",
-      "matchW": 7,
-      "matchL": 2,
-      "mapW": 14,
-      "mapL": 10,
-      "rndW": 271,
-      "rndL": 251,
-      "rank": 3,
-      "mapDiff": 4,
-      "rndDiff": 20
-    },
-    {
-      "abbr": "NAVI",
-      "name": "No Actual Valorant Intelligence",
-      "matchW": 6,
-      "matchL": 3,
-      "mapW": 12,
-      "mapL": 7,
-      "rndW": 216,
-      "rndL": 194,
-      "rank": 4,
-      "mapDiff": 5,
-      "rndDiff": 22
     },
     {
       "abbr": "SRB",
@@ -61,22 +48,22 @@
       "mapL": 8,
       "rndW": 243,
       "rndL": 227,
-      "rank": 5,
+      "rank": 4,
       "mapDiff": 5,
       "rndDiff": 16
     },
     {
-      "abbr": "TL",
-      "name": "Team Dyslexia",
-      "matchW": 5,
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
+      "matchW": 6,
       "matchL": 4,
-      "mapW": 12,
-      "mapL": 10,
-      "rndW": 238,
-      "rndL": 225,
-      "rank": 6,
-      "mapDiff": 2,
-      "rndDiff": 13
+      "mapW": 13,
+      "mapL": 9,
+      "rndW": 241,
+      "rndL": 226,
+      "rank": 5,
+      "mapDiff": 4,
+      "rndDiff": 15
     },
     {
       "abbr": "FSG",
@@ -87,9 +74,22 @@
       "mapL": 10,
       "rndW": 231,
       "rndL": 226,
-      "rank": 7,
+      "rank": 6,
       "mapDiff": 1,
       "rndDiff": 5
+    },
+    {
+      "abbr": "TL",
+      "name": "Team Dyslexia",
+      "matchW": 5,
+      "matchL": 4,
+      "mapW": 12,
+      "mapL": 10,
+      "rndW": 238,
+      "rndL": 225,
+      "rank": 7,
+      "mapDiff": 2,
+      "rndDiff": 13
     },
     {
       "abbr": "TS",
@@ -105,19 +105,6 @@
       "rndDiff": -10
     },
     {
-      "abbr": "SSG",
-      "name": "Squirtle Squad Gaming",
-      "matchW": 3,
-      "matchL": 4,
-      "mapW": 8,
-      "mapL": 8,
-      "rndW": 188,
-      "rndL": 170,
-      "rank": 9,
-      "mapDiff": 0,
-      "rndDiff": 18
-    },
-    {
       "abbr": "100T",
       "name": "100 Tony's",
       "matchW": 3,
@@ -126,9 +113,22 @@
       "mapL": 10,
       "rndW": 179,
       "rndL": 185,
-      "rank": 10,
+      "rank": 9,
       "mapDiff": -3,
       "rndDiff": -6
+    },
+    {
+      "abbr": "SSG",
+      "name": "Squirtle Squad Gaming",
+      "matchW": 3,
+      "matchL": 4,
+      "mapW": 8,
+      "mapL": 8,
+      "rndW": 188,
+      "rndL": 170,
+      "rank": 10,
+      "mapDiff": 0,
+      "rndDiff": 18
     },
     {
       "abbr": "BAKA",
@@ -211,19 +211,6 @@
   ],
   "Group Alpha": [
     {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 6,
-      "matchL": 1,
-      "mapW": 12,
-      "mapL": 4,
-      "rndW": 185,
-      "rndL": 154,
-      "rank": 1,
-      "mapDiff": 8,
-      "rndDiff": 31
-    },
-    {
       "abbr": "C9",
       "name": "Clown9",
       "matchW": 6,
@@ -232,9 +219,22 @@
       "mapL": 7,
       "rndW": 229,
       "rndL": 196,
-      "rank": 2,
+      "rank": 1,
       "mapDiff": 5,
       "rndDiff": 33
+    },
+    {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 6,
+      "matchL": 1,
+      "mapW": 12,
+      "mapL": 4,
+      "rndW": 185,
+      "rndL": 154,
+      "rank": 2,
+      "mapDiff": 8,
+      "rndDiff": 31
     },
     {
       "abbr": "FSG",
@@ -436,17 +436,17 @@
       "rndDiff": 39
     },
     {
-      "abbr": "NAVI",
-      "name": "No Actual Valorant Intelligence",
+      "abbr": "C9",
+      "name": "Clown9",
       "matchW": 2,
-      "matchL": 0,
+      "matchL": 1,
       "mapW": 4,
-      "mapL": 0,
-      "rndW": 54,
-      "rndL": 40,
+      "mapL": 4,
+      "rndW": 74,
+      "rndL": 80,
       "rank": 2,
-      "mapDiff": 4,
-      "rndDiff": 14
+      "mapDiff": 0,
+      "rndDiff": -6
     },
     {
       "abbr": "T1",
@@ -462,6 +462,19 @@
       "rndDiff": 13
     },
     {
+      "abbr": "NAVI",
+      "name": "No Actual Valorant Intelligence",
+      "matchW": 2,
+      "matchL": 1,
+      "mapW": 5,
+      "mapL": 2,
+      "rndW": 79,
+      "rndL": 72,
+      "rank": 4,
+      "mapDiff": 3,
+      "rndDiff": 7
+    },
+    {
       "abbr": "TL",
       "name": "Team Dyslexia",
       "matchW": 1,
@@ -470,22 +483,9 @@
       "mapL": 2,
       "rndW": 55,
       "rndL": 47,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": 1,
       "rndDiff": 8
-    },
-    {
-      "abbr": "C9",
-      "name": "Clown9",
-      "matchW": 1,
-      "matchL": 1,
-      "mapW": 2,
-      "mapL": 3,
-      "rndW": 42,
-      "rndL": 55,
-      "rank": 5,
-      "mapDiff": -1,
-      "rndDiff": -13
     },
     {
       "abbr": "FSG",
