@@ -179,13 +179,13 @@
   "FaZe": {
     "team": "FaZe",
     "teamName": "Fabulous and Zesty",
-    "overallAtkPct": 0.495,
-    "overallDefPct": 0.417,
+    "overallAtkPct": 0.474,
+    "overallDefPct": 0.439,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -199,14 +199,14 @@
         "map": "Ascent",
         "pick": 1,
         "ban": 0,
-        "played": 2,
-        "won": 1,
-        "winPct": 0.5,
-        "rounds": 41,
-        "roundsWon": 20,
-        "roundPct": 0.488,
-        "atkPct": 0.55,
-        "defPct": 0.429
+        "played": 3,
+        "won": 2,
+        "winPct": 0.667,
+        "rounds": 67,
+        "roundsWon": 34,
+        "roundPct": 0.507,
+        "atkPct": 0.5,
+        "defPct": 0.514
       },
       {
         "map": "Bind",
@@ -288,16 +288,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 2,
+        "played": 3,
         "won": 2,
-        "winPct": 1.0,
-        "rounds": 56,
-        "roundsWon": 30,
-        "roundPct": 0.536,
-        "atkPct": 0.5,
-        "defPct": 0.571
+        "winPct": 0.667,
+        "rounds": 80,
+        "roundsWon": 41,
+        "roundPct": 0.512,
+        "atkPct": 0.45,
+        "defPct": 0.575
       },
       {
         "map": "Pearl",
@@ -315,7 +315,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 4,
+        "ban": 5,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -342,14 +342,14 @@
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 21,
-        "roundsWon": 13,
-        "roundPct": 0.619,
-        "atkPct": 0.667,
-        "defPct": 0.583
+        "winPct": 0.5,
+        "rounds": 42,
+        "roundsWon": 21,
+        "roundPct": 0.5,
+        "atkPct": 0.571,
+        "defPct": 0.429
       }
     ]
   },
@@ -1241,8 +1241,8 @@
   "SEAL": {
     "team": "SEAL",
     "teamName": "Stay Seally",
-    "overallAtkPct": 0.392,
-    "overallDefPct": 0.435,
+    "overallAtkPct": 0.412,
+    "overallDefPct": 0.477,
     "maps": [
       {
         "map": "Abyss",
@@ -1259,16 +1259,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 0,
+        "pick": 1,
         "ban": 3,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 20,
-        "roundsWon": 13,
-        "roundPct": 0.65,
-        "atkPct": 0.625,
-        "defPct": 0.667
+        "winPct": 0.5,
+        "rounds": 46,
+        "roundsWon": 25,
+        "roundPct": 0.543,
+        "atkPct": 0.455,
+        "defPct": 0.625
       },
       {
         "map": "Bind",
@@ -1325,7 +1325,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 2,
         "won": 1,
         "winPct": 0.5,
@@ -1352,14 +1352,14 @@
         "map": "Lotus",
         "pick": 2,
         "ban": 0,
-        "played": 3,
-        "won": 1,
-        "winPct": 0.333,
-        "rounds": 53,
-        "roundsWon": 25,
-        "roundPct": 0.472,
-        "atkPct": 0.444,
-        "defPct": 0.5
+        "played": 4,
+        "won": 2,
+        "winPct": 0.5,
+        "rounds": 77,
+        "roundsWon": 38,
+        "roundPct": 0.494,
+        "atkPct": 0.436,
+        "defPct": 0.553
       },
       {
         "map": "Pearl",
@@ -1390,7 +1390,7 @@
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 1,
+        "ban": 2,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -1404,14 +1404,14 @@
         "map": "Sunset",
         "pick": 0,
         "ban": 2,
-        "played": 2,
-        "won": 0,
-        "winPct": 0.0,
-        "rounds": 34,
-        "roundsWon": 8,
-        "roundPct": 0.235,
-        "atkPct": 0.208,
-        "defPct": 0.3
+        "played": 3,
+        "won": 1,
+        "winPct": 0.333,
+        "rounds": 55,
+        "roundsWon": 21,
+        "roundPct": 0.382,
+        "atkPct": 0.364,
+        "defPct": 0.409
       }
     ]
   },
