@@ -18,7 +18,7 @@ Those five rounds were the only rounds that SEAL would be able to find for the r
 
 The second pistol went the way of FaZe and this time, they were able to convert the follow up, extending their lead to 9-5. However, with SEAL's double Sentinel composition, the sites proved unassailable time and time again as the defenders stormed back to map point. With no room for error, FaZe called for a gutsy A execute, where a crucial [dragonflyod](/players/dragonflyod) 2K cracked open the site and forced overtime.
 
-OT started FaZe on defense and as they'd shown in the first half, their retake ability proved the difference as they claimed map point. With sides switching, FaZe were finally able to put their attacking woes to bed as they claim their opponent's map pick of Ascent 14-12.
+OT started FaZe on defense and as they'd shown in the first half, their retake ability proved the difference as they claimed map point. With sides switching, FaZe were finally able to put their attacking woes to bed as they claimed their opponent's map pick of Ascent 14-12.
 
 [Lotus](/events/s2-emea/faze-vs-seal-s2-playoffs-2026-10-11?map=Lotus), FaZe's map pick, started similarly to Ascent. FaZe secured the pistol, only to lose their anti-eco and the following two rounds. This time, FaZe were able to right the ship, conceding only two of the next eight rounds on the way to a 7-5 lead at the half.
 
@@ -26,7 +26,7 @@ The second half of Lotus showed us a different side to SEAL, winning six of the 
 
 The first half of [Sunset](/events/s2-emea/faze-vs-seal-s2-playoffs-2026-10-11?map=Lotus) was incredibly back and forth. FaZe continued to dominate the pistols but SEAL's Sage and Chamber comp continued to go round-for-round against FaZe's double Duelist.
 
-The second half started with FaZe's fifth pistol of the series and looked like they were in the driver's seat after converting the bonus for an 8-6 lead. SEAL had other thoughts, turning up another gear as they managed to slip the net of FaZe's aggression and site stacks in what seems like every round. A timeout proved fruitless for FaZe as SEAL raced away to a scoreline of 13-8.
+The second half started with FaZe's fifth pistol of the series and looked like they were in the driver's seat after converting the bonus for an 8-6 lead. SEAL had other plans, turning up another gear as they managed to slip the net of FaZe's aggression and site stacks in what seemed like every round. A timeout proved fruitless for FaZe as SEAL raced away to a final scoreline of 13-8.
 
 [heef](/players/heef) was the best player on the server in a losing effort: 304 ACS and 75 kills across the series and a series high 1.40 Rating<sup>T</sup>.
 
