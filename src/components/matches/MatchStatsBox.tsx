@@ -1,9 +1,9 @@
 import type { Match, Event, TeamInfo, MapDetail } from '../../types/types.ts';
-import { useState } from 'react';
 import StatsTable from './StatsTable.tsx';
 import Timeline from './Timeline.tsx';
 import { cx } from '../../utils/cx.ts';
 import { randomItem, useRandom } from '../../utils/useRandom.ts';
+import { useUrlTab } from '../../utils/urlTab.ts';
 
 interface MatchStatsBoxProps {
 	match: Match;
@@ -42,6 +42,12 @@ const getRounds = (mapDetails: MapDetail[]) => {
 	});
 
 	return rounds;
+};
+
+// Maps the series ended before playing
+const getUnplayedMaps = (veto: string, played: string[], bestOf: number) => {
+	const picked = [...veto.matchAll(/picks? (\w+)|(\w+) remains|remains (\w+)/gi)].map((m) => m[1] ?? m[2] ?? m[3]);
+	return picked.filter((name) => !played.includes(name)).slice(0, Math.max(bestOf - played.length, 0));
 };
 
 const copypastas = [
@@ -83,8 +89,11 @@ const copypastas = [
 
 const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 	const { match, event, teams } = props;
-	// map 0: all maps
-	const [selectedMap, setSelectedMap] = useState(0);
+	// Selected map, kept in the URL (?map=Sunset)
+	const [selectedMap, setSelectedMap] = useUrlTab(
+		'map',
+		match.completed ? ['All', ...match.maps.map((m) => m.name)] : []
+	);
 	// shown instead of stats while the match hasn't been played
 	const copypasta = useRandom(() => randomItem(copypastas));
 
@@ -101,14 +110,24 @@ const MatchStatsBox: React.FC<MatchStatsBoxProps> = (props) => {
 	return (
 		<div className="bg-shade-200 vlr-box-shadow flex flex-col">
 			<div className="border-line flex h-18.5 items-center gap-3 overflow-x-auto border-b p-3">
-				{[{ name: 'All' }, ...match.maps].map(({ name }, idx) => {
+				{[
+					{ name: 'All', unplayed: false },
+					...match.maps.map((m) => ({ name: m.name, unplayed: false })),
+					...getUnplayedMaps(
+						match.veto,
+						match.maps.map((m) => m.name),
+						match.bestOf
+					).map((name) => ({ name, unplayed: true })),
+				].map(({ name, unplayed }, idx) => {
 					return (
 						<button
 							key={name}
 							onClick={() => setSelectedMap(idx)}
+							disabled={unplayed}
 							className={cx(
-								'h-full flex-1 cursor-pointer rounded-xs text-center text-[11px]',
+								'h-full flex-1 rounded-xs text-center text-[11px]',
 								match.bestOf === 3 ? 'min-w-20' : 'min-w-15',
+								unplayed ? 'cursor-default' : 'cursor-pointer',
 								selectedMap === idx
 									? 'bg-vlr-border-mid text-white dark:bg-[#848f9a]'
 									: 'text-muted bg-shade-100'
