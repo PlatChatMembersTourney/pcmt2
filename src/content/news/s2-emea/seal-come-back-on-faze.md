@@ -30,7 +30,7 @@ The second half started with FaZe's fifth pistol of the series and looked like t
 
 [heef](/players/heef) was the best player on the server in a losing effort: 304 ACS and 75 kills across the series and a series high 1.40 Rating<sup>T</sup>.
 
-[Ghrf6](/players/ghrf6) solidified themself as one of the most consistent players in the server, putting up a team high 68 kills and a 1.24 Rating<sup>T</sup> on Sage and Viper.
+[Ghrf6](/players/ghrf6) solidified themself as one of the most consistent players in the server, putting up a team high 68 kills and a 1.24 Rating<sup>T</sup> on traditionally low-fraggin agents, Sage and Viper.
 
 Unfortunately, we have to say goodbye to our first team of the tournament. FaZe exit at the first playoff hurdle, but not without a fight.
 
