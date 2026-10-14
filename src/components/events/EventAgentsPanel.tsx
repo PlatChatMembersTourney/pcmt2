@@ -4,11 +4,7 @@ import { agentStats as allAgentStats } from '../../stores/agentStats.ts';
 import { teams as allTeams } from '../../stores/teams.ts';
 import { agentIcon } from '../../utils/images.ts';
 import { cx } from '../../utils/cx.ts';
-
-const pctFormatter = new Intl.NumberFormat('en-US', {
-	style: 'percent',
-	maximumFractionDigits: 0,
-});
+import { pctFormatter } from '../../utils/format.ts';
 
 // vlr's table look: one cell color, grid lines, and a thicker line under the header (plus our top stripe)
 const TABLE_CLASSES =
@@ -72,7 +68,7 @@ const EventAgentsPanel: React.FC<{ event: Event }> = ({ event }) => {
 
 	return (
 		<div className="bg-shade-300 flex flex-col p-4 sm:p-6">
-			<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase">Pick Rates</h2>
+			<h2 className="section-label mb-3 ml-4">Pick Rates</h2>
 			<div className="overflow-x-auto">
 				<table className={TABLE_CLASSES}>
 					<thead>
@@ -129,7 +125,7 @@ const EventAgentsPanel: React.FC<{ event: Event }> = ({ event }) => {
 				</table>
 			</div>
 
-			<h2 className="mt-6 mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase">Agents By Map</h2>
+			<h2 className="section-label mt-6 mb-3 ml-4">Agents By Map</h2>
 			<div className="flex flex-col gap-4">
 				{maps.map(([name, map]) => (
 					<div key={name} className="overflow-x-auto">

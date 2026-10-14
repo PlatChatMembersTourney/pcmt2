@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import type { TeamStats, Event, Player } from '../../types/types.ts';
 import { angusRating } from '../../utils/rating.ts';
-import CustomPopover from '../CustomPopover.tsx';
+import { AcsHeader, AngusHeader, ToxicHeader } from '../stats/RatingHeaders.tsx';
 import { agentIcon, playerFlag } from '../../utils/images.ts';
 import { playerSlug } from '../../utils/playerSlug.ts';
 import { cx } from '../../utils/cx.ts';
+import { pctFormatter } from '../../utils/format.ts';
 
 // Green when positive, red when negative
 const plusMinusColor = (value: number) =>
@@ -16,11 +17,6 @@ interface StatsTableProps {
 	teamStats: TeamStats[]; // stats for 2 teams
 	rounds: number | Record<string, number>;
 }
-
-const pctFormatter = new Intl.NumberFormat('en-US', {
-	style: 'percent',
-	maximumFractionDigits: 0,
-});
 
 // What each sortable column sorts by
 const sortValues: Record<string, (player: Player, rounds: number) => number> = {
@@ -68,85 +64,27 @@ const StatsTable: React.FC<StatsTableProps> = (props: StatsTableProps) => {
 									<th></th>
 									<th title="Agent"></th>
 									<th {...sortable('Toxic')}>
-										<CustomPopover
-											side={'top'}
-											hover={true}
-											content={
-												<div className="text-faint flex flex-col text-xs">
-													<p className="mb-1">
-														I say "toxic", but really it's stolen (with some tweaks).
-													</p>
-
-													<p>Specifically, from Mark Zhdan's </p>
-													<a
-														href="https://www.markzhdan.com/blogs/reverse-engineering-vlr-rating"
-														className="mb-2 underline"
-													>
-														attempt to reverse engineer VLR's Rating 2.0.
-													</a>
-
-													<p className="mb-1">The formula:</p>
-													<p className="text-bright">
-														0.898 * KPR + 0.228 * APR + 0.0025 * ADRa
-													</p>
-													<p className="text-bright mb-1">+ 0.313 * KAST + 0.295</p>
-													<p>(ADRa = [(ADR * Rounds) - (140 * Kills)] / Rounds)</p>
-												</div>
+										<ToxicHeader
+											label={
+												<>
+													R<sup>T</sup>
+												</>
 											}
-											title={"toxic's Rating"}
-										>
-											<span className="border-faint border-b-2 border-dotted px-0.5">
-												R<sup>T</sup>
-											</span>
-										</CustomPopover>
+											side="top"
+										/>
 									</th>
 									<th {...sortable('Angus')}>
-										<CustomPopover
-											side={'top'}
-											hover={true}
-											content={
-												<div className="text-faint flex flex-col text-xs">
-													<p>Adjusted version of VLR rating version 1.0.</p>
-													<p className="mb-1">(So like a 1.5, according to Angus.)</p>
-
-													<p className="mb-1">The formula:</p>
-													<p className="text-bright">1.26 * KPR - 0.13 * DPR + 0.55 * APR</p>
-													<p className="text-bright">+ 0.25 * FKPR - 0.26 * FDPR</p>
-												</div>
+										<AngusHeader
+											label={
+												<>
+													R<sup>A</sup>
+												</>
 											}
-											title={"Angus's Rating"}
-										>
-											<span className="border-faint border-b-2 border-dotted px-0.5">
-												R<sup>A</sup>
-											</span>
-										</CustomPopover>
+											side="top"
+										/>
 									</th>
 									<th {...sortable('ACS')}>
-										<CustomPopover
-											side={'top'}
-											hover={true}
-											content={
-												<div className="text-faint flex flex-col text-xs">
-													<p>You know it, you love it:</p>
-													<p className="mb-1">Valorant's very own ACS.</p>
-
-													<p className="mb-1">In case you forgot how to calculate it:</p>
-													<p className="text-bright">Combat Score: 1 pt / damage dealt,</p>
-													<p className="text-bright">
-														150/130/110/90/70 pts/kill based on enemies alive,
-													</p>
-													<p className="text-bright mb-1">
-														+50 per additional kill, +25 for non-damaging assists
-													</p>
-													<p className="text-bright">
-														ACS = Average combat score across all rounds
-													</p>
-												</div>
-											}
-											title={'Average Combat Score'}
-										>
-											<span className="border-faint border-b-2 border-dotted px-0.5">ACS</span>
-										</CustomPopover>
+										<AcsHeader side="top" />
 									</th>
 									<th title="Kills" {...sortable('K')}>
 										<div className="ml-1.25 flex justify-center">

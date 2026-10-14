@@ -1,8 +1,6 @@
-import { Fragment, useState } from 'react';
+import { useState } from 'react';
 import type { CompletedMatch, Event, Player } from '../../types/types.ts';
 import { useUrlTab } from '../../utils/urlTab.ts';
-import { useTimezone } from '../../utils/useTimezone.ts';
-import { groupByDay } from '../../utils/datetime.ts';
 import { playerSlug } from '../../utils/playerSlug.ts';
 import { matches as allMatches } from '../../stores/matches.ts';
 import { agentIcon } from '../../utils/images.ts';
@@ -10,7 +8,7 @@ import { angusRating } from '../../utils/rating.ts';
 import { cx } from '../../utils/cx.ts';
 
 import PlayerOverviewPanel from './PlayerOverviewPanel.tsx';
-import MatchCard from '../matches/MatchCard.tsx';
+import MatchList from '../matches/MatchList.tsx';
 import TabBar from '../events/TabBar.tsx';
 import ToggleButton from '../ToggleButton.tsx';
 
@@ -136,7 +134,6 @@ const PlayerPanels: React.FC<PlayerPanelsProps> = ({ slug, events }) => {
 	const [activeIdx, setActive] = useUrlTab('tab', pages);
 	const active = pages[activeIdx];
 
-	const timezone = useTimezone();
 	const [showStats, setShowStats] = useState(false);
 	const [showMaps, setShowMaps] = useState(false);
 
@@ -147,9 +144,8 @@ const PlayerPanels: React.FC<PlayerPanelsProps> = ({ slug, events }) => {
 			.filter((match) =>
 				match.combinedStats.some((team) => team.players.some((player) => playerSlug(player.Player) === slug))
 			)
-			.map((match) => ({ date: match.date, match, event }))
+			.map((match) => ({ match, event }))
 	);
-	const matchesGrouped = groupByDay(matches, timezone).reverse();
 
 	return (
 		<div className="flex flex-col">
@@ -162,10 +158,12 @@ const PlayerPanels: React.FC<PlayerPanelsProps> = ({ slug, events }) => {
 			/>
 
 			{active === 'Overview' && <PlayerOverviewPanel slug={slug} events={events} matches={matches} />}
-			{active === 'Matches' &&
-				(matchesGrouped.length > 0 ? (
-					<div className="bg-shade-300 text-main mx-4 flex flex-col gap-7.5 py-6 sm:mx-6">
-						<div>
+			{active === 'Matches' && (
+				<MatchList
+					matches={matches}
+					className="mx-4 py-6 sm:mx-6"
+					controls={
+						<>
 							<ToggleButton on={showStats} onClick={() => setShowStats(!showStats)}>
 								Show Stats
 							</ToggleButton>
@@ -174,44 +172,14 @@ const PlayerPanels: React.FC<PlayerPanelsProps> = ({ slug, events }) => {
 									Show Maps
 								</ToggleButton>
 							)}
-						</div>
-						{matchesGrouped.map(({ date, items }) => {
-							return (
-								<div className="flex flex-col" key={date}>
-									<h2 className="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">
-										{date}
-									</h2>
-									<div className="vlr-box-shadow flex flex-col">
-										{items.map(({ match, event }) => {
-											return (
-												<Fragment key={match.id}>
-													<MatchCard
-														match={match}
-														event={event}
-														addlClass="not-first:border-t-1 border-t-line!"
-													/>
-													{showStats && (
-														<PlayerMatchStats
-															match={match}
-															slug={slug}
-															showMaps={showMaps}
-														/>
-													)}
-												</Fragment>
-											);
-										})}
-									</div>
-								</div>
-							);
-						})}
-					</div>
-				) : (
-					<div className="bg-shade-300 text-main mx-4 h-full py-6 sm:mx-6">
-						<div>
-							<img src={'/res/exist.png'} />
-						</div>
-					</div>
-				))}
+						</>
+					}
+					renderAfter={(match) =>
+						showStats &&
+						match.completed && <PlayerMatchStats match={match} slug={slug} showMaps={showMaps} />
+					}
+				/>
+			)}
 		</div>
 	);
 };

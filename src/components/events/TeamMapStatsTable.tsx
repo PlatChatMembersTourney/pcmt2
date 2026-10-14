@@ -16,6 +16,8 @@ import {
 } from '@tanstack/react-table';
 import { useState } from 'react';
 import { cx } from '../../utils/cx.ts';
+import { SortHeader } from '../SortHeader.tsx';
+import { pctFormatter } from '../../utils/format.ts';
 
 interface TeamMapStatsTableProps {
 	teamMapStats: TeamMapStats;
@@ -33,11 +35,6 @@ const features = tableFeatures({
 		datetime: sortFn_datetime,
 		text: sortFn_text,
 	},
-});
-
-const pctFormatter = new Intl.NumberFormat('en-US', {
-	style: 'percent',
-	maximumFractionDigits: 0,
 });
 
 const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
@@ -112,28 +109,9 @@ const TeamMapStatsTable: React.FC<TeamMapStatsTableProps> = (props) => {
 										)}
 									>
 										{header.isPlaceholder ? null : (
-											<div
-												className={cx(
-													header.column.getCanSort() &&
-														'text-bright cursor-pointer select-none'
-												)}
-												onClick={header.column.getToggleSortingHandler()}
-												title={
-													header.column.getCanSort()
-														? header.column.getNextSortingOrder() === 'asc'
-															? 'Sort ascending'
-															: header.column.getNextSortingOrder() === 'desc'
-																? 'Sort descending'
-																: 'Clear sort'
-														: undefined
-												}
-											>
+											<SortHeader column={header.column}>
 												{flexRender(header.column.columnDef.header, header.getContext())}
-												{{
-													asc: '▲',
-													desc: '▼',
-												}[header.column.getIsSorted() as string] ?? null}
-											</div>
+											</SortHeader>
 										)}
 									</th>
 								);

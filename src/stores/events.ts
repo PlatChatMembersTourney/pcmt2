@@ -9,6 +9,9 @@ import eventsRaw from '../data/events.json';
 
 export const events = fromJson<Event[]>(eventsRaw);
 
+// Events by id
+export const eventById: Record<string, Event> = Object.fromEntries(events.map((event) => [event.id, event]));
+
 // Each event's file from a glob, keyed by event id - `fallback` if the event doesn't have that file
 export const byEvent = <T>(files: Record<string, T>, file: string, fallback: T): Record<string, T> =>
 	Object.fromEntries(events.map((event) => [event.id, files[`../data/${event.path}/${file}`] ?? fallback]));

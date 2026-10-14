@@ -3,6 +3,8 @@ import slugify from 'slugify';
 import { timeUntil } from '../../utils/datetime.ts';
 import { eventLogo } from '../../utils/images.ts';
 import { cx } from '../../utils/cx.ts';
+import { useNow } from '../../utils/useNow.ts';
+import { useTimezone } from '../../utils/useTimezone.ts';
 
 interface MatchHeaderProps {
 	match: Match;
@@ -10,20 +12,25 @@ interface MatchHeaderProps {
 	teams: Record<string, TeamInfo>;
 }
 
-const dateFormatter = new Intl.DateTimeFormat('en-US', {
-	month: 'long',
-	day: 'numeric',
-	weekday: 'short',
-	year: 'numeric',
-});
-const timeFormatter = new Intl.DateTimeFormat('en-US', {
-	hour: 'numeric',
-	minute: '2-digit',
-	timeZoneName: 'short',
-});
-
 const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 	const { match, event, teams } = props;
+	// In the visitor's timezone, and the countdown only once loaded - see useTimezone and useNow
+	const timezone = useTimezone();
+	const now = useNow();
+	const date = new Date(match.date);
+	const dateText = date.toLocaleDateString('en-US', {
+		timeZone: timezone,
+		month: 'long',
+		day: 'numeric',
+		weekday: 'short',
+		year: 'numeric',
+	});
+	const timeText = date.toLocaleTimeString('en-US', {
+		timeZone: timezone,
+		hour: 'numeric',
+		minute: '2-digit',
+		timeZoneName: 'short',
+	});
 
 	const team1Winner = match.completed && match.score1 > match.score2;
 
@@ -43,8 +50,8 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 					<p className="flex-1 text-xs leading-4.5">{match.stage}</p>
 				</div>
 				<div className="ml-auto flex flex-col text-right">
-					<p className="flex-1 text-xs leading-4.5">{dateFormatter.format(new Date(match.date))}</p>
-					<p className="flex-1 text-xs leading-4.5">{timeFormatter.format(new Date(match.date))}</p>
+					<p className="flex-1 text-xs leading-4.5">{dateText}</p>
+					<p className="flex-1 text-xs leading-4.5">{timeText}</p>
 				</div>
 			</div>
 			<div className="mt-10 mb-15 flex items-center justify-center">
@@ -61,7 +68,7 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 					{match.completed ? (
 						<p className="text-vlr-text-gray text-[10px] uppercase">Final</p>
 					) : (
-						<p className="text-[10px] text-green-400 uppercase">{timeUntil(match.date)}</p>
+						<p className="text-[10px] text-green-400 uppercase">{now && timeUntil(match.date, now)}</p>
 					)}
 
 					<p className="text-base font-medium md:text-3xl">

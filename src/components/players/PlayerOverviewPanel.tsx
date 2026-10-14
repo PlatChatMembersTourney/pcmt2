@@ -114,7 +114,7 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 	return (
 		<div className="bg-shade-300 flex flex-col p-4 sm:p-6">
 			<div className="mb-3 ml-4 flex items-center justify-between">
-				<h2 className="text-[11px] leading-none font-bold text-red-400 uppercase">Teams</h2>
+				<h2 className="section-label">Teams</h2>
 				<ToggleButton on={showSubs} onClick={() => setShowSubs(!showSubs)}>
 					Show Subs ({playerTeams.filter(({ sub }) => sub).length})
 				</ToggleButton>
@@ -141,9 +141,7 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 
 			<div className="mt-6 mb-3 ml-4 flex items-end justify-between gap-2">
 				{/* as tall as the Include Subs row, so it's centered on that row when the filters wrap */}
-				<h2 className="flex h-8 items-center text-[11px] leading-none font-bold text-red-400 uppercase">
-					Agents
-				</h2>
+				<h2 className="section-label flex h-8 items-center">Agents</h2>
 				{/* Events filter: next to the other filters, or above them when there isn't room */}
 				<div className="flex flex-col items-end gap-2 md:flex-row md:items-center md:gap-4">
 					<div className="text-faint flex flex-wrap items-center justify-end gap-1 text-[10px]">

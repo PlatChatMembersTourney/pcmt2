@@ -4,15 +4,13 @@ import type { Event, Match, TeamInfo } from '../../types/types.ts';
 import { matches as allMatches } from '../../stores/matches.ts';
 import { teamMapStats as allTeamMapStats } from '../../stores/teamMapStats.ts';
 import { teams as allTeams } from '../../stores/teams.ts';
-import { groupByDay } from '../../utils/datetime.ts';
-import MatchCard from '../matches/MatchCard.tsx';
+import MatchList from '../matches/MatchList.tsx';
 import TeamMapStatsTable from './TeamMapStatsTable.tsx';
 import TabBar from './TabBar.tsx';
 import { playerFlag } from '../../utils/images.ts';
 import { playerSlug } from '../../utils/playerSlug.ts';
 import { events as allEvents } from '../../stores/events.ts';
 
-import { useTimezone } from '../../utils/useTimezone.ts';
 import { randomItem, useRandom } from '../../utils/useRandom.ts';
 import ToggleButton from '../ToggleButton.tsx';
 
@@ -39,21 +37,13 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 	const [active, setActive] = useState<string>('Overview');
 	const [reverse, setReverse] = useState(false);
 
-	const timezone = useTimezone();
-
 	const events = teamEvents(event, team, allTeams);
 
 	const matches = events.flatMap((e) =>
 		allMatches[e.id]
 			.filter((match: Match) => match.team1Name === team.name || match.team2Name === team.name)
-			.map((match) => ({ date: match.date, match, event: e }))
+			.map((match) => ({ match, event: e }))
 	);
-
-	let matchesGrouped = groupByDay(matches, timezone);
-	if (!reverse) {
-		// change default to reversed
-		matchesGrouped = matchesGrouped.reverse();
-	}
 
 	// Everyone who played, with the events they played in
 	const roster = new Map<string, { player: string; events: Event[] }>();
@@ -93,9 +83,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 
 			{active === 'Overview' && (
 				<div className="mx-4 mt-6 flex flex-col sm:mx-6">
-					<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase">
-						{events.length > 1 ? 'Roster' : 'Current Roster'}
-					</h2>
+					<h2 className="section-label mb-3 ml-4">{events.length > 1 ? 'Roster' : 'Current Roster'}</h2>
 					<div className="vlr-box-shadow bg-shade-100 text-muted flex flex-col gap-2 p-4">
 						{[...roster.values()].map(({ player, events: playerEvents }) => {
 							return (
@@ -124,42 +112,15 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 			)}
 			{active === 'Matches' && (
 				<div className="mx-4 sm:mx-6">
-					{matchesGrouped?.length > 0 ? (
-						<div className="bg-shade-300 text-main flex flex-col gap-7.5 py-6">
-							<div>
-								<ToggleButton on={reverse} onClick={() => setReverse(!reverse)} className="ml-2">
-									{reverse ? 'esreveR' : 'Reverse'}
-								</ToggleButton>
-							</div>
-							{matchesGrouped.map(({ date, items }) => {
-								return (
-									<div className="flex flex-col" key={date}>
-										<h2 className="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">
-											{date}
-										</h2>
-										<div className="vlr-box-shadow flex flex-col">
-											{items.map(({ match, event: matchEvent }) => {
-												return (
-													<MatchCard
-														match={match}
-														event={matchEvent}
-														addlClass="not-first:border-t-1 border-t-line!"
-														key={match.id}
-													/>
-												);
-											})}
-										</div>
-									</div>
-								);
-							})}
-						</div>
-					) : (
-						<div className="bg-shade-300 text-main h-full py-6">
-							<div>
-								<img src={'/res/exist.png'} />
-							</div>
-						</div>
-					)}
+					<MatchList
+						matches={matches}
+						oldestFirst={reverse}
+						controls={
+							<ToggleButton on={reverse} onClick={() => setReverse(!reverse)} className="ml-2">
+								{reverse ? 'esreveR' : 'Reverse'}
+							</ToggleButton>
+						}
+					/>
 				</div>
 			)}
 			{active === 'Stats' &&
@@ -176,9 +137,7 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 										Overall win rates: ATK {pctFormatter.format(stats.overallAtkPct)} DEF{' '}
 										{pctFormatter.format(stats.overallDefPct)}
 									</p>
-									<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase">
-										Map Stats
-									</h2>
+									<h2 className="section-label mb-3 ml-4">Map Stats</h2>
 									<TeamMapStatsTable teamMapStats={stats} />
 								</div>
 							);

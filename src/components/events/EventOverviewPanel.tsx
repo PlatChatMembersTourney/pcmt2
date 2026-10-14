@@ -60,7 +60,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 			<div className="bg-shade-300 text-main px-4 pt-6 pb-4 sm:px-6">
 				{bracket ? (
 					<>
-						<h2 className="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">Bracket</h2>
+						<h2 className="section-label mb-3 ml-3">Bracket</h2>
 						<div className="bg-vlr-gray-200 dark:bg-vlr-gray-600">
 							<Bracket
 								event={event}
@@ -75,7 +75,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 				  ['round-robin', 'showmatch'].includes(format?.type) &&
 				  Object.entries(allStandings).length > 0 ? (
 					<>
-						<h2 className="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">Groups</h2>
+						<h2 className="section-label mb-3 ml-3">Groups</h2>
 						<div className="flex flex-col gap-3 md:flex-row">
 							{format.groups === 1 ? (
 								<div className="overflow-x-auto">

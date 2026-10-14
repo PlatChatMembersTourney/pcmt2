@@ -167,6 +167,11 @@
 	background: repeating-linear-gradient(-45deg, #9ebe11 -2px, #9ebe11 4px, #d5ff1d 4px, #d5ff1d 8px) !important;
 }
 
+/* vlr's red uppercase section labels ("BRACKET", "PARTICIPATING TEAMS", dates...) - add spacing where used */
+@utility section-label {
+	@apply text-[11px] leading-none font-bold text-red-400 uppercase;
+}
+
 .vlr-box-shadow {
 	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.35);
 }

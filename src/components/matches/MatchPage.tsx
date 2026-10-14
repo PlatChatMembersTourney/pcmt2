@@ -19,9 +19,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 					<MatchHeader event={event} match={match} teams={teams} />
 					{match.streamLink && (
 						<div className="mt-2 flex flex-col gap-2">
-							<h2 className="mb-1 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase sm:ml-5">
-								Stream
-							</h2>
+							<h2 className="section-label mb-1 ml-4 sm:ml-5">Stream</h2>
 							{(typeof match.streamLink === 'string'
 								? [
 										{
@@ -82,9 +80,7 @@ const MatchPage: React.FC<MatchPageProps> = (props: MatchPageProps) => {
 					)}
 
 					<div className="mt-2 flex flex-col">
-						<h2 className="mb-3 ml-4 text-[11px] leading-none font-bold text-red-400 uppercase sm:ml-5">
-							Maps/Stats
-						</h2>
+						<h2 className="section-label mb-3 ml-4 sm:ml-5">Maps/Stats</h2>
 						<MatchStatsBox match={match} event={event} teams={teams} />
 					</div>
 				</div>

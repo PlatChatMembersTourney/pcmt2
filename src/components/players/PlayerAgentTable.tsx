@@ -14,7 +14,9 @@ import {
 import { useState } from 'react';
 import { agentIcon } from '../../utils/images.ts';
 import { cx } from '../../utils/cx.ts';
-import { AcsHeader, AngusHeader, ToxicHeader } from '../stats/PlayerStatTable.tsx';
+import { AcsHeader, AngusHeader, ToxicHeader } from '../stats/RatingHeaders.tsx';
+import { SortHeader } from '../SortHeader.tsx';
+import { pctFormatter } from '../../utils/format.ts';
 
 // One row of the table: a player's totals on one agent, or on every map ("All")
 export interface AgentRow {
@@ -47,11 +49,6 @@ const features = tableFeatures({
 	},
 });
 
-const pctFormatter = new Intl.NumberFormat('en-US', {
-	style: 'percent',
-	maximumFractionDigits: 0,
-});
-
 const columnHelper = createColumnHelper<typeof features, AgentRow>();
 
 const columns = columnHelper.columns([
@@ -70,9 +67,18 @@ const columns = columnHelper.columns([
 	columnHelper.group({
 		header: 'Rating',
 		columns: columnHelper.columns([
-			columnHelper.accessor('Toxic', { header: ToxicHeader, cell: ({ getValue }) => getValue().toFixed(2) }),
-			columnHelper.accessor('Angus', { header: AngusHeader, cell: ({ getValue }) => getValue().toFixed(2) }),
-			columnHelper.accessor('ACS', { header: AcsHeader, cell: ({ getValue }) => getValue().toFixed(1) }),
+			columnHelper.accessor('Toxic', {
+				header: () => <ToxicHeader />,
+				cell: ({ getValue }) => getValue().toFixed(2),
+			}),
+			columnHelper.accessor('Angus', {
+				header: () => <AngusHeader />,
+				cell: ({ getValue }) => getValue().toFixed(2),
+			}),
+			columnHelper.accessor('ACS', {
+				header: () => <AcsHeader />,
+				cell: ({ getValue }) => getValue().toFixed(1),
+			}),
 		]),
 	}),
 	columnHelper.group({
@@ -200,29 +206,9 @@ const PlayerAgentTable: React.FC<{ rows: AgentRow[] }> = ({ rows }) => {
 									)}
 								>
 									{header.isPlaceholder ? null : (
-										<div
-											className={cx(
-												header.column.getCanSort() && 'text-bright cursor-pointer select-none'
-											)}
-											onClick={header.column.getToggleSortingHandler()}
-											title={
-												header.column.getCanSort()
-													? header.column.getNextSortingOrder() === 'asc'
-														? 'Sort ascending'
-														: header.column.getNextSortingOrder() === 'desc'
-															? 'Sort descending'
-															: 'Clear sort'
-													: undefined
-											}
-										>
-											<div className="flex justify-center">
-												{flexRender(header.column.columnDef.header, header.getContext())}
-												{{
-													asc: '▲',
-													desc: '▼',
-												}[header.column.getIsSorted() as string] ?? null}
-											</div>
-										</div>
+										<SortHeader column={header.column}>
+											{flexRender(header.column.columnDef.header, header.getContext())}
+										</SortHeader>
 									)}
 								</th>
 							))}

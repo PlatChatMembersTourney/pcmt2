@@ -4,6 +4,8 @@ import slugify from 'slugify';
 import { timeAgo, timeUntil } from '../../utils/datetime.ts';
 import { teamFlag } from '../../utils/images.ts';
 import { cx } from '../../utils/cx.ts';
+import { useNow } from '../../utils/useNow.ts';
+import { useTimezone } from '../../utils/useTimezone.ts';
 
 interface MatchCardProps {
 	match: Match;
@@ -11,12 +13,12 @@ interface MatchCardProps {
 	addlClass?: string;
 }
 
-const formatter = new Intl.DateTimeFormat('en-US', {
-	timeStyle: 'short',
-});
-
 const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 	const { match, event, addlClass } = props;
+	// In the visitor's timezone, and relative times only once loaded - see useTimezone and useNow
+	const timezone = useTimezone();
+	const now = useNow();
+	const formatter = new Intl.DateTimeFormat('en-US', { timeStyle: 'short', timeZone: timezone });
 
 	const date = new Date(match.date);
 
@@ -92,7 +94,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 							Completed
 						</div>
 						<div className="bg-vlr-text-gray dark:text-vlr-text-offwhite rounded-r-sm py-1 pr-1.5 pl-1 font-medium text-white dark:bg-[#777]">
-							{timeAgo(match.date)}
+							{now && timeAgo(match.date, now)}
 						</div>
 					</>
 				) : (
@@ -101,7 +103,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 							Upcoming
 						</div>
 						<div className="bg-vlr-green dark:bg-vlr-green-dark dark:text-vlr-text-offwhite rounded-r-sm py-1 pr-1.5 pl-1 font-medium text-white">
-							{timeUntil(match.date)}
+							{now && timeUntil(match.date, now)}
 						</div>
 					</>
 				)}

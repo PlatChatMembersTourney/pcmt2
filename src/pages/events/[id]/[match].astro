@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { events } from '../../../stores/events.ts';
+import { eventById } from '../../../stores/events.ts';
 
 import type { Event, Match, TeamInfo } from '../../../types/types.ts';
 import slugify from 'slugify';
@@ -26,7 +26,7 @@ export const getStaticPaths = () => {
 					match: slugify(match.id),
 				},
 				props: {
-					event: events.find((event) => event.id === id)!,
+					event: eventById[id],
 					matchName: match.team1Name + ' vs ' + match.team2Name,
 					match,
 					teams: allTeams[id],

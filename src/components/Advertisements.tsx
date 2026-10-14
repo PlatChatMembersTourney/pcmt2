@@ -44,7 +44,7 @@ const Advertisements: React.FC = () => {
 
 	return (
 		<div className="fun:xl:flex hidden flex-col">
-			<h2 className="mb-3 ml-5 text-[11px] leading-none font-bold text-red-400 uppercase">Advertisement</h2>
+			<h2 className="section-label mb-3 ml-5">Advertisement</h2>
 			<div className="flex flex-col gap-6">
 				{ads?.map((path) => (
 					<img src={`/res/garbage/${path}`} key={path} />

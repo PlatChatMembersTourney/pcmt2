@@ -7,7 +7,8 @@ const setUrlParam = (key: string, value: string | null) => {
 	history.replaceState(null, '', url);
 };
 
-// Selected-tab index that is mirrored in the URL (?key=Option Name) so it survives a refresh.
+// Selected-tab index that is mirrored in the URL (?key=Option Name) so it survives a refresh - only while it isn't
+// the default.
 // Uses defaultIndex unless the URL param matches one of the options.
 export const useUrlTab = (key: string, options: string[], defaultIndex = 0) => {
 	const [index, setIndex] = useState(defaultIndex);
@@ -23,7 +24,7 @@ export const useUrlTab = (key: string, options: string[], defaultIndex = 0) => {
 
 	const select = (i: number) => {
 		setIndex(i);
-		setUrlParam(key, options[i]);
+		setUrlParam(key, i === defaultIndex ? null : options[i]); // the default needs no param - cleaner links
 	};
 
 	return [index, select] as const;

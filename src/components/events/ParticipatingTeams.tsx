@@ -101,7 +101,7 @@ const ParticipatingTeams: React.FC<{ event: Event; stageIdx: number }> = ({ even
 		// Cards fill their row: 2 per row on phones, up to 4 - max-w-198.5 makes 4 cards 192.5px each, like vlr
 		<div className="mt-6 flex max-w-198.5 flex-col">
 			<div className="mb-3 ml-3 flex items-center justify-between">
-				<h2 className="text-[11px] leading-none font-bold text-red-400 uppercase">Participating Teams</h2>
+				<h2 className="section-label">Participating Teams</h2>
 				<ToggleButton on={showRosters} onClick={() => setShowRosters(!showRosters)}>
 					Toggle Rosters
 				</ToggleButton>

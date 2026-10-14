@@ -23,9 +23,16 @@ Stats site for the PCMT (Plat Chat Members Tournament), a community Valorant tou
 - Search: `src/pages/search-index.json.ts` builds `/search-index.json` at build time; `src/utils/search.ts` matches it in the browser (typo tolerant, prefix matches first); `src/components/Search.tsx` is the box in the header (and first in the mobile menu). Add new kinds of pages to the index there. Easter eggs (an exact phrase that adds a player to the results) are the `easterEggs` list at the top of `search.ts`.
 - The header switches between its desktop and mobile layouts at the custom `nav:` breakpoint (900px, in `global.css`), so the desktop layout still fits a half-screen 1080p window.
 - Colors: use the theme-aware names from `src/styles/global.css` (`text-main`, `text-muted`, `bg-shade-100`–`400`, `border-line`, `text-pb`, ...), which switch with dark mode on their own, instead of `x dark:y` pairs. Add reused one-off colors to the palette there rather than using arbitrary `[#hex]` values.
+- Shared building blocks - use these rather than rebuilding them:
+    - `MatchList` (`src/components/matches/MatchList.tsx`): any list of match cards grouped by day.
+    - `SortHeader` and `isGroupBoundary` (`src/components/SortHeader.tsx`): headers and group dividers for the TanStack tables.
+    - `RatingHeaders.tsx` (`src/components/stats/`): the Toxic/Angus/ACS column headers with their explanations.
+    - `section-label` (a Tailwind utility in `global.css`): vlr's red uppercase section labels.
+    - `eventById` (`src/stores/events.ts`), `pctFormatter` (`src/utils/format.ts`), `getNews` / `articleDate` (`src/stores/news.ts`).
 - On/off option buttons: use `ToggleButton` (`src/components/ToggleButton.tsx`), passing only spacing classes, so every toggle on the site shares one look.
 - Conditional classes: `cx()` from `src/utils/cx.ts` (`class:list` in `.astro` files) instead of string concatenation.
 - Anything random (`Math.random()`) must be picked after load with `useRandom` (`src/utils/useRandom.ts`), or the static HTML and the browser disagree (hydration mismatch).
+- The same goes for anything time-dependent: relative times ("2d 17h") use `useNow` (`src/utils/useNow.ts`), and dates/times are formatted in `useTimezone()`'s timezone, never the machine's default (the build machine's would end up in the HTML).
 - Dark and fun modes are classes on `<body>` (`.dark`, `.fun`), set by the inline script at the top of `<body>` in `src/layouts/Layout.astro` before anything renders; the toggles live in `src/components/Header.astro`.
 
 ### Checks

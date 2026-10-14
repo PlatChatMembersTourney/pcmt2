@@ -3,7 +3,7 @@ import FilterToggle from '../FilterToggle.tsx';
 import type { PlayerStats, PlayerStatsWithEventId } from '../../types/types.ts';
 import { allPlayerStats } from '../../stores/playerStats.ts';
 
-import { events } from '../../stores/events.ts';
+import { eventById } from '../../stores/events.ts';
 import { teams } from '../../stores/teams.ts';
 import { playerSlug } from '../../utils/playerSlug.ts';
 import { toxicRating } from '../../utils/rating.ts';
@@ -34,7 +34,7 @@ const combinePlayers = (rows: PlayerStatsWithEventId[], eventIds: string[]): Pla
 				perRound('ADR'),
 			];
 			// The table skips the 3-maps-or-fewer Angus penalty for showmatch rows - so only if all their games were showmatches
-			const regular = group.filter((r) => !events.find((e) => e.id === r.eventId)?.showmatch);
+			const regular = group.filter((r) => !eventById[r.eventId].showmatch);
 			return {
 				Player: [...group].sort((a, b) => b.MP - a.MP)[0].Player, // the spelling they played the most maps under
 				eventId: (regular.at(-1) ?? group.at(-1)!).eventId,
@@ -89,7 +89,7 @@ const StatsPage: React.FC = () => {
 	const combined = views[viewIdx] === 'combined';
 
 	const filteredKeys = Object.keys(allPlayerStats).filter((key) => {
-		const event = events.find((e) => e.id === key)!;
+		const event = eventById[key];
 		return (
 			(showShowmatches || !event.showmatch) &&
 			(region === 'All' || event.region === region.toLowerCase()) &&

@@ -24,16 +24,16 @@ interface PlayerStatTableProps {
 	combined?: boolean; // Combine Seasons rows: no Team/Season columns, every team's logo by the name
 }
 
-import { events } from '../../stores/events.ts';
+import { eventById } from '../../stores/events.ts';
 
 import { angusRating } from '../../utils/rating.ts';
 import { teams } from '../../stores/teams.ts';
-import CustomPopover from '../CustomPopover.tsx';
 import slugify from 'slugify';
 import { cx } from '../../utils/cx.ts';
 import { playerSlug } from '../../utils/playerSlug.ts';
-
-const eventOf = (id: string) => events.find((e) => e.id === id);
+import { SortHeader } from '../SortHeader.tsx';
+import { pctFormatter } from '../../utils/format.ts';
+import { AcsHeader, AngusHeader, ToxicHeader } from './RatingHeaders.tsx';
 
 // Table features used: sorting, plus column visibility for getVisibleLeafColumns()
 const features = tableFeatures({
@@ -48,81 +48,6 @@ const features = tableFeatures({
 		text: sortFn_text,
 	},
 });
-
-const pctFormatter = new Intl.NumberFormat('en-US', {
-	style: 'percent',
-	maximumFractionDigits: 0,
-});
-
-// Column headers with an explanation on hover - also used by the player page's agents table
-export const ToxicHeader = () => (
-	<CustomPopover
-		side={'bottom'}
-		content={
-			<div className="text-faint flex flex-col text-xs">
-				<p className="mb-1">I say "toxic", but really it's stolen (with some tweaks).</p>
-
-				<p>Specifically, from Mark Zhdan's </p>
-				<a href="https://www.markzhdan.com/blogs/reverse-engineering-vlr-rating" className="mb-2 underline">
-					attempt to reverse engineer VLR's Rating 2.0.
-				</a>
-
-				<p className="mb-1">The formula:</p>
-				<p className="text-bright">0.898 * KPR + 0.228 * APR + 0.0025 * ADRa</p>
-				<p className="text-bright mb-1">+ 0.313 * KAST + 0.295</p>
-				<p>(ADRa = [(ADR * Rounds) - (140 * Kills)] / Rounds)</p>
-			</div>
-		}
-		title={"toxic's Rating"}
-		hover={true}
-	>
-		<span className="border-faint border-b-2 border-dotted px-0.5">toxic</span>
-	</CustomPopover>
-);
-
-export const AngusHeader = () => (
-	<CustomPopover
-		side={'bottom'}
-		content={
-			<div className="text-faint flex flex-col text-xs">
-				<p>Adjusted version of VLR rating version 1.0.</p>
-				<p className="mb-1">(So like a 1.5, according to Angus.)</p>
-
-				<p className="mb-1">The formula:</p>
-				<p className="text-bright">1.26 * KPR - 0.13 * DPR + 0.55 * APR</p>
-				<p className="text-bright mb-1">+ 0.25 * FKPR - 0.26 * FDPR</p>
-				<p>Additionally, on the stats pages, anyone with</p>
-				<p>3 or less maps played incurs a 20% penalty.</p>
-			</div>
-		}
-		title={"Angus's Rating"}
-		hover={true}
-	>
-		<span className="border-faint border-b-2 border-dotted px-0.5">Angus</span>
-	</CustomPopover>
-);
-
-export const AcsHeader = () => (
-	<CustomPopover
-		side={'bottom'}
-		content={
-			<div className="text-faint flex flex-col text-xs">
-				<p>You know it, you love it:</p>
-				<p className="mb-1">Valorant's very own ACS.</p>
-
-				<p className="mb-1">In case you forgot how to calculate it:</p>
-				<p className="text-bright">Combat Score: 1 pt / damage dealt,</p>
-				<p className="text-bright">150/130/110/90/70 pts/kill based on enemies alive,</p>
-				<p className="text-bright mb-1">+50 per additional kill, +25 for non-damaging assists</p>
-				<p className="text-bright">ACS = Average combat score across all rounds</p>
-			</div>
-		}
-		title={'Average Combat Score'}
-		hover={true}
-	>
-		<span className="border-faint border-b-2 border-dotted px-0.5">ACS</span>
-	</CustomPopover>
-);
 
 const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	const { playerStats, showSeason, stickyPlayerNames, combined } = props;
@@ -156,7 +81,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 	]);
 	if (showSeason) {
 		playerInfoColumns.push(
-			columnHelper.accessor((row) => eventOf(row.eventId)!.shortName, {
+			columnHelper.accessor((row) => eventById[row.eventId].shortName, {
 				header: 'Season',
 				id: 'Season',
 				cell: (info) => {
@@ -210,34 +135,23 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 		columnHelper.group({
 			header: 'Rating',
 			columns: columnHelper.columns([
-				columnHelper.accessor(
-					(row) => {
-						const tr = row['R1.0'];
-						// doing this messes up the ordering, since unmodified toxic rating is the default sort
-						// implement this in the calculation for toxic rating itself
-						// if (row.MP <= 3 && !row.eventId?.includes('showmatch')) {
-						// 	tr = tr * 0.8;
-						// }
-						return tr;
-					},
-					{
-						header: ToxicHeader,
-						id: 'Toxic',
-						cell: ({ getValue }) => {
-							return getValue().toFixed(2);
-						},
-					}
-				),
+				// A function, as TanStack would read the key 'R1.0' as a path. No small-sample penalty here (unlike Angus):
+				// the default order follows the unmodified Toxic rating
+				columnHelper.accessor((row) => row['R1.0'], {
+					header: () => <ToxicHeader />,
+					id: 'Toxic',
+					cell: ({ getValue }) => getValue().toFixed(2),
+				}),
 				columnHelper.accessor(
 					(row) => {
 						let ar = angusRating(row, row.Rounds);
-						if (row.MP <= 3 && !eventOf(row.eventId)?.showmatch) {
+						if (row.MP <= 3 && !eventById[row.eventId].showmatch) {
 							ar = ar * 0.8;
 						}
 						return ar;
 					},
 					{
-						header: AngusHeader,
+						header: () => <AngusHeader />,
 						id: 'Angus',
 						cell: ({ getValue }) => {
 							return getValue().toFixed(2);
@@ -245,7 +159,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 					}
 				),
 				columnHelper.accessor('ACS', {
-					header: AcsHeader,
+					header: () => <AcsHeader />,
 					id: 'ACS',
 					cell: ({ getValue }) => Math.round(getValue()), // combined ACS (weighted by rounds) isn't a whole number
 				}),
@@ -419,30 +333,9 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 										)}
 									>
 										{header.isPlaceholder ? null : (
-											<div
-												className={cx(
-													header.column.getCanSort() &&
-														'text-bright cursor-pointer select-none'
-												)}
-												onClick={header.column.getToggleSortingHandler()}
-												title={
-													header.column.getCanSort()
-														? header.column.getNextSortingOrder() === 'asc'
-															? 'Sort ascending'
-															: header.column.getNextSortingOrder() === 'desc'
-																? 'Sort descending'
-																: 'Clear sort'
-														: undefined
-												}
-											>
-												<div className="flex justify-center">
-													{flexRender(header.column.columnDef.header, header.getContext())}
-													{{
-														asc: '▲',
-														desc: '▼',
-													}[header.column.getIsSorted() as string] ?? null}
-												</div>
-											</div>
+											<SortHeader column={header.column}>
+												{flexRender(header.column.columnDef.header, header.getContext())}
+											</SortHeader>
 										)}
 									</th>
 								);
