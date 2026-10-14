@@ -108,6 +108,7 @@ export interface TeamInfo {
 	abbr: string;
 	logo: string;
 	players: string[];
+	group?: string; // in grouped events, e.g. "Group Alpha"
 }
 
 export interface Event {
