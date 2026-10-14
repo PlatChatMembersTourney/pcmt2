@@ -30,7 +30,10 @@ Stats site for the PCMT (Plat Chat Members Tournament), a community Valorant tou
 
 ### Checks
 
-- `npx astro check` should report 0 errors. It needs TypeScript 6 (version 7 lacks the API it uses), which is pinned in `package.json`.
+- `npx astro check` should report 0 errors. It needs TypeScript 6, which is pinned in `package.json` (`^6.0.3`) - don't update TypeScript to 7 yet:
+    - `@astrojs/check` (0.9.10 as of October 2026) only supports TypeScript `^5 || ^6`. With TypeScript 7.0 installed, `astro check` refuses to run: "astro check does not currently support TypeScript 7.0. To continue using astro check, install TypeScript 6 instead."
+    - Astro plans to deprecate `astro check`. Its replacement, `@astrojs/ts-content-mapper` (experimental), type-checks `.astro` files with **TypeScript 7.1 or later**: https://github.com/withastro/astro/tree/main/packages/language-tools/ts-content-mapper#usage
+    - Once TypeScript 7.1+ is out (7.0.2 was the latest in October 2026), check whether `@astrojs/check` supports it or switch to `ts-content-mapper`, then update TypeScript and change this note (and the `astro check` mentions here).
 - `pnpm lint` runs ESLint (`eslint.config.js`: recommended JS/TypeScript/Astro rules plus the React hooks rules).
 - `npx prettier --write src` formats the code. Data JSON is excluded via `.prettierignore`, and line endings are LF (`.gitattributes`).
 
