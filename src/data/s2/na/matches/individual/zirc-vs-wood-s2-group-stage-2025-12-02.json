@@ -1,0 +1,795 @@
+{
+  "id": "zirc-vs-wood-s2-group-stage-2025-12-02",
+  "team1": "ZIRC",
+  "team2": "WOOD",
+  "team1Name": "Zirconians",
+  "team2Name": "The Wooden Fence",
+  "score1": 2,
+  "score2": 0,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-12-02",
+  "stage": "Group Stage",
+  "veto": "WOOD bans Bind, ZIRC bans Abyss, WOOD picks Split, ZIRC picks Corrode, WOOD bans Haven, ZIRC bans Pearl, Sunset remains",
+  "maps": [
+    {
+      "name": "Split",
+      "score1": 13,
+      "score2": 11
+    },
+    {
+      "name": "Corrode",
+      "score1": 18,
+      "score2": 16
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "ZIRC",
+      "teamName": "Zirconians",
+      "players": [
+        {
+          "Player": "Robohobo",
+          "R1.0": 1.158,
+          "ACS": 235,
+          "K": 51,
+          "D": 38,
+          "A": 12,
+          "PlusMinus": 13,
+          "KAST": 0.756,
+          "ADR": 152.652,
+          "HS%": 0.289,
+          "FK": 7,
+          "FD": 4,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "darshan",
+          "R1.0": 1.046,
+          "ACS": 190.5,
+          "K": 41,
+          "D": 41,
+          "A": 27,
+          "PlusMinus": 0,
+          "KAST": 0.772,
+          "ADR": 129.145,
+          "HS%": 0.132,
+          "FK": 8,
+          "FD": 8,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "Blitz",
+          "R1.0": 1.307,
+          "ACS": 274.5,
+          "K": 58,
+          "D": 36,
+          "A": 9,
+          "PlusMinus": 22,
+          "KAST": 0.756,
+          "ADR": 184.638,
+          "HS%": 0.385,
+          "FK": 10,
+          "FD": 6,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "niboos",
+          "R1.0": 1.224,
+          "ACS": 255,
+          "K": 50,
+          "D": 38,
+          "A": 18,
+          "PlusMinus": 12,
+          "KAST": 0.879,
+          "ADR": 158.052,
+          "HS%": 0.364,
+          "FK": 7,
+          "FD": 3,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "ethan",
+          "R1.0": 0.767,
+          "ACS": 141.5,
+          "K": 27,
+          "D": 39,
+          "A": 12,
+          "PlusMinus": -12,
+          "KAST": 0.708,
+          "ADR": 95.955,
+          "HS%": 0.103,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        }
+      ]
+    },
+    {
+      "team": "WOOD",
+      "teamName": "The Wooden Fence",
+      "players": [
+        {
+          "Player": "thighs",
+          "R1.0": 1.34,
+          "ACS": 301.5,
+          "K": 62,
+          "D": 43,
+          "A": 16,
+          "PlusMinus": 19,
+          "KAST": 0.74,
+          "ADR": 194.634,
+          "HS%": 0.239,
+          "FK": 4,
+          "FD": 5,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "amiable",
+          "R1.0": 0.839,
+          "ACS": 186,
+          "K": 39,
+          "D": 48,
+          "A": 10,
+          "PlusMinus": -9,
+          "KAST": 0.586,
+          "ADR": 124.983,
+          "HS%": 0.231,
+          "FK": 10,
+          "FD": 11,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "snowfall",
+          "R1.0": 0.735,
+          "ACS": 147.5,
+          "K": 28,
+          "D": 47,
+          "A": 17,
+          "PlusMinus": -19,
+          "KAST": 0.639,
+          "ADR": 104.224,
+          "HS%": 0.26,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "dunkn",
+          "R1.0": 0.611,
+          "ACS": 107.5,
+          "K": 21,
+          "D": 41,
+          "A": 11,
+          "PlusMinus": -20,
+          "KAST": 0.586,
+          "ADR": 78.983,
+          "HS%": 0.146,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "Tenyaku",
+          "R1.0": 0.908,
+          "ACS": 228,
+          "K": 42,
+          "D": 48,
+          "A": 11,
+          "PlusMinus": -6,
+          "KAST": 0.55,
+          "ADR": 144.117,
+          "HS%": 0.193,
+          "FK": 7,
+          "FD": 11,
+          "PlusMinus2": -4
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Split",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "ZIRC",
+          "teamName": "Zirconians",
+          "players": [
+            {
+              "Player": "niboos",
+              "Agent": null,
+              "R1.0": 1.397,
+              "ACS": 298,
+              "K": 25,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": 10,
+              "KAST": 0.92,
+              "ADR": 186.6,
+              "HS%": 0.27,
+              "FK": 7,
+              "FD": 2,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "Robohobo",
+              "Agent": null,
+              "R1.0": 1.207,
+              "ACS": 240,
+              "K": 22,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": 6,
+              "KAST": 0.75,
+              "ADR": 159.1,
+              "HS%": 0.23,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Blitz",
+              "Agent": null,
+              "R1.0": 1.159,
+              "ACS": 228,
+              "K": 19,
+              "D": 14,
+              "A": 6,
+              "PlusMinus": 5,
+              "KAST": 0.75,
+              "ADR": 156.5,
+              "HS%": 0.35,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "darshan",
+              "Agent": null,
+              "R1.0": 0.975,
+              "ACS": 157,
+              "K": 14,
+              "D": 16,
+              "A": 17,
+              "PlusMinus": -2,
+              "KAST": 0.79,
+              "ADR": 96.2,
+              "HS%": 0.15,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "ethan",
+              "Agent": null,
+              "R1.0": 0.81,
+              "ACS": 143,
+              "K": 11,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -4,
+              "KAST": 0.79,
+              "ADR": 100,
+              "HS%": 0.15,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "WOOD",
+          "teamName": "The Wooden Fence",
+          "players": [
+            {
+              "Player": "Tenyaku",
+              "Agent": null,
+              "R1.0": 1.233,
+              "ACS": 294,
+              "K": 22,
+              "D": 18,
+              "A": 7,
+              "PlusMinus": 4,
+              "KAST": 0.62,
+              "ADR": 200.1,
+              "HS%": 0.14,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "thighs",
+              "Agent": null,
+              "R1.0": 1.232,
+              "ACS": 281,
+              "K": 25,
+              "D": 19,
+              "A": 6,
+              "PlusMinus": 6,
+              "KAST": 0.67,
+              "ADR": 177.4,
+              "HS%": 0.28,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "amiable",
+              "Agent": null,
+              "R1.0": 0.818,
+              "ACS": 187,
+              "K": 16,
+              "D": 20,
+              "A": 4,
+              "PlusMinus": -4,
+              "KAST": 0.58,
+              "ADR": 120,
+              "HS%": 0.19,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "snowfall",
+              "Agent": null,
+              "R1.0": 0.583,
+              "ACS": 103,
+              "K": 7,
+              "D": 19,
+              "A": 8,
+              "PlusMinus": -12,
+              "KAST": 0.58,
+              "ADR": 85.7,
+              "HS%": 0.19,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "dunkn",
+              "Agent": null,
+              "R1.0": 0.554,
+              "ACS": 83,
+              "K": 6,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": -9,
+              "KAST": 0.58,
+              "ADR": 65.5,
+              "HS%": 0.14,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corrode",
+      "score1": 18,
+      "score2": 16,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "ZIRC",
+          "teamName": "Zirconians",
+          "players": [
+            {
+              "Player": "Blitz",
+              "Agent": null,
+              "R1.0": 1.412,
+              "ACS": 321,
+              "K": 39,
+              "D": 22,
+              "A": 3,
+              "PlusMinus": 17,
+              "KAST": 0.76,
+              "ADR": 204.5,
+              "HS%": 0.41,
+              "FK": 9,
+              "FD": 5,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "Robohobo",
+              "Agent": null,
+              "R1.0": 1.123,
+              "ACS": 230,
+              "K": 29,
+              "D": 22,
+              "A": 5,
+              "PlusMinus": 7,
+              "KAST": 0.76,
+              "ADR": 148.1,
+              "HS%": 0.33,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "darshan",
+              "Agent": null,
+              "R1.0": 1.097,
+              "ACS": 224,
+              "K": 27,
+              "D": 25,
+              "A": 10,
+              "PlusMinus": 2,
+              "KAST": 0.76,
+              "ADR": 152.4,
+              "HS%": 0.12,
+              "FK": 6,
+              "FD": 5,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "niboos",
+              "Agent": null,
+              "R1.0": 1.102,
+              "ACS": 212,
+              "K": 25,
+              "D": 23,
+              "A": 13,
+              "PlusMinus": 2,
+              "KAST": 0.85,
+              "ADR": 137.9,
+              "HS%": 0.43,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "ethan",
+              "Agent": null,
+              "R1.0": 0.736,
+              "ACS": 140,
+              "K": 16,
+              "D": 24,
+              "A": 8,
+              "PlusMinus": -8,
+              "KAST": 0.65,
+              "ADR": 93.1,
+              "HS%": 0.07,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "WOOD",
+          "teamName": "The Wooden Fence",
+          "players": [
+            {
+              "Player": "thighs",
+              "Agent": null,
+              "R1.0": 1.416,
+              "ACS": 322,
+              "K": 37,
+              "D": 24,
+              "A": 10,
+              "PlusMinus": 13,
+              "KAST": 0.79,
+              "ADR": 206.8,
+              "HS%": 0.21,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "snowfall",
+              "Agent": null,
+              "R1.0": 0.843,
+              "ACS": 192,
+              "K": 21,
+              "D": 28,
+              "A": 9,
+              "PlusMinus": -7,
+              "KAST": 0.68,
+              "ADR": 117.3,
+              "HS%": 0.31,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "amiable",
+              "Agent": null,
+              "R1.0": 0.854,
+              "ACS": 185,
+              "K": 23,
+              "D": 28,
+              "A": 6,
+              "PlusMinus": -5,
+              "KAST": 0.59,
+              "ADR": 128.5,
+              "HS%": 0.26,
+              "FK": 7,
+              "FD": 6,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Tenyaku",
+              "Agent": null,
+              "R1.0": 0.679,
+              "ACS": 162,
+              "K": 20,
+              "D": 30,
+              "A": 4,
+              "PlusMinus": -10,
+              "KAST": 0.5,
+              "ADR": 104.6,
+              "HS%": 0.23,
+              "FK": 3,
+              "FD": 7,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "dunkn",
+              "Agent": null,
+              "R1.0": 0.651,
+              "ACS": 132,
+              "K": 15,
+              "D": 26,
+              "A": 6,
+              "PlusMinus": -11,
+              "KAST": 0.59,
+              "ADR": 88.5,
+              "HS%": 0.15,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=NA8MB0COTuM"
+}

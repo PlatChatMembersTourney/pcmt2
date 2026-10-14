@@ -1,0 +1,1081 @@
+{
+  "id": "drx-vs-mibr-s2-group-stage-2025-10-26",
+  "team1": "DRX",
+  "team2": "MIBR",
+  "team1Name": "Dementia Real Exists",
+  "team2Name": "Made in Bronze",
+  "score1": 2,
+  "score2": 1,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-10-26",
+  "stage": "Group Stage",
+  "veto": "MIBR bans Bind, DRX bans Split, MIBR picks Sunset, DRX picks Abyss, MIBR bans Pearl, DRX bans Corrode, Haven remains",
+  "maps": [
+    {
+      "name": "Sunset",
+      "score1": 8,
+      "score2": 13
+    },
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 10
+    },
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 11
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "DRX",
+      "teamName": "Dementia Real Exists",
+      "players": [
+        {
+          "Player": "rudesubs",
+          "R1.0": 1.116,
+          "ACS": 229,
+          "K": 53,
+          "D": 46,
+          "A": 21,
+          "PlusMinus": 7,
+          "KAST": 0.791,
+          "ADR": 147.61,
+          "HS%": 0.344,
+          "FK": 5,
+          "FD": 4,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "izz",
+          "R1.0": 1.148,
+          "ACS": 270.667,
+          "K": 64,
+          "D": 52,
+          "A": 12,
+          "PlusMinus": 12,
+          "KAST": 0.631,
+          "ADR": 172.429,
+          "HS%": 0.217,
+          "FK": 11,
+          "FD": 10,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "longclaw",
+          "R1.0": 0.951,
+          "ACS": 166.667,
+          "K": 38,
+          "D": 38,
+          "A": 21,
+          "PlusMinus": 0,
+          "KAST": 0.776,
+          "ADR": 111.678,
+          "HS%": 0.186,
+          "FK": 1,
+          "FD": 2,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "teklo",
+          "R1.0": 0.941,
+          "ACS": 199,
+          "K": 45,
+          "D": 47,
+          "A": 16,
+          "PlusMinus": -2,
+          "KAST": 0.632,
+          "ADR": 132.875,
+          "HS%": 0.158,
+          "FK": 10,
+          "FD": 13,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "platinum",
+          "R1.0": 0.932,
+          "ACS": 181,
+          "K": 43,
+          "D": 46,
+          "A": 12,
+          "PlusMinus": -3,
+          "KAST": 0.703,
+          "ADR": 129.566,
+          "HS%": 0.276,
+          "FK": 5,
+          "FD": 7,
+          "PlusMinus2": -2
+        }
+      ]
+    },
+    {
+      "team": "MIBR",
+      "teamName": "Made in Bronze",
+      "players": [
+        {
+          "Player": "spaceman",
+          "R1.0": 1.09,
+          "ACS": 214.667,
+          "K": 55,
+          "D": 44,
+          "A": 21,
+          "PlusMinus": 11,
+          "KAST": 0.72,
+          "ADR": 134.576,
+          "HS%": 0.143,
+          "FK": 4,
+          "FD": 5,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "basil",
+          "R1.0": 1.029,
+          "ACS": 211.333,
+          "K": 47,
+          "D": 47,
+          "A": 24,
+          "PlusMinus": 0,
+          "KAST": 0.689,
+          "ADR": 143.615,
+          "HS%": 0.258,
+          "FK": 8,
+          "FD": 5,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "jaypee",
+          "R1.0": 0.921,
+          "ACS": 215.333,
+          "K": 50,
+          "D": 55,
+          "A": 8,
+          "PlusMinus": -5,
+          "KAST": 0.678,
+          "ADR": 133.854,
+          "HS%": 0.221,
+          "FK": 14,
+          "FD": 12,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "lazy",
+          "R1.0": 0.861,
+          "ACS": 172.667,
+          "K": 42,
+          "D": 48,
+          "A": 15,
+          "PlusMinus": -6,
+          "KAST": 0.633,
+          "ADR": 114.354,
+          "HS%": 0.147,
+          "FK": 4,
+          "FD": 6,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "androobee",
+          "R1.0": 0.805,
+          "ACS": 162.667,
+          "K": 35,
+          "D": 50,
+          "A": 24,
+          "PlusMinus": -15,
+          "KAST": 0.66,
+          "ADR": 104.135,
+          "HS%": 0.198,
+          "FK": 6,
+          "FD": 4,
+          "PlusMinus2": 2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Sunset",
+      "score1": 8,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 1.248,
+              "ACS": 277,
+              "K": 19,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": 3,
+              "KAST": 0.9,
+              "ADR": 180.9,
+              "HS%": 0.3,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 1.047,
+              "ACS": 215,
+              "K": 16,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": 1,
+              "KAST": 0.71,
+              "ADR": 151.7,
+              "HS%": 0.24,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.963,
+              "ACS": 228,
+              "K": 17,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": 1,
+              "KAST": 0.52,
+              "ADR": 148.4,
+              "HS%": 0.21,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 0.899,
+              "ACS": 215,
+              "K": 15,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -2,
+              "KAST": 0.48,
+              "ADR": 148.1,
+              "HS%": 0.19,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "platinum",
+              "Agent": null,
+              "R1.0": 0.436,
+              "ACS": 103,
+              "K": 6,
+              "D": 19,
+              "A": 2,
+              "PlusMinus": -13,
+              "KAST": 0.52,
+              "ADR": 77,
+              "HS%": 0.28,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            }
+          ]
+        },
+        {
+          "team": "MIBR",
+          "teamName": "Made in Bronze",
+          "players": [
+            {
+              "Player": "spaceman",
+              "Agent": null,
+              "R1.0": 1.416,
+              "ACS": 281,
+              "K": 23,
+              "D": 12,
+              "A": 9,
+              "PlusMinus": 11,
+              "KAST": 0.76,
+              "ADR": 173.1,
+              "HS%": 0.15,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "lazy",
+              "Agent": null,
+              "R1.0": 1.119,
+              "ACS": 218,
+              "K": 18,
+              "D": 12,
+              "A": 3,
+              "PlusMinus": 6,
+              "KAST": 0.67,
+              "ADR": 144.2,
+              "HS%": 0.11,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "androobee",
+              "Agent": null,
+              "R1.0": 1.059,
+              "ACS": 211,
+              "K": 16,
+              "D": 16,
+              "A": 11,
+              "PlusMinus": 0,
+              "KAST": 0.76,
+              "ADR": 127.8,
+              "HS%": 0.23,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "basil",
+              "Agent": null,
+              "R1.0": 0.972,
+              "ACS": 184,
+              "K": 11,
+              "D": 15,
+              "A": 11,
+              "PlusMinus": -4,
+              "KAST": 0.76,
+              "ADR": 137.1,
+              "HS%": 0.15,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "jaypee",
+              "Agent": null,
+              "R1.0": 0.95,
+              "ACS": 219,
+              "K": 15,
+              "D": 18,
+              "A": 5,
+              "PlusMinus": -3,
+              "KAST": 0.76,
+              "ADR": 137.4,
+              "HS%": 0.19,
+              "FK": 6,
+              "FD": 4,
+              "PlusMinus2": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 10,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 1.834,
+              "ACS": 441,
+              "K": 36,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": 21,
+              "KAST": 0.78,
+              "ADR": 272.1,
+              "HS%": 0.3,
+              "FK": 8,
+              "FD": 3,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 1.145,
+              "ACS": 194,
+              "K": 17,
+              "D": 14,
+              "A": 11,
+              "PlusMinus": 3,
+              "KAST": 0.87,
+              "ADR": 131,
+              "HS%": 0.43,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.967,
+              "ACS": 184,
+              "K": 12,
+              "D": 15,
+              "A": 10,
+              "PlusMinus": -3,
+              "KAST": 0.83,
+              "ADR": 124.1,
+              "HS%": 0.15,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "platinum",
+              "Agent": null,
+              "R1.0": 0.933,
+              "ACS": 157,
+              "K": 13,
+              "D": 11,
+              "A": 3,
+              "PlusMinus": 2,
+              "KAST": 0.78,
+              "ADR": 104.9,
+              "HS%": 0.29,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 0.774,
+              "ACS": 114,
+              "K": 9,
+              "D": 12,
+              "A": 6,
+              "PlusMinus": -3,
+              "KAST": 0.78,
+              "ADR": 74.8,
+              "HS%": 0.08,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "MIBR",
+          "teamName": "Made in Bronze",
+          "players": [
+            {
+              "Player": "jaypee",
+              "Agent": null,
+              "R1.0": 0.966,
+              "ACS": 240,
+              "K": 19,
+              "D": 19,
+              "A": 1,
+              "PlusMinus": 0,
+              "KAST": 0.61,
+              "ADR": 150.5,
+              "HS%": 0.27,
+              "FK": 5,
+              "FD": 6,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "basil",
+              "Agent": null,
+              "R1.0": 0.975,
+              "ACS": 231,
+              "K": 17,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": 0,
+              "KAST": 0.52,
+              "ADR": 145.3,
+              "HS%": 0.23,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "lazy",
+              "Agent": null,
+              "R1.0": 0.584,
+              "ACS": 134,
+              "K": 10,
+              "D": 19,
+              "A": 2,
+              "PlusMinus": -9,
+              "KAST": 0.52,
+              "ADR": 90.5,
+              "HS%": 0.22,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "spaceman",
+              "Agent": null,
+              "R1.0": 0.692,
+              "ACS": 130,
+              "K": 12,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.57,
+              "ADR": 85.5,
+              "HS%": 0.13,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "androobee",
+              "Agent": null,
+              "R1.0": 0.692,
+              "ACS": 127,
+              "K": 9,
+              "D": 16,
+              "A": 8,
+              "PlusMinus": -7,
+              "KAST": 0.61,
+              "ADR": 85.8,
+              "HS%": 0.27,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "platinum",
+              "Agent": null,
+              "R1.0": 1.365,
+              "ACS": 283,
+              "K": 24,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": 8,
+              "KAST": 0.79,
+              "ADR": 199.2,
+              "HS%": 0.26,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 0.971,
+              "ACS": 216,
+              "K": 17,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": 1,
+              "KAST": 0.62,
+              "ADR": 134.4,
+              "HS%": 0.3,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.897,
+              "ACS": 185,
+              "K": 16,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": 0,
+              "KAST": 0.54,
+              "ADR": 127.7,
+              "HS%": 0.12,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 1.037,
+              "ACS": 171,
+              "K": 13,
+              "D": 11,
+              "A": 11,
+              "PlusMinus": 2,
+              "KAST": 0.83,
+              "ADR": 112,
+              "HS%": 0.24,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 0.708,
+              "ACS": 156,
+              "K": 13,
+              "D": 20,
+              "A": 4,
+              "PlusMinus": -7,
+              "KAST": 0.62,
+              "ADR": 98.2,
+              "HS%": 0.16,
+              "FK": 1,
+              "FD": 6,
+              "PlusMinus2": -5
+            }
+          ]
+        },
+        {
+          "team": "MIBR",
+          "teamName": "Made in Bronze",
+          "players": [
+            {
+              "Player": "spaceman",
+              "Agent": null,
+              "R1.0": 1.186,
+              "ACS": 233,
+              "K": 20,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": 5,
+              "KAST": 0.83,
+              "ADR": 147.9,
+              "HS%": 0.15,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "basil",
+              "Agent": null,
+              "R1.0": 1.131,
+              "ACS": 219,
+              "K": 19,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": 4,
+              "KAST": 0.79,
+              "ADR": 147.7,
+              "HS%": 0.38,
+              "FK": 5,
+              "FD": 3,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "jaypee",
+              "Agent": null,
+              "R1.0": 0.851,
+              "ACS": 187,
+              "K": 16,
+              "D": 18,
+              "A": 2,
+              "PlusMinus": -2,
+              "KAST": 0.67,
+              "ADR": 114.8,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "lazy",
+              "Agent": null,
+              "R1.0": 0.902,
+              "ACS": 166,
+              "K": 14,
+              "D": 17,
+              "A": 10,
+              "PlusMinus": -3,
+              "KAST": 0.71,
+              "ADR": 111.1,
+              "HS%": 0.11,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "androobee",
+              "Agent": null,
+              "R1.0": 0.692,
+              "ACS": 150,
+              "K": 10,
+              "D": 18,
+              "A": 5,
+              "PlusMinus": -8,
+              "KAST": 0.62,
+              "ADR": 101,
+              "HS%": 0.1,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=l2AZN7qfdIQ"
+}

@@ -1,0 +1,975 @@
+{
+  "id": "ts-vs-drg-s2-group-stage-2025-10-19",
+  "team1": "TS",
+  "team2": "DRG",
+  "team1Name": "Tequila Sunrise",
+  "team2Name": "DeRank Gamers",
+  "score1": 1,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-10-19",
+  "stage": "Group Stage",
+  "veto": "DRG bans Abyss, TS bans Haven, DRG picks Sunset, TS picks Bind, DRG bans Corrode, TS bans Pearl, Split Remains",
+  "maps": [
+    {
+      "name": "Sunset",
+      "score1": 14,
+      "score2": 12
+    },
+    {
+      "name": "Bind",
+      "score1": 3,
+      "score2": 13
+    },
+    {
+      "name": "Split",
+      "score1": 9,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "TS",
+      "teamName": "Tequila Sunrise",
+      "players": [
+        {
+          "Player": "shadow",
+          "R1.0": 1.083,
+          "ACS": 245,
+          "K": 55,
+          "D": 49,
+          "A": 11,
+          "PlusMinus": 6,
+          "KAST": 0.687,
+          "ADR": 158.05,
+          "HS%": 0.264,
+          "FK": 7,
+          "FD": 5,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "haych",
+          "R1.0": 1.06,
+          "ACS": 262.667,
+          "K": 59,
+          "D": 51,
+          "A": 13,
+          "PlusMinus": 8,
+          "KAST": 0.703,
+          "ADR": 135.534,
+          "HS%": 0.227,
+          "FK": 15,
+          "FD": 11,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "slow",
+          "R1.0": 0.855,
+          "ACS": 165,
+          "K": 37,
+          "D": 47,
+          "A": 21,
+          "PlusMinus": -10,
+          "KAST": 0.703,
+          "ADR": 106.713,
+          "HS%": 0.148,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "igneous",
+          "R1.0": 0.72,
+          "ACS": 152.667,
+          "K": 32,
+          "D": 48,
+          "A": 13,
+          "PlusMinus": -16,
+          "KAST": 0.592,
+          "ADR": 98.044,
+          "HS%": 0.178,
+          "FK": 2,
+          "FD": 5,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "epsilon",
+          "R1.0": 0.464,
+          "ACS": 73.333,
+          "K": 18,
+          "D": 47,
+          "A": 7,
+          "PlusMinus": -29,
+          "KAST": 0.531,
+          "ADR": 57.166,
+          "HS%": 0.134,
+          "FK": 1,
+          "FD": 6,
+          "PlusMinus2": -5
+        }
+      ]
+    },
+    {
+      "team": "DRG",
+      "teamName": "DeRank Gamers",
+      "players": []
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Sunset",
+      "score1": 14,
+      "score2": 12,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "TS",
+          "teamName": "Tequila Sunrise",
+          "players": [
+            {
+              "Player": "haych",
+              "Agent": null,
+              "R1.0": 1.384,
+              "ACS": 385,
+              "K": 35,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": 18,
+              "KAST": 0.77,
+              "ADR": 143.5,
+              "HS%": 0.19,
+              "FK": 7,
+              "FD": 3,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "slow",
+              "Agent": null,
+              "R1.0": 1.121,
+              "ACS": 223,
+              "K": 20,
+              "D": 17,
+              "A": 11,
+              "PlusMinus": 3,
+              "KAST": 0.81,
+              "ADR": 135.4,
+              "HS%": 0.19,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 1.022,
+              "ACS": 210,
+              "K": 19,
+              "D": 19,
+              "A": 5,
+              "PlusMinus": 0,
+              "KAST": 0.81,
+              "ADR": 138.6,
+              "HS%": 0.32,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "igneous",
+              "Agent": null,
+              "R1.0": 0.741,
+              "ACS": 125,
+              "K": 10,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -6,
+              "KAST": 0.69,
+              "ADR": 93.4,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "epsilon",
+              "Agent": null,
+              "R1.0": 0.677,
+              "ACS": 112,
+              "K": 11,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -6,
+              "KAST": 0.69,
+              "ADR": 76.8,
+              "HS%": 0.22,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            }
+          ]
+        },
+        {
+          "team": "DRG",
+          "teamName": "DeRank Gamers",
+          "players": [
+            {
+              "Player": "straight",
+              "Agent": null,
+              "R1.0": 1.387,
+              "ACS": 336,
+              "K": 30,
+              "D": 22,
+              "A": 5,
+              "PlusMinus": 8,
+              "KAST": 0.77,
+              "ADR": 216.7,
+              "HS%": 0.28,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "sizeable",
+              "Agent": null,
+              "R1.0": 1.227,
+              "ACS": 253,
+              "K": 23,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": 6,
+              "KAST": 0.73,
+              "ADR": 179.8,
+              "HS%": 0.32,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "jooah",
+              "Agent": null,
+              "R1.0": 0.948,
+              "ACS": 187,
+              "K": 15,
+              "D": 18,
+              "A": 13,
+              "PlusMinus": -3,
+              "KAST": 0.62,
+              "ADR": 131.6,
+              "HS%": 0.21,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "amara",
+              "Agent": null,
+              "R1.0": 0.734,
+              "ACS": 159,
+              "K": 14,
+              "D": 21,
+              "A": 4,
+              "PlusMinus": -7,
+              "KAST": 0.65,
+              "ADR": 102.2,
+              "HS%": 0.11,
+              "FK": 3,
+              "FD": 7,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "hascan",
+              "Agent": null,
+              "R1.0": 0.379,
+              "ACS": 47,
+              "K": 4,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": -13,
+              "KAST": 0.5,
+              "ADR": 26.2,
+              "HS%": 0.06,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bind",
+      "score1": 3,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "TS",
+          "teamName": "Tequila Sunrise",
+          "players": [
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 1.051,
+              "ACS": 252,
+              "K": 15,
+              "D": 13,
+              "A": 1,
+              "PlusMinus": 2,
+              "KAST": 0.62,
+              "ADR": 154.8,
+              "HS%": 0.26,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "igneous",
+              "Agent": null,
+              "R1.0": 0.78,
+              "ACS": 200,
+              "K": 10,
+              "D": 15,
+              "A": 3,
+              "PlusMinus": -5,
+              "KAST": 0.56,
+              "ADR": 132.6,
+              "HS%": 0.18,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "slow",
+              "Agent": null,
+              "R1.0": 0.631,
+              "ACS": 140,
+              "K": 6,
+              "D": 13,
+              "A": 4,
+              "PlusMinus": -7,
+              "KAST": 0.56,
+              "ADR": 100.4,
+              "HS%": 0.09,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "haych",
+              "Agent": null,
+              "R1.0": 0.667,
+              "ACS": 159,
+              "K": 8,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": -8,
+              "KAST": 0.75,
+              "ADR": 101.6,
+              "HS%": 0.27,
+              "FK": 5,
+              "FD": 4,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "epsilon",
+              "Agent": null,
+              "R1.0": 0.055,
+              "ACS": 31,
+              "K": 1,
+              "D": 15,
+              "A": 1,
+              "PlusMinus": -14,
+              "KAST": 0.19,
+              "ADR": 23.7,
+              "HS%": 0,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "DRG",
+          "teamName": "DeRank Gamers",
+          "players": [
+            {
+              "Player": "straight",
+              "Agent": null,
+              "R1.0": 1.648,
+              "ACS": 246,
+              "K": 20,
+              "D": 10,
+              "A": 6,
+              "PlusMinus": 10,
+              "KAST": 0.94,
+              "ADR": 224,
+              "HS%": 0.3,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "amara",
+              "Agent": null,
+              "R1.0": 1.415,
+              "ACS": 263,
+              "K": 15,
+              "D": 8,
+              "A": 8,
+              "PlusMinus": 7,
+              "KAST": 0.94,
+              "ADR": 166.2,
+              "HS%": 0.15,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "jooah",
+              "Agent": null,
+              "R1.0": 1.435,
+              "ACS": 244,
+              "K": 16,
+              "D": 5,
+              "A": 6,
+              "PlusMinus": 11,
+              "KAST": 0.94,
+              "ADR": 139.1,
+              "HS%": 0.11,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "sizeable",
+              "Agent": null,
+              "R1.0": 1.039,
+              "ACS": 193,
+              "K": 10,
+              "D": 11,
+              "A": 7,
+              "PlusMinus": -1,
+              "KAST": 0.88,
+              "ADR": 129.9,
+              "HS%": 0.12,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "hascan",
+              "Agent": null,
+              "R1.0": 1.166,
+              "ACS": 168,
+              "K": 11,
+              "D": 6,
+              "A": 4,
+              "PlusMinus": 5,
+              "KAST": 0.88,
+              "ADR": 129.9,
+              "HS%": 0.24,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Split",
+      "score1": 9,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "TS",
+          "teamName": "Tequila Sunrise",
+          "players": [
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 1.178,
+              "ACS": 273,
+              "K": 21,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 4,
+              "KAST": 0.59,
+              "ADR": 183.4,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "haych",
+              "Agent": null,
+              "R1.0": 0.962,
+              "ACS": 244,
+              "K": 16,
+              "D": 18,
+              "A": 6,
+              "PlusMinus": -2,
+              "KAST": 0.59,
+              "ADR": 150.8,
+              "HS%": 0.24,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "igneous",
+              "Agent": null,
+              "R1.0": 0.652,
+              "ACS": 133,
+              "K": 12,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.5,
+              "ADR": 78.4,
+              "HS%": 0.15,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "slow",
+              "Agent": null,
+              "R1.0": 0.702,
+              "ACS": 132,
+              "K": 11,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -6,
+              "KAST": 0.68,
+              "ADR": 77.4,
+              "HS%": 0.14,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "epsilon",
+              "Agent": null,
+              "R1.0": 0.51,
+              "ACS": 77,
+              "K": 6,
+              "D": 15,
+              "A": 3,
+              "PlusMinus": -9,
+              "KAST": 0.59,
+              "ADR": 58.3,
+              "HS%": 0.13,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "DRG",
+          "teamName": "DeRank Gamers",
+          "players": [
+            {
+              "Player": "straight",
+              "Agent": null,
+              "R1.0": 1.803,
+              "ACS": 427,
+              "K": 33,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": 20,
+              "KAST": 0.82,
+              "ADR": 253.4,
+              "HS%": 0.24,
+              "FK": 8,
+              "FD": 3,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "amara",
+              "Agent": null,
+              "R1.0": 1.204,
+              "ACS": 217,
+              "K": 15,
+              "D": 14,
+              "A": 17,
+              "PlusMinus": 1,
+              "KAST": 0.82,
+              "ADR": 151.4,
+              "HS%": 0.21,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "jooah",
+              "Agent": null,
+              "R1.0": 0.908,
+              "ACS": 172,
+              "K": 15,
+              "D": 14,
+              "A": 2,
+              "PlusMinus": 1,
+              "KAST": 0.64,
+              "ADR": 117.8,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "sizeable",
+              "Agent": null,
+              "R1.0": 0.868,
+              "ACS": 168,
+              "K": 12,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": -2,
+              "KAST": 0.68,
+              "ADR": 114.3,
+              "HS%": 0.2,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "hascan",
+              "Agent": null,
+              "R1.0": 0.751,
+              "ACS": 116,
+              "K": 9,
+              "D": 11,
+              "A": 5,
+              "PlusMinus": -2,
+              "KAST": 0.73,
+              "ADR": 67.4,
+              "HS%": 0.13,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=h7gl0AxDYvY"
+}

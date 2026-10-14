@@ -1,0 +1,1041 @@
+{
+  "id": "drx-vs-slly-s2-group-stage-2025-11-02",
+  "team1": "DRX",
+  "team2": "SLLY",
+  "team1Name": "Dementia Real Exists",
+  "team2Name": "Silly Geese",
+  "score1": 2,
+  "score2": 1,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-11-02",
+  "stage": "Group Stage",
+  "veto": "DRX bans Corrode, SLLY bans Sunset, DRX picks Abyss, SLLY picks Haven, DRX bans Split. SLLY bans Pearl, Bind remains",
+  "maps": [
+    {
+      "name": "Abyss",
+      "score1": 10,
+      "score2": 13
+    },
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 3
+    },
+    {
+      "name": "Bind",
+      "score1": 13,
+      "score2": 8
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "DRX",
+      "teamName": "Dementia Real Exists",
+      "players": [
+        {
+          "Player": "izz",
+          "R1.0": 1.479,
+          "ACS": 362,
+          "K": 75,
+          "D": 39,
+          "A": 12,
+          "PlusMinus": 36,
+          "KAST": 0.799,
+          "ADR": 194.205,
+          "HS%": 0.208,
+          "FK": 11,
+          "FD": 9,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "amara",
+          "R1.0": 1.152,
+          "ACS": 212.333,
+          "K": 50,
+          "D": 37,
+          "A": 20,
+          "PlusMinus": 13,
+          "KAST": 0.786,
+          "ADR": 138.277,
+          "HS%": 0.196,
+          "FK": 5,
+          "FD": 6,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "longclaw",
+          "R1.0": 1.032,
+          "ACS": 175.333,
+          "K": 38,
+          "D": 34,
+          "A": 14,
+          "PlusMinus": 4,
+          "KAST": 0.786,
+          "ADR": 134.565,
+          "HS%": 0.208,
+          "FK": 2,
+          "FD": 0,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "rudesubs",
+          "R1.0": 0.914,
+          "ACS": 165,
+          "K": 33,
+          "D": 41,
+          "A": 19,
+          "PlusMinus": -8,
+          "KAST": 0.738,
+          "ADR": 124.245,
+          "HS%": 0.246,
+          "FK": 8,
+          "FD": 4,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "teklo",
+          "R1.0": 0.891,
+          "ACS": 173.667,
+          "K": 35,
+          "D": 43,
+          "A": 15,
+          "PlusMinus": -8,
+          "KAST": 0.719,
+          "ADR": 122.232,
+          "HS%": 0.216,
+          "FK": 7,
+          "FD": 8,
+          "PlusMinus2": -1
+        }
+      ]
+    },
+    {
+      "team": "SLLY",
+      "teamName": "Silly Geese",
+      "players": [
+        {
+          "Player": "pi",
+          "R1.0": 0.97,
+          "ACS": 194.333,
+          "K": 44,
+          "D": 41,
+          "A": 6,
+          "PlusMinus": 3,
+          "KAST": 0.718,
+          "ADR": 128.755,
+          "HS%": 0.196,
+          "FK": 1,
+          "FD": 6,
+          "PlusMinus2": -5
+        },
+        {
+          "Player": "Angus",
+          "R1.0": 0.88,
+          "ACS": 215.333,
+          "K": 45,
+          "D": 48,
+          "A": 8,
+          "PlusMinus": -3,
+          "KAST": 0.616,
+          "ADR": 119.305,
+          "HS%": 0.293,
+          "FK": 12,
+          "FD": 7,
+          "PlusMinus2": 5
+        },
+        {
+          "Player": "shadow",
+          "R1.0": 0.839,
+          "ACS": 188.333,
+          "K": 39,
+          "D": 48,
+          "A": 14,
+          "PlusMinus": -9,
+          "KAST": 0.617,
+          "ADR": 115.425,
+          "HS%": 0.218,
+          "FK": 8,
+          "FD": 10,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "lore",
+          "R1.0": 0.82,
+          "ACS": 168.667,
+          "K": 38,
+          "D": 50,
+          "A": 18,
+          "PlusMinus": -12,
+          "KAST": 0.7,
+          "ADR": 100.99,
+          "HS%": 0.243,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "cloud",
+          "R1.0": 0.751,
+          "ACS": 136,
+          "K": 27,
+          "D": 45,
+          "A": 10,
+          "PlusMinus": -18,
+          "KAST": 0.666,
+          "ADR": 115.395,
+          "HS%": 0.27,
+          "FK": 3,
+          "FD": 5,
+          "PlusMinus2": -2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Abyss",
+      "score1": 10,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 1.084,
+              "ACS": 309,
+              "K": 23,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": 6,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 4,
+              "FD": 5,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "amara",
+              "Agent": null,
+              "R1.0": 0.962,
+              "ACS": 175,
+              "K": 15,
+              "D": 17,
+              "A": 10,
+              "PlusMinus": -2,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 0.888,
+              "ACS": 159,
+              "K": 12,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": -2,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.847,
+              "ACS": 142,
+              "K": 11,
+              "D": 17,
+              "A": 8,
+              "PlusMinus": -6,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 0.76,
+              "ACS": 128,
+              "K": 11,
+              "D": 19,
+              "A": 3,
+              "PlusMinus": -8,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "SLLY",
+          "teamName": "Silly Geese",
+          "players": [
+            {
+              "Player": "Angus",
+              "Agent": null,
+              "R1.0": 1.069,
+              "ACS": 282,
+              "K": 22,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": 6,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 9,
+              "FD": 2,
+              "PlusMinus2": 7
+            },
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 1.027,
+              "ACS": 247,
+              "K": 19,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": 3,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "lore",
+              "Agent": null,
+              "R1.0": 1.123,
+              "ACS": 244,
+              "K": 21,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": 6,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "pi",
+              "Agent": null,
+              "R1.0": 0.891,
+              "ACS": 134,
+              "K": 13,
+              "D": 13,
+              "A": 0,
+              "PlusMinus": 0,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "cloud",
+              "Agent": null,
+              "R1.0": 0.831,
+              "ACS": 105,
+              "K": 8,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": -5,
+              "KAST": 0.7,
+              "ADR": 125,
+              "HS%": 0.25,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 3,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 1.688,
+              "ACS": 376,
+              "K": 22,
+              "D": 9,
+              "A": 2,
+              "PlusMinus": 13,
+              "KAST": 0.81,
+              "ADR": 240.8,
+              "HS%": 0.25,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "amara",
+              "Agent": null,
+              "R1.0": 1.444,
+              "ACS": 245,
+              "K": 17,
+              "D": 7,
+              "A": 4,
+              "PlusMinus": 10,
+              "KAST": 0.88,
+              "ADR": 169.8,
+              "HS%": 0.19,
+              "FK": 4,
+              "FD": 0,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 1.301,
+              "ACS": 216,
+              "K": 11,
+              "D": 6,
+              "A": 10,
+              "PlusMinus": 5,
+              "KAST": 0.88,
+              "ADR": 149.6,
+              "HS%": 0.21,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 1.039,
+              "ACS": 211,
+              "K": 12,
+              "D": 11,
+              "A": 4,
+              "PlusMinus": 1,
+              "KAST": 0.81,
+              "ADR": 128.4,
+              "HS%": 0.19,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 1.063,
+              "ACS": 159,
+              "K": 10,
+              "D": 7,
+              "A": 3,
+              "PlusMinus": 3,
+              "KAST": 0.88,
+              "ADR": 119,
+              "HS%": 0.21,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "SLLY",
+          "teamName": "Silly Geese",
+          "players": [
+            {
+              "Player": "pi",
+              "Agent": null,
+              "R1.0": 0.819,
+              "ACS": 186,
+              "K": 11,
+              "D": 13,
+              "A": 2,
+              "PlusMinus": -2,
+              "KAST": 0.69,
+              "ADR": 102.2,
+              "HS%": 0.22,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "Angus",
+              "Agent": null,
+              "R1.0": 0.678,
+              "ACS": 162,
+              "K": 8,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": -7,
+              "KAST": 0.62,
+              "ADR": 100.1,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 0.608,
+              "ACS": 143,
+              "K": 7,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -8,
+              "KAST": 0.56,
+              "ADR": 99.2,
+              "HS%": 0.25,
+              "FK": 4,
+              "FD": 6,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "cloud",
+              "Agent": null,
+              "R1.0": 0.583,
+              "ACS": 140,
+              "K": 8,
+              "D": 15,
+              "A": 0,
+              "PlusMinus": -7,
+              "KAST": 0.56,
+              "ADR": 98.3,
+              "HS%": 0.18,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "lore",
+              "Agent": null,
+              "R1.0": 0.599,
+              "ACS": 114,
+              "K": 6,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": -8,
+              "KAST": 0.62,
+              "ADR": 85.1,
+              "HS%": 0.21,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bind",
+      "score1": 13,
+      "score2": 8,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 1.753,
+              "ACS": 401,
+              "K": 30,
+              "D": 13,
+              "A": 7,
+              "PlusMinus": 17,
+              "KAST": 0.9,
+              "ADR": 234.5,
+              "HS%": 0.13,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "amara",
+              "Agent": null,
+              "R1.0": 1.137,
+              "ACS": 217,
+              "K": 18,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": 5,
+              "KAST": 0.81,
+              "ADR": 128.8,
+              "HS%": 0.14,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 1.166,
+              "ACS": 208,
+              "K": 16,
+              "D": 13,
+              "A": 7,
+              "PlusMinus": 3,
+              "KAST": 0.81,
+              "ADR": 156.9,
+              "HS%": 0.16,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.827,
+              "ACS": 168,
+              "K": 12,
+              "D": 15,
+              "A": 3,
+              "PlusMinus": -3,
+              "KAST": 0.67,
+              "ADR": 114.5,
+              "HS%": 0.2,
+              "FK": 2,
+              "FD": 5,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 0.786,
+              "ACS": 151,
+              "K": 11,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -5,
+              "KAST": 0.67,
+              "ADR": 104.1,
+              "HS%": 0.27,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "SLLY",
+          "teamName": "Silly Geese",
+          "players": [
+            {
+              "Player": "pi",
+              "Agent": null,
+              "R1.0": 1.171,
+              "ACS": 263,
+              "K": 20,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": 5,
+              "KAST": 0.76,
+              "ADR": 153.1,
+              "HS%": 0.12,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Angus",
+              "Agent": null,
+              "R1.0": 0.828,
+              "ACS": 202,
+              "K": 15,
+              "D": 17,
+              "A": 1,
+              "PlusMinus": -2,
+              "KAST": 0.52,
+              "ADR": 127.7,
+              "HS%": 0.41,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 0.809,
+              "ACS": 175,
+              "K": 13,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -4,
+              "KAST": 0.57,
+              "ADR": 117.3,
+              "HS%": 0.16,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "cloud",
+              "Agent": null,
+              "R1.0": 0.791,
+              "ACS": 163,
+              "K": 11,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -6,
+              "KAST": 0.71,
+              "ADR": 117.9,
+              "HS%": 0.36,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "lore",
+              "Agent": null,
+              "R1.0": 0.657,
+              "ACS": 148,
+              "K": 11,
+              "D": 21,
+              "A": 5,
+              "PlusMinus": -10,
+              "KAST": 0.76,
+              "ADR": 86.8,
+              "HS%": 0.26,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=eA0DgTF7Jdo"
+}

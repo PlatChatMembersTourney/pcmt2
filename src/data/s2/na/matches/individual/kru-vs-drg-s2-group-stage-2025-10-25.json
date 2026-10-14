@@ -1,0 +1,765 @@
+{
+  "id": "kru-vs-drg-s2-group-stage-2025-10-25",
+  "team1": "KRU",
+  "team2": "DRG",
+  "team1Name": "Knives R' Us",
+  "team2Name": "DeRank Gamers",
+  "score1": 0,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-10-25",
+  "stage": "Group Stage",
+  "veto": "DRG bans Abyss, KRU bans Corrode, DRG picks Split, KRU picks Bind, DRG bans Pearl, KRU bans Sunset, Haven Remains",
+  "maps": [
+    {
+      "name": "Split",
+      "score1": 5,
+      "score2": 13
+    },
+    {
+      "name": "Bind",
+      "score1": 11,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "KRU",
+      "teamName": "Knives R' Us",
+      "players": [
+        {
+          "Player": "art",
+          "R1.0": 0.711,
+          "ACS": 156.5,
+          "K": 20,
+          "D": 34,
+          "A": 8,
+          "PlusMinus": -14,
+          "KAST": 0.594,
+          "ADR": 110.671,
+          "HS%": 0.191,
+          "FK": 9,
+          "FD": 14,
+          "PlusMinus2": -5
+        },
+        {
+          "Player": "masao",
+          "R1.0": 0.774,
+          "ACS": 153.5,
+          "K": 21,
+          "D": 30,
+          "A": 18,
+          "PlusMinus": -9,
+          "KAST": 0.616,
+          "ADR": 89.6,
+          "HS%": 0.184,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "amiable",
+          "R1.0": 1.053,
+          "ACS": 214.5,
+          "K": 32,
+          "D": 32,
+          "A": 13,
+          "PlusMinus": 0,
+          "KAST": 0.743,
+          "ADR": 147.386,
+          "HS%": 0.273,
+          "FK": 4,
+          "FD": 2,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "Jack",
+          "R1.0": 0.725,
+          "ACS": 147.5,
+          "K": 22,
+          "D": 33,
+          "A": 14,
+          "PlusMinus": -11,
+          "KAST": 0.596,
+          "ADR": 88.729,
+          "HS%": 0.137,
+          "FK": 4,
+          "FD": 3,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "tery",
+          "R1.0": 0.701,
+          "ACS": 150,
+          "K": 23,
+          "D": 30,
+          "A": 2,
+          "PlusMinus": -7,
+          "KAST": 0.594,
+          "ADR": 87.843,
+          "HS%": 0.111,
+          "FK": 0,
+          "FD": 1,
+          "PlusMinus2": -1
+        }
+      ]
+    },
+    {
+      "team": "DRG",
+      "teamName": "DeRank Gamers",
+      "players": [
+        {
+          "Player": "straight",
+          "R1.0": 1.284,
+          "ACS": 271.5,
+          "K": 42,
+          "D": 23,
+          "A": 3,
+          "PlusMinus": 19,
+          "KAST": 0.737,
+          "ADR": 172.671,
+          "HS%": 0.199,
+          "FK": 5,
+          "FD": 6,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "sizeable",
+          "R1.0": 1.08,
+          "ACS": 229,
+          "K": 30,
+          "D": 26,
+          "A": 9,
+          "PlusMinus": 4,
+          "KAST": 0.83,
+          "ADR": 141.471,
+          "HS%": 0.124,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "amara",
+          "R1.0": 1.182,
+          "ACS": 237,
+          "K": 33,
+          "D": 25,
+          "A": 17,
+          "PlusMinus": 8,
+          "KAST": 0.807,
+          "ADR": 148.143,
+          "HS%": 0.219,
+          "FK": 7,
+          "FD": 8,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "jooah",
+          "R1.0": 1.3,
+          "ACS": 251.5,
+          "K": 36,
+          "D": 22,
+          "A": 20,
+          "PlusMinus": 14,
+          "KAST": 0.807,
+          "ADR": 160.557,
+          "HS%": 0.367,
+          "FK": 4,
+          "FD": 2,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "hascan",
+          "R1.0": 0.743,
+          "ACS": 123,
+          "K": 18,
+          "D": 22,
+          "A": 8,
+          "PlusMinus": -4,
+          "KAST": 0.666,
+          "ADR": 75.3,
+          "HS%": 0.101,
+          "FK": 2,
+          "FD": 0,
+          "PlusMinus2": 2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Split",
+      "score1": 5,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "KRU",
+          "teamName": "Knives R' Us",
+          "players": [
+            {
+              "Player": "art",
+              "Agent": null,
+              "R1.0": 0.795,
+              "ACS": 184,
+              "K": 10,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.56,
+              "ADR": 132.5,
+              "HS%": 0.22,
+              "FK": 5,
+              "FD": 4,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "masao",
+              "Agent": null,
+              "R1.0": 0.849,
+              "ACS": 163,
+              "K": 11,
+              "D": 13,
+              "A": 9,
+              "PlusMinus": -2,
+              "KAST": 0.61,
+              "ADR": 91.2,
+              "HS%": 0.19,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "amiable",
+              "Agent": null,
+              "R1.0": 0.667,
+              "ACS": 160,
+              "K": 9,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -8,
+              "KAST": 0.56,
+              "ADR": 112.7,
+              "HS%": 0.21,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "tery",
+              "Agent": null,
+              "R1.0": 0.684,
+              "ACS": 151,
+              "K": 11,
+              "D": 14,
+              "A": 0,
+              "PlusMinus": -3,
+              "KAST": 0.56,
+              "ADR": 86.7,
+              "HS%": 0.14,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Jack",
+              "Agent": null,
+              "R1.0": 0.536,
+              "ACS": 117,
+              "K": 6,
+              "D": 18,
+              "A": 7,
+              "PlusMinus": -12,
+              "KAST": 0.67,
+              "ADR": 77.7,
+              "HS%": 0.12,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            }
+          ]
+        },
+        {
+          "team": "DRG",
+          "teamName": "DeRank Gamers",
+          "players": [
+            {
+              "Player": "sizeable",
+              "Agent": null,
+              "R1.0": 1.324,
+              "ACS": 290,
+              "K": 18,
+              "D": 11,
+              "A": 2,
+              "PlusMinus": 7,
+              "KAST": 0.83,
+              "ADR": 184.5,
+              "HS%": 0.17,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "straight",
+              "Agent": null,
+              "R1.0": 1.379,
+              "ACS": 283,
+              "K": 19,
+              "D": 9,
+              "A": 2,
+              "PlusMinus": 10,
+              "KAST": 0.72,
+              "ADR": 188.9,
+              "HS%": 0.21,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "jooah",
+              "Agent": null,
+              "R1.0": 1.349,
+              "ACS": 266,
+              "K": 18,
+              "D": 9,
+              "A": 4,
+              "PlusMinus": 9,
+              "KAST": 0.83,
+              "ADR": 164.9,
+              "HS%": 0.47,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "amara",
+              "Agent": null,
+              "R1.0": 1.27,
+              "ACS": 242,
+              "K": 15,
+              "D": 9,
+              "A": 7,
+              "PlusMinus": 6,
+              "KAST": 0.83,
+              "ADR": 154.6,
+              "HS%": 0.27,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "hascan",
+              "Agent": null,
+              "R1.0": 0.766,
+              "ACS": 117,
+              "K": 7,
+              "D": 9,
+              "A": 4,
+              "PlusMinus": -2,
+              "KAST": 0.78,
+              "ADR": 72.1,
+              "HS%": 0.09,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bind",
+      "score1": 11,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "KRU",
+          "teamName": "Knives R' Us",
+          "players": [
+            {
+              "Player": "amiable",
+              "Agent": null,
+              "R1.0": 1.343,
+              "ACS": 269,
+              "K": 23,
+              "D": 15,
+              "A": 9,
+              "PlusMinus": 8,
+              "KAST": 0.88,
+              "ADR": 173.4,
+              "HS%": 0.32,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "Jack",
+              "Agent": null,
+              "R1.0": 0.867,
+              "ACS": 178,
+              "K": 16,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": 1,
+              "KAST": 0.54,
+              "ADR": 97,
+              "HS%": 0.15,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "tery",
+              "Agent": null,
+              "R1.0": 0.714,
+              "ACS": 149,
+              "K": 12,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -4,
+              "KAST": 0.62,
+              "ADR": 88.7,
+              "HS%": 0.09,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "masao",
+              "Agent": null,
+              "R1.0": 0.716,
+              "ACS": 144,
+              "K": 10,
+              "D": 17,
+              "A": 9,
+              "PlusMinus": -7,
+              "KAST": 0.62,
+              "ADR": 88.4,
+              "HS%": 0.18,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "art",
+              "Agent": null,
+              "R1.0": 0.648,
+              "ACS": 129,
+              "K": 10,
+              "D": 19,
+              "A": 4,
+              "PlusMinus": -9,
+              "KAST": 0.62,
+              "ADR": 94.3,
+              "HS%": 0.17,
+              "FK": 4,
+              "FD": 10,
+              "PlusMinus2": -6
+            }
+          ]
+        },
+        {
+          "team": "DRG",
+          "teamName": "DeRank Gamers",
+          "players": [
+            {
+              "Player": "straight",
+              "Agent": null,
+              "R1.0": 1.212,
+              "ACS": 260,
+              "K": 23,
+              "D": 14,
+              "A": 1,
+              "PlusMinus": 9,
+              "KAST": 0.75,
+              "ADR": 160.5,
+              "HS%": 0.19,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "jooah",
+              "Agent": null,
+              "R1.0": 1.263,
+              "ACS": 237,
+              "K": 18,
+              "D": 13,
+              "A": 16,
+              "PlusMinus": 5,
+              "KAST": 0.79,
+              "ADR": 157.3,
+              "HS%": 0.29,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "amara",
+              "Agent": null,
+              "R1.0": 1.117,
+              "ACS": 232,
+              "K": 18,
+              "D": 16,
+              "A": 10,
+              "PlusMinus": 2,
+              "KAST": 0.79,
+              "ADR": 143.3,
+              "HS%": 0.18,
+              "FK": 6,
+              "FD": 5,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "sizeable",
+              "Agent": null,
+              "R1.0": 0.897,
+              "ACS": 168,
+              "K": 12,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": -3,
+              "KAST": 0.83,
+              "ADR": 109.2,
+              "HS%": 0.09,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "hascan",
+              "Agent": null,
+              "R1.0": 0.725,
+              "ACS": 129,
+              "K": 11,
+              "D": 13,
+              "A": 4,
+              "PlusMinus": -2,
+              "KAST": 0.58,
+              "ADR": 77.7,
+              "HS%": 0.11,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=JypaFIVRUgw"
+}

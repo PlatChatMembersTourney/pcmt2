@@ -1,0 +1,1056 @@
+{
+  "id": "jdg-vs-koi-s2-group-stage-2026-01-03",
+  "team1": "JDG",
+  "team2": "KOI",
+  "team1Name": "Just Dudes Gaming",
+  "team2Name": "Keep On Inting",
+  "score1": 1,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-01-03",
+  "stage": "Group Stage",
+  "veto": "JDG bans Split, KOI bans Pearl, JDG picks Bind, KOI picks Haven, JDG bans Sunset, KOI bans Corrode, Abyss remains",
+  "maps": [
+    {
+      "name": "Bind",
+      "score1": 10,
+      "score2": 13
+    },
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 4
+    },
+    {
+      "name": "Abyss",
+      "score1": 10,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "JDG",
+      "teamName": "Just Dudes Gaming",
+      "players": [
+        {
+          "Player": "james",
+          "R1.0": 1.297,
+          "ACS": 302,
+          "K": 69,
+          "D": 48,
+          "A": 11,
+          "PlusMinus": 21,
+          "KAST": 0.745,
+          "ADR": 183.86,
+          "HS%": 0.437,
+          "FK": 19,
+          "FD": 10,
+          "PlusMinus2": 9
+        },
+        {
+          "Player": "stingray",
+          "R1.0": 1.219,
+          "ACS": 243.333,
+          "K": 53,
+          "D": 37,
+          "A": 20,
+          "PlusMinus": 16,
+          "KAST": 0.732,
+          "ADR": 166.448,
+          "HS%": 0.228,
+          "FK": 6,
+          "FD": 5,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "sylos",
+          "R1.0": 0.947,
+          "ACS": 179.667,
+          "K": 37,
+          "D": 39,
+          "A": 17,
+          "PlusMinus": -2,
+          "KAST": 0.696,
+          "ADR": 127.937,
+          "HS%": 0.132,
+          "FK": 3,
+          "FD": 1,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "Eve",
+          "R1.0": 0.959,
+          "ACS": 208.667,
+          "K": 44,
+          "D": 46,
+          "A": 12,
+          "PlusMinus": -2,
+          "KAST": 0.732,
+          "ADR": 130.402,
+          "HS%": 0.214,
+          "FK": 7,
+          "FD": 6,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "neckolas",
+          "R1.0": 0.952,
+          "ACS": 157.667,
+          "K": 37,
+          "D": 37,
+          "A": 29,
+          "PlusMinus": 0,
+          "KAST": 0.779,
+          "ADR": 96.465,
+          "HS%": 0.156,
+          "FK": 3,
+          "FD": 3,
+          "PlusMinus2": 0
+        }
+      ]
+    },
+    {
+      "team": "KOI",
+      "teamName": "Keep On Inting",
+      "players": [
+        {
+          "Player": "night",
+          "R1.0": 0.951,
+          "ACS": 218.667,
+          "K": 46,
+          "D": 50,
+          "A": 15,
+          "PlusMinus": -4,
+          "KAST": 0.683,
+          "ADR": 132.743,
+          "HS%": 0.331,
+          "FK": 11,
+          "FD": 11,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "lucas",
+          "R1.0": 1.124,
+          "ACS": 243.667,
+          "K": 53,
+          "D": 50,
+          "A": 14,
+          "PlusMinus": 3,
+          "KAST": 0.734,
+          "ADR": 172.781,
+          "HS%": 0.232,
+          "FK": 6,
+          "FD": 13,
+          "PlusMinus2": -7
+        },
+        {
+          "Player": "VALENTIA",
+          "R1.0": 0.72,
+          "ACS": 134.667,
+          "K": 33,
+          "D": 45,
+          "A": 9,
+          "PlusMinus": -12,
+          "KAST": 0.569,
+          "ADR": 94.787,
+          "HS%": 0.104,
+          "FK": 1,
+          "FD": 7,
+          "PlusMinus2": -6
+        },
+        {
+          "Player": "abstracq",
+          "R1.0": 1.109,
+          "ACS": 230,
+          "K": 54,
+          "D": 50,
+          "A": 23,
+          "PlusMinus": 4,
+          "KAST": 0.749,
+          "ADR": 148.325,
+          "HS%": 0.315,
+          "FK": 8,
+          "FD": 6,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "catsmeow",
+          "R1.0": 0.595,
+          "ACS": 98.333,
+          "K": 21,
+          "D": 45,
+          "A": 15,
+          "PlusMinus": -24,
+          "KAST": 0.621,
+          "ADR": 71.619,
+          "HS%": 0.216,
+          "FK": 0,
+          "FD": 2,
+          "PlusMinus2": -2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Bind",
+      "score1": 10,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "JDG",
+          "teamName": "Just Dudes Gaming",
+          "players": [
+            {
+              "Player": "james",
+              "Agent": null,
+              "R1.0": 1.125,
+              "ACS": 279,
+              "K": 23,
+              "D": 20,
+              "A": 5,
+              "PlusMinus": 3,
+              "KAST": 0.65,
+              "ADR": 162.7,
+              "HS%": 0.39,
+              "FK": 6,
+              "FD": 3,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "sylos",
+              "Agent": null,
+              "R1.0": 1.148,
+              "ACS": 251,
+              "K": 19,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": 3,
+              "KAST": 0.65,
+              "ADR": 171.6,
+              "HS%": 0.15,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "stingray",
+              "Agent": null,
+              "R1.0": 1.061,
+              "ACS": 213,
+              "K": 18,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": 2,
+              "KAST": 0.7,
+              "ADR": 140.3,
+              "HS%": 0.18,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "neckolas",
+              "Agent": null,
+              "R1.0": 0.868,
+              "ACS": 165,
+              "K": 14,
+              "D": 18,
+              "A": 7,
+              "PlusMinus": -4,
+              "KAST": 0.7,
+              "ADR": 116.1,
+              "HS%": 0.14,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Eve",
+              "Agent": null,
+              "R1.0": 0.656,
+              "ACS": 148,
+              "K": 10,
+              "D": 20,
+              "A": 7,
+              "PlusMinus": -10,
+              "KAST": 0.57,
+              "ADR": 101.1,
+              "HS%": 0.22,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "KOI",
+          "teamName": "Keep On Inting",
+          "players": [
+            {
+              "Player": "lucas",
+              "Agent": null,
+              "R1.0": 1.443,
+              "ACS": 315,
+              "K": 25,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 8,
+              "KAST": 0.83,
+              "ADR": 225.4,
+              "HS%": 0.24,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "abstracq",
+              "Agent": null,
+              "R1.0": 1.22,
+              "ACS": 251,
+              "K": 21,
+              "D": 19,
+              "A": 10,
+              "PlusMinus": 2,
+              "KAST": 0.83,
+              "ADR": 169.6,
+              "HS%": 0.3,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "VALENTIA",
+              "Agent": null,
+              "R1.0": 1.079,
+              "ACS": 204,
+              "K": 18,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": 4,
+              "KAST": 0.78,
+              "ADR": 130.2,
+              "HS%": 0.12,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "night",
+              "Agent": null,
+              "R1.0": 0.937,
+              "ACS": 195,
+              "K": 16,
+              "D": 18,
+              "A": 6,
+              "PlusMinus": -2,
+              "KAST": 0.78,
+              "ADR": 118.6,
+              "HS%": 0.3,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "catsmeow",
+              "Agent": null,
+              "R1.0": 0.773,
+              "ACS": 125,
+              "K": 10,
+              "D": 16,
+              "A": 10,
+              "PlusMinus": -6,
+              "KAST": 0.74,
+              "ADR": 84.3,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 4,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "JDG",
+          "teamName": "Just Dudes Gaming",
+          "players": [
+            {
+              "Player": "james",
+              "Agent": null,
+              "R1.0": 1.491,
+              "ACS": 321,
+              "K": 21,
+              "D": 10,
+              "A": 3,
+              "PlusMinus": 11,
+              "KAST": 0.76,
+              "ADR": 198.5,
+              "HS%": 0.51,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Eve",
+              "Agent": null,
+              "R1.0": 1.348,
+              "ACS": 257,
+              "K": 17,
+              "D": 8,
+              "A": 2,
+              "PlusMinus": 9,
+              "KAST": 0.94,
+              "ADR": 155.3,
+              "HS%": 0.21,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "stingray",
+              "Agent": null,
+              "R1.0": 1.329,
+              "ACS": 240,
+              "K": 14,
+              "D": 7,
+              "A": 5,
+              "PlusMinus": 7,
+              "KAST": 0.82,
+              "ADR": 175.1,
+              "HS%": 0.25,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "neckolas",
+              "Agent": null,
+              "R1.0": 1.234,
+              "ACS": 180,
+              "K": 12,
+              "D": 5,
+              "A": 10,
+              "PlusMinus": 7,
+              "KAST": 0.94,
+              "ADR": 100.7,
+              "HS%": 0.24,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "sylos",
+              "Agent": null,
+              "R1.0": 0.903,
+              "ACS": 147,
+              "K": 8,
+              "D": 9,
+              "A": 5,
+              "PlusMinus": -1,
+              "KAST": 0.82,
+              "ADR": 102.6,
+              "HS%": 0.11,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "KOI",
+          "teamName": "Keep On Inting",
+          "players": [
+            {
+              "Player": "night",
+              "Agent": null,
+              "R1.0": 0.876,
+              "ACS": 236,
+              "K": 13,
+              "D": 15,
+              "A": 3,
+              "PlusMinus": -2,
+              "KAST": 0.53,
+              "ADR": 135.7,
+              "HS%": 0.13,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "abstracq",
+              "Agent": null,
+              "R1.0": 0.881,
+              "ACS": 178,
+              "K": 10,
+              "D": 12,
+              "A": 6,
+              "PlusMinus": -2,
+              "KAST": 0.65,
+              "ADR": 114.3,
+              "HS%": 0.33,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "lucas",
+              "Agent": null,
+              "R1.0": 0.683,
+              "ACS": 166,
+              "K": 9,
+              "D": 15,
+              "A": 3,
+              "PlusMinus": -6,
+              "KAST": 0.65,
+              "ADR": 94.8,
+              "HS%": 0.21,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "VALENTIA",
+              "Agent": null,
+              "R1.0": 0.328,
+              "ACS": 78,
+              "K": 4,
+              "D": 15,
+              "A": 1,
+              "PlusMinus": -11,
+              "KAST": 0.35,
+              "ADR": 65.8,
+              "HS%": 0.13,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "catsmeow",
+              "Agent": null,
+              "R1.0": 0.332,
+              "ACS": 70,
+              "K": 3,
+              "D": 15,
+              "A": 1,
+              "PlusMinus": -12,
+              "KAST": 0.53,
+              "ADR": 57.6,
+              "HS%": 0.3,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abyss",
+      "score1": 10,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "JDG",
+          "teamName": "Just Dudes Gaming",
+          "players": [
+            {
+              "Player": "james",
+              "Agent": null,
+              "R1.0": 1.326,
+              "ACS": 306,
+              "K": 25,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": 7,
+              "KAST": 0.83,
+              "ADR": 194.2,
+              "HS%": 0.43,
+              "FK": 10,
+              "FD": 3,
+              "PlusMinus2": 7
+            },
+            {
+              "Player": "stingray",
+              "Agent": null,
+              "R1.0": 1.295,
+              "ACS": 277,
+              "K": 21,
+              "D": 14,
+              "A": 8,
+              "PlusMinus": 7,
+              "KAST": 0.7,
+              "ADR": 186.2,
+              "HS%": 0.26,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Eve",
+              "Agent": null,
+              "R1.0": 0.975,
+              "ACS": 221,
+              "K": 17,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": -1,
+              "KAST": 0.74,
+              "ADR": 141.3,
+              "HS%": 0.21,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "sylos",
+              "Agent": null,
+              "R1.0": 0.78,
+              "ACS": 141,
+              "K": 10,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": -4,
+              "KAST": 0.65,
+              "ADR": 103,
+              "HS%": 0.13,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "neckolas",
+              "Agent": null,
+              "R1.0": 0.828,
+              "ACS": 128,
+              "K": 11,
+              "D": 14,
+              "A": 12,
+              "PlusMinus": -3,
+              "KAST": 0.74,
+              "ADR": 73.7,
+              "HS%": 0.11,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "KOI",
+          "teamName": "Keep On Inting",
+          "players": [
+            {
+              "Player": "abstracq",
+              "Agent": null,
+              "R1.0": 1.166,
+              "ACS": 261,
+              "K": 23,
+              "D": 19,
+              "A": 7,
+              "PlusMinus": 4,
+              "KAST": 0.74,
+              "ADR": 152.2,
+              "HS%": 0.32,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "lucas",
+              "Agent": null,
+              "R1.0": 1.131,
+              "ACS": 250,
+              "K": 19,
+              "D": 18,
+              "A": 6,
+              "PlusMinus": 1,
+              "KAST": 0.7,
+              "ADR": 177.8,
+              "HS%": 0.24,
+              "FK": 2,
+              "FD": 7,
+              "PlusMinus2": -5
+            },
+            {
+              "Player": "night",
+              "Agent": null,
+              "R1.0": 1.02,
+              "ACS": 225,
+              "K": 17,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": 0,
+              "KAST": 0.7,
+              "ADR": 144.7,
+              "HS%": 0.51,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "VALENTIA",
+              "Agent": null,
+              "R1.0": 0.65,
+              "ACS": 122,
+              "K": 11,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": -5,
+              "KAST": 0.52,
+              "ADR": 80.8,
+              "HS%": 0.07,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "catsmeow",
+              "Agent": null,
+              "R1.0": 0.613,
+              "ACS": 100,
+              "K": 8,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": -6,
+              "KAST": 0.57,
+              "ADR": 69.3,
+              "HS%": 0.17,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=idqAyqrCeF0"
+}

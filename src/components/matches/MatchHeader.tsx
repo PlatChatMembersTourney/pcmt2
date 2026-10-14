@@ -3,6 +3,7 @@ import slugify from 'slugify';
 import { timeUntil } from '../../utils/datetime.ts';
 import { eventLogo } from '../../utils/images.ts';
 import { cx } from '../../utils/cx.ts';
+import { pctFormatter } from '../../utils/format.ts';
 import { useNow } from '../../utils/useNow.ts';
 import { useTimezone } from '../../utils/useTimezone.ts';
 
@@ -100,7 +101,38 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 					{match.team2Name}
 				</a>
 			</div>
-			<p className="text-center text-[11px] leading-normal italic md:text-xs">{match.completed && match.veto}</p>
+			{/* Bottom line: the veto once played - before that, the bot's predicted series win chances (Elo) */}
+			{match.completed ? (
+				<p className="text-center text-[11px] leading-normal italic md:text-xs">{match.veto}</p>
+			) : (
+				match.winChance && (
+					<p
+						className="text-center text-[11px] leading-normal md:text-xs"
+						title="Each team's chance to win the series, predicted from their Elo ratings"
+					>
+						<span className="text-vlr-text-gray mr-2 text-[10px] uppercase">Win chance</span>
+						{match.team1}{' '}
+						<span
+							className={cx(
+								'font-medium',
+								match.winChance.team1 > match.winChance.team2 && 'text-green-500 dark:text-green-400'
+							)}
+						>
+							{pctFormatter.format(match.winChance.team1)}
+						</span>
+						<span className="text-vlr-text-gray"> · </span>
+						<span
+							className={cx(
+								'font-medium',
+								match.winChance.team2 > match.winChance.team1 && 'text-green-500 dark:text-green-400'
+							)}
+						>
+							{pctFormatter.format(match.winChance.team2)}
+						</span>{' '}
+						{match.team2}
+					</p>
+				)
+			)}
 		</div>
 	);
 };

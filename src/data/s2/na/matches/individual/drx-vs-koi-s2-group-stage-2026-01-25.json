@@ -1,0 +1,1051 @@
+{
+  "id": "drx-vs-koi-s2-group-stage-2026-01-25",
+  "team1": "DRX",
+  "team2": "KOI",
+  "team1Name": "Dementia Real Exists",
+  "team2Name": "Keep On Inting",
+  "score1": 1,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-01-25",
+  "stage": "Group Stage",
+  "veto": "DRX bans Corrode, KOI bans Split, DRX picks Abyss, KOI picks Haven, DRX bans Breeze, KOI bans Bind, Pearl remains",
+  "maps": [
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 4
+    },
+    {
+      "name": "Haven",
+      "score1": 11,
+      "score2": 13
+    },
+    {
+      "name": "Pearl",
+      "score1": 5,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "DRX",
+      "teamName": "Dementia Real Exists",
+      "players": [
+        {
+          "Player": "izz",
+          "R1.0": 1.072,
+          "ACS": 248.667,
+          "K": 49,
+          "D": 46,
+          "A": 13,
+          "PlusMinus": 3,
+          "KAST": 0.711,
+          "ADR": 154.875,
+          "HS%": 0.138,
+          "FK": 13,
+          "FD": 6,
+          "PlusMinus2": 7
+        },
+        {
+          "Player": "rudesubs",
+          "R1.0": 0.951,
+          "ACS": 184.333,
+          "K": 41,
+          "D": 43,
+          "A": 14,
+          "PlusMinus": -2,
+          "KAST": 0.71,
+          "ADR": 125.936,
+          "HS%": 0.327,
+          "FK": 1,
+          "FD": 5,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "platinum",
+          "R1.0": 1.135,
+          "ACS": 262.667,
+          "K": 51,
+          "D": 45,
+          "A": 18,
+          "PlusMinus": 6,
+          "KAST": 0.693,
+          "ADR": 164.239,
+          "HS%": 0.217,
+          "FK": 9,
+          "FD": 8,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "longclaw",
+          "R1.0": 1.055,
+          "ACS": 194.333,
+          "K": 40,
+          "D": 36,
+          "A": 18,
+          "PlusMinus": 4,
+          "KAST": 0.778,
+          "ADR": 136.107,
+          "HS%": 0.177,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "teklo",
+          "R1.0": 0.684,
+          "ACS": 138.667,
+          "K": 30,
+          "D": 47,
+          "A": 12,
+          "PlusMinus": -17,
+          "KAST": 0.61,
+          "ADR": 87.456,
+          "HS%": 0.21,
+          "FK": 3,
+          "FD": 9,
+          "PlusMinus2": -6
+        }
+      ]
+    },
+    {
+      "team": "KOI",
+      "teamName": "Keep On Inting",
+      "players": [
+        {
+          "Player": "Tenyaku",
+          "R1.0": 0.933,
+          "ACS": 198,
+          "K": 30,
+          "D": 31,
+          "A": 8,
+          "PlusMinus": -1,
+          "KAST": 0.74,
+          "ADR": 129.757,
+          "HS%": 0.229,
+          "FK": 6,
+          "FD": 6,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "night",
+          "R1.0": 0.991,
+          "ACS": 216.667,
+          "K": 45,
+          "D": 45,
+          "A": 8,
+          "PlusMinus": 0,
+          "KAST": 0.773,
+          "ADR": 134.573,
+          "HS%": 0.159,
+          "FK": 9,
+          "FD": 10,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "lucas",
+          "R1.0": 1.169,
+          "ACS": 257.667,
+          "K": 53,
+          "D": 40,
+          "A": 7,
+          "PlusMinus": 13,
+          "KAST": 0.695,
+          "ADR": 172.588,
+          "HS%": 0.283,
+          "FK": 11,
+          "FD": 4,
+          "PlusMinus2": 7
+        },
+        {
+          "Player": "VALENTIA",
+          "R1.0": 0.884,
+          "ACS": 214,
+          "K": 12,
+          "D": 13,
+          "A": 3,
+          "PlusMinus": -1,
+          "KAST": 0.59,
+          "ADR": 150.9,
+          "HS%": 0.26,
+          "FK": 1,
+          "FD": 2,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "abstracq",
+          "R1.0": 0.911,
+          "ACS": 177,
+          "K": 39,
+          "D": 42,
+          "A": 18,
+          "PlusMinus": -3,
+          "KAST": 0.679,
+          "ADR": 112.11,
+          "HS%": 0.24,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "guilty crown",
+          "R1.0": 0.886,
+          "ACS": 173.333,
+          "K": 38,
+          "D": 40,
+          "A": 11,
+          "PlusMinus": -2,
+          "KAST": 0.659,
+          "ADR": 113.505,
+          "HS%": 0.163,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 4,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "platinum",
+              "Agent": null,
+              "R1.0": 1.445,
+              "ACS": 337,
+              "K": 19,
+              "D": 13,
+              "A": 9,
+              "PlusMinus": 6,
+              "KAST": 0.82,
+              "ADR": 196.7,
+              "HS%": 0.28,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 1.476,
+              "ACS": 325,
+              "K": 20,
+              "D": 9,
+              "A": 1,
+              "PlusMinus": 11,
+              "KAST": 0.82,
+              "ADR": 198.4,
+              "HS%": 0.2,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 1.115,
+              "ACS": 181,
+              "K": 13,
+              "D": 8,
+              "A": 5,
+              "PlusMinus": 5,
+              "KAST": 0.82,
+              "ADR": 112.4,
+              "HS%": 0.31,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 1.102,
+              "ACS": 176,
+              "K": 10,
+              "D": 8,
+              "A": 6,
+              "PlusMinus": 2,
+              "KAST": 0.88,
+              "ADR": 133.3,
+              "HS%": 0.26,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.878,
+              "ACS": 164,
+              "K": 11,
+              "D": 10,
+              "A": 2,
+              "PlusMinus": 1,
+              "KAST": 0.65,
+              "ADR": 101.5,
+              "HS%": 0.28,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "KOI",
+          "teamName": "Keep On Inting",
+          "players": [
+            {
+              "Player": "VALENTIA",
+              "Agent": null,
+              "R1.0": 0.952,
+              "ACS": 214,
+              "K": 12,
+              "D": 13,
+              "A": 3,
+              "PlusMinus": -1,
+              "KAST": 0.59,
+              "ADR": 150.9,
+              "HS%": 0.26,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "guilty crown",
+              "Agent": null,
+              "R1.0": 0.915,
+              "ACS": 214,
+              "K": 14,
+              "D": 14,
+              "A": 1,
+              "PlusMinus": 0,
+              "KAST": 0.59,
+              "ADR": 131.2,
+              "HS%": 0.24,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "lucas",
+              "Agent": null,
+              "R1.0": 0.675,
+              "ACS": 163,
+              "K": 9,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -7,
+              "KAST": 0.65,
+              "ADR": 107.3,
+              "HS%": 0.23,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "night",
+              "Agent": null,
+              "R1.0": 0.652,
+              "ACS": 142,
+              "K": 7,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -8,
+              "KAST": 0.69,
+              "ADR": 97.8,
+              "HS%": 0.19,
+              "FK": 2,
+              "FD": 5,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "abstracq",
+              "Agent": null,
+              "R1.0": 0.507,
+              "ACS": 109,
+              "K": 6,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": -9,
+              "KAST": 0.47,
+              "ADR": 74.9,
+              "HS%": 0.24,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 11,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 1.081,
+              "ACS": 253,
+              "K": 20,
+              "D": 20,
+              "A": 7,
+              "PlusMinus": 0,
+              "KAST": 0.71,
+              "ADR": 161,
+              "HS%": 0.13,
+              "FK": 6,
+              "FD": 2,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 1.11,
+              "ACS": 219,
+              "K": 19,
+              "D": 18,
+              "A": 8,
+              "PlusMinus": 1,
+              "KAST": 0.79,
+              "ADR": 153.4,
+              "HS%": 0.3,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "platinum",
+              "Agent": null,
+              "R1.0": 1.026,
+              "ACS": 212,
+              "K": 18,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": 2,
+              "KAST": 0.62,
+              "ADR": 143.3,
+              "HS%": 0.2,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 1.091,
+              "ACS": 203,
+              "K": 17,
+              "D": 13,
+              "A": 8,
+              "PlusMinus": 4,
+              "KAST": 0.75,
+              "ADR": 133,
+              "HS%": 0.16,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.754,
+              "ACS": 140,
+              "K": 13,
+              "D": 19,
+              "A": 7,
+              "PlusMinus": -6,
+              "KAST": 0.71,
+              "ADR": 87,
+              "HS%": 0.19,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            }
+          ]
+        },
+        {
+          "team": "KOI",
+          "teamName": "Keep On Inting",
+          "players": [
+            {
+              "Player": "night",
+              "Agent": null,
+              "R1.0": 1.178,
+              "ACS": 289,
+              "K": 25,
+              "D": 19,
+              "A": 0,
+              "PlusMinus": 6,
+              "KAST": 0.79,
+              "ADR": 163.3,
+              "HS%": 0.19,
+              "FK": 5,
+              "FD": 4,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Tenyaku",
+              "Agent": null,
+              "R1.0": 1.021,
+              "ACS": 223,
+              "K": 18,
+              "D": 19,
+              "A": 7,
+              "PlusMinus": -1,
+              "KAST": 0.71,
+              "ADR": 147.8,
+              "HS%": 0.25,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "lucas",
+              "Agent": null,
+              "R1.0": 0.966,
+              "ACS": 218,
+              "K": 18,
+              "D": 15,
+              "A": 0,
+              "PlusMinus": 3,
+              "KAST": 0.58,
+              "ADR": 140,
+              "HS%": 0.33,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "guilty crown",
+              "Agent": null,
+              "R1.0": 0.823,
+              "ACS": 165,
+              "K": 14,
+              "D": 18,
+              "A": 7,
+              "PlusMinus": -4,
+              "KAST": 0.58,
+              "ADR": 114.4,
+              "HS%": 0.14,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "abstracq",
+              "Agent": null,
+              "R1.0": 0.733,
+              "ACS": 119,
+              "K": 11,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -5,
+              "KAST": 0.67,
+              "ADR": 83.8,
+              "HS%": 0.21,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pearl",
+      "score1": 5,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "platinum",
+              "Agent": null,
+              "R1.0": 0.987,
+              "ACS": 239,
+              "K": 14,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": -2,
+              "KAST": 0.67,
+              "ADR": 161.5,
+              "HS%": 0.18,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 0.962,
+              "ACS": 204,
+              "K": 13,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -2,
+              "KAST": 0.72,
+              "ADR": 142.9,
+              "HS%": 0.12,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 0.677,
+              "ACS": 168,
+              "K": 9,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -8,
+              "KAST": 0.61,
+              "ADR": 105.6,
+              "HS%": 0.09,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 0.584,
+              "ACS": 153,
+              "K": 9,
+              "D": 17,
+              "A": 1,
+              "PlusMinus": -8,
+              "KAST": 0.5,
+              "ADR": 102.1,
+              "HS%": 0.38,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.406,
+              "ACS": 112,
+              "K": 6,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": -12,
+              "KAST": 0.44,
+              "ADR": 74.8,
+              "HS%": 0.17,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            }
+          ]
+        },
+        {
+          "team": "KOI",
+          "teamName": "Keep On Inting",
+          "players": [
+            {
+              "Player": "lucas",
+              "Agent": null,
+              "R1.0": 1.906,
+              "ACS": 392,
+              "K": 26,
+              "D": 9,
+              "A": 5,
+              "PlusMinus": 17,
+              "KAST": 0.89,
+              "ADR": 277.7,
+              "HS%": 0.27,
+              "FK": 6,
+              "FD": 1,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "abstracq",
+              "Agent": null,
+              "R1.0": 1.529,
+              "ACS": 303,
+              "K": 22,
+              "D": 11,
+              "A": 7,
+              "PlusMinus": 11,
+              "KAST": 0.89,
+              "ADR": 185,
+              "HS%": 0.28,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "night",
+              "Agent": null,
+              "R1.0": 1.064,
+              "ACS": 219,
+              "K": 13,
+              "D": 11,
+              "A": 4,
+              "PlusMinus": 2,
+              "KAST": 0.83,
+              "ADR": 131,
+              "HS%": 0.09,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Tenyaku",
+              "Agent": null,
+              "R1.0": 0.892,
+              "ACS": 173,
+              "K": 12,
+              "D": 12,
+              "A": 1,
+              "PlusMinus": 0,
+              "KAST": 0.78,
+              "ADR": 105.7,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "guilty crown",
+              "Agent": null,
+              "R1.0": 0.943,
+              "ACS": 141,
+              "K": 10,
+              "D": 8,
+              "A": 3,
+              "PlusMinus": 2,
+              "KAST": 0.83,
+              "ADR": 95.6,
+              "HS%": 0.12,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=U_QihPOiLBU"
+}

@@ -1,0 +1,1061 @@
+{
+  "id": "mibr-vs-jdg-s2-group-stage-2025-10-10",
+  "team1": "MIBR",
+  "team2": "JDG",
+  "team1Name": "Made in Bronze",
+  "team2Name": "Just Dudes Gaming",
+  "score1": 1,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-10-10",
+  "stage": "Group Stage",
+  "veto": "MIBR bans Abyss, JDG bans Corrode, MIBR picks Lotus, JDG picks Ascent, MIBR bans Sunset, JDG bans Haven, Bind remains",
+  "maps": [
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 7
+    },
+    {
+      "name": "Ascent",
+      "score1": 10,
+      "score2": 13
+    },
+    {
+      "name": "Bind",
+      "score1": 8,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "MIBR",
+      "teamName": "Made in Bronze",
+      "players": [
+        {
+          "Player": "jaypee",
+          "R1.0": 1.098,
+          "ACS": 252.667,
+          "K": 56,
+          "D": 48,
+          "A": 11,
+          "PlusMinus": 8,
+          "KAST": 0.657,
+          "ADR": 161.495,
+          "HS%": 0.215,
+          "FK": 15,
+          "FD": 11,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "basil",
+          "R1.0": 1.067,
+          "ACS": 232.333,
+          "K": 51,
+          "D": 47,
+          "A": 19,
+          "PlusMinus": 4,
+          "KAST": 0.704,
+          "ADR": 146.416,
+          "HS%": 0.157,
+          "FK": 5,
+          "FD": 6,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "lazy",
+          "R1.0": 1.006,
+          "ACS": 199.333,
+          "K": 47,
+          "D": 40,
+          "A": 12,
+          "PlusMinus": 7,
+          "KAST": 0.669,
+          "ADR": 131.067,
+          "HS%": 0.167,
+          "FK": 4,
+          "FD": 7,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "androobee",
+          "R1.0": 0.874,
+          "ACS": 177.667,
+          "K": 39,
+          "D": 46,
+          "A": 24,
+          "PlusMinus": -7,
+          "KAST": 0.657,
+          "ADR": 106.208,
+          "HS%": 0.25,
+          "FK": 3,
+          "FD": 8,
+          "PlusMinus2": -5
+        },
+        {
+          "Player": "spaceman",
+          "R1.0": 0.815,
+          "ACS": 152.333,
+          "K": 30,
+          "D": 44,
+          "A": 27,
+          "PlusMinus": -14,
+          "KAST": 0.687,
+          "ADR": 100.133,
+          "HS%": 0.092,
+          "FK": 2,
+          "FD": 3,
+          "PlusMinus2": -1
+        }
+      ]
+    },
+    {
+      "team": "JDG",
+      "teamName": "Just Dudes Gaming",
+      "players": [
+        {
+          "Player": "stingray",
+          "R1.0": 1.171,
+          "ACS": 243,
+          "K": 55,
+          "D": 42,
+          "A": 18,
+          "PlusMinus": 13,
+          "KAST": 0.702,
+          "ADR": 162.392,
+          "HS%": 0.184,
+          "FK": 7,
+          "FD": 7,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "james",
+          "R1.0": 1.168,
+          "ACS": 259.333,
+          "K": 61,
+          "D": 48,
+          "A": 10,
+          "PlusMinus": 13,
+          "KAST": 0.736,
+          "ADR": 164.077,
+          "HS%": 0.516,
+          "FK": 14,
+          "FD": 5,
+          "PlusMinus2": 9
+        },
+        {
+          "Player": "sylos",
+          "R1.0": 1.002,
+          "ACS": 196.333,
+          "K": 43,
+          "D": 42,
+          "A": 18,
+          "PlusMinus": 1,
+          "KAST": 0.719,
+          "ADR": 133.777,
+          "HS%": 0.094,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "luca",
+          "R1.0": 0.911,
+          "ACS": 183,
+          "K": 43,
+          "D": 48,
+          "A": 19,
+          "PlusMinus": -5,
+          "KAST": 0.671,
+          "ADR": 118.045,
+          "HS%": 0.249,
+          "FK": 10,
+          "FD": 9,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "neckolas",
+          "R1.0": 0.696,
+          "ACS": 117.667,
+          "K": 23,
+          "D": 43,
+          "A": 27,
+          "PlusMinus": -20,
+          "KAST": 0.606,
+          "ADR": 83.748,
+          "HS%": 0.167,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 7,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "MIBR",
+          "teamName": "Made in Bronze",
+          "players": [
+            {
+              "Player": "basil",
+              "Agent": null,
+              "R1.0": 1.327,
+              "ACS": 288,
+              "K": 19,
+              "D": 15,
+              "A": 11,
+              "PlusMinus": 4,
+              "KAST": 0.85,
+              "ADR": 178.3,
+              "HS%": 0.22,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "androobee",
+              "Agent": null,
+              "R1.0": 1.226,
+              "ACS": 262,
+              "K": 18,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": 5,
+              "KAST": 0.75,
+              "ADR": 166.8,
+              "HS%": 0.21,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "jaypee",
+              "Agent": null,
+              "R1.0": 1.178,
+              "ACS": 261,
+              "K": 19,
+              "D": 13,
+              "A": 4,
+              "PlusMinus": 6,
+              "KAST": 0.6,
+              "ADR": 164.3,
+              "HS%": 0.23,
+              "FK": 6,
+              "FD": 4,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "lazy",
+              "Agent": null,
+              "R1.0": 1.232,
+              "ACS": 195,
+              "K": 17,
+              "D": 7,
+              "A": 1,
+              "PlusMinus": 10,
+              "KAST": 0.9,
+              "ADR": 131.9,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "spaceman",
+              "Agent": null,
+              "R1.0": 0.961,
+              "ACS": 150,
+              "K": 10,
+              "D": 11,
+              "A": 14,
+              "PlusMinus": -1,
+              "KAST": 0.8,
+              "ADR": 88.2,
+              "HS%": 0.14,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "JDG",
+          "teamName": "Just Dudes Gaming",
+          "players": [
+            {
+              "Player": "james",
+              "Agent": null,
+              "R1.0": 1.041,
+              "ACS": 255,
+              "K": 18,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": 1,
+              "KAST": 0.7,
+              "ADR": 143,
+              "HS%": 0.55,
+              "FK": 5,
+              "FD": 0,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "stingray",
+              "Agent": null,
+              "R1.0": 1.014,
+              "ACS": 214,
+              "K": 14,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -2,
+              "KAST": 0.7,
+              "ADR": 157.9,
+              "HS%": 0.17,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "sylos",
+              "Agent": null,
+              "R1.0": 0.893,
+              "ACS": 187,
+              "K": 13,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -3,
+              "KAST": 0.65,
+              "ADR": 126.8,
+              "HS%": 0.17,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "luca",
+              "Agent": null,
+              "R1.0": 0.632,
+              "ACS": 152,
+              "K": 10,
+              "D": 19,
+              "A": 4,
+              "PlusMinus": -9,
+              "KAST": 0.55,
+              "ADR": 103,
+              "HS%": 0.3,
+              "FK": 2,
+              "FD": 7,
+              "PlusMinus2": -5
+            },
+            {
+              "Player": "neckolas",
+              "Agent": null,
+              "R1.0": 0.466,
+              "ACS": 95,
+              "K": 4,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": -11,
+              "KAST": 0.29,
+              "ADR": 81.9,
+              "HS%": 0.29,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ascent",
+      "score1": 10,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "MIBR",
+          "teamName": "Made in Bronze",
+          "players": [
+            {
+              "Player": "jaypee",
+              "Agent": null,
+              "R1.0": 1.12,
+              "ACS": 263,
+              "K": 20,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 3,
+              "KAST": 0.74,
+              "ADR": 155.4,
+              "HS%": 0.16,
+              "FK": 7,
+              "FD": 3,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "basil",
+              "Agent": null,
+              "R1.0": 1.019,
+              "ACS": 216,
+              "K": 19,
+              "D": 15,
+              "A": 2,
+              "PlusMinus": 4,
+              "KAST": 0.7,
+              "ADR": 126.1,
+              "HS%": 0.08,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "spaceman",
+              "Agent": null,
+              "R1.0": 0.974,
+              "ACS": 205,
+              "K": 14,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": -1,
+              "KAST": 0.74,
+              "ADR": 135.1,
+              "HS%": 0.09,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "lazy",
+              "Agent": null,
+              "R1.0": 0.776,
+              "ACS": 173,
+              "K": 14,
+              "D": 18,
+              "A": 5,
+              "PlusMinus": -4,
+              "KAST": 0.43,
+              "ADR": 121,
+              "HS%": 0.19,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "androobee",
+              "Agent": null,
+              "R1.0": 0.61,
+              "ACS": 105,
+              "K": 8,
+              "D": 17,
+              "A": 10,
+              "PlusMinus": -9,
+              "KAST": 0.61,
+              "ADR": 62.2,
+              "HS%": 0.22,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "JDG",
+          "teamName": "Just Dudes Gaming",
+          "players": [
+            {
+              "Player": "james",
+              "Agent": null,
+              "R1.0": 1.133,
+              "ACS": 240,
+              "K": 20,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": 3,
+              "KAST": 0.7,
+              "ADR": 169.6,
+              "HS%": 0.52,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "luca",
+              "Agent": null,
+              "R1.0": 1.103,
+              "ACS": 226,
+              "K": 20,
+              "D": 16,
+              "A": 9,
+              "PlusMinus": 4,
+              "KAST": 0.65,
+              "ADR": 136.1,
+              "HS%": 0.25,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "sylos",
+              "Agent": null,
+              "R1.0": 1.062,
+              "ACS": 213,
+              "K": 16,
+              "D": 13,
+              "A": 7,
+              "PlusMinus": 3,
+              "KAST": 0.65,
+              "ADR": 143.2,
+              "HS%": 0.04,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "stingray",
+              "Agent": null,
+              "R1.0": 0.944,
+              "ACS": 175,
+              "K": 14,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": 0,
+              "KAST": 0.65,
+              "ADR": 130.5,
+              "HS%": 0.2,
+              "FK": 2,
+              "FD": 5,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "neckolas",
+              "Agent": null,
+              "R1.0": 0.88,
+              "ACS": 157,
+              "K": 12,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": -3,
+              "KAST": 0.74,
+              "ADR": 108.5,
+              "HS%": 0.12,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bind",
+      "score1": 8,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "MIBR",
+          "teamName": "Made in Bronze",
+          "players": [
+            {
+              "Player": "jaypee",
+              "Agent": null,
+              "R1.0": 0.996,
+              "ACS": 234,
+              "K": 17,
+              "D": 18,
+              "A": 2,
+              "PlusMinus": -1,
+              "KAST": 0.62,
+              "ADR": 165.5,
+              "HS%": 0.26,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "lazy",
+              "Agent": null,
+              "R1.0": 1.043,
+              "ACS": 230,
+              "K": 16,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": 1,
+              "KAST": 0.71,
+              "ADR": 141.3,
+              "HS%": 0.11,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "basil",
+              "Agent": null,
+              "R1.0": 0.872,
+              "ACS": 193,
+              "K": 13,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -4,
+              "KAST": 0.57,
+              "ADR": 138.3,
+              "HS%": 0.18,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "androobee",
+              "Agent": null,
+              "R1.0": 0.826,
+              "ACS": 166,
+              "K": 13,
+              "D": 16,
+              "A": 8,
+              "PlusMinus": -3,
+              "KAST": 0.62,
+              "ADR": 96.7,
+              "HS%": 0.32,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "spaceman",
+              "Agent": null,
+              "R1.0": 0.501,
+              "ACS": 102,
+              "K": 6,
+              "D": 18,
+              "A": 7,
+              "PlusMinus": -12,
+              "KAST": 0.52,
+              "ADR": 73.2,
+              "HS%": 0.05,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "JDG",
+          "teamName": "Just Dudes Gaming",
+          "players": [
+            {
+              "Player": "stingray",
+              "Agent": null,
+              "R1.0": 1.569,
+              "ACS": 340,
+              "K": 27,
+              "D": 12,
+              "A": 7,
+              "PlusMinus": 15,
+              "KAST": 0.76,
+              "ADR": 201.6,
+              "HS%": 0.18,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "james",
+              "Agent": null,
+              "R1.0": 1.326,
+              "ACS": 283,
+              "K": 23,
+              "D": 14,
+              "A": 2,
+              "PlusMinus": 9,
+              "KAST": 0.81,
+              "ADR": 178.1,
+              "HS%": 0.48,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "sylos",
+              "Agent": null,
+              "R1.0": 1.04,
+              "ACS": 189,
+              "K": 14,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": 1,
+              "KAST": 0.86,
+              "ADR": 130.1,
+              "HS%": 0.08,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "luca",
+              "Agent": null,
+              "R1.0": 0.966,
+              "ACS": 171,
+              "K": 13,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": 0,
+              "KAST": 0.81,
+              "ADR": 112.6,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "neckolas",
+              "Agent": null,
+              "R1.0": 0.712,
+              "ACS": 101,
+              "K": 7,
+              "D": 13,
+              "A": 11,
+              "PlusMinus": -6,
+              "KAST": 0.76,
+              "ADR": 58.4,
+              "HS%": 0.1,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=-4Djv8czNDs"
+}

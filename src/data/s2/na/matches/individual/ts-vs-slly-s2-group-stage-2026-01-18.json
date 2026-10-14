@@ -1,0 +1,785 @@
+{
+  "id": "ts-vs-slly-s2-group-stage-2026-01-18",
+  "team1": "TS",
+  "team2": "SLLY",
+  "team1Name": "Tequila Sunrise",
+  "team2Name": "Silly Geese",
+  "score1": 0,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-01-18",
+  "stage": "Group Stage",
+  "veto": "SLLY bans Haven, TS bans Split, SLLY picks Abyss, TS picks Breeze, SLLY bans Bind, TS bans Corrode, Pearl remains",
+  "maps": [
+    {
+      "name": "Abyss",
+      "score1": 10,
+      "score2": 13
+    },
+    {
+      "name": "Breeze",
+      "score1": 10,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "TS",
+      "teamName": "Tequila Sunrise",
+      "players": [
+        {
+          "Player": "haych",
+          "R1.0": 1.538,
+          "ACS": 360.5,
+          "K": 59,
+          "D": 32,
+          "A": 8,
+          "PlusMinus": 27,
+          "KAST": 0.76,
+          "ADR": 225.85,
+          "HS%": 0.36,
+          "FK": 10,
+          "FD": 6,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "shadow",
+          "R1.0": 1.087,
+          "ACS": 236.5,
+          "K": 37,
+          "D": 36,
+          "A": 13,
+          "PlusMinus": 1,
+          "KAST": 0.72,
+          "ADR": 160.3,
+          "HS%": 0.295,
+          "FK": 7,
+          "FD": 5,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "igneous",
+          "R1.0": 0.898,
+          "ACS": 175,
+          "K": 26,
+          "D": 31,
+          "A": 12,
+          "PlusMinus": -5,
+          "KAST": 0.72,
+          "ADR": 120.45,
+          "HS%": 0.195,
+          "FK": 2,
+          "FD": 6,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "slow",
+          "R1.0": 0.839,
+          "ACS": 161,
+          "K": 27,
+          "D": 35,
+          "A": 14,
+          "PlusMinus": -8,
+          "KAST": 0.7,
+          "ADR": 105.7,
+          "HS%": 0.15,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "epsilon",
+          "R1.0": 0.444,
+          "ACS": 86,
+          "K": 14,
+          "D": 36,
+          "A": 7,
+          "PlusMinus": -22,
+          "KAST": 0.435,
+          "ADR": 60.6,
+          "HS%": 0.185,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        }
+      ]
+    },
+    {
+      "team": "SLLY",
+      "teamName": "Silly Geese",
+      "players": [
+        {
+          "Player": "pi",
+          "R1.0": 1.204,
+          "ACS": 251.5,
+          "K": 42,
+          "D": 29,
+          "A": 7,
+          "PlusMinus": 13,
+          "KAST": 0.74,
+          "ADR": 166.3,
+          "HS%": 0.27,
+          "FK": 7,
+          "FD": 4,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "pavel",
+          "R1.0": 1.076,
+          "ACS": 243,
+          "K": 39,
+          "D": 36,
+          "A": 8,
+          "PlusMinus": 3,
+          "KAST": 0.675,
+          "ADR": 162,
+          "HS%": 0.23,
+          "FK": 10,
+          "FD": 6,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "nova",
+          "R1.0": 1.06,
+          "ACS": 235,
+          "K": 40,
+          "D": 37,
+          "A": 10,
+          "PlusMinus": 3,
+          "KAST": 0.74,
+          "ADR": 142.65,
+          "HS%": 0.2,
+          "FK": 5,
+          "FD": 4,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "cloud",
+          "R1.0": 0.895,
+          "ACS": 175,
+          "K": 26,
+          "D": 30,
+          "A": 13,
+          "PlusMinus": -4,
+          "KAST": 0.675,
+          "ADR": 119,
+          "HS%": 0.225,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "lore",
+          "R1.0": 0.837,
+          "ACS": 155,
+          "K": 23,
+          "D": 31,
+          "A": 17,
+          "PlusMinus": -8,
+          "KAST": 0.72,
+          "ADR": 100.25,
+          "HS%": 0.15,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Abyss",
+      "score1": 10,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "TS",
+          "teamName": "Tequila Sunrise",
+          "players": [
+            {
+              "Player": "haych",
+              "Agent": null,
+              "R1.0": 1.73,
+              "ACS": 408,
+              "K": 34,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": 19,
+              "KAST": 0.78,
+              "ADR": 249.6,
+              "HS%": 0.3,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 1.051,
+              "ACS": 212,
+              "K": 17,
+              "D": 17,
+              "A": 8,
+              "PlusMinus": 0,
+              "KAST": 0.74,
+              "ADR": 144.3,
+              "HS%": 0.28,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "slow",
+              "Agent": null,
+              "R1.0": 0.955,
+              "ACS": 184,
+              "K": 16,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -1,
+              "KAST": 0.7,
+              "ADR": 128.5,
+              "HS%": 0.17,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "igneous",
+              "Agent": null,
+              "R1.0": 0.824,
+              "ACS": 165,
+              "K": 12,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -5,
+              "KAST": 0.7,
+              "ADR": 114.3,
+              "HS%": 0.16,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "epsilon",
+              "Agent": null,
+              "R1.0": 0.568,
+              "ACS": 102,
+              "K": 8,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -9,
+              "KAST": 0.48,
+              "ADR": 77.3,
+              "HS%": 0.24,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "SLLY",
+          "teamName": "Silly Geese",
+          "players": [
+            {
+              "Player": "pavel",
+              "Agent": null,
+              "R1.0": 1.133,
+              "ACS": 261,
+              "K": 22,
+              "D": 18,
+              "A": 4,
+              "PlusMinus": 4,
+              "KAST": 0.61,
+              "ADR": 169.2,
+              "HS%": 0.21,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "lore",
+              "Agent": null,
+              "R1.0": 1.073,
+              "ACS": 218,
+              "K": 17,
+              "D": 16,
+              "A": 11,
+              "PlusMinus": 1,
+              "KAST": 0.74,
+              "ADR": 133.5,
+              "HS%": 0.17,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "nova",
+              "Agent": null,
+              "R1.0": 0.982,
+              "ACS": 212,
+              "K": 17,
+              "D": 20,
+              "A": 8,
+              "PlusMinus": -3,
+              "KAST": 0.7,
+              "ADR": 144.3,
+              "HS%": 0.19,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "pi",
+              "Agent": null,
+              "R1.0": 0.972,
+              "ACS": 200,
+              "K": 16,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": 0,
+              "KAST": 0.7,
+              "ADR": 139.7,
+              "HS%": 0.3,
+              "FK": 5,
+              "FD": 3,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "cloud",
+              "Agent": null,
+              "R1.0": 0.755,
+              "ACS": 155,
+              "K": 11,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -6,
+              "KAST": 0.61,
+              "ADR": 115.2,
+              "HS%": 0.24,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Breeze",
+      "score1": 10,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "TS",
+          "teamName": "Tequila Sunrise",
+          "players": [
+            {
+              "Player": "haych",
+              "Agent": null,
+              "R1.0": 1.346,
+              "ACS": 313,
+              "K": 25,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": 8,
+              "KAST": 0.74,
+              "ADR": 202.1,
+              "HS%": 0.42,
+              "FK": 6,
+              "FD": 3,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 1.122,
+              "ACS": 261,
+              "K": 20,
+              "D": 19,
+              "A": 5,
+              "PlusMinus": 1,
+              "KAST": 0.7,
+              "ADR": 176.3,
+              "HS%": 0.31,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "igneous",
+              "Agent": null,
+              "R1.0": 0.972,
+              "ACS": 185,
+              "K": 14,
+              "D": 14,
+              "A": 6,
+              "PlusMinus": 0,
+              "KAST": 0.74,
+              "ADR": 126.6,
+              "HS%": 0.23,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "slow",
+              "Agent": null,
+              "R1.0": 0.723,
+              "ACS": 138,
+              "K": 11,
+              "D": 18,
+              "A": 8,
+              "PlusMinus": -7,
+              "KAST": 0.7,
+              "ADR": 82.9,
+              "HS%": 0.13,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "epsilon",
+              "Agent": null,
+              "R1.0": 0.321,
+              "ACS": 70,
+              "K": 6,
+              "D": 19,
+              "A": 1,
+              "PlusMinus": -13,
+              "KAST": 0.39,
+              "ADR": 43.9,
+              "HS%": 0.13,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "SLLY",
+          "teamName": "Silly Geese",
+          "players": [
+            {
+              "Player": "pi",
+              "Agent": null,
+              "R1.0": 1.435,
+              "ACS": 303,
+              "K": 26,
+              "D": 13,
+              "A": 4,
+              "PlusMinus": 13,
+              "KAST": 0.78,
+              "ADR": 192.9,
+              "HS%": 0.24,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "nova",
+              "Agent": null,
+              "R1.0": 1.139,
+              "ACS": 258,
+              "K": 23,
+              "D": 17,
+              "A": 2,
+              "PlusMinus": 6,
+              "KAST": 0.78,
+              "ADR": 141,
+              "HS%": 0.21,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "pavel",
+              "Agent": null,
+              "R1.0": 1.019,
+              "ACS": 225,
+              "K": 17,
+              "D": 18,
+              "A": 4,
+              "PlusMinus": -1,
+              "KAST": 0.74,
+              "ADR": 154.8,
+              "HS%": 0.25,
+              "FK": 6,
+              "FD": 3,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "cloud",
+              "Agent": null,
+              "R1.0": 1.035,
+              "ACS": 195,
+              "K": 15,
+              "D": 13,
+              "A": 9,
+              "PlusMinus": 2,
+              "KAST": 0.74,
+              "ADR": 122.8,
+              "HS%": 0.21,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "lore",
+              "Agent": null,
+              "R1.0": 0.601,
+              "ACS": 92,
+              "K": 6,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": -9,
+              "KAST": 0.7,
+              "ADR": 67,
+              "HS%": 0.13,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=0yv-LnUgWzw"
+}

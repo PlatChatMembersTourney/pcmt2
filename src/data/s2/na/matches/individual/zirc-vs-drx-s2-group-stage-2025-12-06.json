@@ -1,0 +1,730 @@
+{
+  "id": "zirc-vs-drx-s2-group-stage-2025-12-06",
+  "team1": "ZIRC",
+  "team2": "DRX",
+  "team1Name": "Zirconians",
+  "team2Name": "Dementia Real Exists",
+  "score1": 2,
+  "score2": 0,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-12-06",
+  "stage": "Group Stage",
+  "veto": "DRX bans Sunset, ZIRC bans Abyss, DRX picks Pearl, ZIRC picks Bind, DRX bans Corrode, ZIRC bans Haven, Split remains",
+  "maps": [
+    {
+      "name": "Pearl",
+      "score1": 13,
+      "score2": 5
+    },
+    {
+      "name": "Bind",
+      "score1": 13,
+      "score2": 4
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "ZIRC",
+      "teamName": "Zirconians",
+      "players": [
+        {
+          "Player": "darshan",
+          "R1.0": 1.417,
+          "ACS": 264.5,
+          "K": 37,
+          "D": 18,
+          "A": 11,
+          "PlusMinus": 19,
+          "KAST": 0.885,
+          "ADR": 166.743,
+          "HS%": 0.144,
+          "FK": 2,
+          "FD": 3,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "Blitz",
+          "R1.0": 1.348,
+          "ACS": 283.5,
+          "K": 33,
+          "D": 22,
+          "A": 15,
+          "PlusMinus": 11,
+          "KAST": 0.829,
+          "ADR": 180.923,
+          "HS%": 0.35,
+          "FK": 4,
+          "FD": 5,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "niboos",
+          "R1.0": 1.326,
+          "ACS": 269,
+          "K": 36,
+          "D": 22,
+          "A": 12,
+          "PlusMinus": 14,
+          "KAST": 0.739,
+          "ADR": 172.463,
+          "HS%": 0.314,
+          "FK": 4,
+          "FD": 6,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "ethan",
+          "R1.0": 1.08,
+          "ACS": 188.5,
+          "K": 24,
+          "D": 18,
+          "A": 9,
+          "PlusMinus": 6,
+          "KAST": 0.829,
+          "ADR": 125.714,
+          "HS%": 0.194,
+          "FK": 0,
+          "FD": 0,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "Robohobo",
+          "R1.0": 0.959,
+          "ACS": 223,
+          "K": 22,
+          "D": 24,
+          "A": 16,
+          "PlusMinus": -2,
+          "KAST": 0.686,
+          "ADR": 119.274,
+          "HS%": 0.253,
+          "FK": 3,
+          "FD": 8,
+          "PlusMinus2": -5
+        }
+      ]
+    },
+    {
+      "team": "DRX",
+      "teamName": "Dementia Real Exists",
+      "players": [
+        {
+          "Player": "izz",
+          "R1.0": 1.159,
+          "ACS": 279.5,
+          "K": 32,
+          "D": 32,
+          "A": 13,
+          "PlusMinus": 0,
+          "KAST": 0.715,
+          "ADR": 180.46,
+          "HS%": 0.176,
+          "FK": 9,
+          "FD": 2,
+          "PlusMinus2": 7
+        },
+        {
+          "Player": "longclaw",
+          "R1.0": 0.924,
+          "ACS": 211.5,
+          "K": 25,
+          "D": 29,
+          "A": 4,
+          "PlusMinus": -4,
+          "KAST": 0.629,
+          "ADR": 149.843,
+          "HS%": 0.234,
+          "FK": 3,
+          "FD": 0,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "rudesubs",
+          "R1.0": 0.703,
+          "ACS": 162,
+          "K": 18,
+          "D": 29,
+          "A": 6,
+          "PlusMinus": -11,
+          "KAST": 0.545,
+          "ADR": 110.591,
+          "HS%": 0.274,
+          "FK": 3,
+          "FD": 4,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "teklo",
+          "R1.0": 0.537,
+          "ACS": 134,
+          "K": 18,
+          "D": 31,
+          "A": 3,
+          "PlusMinus": -13,
+          "KAST": 0.487,
+          "ADR": 69.009,
+          "HS%": 0.166,
+          "FK": 6,
+          "FD": 6,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "platinum",
+          "R1.0": 0.454,
+          "ACS": 110.5,
+          "K": 11,
+          "D": 31,
+          "A": 6,
+          "PlusMinus": -20,
+          "KAST": 0.484,
+          "ADR": 72.38,
+          "HS%": 0.172,
+          "FK": 1,
+          "FD": 1,
+          "PlusMinus2": 0
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Pearl",
+      "score1": 13,
+      "score2": 5,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "ZIRC",
+          "teamName": "Zirconians",
+          "players": [
+            {
+              "Player": "Blitz",
+              "Agent": null,
+              "R1.0": 1.482,
+              "ACS": 303,
+              "K": 18,
+              "D": 10,
+              "A": 12,
+              "PlusMinus": 8,
+              "KAST": 0.78,
+              "ADR": 193.6,
+              "HS%": 0.34,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "niboos",
+              "Agent": null,
+              "R1.0": 1.426,
+              "ACS": 302,
+              "K": 22,
+              "D": 12,
+              "A": 4,
+              "PlusMinus": 10,
+              "KAST": 0.72,
+              "ADR": 189.9,
+              "HS%": 0.29,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "darshan",
+              "Agent": null,
+              "R1.0": 1.432,
+              "ACS": 281,
+              "K": 18,
+              "D": 10,
+              "A": 10,
+              "PlusMinus": 8,
+              "KAST": 0.89,
+              "ADR": 169.9,
+              "HS%": 0.1,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "ethan",
+              "Agent": null,
+              "R1.0": 1.147,
+              "ACS": 214,
+              "K": 14,
+              "D": 8,
+              "A": 2,
+              "PlusMinus": 6,
+              "KAST": 0.78,
+              "ADR": 139.8,
+              "HS%": 0.16,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Robohobo",
+              "Agent": null,
+              "R1.0": 0.654,
+              "ACS": 182,
+              "K": 5,
+              "D": 13,
+              "A": 10,
+              "PlusMinus": -8,
+              "KAST": 0.72,
+              "ADR": 67.4,
+              "HS%": 0.2,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 1.362,
+              "ACS": 341,
+              "K": 22,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": 6,
+              "KAST": 0.72,
+              "ADR": 197.8,
+              "HS%": 0.22,
+              "FK": 6,
+              "FD": 2,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 0.9,
+              "ACS": 193,
+              "K": 12,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": -2,
+              "KAST": 0.61,
+              "ADR": 139.4,
+              "HS%": 0.19,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 0.749,
+              "ACS": 182,
+              "K": 9,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -7,
+              "KAST": 0.56,
+              "ADR": 125.6,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.445,
+              "ACS": 96,
+              "K": 6,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -10,
+              "KAST": 0.56,
+              "ADR": 60.8,
+              "HS%": 0.2,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "platinum",
+              "Agent": null,
+              "R1.0": 0.38,
+              "ACS": 83,
+              "K": 4,
+              "D": 15,
+              "A": 3,
+              "PlusMinus": -11,
+              "KAST": 0.44,
+              "ADR": 59.8,
+              "HS%": 0.08,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bind",
+      "score1": 13,
+      "score2": 4,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "ZIRC",
+          "teamName": "Zirconians",
+          "players": [
+            {
+              "Player": "darshan",
+              "Agent": null,
+              "R1.0": 1.401,
+              "ACS": 248,
+              "K": 19,
+              "D": 8,
+              "A": 1,
+              "PlusMinus": 11,
+              "KAST": 0.88,
+              "ADR": 163.4,
+              "HS%": 0.19,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Robohobo",
+              "Agent": null,
+              "R1.0": 1.282,
+              "ACS": 264,
+              "K": 17,
+              "D": 11,
+              "A": 6,
+              "PlusMinus": 6,
+              "KAST": 0.65,
+              "ADR": 174.2,
+              "HS%": 0.31,
+              "FK": 2,
+              "FD": 5,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "niboos",
+              "Agent": null,
+              "R1.0": 1.221,
+              "ACS": 236,
+              "K": 14,
+              "D": 10,
+              "A": 8,
+              "PlusMinus": 4,
+              "KAST": 0.76,
+              "ADR": 154,
+              "HS%": 0.34,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Blitz",
+              "Agent": null,
+              "R1.0": 1.207,
+              "ACS": 264,
+              "K": 15,
+              "D": 12,
+              "A": 3,
+              "PlusMinus": 3,
+              "KAST": 0.88,
+              "ADR": 167.5,
+              "HS%": 0.36,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "ethan",
+              "Agent": null,
+              "R1.0": 1.008,
+              "ACS": 163,
+              "K": 10,
+              "D": 10,
+              "A": 7,
+              "PlusMinus": 0,
+              "KAST": 0.88,
+              "ADR": 110.8,
+              "HS%": 0.23,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "DRX",
+          "teamName": "Dementia Real Exists",
+          "players": [
+            {
+              "Player": "longclaw",
+              "Agent": null,
+              "R1.0": 0.95,
+              "ACS": 230,
+              "K": 13,
+              "D": 15,
+              "A": 1,
+              "PlusMinus": -2,
+              "KAST": 0.65,
+              "ADR": 160.9,
+              "HS%": 0.28,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "izz",
+              "Agent": null,
+              "R1.0": 0.944,
+              "ACS": 218,
+              "K": 10,
+              "D": 16,
+              "A": 8,
+              "PlusMinus": -6,
+              "KAST": 0.71,
+              "ADR": 162.1,
+              "HS%": 0.13,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.635,
+              "ACS": 172,
+              "K": 12,
+              "D": 15,
+              "A": 1,
+              "PlusMinus": -3,
+              "KAST": 0.41,
+              "ADR": 77.7,
+              "HS%": 0.13,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "rudesubs",
+              "Agent": null,
+              "R1.0": 0.656,
+              "ACS": 142,
+              "K": 9,
+              "D": 13,
+              "A": 0,
+              "PlusMinus": -4,
+              "KAST": 0.53,
+              "ADR": 94.7,
+              "HS%": 0.3,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "platinum",
+              "Agent": null,
+              "R1.0": 0.533,
+              "ACS": 138,
+              "K": 7,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": -9,
+              "KAST": 0.53,
+              "ADR": 85.7,
+              "HS%": 0.27,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=9aWG4cVzBf0"
+}

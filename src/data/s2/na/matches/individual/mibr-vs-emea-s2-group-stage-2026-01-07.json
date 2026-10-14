@@ -1,0 +1,795 @@
+{
+  "id": "mibr-vs-emea-s2-group-stage-2026-01-07",
+  "team1": "MIBR",
+  "team2": "EMEA",
+  "team1Name": "Made in Bronze",
+  "team2Name": "Tech Pause Esports",
+  "score1": 0,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-01-07",
+  "stage": "Group Stage",
+  "veto": "EMEA bans Sunset, MIBR bans Abyss, EMEA picks Haven, MIBR picks Pearl, EMEA bans Corrode, MIBR bans Bind, Split remains",
+  "maps": [
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 15
+    },
+    {
+      "name": "Pearl",
+      "score1": 11,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "MIBR",
+      "teamName": "Made in Bronze",
+      "players": [
+        {
+          "Player": "jaypee",
+          "R1.0": 0.969,
+          "ACS": 209.5,
+          "K": 38,
+          "D": 39,
+          "A": 11,
+          "PlusMinus": -1,
+          "KAST": 0.631,
+          "ADR": 141.462,
+          "HS%": 0.241,
+          "FK": 7,
+          "FD": 7,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "basil",
+          "R1.0": 1.287,
+          "ACS": 299.5,
+          "K": 53,
+          "D": 39,
+          "A": 9,
+          "PlusMinus": 14,
+          "KAST": 0.79,
+          "ADR": 188.869,
+          "HS%": 0.214,
+          "FK": 13,
+          "FD": 7,
+          "PlusMinus2": 6
+        },
+        {
+          "Player": "lazy",
+          "R1.0": 1.067,
+          "ACS": 206.5,
+          "K": 40,
+          "D": 34,
+          "A": 9,
+          "PlusMinus": 6,
+          "KAST": 0.747,
+          "ADR": 144.538,
+          "HS%": 0.215,
+          "FK": 3,
+          "FD": 4,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "androobee",
+          "R1.0": 0.856,
+          "ACS": 164,
+          "K": 30,
+          "D": 38,
+          "A": 13,
+          "PlusMinus": -8,
+          "KAST": 0.749,
+          "ADR": 108.1,
+          "HS%": 0.265,
+          "FK": 2,
+          "FD": 2,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "spaceman",
+          "R1.0": 0.891,
+          "ACS": 177.5,
+          "K": 29,
+          "D": 37,
+          "A": 17,
+          "PlusMinus": -8,
+          "KAST": 0.747,
+          "ADR": 116.362,
+          "HS%": 0.122,
+          "FK": 4,
+          "FD": 3,
+          "PlusMinus2": 1
+        }
+      ]
+    },
+    {
+      "team": "EMEA",
+      "teamName": "Tech Pause Esports",
+      "players": [
+        {
+          "Player": "Eve",
+          "R1.0": 0.897,
+          "ACS": 191,
+          "K": 34,
+          "D": 39,
+          "A": 11,
+          "PlusMinus": -5,
+          "KAST": 0.612,
+          "ADR": 131.8,
+          "HS%": 0.295,
+          "FK": 5,
+          "FD": 5,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "caleb",
+          "R1.0": 0.852,
+          "ACS": 177,
+          "K": 29,
+          "D": 39,
+          "A": 22,
+          "PlusMinus": -10,
+          "KAST": 0.638,
+          "ADR": 112.377,
+          "HS%": 0.212,
+          "FK": 5,
+          "FD": 8,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "kaydeg",
+          "R1.0": 1.078,
+          "ACS": 239,
+          "K": 47,
+          "D": 41,
+          "A": 7,
+          "PlusMinus": 6,
+          "KAST": 0.694,
+          "ADR": 152.815,
+          "HS%": 0.283,
+          "FK": 6,
+          "FD": 6,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "guilty crown",
+          "R1.0": 0.956,
+          "ACS": 167.5,
+          "K": 31,
+          "D": 32,
+          "A": 15,
+          "PlusMinus": -1,
+          "KAST": 0.728,
+          "ADR": 123.077,
+          "HS%": 0.162,
+          "FK": 0,
+          "FD": 2,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "pavel",
+          "R1.0": 1.127,
+          "ACS": 252.5,
+          "K": 46,
+          "D": 39,
+          "A": 13,
+          "PlusMinus": 7,
+          "KAST": 0.692,
+          "ADR": 159.523,
+          "HS%": 0.215,
+          "FK": 7,
+          "FD": 7,
+          "PlusMinus2": 0
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 15,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "MIBR",
+          "teamName": "Made in Bronze",
+          "players": [
+            {
+              "Player": "basil",
+              "Agent": null,
+              "R1.0": 1.277,
+              "ACS": 285,
+              "K": 26,
+              "D": 19,
+              "A": 8,
+              "PlusMinus": 7,
+              "KAST": 0.79,
+              "ADR": 181.9,
+              "HS%": 0.26,
+              "FK": 7,
+              "FD": 3,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "jaypee",
+              "Agent": null,
+              "R1.0": 1.121,
+              "ACS": 259,
+              "K": 25,
+              "D": 22,
+              "A": 6,
+              "PlusMinus": 3,
+              "KAST": 0.64,
+              "ADR": 171.6,
+              "HS%": 0.25,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "lazy",
+              "Agent": null,
+              "R1.0": 1.18,
+              "ACS": 240,
+              "K": 25,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": 8,
+              "KAST": 0.71,
+              "ADR": 161.8,
+              "HS%": 0.21,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "androobee",
+              "Agent": null,
+              "R1.0": 0.834,
+              "ACS": 154,
+              "K": 15,
+              "D": 19,
+              "A": 9,
+              "PlusMinus": -4,
+              "KAST": 0.68,
+              "ADR": 101.5,
+              "HS%": 0.26,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "spaceman",
+              "Agent": null,
+              "R1.0": 0.717,
+              "ACS": 141,
+              "K": 13,
+              "D": 22,
+              "A": 6,
+              "PlusMinus": -9,
+              "KAST": 0.71,
+              "ADR": 94.9,
+              "HS%": 0.09,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "EMEA",
+          "teamName": "Tech Pause Esports",
+          "players": [
+            {
+              "Player": "pavel",
+              "Agent": null,
+              "R1.0": 1.24,
+              "ACS": 287,
+              "K": 27,
+              "D": 22,
+              "A": 9,
+              "PlusMinus": 5,
+              "KAST": 0.71,
+              "ADR": 185,
+              "HS%": 0.21,
+              "FK": 5,
+              "FD": 0,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": null,
+              "R1.0": 1.175,
+              "ACS": 263,
+              "K": 28,
+              "D": 20,
+              "A": 1,
+              "PlusMinus": 8,
+              "KAST": 0.68,
+              "ADR": 168.6,
+              "HS%": 0.26,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "caleb",
+              "Agent": null,
+              "R1.0": 0.811,
+              "ACS": 172,
+              "K": 16,
+              "D": 22,
+              "A": 13,
+              "PlusMinus": -6,
+              "KAST": 0.61,
+              "ADR": 98.9,
+              "HS%": 0.18,
+              "FK": 4,
+              "FD": 6,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Eve",
+              "Agent": null,
+              "R1.0": 0.741,
+              "ACS": 155,
+              "K": 14,
+              "D": 23,
+              "A": 5,
+              "PlusMinus": -9,
+              "KAST": 0.64,
+              "ADR": 115,
+              "HS%": 0.3,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "guilty crown",
+              "Agent": null,
+              "R1.0": 0.852,
+              "ACS": 151,
+              "K": 14,
+              "D": 17,
+              "A": 8,
+              "PlusMinus": -3,
+              "KAST": 0.64,
+              "ADR": 112.6,
+              "HS%": 0.13,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pearl",
+      "score1": 11,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "MIBR",
+          "teamName": "Made in Bronze",
+          "players": [
+            {
+              "Player": "basil",
+              "Agent": null,
+              "R1.0": 1.299,
+              "ACS": 314,
+              "K": 27,
+              "D": 20,
+              "A": 1,
+              "PlusMinus": 7,
+              "KAST": 0.79,
+              "ADR": 197,
+              "HS%": 0.16,
+              "FK": 6,
+              "FD": 4,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "spaceman",
+              "Agent": null,
+              "R1.0": 1.094,
+              "ACS": 214,
+              "K": 16,
+              "D": 15,
+              "A": 11,
+              "PlusMinus": 1,
+              "KAST": 0.79,
+              "ADR": 141.4,
+              "HS%": 0.16,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "androobee",
+              "Agent": null,
+              "R1.0": 0.881,
+              "ACS": 174,
+              "K": 15,
+              "D": 19,
+              "A": 4,
+              "PlusMinus": -4,
+              "KAST": 0.83,
+              "ADR": 115.8,
+              "HS%": 0.27,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "lazy",
+              "Agent": null,
+              "R1.0": 0.936,
+              "ACS": 173,
+              "K": 15,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -2,
+              "KAST": 0.79,
+              "ADR": 124.4,
+              "HS%": 0.22,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "jaypee",
+              "Agent": null,
+              "R1.0": 0.792,
+              "ACS": 160,
+              "K": 13,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -4,
+              "KAST": 0.62,
+              "ADR": 106.3,
+              "HS%": 0.23,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "EMEA",
+          "teamName": "Tech Pause Esports",
+          "players": [
+            {
+              "Player": "Eve",
+              "Agent": null,
+              "R1.0": 1.079,
+              "ACS": 227,
+              "K": 20,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": 4,
+              "KAST": 0.58,
+              "ADR": 151.4,
+              "HS%": 0.29,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "pavel",
+              "Agent": null,
+              "R1.0": 0.994,
+              "ACS": 218,
+              "K": 19,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": 2,
+              "KAST": 0.67,
+              "ADR": 129.8,
+              "HS%": 0.22,
+              "FK": 2,
+              "FD": 7,
+              "PlusMinus2": -5
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": null,
+              "R1.0": 0.964,
+              "ACS": 215,
+              "K": 19,
+              "D": 21,
+              "A": 6,
+              "PlusMinus": -2,
+              "KAST": 0.71,
+              "ADR": 134.4,
+              "HS%": 0.31,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "guilty crown",
+              "Agent": null,
+              "R1.0": 1.076,
+              "ACS": 184,
+              "K": 17,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": 2,
+              "KAST": 0.83,
+              "ADR": 135.3,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "caleb",
+              "Agent": null,
+              "R1.0": 0.9,
+              "ACS": 182,
+              "K": 13,
+              "D": 17,
+              "A": 9,
+              "PlusMinus": -4,
+              "KAST": 0.67,
+              "ADR": 128.1,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=5McWInX9RiE"
+}

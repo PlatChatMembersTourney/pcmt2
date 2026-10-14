@@ -1,0 +1,770 @@
+{
+  "id": "jdg-vs-wood-s2-group-stage-2025-12-22",
+  "team1": "JDG",
+  "team2": "WOOD",
+  "team1Name": "Just Dudes Gaming",
+  "team2Name": "The Wooden Fence",
+  "score1": 2,
+  "score2": 0,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-12-22",
+  "stage": "Group Stage",
+  "veto": "JDG bans Haven, WOOD bans Bind, JDG picks Abyss, WOOD picks Sunset, JDG bans Split, WOOD bans Pearl, Corrode remains",
+  "maps": [
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 6
+    },
+    {
+      "name": "Sunset",
+      "score1": 15,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "JDG",
+      "teamName": "Just Dudes Gaming",
+      "players": [
+        {
+          "Player": "james",
+          "R1.0": 1.414,
+          "ACS": 321,
+          "K": 55,
+          "D": 34,
+          "A": 9,
+          "PlusMinus": 21,
+          "KAST": 0.742,
+          "ADR": 206.491,
+          "HS%": 0.414,
+          "FK": 9,
+          "FD": 7,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "stingray",
+          "R1.0": 1.188,
+          "ACS": 220,
+          "K": 34,
+          "D": 25,
+          "A": 13,
+          "PlusMinus": 9,
+          "KAST": 0.79,
+          "ADR": 166.679,
+          "HS%": 0.167,
+          "FK": 5,
+          "FD": 3,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "sylos",
+          "R1.0": 0.984,
+          "ACS": 199.5,
+          "K": 32,
+          "D": 33,
+          "A": 9,
+          "PlusMinus": -1,
+          "KAST": 0.786,
+          "ADR": 132.336,
+          "HS%": 0.118,
+          "FK": 6,
+          "FD": 3,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "lucas",
+          "R1.0": 1.289,
+          "ACS": 280.5,
+          "K": 48,
+          "D": 37,
+          "A": 11,
+          "PlusMinus": 11,
+          "KAST": 0.875,
+          "ADR": 179.319,
+          "HS%": 0.258,
+          "FK": 7,
+          "FD": 3,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "neckolas",
+          "R1.0": 0.928,
+          "ACS": 149.5,
+          "K": 27,
+          "D": 29,
+          "A": 22,
+          "PlusMinus": -2,
+          "KAST": 0.765,
+          "ADR": 96.109,
+          "HS%": 0.187,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        }
+      ]
+    },
+    {
+      "team": "WOOD",
+      "teamName": "The Wooden Fence",
+      "players": [
+        {
+          "Player": "thighs",
+          "R1.0": 1.177,
+          "ACS": 257.5,
+          "K": 42,
+          "D": 40,
+          "A": 19,
+          "PlusMinus": 2,
+          "KAST": 0.746,
+          "ADR": 174.377,
+          "HS%": 0.232,
+          "FK": 7,
+          "FD": 6,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "jenji",
+          "R1.0": 1.027,
+          "ACS": 224.5,
+          "K": 37,
+          "D": 36,
+          "A": 11,
+          "PlusMinus": 1,
+          "KAST": 0.704,
+          "ADR": 143.762,
+          "HS%": 0.208,
+          "FK": 4,
+          "FD": 7,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "snowfall",
+          "R1.0": 0.676,
+          "ACS": 131,
+          "K": 20,
+          "D": 40,
+          "A": 17,
+          "PlusMinus": -20,
+          "KAST": 0.68,
+          "ADR": 88.821,
+          "HS%": 0.244,
+          "FK": 0,
+          "FD": 2,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "Tenyaku",
+          "R1.0": 0.574,
+          "ACS": 126.5,
+          "K": 18,
+          "D": 44,
+          "A": 14,
+          "PlusMinus": -26,
+          "KAST": 0.595,
+          "ADR": 88.651,
+          "HS%": 0.21,
+          "FK": 6,
+          "FD": 10,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "guilty crown",
+          "R1.0": 1.096,
+          "ACS": 227,
+          "K": 39,
+          "D": 36,
+          "A": 16,
+          "PlusMinus": 3,
+          "KAST": 0.722,
+          "ADR": 149.979,
+          "HS%": 0.152,
+          "FK": 2,
+          "FD": 3,
+          "PlusMinus2": -1
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 6,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "JDG",
+          "teamName": "Just Dudes Gaming",
+          "players": [
+            {
+              "Player": "james",
+              "Agent": null,
+              "R1.0": 1.703,
+              "ACS": 363,
+              "K": 27,
+              "D": 11,
+              "A": 3,
+              "PlusMinus": 16,
+              "KAST": 0.79,
+              "ADR": 238.9,
+              "HS%": 0.42,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "lucas",
+              "Agent": null,
+              "R1.0": 1.47,
+              "ACS": 289,
+              "K": 20,
+              "D": 11,
+              "A": 5,
+              "PlusMinus": 9,
+              "KAST": 1,
+              "ADR": 190.4,
+              "HS%": 0.3,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "stingray",
+              "Agent": null,
+              "R1.0": 1.184,
+              "ACS": 216,
+              "K": 13,
+              "D": 9,
+              "A": 7,
+              "PlusMinus": 4,
+              "KAST": 0.79,
+              "ADR": 155.3,
+              "HS%": 0.09,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "sylos",
+              "Agent": null,
+              "R1.0": 1.003,
+              "ACS": 186,
+              "K": 12,
+              "D": 12,
+              "A": 6,
+              "PlusMinus": 0,
+              "KAST": 0.84,
+              "ADR": 120.6,
+              "HS%": 0.13,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "neckolas",
+              "Agent": null,
+              "R1.0": 1.112,
+              "ACS": 171,
+              "K": 14,
+              "D": 11,
+              "A": 9,
+              "PlusMinus": 3,
+              "KAST": 0.89,
+              "ADR": 111.3,
+              "HS%": 0.27,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "WOOD",
+          "teamName": "The Wooden Fence",
+          "players": [
+            {
+              "Player": "guilty crown",
+              "Agent": null,
+              "R1.0": 1.024,
+              "ACS": 223,
+              "K": 16,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": 0,
+              "KAST": 0.68,
+              "ADR": 144.2,
+              "HS%": 0.14,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "thighs",
+              "Agent": null,
+              "R1.0": 1.011,
+              "ACS": 222,
+              "K": 13,
+              "D": 18,
+              "A": 13,
+              "PlusMinus": -5,
+              "KAST": 0.74,
+              "ADR": 145.9,
+              "HS%": 0.22,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "jenji",
+              "Agent": null,
+              "R1.0": 0.817,
+              "ACS": 193,
+              "K": 12,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -5,
+              "KAST": 0.74,
+              "ADR": 118.8,
+              "HS%": 0.16,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "snowfall",
+              "Agent": null,
+              "R1.0": 0.636,
+              "ACS": 119,
+              "K": 7,
+              "D": 17,
+              "A": 9,
+              "PlusMinus": -10,
+              "KAST": 0.74,
+              "ADR": 75,
+              "HS%": 0.25,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Tenyaku",
+              "Agent": null,
+              "R1.0": 0.417,
+              "ACS": 96,
+              "K": 5,
+              "D": 18,
+              "A": 6,
+              "PlusMinus": -13,
+              "KAST": 0.47,
+              "ADR": 67.8,
+              "HS%": 0.24,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sunset",
+      "score1": 15,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "JDG",
+          "teamName": "Just Dudes Gaming",
+          "players": [
+            {
+              "Player": "james",
+              "Agent": null,
+              "R1.0": 1.219,
+              "ACS": 279,
+              "K": 28,
+              "D": 23,
+              "A": 6,
+              "PlusMinus": 5,
+              "KAST": 0.71,
+              "ADR": 184.5,
+              "HS%": 0.41,
+              "FK": 6,
+              "FD": 6,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "lucas",
+              "Agent": null,
+              "R1.0": 1.166,
+              "ACS": 272,
+              "K": 28,
+              "D": 26,
+              "A": 6,
+              "PlusMinus": 2,
+              "KAST": 0.79,
+              "ADR": 171.8,
+              "HS%": 0.23,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "stingray",
+              "Agent": null,
+              "R1.0": 1.19,
+              "ACS": 224,
+              "K": 21,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": 5,
+              "KAST": 0.79,
+              "ADR": 174.4,
+              "HS%": 0.22,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "sylos",
+              "Agent": null,
+              "R1.0": 0.971,
+              "ACS": 213,
+              "K": 20,
+              "D": 21,
+              "A": 3,
+              "PlusMinus": -1,
+              "KAST": 0.75,
+              "ADR": 140.3,
+              "HS%": 0.11,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "neckolas",
+              "Agent": null,
+              "R1.0": 0.804,
+              "ACS": 128,
+              "K": 13,
+              "D": 18,
+              "A": 13,
+              "PlusMinus": -5,
+              "KAST": 0.68,
+              "ADR": 85.8,
+              "HS%": 0.13,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            }
+          ]
+        },
+        {
+          "team": "WOOD",
+          "teamName": "The Wooden Fence",
+          "players": [
+            {
+              "Player": "thighs",
+              "Agent": null,
+              "R1.0": 1.289,
+              "ACS": 293,
+              "K": 29,
+              "D": 22,
+              "A": 6,
+              "PlusMinus": 7,
+              "KAST": 0.75,
+              "ADR": 193.7,
+              "HS%": 0.24,
+              "FK": 5,
+              "FD": 4,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "jenji",
+              "Agent": null,
+              "R1.0": 1.17,
+              "ACS": 256,
+              "K": 25,
+              "D": 19,
+              "A": 8,
+              "PlusMinus": 6,
+              "KAST": 0.68,
+              "ADR": 160.7,
+              "HS%": 0.24,
+              "FK": 0,
+              "FD": 5,
+              "PlusMinus2": -5
+            },
+            {
+              "Player": "guilty crown",
+              "Agent": null,
+              "R1.0": 1.144,
+              "ACS": 231,
+              "K": 23,
+              "D": 20,
+              "A": 11,
+              "PlusMinus": 3,
+              "KAST": 0.75,
+              "ADR": 153.9,
+              "HS%": 0.16,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Tenyaku",
+              "Agent": null,
+              "R1.0": 0.681,
+              "ACS": 157,
+              "K": 13,
+              "D": 26,
+              "A": 8,
+              "PlusMinus": -13,
+              "KAST": 0.68,
+              "ADR": 102.8,
+              "HS%": 0.19,
+              "FK": 5,
+              "FD": 5,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "snowfall",
+              "Agent": null,
+              "R1.0": 0.704,
+              "ACS": 143,
+              "K": 13,
+              "D": 23,
+              "A": 8,
+              "PlusMinus": -10,
+              "KAST": 0.64,
+              "ADR": 98.2,
+              "HS%": 0.24,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=CuPgxRCkrbg"
+}

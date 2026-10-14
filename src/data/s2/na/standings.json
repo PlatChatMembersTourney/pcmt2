@@ -14,19 +14,6 @@
       "rndDiff": 104
     },
     {
-      "abbr": "EMEA",
-      "name": "Tech Pause Esports",
-      "matchW": 10,
-      "matchL": 4,
-      "mapW": 21,
-      "mapL": 13,
-      "rndW": 411,
-      "rndL": 384,
-      "rank": 2,
-      "mapDiff": 8,
-      "rndDiff": 27
-    },
-    {
       "abbr": "DRG",
       "name": "DeRank Gamers",
       "matchW": 10,
@@ -35,9 +22,22 @@
       "mapL": 17,
       "rndW": 439,
       "rndL": 420,
-      "rank": 3,
+      "rank": 2,
       "mapDiff": 6,
       "rndDiff": 19
+    },
+    {
+      "abbr": "EMEA",
+      "name": "Tech Pause Esports",
+      "matchW": 10,
+      "matchL": 4,
+      "mapW": 21,
+      "mapL": 13,
+      "rndW": 411,
+      "rndL": 384,
+      "rank": 3,
+      "mapDiff": 8,
+      "rndDiff": 27
     },
     {
       "abbr": "WING",
@@ -66,6 +66,19 @@
       "rndDiff": 38
     },
     {
+      "abbr": "MIBR",
+      "name": "Made in Bronze",
+      "matchW": 5,
+      "matchL": 8,
+      "mapW": 13,
+      "mapL": 19,
+      "rndW": 339,
+      "rndL": 367,
+      "rank": 6,
+      "mapDiff": -6,
+      "rndDiff": -28
+    },
+    {
       "abbr": "SLLY",
       "name": "Silly Geese",
       "matchW": 5,
@@ -74,7 +87,7 @@
       "mapL": 14,
       "rndW": 254,
       "rndL": 282,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": -3,
       "rndDiff": -28
     },
@@ -87,22 +100,9 @@
       "mapL": 15,
       "rndW": 300,
       "rndL": 308,
-      "rank": 7,
+      "rank": 8,
       "mapDiff": -1,
       "rndDiff": -8
-    },
-    {
-      "abbr": "MIBR",
-      "name": "Made in Bronze",
-      "matchW": 5,
-      "matchL": 8,
-      "mapW": 13,
-      "mapL": 19,
-      "rndW": 339,
-      "rndL": 367,
-      "rank": 8,
-      "mapDiff": -6,
-      "rndDiff": -28
     },
     {
       "abbr": "DRX",

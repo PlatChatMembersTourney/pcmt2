@@ -48501,761 +48501,6 @@
     "streamLink": "https://www.youtube.com/watch?v=S5iqpCaf4JA"
   },
   {
-    "id": "koi-vs-zirc-s2-group-stage-2025-11-01",
-    "team1": "KOI",
-    "team2": "ZIRC",
-    "team1Name": "Keep On Inting",
-    "team2Name": "Zirconians",
-    "score1": 2,
-    "score2": 0,
-    "completed": true,
-    "bestOf": 3,
-    "date": "2025-11-01",
-    "stage": "Group Stage",
-    "veto": "KOI bans Sunset, ZIRC bans Split, KOI picks Haven, ZIRC picks Bind, KOI bans Corrode, ZIRC bans Abyss, Pearl remains",
-    "maps": [
-      {
-        "name": "Haven",
-        "score1": 13,
-        "score2": 3
-      },
-      {
-        "name": "Bind",
-        "score1": 13,
-        "score2": 11
-      }
-    ],
-    "combinedStats": [
-      {
-        "team": "KOI",
-        "teamName": "Keep On Inting",
-        "players": [
-          {
-            "Player": "night",
-            "R1.0": 1.27,
-            "ACS": 276,
-            "K": 38,
-            "D": 29,
-            "A": 12,
-            "PlusMinus": 9,
-            "KAST": 0.826,
-            "ADR": 176.76,
-            "HS%": 0.276,
-            "FK": 5,
-            "FD": 4,
-            "PlusMinus2": 1
-          },
-          {
-            "Player": "lucas",
-            "R1.0": 1.107,
-            "ACS": 256,
-            "K": 35,
-            "D": 30,
-            "A": 8,
-            "PlusMinus": 5,
-            "KAST": 0.726,
-            "ADR": 153.96,
-            "HS%": 0.198,
-            "FK": 6,
-            "FD": 9,
-            "PlusMinus2": -3
-          },
-          {
-            "Player": "VALENTIA",
-            "R1.0": 0.977,
-            "ACS": 203,
-            "K": 29,
-            "D": 25,
-            "A": 7,
-            "PlusMinus": 4,
-            "KAST": 0.696,
-            "ADR": 119.36,
-            "HS%": 0.206,
-            "FK": 2,
-            "FD": 4,
-            "PlusMinus2": -2
-          },
-          {
-            "Player": "abstracq",
-            "R1.0": 1.009,
-            "ACS": 180,
-            "K": 24,
-            "D": 27,
-            "A": 24,
-            "PlusMinus": -3,
-            "KAST": 0.778,
-            "ADR": 119.2,
-            "HS%": 0.178,
-            "FK": 4,
-            "FD": 4,
-            "PlusMinus2": 0
-          },
-          {
-            "Player": "catsmeow",
-            "R1.0": 0.828,
-            "ACS": 133.5,
-            "K": 20,
-            "D": 25,
-            "A": 13,
-            "PlusMinus": -5,
-            "KAST": 0.798,
-            "ADR": 82.58,
-            "HS%": 0.26,
-            "FK": 0,
-            "FD": 2,
-            "PlusMinus2": -2
-          }
-        ]
-      },
-      {
-        "team": "ZIRC",
-        "teamName": "Zirconians",
-        "players": [
-          {
-            "Player": "Robohobo",
-            "R1.0": 1.073,
-            "ACS": 191,
-            "K": 28,
-            "D": 25,
-            "A": 12,
-            "PlusMinus": 3,
-            "KAST": 0.75,
-            "ADR": 144.92,
-            "HS%": 0.238,
-            "FK": 3,
-            "FD": 2,
-            "PlusMinus2": 1
-          },
-          {
-            "Player": "ethan",
-            "R1.0": 0.974,
-            "ACS": 190.5,
-            "K": 30,
-            "D": 28,
-            "A": 4,
-            "PlusMinus": 2,
-            "KAST": 0.774,
-            "ADR": 122.84,
-            "HS%": 0.148,
-            "FK": 1,
-            "FD": 4,
-            "PlusMinus2": -3
-          },
-          {
-            "Player": "darshan",
-            "R1.0": 1.031,
-            "ACS": 227.5,
-            "K": 30,
-            "D": 33,
-            "A": 9,
-            "PlusMinus": -3,
-            "KAST": 0.674,
-            "ADR": 168.26,
-            "HS%": 0.246,
-            "FK": 6,
-            "FD": 6,
-            "PlusMinus2": 0
-          },
-          {
-            "Player": "Blitz",
-            "R1.0": 1.028,
-            "ACS": 197.5,
-            "K": 28,
-            "D": 29,
-            "A": 11,
-            "PlusMinus": -1,
-            "KAST": 0.776,
-            "ADR": 143.5,
-            "HS%": 0.24,
-            "FK": 6,
-            "FD": 4,
-            "PlusMinus2": 2
-          },
-          {
-            "Player": "niboos",
-            "R1.0": 0.776,
-            "ACS": 160,
-            "K": 20,
-            "D": 31,
-            "A": 15,
-            "PlusMinus": -11,
-            "KAST": 0.626,
-            "ADR": 104.6,
-            "HS%": 0.424,
-            "FK": 7,
-            "FD": 1,
-            "PlusMinus2": 6
-          }
-        ]
-      }
-    ],
-    "mapDetails": [
-      {
-        "name": "Haven",
-        "score1": 13,
-        "score2": 3,
-        "rounds": [
-          {
-            "round": 1,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 2,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 3,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 4,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 5,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 6,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 7,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 8,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 9,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 10,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 11,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 12,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 13,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 14,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 15,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 16,
-            "winner": 1,
-            "side": "def"
-          }
-        ],
-        "stats": [
-          {
-            "team": "KOI",
-            "teamName": "Keep On Inting",
-            "players": [
-              {
-                "Player": "night",
-                "Agent": null,
-                "R1.0": 1.62,
-                "ACS": 320,
-                "K": 20,
-                "D": 9,
-                "A": 2,
-                "PlusMinus": 11,
-                "KAST": 1,
-                "ADR": 216.9,
-                "HS%": 0.33,
-                "FK": 2,
-                "FD": 1,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "lucas",
-                "Agent": null,
-                "R1.0": 1.446,
-                "ACS": 301,
-                "K": 18,
-                "D": 8,
-                "A": 4,
-                "PlusMinus": 10,
-                "KAST": 0.75,
-                "ADR": 183.9,
-                "HS%": 0.27,
-                "FK": 5,
-                "FD": 4,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "VALENTIA",
-                "Agent": null,
-                "R1.0": 1.217,
-                "ACS": 238,
-                "K": 15,
-                "D": 7,
-                "A": 1,
-                "PlusMinus": 8,
-                "KAST": 0.81,
-                "ADR": 132.2,
-                "HS%": 0.2,
-                "FK": 1,
-                "FD": 1,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "catsmeow",
-                "Agent": null,
-                "R1.0": 0.812,
-                "ACS": 140,
-                "K": 8,
-                "D": 9,
-                "A": 3,
-                "PlusMinus": -1,
-                "KAST": 0.75,
-                "ADR": 83.9,
-                "HS%": 0.29,
-                "FK": 0,
-                "FD": 1,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "abstracq",
-                "Agent": null,
-                "R1.0": 0.991,
-                "ACS": 126,
-                "K": 5,
-                "D": 8,
-                "A": 18,
-                "PlusMinus": -3,
-                "KAST": 0.88,
-                "ADR": 83.8,
-                "HS%": 0.19,
-                "FK": 1,
-                "FD": 0,
-                "PlusMinus2": 1
-              }
-            ]
-          },
-          {
-            "team": "ZIRC",
-            "teamName": "Zirconians",
-            "players": [
-              {
-                "Player": "ethan",
-                "Agent": null,
-                "R1.0": 0.893,
-                "ACS": 204,
-                "K": 12,
-                "D": 14,
-                "A": 0,
-                "PlusMinus": -2,
-                "KAST": 0.69,
-                "ADR": 140.3,
-                "HS%": 0.13,
-                "FK": 0,
-                "FD": 3,
-                "PlusMinus2": -3
-              },
-              {
-                "Player": "darshan",
-                "Agent": null,
-                "R1.0": 0.842,
-                "ACS": 190,
-                "K": 9,
-                "D": 13,
-                "A": 3,
-                "PlusMinus": -4,
-                "KAST": 0.62,
-                "ADR": 141.8,
-                "HS%": 0.18,
-                "FK": 1,
-                "FD": 2,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "niboos",
-                "Agent": null,
-                "R1.0": 0.729,
-                "ACS": 166,
-                "K": 8,
-                "D": 14,
-                "A": 6,
-                "PlusMinus": -6,
-                "KAST": 0.56,
-                "ADR": 111.5,
-                "HS%": 0.43,
-                "FK": 3,
-                "FD": 0,
-                "PlusMinus2": 3
-              },
-              {
-                "Player": "Blitz",
-                "Agent": null,
-                "R1.0": 0.623,
-                "ACS": 147,
-                "K": 6,
-                "D": 14,
-                "A": 4,
-                "PlusMinus": -8,
-                "KAST": 0.56,
-                "ADR": 107.8,
-                "HS%": 0.18,
-                "FK": 3,
-                "FD": 3,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "Robohobo",
-                "Agent": null,
-                "R1.0": 0.66,
-                "ACS": 118,
-                "K": 6,
-                "D": 11,
-                "A": 4,
-                "PlusMinus": -5,
-                "KAST": 0.69,
-                "ADR": 74,
-                "HS%": 0.13,
-                "FK": 0,
-                "FD": 1,
-                "PlusMinus2": -1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Bind",
-        "score1": 13,
-        "score2": 11,
-        "rounds": [
-          {
-            "round": 1,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 2,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 3,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 4,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 5,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 6,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 7,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 8,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 9,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 10,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 11,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 12,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 13,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 14,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 15,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 16,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 17,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 18,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 19,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 20,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 21,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 22,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 23,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 24,
-            "winner": 1,
-            "side": "atk"
-          }
-        ],
-        "stats": [
-          {
-            "team": "KOI",
-            "teamName": "Keep On Inting",
-            "players": [
-              {
-                "Player": "abstracq",
-                "Agent": null,
-                "R1.0": 1.021,
-                "ACS": 234,
-                "K": 19,
-                "D": 19,
-                "A": 6,
-                "PlusMinus": 0,
-                "KAST": 0.71,
-                "ADR": 142.8,
-                "HS%": 0.17,
-                "FK": 3,
-                "FD": 4,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "night",
-                "Agent": null,
-                "R1.0": 1.037,
-                "ACS": 232,
-                "K": 18,
-                "D": 20,
-                "A": 10,
-                "PlusMinus": -2,
-                "KAST": 0.71,
-                "ADR": 150,
-                "HS%": 0.24,
-                "FK": 3,
-                "FD": 3,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "lucas",
-                "Agent": null,
-                "R1.0": 0.881,
-                "ACS": 211,
-                "K": 17,
-                "D": 22,
-                "A": 4,
-                "PlusMinus": -5,
-                "KAST": 0.71,
-                "ADR": 134,
-                "HS%": 0.15,
-                "FK": 1,
-                "FD": 5,
-                "PlusMinus2": -4
-              },
-              {
-                "Player": "VALENTIA",
-                "Agent": null,
-                "R1.0": 0.817,
-                "ACS": 168,
-                "K": 14,
-                "D": 18,
-                "A": 6,
-                "PlusMinus": -4,
-                "KAST": 0.62,
-                "ADR": 110.8,
-                "HS%": 0.21,
-                "FK": 1,
-                "FD": 3,
-                "PlusMinus2": -2
-              },
-              {
-                "Player": "catsmeow",
-                "Agent": null,
-                "R1.0": 0.839,
-                "ACS": 127,
-                "K": 12,
-                "D": 16,
-                "A": 10,
-                "PlusMinus": -4,
-                "KAST": 0.83,
-                "ADR": 81.7,
-                "HS%": 0.24,
-                "FK": 0,
-                "FD": 1,
-                "PlusMinus2": -1
-              }
-            ]
-          },
-          {
-            "team": "ZIRC",
-            "teamName": "Zirconians",
-            "players": [
-              {
-                "Player": "darshan",
-                "Agent": null,
-                "R1.0": 1.157,
-                "ACS": 265,
-                "K": 21,
-                "D": 20,
-                "A": 6,
-                "PlusMinus": 1,
-                "KAST": 0.71,
-                "ADR": 185.9,
-                "HS%": 0.29,
-                "FK": 5,
-                "FD": 4,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "Robohobo",
-                "Agent": null,
-                "R1.0": 1.348,
-                "ACS": 264,
-                "K": 22,
-                "D": 14,
-                "A": 8,
-                "PlusMinus": 8,
-                "KAST": 0.79,
-                "ADR": 192.2,
-                "HS%": 0.31,
-                "FK": 3,
-                "FD": 1,
-                "PlusMinus2": 2
-              },
-              {
-                "Player": "Blitz",
-                "Agent": null,
-                "R1.0": 1.299,
-                "ACS": 248,
-                "K": 22,
-                "D": 15,
-                "A": 7,
-                "PlusMinus": 7,
-                "KAST": 0.92,
-                "ADR": 167.3,
-                "HS%": 0.28,
-                "FK": 3,
-                "FD": 1,
-                "PlusMinus2": 2
-              },
-              {
-                "Player": "ethan",
-                "Agent": null,
-                "R1.0": 1.029,
-                "ACS": 177,
-                "K": 18,
-                "D": 14,
-                "A": 4,
-                "PlusMinus": 4,
-                "KAST": 0.83,
-                "ADR": 111.2,
-                "HS%": 0.16,
-                "FK": 1,
-                "FD": 1,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "niboos",
-                "Agent": null,
-                "R1.0": 0.807,
-                "ACS": 154,
-                "K": 12,
-                "D": 17,
-                "A": 9,
-                "PlusMinus": -5,
-                "KAST": 0.67,
-                "ADR": 100,
-                "HS%": 0.42,
-                "FK": 4,
-                "FD": 1,
-                "PlusMinus2": 3
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "streamLink": "https://www.youtube.com/watch?v=cV4ibC7LYgc"
-  },
-  {
     "id": "emea-vs-wing-s2-group-stage-2025-11-01",
     "team1": "EMEA",
     "team2": "WING",
@@ -50014,6 +49259,761 @@
       }
     ],
     "streamLink": "https://www.youtube.com/watch?v=_UjVhVmRFec"
+  },
+  {
+    "id": "koi-vs-zirc-s2-group-stage-2025-11-01",
+    "team1": "KOI",
+    "team2": "ZIRC",
+    "team1Name": "Keep On Inting",
+    "team2Name": "Zirconians",
+    "score1": 2,
+    "score2": 0,
+    "completed": true,
+    "bestOf": 3,
+    "date": "2025-11-01",
+    "stage": "Group Stage",
+    "veto": "KOI bans Sunset, ZIRC bans Split, KOI picks Haven, ZIRC picks Bind, KOI bans Corrode, ZIRC bans Abyss, Pearl remains",
+    "maps": [
+      {
+        "name": "Haven",
+        "score1": 13,
+        "score2": 3
+      },
+      {
+        "name": "Bind",
+        "score1": 13,
+        "score2": 11
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "KOI",
+        "teamName": "Keep On Inting",
+        "players": [
+          {
+            "Player": "night",
+            "R1.0": 1.27,
+            "ACS": 276,
+            "K": 38,
+            "D": 29,
+            "A": 12,
+            "PlusMinus": 9,
+            "KAST": 0.826,
+            "ADR": 176.76,
+            "HS%": 0.276,
+            "FK": 5,
+            "FD": 4,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "lucas",
+            "R1.0": 1.107,
+            "ACS": 256,
+            "K": 35,
+            "D": 30,
+            "A": 8,
+            "PlusMinus": 5,
+            "KAST": 0.726,
+            "ADR": 153.96,
+            "HS%": 0.198,
+            "FK": 6,
+            "FD": 9,
+            "PlusMinus2": -3
+          },
+          {
+            "Player": "VALENTIA",
+            "R1.0": 0.977,
+            "ACS": 203,
+            "K": 29,
+            "D": 25,
+            "A": 7,
+            "PlusMinus": 4,
+            "KAST": 0.696,
+            "ADR": 119.36,
+            "HS%": 0.206,
+            "FK": 2,
+            "FD": 4,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "abstracq",
+            "R1.0": 1.009,
+            "ACS": 180,
+            "K": 24,
+            "D": 27,
+            "A": 24,
+            "PlusMinus": -3,
+            "KAST": 0.778,
+            "ADR": 119.2,
+            "HS%": 0.178,
+            "FK": 4,
+            "FD": 4,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "catsmeow",
+            "R1.0": 0.828,
+            "ACS": 133.5,
+            "K": 20,
+            "D": 25,
+            "A": 13,
+            "PlusMinus": -5,
+            "KAST": 0.798,
+            "ADR": 82.58,
+            "HS%": 0.26,
+            "FK": 0,
+            "FD": 2,
+            "PlusMinus2": -2
+          }
+        ]
+      },
+      {
+        "team": "ZIRC",
+        "teamName": "Zirconians",
+        "players": [
+          {
+            "Player": "Robohobo",
+            "R1.0": 1.073,
+            "ACS": 191,
+            "K": 28,
+            "D": 25,
+            "A": 12,
+            "PlusMinus": 3,
+            "KAST": 0.75,
+            "ADR": 144.92,
+            "HS%": 0.238,
+            "FK": 3,
+            "FD": 2,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "ethan",
+            "R1.0": 0.974,
+            "ACS": 190.5,
+            "K": 30,
+            "D": 28,
+            "A": 4,
+            "PlusMinus": 2,
+            "KAST": 0.774,
+            "ADR": 122.84,
+            "HS%": 0.148,
+            "FK": 1,
+            "FD": 4,
+            "PlusMinus2": -3
+          },
+          {
+            "Player": "darshan",
+            "R1.0": 1.031,
+            "ACS": 227.5,
+            "K": 30,
+            "D": 33,
+            "A": 9,
+            "PlusMinus": -3,
+            "KAST": 0.674,
+            "ADR": 168.26,
+            "HS%": 0.246,
+            "FK": 6,
+            "FD": 6,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "Blitz",
+            "R1.0": 1.028,
+            "ACS": 197.5,
+            "K": 28,
+            "D": 29,
+            "A": 11,
+            "PlusMinus": -1,
+            "KAST": 0.776,
+            "ADR": 143.5,
+            "HS%": 0.24,
+            "FK": 6,
+            "FD": 4,
+            "PlusMinus2": 2
+          },
+          {
+            "Player": "niboos",
+            "R1.0": 0.776,
+            "ACS": 160,
+            "K": 20,
+            "D": 31,
+            "A": 15,
+            "PlusMinus": -11,
+            "KAST": 0.626,
+            "ADR": 104.6,
+            "HS%": 0.424,
+            "FK": 7,
+            "FD": 1,
+            "PlusMinus2": 6
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Haven",
+        "score1": 13,
+        "score2": 3,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 9,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "def"
+          }
+        ],
+        "stats": [
+          {
+            "team": "KOI",
+            "teamName": "Keep On Inting",
+            "players": [
+              {
+                "Player": "night",
+                "Agent": null,
+                "R1.0": 1.62,
+                "ACS": 320,
+                "K": 20,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": 11,
+                "KAST": 1,
+                "ADR": 216.9,
+                "HS%": 0.33,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "lucas",
+                "Agent": null,
+                "R1.0": 1.446,
+                "ACS": 301,
+                "K": 18,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": 10,
+                "KAST": 0.75,
+                "ADR": 183.9,
+                "HS%": 0.27,
+                "FK": 5,
+                "FD": 4,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "VALENTIA",
+                "Agent": null,
+                "R1.0": 1.217,
+                "ACS": 238,
+                "K": 15,
+                "D": 7,
+                "A": 1,
+                "PlusMinus": 8,
+                "KAST": 0.81,
+                "ADR": 132.2,
+                "HS%": 0.2,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "catsmeow",
+                "Agent": null,
+                "R1.0": 0.812,
+                "ACS": 140,
+                "K": 8,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": -1,
+                "KAST": 0.75,
+                "ADR": 83.9,
+                "HS%": 0.29,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "abstracq",
+                "Agent": null,
+                "R1.0": 0.991,
+                "ACS": 126,
+                "K": 5,
+                "D": 8,
+                "A": 18,
+                "PlusMinus": -3,
+                "KAST": 0.88,
+                "ADR": 83.8,
+                "HS%": 0.19,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              }
+            ]
+          },
+          {
+            "team": "ZIRC",
+            "teamName": "Zirconians",
+            "players": [
+              {
+                "Player": "ethan",
+                "Agent": null,
+                "R1.0": 0.893,
+                "ACS": 204,
+                "K": 12,
+                "D": 14,
+                "A": 0,
+                "PlusMinus": -2,
+                "KAST": 0.69,
+                "ADR": 140.3,
+                "HS%": 0.13,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "darshan",
+                "Agent": null,
+                "R1.0": 0.842,
+                "ACS": 190,
+                "K": 9,
+                "D": 13,
+                "A": 3,
+                "PlusMinus": -4,
+                "KAST": 0.62,
+                "ADR": 141.8,
+                "HS%": 0.18,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "niboos",
+                "Agent": null,
+                "R1.0": 0.729,
+                "ACS": 166,
+                "K": 8,
+                "D": 14,
+                "A": 6,
+                "PlusMinus": -6,
+                "KAST": 0.56,
+                "ADR": 111.5,
+                "HS%": 0.43,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "Blitz",
+                "Agent": null,
+                "R1.0": 0.623,
+                "ACS": 147,
+                "K": 6,
+                "D": 14,
+                "A": 4,
+                "PlusMinus": -8,
+                "KAST": 0.56,
+                "ADR": 107.8,
+                "HS%": 0.18,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "Robohobo",
+                "Agent": null,
+                "R1.0": 0.66,
+                "ACS": 118,
+                "K": 6,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.69,
+                "ADR": 74,
+                "HS%": 0.13,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bind",
+        "score1": 13,
+        "score2": 11,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 9,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 19,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 20,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 22,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 23,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 24,
+            "winner": 1,
+            "side": "atk"
+          }
+        ],
+        "stats": [
+          {
+            "team": "KOI",
+            "teamName": "Keep On Inting",
+            "players": [
+              {
+                "Player": "abstracq",
+                "Agent": null,
+                "R1.0": 1.021,
+                "ACS": 234,
+                "K": 19,
+                "D": 19,
+                "A": 6,
+                "PlusMinus": 0,
+                "KAST": 0.71,
+                "ADR": 142.8,
+                "HS%": 0.17,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "night",
+                "Agent": null,
+                "R1.0": 1.037,
+                "ACS": 232,
+                "K": 18,
+                "D": 20,
+                "A": 10,
+                "PlusMinus": -2,
+                "KAST": 0.71,
+                "ADR": 150,
+                "HS%": 0.24,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "lucas",
+                "Agent": null,
+                "R1.0": 0.881,
+                "ACS": 211,
+                "K": 17,
+                "D": 22,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.71,
+                "ADR": 134,
+                "HS%": 0.15,
+                "FK": 1,
+                "FD": 5,
+                "PlusMinus2": -4
+              },
+              {
+                "Player": "VALENTIA",
+                "Agent": null,
+                "R1.0": 0.817,
+                "ACS": 168,
+                "K": 14,
+                "D": 18,
+                "A": 6,
+                "PlusMinus": -4,
+                "KAST": 0.62,
+                "ADR": 110.8,
+                "HS%": 0.21,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "catsmeow",
+                "Agent": null,
+                "R1.0": 0.839,
+                "ACS": 127,
+                "K": 12,
+                "D": 16,
+                "A": 10,
+                "PlusMinus": -4,
+                "KAST": 0.83,
+                "ADR": 81.7,
+                "HS%": 0.24,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              }
+            ]
+          },
+          {
+            "team": "ZIRC",
+            "teamName": "Zirconians",
+            "players": [
+              {
+                "Player": "darshan",
+                "Agent": null,
+                "R1.0": 1.157,
+                "ACS": 265,
+                "K": 21,
+                "D": 20,
+                "A": 6,
+                "PlusMinus": 1,
+                "KAST": 0.71,
+                "ADR": 185.9,
+                "HS%": 0.29,
+                "FK": 5,
+                "FD": 4,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "Robohobo",
+                "Agent": null,
+                "R1.0": 1.348,
+                "ACS": 264,
+                "K": 22,
+                "D": 14,
+                "A": 8,
+                "PlusMinus": 8,
+                "KAST": 0.79,
+                "ADR": 192.2,
+                "HS%": 0.31,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "Blitz",
+                "Agent": null,
+                "R1.0": 1.299,
+                "ACS": 248,
+                "K": 22,
+                "D": 15,
+                "A": 7,
+                "PlusMinus": 7,
+                "KAST": 0.92,
+                "ADR": 167.3,
+                "HS%": 0.28,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "ethan",
+                "Agent": null,
+                "R1.0": 1.029,
+                "ACS": 177,
+                "K": 18,
+                "D": 14,
+                "A": 4,
+                "PlusMinus": 4,
+                "KAST": 0.83,
+                "ADR": 111.2,
+                "HS%": 0.16,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "niboos",
+                "Agent": null,
+                "R1.0": 0.807,
+                "ACS": 154,
+                "K": 12,
+                "D": 17,
+                "A": 9,
+                "PlusMinus": -5,
+                "KAST": 0.67,
+                "ADR": 100,
+                "HS%": 0.42,
+                "FK": 4,
+                "FD": 1,
+                "PlusMinus2": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=cV4ibC7LYgc"
   },
   {
     "id": "drx-vs-mibr-s2-group-stage-2025-10-26",
@@ -51097,766 +51097,6 @@
     "streamLink": "https://www.youtube.com/watch?v=l2AZN7qfdIQ"
   },
   {
-    "id": "kru-vs-zirc-s2-group-stage-2025-10-26",
-    "team1": "KRU",
-    "team2": "ZIRC",
-    "team1Name": "Knives R' Us",
-    "team2Name": "Zirconians",
-    "score1": 0,
-    "score2": 2,
-    "completed": true,
-    "bestOf": 3,
-    "date": "2025-10-26",
-    "stage": "Group Stage",
-    "veto": "KRU bans Corrode, ZIRC bans Abyss, KRU picks Haven, ZIRC picks Bind, KRU bans Pearl, ZIRC bans Split, Sunset remains",
-    "maps": [
-      {
-        "name": "Haven",
-        "score1": 5,
-        "score2": 13
-      },
-      {
-        "name": "Bind",
-        "score1": 10,
-        "score2": 13
-      }
-    ],
-    "combinedStats": [
-      {
-        "team": "KRU",
-        "teamName": "Knives R' Us",
-        "players": [
-          {
-            "Player": "amiable",
-            "R1.0": 0.912,
-            "ACS": 182,
-            "K": 27,
-            "D": 32,
-            "A": 12,
-            "PlusMinus": -5,
-            "KAST": 0.735,
-            "ADR": 119.049,
-            "HS%": 0.19,
-            "FK": 1,
-            "FD": 3,
-            "PlusMinus2": -2
-          },
-          {
-            "Player": "masao",
-            "R1.0": 0.985,
-            "ACS": 228.5,
-            "K": 31,
-            "D": 34,
-            "A": 10,
-            "PlusMinus": -3,
-            "KAST": 0.66,
-            "ADR": 149.334,
-            "HS%": 0.245,
-            "FK": 1,
-            "FD": 4,
-            "PlusMinus2": -3
-          },
-          {
-            "Player": "art",
-            "R1.0": 1.328,
-            "ACS": 321,
-            "K": 42,
-            "D": 33,
-            "A": 11,
-            "PlusMinus": 9,
-            "KAST": 0.707,
-            "ADR": 215.585,
-            "HS%": 0.178,
-            "FK": 10,
-            "FD": 9,
-            "PlusMinus2": 1
-          },
-          {
-            "Player": "Jack",
-            "R1.0": 0.546,
-            "ACS": 108,
-            "K": 15,
-            "D": 35,
-            "A": 14,
-            "PlusMinus": -20,
-            "KAST": 0.585,
-            "ADR": 64.071,
-            "HS%": 0.116,
-            "FK": 1,
-            "FD": 6,
-            "PlusMinus2": -5
-          },
-          {
-            "Player": "caesparz",
-            "R1.0": 0.62,
-            "ACS": 120,
-            "K": 20,
-            "D": 34,
-            "A": 3,
-            "PlusMinus": -14,
-            "KAST": 0.562,
-            "ADR": 89.861,
-            "HS%": 0.12,
-            "FK": 3,
-            "FD": 3,
-            "PlusMinus2": 0
-          }
-        ]
-      },
-      {
-        "team": "ZIRC",
-        "teamName": "Zirconians",
-        "players": [
-          {
-            "Player": "niboos",
-            "R1.0": 1.166,
-            "ACS": 209.5,
-            "K": 33,
-            "D": 28,
-            "A": 20,
-            "PlusMinus": 5,
-            "KAST": 0.83,
-            "ADR": 142.18,
-            "HS%": 0.291,
-            "FK": 2,
-            "FD": 1,
-            "PlusMinus2": 1
-          },
-          {
-            "Player": "Blitz",
-            "R1.0": 1.653,
-            "ACS": 370,
-            "K": 56,
-            "D": 27,
-            "A": 10,
-            "PlusMinus": 29,
-            "KAST": 0.879,
-            "ADR": 225.773,
-            "HS%": 0.338,
-            "FK": 10,
-            "FD": 5,
-            "PlusMinus2": 5
-          },
-          {
-            "Player": "Robohobo",
-            "R1.0": 0.915,
-            "ACS": 172,
-            "K": 27,
-            "D": 30,
-            "A": 11,
-            "PlusMinus": -3,
-            "KAST": 0.782,
-            "ADR": 108.402,
-            "HS%": 0.188,
-            "FK": 6,
-            "FD": 2,
-            "PlusMinus2": 4
-          },
-          {
-            "Player": "ethan",
-            "R1.0": 0.875,
-            "ACS": 147.5,
-            "K": 19,
-            "D": 25,
-            "A": 17,
-            "PlusMinus": -6,
-            "KAST": 0.783,
-            "ADR": 100.261,
-            "HS%": 0.223,
-            "FK": 4,
-            "FD": 3,
-            "PlusMinus2": 1
-          },
-          {
-            "Player": "darshan",
-            "R1.0": 1.17,
-            "ACS": 240.5,
-            "K": 33,
-            "D": 25,
-            "A": 15,
-            "PlusMinus": 8,
-            "KAST": 0.707,
-            "ADR": 157.568,
-            "HS%": 0.182,
-            "FK": 3,
-            "FD": 5,
-            "PlusMinus2": -2
-          }
-        ]
-      }
-    ],
-    "mapDetails": [
-      {
-        "name": "Haven",
-        "score1": 5,
-        "score2": 13,
-        "rounds": [
-          {
-            "round": 1,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 2,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 3,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 4,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 5,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 6,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 7,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 8,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 9,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 10,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 11,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 12,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 13,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 14,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 15,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 16,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 17,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 18,
-            "winner": 2,
-            "side": "atk"
-          }
-        ],
-        "stats": [
-          {
-            "team": "KRU",
-            "teamName": "Knives R' Us",
-            "players": [
-              {
-                "Player": "art",
-                "Agent": null,
-                "R1.0": 1.471,
-                "ACS": 347,
-                "K": 20,
-                "D": 15,
-                "A": 5,
-                "PlusMinus": 5,
-                "KAST": 0.83,
-                "ADR": 242.4,
-                "HS%": 0.15,
-                "FK": 5,
-                "FD": 3,
-                "PlusMinus2": 2
-              },
-              {
-                "Player": "amiable",
-                "Agent": null,
-                "R1.0": 0.949,
-                "ACS": 209,
-                "K": 13,
-                "D": 16,
-                "A": 5,
-                "PlusMinus": -3,
-                "KAST": 0.78,
-                "ADR": 134.7,
-                "HS%": 0.14,
-                "FK": 1,
-                "FD": 2,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "masao",
-                "Agent": null,
-                "R1.0": 0.901,
-                "ACS": 192,
-                "K": 11,
-                "D": 14,
-                "A": 6,
-                "PlusMinus": -3,
-                "KAST": 0.61,
-                "ADR": 136.6,
-                "HS%": 0.2,
-                "FK": 1,
-                "FD": 1,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "Jack",
-                "Agent": null,
-                "R1.0": 0.617,
-                "ACS": 115,
-                "K": 7,
-                "D": 16,
-                "A": 8,
-                "PlusMinus": -9,
-                "KAST": 0.72,
-                "ADR": 67.1,
-                "HS%": 0.15,
-                "FK": 0,
-                "FD": 3,
-                "PlusMinus2": -3
-              },
-              {
-                "Player": "caesparz",
-                "Agent": null,
-                "R1.0": 0.428,
-                "ACS": 92,
-                "K": 6,
-                "D": 16,
-                "A": 2,
-                "PlusMinus": -10,
-                "KAST": 0.5,
-                "ADR": 61.7,
-                "HS%": 0.07,
-                "FK": 0,
-                "FD": 2,
-                "PlusMinus2": -2
-              }
-            ]
-          },
-          {
-            "team": "ZIRC",
-            "teamName": "Zirconians",
-            "players": [
-              {
-                "Player": "Blitz",
-                "Agent": null,
-                "R1.0": 1.527,
-                "ACS": 332,
-                "K": 24,
-                "D": 12,
-                "A": 1,
-                "PlusMinus": 12,
-                "KAST": 0.89,
-                "ADR": 199.8,
-                "HS%": 0.31,
-                "FK": 4,
-                "FD": 3,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "niboos",
-                "Agent": null,
-                "R1.0": 1.306,
-                "ACS": 210,
-                "K": 15,
-                "D": 11,
-                "A": 13,
-                "PlusMinus": 4,
-                "KAST": 0.83,
-                "ADR": 158,
-                "HS%": 0.33,
-                "FK": 1,
-                "FD": 0,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "darshan",
-                "Agent": null,
-                "R1.0": 1.243,
-                "ACS": 250,
-                "K": 15,
-                "D": 11,
-                "A": 8,
-                "PlusMinus": 4,
-                "KAST": 0.78,
-                "ADR": 164.3,
-                "HS%": 0.16,
-                "FK": 0,
-                "FD": 2,
-                "PlusMinus2": -2
-              },
-              {
-                "Player": "ethan",
-                "Agent": null,
-                "R1.0": 1.112,
-                "ACS": 186,
-                "K": 10,
-                "D": 10,
-                "A": 11,
-                "PlusMinus": 0,
-                "KAST": 0.89,
-                "ADR": 134.2,
-                "HS%": 0.1,
-                "FK": 3,
-                "FD": 2,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "Robohobo",
-                "Agent": null,
-                "R1.0": 0.905,
-                "ACS": 175,
-                "K": 13,
-                "D": 13,
-                "A": 4,
-                "PlusMinus": 0,
-                "KAST": 0.67,
-                "ADR": 107,
-                "HS%": 0.21,
-                "FK": 3,
-                "FD": 0,
-                "PlusMinus2": 3
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Bind",
-        "score1": 10,
-        "score2": 13,
-        "rounds": [
-          {
-            "round": 1,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 2,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 3,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 4,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 5,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 6,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 7,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 8,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 9,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 10,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 11,
-            "winner": 1,
-            "side": "def"
-          },
-          {
-            "round": 12,
-            "winner": 2,
-            "side": "atk"
-          },
-          {
-            "round": 13,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 14,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 15,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 16,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 17,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 18,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 19,
-            "winner": 1,
-            "side": "atk"
-          },
-          {
-            "round": 20,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 21,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 22,
-            "winner": 2,
-            "side": "def"
-          },
-          {
-            "round": 23,
-            "winner": 2,
-            "side": "def"
-          }
-        ],
-        "stats": [
-          {
-            "team": "KRU",
-            "teamName": "Knives R' Us",
-            "players": [
-              {
-                "Player": "art",
-                "Agent": null,
-                "R1.0": 1.216,
-                "ACS": 295,
-                "K": 22,
-                "D": 18,
-                "A": 6,
-                "PlusMinus": 4,
-                "KAST": 0.61,
-                "ADR": 194.6,
-                "HS%": 0.2,
-                "FK": 5,
-                "FD": 6,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "masao",
-                "Agent": null,
-                "R1.0": 1.051,
-                "ACS": 265,
-                "K": 20,
-                "D": 20,
-                "A": 4,
-                "PlusMinus": 0,
-                "KAST": 0.7,
-                "ADR": 159.3,
-                "HS%": 0.28,
-                "FK": 0,
-                "FD": 3,
-                "PlusMinus2": -3
-              },
-              {
-                "Player": "amiable",
-                "Agent": null,
-                "R1.0": 0.882,
-                "ACS": 155,
-                "K": 14,
-                "D": 16,
-                "A": 7,
-                "PlusMinus": -2,
-                "KAST": 0.7,
-                "ADR": 106.8,
-                "HS%": 0.23,
-                "FK": 0,
-                "FD": 1,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "caesparz",
-                "Agent": null,
-                "R1.0": 0.77,
-                "ACS": 148,
-                "K": 14,
-                "D": 18,
-                "A": 1,
-                "PlusMinus": -4,
-                "KAST": 0.61,
-                "ADR": 111.9,
-                "HS%": 0.16,
-                "FK": 3,
-                "FD": 1,
-                "PlusMinus2": 2
-              },
-              {
-                "Player": "Jack",
-                "Agent": null,
-                "R1.0": 0.491,
-                "ACS": 101,
-                "K": 8,
-                "D": 19,
-                "A": 6,
-                "PlusMinus": -11,
-                "KAST": 0.48,
-                "ADR": 61.7,
-                "HS%": 0.09,
-                "FK": 1,
-                "FD": 3,
-                "PlusMinus2": -2
-              }
-            ]
-          },
-          {
-            "team": "ZIRC",
-            "teamName": "Zirconians",
-            "players": [
-              {
-                "Player": "Blitz",
-                "Agent": null,
-                "R1.0": 1.751,
-                "ACS": 408,
-                "K": 32,
-                "D": 15,
-                "A": 9,
-                "PlusMinus": 17,
-                "KAST": 0.87,
-                "ADR": 246.1,
-                "HS%": 0.36,
-                "FK": 6,
-                "FD": 2,
-                "PlusMinus2": 4
-              },
-              {
-                "Player": "darshan",
-                "Agent": null,
-                "R1.0": 1.113,
-                "ACS": 231,
-                "K": 18,
-                "D": 14,
-                "A": 7,
-                "PlusMinus": 4,
-                "KAST": 0.65,
-                "ADR": 152.3,
-                "HS%": 0.2,
-                "FK": 3,
-                "FD": 3,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "niboos",
-                "Agent": null,
-                "R1.0": 1.057,
-                "ACS": 209,
-                "K": 18,
-                "D": 17,
-                "A": 7,
-                "PlusMinus": 1,
-                "KAST": 0.83,
-                "ADR": 129.8,
-                "HS%": 0.26,
-                "FK": 1,
-                "FD": 1,
-                "PlusMinus2": 0
-              },
-              {
-                "Player": "Robohobo",
-                "Agent": null,
-                "R1.0": 0.923,
-                "ACS": 169,
-                "K": 14,
-                "D": 17,
-                "A": 7,
-                "PlusMinus": -3,
-                "KAST": 0.87,
-                "ADR": 109.5,
-                "HS%": 0.17,
-                "FK": 3,
-                "FD": 2,
-                "PlusMinus2": 1
-              },
-              {
-                "Player": "ethan",
-                "Agent": null,
-                "R1.0": 0.689,
-                "ACS": 109,
-                "K": 9,
-                "D": 15,
-                "A": 6,
-                "PlusMinus": -6,
-                "KAST": 0.7,
-                "ADR": 73.7,
-                "HS%": 0.32,
-                "FK": 1,
-                "FD": 1,
-                "PlusMinus2": 0
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "streamLink": "https://www.youtube.com/watch?v=L7d5nqNM60g"
-  },
-  {
     "id": "emea-vs-wood-s2-group-stage-2025-10-26",
     "team1": "EMEA",
     "team2": "WOOD",
@@ -52650,6 +51890,766 @@
       }
     ],
     "streamLink": "https://www.youtube.com/watch?v=hia597Ltkf0"
+  },
+  {
+    "id": "kru-vs-zirc-s2-group-stage-2025-10-26",
+    "team1": "KRU",
+    "team2": "ZIRC",
+    "team1Name": "Knives R' Us",
+    "team2Name": "Zirconians",
+    "score1": 0,
+    "score2": 2,
+    "completed": true,
+    "bestOf": 3,
+    "date": "2025-10-26",
+    "stage": "Group Stage",
+    "veto": "KRU bans Corrode, ZIRC bans Abyss, KRU picks Haven, ZIRC picks Bind, KRU bans Pearl, ZIRC bans Split, Sunset remains",
+    "maps": [
+      {
+        "name": "Haven",
+        "score1": 5,
+        "score2": 13
+      },
+      {
+        "name": "Bind",
+        "score1": 10,
+        "score2": 13
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "KRU",
+        "teamName": "Knives R' Us",
+        "players": [
+          {
+            "Player": "amiable",
+            "R1.0": 0.912,
+            "ACS": 182,
+            "K": 27,
+            "D": 32,
+            "A": 12,
+            "PlusMinus": -5,
+            "KAST": 0.735,
+            "ADR": 119.049,
+            "HS%": 0.19,
+            "FK": 1,
+            "FD": 3,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "masao",
+            "R1.0": 0.985,
+            "ACS": 228.5,
+            "K": 31,
+            "D": 34,
+            "A": 10,
+            "PlusMinus": -3,
+            "KAST": 0.66,
+            "ADR": 149.334,
+            "HS%": 0.245,
+            "FK": 1,
+            "FD": 4,
+            "PlusMinus2": -3
+          },
+          {
+            "Player": "art",
+            "R1.0": 1.328,
+            "ACS": 321,
+            "K": 42,
+            "D": 33,
+            "A": 11,
+            "PlusMinus": 9,
+            "KAST": 0.707,
+            "ADR": 215.585,
+            "HS%": 0.178,
+            "FK": 10,
+            "FD": 9,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "Jack",
+            "R1.0": 0.546,
+            "ACS": 108,
+            "K": 15,
+            "D": 35,
+            "A": 14,
+            "PlusMinus": -20,
+            "KAST": 0.585,
+            "ADR": 64.071,
+            "HS%": 0.116,
+            "FK": 1,
+            "FD": 6,
+            "PlusMinus2": -5
+          },
+          {
+            "Player": "caesparz",
+            "R1.0": 0.62,
+            "ACS": 120,
+            "K": 20,
+            "D": 34,
+            "A": 3,
+            "PlusMinus": -14,
+            "KAST": 0.562,
+            "ADR": 89.861,
+            "HS%": 0.12,
+            "FK": 3,
+            "FD": 3,
+            "PlusMinus2": 0
+          }
+        ]
+      },
+      {
+        "team": "ZIRC",
+        "teamName": "Zirconians",
+        "players": [
+          {
+            "Player": "niboos",
+            "R1.0": 1.166,
+            "ACS": 209.5,
+            "K": 33,
+            "D": 28,
+            "A": 20,
+            "PlusMinus": 5,
+            "KAST": 0.83,
+            "ADR": 142.18,
+            "HS%": 0.291,
+            "FK": 2,
+            "FD": 1,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "Blitz",
+            "R1.0": 1.653,
+            "ACS": 370,
+            "K": 56,
+            "D": 27,
+            "A": 10,
+            "PlusMinus": 29,
+            "KAST": 0.879,
+            "ADR": 225.773,
+            "HS%": 0.338,
+            "FK": 10,
+            "FD": 5,
+            "PlusMinus2": 5
+          },
+          {
+            "Player": "Robohobo",
+            "R1.0": 0.915,
+            "ACS": 172,
+            "K": 27,
+            "D": 30,
+            "A": 11,
+            "PlusMinus": -3,
+            "KAST": 0.782,
+            "ADR": 108.402,
+            "HS%": 0.188,
+            "FK": 6,
+            "FD": 2,
+            "PlusMinus2": 4
+          },
+          {
+            "Player": "ethan",
+            "R1.0": 0.875,
+            "ACS": 147.5,
+            "K": 19,
+            "D": 25,
+            "A": 17,
+            "PlusMinus": -6,
+            "KAST": 0.783,
+            "ADR": 100.261,
+            "HS%": 0.223,
+            "FK": 4,
+            "FD": 3,
+            "PlusMinus2": 1
+          },
+          {
+            "Player": "darshan",
+            "R1.0": 1.17,
+            "ACS": 240.5,
+            "K": 33,
+            "D": 25,
+            "A": 15,
+            "PlusMinus": 8,
+            "KAST": 0.707,
+            "ADR": 157.568,
+            "HS%": 0.182,
+            "FK": 3,
+            "FD": 5,
+            "PlusMinus2": -2
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Haven",
+        "score1": 5,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 9,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 10,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "atk"
+          }
+        ],
+        "stats": [
+          {
+            "team": "KRU",
+            "teamName": "Knives R' Us",
+            "players": [
+              {
+                "Player": "art",
+                "Agent": null,
+                "R1.0": 1.471,
+                "ACS": 347,
+                "K": 20,
+                "D": 15,
+                "A": 5,
+                "PlusMinus": 5,
+                "KAST": 0.83,
+                "ADR": 242.4,
+                "HS%": 0.15,
+                "FK": 5,
+                "FD": 3,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "amiable",
+                "Agent": null,
+                "R1.0": 0.949,
+                "ACS": 209,
+                "K": 13,
+                "D": 16,
+                "A": 5,
+                "PlusMinus": -3,
+                "KAST": 0.78,
+                "ADR": 134.7,
+                "HS%": 0.14,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "masao",
+                "Agent": null,
+                "R1.0": 0.901,
+                "ACS": 192,
+                "K": 11,
+                "D": 14,
+                "A": 6,
+                "PlusMinus": -3,
+                "KAST": 0.61,
+                "ADR": 136.6,
+                "HS%": 0.2,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "Jack",
+                "Agent": null,
+                "R1.0": 0.617,
+                "ACS": 115,
+                "K": 7,
+                "D": 16,
+                "A": 8,
+                "PlusMinus": -9,
+                "KAST": 0.72,
+                "ADR": 67.1,
+                "HS%": 0.15,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "caesparz",
+                "Agent": null,
+                "R1.0": 0.428,
+                "ACS": 92,
+                "K": 6,
+                "D": 16,
+                "A": 2,
+                "PlusMinus": -10,
+                "KAST": 0.5,
+                "ADR": 61.7,
+                "HS%": 0.07,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              }
+            ]
+          },
+          {
+            "team": "ZIRC",
+            "teamName": "Zirconians",
+            "players": [
+              {
+                "Player": "Blitz",
+                "Agent": null,
+                "R1.0": 1.527,
+                "ACS": 332,
+                "K": 24,
+                "D": 12,
+                "A": 1,
+                "PlusMinus": 12,
+                "KAST": 0.89,
+                "ADR": 199.8,
+                "HS%": 0.31,
+                "FK": 4,
+                "FD": 3,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "niboos",
+                "Agent": null,
+                "R1.0": 1.306,
+                "ACS": 210,
+                "K": 15,
+                "D": 11,
+                "A": 13,
+                "PlusMinus": 4,
+                "KAST": 0.83,
+                "ADR": 158,
+                "HS%": 0.33,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "darshan",
+                "Agent": null,
+                "R1.0": 1.243,
+                "ACS": 250,
+                "K": 15,
+                "D": 11,
+                "A": 8,
+                "PlusMinus": 4,
+                "KAST": 0.78,
+                "ADR": 164.3,
+                "HS%": 0.16,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "ethan",
+                "Agent": null,
+                "R1.0": 1.112,
+                "ACS": 186,
+                "K": 10,
+                "D": 10,
+                "A": 11,
+                "PlusMinus": 0,
+                "KAST": 0.89,
+                "ADR": 134.2,
+                "HS%": 0.1,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "Robohobo",
+                "Agent": null,
+                "R1.0": 0.905,
+                "ACS": 175,
+                "K": 13,
+                "D": 13,
+                "A": 4,
+                "PlusMinus": 0,
+                "KAST": 0.67,
+                "ADR": 107,
+                "HS%": 0.21,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bind",
+        "score1": 10,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "def"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "atk"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "atk"
+          },
+          {
+            "round": 20,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 22,
+            "winner": 2,
+            "side": "def"
+          },
+          {
+            "round": 23,
+            "winner": 2,
+            "side": "def"
+          }
+        ],
+        "stats": [
+          {
+            "team": "KRU",
+            "teamName": "Knives R' Us",
+            "players": [
+              {
+                "Player": "art",
+                "Agent": null,
+                "R1.0": 1.216,
+                "ACS": 295,
+                "K": 22,
+                "D": 18,
+                "A": 6,
+                "PlusMinus": 4,
+                "KAST": 0.61,
+                "ADR": 194.6,
+                "HS%": 0.2,
+                "FK": 5,
+                "FD": 6,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "masao",
+                "Agent": null,
+                "R1.0": 1.051,
+                "ACS": 265,
+                "K": 20,
+                "D": 20,
+                "A": 4,
+                "PlusMinus": 0,
+                "KAST": 0.7,
+                "ADR": 159.3,
+                "HS%": 0.28,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "amiable",
+                "Agent": null,
+                "R1.0": 0.882,
+                "ACS": 155,
+                "K": 14,
+                "D": 16,
+                "A": 7,
+                "PlusMinus": -2,
+                "KAST": 0.7,
+                "ADR": 106.8,
+                "HS%": 0.23,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "caesparz",
+                "Agent": null,
+                "R1.0": 0.77,
+                "ACS": 148,
+                "K": 14,
+                "D": 18,
+                "A": 1,
+                "PlusMinus": -4,
+                "KAST": 0.61,
+                "ADR": 111.9,
+                "HS%": 0.16,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "Jack",
+                "Agent": null,
+                "R1.0": 0.491,
+                "ACS": 101,
+                "K": 8,
+                "D": 19,
+                "A": 6,
+                "PlusMinus": -11,
+                "KAST": 0.48,
+                "ADR": 61.7,
+                "HS%": 0.09,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              }
+            ]
+          },
+          {
+            "team": "ZIRC",
+            "teamName": "Zirconians",
+            "players": [
+              {
+                "Player": "Blitz",
+                "Agent": null,
+                "R1.0": 1.751,
+                "ACS": 408,
+                "K": 32,
+                "D": 15,
+                "A": 9,
+                "PlusMinus": 17,
+                "KAST": 0.87,
+                "ADR": 246.1,
+                "HS%": 0.36,
+                "FK": 6,
+                "FD": 2,
+                "PlusMinus2": 4
+              },
+              {
+                "Player": "darshan",
+                "Agent": null,
+                "R1.0": 1.113,
+                "ACS": 231,
+                "K": 18,
+                "D": 14,
+                "A": 7,
+                "PlusMinus": 4,
+                "KAST": 0.65,
+                "ADR": 152.3,
+                "HS%": 0.2,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "niboos",
+                "Agent": null,
+                "R1.0": 1.057,
+                "ACS": 209,
+                "K": 18,
+                "D": 17,
+                "A": 7,
+                "PlusMinus": 1,
+                "KAST": 0.83,
+                "ADR": 129.8,
+                "HS%": 0.26,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "Robohobo",
+                "Agent": null,
+                "R1.0": 0.923,
+                "ACS": 169,
+                "K": 14,
+                "D": 17,
+                "A": 7,
+                "PlusMinus": -3,
+                "KAST": 0.87,
+                "ADR": 109.5,
+                "HS%": 0.17,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "ethan",
+                "Agent": null,
+                "R1.0": 0.689,
+                "ACS": 109,
+                "K": 9,
+                "D": 15,
+                "A": 6,
+                "PlusMinus": -6,
+                "KAST": 0.7,
+                "ADR": 73.7,
+                "HS%": 0.32,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=L7d5nqNM60g"
   },
   {
     "id": "kru-vs-drg-s2-group-stage-2025-10-25",

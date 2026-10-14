@@ -1,0 +1,719 @@
+{
+  "id": "emea-vs-kru-s2-group-stage-2025-01-11",
+  "team1": "EMEA",
+  "team2": "KRU",
+  "team1Name": "Tech Pause Esports",
+  "team2Name": "Knives R' Us",
+  "score1": 2,
+  "score2": 0,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-01-11",
+  "stage": "Group Stage",
+  "veto": "EMEA bans Breeze, KRU bans Haven, EMEA picks Abyss, KRU picks Corrode, EMEA bans Bind, KRU bans Split, Pearl remains",
+  "maps": [
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 11
+    },
+    {
+      "name": "Corrode",
+      "score1": 13,
+      "score2": 11
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "EMEA",
+      "teamName": "Tech Pause Esports",
+      "players": [
+        {
+          "Player": "caleb",
+          "R1.0": 1.107,
+          "ACS": 236,
+          "K": 39,
+          "D": 32,
+          "A": 13,
+          "PlusMinus": 7,
+          "KAST": 0.73,
+          "ADR": 146.5,
+          "HS%": 0.155,
+          "FK": 9,
+          "FD": 4,
+          "PlusMinus2": 5
+        },
+        {
+          "Player": "pavel",
+          "R1.0": 1.147,
+          "ACS": 267.5,
+          "K": 46,
+          "D": 37,
+          "A": 4,
+          "PlusMinus": 9,
+          "KAST": 0.73,
+          "ADR": 165.65,
+          "HS%": 0.185,
+          "FK": 8,
+          "FD": 7,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "guilty crown",
+          "R1.0": 1.013,
+          "ACS": 176.5,
+          "K": 30,
+          "D": 30,
+          "A": 21,
+          "PlusMinus": 0,
+          "KAST": 0.83,
+          "ADR": 114.9,
+          "HS%": 0.125,
+          "FK": 2,
+          "FD": 0,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "Eve",
+          "R1.0": 1.029,
+          "ACS": 215,
+          "K": 38,
+          "D": 34,
+          "A": 6,
+          "PlusMinus": 4,
+          "KAST": 0.71,
+          "ADR": 142.55,
+          "HS%": 0.335,
+          "FK": 8,
+          "FD": 5,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "kaydeg",
+          "R1.0": 0.856,
+          "ACS": 162.5,
+          "K": 28,
+          "D": 33,
+          "A": 13,
+          "PlusMinus": -5,
+          "KAST": 0.71,
+          "ADR": 102.3,
+          "HS%": 0.22,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        }
+      ]
+    },
+    {
+      "team": "KRU",
+      "teamName": "Knives R' Us",
+      "players": []
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Abyss",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "EMEA",
+          "teamName": "Tech Pause Esports",
+          "players": [
+            {
+              "Player": "caleb",
+              "Agent": null,
+              "R1.0": 1.239,
+              "ACS": 256,
+              "K": 20,
+              "D": 16,
+              "A": 12,
+              "PlusMinus": 4,
+              "KAST": 0.79,
+              "ADR": 166.2,
+              "HS%": 0.12,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "pavel",
+              "Agent": null,
+              "R1.0": 0.984,
+              "ACS": 238,
+              "K": 20,
+              "D": 19,
+              "A": 2,
+              "PlusMinus": 1,
+              "KAST": 0.67,
+              "ADR": 139,
+              "HS%": 0.22,
+              "FK": 4,
+              "FD": 5,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Eve",
+              "Agent": null,
+              "R1.0": 1.058,
+              "ACS": 232,
+              "K": 21,
+              "D": 17,
+              "A": 1,
+              "PlusMinus": 4,
+              "KAST": 0.75,
+              "ADR": 138.7,
+              "HS%": 0.29,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": null,
+              "R1.0": 0.978,
+              "ACS": 186,
+              "K": 16,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": 1,
+              "KAST": 0.75,
+              "ADR": 115.2,
+              "HS%": 0.28,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "guilty crown",
+              "Agent": null,
+              "R1.0": 1.021,
+              "ACS": 170,
+              "K": 14,
+              "D": 13,
+              "A": 11,
+              "PlusMinus": 1,
+              "KAST": 0.83,
+              "ADR": 111,
+              "HS%": 0.09,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "KRU",
+          "teamName": "Knives R' Us",
+          "players": [
+            {
+              "Player": "art",
+              "Agent": null,
+              "R1.0": 0.895,
+              "ACS": 244,
+              "K": 20,
+              "D": 19,
+              "A": 1,
+              "PlusMinus": 1,
+              "KAST": 0.46,
+              "ADR": 133.5,
+              "HS%": 0.07,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Tenyaku",
+              "Agent": null,
+              "R1.0": 1.008,
+              "ACS": 240,
+              "K": 19,
+              "D": 18,
+              "A": 8,
+              "PlusMinus": 1,
+              "KAST": 0.54,
+              "ADR": 143.8,
+              "HS%": 0.28,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "amiable",
+              "Agent": null,
+              "R1.0": 0.897,
+              "ACS": 188,
+              "K": 15,
+              "D": 21,
+              "A": 11,
+              "PlusMinus": -6,
+              "KAST": 0.67,
+              "ADR": 130.2,
+              "HS%": 0.41,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "masao",
+              "Agent": null,
+              "R1.0": 0.92,
+              "ACS": 179,
+              "K": 15,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": 1,
+              "KAST": 0.71,
+              "ADR": 114.1,
+              "HS%": 0.26,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.66,
+              "ACS": 134,
+              "K": 11,
+              "D": 20,
+              "A": 4,
+              "PlusMinus": -9,
+              "KAST": 0.62,
+              "ADR": 97.5,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corrode",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "EMEA",
+          "teamName": "Tech Pause Esports",
+          "players": [
+            {
+              "Player": "pavel",
+              "Agent": null,
+              "R1.0": 1.31,
+              "ACS": 297,
+              "K": 26,
+              "D": 18,
+              "A": 2,
+              "PlusMinus": 8,
+              "KAST": 0.79,
+              "ADR": 192.3,
+              "HS%": 0.15,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "caleb",
+              "Agent": null,
+              "R1.0": 0.976,
+              "ACS": 216,
+              "K": 19,
+              "D": 16,
+              "A": 1,
+              "PlusMinus": 3,
+              "KAST": 0.67,
+              "ADR": 126.8,
+              "HS%": 0.19,
+              "FK": 5,
+              "FD": 3,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Eve",
+              "Agent": null,
+              "R1.0": 0.999,
+              "ACS": 198,
+              "K": 17,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 0,
+              "KAST": 0.67,
+              "ADR": 146.4,
+              "HS%": 0.38,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "guilty crown",
+              "Agent": null,
+              "R1.0": 1.005,
+              "ACS": 183,
+              "K": 16,
+              "D": 17,
+              "A": 10,
+              "PlusMinus": -1,
+              "KAST": 0.83,
+              "ADR": 118.8,
+              "HS%": 0.16,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": null,
+              "R1.0": 0.734,
+              "ACS": 139,
+              "K": 12,
+              "D": 18,
+              "A": 6,
+              "PlusMinus": -6,
+              "KAST": 0.67,
+              "ADR": 89.4,
+              "HS%": 0.16,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "KRU",
+          "teamName": "Knives R' Us",
+          "players": [
+            {
+              "Player": "masao",
+              "Agent": null,
+              "R1.0": 1.474,
+              "ACS": 311,
+              "K": 27,
+              "D": 16,
+              "A": 8,
+              "PlusMinus": 11,
+              "KAST": 0.88,
+              "ADR": 200.2,
+              "HS%": 0.18,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "amiable",
+              "Agent": null,
+              "R1.0": 1.174,
+              "ACS": 250,
+              "K": 22,
+              "D": 19,
+              "A": 9,
+              "PlusMinus": 3,
+              "KAST": 0.75,
+              "ADR": 160.1,
+              "HS%": 0.28,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "art",
+              "Agent": null,
+              "R1.0": 0.841,
+              "ACS": 178,
+              "K": 13,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -4,
+              "KAST": 0.62,
+              "ADR": 129.7,
+              "HS%": 0.18,
+              "FK": 4,
+              "FD": 6,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Tenyaku",
+              "Agent": null,
+              "R1.0": 0.778,
+              "ACS": 147,
+              "K": 12,
+              "D": 19,
+              "A": 6,
+              "PlusMinus": -7,
+              "KAST": 0.79,
+              "ADR": 99.2,
+              "HS%": 0.32,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "teklo",
+              "Agent": null,
+              "R1.0": 0.743,
+              "ACS": 147,
+              "K": 12,
+              "D": 19,
+              "A": 4,
+              "PlusMinus": -7,
+              "KAST": 0.71,
+              "ADR": 102.8,
+              "HS%": 0.14,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=-NXTWz0Xq4Y"
+}

@@ -1,0 +1,1086 @@
+{
+  "id": "wing-vs-ts-s2-group-stage-2025-11-02",
+  "team1": "WING",
+  "team2": "TS",
+  "team1Name": "Wingman Warriors",
+  "team2Name": "Tequila Sunrise",
+  "score1": 2,
+  "score2": 1,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2025-11-02",
+  "stage": "Group Stage",
+  "veto": "WING bans Bind, TS bans Split, WING picks Pearl, TS picks Corrode, WING bans Sunset, TS bans Abyss, Haven remains",
+  "maps": [
+    {
+      "name": "Pearl",
+      "score1": 11,
+      "score2": 13
+    },
+    {
+      "name": "Corrode",
+      "score1": 13,
+      "score2": 8
+    },
+    {
+      "name": "Haven",
+      "score1": 14,
+      "score2": 12
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "WING",
+      "teamName": "Wingman Warriors",
+      "players": [
+        {
+          "Player": "claps",
+          "R1.0": 1.556,
+          "ACS": 349.333,
+          "K": 91,
+          "D": 50,
+          "A": 20,
+          "PlusMinus": 41,
+          "KAST": 0.777,
+          "ADR": 222.661,
+          "HS%": 0.204,
+          "FK": 9,
+          "FD": 6,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "psyclone",
+          "R1.0": 0.921,
+          "ACS": 198.333,
+          "K": 46,
+          "D": 46,
+          "A": 11,
+          "PlusMinus": 0,
+          "KAST": 0.645,
+          "ADR": 125.81,
+          "HS%": 0.226,
+          "FK": 9,
+          "FD": 3,
+          "PlusMinus2": 6
+        },
+        {
+          "Player": "skye",
+          "R1.0": 0.982,
+          "ACS": 218.667,
+          "K": 57,
+          "D": 53,
+          "A": 9,
+          "PlusMinus": 4,
+          "KAST": 0.66,
+          "ADR": 134.158,
+          "HS%": 0.23,
+          "FK": 6,
+          "FD": 11,
+          "PlusMinus2": -5
+        },
+        {
+          "Player": "radical",
+          "R1.0": 0.742,
+          "ACS": 139.667,
+          "K": 31,
+          "D": 54,
+          "A": 22,
+          "PlusMinus": -23,
+          "KAST": 0.705,
+          "ADR": 98.437,
+          "HS%": 0.171,
+          "FK": 8,
+          "FD": 12,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "caesparz",
+          "R1.0": 0.617,
+          "ACS": 104.667,
+          "K": 21,
+          "D": 49,
+          "A": 24,
+          "PlusMinus": -28,
+          "KAST": 0.636,
+          "ADR": 73.168,
+          "HS%": 0.174,
+          "FK": 0,
+          "FD": 7,
+          "PlusMinus2": -7
+        }
+      ]
+    },
+    {
+      "team": "TS",
+      "teamName": "Tequila Sunrise",
+      "players": [
+        {
+          "Player": "haych",
+          "R1.0": 1.632,
+          "ACS": 377,
+          "K": 94,
+          "D": 43,
+          "A": 15,
+          "PlusMinus": 51,
+          "KAST": 0.747,
+          "ADR": 236.739,
+          "HS%": 0.288,
+          "FK": 17,
+          "FD": 8,
+          "PlusMinus2": 9
+        },
+        {
+          "Player": "shadow",
+          "R1.0": 0.754,
+          "ACS": 155.667,
+          "K": 39,
+          "D": 54,
+          "A": 14,
+          "PlusMinus": -15,
+          "KAST": 0.589,
+          "ADR": 103.541,
+          "HS%": 0.257,
+          "FK": 9,
+          "FD": 10,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "igneous",
+          "R1.0": 0.909,
+          "ACS": 179.333,
+          "K": 42,
+          "D": 48,
+          "A": 22,
+          "PlusMinus": -6,
+          "KAST": 0.747,
+          "ADR": 111.503,
+          "HS%": 0.147,
+          "FK": 4,
+          "FD": 7,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "slow",
+          "R1.0": 0.849,
+          "ACS": 162,
+          "K": 38,
+          "D": 51,
+          "A": 26,
+          "PlusMinus": -13,
+          "KAST": 0.731,
+          "ADR": 103.915,
+          "HS%": 0.153,
+          "FK": 6,
+          "FD": 3,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "epsilon",
+          "R1.0": 0.772,
+          "ACS": 146.333,
+          "K": 38,
+          "D": 50,
+          "A": 17,
+          "PlusMinus": -12,
+          "KAST": 0.645,
+          "ADR": 93.049,
+          "HS%": 0.158,
+          "FK": 3,
+          "FD": 4,
+          "PlusMinus2": -1
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Pearl",
+      "score1": 11,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "WING",
+          "teamName": "Wingman Warriors",
+          "players": [
+            {
+              "Player": "claps",
+              "Agent": null,
+              "R1.0": 1.34,
+              "ACS": 322,
+              "K": 26,
+              "D": 19,
+              "A": 10,
+              "PlusMinus": 7,
+              "KAST": 0.67,
+              "ADR": 196,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "psyclone",
+              "Agent": null,
+              "R1.0": 1.24,
+              "ACS": 247,
+              "K": 21,
+              "D": 12,
+              "A": 5,
+              "PlusMinus": 9,
+              "KAST": 0.79,
+              "ADR": 155.1,
+              "HS%": 0.25,
+              "FK": 4,
+              "FD": 0,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "skye",
+              "Agent": null,
+              "R1.0": 0.858,
+              "ACS": 177,
+              "K": 16,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": 0,
+              "KAST": 0.62,
+              "ADR": 109.5,
+              "HS%": 0.31,
+              "FK": 2,
+              "FD": 5,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "radical",
+              "Agent": null,
+              "R1.0": 0.845,
+              "ACS": 143,
+              "K": 11,
+              "D": 17,
+              "A": 12,
+              "PlusMinus": -6,
+              "KAST": 0.75,
+              "ADR": 102.9,
+              "HS%": 0.13,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "caesparz",
+              "Agent": null,
+              "R1.0": 0.775,
+              "ACS": 133,
+              "K": 9,
+              "D": 16,
+              "A": 12,
+              "PlusMinus": -7,
+              "KAST": 0.71,
+              "ADR": 91.2,
+              "HS%": 0.1,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "TS",
+          "teamName": "Tequila Sunrise",
+          "players": [
+            {
+              "Player": "haych",
+              "Agent": null,
+              "R1.0": 1.577,
+              "ACS": 339,
+              "K": 31,
+              "D": 13,
+              "A": 4,
+              "PlusMinus": 18,
+              "KAST": 0.71,
+              "ADR": 219.6,
+              "HS%": 0.33,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 0.776,
+              "ACS": 187,
+              "K": 16,
+              "D": 20,
+              "A": 2,
+              "PlusMinus": -4,
+              "KAST": 0.54,
+              "ADR": 115.8,
+              "HS%": 0.34,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "slow",
+              "Agent": null,
+              "R1.0": 0.787,
+              "ACS": 172,
+              "K": 12,
+              "D": 18,
+              "A": 7,
+              "PlusMinus": -6,
+              "KAST": 0.58,
+              "ADR": 118.3,
+              "HS%": 0.17,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "epsilon",
+              "Agent": null,
+              "R1.0": 0.743,
+              "ACS": 142,
+              "K": 11,
+              "D": 17,
+              "A": 11,
+              "PlusMinus": -6,
+              "KAST": 0.62,
+              "ADR": 82.3,
+              "HS%": 0.14,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "igneous",
+              "Agent": null,
+              "R1.0": 0.755,
+              "ACS": 116,
+              "K": 9,
+              "D": 15,
+              "A": 10,
+              "PlusMinus": -6,
+              "KAST": 0.79,
+              "ADR": 73.3,
+              "HS%": 0.06,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corrode",
+      "score1": 13,
+      "score2": 8,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "WING",
+          "teamName": "Wingman Warriors",
+          "players": [
+            {
+              "Player": "claps",
+              "Agent": null,
+              "R1.0": 1.572,
+              "ACS": 329,
+              "K": 27,
+              "D": 12,
+              "A": 4,
+              "PlusMinus": 15,
+              "KAST": 0.81,
+              "ADR": 209.5,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "skye",
+              "Agent": null,
+              "R1.0": 1.072,
+              "ACS": 249,
+              "K": 20,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": 4,
+              "KAST": 0.62,
+              "ADR": 147.8,
+              "HS%": 0.2,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "psyclone",
+              "Agent": null,
+              "R1.0": 1.007,
+              "ACS": 207,
+              "K": 15,
+              "D": 13,
+              "A": 3,
+              "PlusMinus": 2,
+              "KAST": 0.71,
+              "ADR": 133.7,
+              "HS%": 0.23,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "radical",
+              "Agent": null,
+              "R1.0": 0.828,
+              "ACS": 149,
+              "K": 10,
+              "D": 14,
+              "A": 7,
+              "PlusMinus": -4,
+              "KAST": 0.76,
+              "ADR": 99.2,
+              "HS%": 0.17,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "caesparz",
+              "Agent": null,
+              "R1.0": 0.637,
+              "ACS": 108,
+              "K": 7,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": -6,
+              "KAST": 0.62,
+              "ADR": 67.5,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "TS",
+          "teamName": "Tequila Sunrise",
+          "players": [
+            {
+              "Player": "haych",
+              "Agent": null,
+              "R1.0": 1.506,
+              "ACS": 363,
+              "K": 25,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": 11,
+              "KAST": 0.71,
+              "ADR": 233.1,
+              "HS%": 0.3,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "igneous",
+              "Agent": null,
+              "R1.0": 0.822,
+              "ACS": 197,
+              "K": 12,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.62,
+              "ADR": 130.9,
+              "HS%": 0.12,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 0.729,
+              "ACS": 145,
+              "K": 11,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.52,
+              "ADR": 108.4,
+              "HS%": 0.32,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "slow",
+              "Agent": null,
+              "R1.0": 0.675,
+              "ACS": 129,
+              "K": 9,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": -8,
+              "KAST": 0.67,
+              "ADR": 84.4,
+              "HS%": 0.1,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "epsilon",
+              "Agent": null,
+              "R1.0": 0.643,
+              "ACS": 125,
+              "K": 11,
+              "D": 15,
+              "A": 1,
+              "PlusMinus": -4,
+              "KAST": 0.52,
+              "ADR": 78.9,
+              "HS%": 0.15,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 14,
+      "score2": 12,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "WING",
+          "teamName": "Wingman Warriors",
+          "players": [
+            {
+              "Player": "claps",
+              "Agent": null,
+              "R1.0": 1.742,
+              "ACS": 397,
+              "K": 38,
+              "D": 19,
+              "A": 6,
+              "PlusMinus": 19,
+              "KAST": 0.85,
+              "ADR": 257.9,
+              "HS%": 0.21,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "skye",
+              "Agent": null,
+              "R1.0": 1.024,
+              "ACS": 230,
+              "K": 21,
+              "D": 21,
+              "A": 5,
+              "PlusMinus": 0,
+              "KAST": 0.73,
+              "ADR": 145.9,
+              "HS%": 0.18,
+              "FK": 0,
+              "FD": 4,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "psyclone",
+              "Agent": null,
+              "R1.0": 0.557,
+              "ACS": 141,
+              "K": 10,
+              "D": 21,
+              "A": 3,
+              "PlusMinus": -11,
+              "KAST": 0.46,
+              "ADR": 92.4,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "radical",
+              "Agent": null,
+              "R1.0": 0.576,
+              "ACS": 127,
+              "K": 10,
+              "D": 23,
+              "A": 3,
+              "PlusMinus": -13,
+              "KAST": 0.62,
+              "ADR": 93.7,
+              "HS%": 0.21,
+              "FK": 1,
+              "FD": 7,
+              "PlusMinus2": -6
+            },
+            {
+              "Player": "caesparz",
+              "Agent": null,
+              "R1.0": 0.453,
+              "ACS": 73,
+              "K": 5,
+              "D": 20,
+              "A": 6,
+              "PlusMinus": -15,
+              "KAST": 0.58,
+              "ADR": 61.1,
+              "HS%": 0.22,
+              "FK": 0,
+              "FD": 5,
+              "PlusMinus2": -5
+            }
+          ]
+        },
+        {
+          "team": "TS",
+          "teamName": "Tequila Sunrise",
+          "players": [
+            {
+              "Player": "haych",
+              "Agent": null,
+              "R1.0": 1.783,
+              "ACS": 429,
+              "K": 38,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": 22,
+              "KAST": 0.81,
+              "ADR": 255.5,
+              "HS%": 0.24,
+              "FK": 10,
+              "FD": 2,
+              "PlusMinus2": 8
+            },
+            {
+              "Player": "igneous",
+              "Agent": null,
+              "R1.0": 1.122,
+              "ACS": 225,
+              "K": 21,
+              "D": 16,
+              "A": 8,
+              "PlusMinus": 5,
+              "KAST": 0.81,
+              "ADR": 131.1,
+              "HS%": 0.25,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "slow",
+              "Agent": null,
+              "R1.0": 1.045,
+              "ACS": 185,
+              "K": 17,
+              "D": 16,
+              "A": 12,
+              "PlusMinus": 1,
+              "KAST": 0.92,
+              "ADR": 106.4,
+              "HS%": 0.18,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "epsilon",
+              "Agent": null,
+              "R1.0": 0.903,
+              "ACS": 172,
+              "K": 16,
+              "D": 18,
+              "A": 5,
+              "PlusMinus": -2,
+              "KAST": 0.77,
+              "ADR": 114.4,
+              "HS%": 0.18,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "shadow",
+              "Agent": null,
+              "R1.0": 0.754,
+              "ACS": 135,
+              "K": 12,
+              "D": 18,
+              "A": 8,
+              "PlusMinus": -6,
+              "KAST": 0.69,
+              "ADR": 88.3,
+              "HS%": 0.13,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=S5iqpCaf4JA"
+}
