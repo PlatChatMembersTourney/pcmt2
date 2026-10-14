@@ -12,8 +12,6 @@ The PCMT [EMEA Season 2](/events/s2-emea) [playoffs](/events/s2-emea?overview=Pl
 
 The series opened on SEAL's map pick of [Ascent](/events/s2-emea/faze-vs-seal-s2-playoffs-2026-10-11?map=Ascent), a mainstay for both teams. FaZe started off strong, behind [thorny](/players/thorny)'s 1v3 pistol clutch. SEAL, not to be swayed, immediately answered back with a second round thrifty, which they converted into a 5-2 lead.
 
-INSERT SEAL THRIFTY
-
 Those five rounds were the only rounds that SEAL would be able to find for the rest of the first half. Excellent site retakes and mutikills from the likes of [heef](/players/heef) and [Kramvi](/players/Kramvi) cemented FaZe's 7-5 lead going into the second.
 
 The second pistol went the way of FaZe and this time, they were able to convert the follow up, extending their lead to 9-5. However, with SEAL's double Sentinel composition, the sites proved unassailable time and time again as the defenders stormed back to map point. With no room for error, FaZe called for a gutsy A execute, where a crucial [dragonflyod](/players/dragonflyod) 2K cracked open the site and forced overtime.
