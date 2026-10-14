@@ -1,0 +1,46 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getNews } from '../../stores/news.ts';
+import { events } from '../../stores/events.ts';
+import { regionFlag } from '../../utils/images.ts';
+
+// Every article, newest first - like vlr's /news
+const articles = (await getNews()).map((article) => ({
+	...article.data,
+	url: `/news/${article.id}`,
+	event: events.find((e) => e.id === article.data.event),
+	// Frontmatter dates are plain days (midnight UTC) - show them as written
+	dateText: article.data.date.toLocaleDateString('en-US', {
+		timeZone: 'UTC',
+		month: 'long',
+		day: 'numeric',
+		year: 'numeric',
+	}),
+}));
+---
+
+<Layout
+	activePage=""
+	desc="Everything happening in the PCMT"
+	title="News | PCMT"
+	bodyClass="bg-shade-400 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
+	mainClass="mx-auto w-full max-w-315 root bg-shade-300 min-w-0"
+>
+	<div class="m-4 font-[roboto] sm:m-6">
+		<div class="vlr-box-shadow bg-shade-100 flex flex-col">
+			{articles.map(({ title, summary, author, url, event, dateText }) => (
+				<a
+					href={url}
+					class="border-line hover:bg-vlr-gray-150 dark:hover:bg-vlr-gray-500 flex flex-col gap-1.5 px-5 py-3.5 not-first:border-t"
+				>
+					<span class="text-main text-[13px] font-bold">{title}</span>
+					<span class="text-muted text-xs">{summary}</span>
+					<span class="text-vlr-text-gray flex items-center gap-1.5 text-[11px]">
+						{event && <img src={regionFlag(event.region)} alt={event.region} class="h-3 w-auto" />}
+						{event && '•'} {dateText} • by {author}
+					</span>
+				</a>
+			))}
+		</div>
+	</div>
+</Layout>

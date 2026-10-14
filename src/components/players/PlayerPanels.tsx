@@ -12,6 +12,7 @@ import { cx } from '../../utils/cx.ts';
 import PlayerOverviewPanel from './PlayerOverviewPanel.tsx';
 import MatchCard from '../matches/MatchCard.tsx';
 import TabBar from '../events/TabBar.tsx';
+import ToggleButton from '../ToggleButton.tsx';
 
 interface StatStripProps {
 	heading: string; // "Rating", or the map's name
@@ -165,25 +166,13 @@ const PlayerPanels: React.FC<PlayerPanelsProps> = ({ slug, events }) => {
 				(matchesGrouped.length > 0 ? (
 					<div className="bg-shade-300 text-main mx-4 flex flex-col gap-7.5 py-6 sm:mx-6">
 						<div>
-							<button
-								onClick={() => setShowStats(!showStats)}
-								className={cx(
-									'bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs',
-									showStats ? 'font-bold' : 'font-normal'
-								)}
-							>
+							<ToggleButton on={showStats} onClick={() => setShowStats(!showStats)}>
 								Show Stats
-							</button>
+							</ToggleButton>
 							{showStats && (
-								<button
-									onClick={() => setShowMaps(!showMaps)}
-									className={cx(
-										'bg-shade-100 text-muted ml-2 cursor-pointer rounded-sm p-2 text-xs',
-										showMaps ? 'font-bold' : 'font-normal'
-									)}
-								>
+								<ToggleButton on={showMaps} onClick={() => setShowMaps(!showMaps)} className="ml-2">
 									Show Maps
-								</button>
+								</ToggleButton>
 							)}
 						</div>
 						{matchesGrouped.map(({ date, items }) => {

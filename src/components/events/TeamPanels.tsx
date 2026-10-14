@@ -12,9 +12,9 @@ import { playerFlag } from '../../utils/images.ts';
 import { playerSlug } from '../../utils/playerSlug.ts';
 import { events as allEvents } from '../../stores/events.ts';
 
-import { cx } from '../../utils/cx.ts';
 import { useTimezone } from '../../utils/useTimezone.ts';
 import { randomItem, useRandom } from '../../utils/useRandom.ts';
+import ToggleButton from '../ToggleButton.tsx';
 
 interface TeamPanelsProps {
 	event: Event;
@@ -127,15 +127,9 @@ const TeamPanels: React.FC<TeamPanelsProps> = (props: TeamPanelsProps) => {
 					{matchesGrouped?.length > 0 ? (
 						<div className="bg-shade-300 text-main flex flex-col gap-7.5 py-6">
 							<div>
-								<button
-									className={cx(
-										'bg-shade-100 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs',
-										reverse && 'font-bold'
-									)}
-									onClick={() => setReverse(!reverse)}
-								>
+								<ToggleButton on={reverse} onClick={() => setReverse(!reverse)} className="ml-2">
 									{reverse ? 'esreveR' : 'Reverse'}
-								</button>
+								</ToggleButton>
 							</div>
 							{matchesGrouped.map(({ date, items }) => {
 								return (

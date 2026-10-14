@@ -21,6 +21,7 @@ interface PlayerStatTableProps {
 	playerStats: PlayerStatsWithEventId[];
 	showSeason?: boolean;
 	stickyPlayerNames: boolean;
+	combined?: boolean; // Combine Seasons rows: no Team/Season columns, every team's logo by the name
 }
 
 import { events } from '../../stores/events.ts';
@@ -124,7 +125,9 @@ export const AcsHeader = () => (
 );
 
 const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
-	const { playerStats, showSeason, stickyPlayerNames } = props;
+	const { playerStats, showSeason, stickyPlayerNames, combined } = props;
+	// Combined rows' logo slot fits the most logos in the table, so every name starts in the same place
+	const logoSlots = Math.max(0, ...playerStats.map((row) => row.logos?.length ?? 0));
 
 	const [sorting, setSorting] = useState<SortingState>([]);
 
@@ -169,6 +172,20 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 			id: 'Player',
 			cell: (info) => {
 				const r = info.row.original;
+				if (r.logos) {
+					return (
+						<div className="flex min-w-max flex-row items-center gap-1.5">
+							{logoSlots > 0 && (
+								<div className="flex justify-end gap-0.5" style={{ width: logoSlots * 26 - 2 }}>
+									{r.logos.map((logo) => (
+										<img src={logo} className="h-6 w-6 object-contain" alt="" key={logo} />
+									))}
+								</div>
+							)}
+							<a href={`/players/${playerSlug(r.Player)}`}>{r.Player}</a>
+						</div>
+					);
+				}
 				if (!(r.Team in teams[r.eventId])) {
 					return <a href={`/players/${playerSlug(r.Player)}`}>{r.Player}</a>;
 				}
@@ -182,10 +199,14 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				);
 			},
 		}),
-		columnHelper.group({
-			header: 'Info',
-			columns: playerInfoColumns,
-		}),
+		...(combined
+			? []
+			: [
+					columnHelper.group({
+						header: 'Info',
+						columns: playerInfoColumns,
+					}),
+				]),
 		columnHelper.group({
 			header: 'Rating',
 			columns: columnHelper.columns([
@@ -226,6 +247,7 @@ const PlayerStatTable: React.FC<PlayerStatTableProps> = (props) => {
 				columnHelper.accessor('ACS', {
 					header: AcsHeader,
 					id: 'ACS',
+					cell: ({ getValue }) => Math.round(getValue()), // combined ACS (weighted by rounds) isn't a whole number
 				}),
 			]),
 		}),

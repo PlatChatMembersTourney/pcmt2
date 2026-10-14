@@ -1,0 +1,68 @@
+---
+import { render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { getNews } from '../../stores/news.ts';
+import { events } from '../../stores/events.ts';
+import { matches } from '../../stores/matches.ts';
+import Advertisements from '../../components/Advertisements.tsx';
+import MatchCard from '../../components/matches/MatchCard.tsx';
+
+export const getStaticPaths = async () =>
+	(await getNews()).map((article) => ({ params: { slug: article.id }, props: { article } }));
+
+const { article } = Astro.props;
+const { title, date, author, summary, matches: matchIds = [] } = article.data;
+const { Content } = await render(article);
+
+// The matches the article covers, shown as cards under it
+const event = events.find((e) => e.id === article.data.event);
+const related = event ? matchIds.flatMap((id) => matches[event.id].filter((match) => match.id === id)) : [];
+
+// Frontmatter dates are plain days (midnight UTC) - show them as written
+const dateText = date.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric', year: 'numeric' });
+---
+
+<Layout
+	activePage=""
+	desc={summary}
+	title={title + ' | PCMT'}
+	bodyClass="bg-shade-400 font-sans m-0 min-h-screen grid w-full grid-rows-[auto_1fr_auto]"
+	mainClass="mx-auto w-full max-w-315 root dark:bg-vlr-gray-800 min-w-0"
+>
+	<div class="bg-shade-300 flex h-full flex-col font-[roboto]">
+		<div class="m-4 grid grid-cols-1 gap-6 sm:m-6 xl:grid-cols-[auto_1fr]">
+			<div class="flex max-w-185 min-w-0 flex-col gap-6 md:w-185">
+				<!-- Like vlr's article page -->
+				<article class="vlr-box-shadow bg-shade-100 px-5 py-5 sm:px-6">
+					<h1 class="text-main text-xl leading-6 font-black">{title}</h1>
+					<div class="mt-1.5 flex flex-col gap-0.5 text-[11px]">
+						<span class="text-pb">{author}</span>
+						<time class="text-vlr-text-gray" datetime={date.toISOString()}>
+							{dateText}
+						</time>
+					</div>
+					<div class="article mt-4">
+						<Content />
+					</div>
+				</article>
+
+				{related.length > 0 && (
+					<div class="text-main flex flex-col">
+						<h2 class="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">Matches</h2>
+						<div class="vlr-box-shadow flex flex-col">
+							{related.map((match) => (
+								<MatchCard
+									match={match}
+									event={event!}
+									addlClass="not-first:border-t-1 border-t-line!"
+									client:load
+								/>
+							))}
+						</div>
+					</div>
+				)}
+			</div>
+			<Advertisements client:load />
+		</div>
+	</div>
+</Layout>

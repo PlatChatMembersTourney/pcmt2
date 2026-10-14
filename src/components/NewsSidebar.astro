@@ -1,0 +1,39 @@
+---
+import { getNews } from '../stores/news.ts';
+import { events } from '../stores/events.ts';
+import { regionFlag } from '../utils/images.ts';
+
+interface Props {
+	class?: string;
+}
+
+// The homepage's latest five articles (like vlr's "Recent News"), linking to /news for the rest
+const latest = (await getNews()).slice(0, 5).map((article) => ({
+	title: article.data.title,
+	url: `/news/${article.id}`,
+	event: events.find((e) => e.id === article.data.event),
+	// Frontmatter dates are plain days (midnight UTC) - show them as written
+	dateText: article.data.date.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' }),
+}));
+---
+
+<aside class:list={['font-[roboto]', Astro.props.class]}>
+	<h2 class="mb-3 ml-3 text-[11px] leading-none font-bold text-red-400 uppercase">Latest News</h2>
+	<div class="vlr-box-shadow bg-shade-100 flex flex-col text-xs">
+		{latest.map(({ title, url, event, dateText }) => (
+			<a
+				href={url}
+				class="border-line hover:bg-vlr-gray-150 dark:hover:bg-vlr-gray-500 flex flex-col gap-1 border-b px-4 py-2.5"
+			>
+				<span class="text-main truncate font-medium">{title}</span>
+				<span class="text-vlr-text-gray flex items-center gap-1.5 text-[11px]">
+					{event && <img src={regionFlag(event.region)} alt={event.region} class="h-3 w-auto" />}
+					{event && '•'} {dateText}
+				</span>
+			</a>
+		))}
+		<a href="/news" class="text-pb hover:bg-vlr-gray-150 dark:hover:bg-vlr-gray-500 py-2.5 text-center">
+			More articles
+		</a>
+	</div>
+</aside>

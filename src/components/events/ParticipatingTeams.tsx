@@ -8,6 +8,7 @@ import { teams as allTeams } from '../../stores/teams.ts';
 import { playerFlag } from '../../utils/images.ts';
 import { playerSlug } from '../../utils/playerSlug.ts';
 import { cx } from '../../utils/cx.ts';
+import ToggleButton from '../ToggleButton.tsx';
 
 // The match stage names that make up a stage - a grouped stage's matches are named after their groups
 const matchStages = (event: Event, stageIdx: number) =>
@@ -101,15 +102,9 @@ const ParticipatingTeams: React.FC<{ event: Event; stageIdx: number }> = ({ even
 		<div className="mt-6 flex max-w-198.5 flex-col">
 			<div className="mb-3 ml-3 flex items-center justify-between">
 				<h2 className="text-[11px] leading-none font-bold text-red-400 uppercase">Participating Teams</h2>
-				<button
-					onClick={() => setShowRosters(!showRosters)}
-					className={cx(
-						'bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs',
-						showRosters ? 'font-bold' : 'font-normal'
-					)}
-				>
+				<ToggleButton on={showRosters} onClick={() => setShowRosters(!showRosters)}>
 					Toggle Rosters
-				</button>
+				</ToggleButton>
 			</div>
 			<div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
 				{cards.map(({ team, note, players }) => (

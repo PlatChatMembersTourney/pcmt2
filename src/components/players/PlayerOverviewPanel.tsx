@@ -6,6 +6,7 @@ import { angusRating, toxicRating } from '../../utils/rating.ts';
 import { cx } from '../../utils/cx.ts';
 import { playerSlug } from '../../utils/playerSlug.ts';
 import PlayerAgentTable, { type AgentRow } from './PlayerAgentTable.tsx';
+import ToggleButton from '../ToggleButton.tsx';
 
 interface PlayerOverviewPanelProps {
 	slug: string;
@@ -114,15 +115,9 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 		<div className="bg-shade-300 flex flex-col p-4 sm:p-6">
 			<div className="mb-3 ml-4 flex items-center justify-between">
 				<h2 className="text-[11px] leading-none font-bold text-red-400 uppercase">Teams</h2>
-				<button
-					onClick={() => setShowSubs(!showSubs)}
-					className={cx(
-						'bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs',
-						showSubs ? 'font-bold' : 'font-normal'
-					)}
-				>
+				<ToggleButton on={showSubs} onClick={() => setShowSubs(!showSubs)}>
 					Show Subs ({playerTeams.filter(({ sub }) => sub).length})
-				</button>
+				</ToggleButton>
 			</div>
 			{shownTeams.length === 0 && <div className="text-muted text-sm">Only played as a sub.</div>}
 			<div className="vlr-box-shadow bg-shade-100 flex flex-col">
@@ -173,15 +168,9 @@ const PlayerOverviewPanel: React.FC<PlayerOverviewPanelProps> = ({ slug, events,
 						))}
 					</div>
 					<div className="text-faint flex items-center gap-1 text-[10px]">
-						<button
-							onClick={() => setIncludeSubs(!includeSubs)}
-							className={cx(
-								'bg-shade-100 text-muted mr-3 cursor-pointer rounded-sm p-2 text-xs',
-								includeSubs ? 'font-bold' : 'font-normal'
-							)}
-						>
+						<ToggleButton on={includeSubs} onClick={() => setIncludeSubs(!includeSubs)} className="mr-3">
 							Include Subs
-						</button>
+						</ToggleButton>
 						<span className="mr-1 font-bold uppercase">Past:</span>
 						{Object.keys(timespans).map((option) => (
 							<button

@@ -4,9 +4,9 @@ import type { Event, Match } from '../../types/types.ts';
 import { matches as allMatches } from '../../stores/matches.ts';
 import { groupByDay } from '../../utils/datetime.ts';
 import MatchCard from '../matches/MatchCard.tsx';
-import { cx } from '../../utils/cx.ts';
 import StagePicker from './StagePicker.tsx';
 import { useTimezone } from '../../utils/useTimezone.ts';
+import ToggleButton from '../ToggleButton.tsx';
 
 const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
@@ -48,15 +48,9 @@ const EventMatchesPanel: React.FC<{ event: Event }> = (props: { event: Event }) 
 		<div className="flex flex-col">
 			<div className="bg-shade-200 vlr-box-shadow text-main flex h-15 items-center gap-3 pl-9 sm:pl-11">
 				<StagePicker stages={stages} active={activeStage} onSelect={setActiveStage} />
-				<button
-					className={cx(
-						'bg-shade-100 ml-2 cursor-pointer rounded-sm px-2 py-1 text-xs',
-						reverse && 'font-bold'
-					)}
-					onClick={() => setReverse(!reverse)}
-				>
+				<ToggleButton on={reverse} onClick={() => setReverse(!reverse)} className="ml-2">
 					{reverse ? 'esreveR' : 'Reverse'}
-				</button>
+				</ToggleButton>
 			</div>
 			{filteredMatches.length > 0 ? (
 				<div className="bg-shade-300 text-main flex flex-col gap-7.5 p-6">

@@ -34,7 +34,8 @@ export interface PlayerStats extends Player {
 }
 
 // A player-stats row tagged with the event it's from (for tables that mix events)
-export type PlayerStatsWithEventId = PlayerStats & { eventId: string };
+// - Combine Seasons rows also list the logos of every team they were on (teams.json)
+export type PlayerStatsWithEventId = PlayerStats & { eventId: string; logos?: string[] };
 
 // A team's roster of player stat lines
 export interface TeamStats {

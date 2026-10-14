@@ -3,8 +3,8 @@ import { useUrlTab } from '../../utils/urlTab.ts';
 import type { Event } from '../../types/types.ts';
 import { playerStats as allPlayerStats } from '../../stores/playerStats.ts';
 import PlayerStatTable from '../stats/PlayerStatTable.tsx';
-import { cx } from '../../utils/cx.ts';
 import StagePicker from './StagePicker.tsx';
+import ToggleButton from '../ToggleButton.tsx';
 
 const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
 	const event = props.event;
@@ -32,24 +32,12 @@ const EventStatsPanel: React.FC<{ event: Event }> = (props: { event: Event }) =>
 			{players.length > 0 ? (
 				<div className="bg-shade-300 flex h-full max-h-[80vh] flex-col gap-2 p-4 sm:p-6">
 					<div className="flex">
-						<button
-							onClick={() => setStickyPlayerNames(!stickyPlayerNames)}
-							className={cx(
-								'bg-shade-100 text-muted cursor-pointer rounded-sm p-2 text-xs',
-								stickyPlayerNames ? 'font-bold' : 'font-normal'
-							)}
-						>
+						<ToggleButton on={stickyPlayerNames} onClick={() => setStickyPlayerNames(!stickyPlayerNames)}>
 							Sticky Player Names
-						</button>
-						<button
-							onClick={() => setShowSubs(!showSubs)}
-							className={cx(
-								'bg-shade-100 text-muted ml-auto cursor-pointer rounded-sm p-2 text-xs',
-								showSubs ? 'font-bold' : 'font-normal'
-							)}
-						>
+						</ToggleButton>
+						<ToggleButton on={showSubs} onClick={() => setShowSubs(!showSubs)} className="ml-auto">
 							Show Subs
-						</button>
+						</ToggleButton>
 					</div>
 
 					<PlayerStatTable

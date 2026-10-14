@@ -4,6 +4,9 @@
 /* the bracket's styles (brackets-viewer and our overrides for it) */
 @import './brackets.css';
 
+/* news article text (the .article class) */
+@import './article.css';
+
 /* dont use device theme */
 @custom-variant dark (&:where(.dark, .dark *));
 @custom-variant fun (&:where(.fun, .fun *));
