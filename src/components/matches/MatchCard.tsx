@@ -22,6 +22,9 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 
 	const date = new Date(match.date);
 
+	// Holds the bubble's width until the relative time fills in after load
+	const placeholder = <span className="invisible">0d 00h</span>;
+
 	const team1Winner = match.completed && match.score1 > match.score2;
 	return (
 		<a
@@ -94,7 +97,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 							Completed
 						</div>
 						<div className="bg-vlr-text-gray dark:text-vlr-text-offwhite rounded-r-sm py-1 pr-1.5 pl-1 font-medium text-white dark:bg-[#777]">
-							{now && timeAgo(match.date, now)}
+							{now ? timeAgo(match.date, now) : placeholder}
 						</div>
 					</>
 				) : (
@@ -103,7 +106,7 @@ const MatchCard: React.FunctionComponent<MatchCardProps> = (props) => {
 							Upcoming
 						</div>
 						<div className="bg-vlr-green dark:bg-vlr-green-dark dark:text-vlr-text-offwhite rounded-r-sm py-1 pr-1.5 pl-1 font-medium text-white">
-							{now && timeUntil(match.date, now)}
+							{now ? timeUntil(match.date, now) : placeholder}
 						</div>
 					</>
 				)}
