@@ -5,9 +5,1603 @@
   "team1Name": "Penguin Patrol",
   "team2Name": "Xually Terribly Cursed",
   "score1": 0,
-  "score2": 0,
-  "completed": false,
+  "score2": 2,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-10-17T18:00:00Z",
-  "stage": "Playoffs"
+  "stage": "Playoffs",
+  "veto": "NOOT bans Sunset, XTC bans Lotus, NOOT picks Split, XTC picks Ascent, NOOT bans Summit, XTC bans Abyss, Bind remains",
+  "maps": [
+    {
+      "name": "Split",
+      "score1": 5,
+      "score2": 13
+    },
+    {
+      "name": "Ascent",
+      "score1": 16,
+      "score2": 18
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "NOOT",
+      "teamName": "Penguin Patrol",
+      "players": [
+        {
+          "Player": "Jamit",
+          "R1.0": 1.272,
+          "ACS": 272,
+          "K": 49,
+          "D": 34,
+          "A": 17,
+          "PlusMinus": 15,
+          "KAST": 0.712,
+          "ADR": 178.9,
+          "HS%": 0.316,
+          "FK": 5,
+          "FD": 3,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "taylorgzz",
+          "R1.0": 1.198,
+          "ACS": 264,
+          "K": 46,
+          "D": 39,
+          "A": 18,
+          "PlusMinus": 7,
+          "KAST": 0.77,
+          "ADR": 169.5,
+          "HS%": 0.199,
+          "FK": 9,
+          "FD": 8,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "King",
+          "R1.0": 0.903,
+          "ACS": 191,
+          "K": 36,
+          "D": 42,
+          "A": 9,
+          "PlusMinus": -6,
+          "KAST": 0.75,
+          "ADR": 121.9,
+          "HS%": 0.168,
+          "FK": 7,
+          "FD": 9,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "Haike",
+          "R1.0": 0.863,
+          "ACS": 163,
+          "K": 26,
+          "D": 38,
+          "A": 24,
+          "PlusMinus": -12,
+          "KAST": 0.635,
+          "ADR": 122.9,
+          "HS%": 0.253,
+          "FK": 4,
+          "FD": 1,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "Pengu",
+          "R1.0": 0.415,
+          "ACS": 78,
+          "K": 11,
+          "D": 41,
+          "A": 8,
+          "PlusMinus": -30,
+          "KAST": 0.519,
+          "ADR": 59.3,
+          "HS%": 0.152,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        }
+      ]
+    },
+    {
+      "team": "XTC",
+      "teamName": "Xually Terribly Cursed",
+      "players": [
+        {
+          "Player": "alex",
+          "R1.0": 1.292,
+          "ACS": 278,
+          "K": 52,
+          "D": 39,
+          "A": 21,
+          "PlusMinus": 13,
+          "KAST": 0.75,
+          "ADR": 179.0,
+          "HS%": 0.163,
+          "FK": 5,
+          "FD": 3,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "Riyako",
+          "R1.0": 1.229,
+          "ACS": 232,
+          "K": 41,
+          "D": 27,
+          "A": 21,
+          "PlusMinus": 14,
+          "KAST": 0.769,
+          "ADR": 157.6,
+          "HS%": 0.179,
+          "FK": 2,
+          "FD": 3,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "ZiDin",
+          "R1.0": 1.064,
+          "ACS": 173,
+          "K": 35,
+          "D": 29,
+          "A": 19,
+          "PlusMinus": 6,
+          "KAST": 0.827,
+          "ADR": 120.0,
+          "HS%": 0.2,
+          "FK": 3,
+          "FD": 3,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "sinderinho",
+          "R1.0": 1.039,
+          "ACS": 208,
+          "K": 37,
+          "D": 35,
+          "A": 18,
+          "PlusMinus": 2,
+          "KAST": 0.673,
+          "ADR": 142.5,
+          "HS%": 0.269,
+          "FK": 9,
+          "FD": 9,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "Yessi",
+          "R1.0": 0.81,
+          "ACS": 162,
+          "K": 29,
+          "D": 38,
+          "A": 15,
+          "PlusMinus": -9,
+          "KAST": 0.711,
+          "ADR": 95.1,
+          "HS%": 0.084,
+          "FK": 6,
+          "FD": 9,
+          "PlusMinus2": -3
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Split",
+      "score1": 5,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "NOOT",
+          "teamName": "Penguin Patrol",
+          "players": [
+            {
+              "Player": "taylorgzz",
+              "Agent": "Raze",
+              "R1.0": 1.428,
+              "ACS": 350,
+              "K": 21,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": 7,
+              "KAST": 0.778,
+              "ADR": 209.6,
+              "HS%": 0.141,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Jamit",
+              "Agent": "Skye",
+              "R1.0": 0.781,
+              "ACS": 160,
+              "K": 9,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": -4,
+              "KAST": 0.611,
+              "ADR": 108.2,
+              "HS%": 0.375,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "King",
+              "Agent": "Jett",
+              "R1.0": 0.645,
+              "ACS": 133,
+              "K": 8,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": -8,
+              "KAST": 0.667,
+              "ADR": 88.2,
+              "HS%": 0.125,
+              "FK": 0,
+              "FD": 5,
+              "PlusMinus2": -5
+            },
+            {
+              "Player": "Haike",
+              "Agent": "Omen",
+              "R1.0": 0.528,
+              "ACS": 132,
+              "K": 6,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -11,
+              "KAST": 0.5,
+              "ADR": 96.2,
+              "HS%": 0.308,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Pengu",
+              "Agent": "Viper",
+              "R1.0": 0.337,
+              "ACS": 51,
+              "K": 2,
+              "D": 13,
+              "A": 3,
+              "PlusMinus": -11,
+              "KAST": 0.5,
+              "ADR": 40.1,
+              "HS%": 0.1,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "XTC",
+          "teamName": "Xually Terribly Cursed",
+          "players": [
+            {
+              "Player": "ZiDin",
+              "Agent": "Omen",
+              "R1.0": 1.441,
+              "ACS": 266,
+              "K": 18,
+              "D": 8,
+              "A": 8,
+              "PlusMinus": 10,
+              "KAST": 0.889,
+              "ADR": 164.5,
+              "HS%": 0.141,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "sinderinho",
+              "Agent": "Phoenix",
+              "R1.0": 1.352,
+              "ACS": 258,
+              "K": 16,
+              "D": 9,
+              "A": 9,
+              "PlusMinus": 7,
+              "KAST": 0.833,
+              "ADR": 164.7,
+              "HS%": 0.25,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "alex",
+              "Agent": "Vyse",
+              "R1.0": 1.295,
+              "ACS": 236,
+              "K": 16,
+              "D": 10,
+              "A": 9,
+              "PlusMinus": 6,
+              "KAST": 0.833,
+              "ADR": 151.6,
+              "HS%": 0.107,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Riyako",
+              "Agent": "Fade",
+              "R1.0": 1.024,
+              "ACS": 159,
+              "K": 9,
+              "D": 8,
+              "A": 6,
+              "PlusMinus": 1,
+              "KAST": 0.833,
+              "ADR": 124.4,
+              "HS%": 0.178,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Yessi",
+              "Agent": "Jett",
+              "R1.0": 0.99,
+              "ACS": 203,
+              "K": 14,
+              "D": 11,
+              "A": 4,
+              "PlusMinus": 3,
+              "KAST": 0.667,
+              "ADR": 109.7,
+              "HS%": 0.1,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "NOOT",
+            "teamName": "Penguin Patrol",
+            "players": [
+              {
+                "Player": "taylorgzz",
+                "Agent": "Raze",
+                "R1.0": 1.578,
+                "ACS": 366,
+                "K": 16,
+                "D": 8,
+                "A": 3,
+                "PlusMinus": 8,
+                "KAST": 0.833,
+                "ADR": 209.6,
+                "HS%": 0.146,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "King",
+                "Agent": "Jett",
+                "R1.0": 0.972,
+                "ACS": 194,
+                "K": 8,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": -2,
+                "KAST": 0.833,
+                "ADR": 126.9,
+                "HS%": 0.129,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              },
+              {
+                "Player": "Jamit",
+                "Agent": "Skye",
+                "R1.0": 0.895,
+                "ACS": 146,
+                "K": 6,
+                "D": 7,
+                "A": 5,
+                "PlusMinus": -1,
+                "KAST": 0.75,
+                "ADR": 99.8,
+                "HS%": 0.545,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Haike",
+                "Agent": "Omen",
+                "R1.0": 0.564,
+                "ACS": 120,
+                "K": 3,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": -8,
+                "KAST": 0.583,
+                "ADR": 100.8,
+                "HS%": 0.375,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Pengu",
+                "Agent": "Viper",
+                "R1.0": 0.431,
+                "ACS": 55,
+                "K": 2,
+                "D": 7,
+                "A": 1,
+                "PlusMinus": -5,
+                "KAST": 0.583,
+                "ADR": 38.5,
+                "HS%": 0.091,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "XTC",
+            "teamName": "Xually Terribly Cursed",
+            "players": [
+              {
+                "Player": "ZiDin",
+                "Agent": "Omen",
+                "R1.0": 2.034,
+                "ACS": 366,
+                "K": 9,
+                "D": 1,
+                "A": 3,
+                "PlusMinus": 8,
+                "KAST": 1.0,
+                "ADR": 224.8,
+                "HS%": 0.156,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "sinderinho",
+                "Agent": "Phoenix",
+                "R1.0": 1.499,
+                "ACS": 295,
+                "K": 6,
+                "D": 3,
+                "A": 4,
+                "PlusMinus": 3,
+                "KAST": 0.833,
+                "ADR": 184.0,
+                "HS%": 0.118,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 6
+              },
+              {
+                "Player": "Yessi",
+                "Agent": "Jett",
+                "R1.0": 1.449,
+                "ACS": 300,
+                "K": 7,
+                "D": 3,
+                "A": 2,
+                "PlusMinus": 4,
+                "KAST": 0.833,
+                "ADR": 158.0,
+                "HS%": 0.095,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "alex",
+                "Agent": "Vyse",
+                "R1.0": 1.158,
+                "ACS": 196,
+                "K": 6,
+                "D": 3,
+                "A": 0,
+                "PlusMinus": 3,
+                "KAST": 0.833,
+                "ADR": 108.7,
+                "HS%": 0.133,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "Riyako",
+                "Agent": "Fade",
+                "R1.0": 0.898,
+                "ACS": 107,
+                "K": 2,
+                "D": 1,
+                "A": 1,
+                "PlusMinus": 1,
+                "KAST": 0.833,
+                "ADR": 77.5,
+                "HS%": 0.1,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "NOOT",
+            "teamName": "Penguin Patrol",
+            "players": [
+              {
+                "Player": "taylorgzz",
+                "Agent": "Raze",
+                "R1.0": 1.127,
+                "ACS": 316,
+                "K": 5,
+                "D": 6,
+                "A": 2,
+                "PlusMinus": -1,
+                "KAST": 0.667,
+                "ADR": 209.7,
+                "HS%": 0.13,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 6
+              },
+              {
+                "Player": "Jamit",
+                "Agent": "Skye",
+                "R1.0": 0.552,
+                "ACS": 186,
+                "K": 3,
+                "D": 6,
+                "A": 0,
+                "PlusMinus": -3,
+                "KAST": 0.333,
+                "ADR": 125.0,
+                "HS%": 0.231,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 6
+              },
+              {
+                "Player": "Haike",
+                "Agent": "Omen",
+                "R1.0": 0.456,
+                "ACS": 154,
+                "K": 3,
+                "D": 6,
+                "A": 0,
+                "PlusMinus": -3,
+                "KAST": 0.333,
+                "ADR": 86.8,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "Pengu",
+                "Agent": "Viper",
+                "R1.0": 0.149,
+                "ACS": 43,
+                "K": 0,
+                "D": 6,
+                "A": 2,
+                "PlusMinus": -6,
+                "KAST": 0.333,
+                "ADR": 43.3,
+                "HS%": 0.111,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 6
+              },
+              {
+                "Player": "King",
+                "Agent": "Jett",
+                "R1.0": -0.008,
+                "ACS": 11,
+                "K": 0,
+                "D": 6,
+                "A": 0,
+                "PlusMinus": -6,
+                "KAST": 0.333,
+                "ADR": 10.8,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 6
+              }
+            ]
+          },
+          {
+            "team": "XTC",
+            "teamName": "Xually Terribly Cursed",
+            "players": [
+              {
+                "Player": "alex",
+                "Agent": "Vyse",
+                "R1.0": 1.363,
+                "ACS": 256,
+                "K": 10,
+                "D": 7,
+                "A": 9,
+                "PlusMinus": 3,
+                "KAST": 0.833,
+                "ADR": 173.1,
+                "HS%": 0.098,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "sinderinho",
+                "Agent": "Phoenix",
+                "R1.0": 1.278,
+                "ACS": 240,
+                "K": 10,
+                "D": 6,
+                "A": 5,
+                "PlusMinus": 4,
+                "KAST": 0.833,
+                "ADR": 155.1,
+                "HS%": 0.348,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "ZiDin",
+                "Agent": "Omen",
+                "R1.0": 1.144,
+                "ACS": 217,
+                "K": 9,
+                "D": 7,
+                "A": 5,
+                "PlusMinus": 2,
+                "KAST": 0.833,
+                "ADR": 134.3,
+                "HS%": 0.125,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Riyako",
+                "Agent": "Fade",
+                "R1.0": 1.087,
+                "ACS": 185,
+                "K": 7,
+                "D": 7,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.833,
+                "ADR": 147.8,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Yessi",
+                "Agent": "Jett",
+                "R1.0": 0.76,
+                "ACS": 154,
+                "K": 7,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": -1,
+                "KAST": 0.583,
+                "ADR": 85.6,
+                "HS%": 0.105,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ascent",
+      "score1": 16,
+      "score2": 18,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 25,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 26,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 27,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 28,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 29,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 30,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 31,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 32,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 33,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 34,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "NOOT",
+          "teamName": "Penguin Patrol",
+          "players": [
+            {
+              "Player": "Jamit",
+              "Agent": "Sova",
+              "R1.0": 1.533,
+              "ACS": 332,
+              "K": 40,
+              "D": 21,
+              "A": 12,
+              "PlusMinus": 19,
+              "KAST": 0.765,
+              "ADR": 216.4,
+              "HS%": 0.284,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "taylorgzz",
+              "Agent": "Phoenix",
+              "R1.0": 1.076,
+              "ACS": 219,
+              "K": 25,
+              "D": 25,
+              "A": 13,
+              "PlusMinus": 0,
+              "KAST": 0.765,
+              "ADR": 148.2,
+              "HS%": 0.229,
+              "FK": 6,
+              "FD": 5,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Haike",
+              "Agent": "Omen",
+              "R1.0": 1.04,
+              "ACS": 180,
+              "K": 20,
+              "D": 21,
+              "A": 19,
+              "PlusMinus": -1,
+              "KAST": 0.706,
+              "ADR": 137.1,
+              "HS%": 0.224,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "King",
+              "Agent": "Jett",
+              "R1.0": 1.039,
+              "ACS": 221,
+              "K": 28,
+              "D": 26,
+              "A": 4,
+              "PlusMinus": 2,
+              "KAST": 0.794,
+              "ADR": 139.8,
+              "HS%": 0.19,
+              "FK": 7,
+              "FD": 4,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "Pengu",
+              "Agent": "Killjoy",
+              "R1.0": 0.455,
+              "ACS": 93,
+              "K": 9,
+              "D": 28,
+              "A": 5,
+              "PlusMinus": -19,
+              "KAST": 0.529,
+              "ADR": 69.4,
+              "HS%": 0.179,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "XTC",
+          "teamName": "Xually Terribly Cursed",
+          "players": [
+            {
+              "Player": "Riyako",
+              "Agent": "Sova",
+              "R1.0": 1.337,
+              "ACS": 270,
+              "K": 32,
+              "D": 19,
+              "A": 15,
+              "PlusMinus": 13,
+              "KAST": 0.735,
+              "ADR": 175.1,
+              "HS%": 0.179,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "alex",
+              "Agent": "Cypher",
+              "R1.0": 1.29,
+              "ACS": 301,
+              "K": 36,
+              "D": 29,
+              "A": 12,
+              "PlusMinus": 7,
+              "KAST": 0.706,
+              "ADR": 193.5,
+              "HS%": 0.192,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "sinderinho",
+              "Agent": "Reyna",
+              "R1.0": 0.873,
+              "ACS": 181,
+              "K": 21,
+              "D": 26,
+              "A": 9,
+              "PlusMinus": -5,
+              "KAST": 0.588,
+              "ADR": 130.8,
+              "HS%": 0.279,
+              "FK": 4,
+              "FD": 8,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "ZiDin",
+              "Agent": "Omen",
+              "R1.0": 0.864,
+              "ACS": 124,
+              "K": 17,
+              "D": 21,
+              "A": 11,
+              "PlusMinus": -4,
+              "KAST": 0.794,
+              "ADR": 96.4,
+              "HS%": 0.231,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Yessi",
+              "Agent": "Jett",
+              "R1.0": 0.714,
+              "ACS": 140,
+              "K": 15,
+              "D": 27,
+              "A": 11,
+              "PlusMinus": -12,
+              "KAST": 0.735,
+              "ADR": 87.4,
+              "HS%": 0.076,
+              "FK": 4,
+              "FD": 6,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "NOOT",
+            "teamName": "Penguin Patrol",
+            "players": [
+              {
+                "Player": "Jamit",
+                "Agent": "Sova",
+                "R1.0": 1.703,
+                "ACS": 327,
+                "K": 21,
+                "D": 7,
+                "A": 8,
+                "PlusMinus": 14,
+                "KAST": 0.882,
+                "ADR": 210.7,
+                "HS%": 0.341,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "King",
+                "Agent": "Jett",
+                "R1.0": 1.213,
+                "ACS": 249,
+                "K": 16,
+                "D": 11,
+                "A": 3,
+                "PlusMinus": 5,
+                "KAST": 0.765,
+                "ADR": 161.4,
+                "HS%": 0.159,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2,
+                "Rounds": 17
+              },
+              {
+                "Player": "Haike",
+                "Agent": "Omen",
+                "R1.0": 1.19,
+                "ACS": 203,
+                "K": 12,
+                "D": 10,
+                "A": 10,
+                "PlusMinus": 2,
+                "KAST": 0.824,
+                "ADR": 148.5,
+                "HS%": 0.227,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 17
+              },
+              {
+                "Player": "taylorgzz",
+                "Agent": "Phoenix",
+                "R1.0": 1.09,
+                "ACS": 213,
+                "K": 12,
+                "D": 12,
+                "A": 8,
+                "PlusMinus": 0,
+                "KAST": 0.765,
+                "ADR": 147.3,
+                "HS%": 0.282,
+                "FK": 4,
+                "FD": 3,
+                "PlusMinus2": 1,
+                "Rounds": 17
+              },
+              {
+                "Player": "Pengu",
+                "Agent": "Killjoy",
+                "R1.0": 0.552,
+                "ACS": 105,
+                "K": 6,
+                "D": 12,
+                "A": 1,
+                "PlusMinus": -6,
+                "KAST": 0.529,
+                "ADR": 76.2,
+                "HS%": 0.222,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 17
+              }
+            ]
+          },
+          {
+            "team": "XTC",
+            "teamName": "Xually Terribly Cursed",
+            "players": [
+              {
+                "Player": "Riyako",
+                "Agent": "Sova",
+                "R1.0": 1.642,
+                "ACS": 340,
+                "K": 22,
+                "D": 7,
+                "A": 4,
+                "PlusMinus": 15,
+                "KAST": 0.824,
+                "ADR": 201.8,
+                "HS%": 0.245,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 17
+              },
+              {
+                "Player": "alex",
+                "Agent": "Cypher",
+                "R1.0": 1.322,
+                "ACS": 303,
+                "K": 18,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": 5,
+                "KAST": 0.706,
+                "ADR": 196.2,
+                "HS%": 0.162,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "sinderinho",
+                "Agent": "Reyna",
+                "R1.0": 1.039,
+                "ACS": 213,
+                "K": 13,
+                "D": 13,
+                "A": 4,
+                "PlusMinus": 0,
+                "KAST": 0.647,
+                "ADR": 160.4,
+                "HS%": 0.387,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3,
+                "Rounds": 17
+              },
+              {
+                "Player": "ZiDin",
+                "Agent": "Omen",
+                "R1.0": 0.969,
+                "ACS": 139,
+                "K": 10,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": 1,
+                "KAST": 0.765,
+                "ADR": 115.3,
+                "HS%": 0.233,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 17
+              },
+              {
+                "Player": "Yessi",
+                "Agent": "Jett",
+                "R1.0": 0.642,
+                "ACS": 114,
+                "K": 6,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": -7,
+                "KAST": 0.765,
+                "ADR": 71.6,
+                "HS%": 0.031,
+                "FK": 2,
+                "FD": 4,
+                "PlusMinus2": -2,
+                "Rounds": 17
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "NOOT",
+            "teamName": "Penguin Patrol",
+            "players": [
+              {
+                "Player": "Jamit",
+                "Agent": "Sova",
+                "R1.0": 1.361,
+                "ACS": 338,
+                "K": 19,
+                "D": 14,
+                "A": 4,
+                "PlusMinus": 5,
+                "KAST": 0.647,
+                "ADR": 222.0,
+                "HS%": 0.235,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1,
+                "Rounds": 17
+              },
+              {
+                "Player": "taylorgzz",
+                "Agent": "Phoenix",
+                "R1.0": 1.061,
+                "ACS": 224,
+                "K": 13,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.765,
+                "ADR": 149.1,
+                "HS%": 0.182,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "Haike",
+                "Agent": "Omen",
+                "R1.0": 0.891,
+                "ACS": 157,
+                "K": 8,
+                "D": 11,
+                "A": 9,
+                "PlusMinus": -3,
+                "KAST": 0.588,
+                "ADR": 125.6,
+                "HS%": 0.22,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 17
+              },
+              {
+                "Player": "King",
+                "Agent": "Jett",
+                "R1.0": 0.866,
+                "ACS": 193,
+                "K": 12,
+                "D": 15,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.824,
+                "ADR": 118.2,
+                "HS%": 0.263,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1,
+                "Rounds": 17
+              },
+              {
+                "Player": "Pengu",
+                "Agent": "Killjoy",
+                "R1.0": 0.359,
+                "ACS": 82,
+                "K": 3,
+                "D": 16,
+                "A": 4,
+                "PlusMinus": -13,
+                "KAST": 0.529,
+                "ADR": 62.7,
+                "HS%": 0.138,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 17
+              }
+            ]
+          },
+          {
+            "team": "XTC",
+            "teamName": "Xually Terribly Cursed",
+            "players": [
+              {
+                "Player": "alex",
+                "Agent": "Cypher",
+                "R1.0": 1.258,
+                "ACS": 299,
+                "K": 18,
+                "D": 16,
+                "A": 7,
+                "PlusMinus": 2,
+                "KAST": 0.706,
+                "ADR": 190.7,
+                "HS%": 0.231,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "Riyako",
+                "Agent": "Sova",
+                "R1.0": 1.032,
+                "ACS": 199,
+                "K": 10,
+                "D": 12,
+                "A": 11,
+                "PlusMinus": -2,
+                "KAST": 0.647,
+                "ADR": 148.3,
+                "HS%": 0.119,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 17
+              },
+              {
+                "Player": "Yessi",
+                "Agent": "Jett",
+                "R1.0": 0.787,
+                "ACS": 165,
+                "K": 9,
+                "D": 14,
+                "A": 6,
+                "PlusMinus": -5,
+                "KAST": 0.706,
+                "ADR": 103.1,
+                "HS%": 0.118,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "ZiDin",
+                "Agent": "Omen",
+                "R1.0": 0.76,
+                "ACS": 110,
+                "K": 7,
+                "D": 12,
+                "A": 7,
+                "PlusMinus": -5,
+                "KAST": 0.824,
+                "ADR": 77.5,
+                "HS%": 0.227,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "sinderinho",
+                "Agent": "Reyna",
+                "R1.0": 0.707,
+                "ACS": 150,
+                "K": 8,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": -5,
+                "KAST": 0.529,
+                "ADR": 101.2,
+                "HS%": 0.167,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1,
+                "Rounds": 17
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=WYNN4WrZrNs"
 }
