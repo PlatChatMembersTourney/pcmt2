@@ -1,5 +1,5 @@
 ---
-title: Stay Seally come back to knock out FaZe
+title: Stay Seally come back to knock out Fabulous and Zesty
 date: 2026-10-12
 author: toxic
 summary: In the first playoff match of EMEA Season 2, SEAL lost their own map pick in overtime, then took Lotus and Sunset to eliminate FaZe 2-1.
