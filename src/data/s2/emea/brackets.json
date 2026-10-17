@@ -7,12 +7,12 @@
 	},
 		"upper": [
 			[{ "teams": ["XTC", "NOOT"], "placeholders": [null, null] }, { "teams": ["ATLC", "NATS"], "placeholders": [null, null] }],
-			[{ "teams": ["SOG", null] }, { "teams": ["NIP", null], "placeholders": ["Alpha #1", null] }],
+			[{ "teams": ["SOG", "XTC"] }, { "teams": ["NIP", null], "placeholders": ["Alpha #1", null] }],
 			[{ "teams": [null, null] }]
 		],
 		"lower": [
 			[{ "teams": ["FaZe", "SEAL"], "placeholders": [null, null] }, { "teams": ["LARP", "HOT"], "placeholders": [null, null] }],
-			[{ "teams": [null, "SEAL"], "placeholders": ["Upper QF Loser #1", null] }, { "teams": [null, null], "placeholders": ["Upper QF Loser #2", null] }],
+			[{ "teams": ["NOOT", "SEAL"], "placeholders": [null, null] }, { "teams": [null, null], "placeholders": ["Upper QF Loser #2", null] }],
 			[{ "teams": [null, null], "placeholders": ["Upper SF Loser #1", null]  }, { "teams": [null, null], "placeholders": ["Upper SF Loser #2", null]  }],
 			[{ "teams": [null, null] }],
             [{ "teams": [null, null], "placeholders": ["Upper F Loser", null] }]
