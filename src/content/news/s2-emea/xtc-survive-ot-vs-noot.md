@@ -22,7 +22,7 @@ The second half would prove perilous for NOOT, as they gave up a 15hp 1v2 clutch
 
 The second map was [Ascent](/events/s2-emea/noot-vs-xtc-s2-playoffs-2026-10-17?map=Ascent), XTC's map pick, where they unveiled a PCMT-special comp with [sinderinho](/players/sinderinho) locking in the 2nd Reyna pick of the season, after [Autumn](/players/autumn) did so on Haven against [NATS](/events/s2-emea/teams/never-available-to-scrim).
 
-The opening pistol saw a 10-man brawl in mid, with NOOT's Jamit this time unable to salvage a 1v2 clutch as Riyako got another huge-impact 3k of the series to deny him. The anti-eco saw NOOT smell blood in the water as [Pengu](/players/pengu) got the entry after being revealed by the Sova recon, but Sinderinho quickly stopped the retake with a stylish ranked-style Reyna 3k.
+The opening pistol saw a 10-man brawl in mid, with NOOT's Jamit this time unable to salvage a 1v2 clutch as Riyako got another huge-impact 3k of the series to deny him. The anti-eco saw NOOT smell blood in the water as [Pengu](/players/pengu) got the entry on Yessi, who had been revealed by the Sova recon, but Sinderinho quickly stopped the retake with a stylish ranked-style Reyna 3k.
 
 The first gun round for NOOT's defense already showed the cracks in their setup, as XTC completely took over the mid area of the map, splitting up NOOT's rotates and anchors, forcing them into 1v1s, which Riyako gladly took, winning the bonus round for his team and earning the title "Mr.3k" from the casters.
 
