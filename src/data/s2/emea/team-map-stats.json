@@ -356,26 +356,26 @@
   "HOT": {
     "team": "HOT",
     "teamName": "Honestly Outrageous Temperatures",
-    "overallAtkPct": 0.454,
-    "overallDefPct": 0.487,
+    "overallAtkPct": 0.532,
+    "overallDefPct": 0.484,
     "maps": [
       {
         "map": "Abyss",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 13,
+        "roundsWon": 13,
+        "roundPct": 1.0,
+        "atkPct": 1.0,
+        "defPct": 1.0
       },
       {
         "map": "Ascent",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 2,
         "won": 0,
         "winPct": 0.0,
@@ -415,14 +415,14 @@
         "map": "Corrode",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 20,
+        "roundsWon": 13,
+        "roundPct": 0.65,
+        "atkPct": 1.0,
+        "defPct": 0.417
       },
       {
         "map": "Fracture",
@@ -518,7 +518,7 @@
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -533,21 +533,21 @@
   "LARP": {
     "team": "LARP",
     "teamName": "Larpiat\u00e1n",
-    "overallAtkPct": 0.436,
-    "overallDefPct": 0.52,
+    "overallAtkPct": 0.447,
+    "overallDefPct": 0.434,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
+        "winPct": 0.0,
+        "rounds": 13,
         "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "roundPct": 0.0,
+        "atkPct": 0.0,
+        "defPct": 0.0
       },
       {
         "map": "Ascent",
@@ -590,16 +590,16 @@
       },
       {
         "map": "Corrode",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 20,
+        "roundsWon": 7,
+        "roundPct": 0.35,
+        "atkPct": 0.583,
+        "defPct": 0.0
       },
       {
         "map": "Fracture",
@@ -669,7 +669,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 2,
         "won": 1,
         "winPct": 0.5,
@@ -682,7 +682,7 @@
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 2,
+        "ban": 3,
         "played": 0,
         "won": 0,
         "winPct": 0,

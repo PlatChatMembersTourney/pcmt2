@@ -5,9 +5,1489 @@
   "team1Name": "Larpiat\u00e1n",
   "team2Name": "Honestly Outrageous Temperatures",
   "score1": 0,
-  "score2": 0,
-  "completed": false,
+  "score2": 2,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-10-18T18:00:00Z",
-  "stage": "Playoffs"
+  "stage": "Playoffs",
+  "veto": "HOT bans Sunset, LARP bans Split, HOT picks Abyss, LARP picks Corrode, HOT bans Ascent, LARP bans Summit, Lotus remains",
+  "maps": [
+    {
+      "name": "Abyss",
+      "score1": 0,
+      "score2": 13
+    },
+    {
+      "name": "Corrode",
+      "score1": 7,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "LARP",
+      "teamName": "Larpiat\u00e1n",
+      "players": [
+        {
+          "Player": "mide",
+          "R1.0": 0.955,
+          "ACS": 219,
+          "K": 22,
+          "D": 31,
+          "A": 17,
+          "PlusMinus": -9,
+          "KAST": 0.697,
+          "ADR": 146.8,
+          "HS%": 0.198,
+          "FK": 5,
+          "FD": 7,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "oddlqt",
+          "R1.0": 0.939,
+          "ACS": 224,
+          "K": 26,
+          "D": 28,
+          "A": 4,
+          "PlusMinus": -2,
+          "KAST": 0.576,
+          "ADR": 148.9,
+          "HS%": 0.343,
+          "FK": 4,
+          "FD": 3,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "Kaiser",
+          "R1.0": 0.686,
+          "ACS": 147,
+          "K": 17,
+          "D": 30,
+          "A": 8,
+          "PlusMinus": -13,
+          "KAST": 0.667,
+          "ADR": 95.5,
+          "HS%": 0.234,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "synth",
+          "R1.0": 0.581,
+          "ACS": 125,
+          "K": 13,
+          "D": 29,
+          "A": 5,
+          "PlusMinus": -16,
+          "KAST": 0.667,
+          "ADR": 83.4,
+          "HS%": 0.207,
+          "FK": 2,
+          "FD": 3,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "Ellie",
+          "R1.0": 0.512,
+          "ACS": 118,
+          "K": 14,
+          "D": 29,
+          "A": 4,
+          "PlusMinus": -15,
+          "KAST": 0.455,
+          "ADR": 78.3,
+          "HS%": 0.106,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        }
+      ]
+    },
+    {
+      "team": "HOT",
+      "teamName": "Honestly Outrageous Temperatures",
+      "players": [
+        {
+          "Player": "shipty",
+          "R1.0": 1.646,
+          "ACS": 363,
+          "K": 44,
+          "D": 19,
+          "A": 5,
+          "PlusMinus": 25,
+          "KAST": 0.788,
+          "ADR": 235.6,
+          "HS%": 0.315,
+          "FK": 7,
+          "FD": 4,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "Duck",
+          "R1.0": 1.269,
+          "ACS": 244,
+          "K": 30,
+          "D": 18,
+          "A": 6,
+          "PlusMinus": 12,
+          "KAST": 0.879,
+          "ADR": 158.2,
+          "HS%": 0.216,
+          "FK": 5,
+          "FD": 2,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "Hioz",
+          "R1.0": 1.191,
+          "ACS": 205,
+          "K": 27,
+          "D": 18,
+          "A": 15,
+          "PlusMinus": 9,
+          "KAST": 0.818,
+          "ADR": 129.9,
+          "HS%": 0.323,
+          "FK": 3,
+          "FD": 3,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "Tonnoman",
+          "R1.0": 1.122,
+          "ACS": 208,
+          "K": 23,
+          "D": 18,
+          "A": 13,
+          "PlusMinus": 5,
+          "KAST": 0.757,
+          "ADR": 142.2,
+          "HS%": 0.326,
+          "FK": 3,
+          "FD": 3,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "bi0",
+          "R1.0": 1.025,
+          "ACS": 172,
+          "K": 18,
+          "D": 19,
+          "A": 15,
+          "PlusMinus": -1,
+          "KAST": 0.788,
+          "ADR": 132.3,
+          "HS%": 0.254,
+          "FK": 1,
+          "FD": 1,
+          "PlusMinus2": 0
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Abyss",
+      "score1": 0,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "LARP",
+          "teamName": "Larpiat\u00e1n",
+          "players": [
+            {
+              "Player": "oddlqt",
+              "Agent": "Astra",
+              "R1.0": 0.794,
+              "ACS": 200,
+              "K": 9,
+              "D": 12,
+              "A": 1,
+              "PlusMinus": -3,
+              "KAST": 0.538,
+              "ADR": 133.7,
+              "HS%": 0.409,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Kaiser",
+              "Agent": "Neon",
+              "R1.0": 0.659,
+              "ACS": 146,
+              "K": 6,
+              "D": 13,
+              "A": 3,
+              "PlusMinus": -7,
+              "KAST": 0.769,
+              "ADR": 100.8,
+              "HS%": 0.261,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "mide",
+              "Agent": "Phoenix",
+              "R1.0": 0.56,
+              "ACS": 143,
+              "K": 5,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": -9,
+              "KAST": 0.615,
+              "ADR": 96.7,
+              "HS%": 0.2,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "Ellie",
+              "Agent": "Sage",
+              "R1.0": 0.448,
+              "ACS": 125,
+              "K": 5,
+              "D": 13,
+              "A": 2,
+              "PlusMinus": -8,
+              "KAST": 0.385,
+              "ADR": 88.1,
+              "HS%": 0.136,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "synth",
+              "Agent": "Sova",
+              "R1.0": 0.411,
+              "ACS": 93,
+              "K": 4,
+              "D": 13,
+              "A": 1,
+              "PlusMinus": -9,
+              "KAST": 0.692,
+              "ADR": 58.8,
+              "HS%": 0.1,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "HOT",
+          "teamName": "Honestly Outrageous Temperatures",
+          "players": [
+            {
+              "Player": "shipty",
+              "Agent": "Yoru",
+              "R1.0": 2.472,
+              "ACS": 538,
+              "K": 27,
+              "D": 4,
+              "A": 0,
+              "PlusMinus": 23,
+              "KAST": 1.0,
+              "ADR": 343.8,
+              "HS%": 0.48,
+              "FK": 5,
+              "FD": 0,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "bi0",
+              "Agent": "Harbor",
+              "R1.0": 1.241,
+              "ACS": 188,
+              "K": 8,
+              "D": 6,
+              "A": 10,
+              "PlusMinus": 2,
+              "KAST": 1.0,
+              "ADR": 128.4,
+              "HS%": 0.25,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Duck",
+              "Agent": "Jett",
+              "R1.0": 1.075,
+              "ACS": 194,
+              "K": 9,
+              "D": 8,
+              "A": 4,
+              "PlusMinus": 1,
+              "KAST": 0.923,
+              "ADR": 123.4,
+              "HS%": 0.156,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Tonnoman",
+              "Agent": "Astra",
+              "R1.0": 1.062,
+              "ACS": 167,
+              "K": 7,
+              "D": 5,
+              "A": 6,
+              "PlusMinus": 2,
+              "KAST": 0.769,
+              "ADR": 117.1,
+              "HS%": 0.35,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Hioz",
+              "Agent": "Sova",
+              "R1.0": 1.024,
+              "ACS": 165,
+              "K": 9,
+              "D": 6,
+              "A": 4,
+              "PlusMinus": 3,
+              "KAST": 0.692,
+              "ADR": 105.2,
+              "HS%": 0.15,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "LARP",
+            "teamName": "Larpiat\u00e1n",
+            "players": [
+              {
+                "Player": "Kaiser",
+                "Agent": "Neon",
+                "R1.0": 1.059,
+                "ACS": 250,
+                "K": 1,
+                "D": 1,
+                "A": 0,
+                "PlusMinus": 0,
+                "KAST": 1.0,
+                "ADR": 135.0,
+                "HS%": 0.5,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 1
+              },
+              {
+                "Player": "mide",
+                "Agent": "Phoenix",
+                "R1.0": 0.597,
+                "ACS": 103,
+                "K": 0,
+                "D": 1,
+                "A": 1,
+                "PlusMinus": -1,
+                "KAST": 1.0,
+                "ADR": 78.0,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 1
+              },
+              {
+                "Player": "oddlqt",
+                "Agent": "Astra",
+                "R1.0": -0.139,
+                "ACS": 0,
+                "K": 0,
+                "D": 1,
+                "A": 0,
+                "PlusMinus": -1,
+                "KAST": 0.0,
+                "ADR": 0.0,
+                "HS%": 0,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 1
+              },
+              {
+                "Player": "Ellie",
+                "Agent": "Sage",
+                "R1.0": -0.139,
+                "ACS": 0,
+                "K": 0,
+                "D": 1,
+                "A": 0,
+                "PlusMinus": -1,
+                "KAST": 0.0,
+                "ADR": 0.0,
+                "HS%": 0,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 1
+              },
+              {
+                "Player": "synth",
+                "Agent": "Sova",
+                "R1.0": -0.139,
+                "ACS": 0,
+                "K": 0,
+                "D": 1,
+                "A": 0,
+                "PlusMinus": -1,
+                "KAST": 0.0,
+                "ADR": 0.0,
+                "HS%": 0,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 1
+              }
+            ]
+          },
+          {
+            "team": "HOT",
+            "teamName": "Honestly Outrageous Temperatures",
+            "players": [
+              {
+                "Player": "shipty",
+                "Agent": "Yoru",
+                "R1.0": 2.423,
+                "ACS": 520,
+                "K": 24,
+                "D": 4,
+                "A": 0,
+                "PlusMinus": 20,
+                "KAST": 1.0,
+                "ADR": 345.3,
+                "HS%": 0.5,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4,
+                "Rounds": 12
+              },
+              {
+                "Player": "bi0",
+                "Agent": "Harbor",
+                "R1.0": 1.214,
+                "ACS": 188,
+                "K": 7,
+                "D": 6,
+                "A": 10,
+                "PlusMinus": 1,
+                "KAST": 1.0,
+                "ADR": 125.3,
+                "HS%": 0.24,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Tonnoman",
+                "Agent": "Astra",
+                "R1.0": 1.1,
+                "ACS": 181,
+                "K": 7,
+                "D": 5,
+                "A": 6,
+                "PlusMinus": 2,
+                "KAST": 0.75,
+                "ADR": 126.8,
+                "HS%": 0.35,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Duck",
+                "Agent": "Jett",
+                "R1.0": 1.071,
+                "ACS": 191,
+                "K": 8,
+                "D": 7,
+                "A": 4,
+                "PlusMinus": 1,
+                "KAST": 0.917,
+                "ADR": 120.4,
+                "HS%": 0.129,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Hioz",
+                "Agent": "Sova",
+                "R1.0": 1.027,
+                "ACS": 174,
+                "K": 9,
+                "D": 6,
+                "A": 3,
+                "PlusMinus": 3,
+                "KAST": 0.667,
+                "ADR": 108.7,
+                "HS%": 0.15,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "LARP",
+            "teamName": "Larpiat\u00e1n",
+            "players": [
+              {
+                "Player": "oddlqt",
+                "Agent": "Astra",
+                "R1.0": 0.908,
+                "ACS": 216,
+                "K": 9,
+                "D": 10,
+                "A": 1,
+                "PlusMinus": -1,
+                "KAST": 0.583,
+                "ADR": 144.8,
+                "HS%": 0.409,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Kaiser",
+                "Agent": "Neon",
+                "R1.0": 0.662,
+                "ACS": 138,
+                "K": 5,
+                "D": 11,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.75,
+                "ADR": 98.0,
+                "HS%": 0.238,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "mide",
+                "Agent": "Phoenix",
+                "R1.0": 0.593,
+                "ACS": 147,
+                "K": 5,
+                "D": 12,
+                "A": 4,
+                "PlusMinus": -7,
+                "KAST": 0.583,
+                "ADR": 98.2,
+                "HS%": 0.235,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              },
+              {
+                "Player": "Ellie",
+                "Agent": "Sage",
+                "R1.0": 0.533,
+                "ACS": 136,
+                "K": 5,
+                "D": 11,
+                "A": 2,
+                "PlusMinus": -6,
+                "KAST": 0.417,
+                "ADR": 95.4,
+                "HS%": 0.136,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "synth",
+                "Agent": "Sova",
+                "R1.0": 0.493,
+                "ACS": 100,
+                "K": 4,
+                "D": 11,
+                "A": 1,
+                "PlusMinus": -7,
+                "KAST": 0.75,
+                "ADR": 63.8,
+                "HS%": 0.1,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "HOT",
+            "teamName": "Honestly Outrageous Temperatures",
+            "players": [
+              {
+                "Player": "shipty",
+                "Agent": "Yoru",
+                "R1.0": 3.065,
+                "ACS": 749,
+                "K": 3,
+                "D": 0,
+                "A": 0,
+                "PlusMinus": 3,
+                "KAST": 1.0,
+                "ADR": 325.0,
+                "HS%": 0.333,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 1
+              },
+              {
+                "Player": "bi0",
+                "Agent": "Harbor",
+                "R1.0": 1.569,
+                "ACS": 195,
+                "K": 1,
+                "D": 0,
+                "A": 0,
+                "PlusMinus": 1,
+                "KAST": 1.0,
+                "ADR": 165.0,
+                "HS%": 0.333,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 1
+              },
+              {
+                "Player": "Duck",
+                "Agent": "Jett",
+                "R1.0": 1.119,
+                "ACS": 230,
+                "K": 1,
+                "D": 1,
+                "A": 0,
+                "PlusMinus": 0,
+                "KAST": 1.0,
+                "ADR": 159.0,
+                "HS%": 1.0,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 1
+              },
+              {
+                "Player": "Hioz",
+                "Agent": "Sova",
+                "R1.0": 0.996,
+                "ACS": 64,
+                "K": 0,
+                "D": 0,
+                "A": 1,
+                "PlusMinus": 0,
+                "KAST": 1.0,
+                "ADR": 64.0,
+                "HS%": 0,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 1
+              },
+              {
+                "Player": "Tonnoman",
+                "Agent": "Astra",
+                "R1.0": 0.608,
+                "ACS": 0,
+                "K": 0,
+                "D": 0,
+                "A": 0,
+                "PlusMinus": 0,
+                "KAST": 1.0,
+                "ADR": 0.0,
+                "HS%": 0,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corrode",
+      "score1": 7,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "LARP",
+          "teamName": "Larpiat\u00e1n",
+          "players": [
+            {
+              "Player": "mide",
+              "Agent": "Phoenix",
+              "R1.0": 1.212,
+              "ACS": 268,
+              "K": 17,
+              "D": 17,
+              "A": 12,
+              "PlusMinus": 0,
+              "KAST": 0.75,
+              "ADR": 179.3,
+              "HS%": 0.196,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "oddlqt",
+              "Agent": "Astra",
+              "R1.0": 1.033,
+              "ACS": 240,
+              "K": 17,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": 1,
+              "KAST": 0.6,
+              "ADR": 158.8,
+              "HS%": 0.3,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Kaiser",
+              "Agent": "Neon",
+              "R1.0": 0.702,
+              "ACS": 147,
+              "K": 11,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -6,
+              "KAST": 0.6,
+              "ADR": 92.0,
+              "HS%": 0.216,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "synth",
+              "Agent": "Sova",
+              "R1.0": 0.692,
+              "ACS": 145,
+              "K": 9,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": -7,
+              "KAST": 0.65,
+              "ADR": 99.4,
+              "HS%": 0.276,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Ellie",
+              "Agent": "Vyse",
+              "R1.0": 0.554,
+              "ACS": 113,
+              "K": 9,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -7,
+              "KAST": 0.5,
+              "ADR": 72.0,
+              "HS%": 0.086,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "HOT",
+          "teamName": "Honestly Outrageous Temperatures",
+          "players": [
+            {
+              "Player": "Duck",
+              "Agent": "Jett",
+              "R1.0": 1.395,
+              "ACS": 277,
+              "K": 21,
+              "D": 10,
+              "A": 2,
+              "PlusMinus": 11,
+              "KAST": 0.85,
+              "ADR": 180.9,
+              "HS%": 0.255,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Hioz",
+              "Agent": "Brimstone",
+              "R1.0": 1.3,
+              "ACS": 231,
+              "K": 18,
+              "D": 12,
+              "A": 11,
+              "PlusMinus": 6,
+              "KAST": 0.9,
+              "ADR": 146.0,
+              "HS%": 0.436,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Tonnoman",
+              "Agent": "Viper",
+              "R1.0": 1.162,
+              "ACS": 234,
+              "K": 16,
+              "D": 13,
+              "A": 7,
+              "PlusMinus": 3,
+              "KAST": 0.75,
+              "ADR": 158.5,
+              "HS%": 0.31,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "shipty",
+              "Agent": "Yoru",
+              "R1.0": 1.109,
+              "ACS": 249,
+              "K": 17,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": 2,
+              "KAST": 0.65,
+              "ADR": 165.2,
+              "HS%": 0.208,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "bi0",
+              "Agent": "Sova",
+              "R1.0": 0.884,
+              "ACS": 162,
+              "K": 10,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": -3,
+              "KAST": 0.65,
+              "ADR": 134.8,
+              "HS%": 0.257,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "LARP",
+            "teamName": "Larpiat\u00e1n",
+            "players": [
+              {
+                "Player": "mide",
+                "Agent": "Phoenix",
+                "R1.0": 1.618,
+                "ACS": 345,
+                "K": 14,
+                "D": 9,
+                "A": 8,
+                "PlusMinus": 5,
+                "KAST": 0.917,
+                "ADR": 228.1,
+                "HS%": 0.17,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3,
+                "Rounds": 12
+              },
+              {
+                "Player": "oddlqt",
+                "Agent": "Astra",
+                "R1.0": 1.43,
+                "ACS": 311,
+                "K": 14,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 6,
+                "KAST": 0.75,
+                "ADR": 205.1,
+                "HS%": 0.458,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "Kaiser",
+                "Agent": "Neon",
+                "R1.0": 1.044,
+                "ACS": 209,
+                "K": 10,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 130.3,
+                "HS%": 0.212,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "synth",
+                "Agent": "Sova",
+                "R1.0": 0.804,
+                "ACS": 126,
+                "K": 5,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": -4,
+                "KAST": 0.917,
+                "ADR": 97.2,
+                "HS%": 0.182,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Ellie",
+                "Agent": "Vyse",
+                "R1.0": 0.623,
+                "ACS": 119,
+                "K": 6,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.5,
+                "ADR": 74.1,
+                "HS%": 0.087,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "HOT",
+            "teamName": "Honestly Outrageous Temperatures",
+            "players": [
+              {
+                "Player": "shipty",
+                "Agent": "Yoru",
+                "R1.0": 2.067,
+                "ACS": 432,
+                "K": 12,
+                "D": 3,
+                "A": 4,
+                "PlusMinus": 9,
+                "KAST": 0.875,
+                "ADR": 290.0,
+                "HS%": 0.211,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 8
+              },
+              {
+                "Player": "Tonnoman",
+                "Agent": "Viper",
+                "R1.0": 1.609,
+                "ACS": 301,
+                "K": 9,
+                "D": 3,
+                "A": 2,
+                "PlusMinus": 6,
+                "KAST": 0.875,
+                "ADR": 211.6,
+                "HS%": 0.286,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 8
+              },
+              {
+                "Player": "Duck",
+                "Agent": "Jett",
+                "R1.0": 1.36,
+                "ACS": 226,
+                "K": 7,
+                "D": 2,
+                "A": 1,
+                "PlusMinus": 5,
+                "KAST": 1.0,
+                "ADR": 141.0,
+                "HS%": 0.125,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 8
+              },
+              {
+                "Player": "Hioz",
+                "Agent": "Brimstone",
+                "R1.0": 1.272,
+                "ACS": 162,
+                "K": 5,
+                "D": 2,
+                "A": 7,
+                "PlusMinus": 3,
+                "KAST": 0.875,
+                "ADR": 108.0,
+                "HS%": 0.308,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 8
+              },
+              {
+                "Player": "bi0",
+                "Agent": "Sova",
+                "R1.0": 0.916,
+                "ACS": 146,
+                "K": 5,
+                "D": 4,
+                "A": 1,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 93.0,
+                "HS%": 0.667,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 8
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "LARP",
+            "teamName": "Larpiat\u00e1n",
+            "players": [
+              {
+                "Player": "mide",
+                "Agent": "Phoenix",
+                "R1.0": 0.602,
+                "ACS": 152,
+                "K": 3,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.5,
+                "ADR": 106.1,
+                "HS%": 0.333,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 8
+              },
+              {
+                "Player": "synth",
+                "Agent": "Sova",
+                "R1.0": 0.524,
+                "ACS": 173,
+                "K": 4,
+                "D": 7,
+                "A": 0,
+                "PlusMinus": -3,
+                "KAST": 0.25,
+                "ADR": 102.6,
+                "HS%": 0.571,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 8
+              },
+              {
+                "Player": "Ellie",
+                "Agent": "Vyse",
+                "R1.0": 0.449,
+                "ACS": 103,
+                "K": 3,
+                "D": 7,
+                "A": 0,
+                "PlusMinus": -4,
+                "KAST": 0.5,
+                "ADR": 68.8,
+                "HS%": 0.083,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 8
+              },
+              {
+                "Player": "oddlqt",
+                "Agent": "Astra",
+                "R1.0": 0.436,
+                "ACS": 134,
+                "K": 3,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": -5,
+                "KAST": 0.375,
+                "ADR": 89.5,
+                "HS%": 0.062,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 8
+              },
+              {
+                "Player": "Kaiser",
+                "Agent": "Neon",
+                "R1.0": 0.19,
+                "ACS": 55,
+                "K": 1,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": -7,
+                "KAST": 0.375,
+                "ADR": 34.5,
+                "HS%": 0.25,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 8
+              }
+            ]
+          },
+          {
+            "team": "HOT",
+            "teamName": "Honestly Outrageous Temperatures",
+            "players": [
+              {
+                "Player": "Duck",
+                "Agent": "Jett",
+                "R1.0": 1.417,
+                "ACS": 310,
+                "K": 14,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": 6,
+                "KAST": 0.75,
+                "ADR": 207.5,
+                "HS%": 0.355,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Hioz",
+                "Agent": "Brimstone",
+                "R1.0": 1.318,
+                "ACS": 277,
+                "K": 13,
+                "D": 10,
+                "A": 4,
+                "PlusMinus": 3,
+                "KAST": 0.917,
+                "ADR": 171.3,
+                "HS%": 0.5,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Tonnoman",
+                "Agent": "Viper",
+                "R1.0": 0.865,
+                "ACS": 190,
+                "K": 7,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 123.1,
+                "HS%": 0.333,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "bi0",
+                "Agent": "Sova",
+                "R1.0": 0.863,
+                "ACS": 173,
+                "K": 5,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": -4,
+                "KAST": 0.583,
+                "ADR": 162.6,
+                "HS%": 0.172,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "shipty",
+                "Agent": "Yoru",
+                "R1.0": 0.47,
+                "ACS": 128,
+                "K": 5,
+                "D": 12,
+                "A": 1,
+                "PlusMinus": -7,
+                "KAST": 0.5,
+                "ADR": 82.1,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=xfvx3ZUoKL4"
 }

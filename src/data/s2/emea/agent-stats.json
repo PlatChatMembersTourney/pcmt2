@@ -1,4 +1,76 @@
 {
+  "Abyss": {
+    "mapsPlayed": 1,
+    "recordedComps": 2,
+    "atkPct": 0.923,
+    "defPct": 0.077,
+    "agents": [
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Harbor",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "HOT": {
+        "team": "HOT",
+        "teamName": "Honestly Outrageous Temperatures",
+        "agents": [
+          "Astra",
+          "Harbor",
+          "Jett",
+          "Sova",
+          "Yoru"
+        ]
+      },
+      "LARP": {
+        "team": "LARP",
+        "teamName": "Larpiat\u00e1n",
+        "agents": [
+          "Astra",
+          "Neon",
+          "Phoenix",
+          "Sage",
+          "Sova"
+        ]
+      }
+    }
+  },
   "Ascent": {
     "mapsPlayed": 11,
     "recordedComps": 22,
@@ -370,6 +442,83 @@
           "Harbor",
           "Jett",
           "Sova"
+        ]
+      }
+    }
+  },
+  "Corrode": {
+    "mapsPlayed": 1,
+    "recordedComps": 2,
+    "atkPct": 0.75,
+    "defPct": 0.25,
+    "agents": [
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Brimstone",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "HOT": {
+        "team": "HOT",
+        "teamName": "Honestly Outrageous Temperatures",
+        "agents": [
+          "Brimstone",
+          "Jett",
+          "Sova",
+          "Viper",
+          "Yoru"
+        ]
+      },
+      "LARP": {
+        "team": "LARP",
+        "teamName": "Larpiat\u00e1n",
+        "agents": [
+          "Astra",
+          "Neon",
+          "Phoenix",
+          "Sova",
+          "Vyse"
         ]
       }
     }
