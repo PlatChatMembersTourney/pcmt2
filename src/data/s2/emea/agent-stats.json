@@ -6,12 +6,12 @@
     "defPct": 0.077,
     "agents": [
       {
-        "agent": "Astra",
+        "agent": "Sova",
         "comps": 2,
         "pickPct": 1.0
       },
       {
-        "agent": "Sova",
+        "agent": "Astra",
         "comps": 2,
         "pickPct": 1.0
       },
@@ -36,12 +36,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Yoru",
+        "agent": "Jett",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Jett",
+        "agent": "Yoru",
         "comps": 1,
         "pickPct": 0.5
       }
@@ -133,12 +133,12 @@
         "pickPct": 0.091
       },
       {
-        "agent": "Tejo",
+        "agent": "KAY/O",
         "comps": 2,
         "pickPct": 0.091
       },
       {
-        "agent": "KAY/O",
+        "agent": "Tejo",
         "comps": 2,
         "pickPct": 0.091
       },
@@ -314,12 +314,12 @@
         "pickPct": 0.2
       },
       {
-        "agent": "Tejo",
+        "agent": "Veto",
         "comps": 1,
         "pickPct": 0.1
       },
       {
-        "agent": "Veto",
+        "agent": "Tejo",
         "comps": 1,
         "pickPct": 0.1
       },
@@ -458,17 +458,17 @@
         "pickPct": 1.0
       },
       {
-        "agent": "Astra",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
         "agent": "Phoenix",
         "comps": 1,
         "pickPct": 0.5
       },
       {
         "agent": "Vyse",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Astra",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -488,12 +488,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Yoru",
+        "agent": "Jett",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Jett",
+        "agent": "Yoru",
         "comps": 1,
         "pickPct": 0.5
       }
@@ -545,12 +545,12 @@
         "pickPct": 0.667
       },
       {
-        "agent": "Cypher",
+        "agent": "Jett",
         "comps": 10,
         "pickPct": 0.556
       },
       {
-        "agent": "Jett",
+        "agent": "Cypher",
         "comps": 10,
         "pickPct": 0.556
       },
@@ -960,12 +960,12 @@
         "pickPct": 0.214
       },
       {
-        "agent": "Astra",
+        "agent": "Cypher",
         "comps": 3,
         "pickPct": 0.214
       },
       {
-        "agent": "Cypher",
+        "agent": "Astra",
         "comps": 3,
         "pickPct": 0.214
       },
@@ -1279,12 +1279,12 @@
         "pickPct": 0.917
       },
       {
-        "agent": "Cypher",
+        "agent": "Sova",
         "comps": 9,
         "pickPct": 0.75
       },
       {
-        "agent": "Sova",
+        "agent": "Cypher",
         "comps": 9,
         "pickPct": 0.75
       },
