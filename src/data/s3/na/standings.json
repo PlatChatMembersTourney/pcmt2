@@ -1,6 +1,19 @@
 {
   "Overall": [
     {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 9,
+      "matchL": 2,
+      "mapW": 20,
+      "mapL": 6,
+      "rndW": 303,
+      "rndL": 247,
+      "rank": 1,
+      "mapDiff": 14,
+      "rndDiff": 56
+    },
+    {
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
       "matchW": 8,
@@ -9,35 +22,22 @@
       "mapL": 6,
       "rndW": 284,
       "rndL": 196,
-      "rank": 1,
-      "mapDiff": 11,
-      "rndDiff": 88
-    },
-    {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 8,
-      "matchL": 2,
-      "mapW": 17,
-      "mapL": 6,
-      "rndW": 261,
-      "rndL": 217,
       "rank": 2,
       "mapDiff": 11,
-      "rndDiff": 44
+      "rndDiff": 88
     },
     {
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 7,
-      "matchL": 3,
+      "matchL": 4,
       "mapW": 14,
-      "mapL": 8,
-      "rndW": 249,
-      "rndL": 225,
+      "mapL": 11,
+      "rndW": 279,
+      "rndL": 267,
       "rank": 3,
-      "mapDiff": 6,
-      "rndDiff": 24
+      "mapDiff": 3,
+      "rndDiff": 12
     },
     {
       "abbr": "C9",
@@ -423,6 +423,19 @@
   ],
   "Playoffs": [
     {
+      "abbr": "T1",
+      "name": "Team 1",
+      "matchW": 3,
+      "matchL": 1,
+      "mapW": 8,
+      "mapL": 2,
+      "rndW": 118,
+      "rndL": 93,
+      "rank": 1,
+      "mapDiff": 6,
+      "rndDiff": 25
+    },
+    {
       "abbr": "SPG",
       "name": "Spank Ptheory Gaming",
       "matchW": 3,
@@ -431,7 +444,7 @@
       "mapL": 1,
       "rndW": 89,
       "rndL": 50,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 5,
       "rndDiff": 39
     },
@@ -439,27 +452,14 @@
       "abbr": "NAVI",
       "name": "No Actual Valorant Intelligence",
       "matchW": 3,
-      "matchL": 0,
-      "mapW": 6,
-      "mapL": 1,
-      "rndW": 87,
-      "rndL": 71,
-      "rank": 2,
-      "mapDiff": 5,
-      "rndDiff": 16
-    },
-    {
-      "abbr": "T1",
-      "name": "Team 1",
-      "matchW": 2,
       "matchL": 1,
-      "mapW": 5,
-      "mapL": 2,
-      "rndW": 76,
-      "rndL": 63,
+      "mapW": 6,
+      "mapL": 4,
+      "rndW": 117,
+      "rndL": 113,
       "rank": 3,
-      "mapDiff": 3,
-      "rndDiff": 13
+      "mapDiff": 2,
+      "rndDiff": 4
     },
     {
       "abbr": "C9",

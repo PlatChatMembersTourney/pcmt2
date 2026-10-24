@@ -4,10 +4,2280 @@
   "team2": "NAVI",
   "team1Name": "Team 1",
   "team2Name": "No Actual Valorant Intelligence",
-  "score1": 0,
+  "score1": 3,
   "score2": 0,
-  "completed": false,
+  "completed": true,
   "bestOf": 5,
   "date": "2026-10-24T00:00:00Z",
-  "stage": "Playoffs"
+  "stage": "Playoffs",
+  "veto": "NAVI bans Haven, T1 bans Abyss, NAVI picks Summit, T1 picks Split, NAVI picks Lotus, T1 picks Sunset, Ascent remains",
+  "maps": [
+    {
+      "name": "Summit",
+      "score1": 15,
+      "score2": 13
+    },
+    {
+      "name": "Split",
+      "score1": 14,
+      "score2": 12
+    },
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 5
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "T1",
+      "teamName": "Team 1",
+      "players": [
+        {
+          "Player": "MrCrocMan",
+          "R1.0": 1.688,
+          "ACS": 370,
+          "K": 101,
+          "D": 42,
+          "A": 21,
+          "PlusMinus": 59,
+          "KAST": 0.792,
+          "ADR": 225.3,
+          "HS%": 0.233,
+          "FK": 15,
+          "FD": 4,
+          "PlusMinus2": 11
+        },
+        {
+          "Player": "Ceiliuir",
+          "R1.0": 1.102,
+          "ACS": 231,
+          "K": 56,
+          "D": 49,
+          "A": 18,
+          "PlusMinus": 7,
+          "KAST": 0.764,
+          "ADR": 152.0,
+          "HS%": 0.166,
+          "FK": 3,
+          "FD": 1,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "roro",
+          "R1.0": 0.975,
+          "ACS": 177,
+          "K": 46,
+          "D": 50,
+          "A": 39,
+          "PlusMinus": -4,
+          "KAST": 0.681,
+          "ADR": 118.0,
+          "HS%": 0.233,
+          "FK": 3,
+          "FD": 8,
+          "PlusMinus2": -5
+        },
+        {
+          "Player": "Pi",
+          "R1.0": 0.94,
+          "ACS": 179,
+          "K": 41,
+          "D": 47,
+          "A": 32,
+          "PlusMinus": -6,
+          "KAST": 0.694,
+          "ADR": 118.9,
+          "HS%": 0.19,
+          "FK": 8,
+          "FD": 5,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "radical",
+          "R1.0": 0.848,
+          "ACS": 173,
+          "K": 39,
+          "D": 56,
+          "A": 24,
+          "PlusMinus": -17,
+          "KAST": 0.75,
+          "ADR": 113.2,
+          "HS%": 0.132,
+          "FK": 8,
+          "FD": 17,
+          "PlusMinus2": -9
+        }
+      ]
+    },
+    {
+      "team": "NAVI",
+      "teamName": "No Actual Valorant Intelligence",
+      "players": [
+        {
+          "Player": "KennyS",
+          "R1.0": 1.111,
+          "ACS": 237,
+          "K": 60,
+          "D": 55,
+          "A": 27,
+          "PlusMinus": 5,
+          "KAST": 0.68,
+          "ADR": 156.9,
+          "HS%": 0.29,
+          "FK": 7,
+          "FD": 9,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "stingray",
+          "R1.0": 1.028,
+          "ACS": 231,
+          "K": 57,
+          "D": 54,
+          "A": 10,
+          "PlusMinus": 3,
+          "KAST": 0.722,
+          "ADR": 147.0,
+          "HS%": 0.209,
+          "FK": 12,
+          "FD": 8,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "linus",
+          "R1.0": 0.91,
+          "ACS": 189,
+          "K": 43,
+          "D": 56,
+          "A": 27,
+          "PlusMinus": -13,
+          "KAST": 0.68,
+          "ADR": 130.8,
+          "HS%": 0.215,
+          "FK": 3,
+          "FD": 4,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "kaydeg",
+          "R1.0": 0.826,
+          "ACS": 195,
+          "K": 47,
+          "D": 59,
+          "A": 11,
+          "PlusMinus": -12,
+          "KAST": 0.542,
+          "ADR": 129.6,
+          "HS%": 0.168,
+          "FK": 10,
+          "FD": 11,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "cassie",
+          "R1.0": 0.741,
+          "ACS": 156,
+          "K": 37,
+          "D": 59,
+          "A": 16,
+          "PlusMinus": -22,
+          "KAST": 0.611,
+          "ADR": 111.4,
+          "HS%": 0.259,
+          "FK": 3,
+          "FD": 5,
+          "PlusMinus2": -2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Summit",
+      "score1": 15,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 25,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 26,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 27,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 28,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Phoenix",
+              "R1.0": 1.663,
+              "ACS": 366,
+              "K": 40,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 23,
+              "KAST": 0.75,
+              "ADR": 229.1,
+              "HS%": 0.265,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "roro",
+              "Agent": "Omen",
+              "R1.0": 1.084,
+              "ACS": 208,
+              "K": 20,
+              "D": 18,
+              "A": 14,
+              "PlusMinus": 2,
+              "KAST": 0.679,
+              "ADR": 140.1,
+              "HS%": 0.25,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 1.082,
+              "ACS": 208,
+              "K": 20,
+              "D": 18,
+              "A": 13,
+              "PlusMinus": 2,
+              "KAST": 0.75,
+              "ADR": 133.5,
+              "HS%": 0.12,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 1.017,
+              "ACS": 207,
+              "K": 20,
+              "D": 20,
+              "A": 6,
+              "PlusMinus": 0,
+              "KAST": 0.786,
+              "ADR": 138.1,
+              "HS%": 0.219,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "radical",
+              "Agent": "Raze",
+              "R1.0": 0.756,
+              "ACS": 159,
+              "K": 12,
+              "D": 23,
+              "A": 12,
+              "PlusMinus": -11,
+              "KAST": 0.643,
+              "ADR": 113.6,
+              "HS%": 0.103,
+              "FK": 4,
+              "FD": 9,
+              "PlusMinus2": -5
+            }
+          ]
+        },
+        {
+          "team": "NAVI",
+          "teamName": "No Actual Valorant Intelligence",
+          "players": [
+            {
+              "Player": "KennyS",
+              "Agent": "Harbor",
+              "R1.0": 1.438,
+              "ACS": 294,
+              "K": 30,
+              "D": 18,
+              "A": 13,
+              "PlusMinus": 12,
+              "KAST": 0.75,
+              "ADR": 197.7,
+              "HS%": 0.391,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": "Neon",
+              "R1.0": 0.835,
+              "ACS": 206,
+              "K": 20,
+              "D": 23,
+              "A": 4,
+              "PlusMinus": -3,
+              "KAST": 0.464,
+              "ADR": 130.9,
+              "HS%": 0.206,
+              "FK": 5,
+              "FD": 4,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "stingray",
+              "Agent": "Chamber",
+              "R1.0": 0.823,
+              "ACS": 192,
+              "K": 18,
+              "D": 23,
+              "A": 2,
+              "PlusMinus": -5,
+              "KAST": 0.714,
+              "ADR": 116.9,
+              "HS%": 0.196,
+              "FK": 6,
+              "FD": 3,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "linus",
+              "Agent": "Phoenix",
+              "R1.0": 0.804,
+              "ACS": 173,
+              "K": 15,
+              "D": 23,
+              "A": 12,
+              "PlusMinus": -8,
+              "KAST": 0.571,
+              "ADR": 118.0,
+              "HS%": 0.169,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "cassie",
+              "Agent": "Fade",
+              "R1.0": 0.717,
+              "ACS": 153,
+              "K": 13,
+              "D": 25,
+              "A": 8,
+              "PlusMinus": -12,
+              "KAST": 0.607,
+              "ADR": 120.1,
+              "HS%": 0.314,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 1.638,
+                "ACS": 378,
+                "K": 21,
+                "D": 9,
+                "A": 1,
+                "PlusMinus": 12,
+                "KAST": 0.714,
+                "ADR": 223.9,
+                "HS%": 0.226,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 14
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 1.107,
+                "ACS": 230,
+                "K": 11,
+                "D": 11,
+                "A": 6,
+                "PlusMinus": 0,
+                "KAST": 0.786,
+                "ADR": 151.3,
+                "HS%": 0.115,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 14
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 1.005,
+                "ACS": 220,
+                "K": 10,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -1,
+                "KAST": 0.786,
+                "ADR": 139.3,
+                "HS%": 0.242,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 14
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 0.861,
+                "ACS": 158,
+                "K": 8,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.571,
+                "ADR": 96.4,
+                "HS%": 0.182,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 14
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 0.521,
+                "ACS": 92,
+                "K": 1,
+                "D": 12,
+                "A": 8,
+                "PlusMinus": -11,
+                "KAST": 0.643,
+                "ADR": 90.8,
+                "HS%": 0.1,
+                "FK": 1,
+                "FD": 5,
+                "PlusMinus2": -4,
+                "Rounds": 14
+              }
+            ]
+          },
+          {
+            "team": "NAVI",
+            "teamName": "No Actual Valorant Intelligence",
+            "players": [
+              {
+                "Player": "KennyS",
+                "Agent": "Harbor",
+                "R1.0": 1.17,
+                "ACS": 240,
+                "K": 12,
+                "D": 11,
+                "A": 9,
+                "PlusMinus": 1,
+                "KAST": 0.714,
+                "ADR": 150.4,
+                "HS%": 0.321,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 14
+              },
+              {
+                "Player": "stingray",
+                "Agent": "Chamber",
+                "R1.0": 0.935,
+                "ACS": 223,
+                "K": 10,
+                "D": 12,
+                "A": 2,
+                "PlusMinus": -2,
+                "KAST": 0.786,
+                "ADR": 136.9,
+                "HS%": 0.241,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3,
+                "Rounds": 14
+              },
+              {
+                "Player": "linus",
+                "Agent": "Phoenix",
+                "R1.0": 0.802,
+                "ACS": 184,
+                "K": 10,
+                "D": 12,
+                "A": 3,
+                "PlusMinus": -2,
+                "KAST": 0.571,
+                "ADR": 103.9,
+                "HS%": 0.13,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 14
+              },
+              {
+                "Player": "cassie",
+                "Agent": "Fade",
+                "R1.0": 0.739,
+                "ACS": 162,
+                "K": 6,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": -7,
+                "KAST": 0.571,
+                "ADR": 140.9,
+                "HS%": 0.31,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 14
+              },
+              {
+                "Player": "kaydeg",
+                "Agent": "Neon",
+                "R1.0": 0.552,
+                "ACS": 145,
+                "K": 7,
+                "D": 13,
+                "A": 2,
+                "PlusMinus": -6,
+                "KAST": 0.429,
+                "ADR": 87.8,
+                "HS%": 0.263,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 14
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 1.688,
+                "ACS": 354,
+                "K": 19,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": 11,
+                "KAST": 0.786,
+                "ADR": 234.4,
+                "HS%": 0.314,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 14
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 1.307,
+                "ACS": 259,
+                "K": 12,
+                "D": 10,
+                "A": 9,
+                "PlusMinus": 2,
+                "KAST": 0.786,
+                "ADR": 183.9,
+                "HS%": 0.286,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 14
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 1.057,
+                "ACS": 186,
+                "K": 9,
+                "D": 7,
+                "A": 7,
+                "PlusMinus": 2,
+                "KAST": 0.714,
+                "ADR": 115.8,
+                "HS%": 0.125,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 14
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 1.028,
+                "ACS": 194,
+                "K": 10,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": 1,
+                "KAST": 0.786,
+                "ADR": 136.9,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 14
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 0.992,
+                "ACS": 227,
+                "K": 11,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": 0,
+                "KAST": 0.643,
+                "ADR": 136.5,
+                "HS%": 0.105,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1,
+                "Rounds": 14
+              }
+            ]
+          },
+          {
+            "team": "NAVI",
+            "teamName": "No Actual Valorant Intelligence",
+            "players": [
+              {
+                "Player": "KennyS",
+                "Agent": "Harbor",
+                "R1.0": 1.706,
+                "ACS": 347,
+                "K": 18,
+                "D": 7,
+                "A": 4,
+                "PlusMinus": 11,
+                "KAST": 0.786,
+                "ADR": 244.9,
+                "HS%": 0.439,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 14
+              },
+              {
+                "Player": "kaydeg",
+                "Agent": "Neon",
+                "R1.0": 1.118,
+                "ACS": 268,
+                "K": 13,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": 3,
+                "KAST": 0.5,
+                "ADR": 174.0,
+                "HS%": 0.182,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1,
+                "Rounds": 14
+              },
+              {
+                "Player": "linus",
+                "Agent": "Phoenix",
+                "R1.0": 0.805,
+                "ACS": 163,
+                "K": 5,
+                "D": 11,
+                "A": 9,
+                "PlusMinus": -6,
+                "KAST": 0.571,
+                "ADR": 132.1,
+                "HS%": 0.194,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 14
+              },
+              {
+                "Player": "stingray",
+                "Agent": "Chamber",
+                "R1.0": 0.711,
+                "ACS": 160,
+                "K": 8,
+                "D": 11,
+                "A": 0,
+                "PlusMinus": -3,
+                "KAST": 0.643,
+                "ADR": 96.9,
+                "HS%": 0.136,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0,
+                "Rounds": 14
+              },
+              {
+                "Player": "cassie",
+                "Agent": "Fade",
+                "R1.0": 0.695,
+                "ACS": 143,
+                "K": 7,
+                "D": 12,
+                "A": 3,
+                "PlusMinus": -5,
+                "KAST": 0.643,
+                "ADR": 99.3,
+                "HS%": 0.318,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 14
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Split",
+      "score1": 14,
+      "score2": 12,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 25,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 26,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Phoenix",
+              "R1.0": 1.63,
+              "ACS": 364,
+              "K": 34,
+              "D": 16,
+              "A": 10,
+              "PlusMinus": 18,
+              "KAST": 0.808,
+              "ADR": 217.8,
+              "HS%": 0.219,
+              "FK": 7,
+              "FD": 1,
+              "PlusMinus2": 6
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 1.293,
+              "ACS": 289,
+              "K": 25,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 8,
+              "KAST": 0.731,
+              "ADR": 192.9,
+              "HS%": 0.171,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "roro",
+              "Agent": "Omen",
+              "R1.0": 0.976,
+              "ACS": 175,
+              "K": 17,
+              "D": 20,
+              "A": 15,
+              "PlusMinus": -3,
+              "KAST": 0.692,
+              "ADR": 123.5,
+              "HS%": 0.194,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 0.68,
+              "ACS": 133,
+              "K": 8,
+              "D": 20,
+              "A": 13,
+              "PlusMinus": -12,
+              "KAST": 0.615,
+              "ADR": 97.6,
+              "HS%": 0.211,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "radical",
+              "Agent": "Raze",
+              "R1.0": 0.656,
+              "ACS": 130,
+              "K": 10,
+              "D": 21,
+              "A": 6,
+              "PlusMinus": -11,
+              "KAST": 0.731,
+              "ADR": 87.8,
+              "HS%": 0.175,
+              "FK": 4,
+              "FD": 6,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "NAVI",
+          "teamName": "No Actual Valorant Intelligence",
+          "players": [
+            {
+              "Player": "stingray",
+              "Agent": "Omen",
+              "R1.0": 1.285,
+              "ACS": 277,
+              "K": 26,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": 9,
+              "KAST": 0.769,
+              "ADR": 169.3,
+              "HS%": 0.219,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "linus",
+              "Agent": "Phoenix",
+              "R1.0": 0.953,
+              "ACS": 187,
+              "K": 15,
+              "D": 19,
+              "A": 12,
+              "PlusMinus": -4,
+              "KAST": 0.692,
+              "ADR": 135.0,
+              "HS%": 0.167,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "cassie",
+              "Agent": "Fade",
+              "R1.0": 0.934,
+              "ACS": 188,
+              "K": 18,
+              "D": 18,
+              "A": 2,
+              "PlusMinus": 0,
+              "KAST": 0.731,
+              "ADR": 125.6,
+              "HS%": 0.273,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "KennyS",
+              "Agent": "Viper",
+              "R1.0": 0.873,
+              "ACS": 189,
+              "K": 17,
+              "D": 20,
+              "A": 7,
+              "PlusMinus": -3,
+              "KAST": 0.615,
+              "ADR": 120.0,
+              "HS%": 0.213,
+              "FK": 4,
+              "FD": 5,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": "Neon",
+              "R1.0": 0.868,
+              "ACS": 186,
+              "K": 18,
+              "D": 20,
+              "A": 2,
+              "PlusMinus": -2,
+              "KAST": 0.615,
+              "ADR": 126.8,
+              "HS%": 0.185,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 1.274,
+                "ACS": 268,
+                "K": 12,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": 4,
+                "KAST": 0.769,
+                "ADR": 164.7,
+                "HS%": 0.229,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 13
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 1.262,
+                "ACS": 291,
+                "K": 13,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": 4,
+                "KAST": 0.692,
+                "ADR": 180.1,
+                "HS%": 0.227,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 13
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 0.941,
+                "ACS": 193,
+                "K": 9,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": -1,
+                "KAST": 0.846,
+                "ADR": 120.1,
+                "HS%": 0.25,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1,
+                "Rounds": 13
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 0.853,
+                "ACS": 164,
+                "K": 7,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": -2,
+                "KAST": 0.692,
+                "ADR": 110.7,
+                "HS%": 0.2,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 13
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 0.78,
+                "ACS": 128,
+                "K": 5,
+                "D": 12,
+                "A": 11,
+                "PlusMinus": -7,
+                "KAST": 0.769,
+                "ADR": 96.4,
+                "HS%": 0.261,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 13
+              }
+            ]
+          },
+          {
+            "team": "NAVI",
+            "teamName": "No Actual Valorant Intelligence",
+            "players": [
+              {
+                "Player": "stingray",
+                "Agent": "Omen",
+                "R1.0": 1.25,
+                "ACS": 281,
+                "K": 13,
+                "D": 9,
+                "A": 5,
+                "PlusMinus": 4,
+                "KAST": 0.615,
+                "ADR": 170.9,
+                "HS%": 0.225,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 13
+              },
+              {
+                "Player": "cassie",
+                "Agent": "Fade",
+                "R1.0": 1.048,
+                "ACS": 212,
+                "K": 10,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 2,
+                "KAST": 0.615,
+                "ADR": 148.5,
+                "HS%": 0.29,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 13
+              },
+              {
+                "Player": "linus",
+                "Agent": "Phoenix",
+                "R1.0": 0.877,
+                "ACS": 197,
+                "K": 8,
+                "D": 10,
+                "A": 4,
+                "PlusMinus": -2,
+                "KAST": 0.615,
+                "ADR": 126.5,
+                "HS%": 0.139,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 13
+              },
+              {
+                "Player": "kaydeg",
+                "Agent": "Neon",
+                "R1.0": 0.835,
+                "ACS": 182,
+                "K": 9,
+                "D": 11,
+                "A": 1,
+                "PlusMinus": -2,
+                "KAST": 0.615,
+                "ADR": 127.2,
+                "HS%": 0.333,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 13
+              },
+              {
+                "Player": "KennyS",
+                "Agent": "Viper",
+                "R1.0": 0.676,
+                "ACS": 145,
+                "K": 6,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -4,
+                "KAST": 0.538,
+                "ADR": 96.5,
+                "HS%": 0.13,
+                "FK": 2,
+                "FD": 4,
+                "PlusMinus2": -2,
+                "Rounds": 13
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 1.985,
+                "ACS": 461,
+                "K": 22,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": 14,
+                "KAST": 0.846,
+                "ADR": 270.9,
+                "HS%": 0.213,
+                "FK": 5,
+                "FD": 0,
+                "PlusMinus2": 5,
+                "Rounds": 13
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 1.324,
+                "ACS": 288,
+                "K": 12,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 4,
+                "KAST": 0.769,
+                "ADR": 205.8,
+                "HS%": 0.139,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 13
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 1.173,
+                "ACS": 221,
+                "K": 12,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": 4,
+                "KAST": 0.615,
+                "ADR": 150.5,
+                "HS%": 0.154,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 13
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 0.507,
+                "ACS": 102,
+                "K": 1,
+                "D": 11,
+                "A": 9,
+                "PlusMinus": -10,
+                "KAST": 0.538,
+                "ADR": 84.5,
+                "HS%": 0.222,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 13
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 0.372,
+                "ACS": 67,
+                "K": 1,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -10,
+                "KAST": 0.615,
+                "ADR": 55.6,
+                "HS%": 0.062,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 13
+              }
+            ]
+          },
+          {
+            "team": "NAVI",
+            "teamName": "No Actual Valorant Intelligence",
+            "players": [
+              {
+                "Player": "stingray",
+                "Agent": "Omen",
+                "R1.0": 1.319,
+                "ACS": 272,
+                "K": 13,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 5,
+                "KAST": 0.923,
+                "ADR": 167.6,
+                "HS%": 0.212,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 13
+              },
+              {
+                "Player": "KennyS",
+                "Agent": "Viper",
+                "R1.0": 1.07,
+                "ACS": 233,
+                "K": 11,
+                "D": 10,
+                "A": 4,
+                "PlusMinus": 1,
+                "KAST": 0.692,
+                "ADR": 143.5,
+                "HS%": 0.292,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 13
+              },
+              {
+                "Player": "linus",
+                "Agent": "Phoenix",
+                "R1.0": 1.029,
+                "ACS": 177,
+                "K": 7,
+                "D": 9,
+                "A": 8,
+                "PlusMinus": -2,
+                "KAST": 0.769,
+                "ADR": 143.5,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 13
+              },
+              {
+                "Player": "kaydeg",
+                "Agent": "Neon",
+                "R1.0": 0.9,
+                "ACS": 190,
+                "K": 9,
+                "D": 9,
+                "A": 1,
+                "PlusMinus": 0,
+                "KAST": 0.615,
+                "ADR": 126.4,
+                "HS%": 0.114,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 13
+              },
+              {
+                "Player": "cassie",
+                "Agent": "Fade",
+                "R1.0": 0.82,
+                "ACS": 163,
+                "K": 8,
+                "D": 10,
+                "A": 0,
+                "PlusMinus": -2,
+                "KAST": 0.846,
+                "ADR": 102.6,
+                "HS%": 0.25,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 13
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 5,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Phoenix",
+              "R1.0": 1.813,
+              "ACS": 386,
+              "K": 27,
+              "D": 9,
+              "A": 6,
+              "PlusMinus": 18,
+              "KAST": 0.833,
+              "ADR": 230.4,
+              "HS%": 0.205,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "radical",
+              "Agent": "Raze",
+              "R1.0": 1.268,
+              "ACS": 257,
+              "K": 17,
+              "D": 12,
+              "A": 6,
+              "PlusMinus": 5,
+              "KAST": 0.944,
+              "ADR": 149.3,
+              "HS%": 0.117,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 1.093,
+              "ACS": 200,
+              "K": 13,
+              "D": 9,
+              "A": 6,
+              "PlusMinus": 4,
+              "KAST": 0.722,
+              "ADR": 127.0,
+              "HS%": 0.268,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 0.959,
+              "ACS": 185,
+              "K": 11,
+              "D": 12,
+              "A": 7,
+              "PlusMinus": -1,
+              "KAST": 0.778,
+              "ADR": 114.4,
+              "HS%": 0.077,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "roro",
+              "Agent": "Omen",
+              "R1.0": 0.804,
+              "ACS": 132,
+              "K": 9,
+              "D": 12,
+              "A": 10,
+              "PlusMinus": -3,
+              "KAST": 0.667,
+              "ADR": 75.6,
+              "HS%": 0.261,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "NAVI",
+          "teamName": "No Actual Valorant Intelligence",
+          "players": [
+            {
+              "Player": "linus",
+              "Agent": "Tejo",
+              "R1.0": 1.013,
+              "ACS": 217,
+              "K": 13,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": -1,
+              "KAST": 0.833,
+              "ADR": 144.6,
+              "HS%": 0.357,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "stingray",
+              "Agent": "Chamber",
+              "R1.0": 0.979,
+              "ACS": 227,
+              "K": 13,
+              "D": 14,
+              "A": 1,
+              "PlusMinus": -1,
+              "KAST": 0.667,
+              "ADR": 161.8,
+              "HS%": 0.214,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "KennyS",
+              "Agent": "Astra",
+              "R1.0": 0.946,
+              "ACS": 219,
+              "K": 13,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": -4,
+              "KAST": 0.667,
+              "ADR": 146.9,
+              "HS%": 0.244,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": "Raze",
+              "R1.0": 0.75,
+              "ACS": 191,
+              "K": 9,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": -7,
+              "KAST": 0.556,
+              "ADR": 131.8,
+              "HS%": 0.086,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "cassie",
+              "Agent": "Fade",
+              "R1.0": 0.5,
+              "ACS": 113,
+              "K": 6,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -10,
+              "KAST": 0.444,
+              "ADR": 77.2,
+              "HS%": 0.154,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 1.702,
+                "ACS": 366,
+                "K": 17,
+                "D": 6,
+                "A": 3,
+                "PlusMinus": 11,
+                "KAST": 0.833,
+                "ADR": 212.0,
+                "HS%": 0.175,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 1.295,
+                "ACS": 279,
+                "K": 12,
+                "D": 9,
+                "A": 5,
+                "PlusMinus": 3,
+                "KAST": 0.917,
+                "ADR": 158.2,
+                "HS%": 0.114,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 1.151,
+                "ACS": 217,
+                "K": 9,
+                "D": 6,
+                "A": 5,
+                "PlusMinus": 3,
+                "KAST": 0.75,
+                "ADR": 133.0,
+                "HS%": 0.086,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 1.064,
+                "ACS": 188,
+                "K": 8,
+                "D": 6,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.75,
+                "ADR": 124.0,
+                "HS%": 0.231,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 0.596,
+                "ACS": 110,
+                "K": 5,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": -5,
+                "KAST": 0.667,
+                "ADR": 52.3,
+                "HS%": 0.154,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "NAVI",
+            "teamName": "No Actual Valorant Intelligence",
+            "players": [
+              {
+                "Player": "kaydeg",
+                "Agent": "Raze",
+                "R1.0": 1.229,
+                "ACS": 295,
+                "K": 6,
+                "D": 5,
+                "A": 1,
+                "PlusMinus": 1,
+                "KAST": 0.833,
+                "ADR": 179.5,
+                "HS%": 0.1,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "KennyS",
+                "Agent": "Astra",
+                "R1.0": 1.216,
+                "ACS": 279,
+                "K": 6,
+                "D": 6,
+                "A": 2,
+                "PlusMinus": 0,
+                "KAST": 1.0,
+                "ADR": 167.0,
+                "HS%": 0.174,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 6
+              },
+              {
+                "Player": "linus",
+                "Agent": "Tejo",
+                "R1.0": 0.529,
+                "ACS": 122,
+                "K": 2,
+                "D": 5,
+                "A": 0,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 81.7,
+                "HS%": 0.375,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "cassie",
+                "Agent": "Fade",
+                "R1.0": 0.483,
+                "ACS": 87,
+                "K": 2,
+                "D": 5,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.5,
+                "ADR": 53.7,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 6
+              },
+              {
+                "Player": "stingray",
+                "Agent": "Chamber",
+                "R1.0": 0.364,
+                "ACS": 85,
+                "K": 1,
+                "D": 5,
+                "A": 0,
+                "PlusMinus": -4,
+                "KAST": 0.5,
+                "ADR": 73.3,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 6
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 2.034,
+                "ACS": 426,
+                "K": 10,
+                "D": 3,
+                "A": 3,
+                "PlusMinus": 7,
+                "KAST": 0.833,
+                "ADR": 267.3,
+                "HS%": 0.269,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 6
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 1.219,
+                "ACS": 177,
+                "K": 4,
+                "D": 2,
+                "A": 5,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 122.0,
+                "HS%": 0.4,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 6
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 1.215,
+                "ACS": 212,
+                "K": 5,
+                "D": 3,
+                "A": 1,
+                "PlusMinus": 2,
+                "KAST": 1.0,
+                "ADR": 131.7,
+                "HS%": 0.125,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 6
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 1.152,
+                "ACS": 225,
+                "K": 5,
+                "D": 3,
+                "A": 2,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 133.0,
+                "HS%": 0.353,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 6
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 0.573,
+                "ACS": 121,
+                "K": 2,
+                "D": 6,
+                "A": 2,
+                "PlusMinus": -4,
+                "KAST": 0.833,
+                "ADR": 77.2,
+                "HS%": 0.059,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              }
+            ]
+          },
+          {
+            "team": "NAVI",
+            "teamName": "No Actual Valorant Intelligence",
+            "players": [
+              {
+                "Player": "stingray",
+                "Agent": "Chamber",
+                "R1.0": 1.286,
+                "ACS": 298,
+                "K": 12,
+                "D": 9,
+                "A": 1,
+                "PlusMinus": 3,
+                "KAST": 0.75,
+                "ADR": 206.0,
+                "HS%": 0.29,
+                "FK": 5,
+                "FD": 1,
+                "PlusMinus2": 4,
+                "Rounds": 12
+              },
+              {
+                "Player": "linus",
+                "Agent": "Tejo",
+                "R1.0": 1.256,
+                "ACS": 264,
+                "K": 11,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": 2,
+                "KAST": 0.917,
+                "ADR": 176.1,
+                "HS%": 0.353,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "KennyS",
+                "Agent": "Astra",
+                "R1.0": 0.81,
+                "ACS": 188,
+                "K": 7,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": -4,
+                "KAST": 0.5,
+                "ADR": 136.8,
+                "HS%": 0.318,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "kaydeg",
+                "Agent": "Raze",
+                "R1.0": 0.51,
+                "ACS": 139,
+                "K": 3,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -8,
+                "KAST": 0.417,
+                "ADR": 107.9,
+                "HS%": 0.071,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "cassie",
+                "Agent": "Fade",
+                "R1.0": 0.509,
+                "ACS": 125,
+                "K": 4,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -7,
+                "KAST": 0.417,
+                "ADR": 89.0,
+                "HS%": 0.235,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=TEy9xZ3zo7c"
 }
