@@ -1,21 +1,30 @@
 {
 	"Playoffs": {
 		"names": {
-		"upper": ["Upper Quarterfinal", "Upper Semifinal", "Upper Final"],
-		"lower": ["Lower Round 1", "Lower Quarterfinal", "Lower Semifinal", "Lower Final"],
-		"final": "Grand Final"
-	},
+			"upper": ["Upper Quarterfinal", "Upper Semifinal", "Upper Final"],
+			"lower": ["Lower Round 1", "Lower Quarterfinal", "Lower Semifinal", "Lower Final"],
+			"final": "Grand Final"
+		},
 		"upper": [
-			[{ "teams": ["SPG", "FSG"] }, { "teams": ["T1", "TS"] }],
-			[{ "teams": ["C9", "SPG"] }, { "teams": ["SRB", "T1"] }],
-			[{ "teams": ["SPG", "T1"] }]
+			[{ "id": "Upper QF #1", "teams": ["SPG", "FSG"] }, { "id": "Upper QF #2", "teams": ["T1", "TS"] }],
+			[
+				{ "id": "Upper SF #1", "teams": ["C9", "W:Upper QF #1"] },
+				{ "id": "Upper SF #2", "teams": ["SRB", "W:Upper QF #2"] }
+			],
+			[{ "id": "Upper F", "teams": ["W:Upper SF #1", "W:Upper SF #2"] }]
 		],
 		"lower": [
-			[{ "teams": ["FSG", "NAVI"] }, { "teams": ["TS", "TL"] }],
-			[{ "teams": ["SRB", "NAVI"] }, { "teams": ["C9", "TL"] }],
-			[{ "teams": ["NAVI", "C9"] }],
-			[{ "teams": ["T1", "NAVI"] }]
+			[
+				{ "id": "Lower R1 #1", "teams": ["L:Upper QF #1", "NAVI"] },
+				{ "id": "Lower R1 #2", "teams": ["L:Upper QF #2", "TL"] }
+			],
+			[
+				{ "id": "Lower QF #1", "teams": ["L:Upper SF #2", "W:Lower R1 #1"] },
+				{ "id": "Lower QF #2", "teams": ["L:Upper SF #1", "W:Lower R1 #2"] }
+			],
+			[{ "id": "Lower SF", "teams": ["W:Lower QF #1", "W:Lower QF #2"] }],
+			[{ "id": "Lower F", "teams": ["L:Upper F", "W:Lower SF"] }]
 		],
-		"final": [{ "teams": ["SPG", null] }]
+		"final": [{ "teams": ["W:Upper F", "W:Lower F"] }]
 	}
 }

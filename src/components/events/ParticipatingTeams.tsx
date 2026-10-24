@@ -56,7 +56,7 @@ const ParticipatingTeams: React.FC<{ event: Event; stageIdx: number }> = ({ even
 	const abbrs = new Set<string>();
 	const bracket = allBrackets[event.id][stage.name];
 	for (const slot of [...(bracket?.upper ?? []), ...(bracket?.lower ?? []), bracket?.final ?? []].flat()) {
-		slot?.teams?.forEach((abbr) => abbr && abbrs.add(abbr));
+		slot?.teams?.forEach((abbr) => abbr && !/^[WL]:/.test(abbr) && abbrs.add(abbr));
 	}
 	for (const m of stageMatches) abbrs.add(m.team1).add(m.team2);
 	for (const team of Object.values(teams)) if (team.group && names.includes(team.group)) abbrs.add(team.abbr);

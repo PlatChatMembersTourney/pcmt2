@@ -33,6 +33,9 @@ const CORNER_RADIUS = 2; // Max radius of a feed line's corners
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
+// "W:<slot id>" or "L:<slot id>"
+const REF = /^([WL]):(.+)$/;
+
 const DATE_LINE_CLASSES =
 	"absolute top-[calc(100%+6px)] left-0 pl-2 leading-[15px] whitespace-nowrap before:absolute before:left-0 before:content-['-']";
 
@@ -80,6 +83,20 @@ const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[]
 		);
 	};
 
+	// Winner and loser of each completed slot, by slot id
+	const results = new Map<string, { W: string; L: string }>();
+
+	// Team abbr, or a ref's team once its match is played
+	const resolve = (entry: string | null) => {
+		const ref = entry?.match(REF);
+		if (!ref) return { abbr: entry, placeholder: null };
+		const [, side, slotId] = ref;
+		return {
+			abbr: results.get(slotId)?.[side as 'W' | 'L'] ?? null,
+			placeholder: `${slotId} ${side === 'W' ? 'Winner' : 'Loser'}`,
+		};
+	};
+
 	const groups = layout.lower ? [upperRounds, layout.lower, ...(finalRound ? [[finalRound]] : [])] : [upperRounds];
 	const viewerMatches: ViewerMatch[] = [];
 	let roundId = 0;
@@ -105,12 +122,22 @@ const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[]
 					return;
 				}
 
-				const match = findMatch(slot);
+				const sides = (slot.teams ?? [null, null]).map(resolve);
+				const match = findMatch({ ...slot, teams: slot.teams && [sides[0].abbr, sides[1].abbr] });
 				if (match) {
 					used.add(match.id);
 					pcmtMatches.set(id, match);
 				}
-				const [top, bottom] = slot.teams ?? [match!.team1, match!.team2];
+				const [top, bottom] = slot.teams ? [sides[0].abbr, sides[1].abbr] : [match!.team1, match!.team2];
+
+				// Result for later refs
+				if (match?.completed && slot.id) {
+					const topWon = match.score1 > match.score2;
+					results.set(slot.id, {
+						W: topWon ? match.team1 : match.team2,
+						L: topWon ? match.team2 : match.team1,
+					});
+				}
 
 				// Round 2 positions place the byes
 				const fromSlot = !straightFirstRound && groupId === 0 && roundIdx === 1;
@@ -118,7 +145,7 @@ const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[]
 				const opponent = (abbr: string | null, other: string | null, side: number) => {
 					const position = fromSlot ? slotIdx * 2 + side : undefined;
 					if (!abbr) {
-						const placeholder = slot.placeholders?.[side - 1];
+						const placeholder = slot.placeholders?.[side - 1] ?? sides[side - 1].placeholder;
 						return { id: placeholder ? placeholderId(placeholder) : null, position };
 					}
 					// No score until it's played, so the viewer shows "-" instead of 0

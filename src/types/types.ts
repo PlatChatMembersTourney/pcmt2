@@ -145,7 +145,9 @@ export interface Format {
 }
 
 export type BracketSlot = {
-	teams?: [string | null, string | null]; // team abbrs, top then bottom - null while TBD
+	id?: string; // name for refs to this slot, e.g. "Upper SF #1"
+	// team abbrs, top then bottom - null while TBD, or "W:<slot id>" / "L:<slot id>" for that slot's winner/loser
+	teams?: [string | null, string | null];
 	match?: string; // match id - only needed if the same two teams play each other twice
 	placeholders?: [string | null, string | null]; // text shown while that team is null, e.g. "Group Alpha #2"
 } | null;
