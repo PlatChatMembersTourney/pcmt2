@@ -2,8 +2,8 @@
   "ATLC": {
     "team": "ATLC",
     "teamName": "ATLNTIC Esports",
-    "overallAtkPct": 0.528,
-    "overallDefPct": 0.437,
+    "overallAtkPct": 0.517,
+    "overallDefPct": 0.441,
     "maps": [
       {
         "map": "Abyss",
@@ -22,14 +22,14 @@
         "map": "Ascent",
         "pick": 2,
         "ban": 1,
-        "played": 3,
+        "played": 4,
         "won": 2,
-        "winPct": 0.667,
-        "rounds": 67,
-        "roundsWon": 36,
-        "roundPct": 0.537,
-        "atkPct": 0.6,
-        "defPct": 0.469
+        "winPct": 0.5,
+        "rounds": 91,
+        "roundsWon": 47,
+        "roundPct": 0.516,
+        "atkPct": 0.553,
+        "defPct": 0.477
       },
       {
         "map": "Bind",
@@ -112,7 +112,7 @@
       {
         "map": "Lotus",
         "pick": 0,
-        "ban": 4,
+        "ban": 5,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -138,7 +138,7 @@
       {
         "map": "Split",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 1,
         "won": 0,
         "winPct": 0.0,
@@ -163,16 +163,16 @@
       },
       {
         "map": "Sunset",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "winPct": 0.0,
-        "rounds": 21,
-        "roundsWon": 8,
-        "roundPct": 0.381,
-        "atkPct": 0.417,
-        "defPct": 0.333
+        "rounds": 45,
+        "roundsWon": 19,
+        "roundPct": 0.422,
+        "atkPct": 0.458,
+        "defPct": 0.381
       }
     ]
   },
@@ -710,13 +710,13 @@
   "NATS": {
     "team": "NATS",
     "teamName": "Never Available To Scrim",
-    "overallAtkPct": 0.565,
-    "overallDefPct": 0.488,
+    "overallAtkPct": 0.561,
+    "overallDefPct": 0.497,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -728,16 +728,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 24,
-        "roundsWon": 13,
+        "rounds": 48,
+        "roundsWon": 26,
         "roundPct": 0.542,
-        "atkPct": 0.833,
-        "defPct": 0.25
+        "atkPct": 0.667,
+        "defPct": 0.417
       },
       {
         "map": "Bind",
@@ -859,7 +859,7 @@
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 4,
+        "ban": 5,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -873,14 +873,14 @@
         "map": "Sunset",
         "pick": 1,
         "ban": 0,
-        "played": 3,
-        "won": 2,
-        "winPct": 0.667,
-        "rounds": 55,
-        "roundsWon": 32,
-        "roundPct": 0.582,
-        "atkPct": 0.417,
-        "defPct": 0.71
+        "played": 4,
+        "won": 3,
+        "winPct": 0.75,
+        "rounds": 79,
+        "roundsWon": 45,
+        "roundPct": 0.57,
+        "atkPct": 0.472,
+        "defPct": 0.651
       }
     ]
   },

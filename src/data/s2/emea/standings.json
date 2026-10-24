@@ -14,6 +14,19 @@
       "rndDiff": 29
     },
     {
+      "abbr": "NATS",
+      "name": "Never Available To Scrim",
+      "matchW": 4,
+      "matchL": 1,
+      "mapW": 8,
+      "mapL": 5,
+      "rndW": 148,
+      "rndL": 133,
+      "rank": 2,
+      "mapDiff": 3,
+      "rndDiff": 15
+    },
+    {
       "abbr": "SOG",
       "name": "The SOG",
       "matchW": 3,
@@ -22,7 +35,7 @@
       "mapL": 3,
       "rndW": 105,
       "rndL": 90,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": 3,
       "rndDiff": 15
     },
@@ -35,35 +48,9 @@
       "mapL": 4,
       "rndW": 118,
       "rndL": 96,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 2,
       "rndDiff": 22
-    },
-    {
-      "abbr": "NATS",
-      "name": "Never Available To Scrim",
-      "matchW": 3,
-      "matchL": 1,
-      "mapW": 6,
-      "mapL": 5,
-      "rndW": 122,
-      "rndL": 111,
-      "rank": 4,
-      "mapDiff": 1,
-      "rndDiff": 11
-    },
-    {
-      "abbr": "ATLC",
-      "name": "ATLNTIC Esports",
-      "matchW": 2,
-      "matchL": 2,
-      "mapW": 5,
-      "mapL": 5,
-      "rndW": 110,
-      "rndL": 116,
-      "rank": 5,
-      "mapDiff": 0,
-      "rndDiff": -6
     },
     {
       "abbr": "NOOT",
@@ -74,9 +61,22 @@
       "mapL": 6,
       "rndW": 125,
       "rndL": 112,
-      "rank": 6,
+      "rank": 5,
       "mapDiff": -1,
       "rndDiff": 13
+    },
+    {
+      "abbr": "ATLC",
+      "name": "ATLNTIC Esports",
+      "matchW": 2,
+      "matchL": 3,
+      "mapW": 5,
+      "mapL": 7,
+      "rndW": 132,
+      "rndL": 142,
+      "rank": 6,
+      "mapDiff": -2,
+      "rndDiff": -10
     },
     {
       "abbr": "FaZe",
@@ -293,6 +293,19 @@
       "rndDiff": 10
     },
     {
+      "abbr": "NATS",
+      "name": "Never Available To Scrim",
+      "matchW": 1,
+      "matchL": 0,
+      "mapW": 2,
+      "mapL": 0,
+      "rndW": 26,
+      "rndL": 22,
+      "rank": 3,
+      "mapDiff": 2,
+      "rndDiff": 4
+    },
+    {
       "abbr": "SEAL",
       "name": "Stay Seally",
       "matchW": 1,
@@ -301,7 +314,7 @@
       "mapL": 1,
       "rndW": 38,
       "rndL": 33,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 1,
       "rndDiff": 5
     },
@@ -314,9 +327,22 @@
       "mapL": 2,
       "rndW": 33,
       "rndL": 38,
-      "rank": 4,
+      "rank": 5,
       "mapDiff": -1,
       "rndDiff": -5
+    },
+    {
+      "abbr": "ATLC",
+      "name": "ATLNTIC Esports",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 0,
+      "mapL": 2,
+      "rndW": 22,
+      "rndL": 26,
+      "rank": 6,
+      "mapDiff": -2,
+      "rndDiff": -4
     },
     {
       "abbr": "NOOT",
@@ -327,7 +353,7 @@
       "mapL": 2,
       "rndW": 21,
       "rndL": 31,
-      "rank": 5,
+      "rank": 7,
       "mapDiff": -2,
       "rndDiff": -10
     },
@@ -340,7 +366,7 @@
       "mapL": 2,
       "rndW": 7,
       "rndL": 26,
-      "rank": 6,
+      "rank": 8,
       "mapDiff": -2,
       "rndDiff": -19
     }

@@ -4,10 +4,1580 @@
   "team2": "ATLC",
   "team1Name": "Never Available To Scrim",
   "team2Name": "ATLNTIC Esports",
-  "score1": 0,
+  "score1": 2,
   "score2": 0,
-  "completed": false,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-10-24T17:00:00Z",
-  "stage": "Playoffs"
+  "stage": "Playoffs",
+  "veto": "ATLC bans Lotus, NATS bans Summit, ATLC picks Sunset, NATS picks Ascent, ATLC bans Split, NATS bans Abyss, Haven remains",
+  "maps": [
+    {
+      "name": "Sunset",
+      "score1": 13,
+      "score2": 11
+    },
+    {
+      "name": "Ascent",
+      "score1": 13,
+      "score2": 11
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "NATS",
+      "teamName": "Never Available To Scrim",
+      "players": [
+        {
+          "Player": "heef",
+          "R1.0": 1.523,
+          "ACS": 309,
+          "K": 53,
+          "D": 30,
+          "A": 27,
+          "PlusMinus": 23,
+          "KAST": 0.791,
+          "ADR": 207.3,
+          "HS%": 0.247,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "denial",
+          "R1.0": 1.197,
+          "ACS": 258,
+          "K": 39,
+          "D": 34,
+          "A": 21,
+          "PlusMinus": 5,
+          "KAST": 0.729,
+          "ADR": 174.5,
+          "HS%": 0.17,
+          "FK": 5,
+          "FD": 0,
+          "PlusMinus2": 5
+        },
+        {
+          "Player": "syim",
+          "R1.0": 1.039,
+          "ACS": 200,
+          "K": 37,
+          "D": 30,
+          "A": 10,
+          "PlusMinus": 7,
+          "KAST": 0.729,
+          "ADR": 126.8,
+          "HS%": 0.225,
+          "FK": 5,
+          "FD": 3,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "reoken",
+          "R1.0": 0.845,
+          "ACS": 176,
+          "K": 29,
+          "D": 39,
+          "A": 13,
+          "PlusMinus": -10,
+          "KAST": 0.667,
+          "ADR": 120.4,
+          "HS%": 0.295,
+          "FK": 10,
+          "FD": 9,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "Spolen",
+          "R1.0": 0.722,
+          "ACS": 148,
+          "K": 25,
+          "D": 38,
+          "A": 10,
+          "PlusMinus": -13,
+          "KAST": 0.625,
+          "ADR": 96.7,
+          "HS%": 0.122,
+          "FK": 5,
+          "FD": 7,
+          "PlusMinus2": -2
+        }
+      ]
+    },
+    {
+      "team": "ATLC",
+      "teamName": "ATLNTIC Esports",
+      "players": [
+        {
+          "Player": "Night",
+          "R1.0": 1.157,
+          "ACS": 266,
+          "K": 47,
+          "D": 37,
+          "A": 6,
+          "PlusMinus": 10,
+          "KAST": 0.666,
+          "ADR": 169.2,
+          "HS%": 0.324,
+          "FK": 6,
+          "FD": 7,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "Optimus",
+          "R1.0": 1.068,
+          "ACS": 221,
+          "K": 37,
+          "D": 35,
+          "A": 15,
+          "PlusMinus": 2,
+          "KAST": 0.75,
+          "ADR": 144.6,
+          "HS%": 0.272,
+          "FK": 6,
+          "FD": 3,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "taylorgzz",
+          "R1.0": 1.064,
+          "ACS": 232,
+          "K": 37,
+          "D": 39,
+          "A": 11,
+          "PlusMinus": -2,
+          "KAST": 0.688,
+          "ADR": 172.7,
+          "HS%": 0.194,
+          "FK": 5,
+          "FD": 5,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "Sky",
+          "R1.0": 0.807,
+          "ACS": 166,
+          "K": 29,
+          "D": 35,
+          "A": 9,
+          "PlusMinus": -6,
+          "KAST": 0.604,
+          "ADR": 106.3,
+          "HS%": 0.162,
+          "FK": 4,
+          "FD": 9,
+          "PlusMinus2": -5
+        },
+        {
+          "Player": "Angel",
+          "R1.0": 0.753,
+          "ACS": 138,
+          "K": 21,
+          "D": 37,
+          "A": 22,
+          "PlusMinus": -16,
+          "KAST": 0.709,
+          "ADR": 90.5,
+          "HS%": 0.189,
+          "FK": 1,
+          "FD": 2,
+          "PlusMinus2": -1
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Sunset",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "NATS",
+          "teamName": "Never Available To Scrim",
+          "players": [
+            {
+              "Player": "heef",
+              "Agent": "Omen",
+              "R1.0": 1.65,
+              "ACS": 334,
+              "K": 30,
+              "D": 16,
+              "A": 12,
+              "PlusMinus": 14,
+              "KAST": 0.833,
+              "ADR": 233.8,
+              "HS%": 0.259,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "denial",
+              "Agent": "Sova",
+              "R1.0": 1.318,
+              "ACS": 289,
+              "K": 22,
+              "D": 18,
+              "A": 11,
+              "PlusMinus": 4,
+              "KAST": 0.833,
+              "ADR": 192.5,
+              "HS%": 0.146,
+              "FK": 4,
+              "FD": 0,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "syim",
+              "Agent": "Sage",
+              "R1.0": 1.061,
+              "ACS": 214,
+              "K": 19,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": 3,
+              "KAST": 0.75,
+              "ADR": 132.0,
+              "HS%": 0.26,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "reoken",
+              "Agent": "Cypher",
+              "R1.0": 0.738,
+              "ACS": 149,
+              "K": 11,
+              "D": 21,
+              "A": 9,
+              "PlusMinus": -10,
+              "KAST": 0.667,
+              "ADR": 111.0,
+              "HS%": 0.351,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Spolen",
+              "Agent": "Raze",
+              "R1.0": 0.611,
+              "ACS": 127,
+              "K": 11,
+              "D": 21,
+              "A": 5,
+              "PlusMinus": -10,
+              "KAST": 0.625,
+              "ADR": 80.4,
+              "HS%": 0.056,
+              "FK": 0,
+              "FD": 5,
+              "PlusMinus2": -5
+            }
+          ]
+        },
+        {
+          "team": "ATLC",
+          "teamName": "ATLNTIC Esports",
+          "players": [
+            {
+              "Player": "Night",
+              "Agent": "Neon",
+              "R1.0": 1.402,
+              "ACS": 317,
+              "K": 28,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": 11,
+              "KAST": 0.75,
+              "ADR": 201.0,
+              "HS%": 0.298,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "taylorgzz",
+              "Agent": "Phoenix",
+              "R1.0": 1.168,
+              "ACS": 259,
+              "K": 20,
+              "D": 19,
+              "A": 8,
+              "PlusMinus": 1,
+              "KAST": 0.708,
+              "ADR": 184.9,
+              "HS%": 0.138,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Optimus",
+              "Agent": "Sova",
+              "R1.0": 1.137,
+              "ACS": 220,
+              "K": 21,
+              "D": 18,
+              "A": 4,
+              "PlusMinus": 3,
+              "KAST": 0.875,
+              "ADR": 150.6,
+              "HS%": 0.395,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Angel",
+              "Agent": "Brimstone",
+              "R1.0": 0.842,
+              "ACS": 149,
+              "K": 10,
+              "D": 20,
+              "A": 19,
+              "PlusMinus": -10,
+              "KAST": 0.792,
+              "ADR": 100.9,
+              "HS%": 0.171,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Sky",
+              "Agent": "Deadlock",
+              "R1.0": 0.682,
+              "ACS": 138,
+              "K": 13,
+              "D": 19,
+              "A": 2,
+              "PlusMinus": -6,
+              "KAST": 0.583,
+              "ADR": 92.9,
+              "HS%": 0.179,
+              "FK": 2,
+              "FD": 5,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "NATS",
+            "teamName": "Never Available To Scrim",
+            "players": [
+              {
+                "Player": "heef",
+                "Agent": "Omen",
+                "R1.0": 1.946,
+                "ACS": 376,
+                "K": 19,
+                "D": 6,
+                "A": 5,
+                "PlusMinus": 13,
+                "KAST": 0.917,
+                "ADR": 247.2,
+                "HS%": 0.25,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "denial",
+                "Agent": "Sova",
+                "R1.0": 1.497,
+                "ACS": 346,
+                "K": 13,
+                "D": 11,
+                "A": 7,
+                "PlusMinus": 2,
+                "KAST": 1.0,
+                "ADR": 224.0,
+                "HS%": 0.148,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3,
+                "Rounds": 12
+              },
+              {
+                "Player": "syim",
+                "Agent": "Sage",
+                "R1.0": 1.118,
+                "ACS": 216,
+                "K": 10,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.833,
+                "ADR": 127.5,
+                "HS%": 0.161,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "reoken",
+                "Agent": "Cypher",
+                "R1.0": 0.845,
+                "ACS": 188,
+                "K": 7,
+                "D": 12,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.75,
+                "ADR": 141.6,
+                "HS%": 0.391,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Spolen",
+                "Agent": "Raze",
+                "R1.0": 0.25,
+                "ACS": 68,
+                "K": 2,
+                "D": 12,
+                "A": 1,
+                "PlusMinus": -10,
+                "KAST": 0.5,
+                "ADR": 48.7,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "ATLC",
+            "teamName": "ATLNTIC Esports",
+            "players": [
+              {
+                "Player": "Night",
+                "Agent": "Neon",
+                "R1.0": 1.648,
+                "ACS": 330,
+                "K": 15,
+                "D": 6,
+                "A": 4,
+                "PlusMinus": 9,
+                "KAST": 0.833,
+                "ADR": 219.2,
+                "HS%": 0.271,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "Optimus",
+                "Agent": "Sova",
+                "R1.0": 1.228,
+                "ACS": 230,
+                "K": 11,
+                "D": 8,
+                "A": 3,
+                "PlusMinus": 3,
+                "KAST": 0.833,
+                "ADR": 161.1,
+                "HS%": 0.455,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "taylorgzz",
+                "Agent": "Phoenix",
+                "R1.0": 1.036,
+                "ACS": 225,
+                "K": 9,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": 0,
+                "KAST": 0.667,
+                "ADR": 155.7,
+                "HS%": 0.095,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Sky",
+                "Agent": "Deadlock",
+                "R1.0": 0.712,
+                "ACS": 152,
+                "K": 7,
+                "D": 10,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.583,
+                "ADR": 103.2,
+                "HS%": 0.087,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Angel",
+                "Agent": "Brimstone",
+                "R1.0": 0.449,
+                "ACS": 53,
+                "K": 1,
+                "D": 9,
+                "A": 7,
+                "PlusMinus": -8,
+                "KAST": 0.667,
+                "ADR": 36.7,
+                "HS%": 0.143,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "NATS",
+            "teamName": "Never Available To Scrim",
+            "players": [
+              {
+                "Player": "heef",
+                "Agent": "Omen",
+                "R1.0": 1.354,
+                "ACS": 292,
+                "K": 11,
+                "D": 10,
+                "A": 7,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 220.3,
+                "HS%": 0.268,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "denial",
+                "Agent": "Sova",
+                "R1.0": 1.14,
+                "ACS": 231,
+                "K": 9,
+                "D": 7,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 161.1,
+                "HS%": 0.143,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "syim",
+                "Agent": "Sage",
+                "R1.0": 1.005,
+                "ACS": 212,
+                "K": 9,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 1,
+                "KAST": 0.667,
+                "ADR": 136.6,
+                "HS%": 0.421,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Spolen",
+                "Agent": "Raze",
+                "R1.0": 0.972,
+                "ACS": 186,
+                "K": 9,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": 0,
+                "KAST": 0.75,
+                "ADR": 112.2,
+                "HS%": 0.083,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "reoken",
+                "Agent": "Cypher",
+                "R1.0": 0.63,
+                "ACS": 110,
+                "K": 4,
+                "D": 9,
+                "A": 5,
+                "PlusMinus": -5,
+                "KAST": 0.583,
+                "ADR": 80.3,
+                "HS%": 0.286,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "ATLC",
+            "teamName": "ATLNTIC Esports",
+            "players": [
+              {
+                "Player": "taylorgzz",
+                "Agent": "Phoenix",
+                "R1.0": 1.301,
+                "ACS": 292,
+                "K": 11,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 214.1,
+                "HS%": 0.178,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Angel",
+                "Agent": "Brimstone",
+                "R1.0": 1.236,
+                "ACS": 246,
+                "K": 9,
+                "D": 11,
+                "A": 12,
+                "PlusMinus": -2,
+                "KAST": 0.917,
+                "ADR": 165.1,
+                "HS%": 0.176,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Night",
+                "Agent": "Neon",
+                "R1.0": 1.157,
+                "ACS": 304,
+                "K": 13,
+                "D": 11,
+                "A": 0,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 182.9,
+                "HS%": 0.333,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Optimus",
+                "Agent": "Sova",
+                "R1.0": 1.046,
+                "ACS": 210,
+                "K": 10,
+                "D": 10,
+                "A": 1,
+                "PlusMinus": 0,
+                "KAST": 0.917,
+                "ADR": 140.1,
+                "HS%": 0.333,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Sky",
+                "Agent": "Deadlock",
+                "R1.0": 0.652,
+                "ACS": 123,
+                "K": 6,
+                "D": 9,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.583,
+                "ADR": 82.7,
+                "HS%": 0.312,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ascent",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "NATS",
+          "teamName": "Never Available To Scrim",
+          "players": [
+            {
+              "Player": "heef",
+              "Agent": "Omen",
+              "R1.0": 1.396,
+              "ACS": 284,
+              "K": 23,
+              "D": 14,
+              "A": 15,
+              "PlusMinus": 9,
+              "KAST": 0.75,
+              "ADR": 180.8,
+              "HS%": 0.236,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "denial",
+              "Agent": "Sova",
+              "R1.0": 1.076,
+              "ACS": 226,
+              "K": 17,
+              "D": 16,
+              "A": 10,
+              "PlusMinus": 1,
+              "KAST": 0.625,
+              "ADR": 156.6,
+              "HS%": 0.194,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "syim",
+              "Agent": "Cypher",
+              "R1.0": 1.016,
+              "ACS": 187,
+              "K": 18,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": 4,
+              "KAST": 0.708,
+              "ADR": 121.6,
+              "HS%": 0.189,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "reoken",
+              "Agent": "Jett",
+              "R1.0": 0.952,
+              "ACS": 202,
+              "K": 18,
+              "D": 18,
+              "A": 4,
+              "PlusMinus": 0,
+              "KAST": 0.667,
+              "ADR": 129.8,
+              "HS%": 0.24,
+              "FK": 6,
+              "FD": 5,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Spolen",
+              "Agent": "Chamber",
+              "R1.0": 0.833,
+              "ACS": 168,
+              "K": 14,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -3,
+              "KAST": 0.625,
+              "ADR": 113.0,
+              "HS%": 0.188,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            }
+          ]
+        },
+        {
+          "team": "ATLC",
+          "teamName": "ATLNTIC Esports",
+          "players": [
+            {
+              "Player": "Optimus",
+              "Agent": "Sova",
+              "R1.0": 1.0,
+              "ACS": 222,
+              "K": 16,
+              "D": 17,
+              "A": 11,
+              "PlusMinus": -1,
+              "KAST": 0.625,
+              "ADR": 138.7,
+              "HS%": 0.148,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "taylorgzz",
+              "Agent": "Phoenix",
+              "R1.0": 0.96,
+              "ACS": 205,
+              "K": 17,
+              "D": 20,
+              "A": 3,
+              "PlusMinus": -3,
+              "KAST": 0.667,
+              "ADR": 160.5,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Sky",
+              "Agent": "Cypher",
+              "R1.0": 0.932,
+              "ACS": 194,
+              "K": 16,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": 0,
+              "KAST": 0.625,
+              "ADR": 119.7,
+              "HS%": 0.145,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Night",
+              "Agent": "Jett",
+              "R1.0": 0.912,
+              "ACS": 214,
+              "K": 19,
+              "D": 20,
+              "A": 2,
+              "PlusMinus": -1,
+              "KAST": 0.583,
+              "ADR": 137.4,
+              "HS%": 0.35,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Angel",
+              "Agent": "Brimstone",
+              "R1.0": 0.663,
+              "ACS": 126,
+              "K": 11,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -6,
+              "KAST": 0.625,
+              "ADR": 80.1,
+              "HS%": 0.207,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "NATS",
+            "teamName": "Never Available To Scrim",
+            "players": [
+              {
+                "Player": "heef",
+                "Agent": "Omen",
+                "R1.0": 1.512,
+                "ACS": 315,
+                "K": 12,
+                "D": 7,
+                "A": 8,
+                "PlusMinus": 5,
+                "KAST": 0.917,
+                "ADR": 193.4,
+                "HS%": 0.343,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "denial",
+                "Agent": "Sova",
+                "R1.0": 1.146,
+                "ACS": 265,
+                "K": 10,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": 1,
+                "KAST": 0.583,
+                "ADR": 184.6,
+                "HS%": 0.182,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "syim",
+                "Agent": "Cypher",
+                "R1.0": 0.891,
+                "ACS": 173,
+                "K": 9,
+                "D": 7,
+                "A": 1,
+                "PlusMinus": 2,
+                "KAST": 0.5,
+                "ADR": 104.9,
+                "HS%": 0.182,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "reoken",
+                "Agent": "Jett",
+                "R1.0": 0.69,
+                "ACS": 149,
+                "K": 7,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.583,
+                "ADR": 86.8,
+                "HS%": 0.312,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Spolen",
+                "Agent": "Chamber",
+                "R1.0": 0.681,
+                "ACS": 112,
+                "K": 5,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 80.1,
+                "HS%": 0.118,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "ATLC",
+            "teamName": "ATLNTIC Esports",
+            "players": [
+              {
+                "Player": "taylorgzz",
+                "Agent": "Phoenix",
+                "R1.0": 0.97,
+                "ACS": 229,
+                "K": 8,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 170.0,
+                "HS%": 0.219,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Sky",
+                "Agent": "Cypher",
+                "R1.0": 0.875,
+                "ACS": 204,
+                "K": 8,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": -1,
+                "KAST": 0.583,
+                "ADR": 128.0,
+                "HS%": 0.129,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Optimus",
+                "Agent": "Sova",
+                "R1.0": 0.813,
+                "ACS": 192,
+                "K": 8,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 0,
+                "KAST": 0.417,
+                "ADR": 109.4,
+                "HS%": 0.273,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Angel",
+                "Agent": "Brimstone",
+                "R1.0": 0.769,
+                "ACS": 166,
+                "K": 7,
+                "D": 9,
+                "A": 1,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 101.0,
+                "HS%": 0.091,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Night",
+                "Agent": "Jett",
+                "R1.0": 0.617,
+                "ACS": 144,
+                "K": 7,
+                "D": 11,
+                "A": 1,
+                "PlusMinus": -4,
+                "KAST": 0.5,
+                "ADR": 89.7,
+                "HS%": 0.312,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "NATS",
+            "teamName": "Never Available To Scrim",
+            "players": [
+              {
+                "Player": "heef",
+                "Agent": "Omen",
+                "R1.0": 1.28,
+                "ACS": 253,
+                "K": 11,
+                "D": 7,
+                "A": 7,
+                "PlusMinus": 4,
+                "KAST": 0.583,
+                "ADR": 168.2,
+                "HS%": 0.135,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "reoken",
+                "Agent": "Jett",
+                "R1.0": 1.212,
+                "ACS": 255,
+                "K": 11,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 3,
+                "KAST": 0.75,
+                "ADR": 172.7,
+                "HS%": 0.206,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "syim",
+                "Agent": "Cypher",
+                "R1.0": 1.142,
+                "ACS": 200,
+                "K": 9,
+                "D": 7,
+                "A": 3,
+                "PlusMinus": 2,
+                "KAST": 0.917,
+                "ADR": 138.2,
+                "HS%": 0.194,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "denial",
+                "Agent": "Sova",
+                "R1.0": 1.006,
+                "ACS": 186,
+                "K": 7,
+                "D": 7,
+                "A": 6,
+                "PlusMinus": 0,
+                "KAST": 0.667,
+                "ADR": 128.6,
+                "HS%": 0.214,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Spolen",
+                "Agent": "Chamber",
+                "R1.0": 0.985,
+                "ACS": 224,
+                "K": 9,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": 0,
+                "KAST": 0.583,
+                "ADR": 146.0,
+                "HS%": 0.267,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "ATLC",
+            "teamName": "ATLNTIC Esports",
+            "players": [
+              {
+                "Player": "Night",
+                "Agent": "Jett",
+                "R1.0": 1.208,
+                "ACS": 284,
+                "K": 12,
+                "D": 9,
+                "A": 1,
+                "PlusMinus": 3,
+                "KAST": 0.667,
+                "ADR": 185.2,
+                "HS%": 0.375,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Optimus",
+                "Agent": "Sova",
+                "R1.0": 1.187,
+                "ACS": 252,
+                "K": 8,
+                "D": 9,
+                "A": 9,
+                "PlusMinus": -1,
+                "KAST": 0.833,
+                "ADR": 168.0,
+                "HS%": 0.077,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Sky",
+                "Agent": "Cypher",
+                "R1.0": 0.989,
+                "ACS": 183,
+                "K": 8,
+                "D": 7,
+                "A": 5,
+                "PlusMinus": 1,
+                "KAST": 0.667,
+                "ADR": 111.4,
+                "HS%": 0.161,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "taylorgzz",
+                "Agent": "Phoenix",
+                "R1.0": 0.949,
+                "ACS": 181,
+                "K": 9,
+                "D": 10,
+                "A": 1,
+                "PlusMinus": -1,
+                "KAST": 0.667,
+                "ADR": 150.9,
+                "HS%": 0.292,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Angel",
+                "Agent": "Brimstone",
+                "R1.0": 0.557,
+                "ACS": 85,
+                "K": 4,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": -4,
+                "KAST": 0.583,
+                "ADR": 59.2,
+                "HS%": 0.571,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=rBa7nXVmPWc"
 }
