@@ -12,7 +12,7 @@
 		],
 		"lower": [
 			[{ "teams": ["FaZe", "SEAL"], "placeholders": [null, null] }, { "teams": ["LARP", "HOT"], "placeholders": [null, null] }],
-			[{ "teams": ["NOOT", "SEAL"], "placeholders": [null, null] }, { "teams": [null, null], "placeholders": ["Upper QF Loser #2", null] }],
+			[{ "teams": ["NOOT", "SEAL"], "placeholders": [null, null] }, { "teams": [null, "HOT"], "placeholders": ["Upper QF Loser #2", null] }],
 			[{ "teams": [null, null], "placeholders": ["Upper SF Loser #1", null]  }, { "teams": [null, null], "placeholders": ["Upper SF Loser #2", null]  }],
 			[{ "teams": [null, null] }],
             [{ "teams": [null, null], "placeholders": ["Upper F Loser", null] }]
