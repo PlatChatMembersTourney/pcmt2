@@ -3,7 +3,7 @@ title: T1 secures grand finals through 2 OT wins and a stomp against NAVI
 date: 2026-10-23
 author: snowfall, haych
 summary: T1 eliminate NAVI to secure grands, winning 15-13, 14-12, and stomping 13-5 on map 3.
-event: s3-NA
+event: s3-na
 matches:
     - t1-vs-navi-s3-playoffs-2026-10-24-2
 ---
