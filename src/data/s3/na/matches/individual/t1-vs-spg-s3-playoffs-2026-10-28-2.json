@@ -10,7 +10,7 @@
   "bestOf": 5,
   "date": "2026-10-28T23:30:00Z",
   "stage": "Playoffs",
-  "veto": "SPG bans Haven, T1 bans Split, SPG picks Abyss, T1 picks Summit, SPG picks Lotus, T1 picks Sunset, Ascent remains",
+  "veto": "SPG bans Haven, SPG bans Split, SPG picks Abyss, T1 picks Summit, SPG picks Lotus, T1 picks Sunset, Ascent remains",
   "maps": [
     {
       "name": "Abyss",
