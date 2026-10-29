@@ -1,0 +1,42 @@
+---
+import { events } from '../stores/events.ts';
+import { regionFlag } from '../utils/images.ts';
+import FantasyLink from './FantasyLink.tsx';
+
+interface Props {
+	class?: string;
+}
+
+// The homepage's links to the fantasy game, while it covers an event ("fantasy": true in events.json)
+const fantasyEvents = events.filter((event) => event.fantasy);
+const pages = [
+	{ page: 'pickems', name: "Pick'ems", desc: 'Pick the winner of every series' },
+	{ page: '', name: 'The Deck', desc: 'Build a deck of players and score their points' },
+	{ page: 'leaderboard', name: 'Leaderboard', desc: 'See how your deck stacks up' },
+];
+---
+
+{fantasyEvents.length > 0 && (
+	<aside class:list={['font-[roboto]', Astro.props.class]}>
+		<h2 class="section-label mb-3 ml-3">PCMT Fantasy</h2>
+		<div class="vlr-box-shadow bg-shade-100 flex flex-col text-xs">
+			{pages.map(({ page, name, desc }) => (
+				<div class="border-line flex flex-col gap-1 border-b px-4 py-2.5">
+					<span>
+						<FantasyLink page={page}>{name}</FantasyLink>
+					</span>
+					<span class="text-vlr-text-gray text-[11px]">{desc}</span>
+				</div>
+			))}
+			<p class="text-vlr-text-gray flex flex-wrap items-center justify-center gap-x-3 gap-y-1 py-2.5 text-[11px]">
+				Live for
+				{fantasyEvents.map((event) => (
+					<a href={`/events/${event.id}`} class="text-pb flex items-center gap-1.5">
+						<img src={regionFlag(event.region)} alt="" class="h-3 w-auto" />
+						{event.shortName}
+					</a>
+				))}
+			</p>
+		</div>
+	</aside>
+)}

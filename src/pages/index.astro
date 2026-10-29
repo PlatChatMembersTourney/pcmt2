@@ -8,6 +8,7 @@ import { events } from '../stores/events.ts';
 import { matches } from '../stores/matches.ts';
 import { teams } from '../stores/teams.ts';
 import NewsSidebar from '../components/NewsSidebar.astro';
+import FantasySidebar from '../components/FantasySidebar.astro';
 
 // Showmatch results against Plat Chat
 const showmatches = events
@@ -38,7 +39,7 @@ const platWins = showmatches.length - trophies.length;
 ---
 
 <Layout activePage="Home" desc="sting lurked all the way onto this description" title="Plat Chat Members Tourney Home">
-	<!-- From lg the news is a sidebar, below lg it sits under the intro -->
+	<!-- From lg the fantasy links and news are a sidebar, below lg they sit under the intro -->
 	<div class="mx-6 mt-6 lg:flex lg:items-start lg:gap-6">
 		<div class="min-w-0 flex-1">
 			<section class="from-vlr-gray-175 to-vlr-gray-275 dark:from-vlr-gray-925 dark:to-vlr-gray-925 relative flex items-center overflow-hidden rounded-[15px] bg-linear-to-r">
@@ -57,6 +58,7 @@ const platWins = showmatches.length - trophies.length;
 				<img src="/icons/PCMT Logo.png" alt="" class="hidden w-50 md:block" />
 			</section>
 
+			<FantasySidebar class="mt-6 lg:hidden" />
 			<NewsSidebar class="mt-6 lg:hidden" />
 
 			<!-- video + quote -->
@@ -174,6 +176,9 @@ const platWins = showmatches.length - trophies.length;
 				</div>
 			</section>
 		</div>
-		<NewsSidebar class="hidden w-75 flex-none lg:block" />
+		<div class="hidden w-75 flex-none flex-col gap-6 lg:flex">
+			<FantasySidebar />
+			<NewsSidebar />
+		</div>
 	</div>
 </Layout>

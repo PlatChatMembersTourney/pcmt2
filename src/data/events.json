@@ -195,14 +195,15 @@
 		"season": 3,
 		"region": "na",
 		"path": "s3/na",
+		"fantasy": true,
 		"status": "ongoing",
 		"desc": "Season 3 of the Plat Chat members tournament for NA, where 16 teams had a 2-group slugfest.",
-		"dates": "May 14 - TBD",
+		"dates": "May 14 - Oct 28, 2026",
 		"prize": "a showmatch idk",
 		"stages": [
 			{
 				"name": "Playoffs",
-				"dates": "Aug 26 - TBD",
+				"dates": "Aug 26 - Oct 28",
 				"format": {
 					"type": "bracket"
 				}
@@ -236,6 +237,7 @@
 		"season": 2,
 		"region": "emea",
 		"path": "s2/emea",
+		"fantasy": true,
 		"status": "ongoing",
 		"desc": "Season 2 of the Plat Chat members tournament for EMEA, where 10 teams did some group activities.",
 		"dates": "July 5 - TBD",

@@ -3,9 +3,9 @@ import slugify from 'slugify';
 import { timeUntil } from '../../utils/datetime.ts';
 import { eventLogo } from '../../utils/images.ts';
 import { cx } from '../../utils/cx.ts';
-import { pctFormatter } from '../../utils/format.ts';
 import { useNow } from '../../utils/useNow.ts';
 import { useTimezone } from '../../utils/useTimezone.ts';
+import FantasyLink from '../FantasyLink.tsx';
 
 interface MatchHeaderProps {
 	match: Match;
@@ -34,6 +34,11 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 	});
 
 	const team1Winner = match.completed && match.score1 > match.score2;
+
+	// Whole percentages that always add up to 100 (rounding both separately can give 101%, e.g. 50.5% and 49.5%)
+	const chance = match.winChance;
+	const pct1 = chance && Math.round((chance.team1 / (chance.team1 + chance.team2)) * 100);
+	const winPct = pct1 === undefined ? undefined : [pct1, 100 - pct1];
 
 	return (
 		<div
@@ -101,37 +106,45 @@ const MatchHeader: React.FC<MatchHeaderProps> = (props) => {
 					{match.team2Name}
 				</a>
 			</div>
-			{/* Bottom line: the veto once played - before that, the bot's predicted series win chances (Elo) */}
+			{/* Bottom line: the veto once played - before that, the bot's predicted series win chances (Elo), and a link
+			    to make a pick'em while the fantasy game covers the event */}
 			{match.completed ? (
 				<p className="text-center text-[11px] leading-normal italic md:text-xs">{match.veto}</p>
 			) : (
-				match.winChance && (
-					<p
-						className="text-center text-[11px] leading-normal md:text-xs"
-						title="Each team's chance to win the series, predicted from their Elo ratings"
-					>
-						<span className="text-vlr-text-gray mr-2 text-[10px] uppercase">Win chance</span>
-						{match.team1}{' '}
-						<span
-							className={cx(
-								'font-medium',
-								match.winChance.team1 > match.winChance.team2 && 'text-green-500 dark:text-green-400'
-							)}
+				<>
+					{winPct && (
+						<p
+							className="text-center text-[11px] leading-normal md:text-xs"
+							title="Each team's chance to win the series, predicted from their Elo ratings"
 						>
-							{pctFormatter.format(match.winChance.team1)}
-						</span>
-						<span className="text-vlr-text-gray"> · </span>
-						<span
-							className={cx(
-								'font-medium',
-								match.winChance.team2 > match.winChance.team1 && 'text-green-500 dark:text-green-400'
-							)}
-						>
-							{pctFormatter.format(match.winChance.team2)}
-						</span>{' '}
-						{match.team2}
-					</p>
-				)
+							<span className="text-vlr-text-gray mr-2 text-[10px] uppercase">Win chance</span>
+							{match.team1}{' '}
+							<span
+								className={cx(
+									'font-medium',
+									winPct[0] > winPct[1] && 'text-green-500 dark:text-green-400'
+								)}
+							>
+								{winPct[0]}%
+							</span>
+							<span className="text-vlr-text-gray"> · </span>
+							<span
+								className={cx(
+									'font-medium',
+									winPct[1] > winPct[0] && 'text-green-500 dark:text-green-400'
+								)}
+							>
+								{winPct[1]}%
+							</span>{' '}
+							{match.team2}
+						</p>
+					)}
+					{event.fantasy && (
+						<p className="mt-1 text-center text-[11px] md:text-xs">
+							<FantasyLink page="pickems">Make your pick</FantasyLink>
+						</p>
+					)}
+				</>
 			)}
 		</div>
 	);

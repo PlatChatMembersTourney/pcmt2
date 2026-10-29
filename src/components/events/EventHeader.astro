@@ -1,11 +1,12 @@
 ---
 import { eventLogo, regionFlag } from '../../utils/images.ts';
 import type { Event } from '../../types/types.ts';
+import FantasyLink from '../FantasyLink.tsx';
 interface Props {
 	event: Event;
 }
 
-const { name, desc, region, dates, prize, showmatch } = Astro.props.event;
+const { name, desc, region, dates, prize, showmatch, fantasy } = Astro.props.event;
 ---
 
 <div class="bg-shade-100 flex gap-4 p-4 sm:gap-6 sm:p-6">
@@ -19,7 +20,7 @@ const { name, desc, region, dates, prize, showmatch } = Astro.props.event;
 		</a>
 		<h1 class="text-main mb-1 text-xl font-black sm:text-2xl">PCMT: {name}</h1>
 		<p class="text-main mb-2 flex-grow text-xs">{desc}</p>
-		<dl class="flex flex-row gap-6">
+		<dl class="flex flex-row flex-wrap gap-x-6 gap-y-3">
 			<div class="flex flex-col gap-1.5">
 				<dt class="dark:text-vlr-text-light text-[10px] leading-none uppercase">Dates</dt>
 				<dd class="dark:text-vlr-text-white text-xs leading-tight">{dates}</dd>
@@ -34,6 +35,15 @@ const { name, desc, region, dates, prize, showmatch } = Astro.props.event;
 					<img src={regionFlag(region)} />
 				</dd>
 			</div>
+			{fantasy && (
+				<div class="flex flex-col gap-1.5">
+					<dt class="dark:text-vlr-text-light text-[10px] leading-none uppercase">Fantasy</dt>
+					<dd class="flex gap-3 text-xs leading-tight">
+						<FantasyLink page="pickems">Pick'ems</FantasyLink>
+						<FantasyLink page="">The Deck</FantasyLink>
+					</dd>
+				</div>
+			)}
 		</dl>
 	</div>
 </div>

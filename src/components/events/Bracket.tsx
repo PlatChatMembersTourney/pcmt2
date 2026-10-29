@@ -2,7 +2,8 @@ import { useEffect } from 'react';
 import slugify from 'slugify';
 import type { Match as ViewerMatch, Participant, Stage } from 'brackets-model';
 import type { BracketsViewer, RoundNameInfo } from 'brackets-viewer';
-import type { BracketLayout, BracketSlot, Event, Match, TeamInfo } from '../../types/types.ts';
+import type { BracketLayout, Event, Match, TeamInfo } from '../../types/types.ts';
+import { playBracket, type PlayedSlot } from '../../utils/bracket.ts';
 
 // The viewer's bundled build sets window.bracketsViewer when loaded
 declare global {
@@ -33,9 +34,6 @@ const CORNER_RADIUS = 2; // Max radius of a feed line's corners
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
-// "W:<slot id>" or "L:<slot id>"
-const REF = /^([WL]):(.+)$/;
-
 const DATE_LINE_CLASSES =
 	"absolute top-[calc(100%+6px)] left-0 pl-2 leading-[15px] whitespace-nowrap before:absolute before:left-0 before:content-['-']";
 
@@ -52,8 +50,6 @@ const svgEl = <K extends keyof SVGElementTagNameMap>(tag: K, className: string) 
 // Convert bracket.json to brackets-viewer data
 const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[], teams: Record<string, TeamInfo>) => {
 	const abbrs = Object.keys(teams);
-	const byDate = [...matches].sort((a, b) => a.date.localeCompare(b.date));
-	const used = new Set<string>();
 	const pcmtMatches = new Map<number, Match>();
 	const hiddenIds = new Set<number>();
 
@@ -64,46 +60,27 @@ const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[]
 		return abbrs.length + placeholders.indexOf(text);
 	};
 
+	// Each slot's teams, match and result (shared with the placements)
+	const bracket = playBracket(layout, matches);
+
 	// A stage can end without a grand final (an LCQ, where both brackets qualify a team)
-	const finalRound = layout.final?.length ? layout.final : null;
+	const finalRound = bracket.final.length ? bracket.final : null;
 
 	// Single elim final is the last upper round
-	const upperRounds = !layout.lower && finalRound ? [...layout.upper, finalRound] : layout.upper;
+	const upperRounds = !layout.lower && finalRound ? [...bracket.upper, finalRound] : bracket.upper;
 
 	// Round 1 same size as round 2
 	const straightFirstRound = upperRounds.length > 1 && upperRounds[0].length === upperRounds[1].length;
 
-	// Find a slot's match by its teams
-	const findMatch = (slot: NonNullable<BracketSlot>) => {
-		if (slot.match) return byDate.find((m) => m.id === slot.match);
-		const [a, b] = slot.teams ?? [null, null];
-		if (!a || !b) return undefined;
-		return byDate.find(
-			(m) => !used.has(m.id) && ((m.team1 === a && m.team2 === b) || (m.team1 === b && m.team2 === a))
-		);
-	};
-
-	// Winner and loser of each completed slot, by slot id
-	const results = new Map<string, { W: string; L: string }>();
-
-	// Team abbr, or a ref's team once its match is played
-	const resolve = (entry: string | null) => {
-		const ref = entry?.match(REF);
-		if (!ref) return { abbr: entry, placeholder: null };
-		const [, side, slotId] = ref;
-		return {
-			abbr: results.get(slotId)?.[side as 'W' | 'L'] ?? null,
-			placeholder: `${slotId} ${side === 'W' ? 'Winner' : 'Loser'}`,
-		};
-	};
-
-	const groups = layout.lower ? [upperRounds, layout.lower, ...(finalRound ? [[finalRound]] : [])] : [upperRounds];
+	const groups: PlayedSlot[][][] = bracket.lower
+		? [upperRounds, bracket.lower, ...(finalRound ? [[finalRound]] : [])]
+		: [upperRounds];
 	const viewerMatches: ViewerMatch[] = [];
 	let roundId = 0;
 
 	groups.forEach((rounds, groupId) => {
 		rounds.forEach((slots, roundIdx) => {
-			slots.forEach((slot, slotIdx) => {
+			slots.forEach((played, slotIdx) => {
 				const id = viewerMatches.length;
 				const base = {
 					id,
@@ -114,7 +91,7 @@ const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[]
 					child_count: 0,
 				};
 
-				if (!slot) {
+				if (!played) {
 					if (!(straightFirstRound && groupId === 0 && roundIdx === 0)) return; // Bye
 					// Hidden spacer
 					hiddenIds.add(id);
@@ -122,22 +99,13 @@ const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[]
 					return;
 				}
 
-				const sides = (slot.teams ?? [null, null]).map(resolve);
-				const match = findMatch({ ...slot, teams: slot.teams && [sides[0].abbr, sides[1].abbr] });
-				if (match) {
-					used.add(match.id);
-					pcmtMatches.set(id, match);
-				}
-				const [top, bottom] = slot.teams ? [sides[0].abbr, sides[1].abbr] : [match!.team1, match!.team2];
-
-				// Result for later refs
-				if (match?.completed && slot.id) {
-					const topWon = match.score1 > match.score2;
-					results.set(slot.id, {
-						W: topWon ? match.team1 : match.team2,
-						L: topWon ? match.team2 : match.team1,
-					});
-				}
+				const {
+					slot,
+					teams: [top, bottom],
+					refTexts,
+					match,
+				} = played;
+				if (match) pcmtMatches.set(id, match);
 
 				// Round 2 positions place the byes
 				const fromSlot = !straightFirstRound && groupId === 0 && roundIdx === 1;
@@ -145,7 +113,7 @@ const toViewerData = (stageName: string, layout: BracketLayout, matches: Match[]
 				const opponent = (abbr: string | null, other: string | null, side: number) => {
 					const position = fromSlot ? slotIdx * 2 + side : undefined;
 					if (!abbr) {
-						const placeholder = slot.placeholders?.[side - 1] ?? sides[side - 1].placeholder;
+						const placeholder = slot.placeholders?.[side - 1] ?? refTexts[side - 1];
 						return { id: placeholder ? placeholderId(placeholder) : null, position };
 					}
 					// No score until it's played, so the viewer shows "-" instead of 0

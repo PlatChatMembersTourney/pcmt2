@@ -85,6 +85,10 @@
 	--nav: var(--color-neutral-200);
 	--grid: #ccc; /* vlr-style table grid lines */
 	--grid-head: var(--color-vlr-text-gray); /* line under vlr-style table headers */
+	--gold: #b8860b; /* 1st-3rd place (Placements) */
+	--silver: #7d8389;
+	--bronze: #a8642c;
+	--fantasy: #17767a; /* links to fantasy.pcmt.gg, in its colors */
 
 	/* .stat-color heatmap (vlr's): hue comes from each cell's --stat-h */
 	--stat-s: 50%;
@@ -110,6 +114,10 @@
 	--nav: var(--color-vlr-border-dark);
 	--grid: var(--color-vlr-border-gray);
 	--grid-head: #929496;
+	--gold: #f2c94c;
+	--silver: #a3b1bf;
+	--bronze: #d9925a;
+	--fantasy: #a5dcdd;
 
 	--stat-s: 20%;
 	--stat-l: 45%;
@@ -135,6 +143,10 @@
 	--color-nav: var(--nav);
 	--color-grid: var(--grid);
 	--color-grid-head: var(--grid-head);
+	--color-gold: var(--gold);
+	--color-silver: var(--silver);
+	--color-bronze: var(--bronze);
+	--color-fantasy: var(--fantasy);
 }
 
 .cool-border::after {

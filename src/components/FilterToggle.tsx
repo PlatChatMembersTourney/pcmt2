@@ -33,7 +33,10 @@ const FilterToggle: React.FC<FilterToggleProps> = ({
 		const measure = () => {
 			const item = items.current[value];
 			if (!item) return;
-			const [x, width] = [item.offsetLeft, item.offsetWidth];
+			// Exact (fractional) sizes, as offsetLeft/offsetWidth round - and without the option's right border
+			const rect = item.getBoundingClientRect();
+			const parentLeft = item.offsetParent?.getBoundingClientRect().left ?? 0;
+			const [x, width] = [rect.left - parentLeft, rect.width - (item.offsetWidth - item.clientWidth)];
 			setBar((bar) => (bar?.x === x && bar.width === width ? bar : { x, width }));
 		};
 		measure();

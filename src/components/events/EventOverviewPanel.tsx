@@ -7,6 +7,7 @@ import { teams as allTeams } from '../../stores/teams.ts';
 import GroupStandingsBox from './GroupStandingsBox.tsx';
 import Bracket from './Bracket.tsx';
 import ParticipatingTeams from './ParticipatingTeams.tsx';
+import Placements from './Placements.tsx';
 import { cx } from '../../utils/cx.ts';
 
 const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
@@ -70,6 +71,14 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 								teams={teams}
 							/>
 						</div>
+						{stageName === 'Playoffs' && (
+							<Placements
+								event={event}
+								layout={bracket}
+								matches={matches.filter((match) => match.stage === stageName)}
+								teams={teams}
+							/>
+						)}
 					</>
 				) : format &&
 				  ['round-robin', 'showmatch'].includes(format?.type) &&

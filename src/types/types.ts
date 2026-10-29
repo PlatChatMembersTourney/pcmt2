@@ -124,6 +124,7 @@ export interface Event {
 	desc: string;
 	dates: string;
 	prize: string;
+	fantasy?: boolean; // covered by the fantasy game (fantasy.pcmt.gg) - remove when its season ends
 	stages: StageInfo[]; // will be showed in order, last one default
 }
 
