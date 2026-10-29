@@ -5,9 +5,2231 @@
   "team1Name": "Team 1",
   "team2Name": "Spank Ptheory Gaming",
   "score1": 0,
-  "score2": 0,
-  "completed": false,
+  "score2": 3,
+  "completed": true,
   "bestOf": 5,
   "date": "2026-10-28T23:30:00Z",
-  "stage": "Playoffs"
+  "stage": "Playoffs",
+  "veto": "SPG bans Haven, T1 bans Split, SPG picks Abyss, T1 picks Summit, SPG picks Lotus, T1 picks Sunset, Ascent remains",
+  "maps": [
+    {
+      "name": "Abyss",
+      "score1": 3,
+      "score2": 13
+    },
+    {
+      "name": "Summit",
+      "score1": 5,
+      "score2": 13
+    },
+    {
+      "name": "Lotus",
+      "score1": 14,
+      "score2": 16
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "T1",
+      "teamName": "Team 1",
+      "players": [
+        {
+          "Player": "MrCrocMan",
+          "R1.0": 1.191,
+          "ACS": 267,
+          "K": 60,
+          "D": 49,
+          "A": 12,
+          "PlusMinus": 11,
+          "KAST": 0.734,
+          "ADR": 177.0,
+          "HS%": 0.37,
+          "FK": 5,
+          "FD": 8,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "Ceiliuir",
+          "R1.0": 0.811,
+          "ACS": 162,
+          "K": 31,
+          "D": 48,
+          "A": 22,
+          "PlusMinus": -17,
+          "KAST": 0.672,
+          "ADR": 114.9,
+          "HS%": 0.184,
+          "FK": 6,
+          "FD": 7,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "roro",
+          "R1.0": 0.81,
+          "ACS": 161,
+          "K": 37,
+          "D": 50,
+          "A": 21,
+          "PlusMinus": -13,
+          "KAST": 0.656,
+          "ADR": 102.8,
+          "HS%": 0.238,
+          "FK": 3,
+          "FD": 4,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "Pi",
+          "R1.0": 0.751,
+          "ACS": 162,
+          "K": 33,
+          "D": 50,
+          "A": 19,
+          "PlusMinus": -17,
+          "KAST": 0.609,
+          "ADR": 101.5,
+          "HS%": 0.206,
+          "FK": 7,
+          "FD": 12,
+          "PlusMinus2": -5
+        },
+        {
+          "Player": "radical",
+          "R1.0": 0.708,
+          "ACS": 153,
+          "K": 32,
+          "D": 51,
+          "A": 9,
+          "PlusMinus": -19,
+          "KAST": 0.531,
+          "ADR": 114.8,
+          "HS%": 0.175,
+          "FK": 6,
+          "FD": 6,
+          "PlusMinus2": 0
+        }
+      ]
+    },
+    {
+      "team": "SPG",
+      "teamName": "Spank Ptheory Gaming",
+      "players": [
+        {
+          "Player": "cooleo",
+          "R1.0": 1.303,
+          "ACS": 272,
+          "K": 65,
+          "D": 39,
+          "A": 16,
+          "PlusMinus": 26,
+          "KAST": 0.734,
+          "ADR": 171.6,
+          "HS%": 0.264,
+          "FK": 5,
+          "FD": 5,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "phuzzy",
+          "R1.0": 1.237,
+          "ACS": 233,
+          "K": 54,
+          "D": 35,
+          "A": 17,
+          "PlusMinus": 19,
+          "KAST": 0.812,
+          "ADR": 160.9,
+          "HS%": 0.272,
+          "FK": 8,
+          "FD": 5,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "thighs",
+          "R1.0": 1.117,
+          "ACS": 202,
+          "K": 49,
+          "D": 35,
+          "A": 11,
+          "PlusMinus": 14,
+          "KAST": 0.781,
+          "ADR": 142.4,
+          "HS%": 0.308,
+          "FK": 6,
+          "FD": 4,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "dunkn",
+          "R1.0": 1.048,
+          "ACS": 179,
+          "K": 40,
+          "D": 36,
+          "A": 31,
+          "PlusMinus": 4,
+          "KAST": 0.797,
+          "ADR": 117.7,
+          "HS%": 0.193,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "derpina",
+          "R1.0": 0.84,
+          "ACS": 177,
+          "K": 40,
+          "D": 48,
+          "A": 10,
+          "PlusMinus": -8,
+          "KAST": 0.719,
+          "ADR": 106.8,
+          "HS%": 0.282,
+          "FK": 15,
+          "FD": 11,
+          "PlusMinus2": 4
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Abyss",
+      "score1": 3,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Yoru",
+              "R1.0": 1.089,
+              "ACS": 268,
+              "K": 15,
+              "D": 15,
+              "A": 2,
+              "PlusMinus": 0,
+              "KAST": 0.75,
+              "ADR": 169.5,
+              "HS%": 0.364,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "roro",
+              "Agent": "Brimstone",
+              "R1.0": 0.825,
+              "ACS": 172,
+              "K": 10,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": -4,
+              "KAST": 0.688,
+              "ADR": 112.3,
+              "HS%": 0.29,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 0.757,
+              "ACS": 156,
+              "K": 8,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": -5,
+              "KAST": 0.562,
+              "ADR": 117.4,
+              "HS%": 0.233,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 0.522,
+              "ACS": 114,
+              "K": 4,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": -11,
+              "KAST": 0.562,
+              "ADR": 82.8,
+              "HS%": 0.083,
+              "FK": 0,
+              "FD": 4,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "radical",
+              "Agent": "Waylay",
+              "R1.0": 0.451,
+              "ACS": 114,
+              "K": 6,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": -8,
+              "KAST": 0.312,
+              "ADR": 76.1,
+              "HS%": 0.071,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "SPG",
+          "teamName": "Spank Ptheory Gaming",
+          "players": [
+            {
+              "Player": "phuzzy",
+              "Agent": "Vyse",
+              "R1.0": 1.573,
+              "ACS": 297,
+              "K": 17,
+              "D": 8,
+              "A": 8,
+              "PlusMinus": 9,
+              "KAST": 1.0,
+              "ADR": 194.4,
+              "HS%": 0.167,
+              "FK": 4,
+              "FD": 0,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "thighs",
+              "Agent": "Sova",
+              "R1.0": 1.433,
+              "ACS": 248,
+              "K": 16,
+              "D": 7,
+              "A": 5,
+              "PlusMinus": 9,
+              "KAST": 0.875,
+              "ADR": 173.9,
+              "HS%": 0.294,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "dunkn",
+              "Agent": "Astra",
+              "R1.0": 1.307,
+              "ACS": 244,
+              "K": 14,
+              "D": 8,
+              "A": 8,
+              "PlusMinus": 6,
+              "KAST": 0.812,
+              "ADR": 152.7,
+              "HS%": 0.229,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "cooleo",
+              "Agent": "Yoru",
+              "R1.0": 1.293,
+              "ACS": 253,
+              "K": 16,
+              "D": 8,
+              "A": 4,
+              "PlusMinus": 8,
+              "KAST": 0.812,
+              "ADR": 142.4,
+              "HS%": 0.282,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "derpina",
+              "Agent": "Jett",
+              "R1.0": 0.748,
+              "ACS": 141,
+              "K": 8,
+              "D": 12,
+              "A": 4,
+              "PlusMinus": -4,
+              "KAST": 0.688,
+              "ADR": 92.8,
+              "HS%": 0.368,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Yoru",
+                "R1.0": 1.269,
+                "ACS": 318,
+                "K": 13,
+                "D": 11,
+                "A": 2,
+                "PlusMinus": 2,
+                "KAST": 0.75,
+                "ADR": 202.3,
+                "HS%": 0.389,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 0.823,
+                "ACS": 159,
+                "K": 7,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": -2,
+                "KAST": 0.583,
+                "ADR": 117.9,
+                "HS%": 0.269,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 0.662,
+                "ACS": 137,
+                "K": 4,
+                "D": 11,
+                "A": 7,
+                "PlusMinus": -7,
+                "KAST": 0.667,
+                "ADR": 96.1,
+                "HS%": 0.097,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "roro",
+                "Agent": "Brimstone",
+                "R1.0": 0.624,
+                "ACS": 116,
+                "K": 5,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -5,
+                "KAST": 0.583,
+                "ADR": 89.0,
+                "HS%": 0.455,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "radical",
+                "Agent": "Waylay",
+                "R1.0": 0.511,
+                "ACS": 114,
+                "K": 5,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -5,
+                "KAST": 0.333,
+                "ADR": 75.4,
+                "HS%": 0.111,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "thighs",
+                "Agent": "Sova",
+                "R1.0": 2.499,
+                "ACS": 490,
+                "K": 8,
+                "D": 1,
+                "A": 1,
+                "PlusMinus": 7,
+                "KAST": 1.0,
+                "ADR": 338.5,
+                "HS%": 0.4,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 4
+              },
+              {
+                "Player": "cooleo",
+                "Agent": "Yoru",
+                "R1.0": 2.276,
+                "ACS": 441,
+                "K": 7,
+                "D": 0,
+                "A": 1,
+                "PlusMinus": 7,
+                "KAST": 1.0,
+                "ADR": 261.0,
+                "HS%": 0.429,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 4
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Vyse",
+                "R1.0": 1.103,
+                "ACS": 132,
+                "K": 2,
+                "D": 1,
+                "A": 2,
+                "PlusMinus": 1,
+                "KAST": 1.0,
+                "ADR": 86.2,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 4
+              },
+              {
+                "Player": "derpina",
+                "Agent": "Jett",
+                "R1.0": 0.639,
+                "ACS": 146,
+                "K": 2,
+                "D": 4,
+                "A": 0,
+                "PlusMinus": -2,
+                "KAST": 0.75,
+                "ADR": 107.5,
+                "HS%": 0.4,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 4
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Astra",
+                "R1.0": 0.482,
+                "ACS": 58,
+                "K": 1,
+                "D": 3,
+                "A": 0,
+                "PlusMinus": -2,
+                "KAST": 0.75,
+                "ADR": 56.5,
+                "HS%": 0.667,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 4
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "roro",
+                "Agent": "Brimstone",
+                "R1.0": 1.429,
+                "ACS": 338,
+                "K": 5,
+                "D": 4,
+                "A": 2,
+                "PlusMinus": 1,
+                "KAST": 1.0,
+                "ADR": 182.2,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 4
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 0.558,
+                "ACS": 145,
+                "K": 1,
+                "D": 4,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.5,
+                "ADR": 116.0,
+                "HS%": 0.176,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 4
+              },
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Yoru",
+                "R1.0": 0.547,
+                "ACS": 120,
+                "K": 2,
+                "D": 4,
+                "A": 0,
+                "PlusMinus": -2,
+                "KAST": 0.75,
+                "ADR": 71.0,
+                "HS%": 0.25,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 4
+              },
+              {
+                "Player": "radical",
+                "Agent": "Waylay",
+                "R1.0": 0.271,
+                "ACS": 113,
+                "K": 1,
+                "D": 4,
+                "A": 0,
+                "PlusMinus": -3,
+                "KAST": 0.25,
+                "ADR": 78.0,
+                "HS%": 0.0,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 4
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 0.104,
+                "ACS": 43,
+                "K": 0,
+                "D": 4,
+                "A": 1,
+                "PlusMinus": -4,
+                "KAST": 0.25,
+                "ADR": 43.0,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 4
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "phuzzy",
+                "Agent": "Vyse",
+                "R1.0": 1.73,
+                "ACS": 351,
+                "K": 15,
+                "D": 7,
+                "A": 6,
+                "PlusMinus": 8,
+                "KAST": 1.0,
+                "ADR": 230.5,
+                "HS%": 0.205,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4,
+                "Rounds": 12
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Astra",
+                "R1.0": 1.583,
+                "ACS": 306,
+                "K": 13,
+                "D": 5,
+                "A": 8,
+                "PlusMinus": 8,
+                "KAST": 0.833,
+                "ADR": 184.8,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "thighs",
+                "Agent": "Sova",
+                "R1.0": 1.078,
+                "ACS": 168,
+                "K": 8,
+                "D": 6,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.833,
+                "ADR": 119.1,
+                "HS%": 0.226,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "cooleo",
+                "Agent": "Yoru",
+                "R1.0": 0.965,
+                "ACS": 191,
+                "K": 9,
+                "D": 8,
+                "A": 3,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 102.8,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "derpina",
+                "Agent": "Jett",
+                "R1.0": 0.784,
+                "ACS": 139,
+                "K": 6,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 87.8,
+                "HS%": 0.357,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Summit",
+      "score1": 5,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Phoenix",
+              "R1.0": 1.42,
+              "ACS": 305,
+              "K": 19,
+              "D": 13,
+              "A": 3,
+              "PlusMinus": 6,
+              "KAST": 0.833,
+              "ADR": 224.6,
+              "HS%": 0.417,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 0.938,
+              "ACS": 214,
+              "K": 12,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": -1,
+              "KAST": 0.667,
+              "ADR": 127.6,
+              "HS%": 0.152,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 0.817,
+              "ACS": 166,
+              "K": 9,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": -4,
+              "KAST": 0.667,
+              "ADR": 115.9,
+              "HS%": 0.257,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "roro",
+              "Agent": "Omen",
+              "R1.0": 0.55,
+              "ACS": 123,
+              "K": 8,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": -8,
+              "KAST": 0.556,
+              "ADR": 74.2,
+              "HS%": 0.3,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "radical",
+              "Agent": "Raze",
+              "R1.0": 0.53,
+              "ACS": 111,
+              "K": 6,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -10,
+              "KAST": 0.611,
+              "ADR": 88.6,
+              "HS%": 0.135,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "SPG",
+          "teamName": "Spank Ptheory Gaming",
+          "players": [
+            {
+              "Player": "cooleo",
+              "Agent": "Viper",
+              "R1.0": 1.379,
+              "ACS": 304,
+              "K": 19,
+              "D": 12,
+              "A": 7,
+              "PlusMinus": 7,
+              "KAST": 0.667,
+              "ADR": 199.0,
+              "HS%": 0.281,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "phuzzy",
+              "Agent": "Vyse",
+              "R1.0": 1.298,
+              "ACS": 239,
+              "K": 16,
+              "D": 8,
+              "A": 4,
+              "PlusMinus": 8,
+              "KAST": 0.833,
+              "ADR": 158.9,
+              "HS%": 0.208,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "derpina",
+              "Agent": "Yoru",
+              "R1.0": 1.164,
+              "ACS": 256,
+              "K": 17,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": 3,
+              "KAST": 0.889,
+              "ADR": 144.2,
+              "HS%": 0.259,
+              "FK": 6,
+              "FD": 3,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "dunkn",
+              "Agent": "Omen",
+              "R1.0": 0.971,
+              "ACS": 157,
+              "K": 11,
+              "D": 10,
+              "A": 7,
+              "PlusMinus": 1,
+              "KAST": 0.778,
+              "ADR": 99.9,
+              "HS%": 0.267,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "thighs",
+              "Agent": "Fade",
+              "R1.0": 0.779,
+              "ACS": 120,
+              "K": 8,
+              "D": 10,
+              "A": 3,
+              "PlusMinus": -2,
+              "KAST": 0.778,
+              "ADR": 79.9,
+              "HS%": 0.286,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 1.217,
+                "ACS": 261,
+                "K": 11,
+                "D": 9,
+                "A": 1,
+                "PlusMinus": 2,
+                "KAST": 0.833,
+                "ADR": 186.0,
+                "HS%": 0.357,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 0.888,
+                "ACS": 212,
+                "K": 8,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 129.6,
+                "HS%": 0.143,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 0.795,
+                "ACS": 148,
+                "K": 5,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 102.8,
+                "HS%": 0.208,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 0.618,
+                "ACS": 155,
+                "K": 6,
+                "D": 12,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.667,
+                "ADR": 86.7,
+                "HS%": 0.333,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 0.524,
+                "ACS": 111,
+                "K": 4,
+                "D": 11,
+                "A": 2,
+                "PlusMinus": -7,
+                "KAST": 0.583,
+                "ADR": 89.4,
+                "HS%": 0.077,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "phuzzy",
+                "Agent": "Vyse",
+                "R1.0": 1.664,
+                "ACS": 367,
+                "K": 8,
+                "D": 3,
+                "A": 1,
+                "PlusMinus": 5,
+                "KAST": 0.667,
+                "ADR": 243.5,
+                "HS%": 0.261,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "cooleo",
+                "Agent": "Viper",
+                "R1.0": 1.226,
+                "ACS": 209,
+                "K": 4,
+                "D": 4,
+                "A": 6,
+                "PlusMinus": 0,
+                "KAST": 0.833,
+                "ADR": 146.5,
+                "HS%": 0.176,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "derpina",
+                "Agent": "Yoru",
+                "R1.0": 0.81,
+                "ACS": 160,
+                "K": 3,
+                "D": 5,
+                "A": 2,
+                "PlusMinus": -2,
+                "KAST": 0.833,
+                "ADR": 106.5,
+                "HS%": 0.429,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 6
+              },
+              {
+                "Player": "thighs",
+                "Agent": "Fade",
+                "R1.0": 0.702,
+                "ACS": 91,
+                "K": 3,
+                "D": 4,
+                "A": 1,
+                "PlusMinus": -1,
+                "KAST": 0.833,
+                "ADR": 49.5,
+                "HS%": 0.4,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.592,
+                "ACS": 112,
+                "K": 3,
+                "D": 4,
+                "A": 0,
+                "PlusMinus": -1,
+                "KAST": 0.5,
+                "ADR": 62.3,
+                "HS%": 0.286,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 1.827,
+                "ACS": 394,
+                "K": 8,
+                "D": 4,
+                "A": 2,
+                "PlusMinus": 4,
+                "KAST": 0.833,
+                "ADR": 301.7,
+                "HS%": 0.5,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 6
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 1.037,
+                "ACS": 217,
+                "K": 4,
+                "D": 3,
+                "A": 2,
+                "PlusMinus": 1,
+                "KAST": 0.667,
+                "ADR": 123.5,
+                "HS%": 0.176,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 6
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 0.863,
+                "ACS": 202,
+                "K": 4,
+                "D": 5,
+                "A": 0,
+                "PlusMinus": -1,
+                "KAST": 0.667,
+                "ADR": 142.2,
+                "HS%": 0.364,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 0.542,
+                "ACS": 112,
+                "K": 2,
+                "D": 5,
+                "A": 0,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 87.0,
+                "HS%": 0.273,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 6
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 0.416,
+                "ACS": 59,
+                "K": 2,
+                "D": 4,
+                "A": 0,
+                "PlusMinus": -2,
+                "KAST": 0.333,
+                "ADR": 49.3,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "cooleo",
+                "Agent": "Viper",
+                "R1.0": 1.455,
+                "ACS": 352,
+                "K": 15,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": 7,
+                "KAST": 0.583,
+                "ADR": 225.2,
+                "HS%": 0.325,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "derpina",
+                "Agent": "Yoru",
+                "R1.0": 1.342,
+                "ACS": 304,
+                "K": 14,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": 5,
+                "KAST": 0.917,
+                "ADR": 163.1,
+                "HS%": 0.2,
+                "FK": 5,
+                "FD": 0,
+                "PlusMinus2": 5,
+                "Rounds": 12
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 1.16,
+                "ACS": 179,
+                "K": 8,
+                "D": 6,
+                "A": 7,
+                "PlusMinus": 2,
+                "KAST": 0.917,
+                "ADR": 118.7,
+                "HS%": 0.261,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Vyse",
+                "R1.0": 1.115,
+                "ACS": 175,
+                "K": 8,
+                "D": 5,
+                "A": 3,
+                "PlusMinus": 3,
+                "KAST": 0.917,
+                "ADR": 116.7,
+                "HS%": 0.167,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "thighs",
+                "Agent": "Fade",
+                "R1.0": 0.817,
+                "ACS": 134,
+                "K": 5,
+                "D": 6,
+                "A": 2,
+                "PlusMinus": -1,
+                "KAST": 0.75,
+                "ADR": 95.2,
+                "HS%": 0.25,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lotus",
+      "score1": 14,
+      "score2": 16,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 25,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 26,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 27,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 28,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 29,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 30,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T1",
+          "teamName": "Team 1",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Phoenix",
+              "R1.0": 1.109,
+              "ACS": 244,
+              "K": 26,
+              "D": 21,
+              "A": 7,
+              "PlusMinus": 5,
+              "KAST": 0.667,
+              "ADR": 152.4,
+              "HS%": 0.344,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "roro",
+              "Agent": "Omen",
+              "R1.0": 0.958,
+              "ACS": 178,
+              "K": 19,
+              "D": 20,
+              "A": 13,
+              "PlusMinus": -1,
+              "KAST": 0.7,
+              "ADR": 114.9,
+              "HS%": 0.174,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "radical",
+              "Agent": "Raze",
+              "R1.0": 0.952,
+              "ACS": 199,
+              "K": 20,
+              "D": 21,
+              "A": 4,
+              "PlusMinus": -1,
+              "KAST": 0.6,
+              "ADR": 151.1,
+              "HS%": 0.254,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Ceiliuir",
+              "Agent": "Cypher",
+              "R1.0": 0.835,
+              "ACS": 162,
+              "K": 14,
+              "D": 22,
+              "A": 12,
+              "PlusMinus": -8,
+              "KAST": 0.733,
+              "ADR": 112.9,
+              "HS%": 0.115,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Pi",
+              "Agent": "Fade",
+              "R1.0": 0.76,
+              "ACS": 156,
+              "K": 17,
+              "D": 22,
+              "A": 6,
+              "PlusMinus": -5,
+              "KAST": 0.6,
+              "ADR": 95.8,
+              "HS%": 0.304,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "SPG",
+          "teamName": "Spank Ptheory Gaming",
+          "players": [
+            {
+              "Player": "cooleo",
+              "Agent": "Viper",
+              "R1.0": 1.263,
+              "ACS": 263,
+              "K": 30,
+              "D": 19,
+              "A": 5,
+              "PlusMinus": 11,
+              "KAST": 0.733,
+              "ADR": 170.8,
+              "HS%": 0.244,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "thighs",
+              "Agent": "Fade",
+              "R1.0": 1.151,
+              "ACS": 227,
+              "K": 25,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": 7,
+              "KAST": 0.733,
+              "ADR": 163.2,
+              "HS%": 0.329,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "phuzzy",
+              "Agent": "Chamber",
+              "R1.0": 1.022,
+              "ACS": 196,
+              "K": 21,
+              "D": 19,
+              "A": 5,
+              "PlusMinus": 2,
+              "KAST": 0.7,
+              "ADR": 144.3,
+              "HS%": 0.367,
+              "FK": 4,
+              "FD": 5,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "dunkn",
+              "Agent": "Omen",
+              "R1.0": 0.955,
+              "ACS": 158,
+              "K": 15,
+              "D": 18,
+              "A": 16,
+              "PlusMinus": -3,
+              "KAST": 0.8,
+              "ADR": 109.8,
+              "HS%": 0.129,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "derpina",
+              "Agent": "Neon",
+              "R1.0": 0.694,
+              "ACS": 148,
+              "K": 15,
+              "D": 22,
+              "A": 2,
+              "PlusMinus": -7,
+              "KAST": 0.633,
+              "ADR": 91.8,
+              "HS%": 0.25,
+              "FK": 6,
+              "FD": 5,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 0.945,
+                "ACS": 198,
+                "K": 12,
+                "D": 9,
+                "A": 0,
+                "PlusMinus": 3,
+                "KAST": 0.467,
+                "ADR": 130.5,
+                "HS%": 0.55,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1,
+                "Rounds": 15
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 0.93,
+                "ACS": 186,
+                "K": 9,
+                "D": 11,
+                "A": 7,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 123.6,
+                "HS%": 0.125,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 15
+              },
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 0.772,
+                "ACS": 172,
+                "K": 10,
+                "D": 12,
+                "A": 3,
+                "PlusMinus": -2,
+                "KAST": 0.467,
+                "ADR": 106.9,
+                "HS%": 0.409,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 15
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 0.678,
+                "ACS": 145,
+                "K": 5,
+                "D": 12,
+                "A": 6,
+                "PlusMinus": -7,
+                "KAST": 0.6,
+                "ADR": 107.6,
+                "HS%": 0.081,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 15
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 0.611,
+                "ACS": 121,
+                "K": 6,
+                "D": 12,
+                "A": 4,
+                "PlusMinus": -6,
+                "KAST": 0.533,
+                "ADR": 86.4,
+                "HS%": 0.409,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 15
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "cooleo",
+                "Agent": "Viper",
+                "R1.0": 1.378,
+                "ACS": 284,
+                "K": 16,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": 7,
+                "KAST": 0.733,
+                "ADR": 187.5,
+                "HS%": 0.224,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 15
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Chamber",
+                "R1.0": 1.007,
+                "ACS": 210,
+                "K": 12,
+                "D": 12,
+                "A": 2,
+                "PlusMinus": 0,
+                "KAST": 0.733,
+                "ADR": 144.3,
+                "HS%": 0.524,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 15
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.931,
+                "ACS": 164,
+                "K": 8,
+                "D": 10,
+                "A": 6,
+                "PlusMinus": -2,
+                "KAST": 0.8,
+                "ADR": 116.5,
+                "HS%": 0.143,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 15
+              },
+              {
+                "Player": "thighs",
+                "Agent": "Fade",
+                "R1.0": 0.833,
+                "ACS": 166,
+                "K": 9,
+                "D": 11,
+                "A": 2,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 115.4,
+                "HS%": 0.182,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 15
+              },
+              {
+                "Player": "derpina",
+                "Agent": "Neon",
+                "R1.0": 0.504,
+                "ACS": 107,
+                "K": 5,
+                "D": 12,
+                "A": 1,
+                "PlusMinus": -7,
+                "KAST": 0.533,
+                "ADR": 76.6,
+                "HS%": 0.133,
+                "FK": 2,
+                "FD": 4,
+                "PlusMinus2": -2,
+                "Rounds": 15
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "T1",
+            "teamName": "Team 1",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Phoenix",
+                "R1.0": 1.446,
+                "ACS": 316,
+                "K": 16,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": 7,
+                "KAST": 0.867,
+                "ADR": 197.9,
+                "HS%": 0.308,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 15
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Cypher",
+                "R1.0": 0.993,
+                "ACS": 180,
+                "K": 9,
+                "D": 10,
+                "A": 6,
+                "PlusMinus": -1,
+                "KAST": 0.867,
+                "ADR": 118.3,
+                "HS%": 0.14,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1,
+                "Rounds": 15
+              },
+              {
+                "Player": "roro",
+                "Agent": "Omen",
+                "R1.0": 0.986,
+                "ACS": 170,
+                "K": 10,
+                "D": 9,
+                "A": 6,
+                "PlusMinus": 1,
+                "KAST": 0.733,
+                "ADR": 106.2,
+                "HS%": 0.241,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 15
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 0.96,
+                "ACS": 200,
+                "K": 8,
+                "D": 12,
+                "A": 4,
+                "PlusMinus": -4,
+                "KAST": 0.733,
+                "ADR": 171.7,
+                "HS%": 0.137,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 15
+              },
+              {
+                "Player": "Pi",
+                "Agent": "Fade",
+                "R1.0": 0.91,
+                "ACS": 190,
+                "K": 11,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": 1,
+                "KAST": 0.667,
+                "ADR": 105.2,
+                "HS%": 0.235,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1,
+                "Rounds": 15
+              }
+            ]
+          },
+          {
+            "team": "SPG",
+            "teamName": "Spank Ptheory Gaming",
+            "players": [
+              {
+                "Player": "thighs",
+                "Agent": "Fade",
+                "R1.0": 1.47,
+                "ACS": 288,
+                "K": 16,
+                "D": 7,
+                "A": 1,
+                "PlusMinus": 9,
+                "KAST": 0.8,
+                "ADR": 211.1,
+                "HS%": 0.459,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 15
+              },
+              {
+                "Player": "cooleo",
+                "Agent": "Viper",
+                "R1.0": 1.147,
+                "ACS": 243,
+                "K": 14,
+                "D": 10,
+                "A": 1,
+                "PlusMinus": 4,
+                "KAST": 0.733,
+                "ADR": 154.1,
+                "HS%": 0.27,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 15
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Chamber",
+                "R1.0": 1.036,
+                "ACS": 183,
+                "K": 9,
+                "D": 7,
+                "A": 3,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 144.3,
+                "HS%": 0.25,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1,
+                "Rounds": 15
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.98,
+                "ACS": 151,
+                "K": 7,
+                "D": 8,
+                "A": 10,
+                "PlusMinus": -1,
+                "KAST": 0.8,
+                "ADR": 103.2,
+                "HS%": 0.114,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 15
+              },
+              {
+                "Player": "derpina",
+                "Agent": "Neon",
+                "R1.0": 0.883,
+                "ACS": 189,
+                "K": 10,
+                "D": 10,
+                "A": 1,
+                "PlusMinus": 0,
+                "KAST": 0.733,
+                "ADR": 107.1,
+                "HS%": 0.444,
+                "FK": 4,
+                "FD": 1,
+                "PlusMinus2": 3,
+                "Rounds": 15
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=noBLDWi1oB0"
 }
