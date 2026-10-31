@@ -1,30 +1,8 @@
 import { useRandom } from '../utils/useRandom.ts';
 
-const shitpostPaths = [
-	'coaching.png',
-	'linus_stick_to_coaching.webp',
-	'send_down.png',
-	'we_dont_know_shit.gif',
-	'what_does_he_do.gif',
-	'caleb.webp',
-	'ender.png',
-	'zmjjkk.jpg',
-	'night_2.webp',
-	'night_3.webp',
-	'where_is_their_team.webp',
-	'where_is_my_team.webp',
-	'grimisnotgrim.webp',
-	'pcmt.webp',
-	'tenyaku.webp',
-	'masaoisneeded.gif',
-	'what_does_caleb_do.gif',
-	'mimi.webp',
-	'izz.webp',
-	'larp.webp',
-	'james1.webp',
-	'angus1.webp',
-	'lucas1.webp',
-];
+// Every file in public/res/garbage, listed at build time (in astro.config.mjs) - drop an image in the folder to add it
+declare const __GARBAGE__: string[];
+const shitpostPaths = __GARBAGE__;
 
 function pickN<T>(items: T[], N: number): T[] {
 	const indexes = Array.from({ length: items.length }, (_, i) => i);

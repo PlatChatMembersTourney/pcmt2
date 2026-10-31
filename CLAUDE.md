@@ -58,6 +58,8 @@ Manage the background server with `astro dev stop`, `astro dev status`, and `ast
 
 Node is managed by pnpm (`pnpm runtime`); an older Node elsewhere on `PATH` (e.g. nvm's) may be found first, so put pnpm's `bin` folder first.
 
+The Advertisement column (fun mode) shows every file in `public/res/garbage`, listed by `astro.config.mjs` at startup (`__GARBAGE__`), so restart the dev server after adding an image there. Only put images in that folder.
+
 Libraries loaded with a dynamic `import()` (like `brackets-viewer` in `Bracket.tsx`) need an entry in `optimizeDeps.include` in `astro.config.mjs`, or the dev server fails to load them with "504 Outdated Optimize Dep".
 
 ## Documentation
