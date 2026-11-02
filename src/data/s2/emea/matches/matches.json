@@ -1,5 +1,22 @@
 [
   {
+    "id": "nats-vs-nip-s2-playoffs-2026-11-05",
+    "team1": "NATS",
+    "team2": "NIP",
+    "team1Name": "Never Available To Scrim",
+    "team2Name": "Name in Progress",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-11-05T21:30:00Z",
+    "stage": "Playoffs",
+    "winChance": {
+      "team1": 0.508,
+      "team2": 0.492
+    }
+  },
+  {
     "id": "noot-vs-seal-s2-playoffs-2026-11-01",
     "team1": "NOOT",
     "team2": "SEAL",
