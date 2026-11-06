@@ -710,8 +710,8 @@
   "NATS": {
     "team": "NATS",
     "teamName": "Never Available To Scrim",
-    "overallAtkPct": 0.561,
-    "overallDefPct": 0.497,
+    "overallAtkPct": 0.526,
+    "overallDefPct": 0.509,
     "maps": [
       {
         "map": "Abyss",
@@ -728,16 +728,16 @@
       },
       {
         "map": "Ascent",
-        "pick": 1,
+        "pick": 2,
         "ban": 0,
-        "played": 2,
+        "played": 3,
         "won": 2,
-        "winPct": 1.0,
-        "rounds": 48,
-        "roundsWon": 26,
-        "roundPct": 0.542,
-        "atkPct": 0.667,
-        "defPct": 0.417
+        "winPct": 0.667,
+        "rounds": 72,
+        "roundsWon": 38,
+        "roundPct": 0.528,
+        "atkPct": 0.5,
+        "defPct": 0.556
       },
       {
         "map": "Bind",
@@ -794,7 +794,7 @@
       {
         "map": "Haven",
         "pick": 1,
-        "ban": 1,
+        "ban": 2,
         "played": 2,
         "won": 0,
         "winPct": 0.0,
@@ -847,19 +847,19 @@
         "map": "Split",
         "pick": 1,
         "ban": 2,
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "winPct": 1.0,
-        "rounds": 23,
-        "roundsWon": 13,
-        "roundPct": 0.565,
-        "atkPct": 0.583,
-        "defPct": 0.545
+        "winPct": 0.5,
+        "rounds": 45,
+        "roundsWon": 22,
+        "roundPct": 0.489,
+        "atkPct": 0.545,
+        "defPct": 0.435
       },
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 5,
+        "ban": 6,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -887,13 +887,13 @@
   "NIP": {
     "team": "NIP",
     "teamName": "Name in Progress",
-    "overallAtkPct": 0.584,
-    "overallDefPct": 0.515,
+    "overallAtkPct": 0.555,
+    "overallDefPct": 0.545,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -907,14 +907,14 @@
         "map": "Ascent",
         "pick": 0,
         "ban": 0,
-        "played": 2,
+        "played": 3,
         "won": 1,
-        "winPct": 0.5,
-        "rounds": 42,
-        "roundsWon": 21,
+        "winPct": 0.333,
+        "rounds": 66,
+        "roundsWon": 33,
         "roundPct": 0.5,
-        "atkPct": 0.429,
-        "defPct": 0.571
+        "atkPct": 0.333,
+        "defPct": 0.667
       },
       {
         "map": "Bind",
@@ -1022,16 +1022,16 @@
       },
       {
         "map": "Split",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "winPct": 1.0,
-        "rounds": 21,
-        "roundsWon": 13,
-        "roundPct": 0.619,
-        "atkPct": 0.333,
-        "defPct": 0.833
+        "rounds": 43,
+        "roundsWon": 26,
+        "roundPct": 0.605,
+        "atkPct": 0.524,
+        "defPct": 0.682
       },
       {
         "map": "Summit",
@@ -1049,7 +1049,7 @@
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 3,
+        "ban": 4,
         "played": 0,
         "won": 0,
         "winPct": 0,
