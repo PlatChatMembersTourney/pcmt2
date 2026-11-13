@@ -1,6 +1,19 @@
 {
   "Overall": [
     {
+      "abbr": "NIP",
+      "name": "Name in Progress",
+      "matchW": 4,
+      "matchL": 1,
+      "mapW": 8,
+      "mapL": 4,
+      "rndW": 145,
+      "rndL": 117,
+      "rank": 1,
+      "mapDiff": 4,
+      "rndDiff": 28
+    },
+    {
       "abbr": "XTC",
       "name": "Xually Terribly Cursed",
       "matchW": 4,
@@ -9,7 +22,7 @@
       "mapL": 3,
       "rndW": 144,
       "rndL": 115,
-      "rank": 1,
+      "rank": 2,
       "mapDiff": 6,
       "rndDiff": 29
     },
@@ -17,14 +30,14 @@
       "abbr": "NATS",
       "name": "Never Available To Scrim",
       "matchW": 4,
-      "matchL": 1,
+      "matchL": 2,
       "mapW": 8,
-      "mapL": 5,
-      "rndW": 148,
-      "rndL": 133,
-      "rank": 2,
-      "mapDiff": 3,
-      "rndDiff": 15
+      "mapL": 7,
+      "rndW": 169,
+      "rndL": 160,
+      "rank": 3,
+      "mapDiff": 1,
+      "rndDiff": 9
     },
     {
       "abbr": "SOG",
@@ -35,22 +48,9 @@
       "mapL": 3,
       "rndW": 105,
       "rndL": 90,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 3,
       "rndDiff": 15
-    },
-    {
-      "abbr": "NIP",
-      "name": "Name in Progress",
-      "matchW": 3,
-      "matchL": 1,
-      "mapW": 6,
-      "mapL": 4,
-      "rndW": 118,
-      "rndL": 96,
-      "rank": 4,
-      "mapDiff": 2,
-      "rndDiff": 22
     },
     {
       "abbr": "NOOT",
@@ -280,6 +280,19 @@
       "rndDiff": 20
     },
     {
+      "abbr": "NIP",
+      "name": "Name in Progress",
+      "matchW": 1,
+      "matchL": 0,
+      "mapW": 2,
+      "mapL": 0,
+      "rndW": 27,
+      "rndL": 21,
+      "rank": 2,
+      "mapDiff": 2,
+      "rndDiff": 6
+    },
+    {
       "abbr": "HOT",
       "name": "Honestly Outrageous Temperatures",
       "matchW": 1,
@@ -288,7 +301,7 @@
       "mapL": 0,
       "rndW": 26,
       "rndL": 7,
-      "rank": 2,
+      "rank": 3,
       "mapDiff": 2,
       "rndDiff": 19
     },
@@ -301,7 +314,7 @@
       "mapL": 0,
       "rndW": 31,
       "rndL": 21,
-      "rank": 3,
+      "rank": 4,
       "mapDiff": 2,
       "rndDiff": 10
     },
@@ -309,14 +322,14 @@
       "abbr": "NATS",
       "name": "Never Available To Scrim",
       "matchW": 1,
-      "matchL": 0,
+      "matchL": 1,
       "mapW": 2,
-      "mapL": 0,
-      "rndW": 26,
-      "rndL": 22,
-      "rank": 4,
-      "mapDiff": 2,
-      "rndDiff": 4
+      "mapL": 2,
+      "rndW": 47,
+      "rndL": 49,
+      "rank": 5,
+      "mapDiff": 0,
+      "rndDiff": -2
     },
     {
       "abbr": "FaZe",
@@ -327,7 +340,7 @@
       "mapL": 2,
       "rndW": 33,
       "rndL": 38,
-      "rank": 5,
+      "rank": 6,
       "mapDiff": -1,
       "rndDiff": -5
     },
@@ -340,7 +353,7 @@
       "mapL": 2,
       "rndW": 22,
       "rndL": 26,
-      "rank": 6,
+      "rank": 7,
       "mapDiff": -2,
       "rndDiff": -4
     },
@@ -353,7 +366,7 @@
       "mapL": 2,
       "rndW": 7,
       "rndL": 26,
-      "rank": 7,
+      "rank": 8,
       "mapDiff": -2,
       "rndDiff": -19
     },
@@ -366,7 +379,7 @@
       "mapL": 4,
       "rndW": 41,
       "rndL": 66,
-      "rank": 8,
+      "rank": 9,
       "mapDiff": -3,
       "rndDiff": -25
     }

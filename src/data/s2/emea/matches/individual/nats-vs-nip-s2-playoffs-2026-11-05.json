@@ -1,357 +1,715 @@
-[
-  {
-    "id": "nats-vs-nip-s2-playoffs-2026-11-05",
-    "team1": "NATS",
-    "team2": "NIP",
-    "team1Name": "Never Available To Scrim",
-    "team2Name": "Name in Progress",
-    "score1": 0,
-    "score2": 2,
-    "completed": true,
-    "bestOf": 3,
-    "date": "2026-11-05T21:30:00Z",
-    "stage": "Playoffs",
-    "veto": "NATS bans Summit, NIP bans Abyss, NATS picks Ascent, NIP picks Split, NATS bans Haven, NIP bans Sunset, Lotus remains",
-    "maps": [
-      {
-        "name": "Ascent",
-        "score1": 12,
-        "score2": 14
-      },
-      {
-        "name": "Split",
-        "score1": 9,
-        "score2": 13
-      }
-    ],
-    "combinedStats": [
-      {
-        "team": "NATS",
-        "teamName": "Never Available To Scrim",
-        "players": [
-          {
-            "Player": "asra",
-            "R1.0": 1.212,
-            "ACS": 259,
-            "K": 45,
-            "D": 32,
-            "A": 3,
-            "PlusMinus": 13,
-            "KAST": 0.761,
-            "ADR": 164.5,
-            "HS%": 0.329,
-            "FK": 3,
-            "FD": 8,
-            "PlusMinus2": -5
-          },
-          {
-            "Player": "denial",
-            "R1.0": 1.075,
-            "ACS": 239,
-            "K": 38,
-            "D": 35,
-            "A": 13,
-            "PlusMinus": 3,
-            "KAST": 0.652,
-            "ADR": 157.5,
-            "HS%": 0.179,
-            "FK": 6,
-            "FD": 7,
-            "PlusMinus2": -1
-          },
-          {
-            "Player": "syim",
-            "R1.0": 0.875,
-            "ACS": 182,
-            "K": 30,
-            "D": 38,
-            "A": 17,
-            "PlusMinus": -8,
-            "KAST": 0.674,
-            "ADR": 111.4,
-            "HS%": 0.16,
-            "FK": 2,
-            "FD": 5,
-            "PlusMinus2": -3
-          },
-          {
-            "Player": "reoken",
-            "R1.0": 0.874,
-            "ACS": 178,
-            "K": 27,
-            "D": 34,
-            "A": 13,
-            "PlusMinus": -7,
-            "KAST": 0.696,
-            "ADR": 122.5,
-            "HS%": 0.218,
-            "FK": 5,
-            "FD": 6,
-            "PlusMinus2": -1
-          },
-          {
-            "Player": "Spolen",
-            "R1.0": 0.724,
-            "ACS": 111,
-            "K": 17,
-            "D": 34,
-            "A": 22,
-            "PlusMinus": -17,
-            "KAST": 0.761,
-            "ADR": 72.3,
-            "HS%": 0.191,
-            "FK": 3,
-            "FD": 3,
-            "PlusMinus2": 0
-          }
-        ]
-      },
-      {
-        "team": "NIP",
-        "teamName": "Name in Progress",
-        "players": [
-          {
-            "Player": "Kai",
-            "R1.0": 1.604,
-            "ACS": 346,
-            "K": 65,
-            "D": 27,
-            "A": 8,
-            "PlusMinus": 38,
-            "KAST": 0.826,
-            "ADR": 220.2,
-            "HS%": 0.255,
-            "FK": 15,
-            "FD": 2,
-            "PlusMinus2": 13
-          },
-          {
-            "Player": "Pandyro",
-            "R1.0": 1.155,
-            "ACS": 251,
-            "K": 41,
-            "D": 37,
-            "A": 15,
-            "PlusMinus": 4,
-            "KAST": 0.761,
-            "ADR": 167.4,
-            "HS%": 0.205,
-            "FK": 6,
-            "FD": 3,
-            "PlusMinus2": 3
-          },
-          {
-            "Player": "SB",
-            "R1.0": 0.923,
-            "ACS": 201,
-            "K": 32,
-            "D": 36,
-            "A": 13,
-            "PlusMinus": -4,
-            "KAST": 0.674,
-            "ADR": 122.6,
-            "HS%": 0.288,
-            "FK": 5,
-            "FD": 4,
-            "PlusMinus2": 1
-          },
-          {
-            "Player": "jinno",
-            "R1.0": 0.685,
-            "ACS": 85,
-            "K": 17,
-            "D": 27,
-            "A": 23,
-            "PlusMinus": -10,
-            "KAST": 0.696,
-            "ADR": 54.8,
-            "HS%": 0.216,
-            "FK": 1,
-            "FD": 3,
-            "PlusMinus2": -2
-          },
-          {
-            "Player": "goofy",
-            "R1.0": 0.673,
-            "ACS": 110,
-            "K": 18,
-            "D": 30,
-            "A": 8,
-            "PlusMinus": -12,
-            "KAST": 0.63,
-            "ADR": 80.0,
-            "HS%": 0.182,
-            "FK": 2,
-            "FD": 7,
-            "PlusMinus2": -5
-          }
-        ]
-      }
-    ],
-    "mapDetails": [
-      {
-        "name": "Ascent",
-        "score1": 12,
-        "score2": 14,
-        "rounds": [
-          {
-            "round": 1,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 2,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 3,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 4,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 5,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 6,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 7,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 8,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 9,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 10,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 11,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 12,
-            "winner": 2,
-            "side": "def",
-            "endType": "Round timer expired"
-          },
-          {
-            "round": 13,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 14,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 15,
-            "winner": 1,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 16,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 17,
-            "winner": 1,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 18,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 19,
-            "winner": 1,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 20,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 21,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 22,
-            "winner": 1,
-            "side": "def",
-            "endType": "Round timer expired"
-          },
-          {
-            "round": 23,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 24,
-            "winner": 1,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
+{
+  "id": "nats-vs-nip-s2-playoffs-2026-11-05",
+  "team1": "NATS",
+  "team2": "NIP",
+  "team1Name": "Never Available To Scrim",
+  "team2Name": "Name in Progress",
+  "score1": 0,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-11-05T21:30:00Z",
+  "stage": "Playoffs",
+  "veto": "NATS bans Summit, NIP bans Abyss, NATS picks Ascent, NIP picks Split, NATS bans Haven, NIP bans Sunset, Lotus remains",
+  "maps": [
+    {
+      "name": "Ascent",
+      "score1": 12,
+      "score2": 14
+    },
+    {
+      "name": "Split",
+      "score1": 9,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "NATS",
+      "teamName": "Never Available To Scrim",
+      "players": [
         {
-            "round": 25,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
+          "Player": "asra",
+          "R1.0": 1.167,
+          "ACS": 251,
+          "K": 45,
+          "D": 32,
+          "A": 3,
+          "PlusMinus": 13,
+          "KAST": 0.75,
+          "ADR": 159.4,
+          "HS%": 0.314,
+          "FK": 3,
+          "FD": 8,
+          "PlusMinus2": -5
         },
         {
-            "round": 26,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
+          "Player": "denial",
+          "R1.0": 1.065,
+          "ACS": 239,
+          "K": 38,
+          "D": 35,
+          "A": 13,
+          "PlusMinus": 3,
+          "KAST": 0.646,
+          "ADR": 155.3,
+          "HS%": 0.18,
+          "FK": 6,
+          "FD": 7,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "reoken",
+          "R1.0": 0.897,
+          "ACS": 185,
+          "K": 27,
+          "D": 34,
+          "A": 13,
+          "PlusMinus": -7,
+          "KAST": 0.708,
+          "ADR": 127.2,
+          "HS%": 0.216,
+          "FK": 5,
+          "FD": 6,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "syim",
+          "R1.0": 0.865,
+          "ACS": 180,
+          "K": 30,
+          "D": 38,
+          "A": 17,
+          "PlusMinus": -8,
+          "KAST": 0.687,
+          "ADR": 110.1,
+          "HS%": 0.168,
+          "FK": 2,
+          "FD": 5,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "Spolen",
+          "R1.0": 0.699,
+          "ACS": 107,
+          "K": 17,
+          "D": 34,
+          "A": 23,
+          "PlusMinus": -17,
+          "KAST": 0.75,
+          "ADR": 69.3,
+          "HS%": 0.187,
+          "FK": 3,
+          "FD": 3,
+          "PlusMinus2": 0
+        }
+      ]
+    },
+    {
+      "team": "NIP",
+      "teamName": "Name in Progress",
+      "players": [
+        {
+          "Player": "Kai",
+          "R1.0": 1.66,
+          "ACS": 357,
+          "K": 65,
+          "D": 27,
+          "A": 8,
+          "PlusMinus": 38,
+          "KAST": 0.833,
+          "ADR": 227.5,
+          "HS%": 0.259,
+          "FK": 15,
+          "FD": 2,
+          "PlusMinus2": 13
+        },
+        {
+          "Player": "Pandyro",
+          "R1.0": 1.17,
+          "ACS": 255,
+          "K": 41,
+          "D": 37,
+          "A": 15,
+          "PlusMinus": 4,
+          "KAST": 0.771,
+          "ADR": 171.5,
+          "HS%": 0.211,
+          "FK": 6,
+          "FD": 3,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "SB",
+          "R1.0": 0.911,
+          "ACS": 195,
+          "K": 32,
+          "D": 36,
+          "A": 13,
+          "PlusMinus": -4,
+          "KAST": 0.687,
+          "ADR": 119.8,
+          "HS%": 0.273,
+          "FK": 5,
+          "FD": 4,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "jinno",
+          "R1.0": 0.738,
+          "ACS": 97,
+          "K": 17,
+          "D": 27,
+          "A": 23,
+          "PlusMinus": -10,
+          "KAST": 0.709,
+          "ADR": 64.6,
+          "HS%": 0.216,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "goofy",
+          "R1.0": 0.656,
+          "ACS": 106,
+          "K": 18,
+          "D": 30,
+          "A": 8,
+          "PlusMinus": -12,
+          "KAST": 0.625,
+          "ADR": 77.4,
+          "HS%": 0.179,
+          "FK": 2,
+          "FD": 7,
+          "PlusMinus2": -5
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Ascent",
+      "score1": 12,
+      "score2": 14,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 25,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 26,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "NATS",
+          "teamName": "Never Available To Scrim",
+          "players": [
+            {
+              "Player": "asra",
+              "Agent": "Jett",
+              "R1.0": 1.307,
+              "ACS": 292,
+              "K": 28,
+              "D": 16,
+              "A": 0,
+              "PlusMinus": 12,
+              "KAST": 0.769,
+              "ADR": 179.1,
+              "HS%": 0.2,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "denial",
+              "Agent": "Sova",
+              "R1.0": 1.237,
+              "ACS": 276,
+              "K": 24,
+              "D": 17,
+              "A": 10,
+              "PlusMinus": 7,
+              "KAST": 0.692,
+              "ADR": 166.1,
+              "HS%": 0.157,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "syim",
+              "Agent": "Cypher",
+              "R1.0": 0.833,
+              "ACS": 154,
+              "K": 14,
+              "D": 18,
+              "A": 9,
+              "PlusMinus": -4,
+              "KAST": 0.692,
+              "ADR": 99.3,
+              "HS%": 0.157,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "reoken",
+              "Agent": "Chamber",
+              "R1.0": 0.809,
+              "ACS": 160,
+              "K": 12,
+              "D": 19,
+              "A": 7,
+              "PlusMinus": -7,
+              "KAST": 0.692,
+              "ADR": 120.1,
+              "HS%": 0.175,
+              "FK": 3,
+              "FD": 6,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "Spolen",
+              "Agent": "Omen",
+              "R1.0": 0.629,
+              "ACS": 83,
+              "K": 7,
+              "D": 18,
+              "A": 16,
+              "PlusMinus": -11,
+              "KAST": 0.692,
+              "ADR": 51.9,
+              "HS%": 0.077,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "NIP",
+          "teamName": "Name in Progress",
+          "players": [
+            {
+              "Player": "Kai",
+              "Agent": "Jett",
+              "R1.0": 1.532,
+              "ACS": 322,
+              "K": 33,
+              "D": 14,
+              "A": 2,
+              "PlusMinus": 19,
+              "KAST": 0.769,
+              "ADR": 206.8,
+              "HS%": 0.286,
+              "FK": 8,
+              "FD": 1,
+              "PlusMinus2": 7
+            },
+            {
+              "Player": "Pandyro",
+              "Agent": "Phoenix",
+              "R1.0": 1.272,
+              "ACS": 289,
+              "K": 24,
+              "D": 20,
+              "A": 8,
+              "PlusMinus": 4,
+              "KAST": 0.731,
+              "ADR": 202.5,
+              "HS%": 0.241,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "goofy",
+              "Agent": "Tejo",
+              "R1.0": 0.705,
+              "ACS": 125,
+              "K": 12,
+              "D": 15,
+              "A": 2,
+              "PlusMinus": -3,
+              "KAST": 0.577,
+              "ADR": 83.8,
+              "HS%": 0.143,
+              "FK": 2,
+              "FD": 6,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "SB",
+              "Agent": "Cypher",
+              "R1.0": 0.685,
+              "ACS": 137,
+              "K": 11,
+              "D": 19,
+              "A": 7,
+              "PlusMinus": -8,
+              "KAST": 0.615,
+              "ADR": 88.7,
+              "HS%": 0.238,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "jinno",
+              "Agent": "Omen",
+              "R1.0": 0.672,
+              "ACS": 104,
+              "K": 8,
+              "D": 17,
+              "A": 13,
+              "PlusMinus": -9,
+              "KAST": 0.654,
+              "ADR": 69.5,
+              "HS%": 0.229,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "NATS",
+            "teamName": "Never Available To Scrim",
+            "players": [
+              {
+                "Player": "denial",
+                "Agent": "Sova",
+                "R1.0": 0.73,
+                "ACS": 202,
+                "K": 8,
+                "D": 11,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.5,
+                "ADR": 116.8,
+                "HS%": 0.118,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "asra",
+                "Agent": "Jett",
+                "R1.0": 0.668,
+                "ACS": 164,
+                "K": 6,
+                "D": 10,
+                "A": 0,
+                "PlusMinus": -4,
+                "KAST": 0.583,
+                "ADR": 111.4,
+                "HS%": 0.2,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "reoken",
+                "Agent": "Chamber",
+                "R1.0": 0.664,
+                "ACS": 147,
+                "K": 5,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -5,
+                "KAST": 0.5,
+                "ADR": 115.4,
+                "HS%": 0.182,
+                "FK": 0,
+                "FD": 5,
+                "PlusMinus2": -5,
+                "Rounds": 12
+              },
+              {
+                "Player": "syim",
+                "Agent": "Cypher",
+                "R1.0": 0.559,
+                "ACS": 116,
+                "K": 5,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": -5,
+                "KAST": 0.5,
+                "ADR": 81.0,
+                "HS%": 0.158,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Spolen",
+                "Agent": "Omen",
+                "R1.0": 0.37,
+                "ACS": 61,
+                "K": 1,
+                "D": 11,
+                "A": 6,
+                "PlusMinus": -10,
+                "KAST": 0.583,
+                "ADR": 52.2,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "NIP",
+            "teamName": "Name in Progress",
+            "players": [
+              {
+                "Player": "Pandyro",
+                "Agent": "Phoenix",
+                "R1.0": 0.905,
+                "ACS": 205,
+                "K": 7,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -3,
+                "KAST": 0.583,
+                "ADR": 165.2,
+                "HS%": 0.212,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Kai",
+                "Agent": "Jett",
+                "R1.0": 0.652,
+                "ACS": 157,
+                "K": 7,
+                "D": 11,
+                "A": 0,
+                "PlusMinus": -4,
+                "KAST": 0.583,
+                "ADR": 101.1,
+                "HS%": 0.333,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "goofy",
+                "Agent": "Tejo",
+                "R1.0": 0.481,
+                "ACS": 136,
+                "K": 5,
+                "D": 11,
+                "A": 1,
+                "PlusMinus": -6,
+                "KAST": 0.333,
+                "ADR": 93.0,
+                "HS%": 0.136,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "jinno",
+                "Agent": "Omen",
+                "R1.0": 0.398,
+                "ACS": 94,
+                "K": 3,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": -8,
+                "KAST": 0.417,
+                "ADR": 55.5,
+                "HS%": 0.214,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "SB",
+                "Agent": "Cypher",
+                "R1.0": 0.3,
+                "ACS": 98,
+                "K": 4,
+                "D": 12,
+                "A": 0,
+                "PlusMinus": -8,
+                "KAST": 0.333,
+                "ADR": 60.9,
+                "HS%": 0.444,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              }
+            ]
           }
         ],
-        "stats": [
+        "def": [
           {
             "team": "NATS",
             "teamName": "Never Available To Scrim",
@@ -359,82 +717,87 @@
               {
                 "Player": "asra",
                 "Agent": "Jett",
-                "R1.0": 1.406,
-                "ACS": 312,
-                "K": 28,
-                "D": 16,
+                "R1.0": 2.143,
+                "ACS": 461,
+                "K": 22,
+                "D": 4,
                 "A": 0,
-                "PlusMinus": 12,
-                "KAST": 0.792,
-                "ADR": 190.6,
-                "HS%": 0.219,
-                "FK": 3,
-                "FD": 2,
-                "PlusMinus2": 1
+                "PlusMinus": 18,
+                "KAST": 1.0,
+                "ADR": 269.8,
+                "HS%": 0.226,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
               },
               {
                 "Player": "denial",
                 "Agent": "Sova",
-                "R1.0": 1.271,
-                "ACS": 278,
-                "K": 24,
-                "D": 17,
-                "A": 10,
-                "PlusMinus": 7,
-                "KAST": 0.708,
-                "ADR": 171.2,
-                "HS%": 0.153,
-                "FK": 5,
-                "FD": 2,
-                "PlusMinus2": 3
+                "R1.0": 1.812,
+                "ACS": 354,
+                "K": 14,
+                "D": 4,
+                "A": 9,
+                "PlusMinus": 10,
+                "KAST": 0.917,
+                "ADR": 225.6,
+                "HS%": 0.176,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
               },
               {
                 "Player": "syim",
                 "Agent": "Cypher",
-                "R1.0": 0.849,
-                "ACS": 157,
-                "K": 14,
-                "D": 18,
-                "A": 9,
-                "PlusMinus": -4,
-                "KAST": 0.667,
-                "ADR": 101.0,
-                "HS%": 0.14,
-                "FK": 1,
-                "FD": 2,
-                "PlusMinus2": -1
-              },
-              {
-                "Player": "reoken",
-                "Agent": "Chamber",
-                "R1.0": 0.758,
-                "ACS": 145,
-                "K": 12,
-                "D": 19,
+                "R1.0": 1.139,
+                "ACS": 199,
+                "K": 8,
+                "D": 6,
                 "A": 7,
-                "PlusMinus": -7,
-                "KAST": 0.667,
-                "ADR": 110.5,
-                "HS%": 0.176,
-                "FK": 3,
-                "FD": 6,
-                "PlusMinus2": -3
+                "PlusMinus": 2,
+                "KAST": 0.833,
+                "ADR": 120.9,
+                "HS%": 0.129,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
               },
               {
                 "Player": "Spolen",
                 "Agent": "Omen",
-                "R1.0": 0.67,
-                "ACS": 89,
-                "K": 7,
-                "D": 18,
-                "A": 16,
-                "PlusMinus": -9,
-                "KAST": 0.708,
-                "ADR": 56.2,
-                "HS%": 0.077,
+                "R1.0": 0.97,
+                "ACS": 117,
+                "K": 6,
+                "D": 5,
+                "A": 9,
+                "PlusMinus": 1,
+                "KAST": 0.833,
+                "ADR": 60.2,
+                "HS%": 0.182,
                 "FK": 0,
-                "FD": 2,
-                "PlusMinus2": -2
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "reoken",
+                "Agent": "Chamber",
+                "R1.0": 0.852,
+                "ACS": 143,
+                "K": 5,
+                "D": 7,
+                "A": 3,
+                "PlusMinus": -2,
+                "KAST": 0.833,
+                "ADR": 105.7,
+                "HS%": 0.167,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
               }
             ]
           },
@@ -445,596 +808,407 @@
               {
                 "Player": "Kai",
                 "Agent": "Jett",
-                "R1.0": 1.413,
-                "ACS": 299,
-                "K": 33,
-                "D": 14,
+                "R1.0": 2.174,
+                "ACS": 441,
+                "K": 21,
+                "D": 3,
                 "A": 2,
-                "PlusMinus": 19,
-                "KAST": 0.75,
-                "ADR": 191.1,
-                "HS%": 0.28,
-                "FK": 8,
-                "FD": 1,
-                "PlusMinus2": 7
+                "PlusMinus": 18,
+                "KAST": 0.917,
+                "ADR": 281.2,
+                "HS%": 0.241,
+                "FK": 5,
+                "FD": 0,
+                "PlusMinus2": 5,
+                "Rounds": 12
               },
               {
                 "Player": "Pandyro",
                 "Agent": "Phoenix",
-                "R1.0": 1.253,
-                "ACS": 284,
-                "K": 24,
-                "D": 20,
-                "A": 8,
-                "PlusMinus": 4,
-                "KAST": 0.708,
-                "ADR": 197.2,
-                "HS%": 0.233,
+                "R1.0": 1.6,
+                "ACS": 363,
+                "K": 15,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": 7,
+                "KAST": 0.833,
+                "ADR": 229.2,
+                "HS%": 0.25,
                 "FK": 3,
                 "FD": 0,
-                "PlusMinus2": 3
-              },
-              {
-                "Player": "goofy",
-                "Agent": "Tejo",
-                "R1.0": 0.74,
-                "ACS": 134,
-                "K": 12,
-                "D": 15,
-                "A": 2,
-                "PlusMinus": -3,
-                "KAST": 0.583,
-                "ADR": 89.2,
-                "HS%": 0.146,
-                "FK": 2,
-                "FD": 6,
-                "PlusMinus2": -4
+                "PlusMinus2": 3,
+                "Rounds": 12
               },
               {
                 "Player": "SB",
                 "Agent": "Cypher",
-                "R1.0": 0.689,
-                "ACS": 144,
-                "K": 11,
-                "D": 19,
-                "A": 7,
-                "PlusMinus": -8,
-                "KAST": 0.583,
-                "ADR": 91.5,
-                "HS%": 0.263,
+                "R1.0": 1.078,
+                "ACS": 190,
+                "K": 7,
+                "D": 6,
+                "A": 6,
+                "PlusMinus": 1,
+                "KAST": 0.833,
+                "ADR": 122.1,
+                "HS%": 0.207,
                 "FK": 0,
-                "FD": 3,
-                "PlusMinus2": -3
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "goofy",
+                "Agent": "Tejo",
+                "R1.0": 0.999,
+                "ACS": 132,
+                "K": 7,
+                "D": 3,
+                "A": 1,
+                "PlusMinus": 4,
+                "KAST": 0.833,
+                "ADR": 85.4,
+                "HS%": 0.158,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
               },
               {
                 "Player": "jinno",
                 "Agent": "Omen",
-                "R1.0": 0.567,
-                "ACS": 81,
-                "K": 8,
-                "D": 17,
-                "A": 13,
-                "PlusMinus": -9,
-                "KAST": 0.625,
-                "ADR": 51.2,
-                "HS%": 0.231,
+                "R1.0": 0.735,
+                "ACS": 67,
+                "K": 2,
+                "D": 5,
+                "A": 8,
+                "PlusMinus": -3,
+                "KAST": 0.833,
+                "ADR": 46.9,
+                "HS%": 0.25,
                 "FK": 1,
-                "FD": 2,
-                "PlusMinus2": -1
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
               }
             ]
           }
-        ],
-        "sides": {
-          "atk": [
+        ]
+      }
+    },
+    {
+      "name": "Split",
+      "score1": 9,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        }
+      ],
+      "stats": [
+        {
+          "team": "NATS",
+          "teamName": "Never Available To Scrim",
+          "players": [
             {
-              "team": "NATS",
-              "teamName": "Never Available To Scrim",
-              "players": [
-                {
-                  "Player": "denial",
-                  "Agent": "Sova",
-                  "R1.0": 0.73,
-                  "ACS": 202,
-                  "K": 8,
-                  "D": 11,
-                  "A": 1,
-                  "PlusMinus": -3,
-                  "KAST": 0.5,
-                  "ADR": 116.8,
-                  "HS%": 0.118,
-                  "FK": 1,
-                  "FD": 1,
-                  "PlusMinus2": 0,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "asra",
-                  "Agent": "Jett",
-                  "R1.0": 0.668,
-                  "ACS": 164,
-                  "K": 6,
-                  "D": 10,
-                  "A": 0,
-                  "PlusMinus": -4,
-                  "KAST": 0.583,
-                  "ADR": 111.4,
-                  "HS%": 0.2,
-                  "FK": 1,
-                  "FD": 2,
-                  "PlusMinus2": -1,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "reoken",
-                  "Agent": "Chamber",
-                  "R1.0": 0.664,
-                  "ACS": 147,
-                  "K": 5,
-                  "D": 10,
-                  "A": 3,
-                  "PlusMinus": -5,
-                  "KAST": 0.5,
-                  "ADR": 115.4,
-                  "HS%": 0.182,
-                  "FK": 0,
-                  "FD": 5,
-                  "PlusMinus2": -5,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "syim",
-                  "Agent": "Cypher",
-                  "R1.0": 0.559,
-                  "ACS": 116,
-                  "K": 5,
-                  "D": 10,
-                  "A": 2,
-                  "PlusMinus": -5,
-                  "KAST": 0.5,
-                  "ADR": 81.0,
-                  "HS%": 0.158,
-                  "FK": 0,
-                  "FD": 1,
-                  "PlusMinus2": -1,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "Spolen",
-                  "Agent": "Omen",
-                  "R1.0": 0.37,
-                  "ACS": 61,
-                  "K": 1,
-                  "D": 11,
-                  "A": 6,
-                  "PlusMinus": -10,
-                  "KAST": 0.583,
-                  "ADR": 52.2,
-                  "HS%": 0.0,
-                  "FK": 0,
-                  "FD": 1,
-                  "PlusMinus2": -1,
-                  "Rounds": 12
-                }
-              ]
+              "Player": "asra",
+              "Agent": "Yoru",
+              "R1.0": 1.002,
+              "ACS": 202,
+              "K": 17,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": 1,
+              "KAST": 0.727,
+              "ADR": 136.1,
+              "HS%": 0.448,
+              "FK": 0,
+              "FD": 6,
+              "PlusMinus2": -6
             },
             {
-              "team": "NIP",
-              "teamName": "Name in Progress",
-              "players": [
-                {
-                  "Player": "Pandyro",
-                  "Agent": "Phoenix",
-                  "R1.0": 0.905,
-                  "ACS": 205,
-                  "K": 7,
-                  "D": 10,
-                  "A": 3,
-                  "PlusMinus": -3,
-                  "KAST": 0.583,
-                  "ADR": 165.2,
-                  "HS%": 0.212,
-                  "FK": 0,
-                  "FD": 0,
-                  "PlusMinus2": 0,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "Kai",
-                  "Agent": "Jett",
-                  "R1.0": 0.652,
-                  "ACS": 157,
-                  "K": 7,
-                  "D": 11,
-                  "A": 0,
-                  "PlusMinus": -4,
-                  "KAST": 0.583,
-                  "ADR": 101.1,
-                  "HS%": 0.333,
-                  "FK": 2,
-                  "FD": 1,
-                  "PlusMinus2": 1,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "goofy",
-                  "Agent": "Tejo",
-                  "R1.0": 0.481,
-                  "ACS": 136,
-                  "K": 5,
-                  "D": 11,
-                  "A": 1,
-                  "PlusMinus": -6,
-                  "KAST": 0.333,
-                  "ADR": 93.0,
-                  "HS%": 0.136,
-                  "FK": 1,
-                  "FD": 3,
-                  "PlusMinus2": -2,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "jinno",
-                  "Agent": "Omen",
-                  "R1.0": 0.398,
-                  "ACS": 94,
-                  "K": 3,
-                  "D": 11,
-                  "A": 5,
-                  "PlusMinus": -8,
-                  "KAST": 0.417,
-                  "ADR": 55.5,
-                  "HS%": 0.214,
-                  "FK": 0,
-                  "FD": 2,
-                  "PlusMinus2": -2,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "SB",
-                  "Agent": "Cypher",
-                  "R1.0": 0.3,
-                  "ACS": 98,
-                  "K": 4,
-                  "D": 12,
-                  "A": 0,
-                  "PlusMinus": -8,
-                  "KAST": 0.333,
-                  "ADR": 60.9,
-                  "HS%": 0.444,
-                  "FK": 0,
-                  "FD": 3,
-                  "PlusMinus2": -3,
-                  "Rounds": 12
-                }
-              ]
+              "Player": "reoken",
+              "Agent": "Cypher",
+              "R1.0": 1.001,
+              "ACS": 215,
+              "K": 15,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": 0,
+              "KAST": 0.727,
+              "ADR": 135.5,
+              "HS%": 0.264,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "syim",
+              "Agent": "Skye",
+              "R1.0": 0.902,
+              "ACS": 210,
+              "K": 16,
+              "D": 20,
+              "A": 8,
+              "PlusMinus": -4,
+              "KAST": 0.682,
+              "ADR": 122.8,
+              "HS%": 0.182,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "denial",
+              "Agent": "Raze",
+              "R1.0": 0.861,
+              "ACS": 196,
+              "K": 14,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": -4,
+              "KAST": 0.591,
+              "ADR": 142.6,
+              "HS%": 0.207,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "Spolen",
+              "Agent": "Astra",
+              "R1.0": 0.782,
+              "ACS": 136,
+              "K": 10,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": -6,
+              "KAST": 0.818,
+              "ADR": 89.9,
+              "HS%": 0.316,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
             }
-          ],
-          "def": [
+          ]
+        },
+        {
+          "team": "NIP",
+          "teamName": "Name in Progress",
+          "players": [
             {
-              "team": "NATS",
-              "teamName": "Never Available To Scrim",
-              "players": [
-                {
-                  "Player": "asra",
-                  "Agent": "Jett",
-                  "R1.0": 2.143,
-                  "ACS": 461,
-                  "K": 22,
-                  "D": 4,
-                  "A": 0,
-                  "PlusMinus": 18,
-                  "KAST": 1.0,
-                  "ADR": 269.8,
-                  "HS%": 0.226,
-                  "FK": 2,
-                  "FD": 0,
-                  "PlusMinus2": 2,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "denial",
-                  "Agent": "Sova",
-                  "R1.0": 1.812,
-                  "ACS": 354,
-                  "K": 14,
-                  "D": 4,
-                  "A": 9,
-                  "PlusMinus": 10,
-                  "KAST": 0.917,
-                  "ADR": 225.6,
-                  "HS%": 0.176,
-                  "FK": 3,
-                  "FD": 1,
-                  "PlusMinus2": 2,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "syim",
-                  "Agent": "Cypher",
-                  "R1.0": 1.139,
-                  "ACS": 199,
-                  "K": 8,
-                  "D": 6,
-                  "A": 7,
-                  "PlusMinus": 2,
-                  "KAST": 0.833,
-                  "ADR": 120.9,
-                  "HS%": 0.129,
-                  "FK": 1,
-                  "FD": 1,
-                  "PlusMinus2": 0,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "Spolen",
-                  "Agent": "Omen",
-                  "R1.0": 0.97,
-                  "ACS": 117,
-                  "K": 6,
-                  "D": 5,
-                  "A": 9,
-                  "PlusMinus": 1,
-                  "KAST": 0.833,
-                  "ADR": 60.2,
-                  "HS%": 0.182,
-                  "FK": 0,
-                  "FD": 0,
-                  "PlusMinus2": 0,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "reoken",
-                  "Agent": "Chamber",
-                  "R1.0": 0.852,
-                  "ACS": 143,
-                  "K": 5,
-                  "D": 7,
-                  "A": 3,
-                  "PlusMinus": -2,
-                  "KAST": 0.833,
-                  "ADR": 105.7,
-                  "HS%": 0.167,
-                  "FK": 3,
-                  "FD": 1,
-                  "PlusMinus2": 2,
-                  "Rounds": 12
-                }
-              ]
+              "Player": "Kai",
+              "Agent": "Raze",
+              "R1.0": 1.812,
+              "ACS": 398,
+              "K": 32,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": 19,
+              "KAST": 0.909,
+              "ADR": 251.9,
+              "HS%": 0.227,
+              "FK": 7,
+              "FD": 1,
+              "PlusMinus2": 6
             },
             {
-              "team": "NIP",
-              "teamName": "Name in Progress",
-              "players": [
-                {
-                  "Player": "Kai",
-                  "Agent": "Jett",
-                  "R1.0": 2.174,
-                  "ACS": 441,
-                  "K": 21,
-                  "D": 3,
-                  "A": 2,
-                  "PlusMinus": 18,
-                  "KAST": 0.917,
-                  "ADR": 281.2,
-                  "HS%": 0.241,
-                  "FK": 5,
-                  "FD": 0,
-                  "PlusMinus2": 5,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "Pandyro",
-                  "Agent": "Phoenix",
-                  "R1.0": 1.6,
-                  "ACS": 363,
-                  "K": 15,
-                  "D": 8,
-                  "A": 4,
-                  "PlusMinus": 7,
-                  "KAST": 0.833,
-                  "ADR": 229.2,
-                  "HS%": 0.25,
-                  "FK": 3,
-                  "FD": 0,
-                  "PlusMinus2": 3,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "SB",
-                  "Agent": "Cypher",
-                  "R1.0": 1.078,
-                  "ACS": 190,
-                  "K": 7,
-                  "D": 6,
-                  "A": 6,
-                  "PlusMinus": 1,
-                  "KAST": 0.833,
-                  "ADR": 122.1,
-                  "HS%": 0.207,
-                  "FK": 0,
-                  "FD": 0,
-                  "PlusMinus2": 0,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "goofy",
-                  "Agent": "Tejo",
-                  "R1.0": 0.999,
-                  "ACS": 132,
-                  "K": 7,
-                  "D": 3,
-                  "A": 1,
-                  "PlusMinus": 4,
-                  "KAST": 0.833,
-                  "ADR": 85.4,
-                  "HS%": 0.158,
-                  "FK": 1,
-                  "FD": 2,
-                  "PlusMinus2": -1,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "jinno",
-                  "Agent": "Omen",
-                  "R1.0": 0.735,
-                  "ACS": 67,
-                  "K": 2,
-                  "D": 5,
-                  "A": 8,
-                  "PlusMinus": -3,
-                  "KAST": 0.833,
-                  "ADR": 46.9,
-                  "HS%": 0.25,
-                  "FK": 1,
-                  "FD": 0,
-                  "PlusMinus2": 1,
-                  "Rounds": 12
-                }
-              ]
+              "Player": "SB",
+              "Agent": "Cypher",
+              "R1.0": 1.178,
+              "ACS": 263,
+              "K": 21,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": 4,
+              "KAST": 0.773,
+              "ADR": 156.5,
+              "HS%": 0.315,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "Pandyro",
+              "Agent": "Neon",
+              "R1.0": 1.049,
+              "ACS": 214,
+              "K": 17,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": 0,
+              "KAST": 0.818,
+              "ADR": 134.8,
+              "HS%": 0.175,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "jinno",
+              "Agent": "Astra",
+              "R1.0": 0.814,
+              "ACS": 89,
+              "K": 9,
+              "D": 10,
+              "A": 10,
+              "PlusMinus": -1,
+              "KAST": 0.773,
+              "ADR": 58.8,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "goofy",
+              "Agent": "Tejo",
+              "R1.0": 0.599,
+              "ACS": 84,
+              "K": 6,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": -9,
+              "KAST": 0.682,
+              "ADR": 69.9,
+              "HS%": 0.222,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
             }
           ]
         }
-      },
-      {
-        "name": "Split",
-        "score1": 9,
-        "score2": 13,
-        "rounds": [
-          {
-            "round": 1,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 2,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 3,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 4,
-            "winner": 1,
-            "side": "def",
-            "endType": "Round timer expired"
-          },
-          {
-            "round": 5,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Bomb detonated"
-          },
-          {
-            "round": 6,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 7,
-            "winner": 1,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 8,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 9,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 10,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 11,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 12,
-            "winner": 2,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 13,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 14,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 15,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 16,
-            "winner": 2,
-            "side": "def",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 17,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Bomb detonated"
-          },
-          {
-            "round": 18,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          },
-          {
-            "round": 19,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Bomb detonated"
-          },
-          {
-            "round": 20,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 21,
-            "winner": 1,
-            "side": "atk",
-            "endType": "Eliminated"
-          },
-          {
-            "round": 22,
-            "winner": 2,
-            "side": "def",
-            "endType": "Bomb defused"
-          }
-        ],
-        "stats": [
+      ],
+      "sides": {
+        "atk": [
           {
             "team": "NATS",
             "teamName": "Never Available To Scrim",
@@ -1042,82 +1216,87 @@
               {
                 "Player": "asra",
                 "Agent": "Yoru",
-                "R1.0": 1.002,
-                "ACS": 202,
-                "K": 17,
-                "D": 16,
-                "A": 3,
-                "PlusMinus": 1,
-                "KAST": 0.727,
-                "ADR": 136.1,
-                "HS%": 0.448,
+                "R1.0": 1.114,
+                "ACS": 219,
+                "K": 9,
+                "D": 7,
+                "A": 1,
+                "PlusMinus": 2,
+                "KAST": 0.6,
+                "ADR": 167.5,
+                "HS%": 0.625,
                 "FK": 0,
-                "FD": 6,
-                "PlusMinus2": -6
+                "FD": 4,
+                "PlusMinus2": -4,
+                "Rounds": 10
               },
               {
                 "Player": "reoken",
                 "Agent": "Cypher",
-                "R1.0": 1.001,
-                "ACS": 215,
-                "K": 15,
-                "D": 15,
-                "A": 6,
-                "PlusMinus": 0,
-                "KAST": 0.727,
-                "ADR": 135.5,
-                "HS%": 0.264,
-                "FK": 2,
-                "FD": 0,
-                "PlusMinus2": 2
-              },
-              {
-                "Player": "syim",
-                "Agent": "Skye",
-                "R1.0": 0.902,
-                "ACS": 210,
-                "K": 16,
-                "D": 20,
-                "A": 8,
-                "PlusMinus": -4,
-                "KAST": 0.682,
-                "ADR": 122.8,
-                "HS%": 0.182,
+                "R1.0": 0.967,
+                "ACS": 212,
+                "K": 6,
+                "D": 7,
+                "A": 3,
+                "PlusMinus": -1,
+                "KAST": 0.7,
+                "ADR": 143.7,
+                "HS%": 0.179,
                 "FK": 1,
-                "FD": 3,
-                "PlusMinus2": -2
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 10
               },
               {
                 "Player": "denial",
                 "Agent": "Raze",
-                "R1.0": 0.861,
-                "ACS": 196,
-                "K": 14,
-                "D": 18,
-                "A": 3,
-                "PlusMinus": -4,
-                "KAST": 0.591,
-                "ADR": 142.6,
-                "HS%": 0.207,
+                "R1.0": 0.929,
+                "ACS": 234,
+                "K": 8,
+                "D": 9,
+                "A": 0,
+                "PlusMinus": -1,
+                "KAST": 0.6,
+                "ADR": 159.2,
+                "HS%": 0.114,
                 "FK": 1,
-                "FD": 5,
-                "PlusMinus2": -4
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 10
               },
               {
                 "Player": "Spolen",
                 "Agent": "Astra",
-                "R1.0": 0.782,
-                "ACS": 136,
-                "K": 10,
-                "D": 16,
-                "A": 7,
+                "R1.0": 0.702,
+                "ACS": 145,
+                "K": 5,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.7,
+                "ADR": 95.2,
+                "HS%": 0.357,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 10
+              },
+              {
+                "Player": "syim",
+                "Agent": "Skye",
+                "R1.0": 0.584,
+                "ACS": 122,
+                "K": 4,
+                "D": 10,
+                "A": 5,
                 "PlusMinus": -6,
-                "KAST": 0.818,
-                "ADR": 89.9,
-                "HS%": 0.316,
-                "FK": 3,
-                "FD": 1,
-                "PlusMinus2": 2
+                "KAST": 0.6,
+                "ADR": 80.9,
+                "HS%": 0.231,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 10
               }
             ]
           },
@@ -1128,457 +1307,277 @@
               {
                 "Player": "Kai",
                 "Agent": "Raze",
-                "R1.0": 1.812,
-                "ACS": 398,
-                "K": 32,
-                "D": 13,
-                "A": 6,
-                "PlusMinus": 19,
-                "KAST": 0.909,
-                "ADR": 251.9,
-                "HS%": 0.227,
-                "FK": 7,
+                "R1.0": 1.446,
+                "ACS": 302,
+                "K": 13,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": 5,
+                "KAST": 0.917,
+                "ADR": 193.3,
+                "HS%": 0.231,
+                "FK": 4,
                 "FD": 1,
-                "PlusMinus2": 6
-              },
-              {
-                "Player": "SB",
-                "Agent": "Cypher",
-                "R1.0": 1.178,
-                "ACS": 263,
-                "K": 21,
-                "D": 17,
-                "A": 6,
-                "PlusMinus": 4,
-                "KAST": 0.773,
-                "ADR": 156.5,
-                "HS%": 0.315,
-                "FK": 5,
-                "FD": 1,
-                "PlusMinus2": 4
+                "PlusMinus2": 3,
+                "Rounds": 12
               },
               {
                 "Player": "Pandyro",
                 "Agent": "Neon",
-                "R1.0": 1.049,
-                "ACS": 214,
-                "K": 17,
-                "D": 17,
-                "A": 7,
-                "PlusMinus": 0,
-                "KAST": 0.818,
-                "ADR": 134.8,
-                "HS%": 0.175,
+                "R1.0": 1.255,
+                "ACS": 296,
+                "K": 13,
+                "D": 11,
+                "A": 3,
+                "PlusMinus": 2,
+                "KAST": 0.917,
+                "ADR": 167.9,
+                "HS%": 0.171,
                 "FK": 3,
-                "FD": 3,
-                "PlusMinus2": 0
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
               },
               {
                 "Player": "jinno",
                 "Agent": "Astra",
-                "R1.0": 0.814,
-                "ACS": 89,
-                "K": 9,
-                "D": 10,
-                "A": 10,
-                "PlusMinus": -1,
-                "KAST": 0.773,
-                "ADR": 58.8,
-                "HS%": 0.2,
+                "R1.0": 0.948,
+                "ACS": 101,
+                "K": 6,
+                "D": 5,
+                "A": 6,
+                "PlusMinus": 1,
+                "KAST": 0.833,
+                "ADR": 74.1,
+                "HS%": 0.1,
                 "FK": 0,
                 "FD": 1,
-                "PlusMinus2": -1
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "SB",
+                "Agent": "Cypher",
+                "R1.0": 0.914,
+                "ACS": 183,
+                "K": 8,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": -1,
+                "KAST": 0.75,
+                "ADR": 107.5,
+                "HS%": 0.192,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
               },
               {
                 "Player": "goofy",
                 "Agent": "Tejo",
-                "R1.0": 0.599,
-                "ACS": 84,
-                "K": 6,
-                "D": 15,
-                "A": 6,
-                "PlusMinus": -9,
-                "KAST": 0.682,
-                "ADR": 69.9,
-                "HS%": 0.222,
+                "R1.0": 0.656,
+                "ACS": 94,
+                "K": 4,
+                "D": 7,
+                "A": 3,
+                "PlusMinus": -3,
+                "KAST": 0.583,
+                "ADR": 76.7,
+                "HS%": 0.188,
                 "FK": 0,
-                "FD": 1,
-                "PlusMinus2": -1
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
               }
             ]
           }
         ],
-        "sides": {
-          "atk": [
-            {
-              "team": "NATS",
-              "teamName": "Never Available To Scrim",
-              "players": [
-                {
-                  "Player": "asra",
-                  "Agent": "Yoru",
-                  "R1.0": 1.114,
-                  "ACS": 219,
-                  "K": 9,
-                  "D": 7,
-                  "A": 1,
-                  "PlusMinus": 2,
-                  "KAST": 0.6,
-                  "ADR": 167.5,
-                  "HS%": 0.625,
-                  "FK": 0,
-                  "FD": 4,
-                  "PlusMinus2": -4,
-                  "Rounds": 10
-                },
-                {
-                  "Player": "reoken",
-                  "Agent": "Cypher",
-                  "R1.0": 0.967,
-                  "ACS": 212,
-                  "K": 6,
-                  "D": 7,
-                  "A": 3,
-                  "PlusMinus": -1,
-                  "KAST": 0.7,
-                  "ADR": 143.7,
-                  "HS%": 0.179,
-                  "FK": 1,
-                  "FD": 0,
-                  "PlusMinus2": 1,
-                  "Rounds": 10
-                },
-                {
-                  "Player": "denial",
-                  "Agent": "Raze",
-                  "R1.0": 0.929,
-                  "ACS": 234,
-                  "K": 8,
-                  "D": 9,
-                  "A": 0,
-                  "PlusMinus": -1,
-                  "KAST": 0.6,
-                  "ADR": 159.2,
-                  "HS%": 0.114,
-                  "FK": 1,
-                  "FD": 2,
-                  "PlusMinus2": -1,
-                  "Rounds": 10
-                },
-                {
-                  "Player": "Spolen",
-                  "Agent": "Astra",
-                  "R1.0": 0.702,
-                  "ACS": 145,
-                  "K": 5,
-                  "D": 8,
-                  "A": 1,
-                  "PlusMinus": -3,
-                  "KAST": 0.7,
-                  "ADR": 95.2,
-                  "HS%": 0.357,
-                  "FK": 2,
-                  "FD": 0,
-                  "PlusMinus2": 2,
-                  "Rounds": 10
-                },
-                {
-                  "Player": "syim",
-                  "Agent": "Skye",
-                  "R1.0": 0.584,
-                  "ACS": 122,
-                  "K": 4,
-                  "D": 10,
-                  "A": 5,
-                  "PlusMinus": -6,
-                  "KAST": 0.6,
-                  "ADR": 80.9,
-                  "HS%": 0.231,
-                  "FK": 0,
-                  "FD": 0,
-                  "PlusMinus2": 0,
-                  "Rounds": 10
-                }
-              ]
-            },
-            {
-              "team": "NIP",
-              "teamName": "Name in Progress",
-              "players": [
-                {
-                  "Player": "Kai",
-                  "Agent": "Raze",
-                  "R1.0": 1.446,
-                  "ACS": 302,
-                  "K": 13,
-                  "D": 8,
-                  "A": 4,
-                  "PlusMinus": 5,
-                  "KAST": 0.917,
-                  "ADR": 193.3,
-                  "HS%": 0.231,
-                  "FK": 4,
-                  "FD": 1,
-                  "PlusMinus2": 3,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "Pandyro",
-                  "Agent": "Neon",
-                  "R1.0": 1.255,
-                  "ACS": 296,
-                  "K": 13,
-                  "D": 11,
-                  "A": 3,
-                  "PlusMinus": 2,
-                  "KAST": 0.917,
-                  "ADR": 167.9,
-                  "HS%": 0.171,
-                  "FK": 3,
-                  "FD": 1,
-                  "PlusMinus2": 2,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "jinno",
-                  "Agent": "Astra",
-                  "R1.0": 0.948,
-                  "ACS": 101,
-                  "K": 6,
-                  "D": 5,
-                  "A": 6,
-                  "PlusMinus": 1,
-                  "KAST": 0.833,
-                  "ADR": 74.1,
-                  "HS%": 0.1,
-                  "FK": 0,
-                  "FD": 1,
-                  "PlusMinus2": -1,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "SB",
-                  "Agent": "Cypher",
-                  "R1.0": 0.914,
-                  "ACS": 183,
-                  "K": 8,
-                  "D": 9,
-                  "A": 4,
-                  "PlusMinus": -1,
-                  "KAST": 0.75,
-                  "ADR": 107.5,
-                  "HS%": 0.192,
-                  "FK": 2,
-                  "FD": 0,
-                  "PlusMinus2": 2,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "goofy",
-                  "Agent": "Tejo",
-                  "R1.0": 0.656,
-                  "ACS": 94,
-                  "K": 4,
-                  "D": 7,
-                  "A": 3,
-                  "PlusMinus": -3,
-                  "KAST": 0.583,
-                  "ADR": 76.7,
-                  "HS%": 0.188,
-                  "FK": 0,
-                  "FD": 0,
-                  "PlusMinus2": 0,
-                  "Rounds": 12
-                }
-              ]
-            }
-          ],
-          "def": [
-            {
-              "team": "NATS",
-              "teamName": "Never Available To Scrim",
-              "players": [
-                {
-                  "Player": "syim",
-                  "Agent": "Skye",
-                  "R1.0": 1.168,
-                  "ACS": 283,
-                  "K": 12,
-                  "D": 10,
-                  "A": 3,
-                  "PlusMinus": 2,
-                  "KAST": 0.75,
-                  "ADR": 157.8,
-                  "HS%": 0.161,
-                  "FK": 1,
-                  "FD": 3,
-                  "PlusMinus2": -2,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "reoken",
-                  "Agent": "Cypher",
-                  "R1.0": 1.03,
-                  "ACS": 218,
-                  "K": 9,
-                  "D": 8,
-                  "A": 3,
-                  "PlusMinus": 1,
-                  "KAST": 0.75,
-                  "ADR": 128.7,
-                  "HS%": 0.36,
-                  "FK": 1,
-                  "FD": 0,
-                  "PlusMinus2": 1,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "asra",
-                  "Agent": "Yoru",
-                  "R1.0": 0.909,
-                  "ACS": 187,
-                  "K": 8,
-                  "D": 9,
-                  "A": 2,
-                  "PlusMinus": -1,
-                  "KAST": 0.833,
-                  "ADR": 110.0,
-                  "HS%": 0.231,
-                  "FK": 0,
-                  "FD": 2,
-                  "PlusMinus2": -2,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "Spolen",
-                  "Agent": "Astra",
-                  "R1.0": 0.849,
-                  "ACS": 130,
-                  "K": 5,
-                  "D": 8,
-                  "A": 6,
-                  "PlusMinus": -3,
-                  "KAST": 0.917,
-                  "ADR": 85.4,
-                  "HS%": 0.292,
-                  "FK": 1,
-                  "FD": 1,
-                  "PlusMinus2": 0,
-                  "Rounds": 12
-                },
-                {
-                  "Player": "denial",
-                  "Agent": "Raze",
-                  "R1.0": 0.805,
-                  "ACS": 164,
-                  "K": 6,
-                  "D": 9,
-                  "A": 3,
-                  "PlusMinus": -3,
-                  "KAST": 0.583,
-                  "ADR": 128.8,
-                  "HS%": 0.316,
-                  "FK": 0,
-                  "FD": 3,
-                  "PlusMinus2": -3,
-                  "Rounds": 12
-                }
-              ]
-            },
-            {
-              "team": "NIP",
-              "teamName": "Name in Progress",
-              "players": [
-                {
-                  "Player": "Kai",
-                  "Agent": "Raze",
-                  "R1.0": 2.252,
-                  "ACS": 513,
-                  "K": 19,
-                  "D": 5,
-                  "A": 2,
-                  "PlusMinus": 14,
-                  "KAST": 0.9,
-                  "ADR": 322.2,
-                  "HS%": 0.224,
-                  "FK": 3,
-                  "FD": 0,
-                  "PlusMinus2": 3,
-                  "Rounds": 10
-                },
-                {
-                  "Player": "SB",
-                  "Agent": "Cypher",
-                  "R1.0": 1.494,
-                  "ACS": 360,
-                  "K": 13,
-                  "D": 8,
-                  "A": 2,
-                  "PlusMinus": 5,
-                  "KAST": 0.8,
-                  "ADR": 215.3,
-                  "HS%": 0.429,
-                  "FK": 3,
-                  "FD": 1,
-                  "PlusMinus2": 2,
-                  "Rounds": 10
-                },
-                {
-                  "Player": "Pandyro",
-                  "Agent": "Neon",
-                  "R1.0": 0.802,
-                  "ACS": 116,
-                  "K": 4,
-                  "D": 6,
-                  "A": 4,
-                  "PlusMinus": -2,
-                  "KAST": 0.7,
-                  "ADR": 95.0,
-                  "HS%": 0.188,
-                  "FK": 0,
-                  "FD": 2,
-                  "PlusMinus2": -2,
-                  "Rounds": 10
-                },
-                {
-                  "Player": "jinno",
-                  "Agent": "Astra",
-                  "R1.0": 0.654,
-                  "ACS": 75,
-                  "K": 3,
-                  "D": 5,
-                  "A": 4,
-                  "PlusMinus": -2,
-                  "KAST": 0.7,
-                  "ADR": 40.4,
-                  "HS%": 0.6,
-                  "FK": 0,
-                  "FD": 0,
-                  "PlusMinus2": 0,
-                  "Rounds": 10
-                },
-                {
-                  "Player": "goofy",
-                  "Agent": "Tejo",
-                  "R1.0": 0.531,
-                  "ACS": 70,
-                  "K": 2,
-                  "D": 8,
-                  "A": 3,
-                  "PlusMinus": -6,
-                  "KAST": 0.8,
-                  "ADR": 61.8,
-                  "HS%": 0.273,
-                  "FK": 0,
-                  "FD": 1,
-                  "PlusMinus2": -1,
-                  "Rounds": 10
-                }
-              ]
-            }
-          ]
-        }
+        "def": [
+          {
+            "team": "NATS",
+            "teamName": "Never Available To Scrim",
+            "players": [
+              {
+                "Player": "syim",
+                "Agent": "Skye",
+                "R1.0": 1.168,
+                "ACS": 283,
+                "K": 12,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": 2,
+                "KAST": 0.75,
+                "ADR": 157.8,
+                "HS%": 0.161,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "reoken",
+                "Agent": "Cypher",
+                "R1.0": 1.03,
+                "ACS": 218,
+                "K": 9,
+                "D": 8,
+                "A": 3,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 128.7,
+                "HS%": 0.36,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "asra",
+                "Agent": "Yoru",
+                "R1.0": 0.909,
+                "ACS": 187,
+                "K": 8,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": -1,
+                "KAST": 0.833,
+                "ADR": 110.0,
+                "HS%": 0.231,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "Spolen",
+                "Agent": "Astra",
+                "R1.0": 0.849,
+                "ACS": 130,
+                "K": 5,
+                "D": 8,
+                "A": 6,
+                "PlusMinus": -3,
+                "KAST": 0.917,
+                "ADR": 85.4,
+                "HS%": 0.292,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "denial",
+                "Agent": "Raze",
+                "R1.0": 0.805,
+                "ACS": 164,
+                "K": 6,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": -3,
+                "KAST": 0.583,
+                "ADR": 128.8,
+                "HS%": 0.316,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "NIP",
+            "teamName": "Name in Progress",
+            "players": [
+              {
+                "Player": "Kai",
+                "Agent": "Raze",
+                "R1.0": 2.252,
+                "ACS": 513,
+                "K": 19,
+                "D": 5,
+                "A": 2,
+                "PlusMinus": 14,
+                "KAST": 0.9,
+                "ADR": 322.2,
+                "HS%": 0.224,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3,
+                "Rounds": 10
+              },
+              {
+                "Player": "SB",
+                "Agent": "Cypher",
+                "R1.0": 1.494,
+                "ACS": 360,
+                "K": 13,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 5,
+                "KAST": 0.8,
+                "ADR": 215.3,
+                "HS%": 0.429,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 10
+              },
+              {
+                "Player": "Pandyro",
+                "Agent": "Neon",
+                "R1.0": 0.802,
+                "ACS": 116,
+                "K": 4,
+                "D": 6,
+                "A": 4,
+                "PlusMinus": -2,
+                "KAST": 0.7,
+                "ADR": 95.0,
+                "HS%": 0.188,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 10
+              },
+              {
+                "Player": "jinno",
+                "Agent": "Astra",
+                "R1.0": 0.654,
+                "ACS": 75,
+                "K": 3,
+                "D": 5,
+                "A": 4,
+                "PlusMinus": -2,
+                "KAST": 0.7,
+                "ADR": 40.4,
+                "HS%": 0.6,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 10
+              },
+              {
+                "Player": "goofy",
+                "Agent": "Tejo",
+                "R1.0": 0.531,
+                "ACS": 70,
+                "K": 2,
+                "D": 8,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.8,
+                "ADR": 61.8,
+                "HS%": 0.273,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 10
+              }
+            ]
+          }
+        ]
       }
-    ],
-    "streamLink": "https://www.youtube.com/watch?v=lqQ6l-9WKPY&t=7938s"
-  }
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=lqQ6l-9WKPY&t=7938s"
+}
