@@ -20,8 +20,8 @@
 				{ "id": "Lower R2 #2", "teams": ["L:Upper QF #2", "W:Lower R1 #2"] }
 			],
 			[
-				{ "id": "Lower QF #1", "teams": ["L:Upper SF #1", "W:Lower R2 #1"] },
-				{ "id": "Lower QF #2", "teams": ["L:Upper SF #2", "W:Lower R2 #2"] }
+				{ "id": "Lower QF #1", "teams": ["L:Upper SF #2", "W:Lower R2 #1"] },
+				{ "id": "Lower QF #2", "teams": ["L:Upper SF #1", "W:Lower R2 #2"] }
 			],
 			[{ "id": "Lower SF", "teams": ["W:Lower QF #1", "W:Lower QF #2"] }],
 			[{ "id": "Lower F", "teams": ["L:Upper F", "W:Lower SF"] }]
