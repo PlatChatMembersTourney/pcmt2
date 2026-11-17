@@ -59,7 +59,7 @@
           "PlusMinus2": 1
         },
         {
-          "Player": "nova",
+          "Player": "hyypernova",
           "R1.0": 1.062,
           "ACS": 190,
           "K": 31,
@@ -110,7 +110,7 @@
       "teamName": "No Actual Valorant Intelligence",
       "players": [
         {
-          "Player": "stingray",
+          "Player": "Sting",
           "R1.0": 1.418,
           "ACS": 313,
           "K": 46,
@@ -125,7 +125,7 @@
           "PlusMinus2": 1
         },
         {
-          "Player": "Lazy",
+          "Player": "LazyNotTired",
           "R1.0": 0.927,
           "ACS": 212,
           "K": 32,
@@ -374,7 +374,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": "Omen",
               "R1.0": 0.903,
               "ACS": 144,
@@ -412,7 +412,7 @@
           "teamName": "No Actual Valorant Intelligence",
           "players": [
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Sova",
               "R1.0": 1.227,
               "ACS": 260,
@@ -428,7 +428,7 @@
               "PlusMinus2": -1
             },
             {
-              "Player": "Lazy",
+              "Player": "LazyNotTired",
               "Agent": "Phoenix",
               "R1.0": 1.143,
               "ACS": 246,
@@ -667,7 +667,7 @@
               "PlusMinus2": 3
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": "Sova",
               "R1.0": 1.201,
               "ACS": 231,
@@ -737,7 +737,7 @@
           "teamName": "No Actual Valorant Intelligence",
           "players": [
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Sova",
               "R1.0": 1.585,
               "ACS": 360,
@@ -769,7 +769,7 @@
               "PlusMinus2": -3
             },
             {
-              "Player": "Lazy",
+              "Player": "LazyNotTired",
               "Agent": "Phoenix",
               "R1.0": 0.739,
               "ACS": 182,

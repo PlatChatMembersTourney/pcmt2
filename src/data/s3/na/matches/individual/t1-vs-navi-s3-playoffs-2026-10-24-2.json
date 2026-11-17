@@ -130,7 +130,7 @@
           "PlusMinus2": -2
         },
         {
-          "Player": "stingray",
+          "Player": "Sting",
           "R1.0": 1.028,
           "ACS": 231,
           "K": 57,
@@ -491,7 +491,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Chamber",
               "R1.0": 0.823,
               "ACS": 192,
@@ -656,7 +656,7 @@
                 "Rounds": 14
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 0.935,
                 "ACS": 223,
@@ -874,7 +874,7 @@
                 "Rounds": 14
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 0.711,
                 "ACS": 160,
@@ -1166,7 +1166,7 @@
           "teamName": "No Actual Valorant Intelligence",
           "players": [
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Omen",
               "R1.0": 1.285,
               "ACS": 277,
@@ -1346,7 +1346,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Omen",
                 "R1.0": 1.25,
                 "ACS": 281,
@@ -1530,7 +1530,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Omen",
                 "R1.0": 1.319,
                 "ACS": 272,
@@ -1841,7 +1841,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Chamber",
               "R1.0": 0.979,
               "ACS": 227,
@@ -2073,7 +2073,7 @@
                 "Rounds": 6
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 0.364,
                 "ACS": 85,
@@ -2189,7 +2189,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 1.286,
                 "ACS": 298,

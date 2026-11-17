@@ -97,7 +97,7 @@
       "KMAX": 36
     },
     {
-      "Player": "stingray",
+      "Player": "Sting",
       "Team": "JDG",
       "MP": 36,
       "Rounds": 769,
@@ -721,7 +721,7 @@
       "KMAX": 28
     },
     {
-      "Player": "lazy",
+      "Player": "LazyNotTired",
       "Team": "MIBR",
       "MP": 30,
       "Rounds": 664,
@@ -841,7 +841,7 @@
       "KMAX": 26
     },
     {
-      "Player": "nova",
+      "Player": "hyypernova",
       "Team": "SLLY",
       "MP": 24,
       "Rounds": 525,
@@ -1659,7 +1659,7 @@
       "KMAX": 37
     },
     {
-      "Player": "stingray",
+      "Player": "Sting",
       "Team": "JDG",
       "MP": 22,
       "Rounds": 461,
@@ -2115,7 +2115,7 @@
       "KMAX": 27
     },
     {
-      "Player": "lazy",
+      "Player": "LazyNotTired",
       "Team": "MIBR",
       "MP": 24,
       "Rounds": 527,
@@ -2331,7 +2331,7 @@
       "KMAX": 26
     },
     {
-      "Player": "nova",
+      "Player": "hyypernova",
       "Team": "SLLY",
       "MP": 24,
       "Rounds": 525,
@@ -2981,7 +2981,7 @@
       "KMAX": 48
     },
     {
-      "Player": "stingray",
+      "Player": "Sting",
       "Team": "JDG",
       "MP": 7,
       "Rounds": 163,
@@ -3221,7 +3221,7 @@
       "KMAX": 23
     },
     {
-      "Player": "lazy",
+      "Player": "LazyNotTired",
       "Team": "MIBR",
       "MP": 6,
       "Rounds": 137,
@@ -3463,7 +3463,7 @@
   ],
   "Playoffs": [
     {
-      "Player": "stingray",
+      "Player": "Sting",
       "Team": "JDG",
       "MP": 7,
       "Rounds": 145,

@@ -21,7 +21,7 @@
         "name": "Just Dudes Gaming",
         "abbr": "JDG",
         "logo": "/icons/s2_teams/JustDudesGaming.png",
-        "players": ["james", "stingray", "luca", "neckolas", "sylos"]
+        "players": ["james", "Sting", "luca", "neckolas", "sylos"]
     },
     "KOI": {
         "name": "Keep On Inting",
@@ -39,13 +39,13 @@
         "name": "Made in Bronze",
         "abbr": "MIBR",
         "logo": "/icons/s2_teams/MadeInBronze.png",
-        "players": ["basil", "lazy", "jaypee", "spaceman", "androobee"]
+        "players": ["basil", "LazyNotTired", "jaypee", "spaceman", "androobee"]
     },
     "SLLY": {
         "name": "Silly Geese",
         "abbr": "SLLY",
         "logo": "/icons/s2_teams/SillyGeese.png",
-        "players": ["Angus", "pi", "nova", "cloud", "lore"]
+        "players": ["Angus", "pi", "hyypernova", "cloud", "lore"]
     },
     "TS": {
         "name": "Tequila Sunrise",

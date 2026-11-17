@@ -1,0 +1,51 @@
+{
+  "id": "s4-na",
+  "name": "PCMT Season 4 -- NA",
+  "shortName": "NA",
+  "season": 4,
+  "region": "na",
+  "path": "s4/na",
+  "stages": [
+    {
+      "name": "Group A",
+      "type": "group",
+      "teams": [
+        "FNC",
+        "WBG"
+      ],
+      "bestOf": 3
+    },
+    {
+      "name": "Group B",
+      "type": "group",
+      "teams": [
+        "EDM",
+        "CR"
+      ],
+      "bestOf": 3
+    },
+    {
+      "name": "Group C",
+      "type": "group",
+      "teams": [
+        "PRX",
+        "NBR"
+      ],
+      "bestOf": 3
+    },
+    {
+      "name": "Group D",
+      "type": "group",
+      "teams": [
+        "BLG",
+        "TANK"
+      ],
+      "bestOf": 3
+    },
+    {
+      "name": "Playoffs",
+      "type": "double-elim",
+      "bestOf": 3
+    }
+  ]
+}

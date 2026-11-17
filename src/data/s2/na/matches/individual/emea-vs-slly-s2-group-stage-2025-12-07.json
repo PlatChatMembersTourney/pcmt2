@@ -125,7 +125,7 @@
           "PlusMinus2": 0
         },
         {
-          "Player": "nova",
+          "Player": "hyypernova",
           "R1.0": 0.838,
           "ACS": 158.5,
           "K": 27,
@@ -455,7 +455,7 @@
               "PlusMinus2": -3
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": null,
               "R1.0": 0.6,
               "ACS": 110,
@@ -692,7 +692,7 @@
           "teamName": "Silly Geese",
           "players": [
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": null,
               "R1.0": 1.047,
               "ACS": 207,

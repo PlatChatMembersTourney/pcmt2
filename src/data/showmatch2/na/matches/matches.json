@@ -65,7 +65,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.165,
             "ACS": 238,
             "K": 48,
@@ -414,7 +414,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 0.552,
                 "ACS": 103,
@@ -657,7 +657,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.498,
                 "ACS": 310,
@@ -940,7 +940,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Omen",
                 "R1.0": 1.62,
                 "ACS": 339,

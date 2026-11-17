@@ -44,7 +44,7 @@
           "PlusMinus2": 3
         },
         {
-          "Player": "stingray",
+          "Player": "Sting",
           "R1.0": 1.388,
           "ACS": 257.5,
           "K": 31,
@@ -125,7 +125,7 @@
           "PlusMinus2": 2
         },
         {
-          "Player": "nova",
+          "Player": "hyypernova",
           "R1.0": 0.631,
           "ACS": 141,
           "K": 18,
@@ -332,7 +332,7 @@
               "PlusMinus2": -1
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": null,
               "R1.0": 1.243,
               "ACS": 218,
@@ -434,7 +434,7 @@
               "PlusMinus2": -1
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": null,
               "R1.0": 0.744,
               "ACS": 151,
@@ -582,7 +582,7 @@
               "PlusMinus2": 4
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": null,
               "R1.0": 1.559,
               "ACS": 297,
@@ -716,7 +716,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": null,
               "R1.0": 0.499,
               "ACS": 131,

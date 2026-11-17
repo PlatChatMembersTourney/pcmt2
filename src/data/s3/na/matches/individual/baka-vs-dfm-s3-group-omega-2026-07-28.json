@@ -115,7 +115,7 @@
       "teamName": "Dementia Found Me",
       "players": [
         {
-          "Player": "Lazy",
+          "Player": "LazyNotTired",
           "R1.0": 1.302,
           "ACS": 240,
           "K": 19,
@@ -1040,7 +1040,7 @@
           "teamName": "Dementia Found Me",
           "players": [
             {
-              "Player": "Lazy",
+              "Player": "LazyNotTired",
               "Agent": "Phoenix",
               "R1.0": 1.302,
               "ACS": 240,

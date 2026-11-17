@@ -2366,7 +2366,7 @@
             "PlusMinus2": -2
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.028,
             "ACS": 231,
             "K": 57,
@@ -2727,7 +2727,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 0.823,
                 "ACS": 192,
@@ -2892,7 +2892,7 @@
                   "Rounds": 14
                 },
                 {
-                  "Player": "stingray",
+                  "Player": "Sting",
                   "Agent": "Chamber",
                   "R1.0": 0.935,
                   "ACS": 223,
@@ -3110,7 +3110,7 @@
                   "Rounds": 14
                 },
                 {
-                  "Player": "stingray",
+                  "Player": "Sting",
                   "Agent": "Chamber",
                   "R1.0": 0.711,
                   "ACS": 160,
@@ -3402,7 +3402,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Omen",
                 "R1.0": 1.285,
                 "ACS": 277,
@@ -3582,7 +3582,7 @@
               "teamName": "No Actual Valorant Intelligence",
               "players": [
                 {
-                  "Player": "stingray",
+                  "Player": "Sting",
                   "Agent": "Omen",
                   "R1.0": 1.25,
                   "ACS": 281,
@@ -3766,7 +3766,7 @@
               "teamName": "No Actual Valorant Intelligence",
               "players": [
                 {
-                  "Player": "stingray",
+                  "Player": "Sting",
                   "Agent": "Omen",
                   "R1.0": 1.319,
                   "ACS": 272,
@@ -4077,7 +4077,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 0.979,
                 "ACS": 227,
@@ -4309,7 +4309,7 @@
                   "Rounds": 6
                 },
                 {
-                  "Player": "stingray",
+                  "Player": "Sting",
                   "Agent": "Chamber",
                   "R1.0": 0.364,
                   "ACS": 85,
@@ -4425,7 +4425,7 @@
               "teamName": "No Actual Valorant Intelligence",
               "players": [
                 {
-                  "Player": "stingray",
+                  "Player": "Sting",
                   "Agent": "Chamber",
                   "R1.0": 1.286,
                   "ACS": 298,
@@ -4553,7 +4553,7 @@
         "teamName": "No Actual Valorant Intelligence",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.376,
             "ACS": 303,
             "K": 70,
@@ -4838,7 +4838,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 2.149,
                 "ACS": 465,
@@ -5165,7 +5165,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 0.793,
                 "ACS": 206,
@@ -5486,7 +5486,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.238,
                 "ACS": 256,
@@ -7905,7 +7905,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.876,
             "ACS": 171,
             "K": 27,
@@ -7956,7 +7956,7 @@
         "teamName": "No Actual Valorant Intelligence",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.277,
             "ACS": 271,
             "K": 46,
@@ -8154,7 +8154,7 @@
             "teamName": "Sunshine and Rainbows",
             "players": [
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.94,
                 "ACS": 207,
@@ -8272,7 +8272,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 1.226,
                 "ACS": 236,
@@ -8551,7 +8551,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.834,
                 "ACS": 148,
@@ -8589,7 +8589,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 1.309,
                 "ACS": 294,
@@ -9588,7 +9588,7 @@
         "teamName": "No Actual Valorant Intelligence",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.239,
             "ACS": 272,
             "K": 45,
@@ -9939,7 +9939,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 1.186,
                 "ACS": 261,
@@ -10248,7 +10248,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 1.291,
                 "ACS": 284,
@@ -21417,7 +21417,7 @@
             "PlusMinus2": -2
           },
           {
-            "Player": "Lazy",
+            "Player": "LazyNotTired",
             "R1.0": 0.802,
             "ACS": 185,
             "K": 23,
@@ -21733,7 +21733,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Jett",
                 "R1.0": 0.999,
                 "ACS": 217,
@@ -22026,7 +22026,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "Lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Raze",
                 "R1.0": 0.52,
                 "ACS": 139,
@@ -28325,7 +28325,7 @@
             "PlusMinus2": 3
           },
           {
-            "Player": "Jalen",
+            "Player": "Jaden",
             "R1.0": 1.009,
             "ACS": 212,
             "K": 44,
@@ -28591,7 +28591,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "Jalen",
+                "Player": "Jaden",
                 "Agent": "Chamber",
                 "R1.0": 0.777,
                 "ACS": 180,
@@ -28854,7 +28854,7 @@
             "teamName": "Team Entropy",
             "players": [
               {
-                "Player": "Jalen",
+                "Player": "Jaden",
                 "Agent": "Vyse",
                 "R1.0": 1.544,
                 "ACS": 301,
@@ -29221,7 +29221,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "Jalen",
+                "Player": "Jaden",
                 "Agent": "Jett",
                 "R1.0": 0.749,
                 "ACS": 164,
@@ -30557,7 +30557,7 @@
         "teamName": "Dementia Found Me",
         "players": [
           {
-            "Player": "Lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.302,
             "ACS": 240,
             "K": 19,
@@ -31482,7 +31482,7 @@
             "teamName": "Dementia Found Me",
             "players": [
               {
-                "Player": "Lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Phoenix",
                 "R1.0": 1.302,
                 "ACS": 240,
@@ -33285,7 +33285,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 1.062,
             "ACS": 190,
             "K": 31,
@@ -33336,7 +33336,7 @@
         "teamName": "No Actual Valorant Intelligence",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.418,
             "ACS": 313,
             "K": 46,
@@ -33351,7 +33351,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "Lazy",
+            "Player": "LazyNotTired",
             "R1.0": 0.927,
             "ACS": 212,
             "K": 32,
@@ -33600,7 +33600,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.903,
                 "ACS": 144,
@@ -33638,7 +33638,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.227,
                 "ACS": 260,
@@ -33654,7 +33654,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "Lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Phoenix",
                 "R1.0": 1.143,
                 "ACS": 246,
@@ -33893,7 +33893,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Sova",
                 "R1.0": 1.201,
                 "ACS": 231,
@@ -33963,7 +33963,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.585,
                 "ACS": 360,
@@ -33995,7 +33995,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "Lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Phoenix",
                 "R1.0": 0.739,
                 "ACS": 182,
@@ -38117,7 +38117,7 @@
             "PlusMinus2": -2
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.904,
             "ACS": 183,
             "K": 43,
@@ -38447,7 +38447,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.93,
                 "ACS": 185,
@@ -38712,7 +38712,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Clove",
                 "R1.0": 0.428,
                 "ACS": 144,
@@ -39085,7 +39085,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 1.091,
                 "ACS": 198,
@@ -43406,7 +43406,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.809,
             "ACS": 150,
             "K": 20,
@@ -43676,7 +43676,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.693,
                 "ACS": 127,
@@ -43962,7 +43962,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.913,
                 "ACS": 171,
@@ -44967,7 +44967,7 @@
         "teamName": "No Actual Valorant Intelligence",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.3,
             "ACS": 260,
             "K": 39,
@@ -44997,7 +44997,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "Lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.143,
             "ACS": 240,
             "K": 38,
@@ -45253,7 +45253,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.455,
                 "ACS": 290,
@@ -45269,7 +45269,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Jett",
                 "R1.0": 1.328,
                 "ACS": 253,
@@ -45586,7 +45586,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.159,
                 "ACS": 233,
@@ -45602,7 +45602,7 @@
                 "PlusMinus2": 5
               },
               {
-                "Player": "Lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Jett",
                 "R1.0": 0.974,
                 "ACS": 229,
@@ -47131,7 +47131,7 @@
         "teamName": "No Actual Valorant Intelligence",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.109,
             "ACS": 238,
             "K": 33,
@@ -47412,7 +47412,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Waylay",
                 "R1.0": 1.012,
                 "ACS": 201,
@@ -47714,7 +47714,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.211,
                 "ACS": 277,
@@ -49113,7 +49113,7 @@
         "teamName": "No Actual Valorant Intelligence",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.368,
             "ACS": 263,
             "K": 35,
@@ -49404,7 +49404,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Omen",
                 "R1.0": 1.225,
                 "ACS": 235,
@@ -49671,7 +49671,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 1.602,
                 "ACS": 308,
@@ -54490,7 +54490,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.817,
             "ACS": 154,
             "K": 32,
@@ -54763,7 +54763,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 1.111,
                 "ACS": 209,
@@ -55096,7 +55096,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.572,
                 "ACS": 104,
@@ -55387,7 +55387,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Vyse",
                 "R1.0": 0.776,
                 "ACS": 150,
@@ -56116,7 +56116,7 @@
         "teamName": "No Actual Valorant Intelligence",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.532,
             "ACS": 313,
             "K": 45,
@@ -56146,7 +56146,7 @@
             "PlusMinus2": -3
           },
           {
-            "Player": "Lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.12,
             "ACS": 201,
             "K": 30,
@@ -56372,7 +56372,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Harbor",
                 "R1.0": 1.56,
                 "ACS": 338,
@@ -56404,7 +56404,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Sova",
                 "R1.0": 1.152,
                 "ACS": 168,
@@ -56673,7 +56673,7 @@
             "teamName": "No Actual Valorant Intelligence",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Chamber",
                 "R1.0": 1.513,
                 "ACS": 296,
@@ -56705,7 +56705,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "Lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Clove",
                 "R1.0": 1.098,
                 "ACS": 223,
@@ -59778,7 +59778,7 @@
             "PlusMinus2": -5
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.919,
             "ACS": 172,
             "K": 43,
@@ -60016,7 +60016,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 1.125,
                 "ACS": 180,
@@ -60323,7 +60323,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Cypher",
                 "R1.0": 0.761,
                 "ACS": 158,
@@ -60644,7 +60644,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.934,
                 "ACS": 178,
@@ -61584,7 +61584,7 @@
             "PlusMinus2": 3
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.915,
             "ACS": 170,
             "K": 29,
@@ -61888,7 +61888,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.944,
                 "ACS": 152,
@@ -62173,7 +62173,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": "Omen",
                 "R1.0": 0.888,
                 "ACS": 186,

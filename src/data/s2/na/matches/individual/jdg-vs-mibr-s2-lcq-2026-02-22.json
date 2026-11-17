@@ -44,7 +44,7 @@
           "PlusMinus2": 2
         },
         {
-          "Player": "stingray",
+          "Player": "Sting",
           "R1.0": 1.337,
           "ACS": 252.5,
           "K": 36,
@@ -342,7 +342,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Sova",
               "R1.0": 1.102,
               "ACS": 195,
@@ -607,7 +607,7 @@
               "PlusMinus2": 4
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Sova",
               "R1.0": 1.596,
               "ACS": 310,

@@ -272,5 +272,39 @@
 				}
 			}
 		]
+	},
+	{
+		"id": "s4-na",
+		"name": "NA Season 4",
+		"shortName": "S4 NA",
+		"season": 4,
+		"region": "na",
+		"path": "s4/na",
+		"status": "upcoming",
+		"desc": "Season 4 of the Plat Chat members tournament for NA, with 16 teams in 4 groups.",
+		"dates": "TBD",
+		"prize": "a showmatch idk",
+		"stages": [
+			{
+				"name": "Group Stage",
+				"dates": "TBD",
+				"format": {
+					"type": "round-robin",
+					"groups": 4,
+					"groupNames": ["Group A", "Group B", "Group C", "Group D"],
+					"teamsPerGroup": 4,
+					"teamColors": [
+						{
+							"number": 2,
+							"color": "green"
+						},
+						{
+							"number": 2,
+							"color": "red"
+						}
+					]
+				}
+			}
+		]
 	}
 ]

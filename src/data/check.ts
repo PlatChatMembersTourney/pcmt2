@@ -118,3 +118,18 @@ fromJson<EventFiles>({
 	teamMapStats: sm2naTeamMapStats,
 	agentStats: sm2naAgentStats,
 });
+
+import s4naMatches from './s4/na/matches/matches.json';
+import s4naStandings from './s4/na/standings.json';
+import s4naTeams from './s4/na/teams.json';
+import s4naPlayerStats from './s4/na/player-stats.json';
+import s4naTeamMapStats from './s4/na/team-map-stats.json';
+import s4naAgentStats from './s4/na/agent-stats.json';
+fromJson<EventFiles>({
+	matches: s4naMatches,
+	standings: s4naStandings,
+	teams: s4naTeams,
+	playerStats: s4naPlayerStats,
+	teamMapStats: s4naTeamMapStats,
+	agentStats: s4naAgentStats,
+});

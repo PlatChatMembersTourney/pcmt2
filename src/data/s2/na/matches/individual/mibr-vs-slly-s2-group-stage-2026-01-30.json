@@ -89,7 +89,7 @@
           "PlusMinus2": -1
         },
         {
-          "Player": "lazy",
+          "Player": "LazyNotTired",
           "R1.0": 1.003,
           "ACS": 186.5,
           "K": 27,
@@ -140,7 +140,7 @@
           "PlusMinus2": -1
         },
         {
-          "Player": "nova",
+          "Player": "hyypernova",
           "R1.0": 0.715,
           "ACS": 139,
           "K": 21,
@@ -369,7 +369,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 0.865,
               "ACS": 156,
@@ -439,7 +439,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": null,
               "R1.0": 0.672,
               "ACS": 116,
@@ -628,7 +628,7 @@
               "PlusMinus2": -1
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 1.135,
               "ACS": 217,
@@ -698,7 +698,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": null,
               "R1.0": 0.757,
               "ACS": 162,

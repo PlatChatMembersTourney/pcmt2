@@ -89,7 +89,7 @@
           "PlusMinus2": 0
         },
         {
-          "Player": "nova",
+          "Player": "hyypernova",
           "R1.0": 0.809,
           "ACS": 150,
           "K": 20,
@@ -359,7 +359,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": "Omen",
               "R1.0": 0.693,
               "ACS": 127,
@@ -645,7 +645,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": "Omen",
               "R1.0": 0.913,
               "ACS": 171,

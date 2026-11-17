@@ -34,7 +34,7 @@
       "teamName": "Made in Bronze",
       "players": [
         {
-          "Player": "lazy",
+          "Player": "LazyNotTired",
           "R1.0": 1.302,
           "ACS": 238.667,
           "K": 66,
@@ -356,7 +356,7 @@
               "PlusMinus2": 5
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 1.224,
               "ACS": 237,
@@ -653,7 +653,7 @@
               "PlusMinus2": 5
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 1.082,
               "ACS": 176,
@@ -917,7 +917,7 @@
           "teamName": "Made in Bronze",
           "players": [
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 1.576,
               "ACS": 303,

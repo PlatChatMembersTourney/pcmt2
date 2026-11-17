@@ -79,7 +79,7 @@
           "PlusMinus2": 3
         },
         {
-          "Player": "Jalen",
+          "Player": "Jaden",
           "R1.0": 1.009,
           "ACS": 212,
           "K": 44,
@@ -345,7 +345,7 @@
               "PlusMinus2": -3
             },
             {
-              "Player": "Jalen",
+              "Player": "Jaden",
               "Agent": "Chamber",
               "R1.0": 0.777,
               "ACS": 180,
@@ -608,7 +608,7 @@
           "teamName": "Team Entropy",
           "players": [
             {
-              "Player": "Jalen",
+              "Player": "Jaden",
               "Agent": "Vyse",
               "R1.0": 1.544,
               "ACS": 301,
@@ -975,7 +975,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "Jalen",
+              "Player": "Jaden",
               "Agent": "Jett",
               "R1.0": 0.749,
               "ACS": 164,

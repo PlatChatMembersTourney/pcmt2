@@ -60,7 +60,7 @@
         "abbr": "SRB",
         "logo": "/icons/s3_teams/na/Sunshine and Rainbows.png",
         "group": "Group Omega",
-        "players": ["izz", "jaypee", "nova", "androobee", "timothy"]
+        "players": ["izz", "jaypee", "hyypernova", "androobee", "timothy"]
     },
     "BAKA": {
         "name": "Beautiful and Kinda Adorable",
@@ -81,7 +81,7 @@
         "abbr": "NAVI",
         "logo": "/icons/s3_teams/na/No Actual Valorant Intelligence.png",
         "group": "Group Omega",
-        "players": ["stingray", "Lazy", "KennyS", "kaydeg", "cassie", "linus"]
+        "players": ["Sting", "LazyNotTired", "KennyS", "kaydeg", "cassie", "linus"]
     },
     "EPY": {
         "name": "Team Entropy",

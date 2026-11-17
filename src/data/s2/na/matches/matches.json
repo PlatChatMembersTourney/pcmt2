@@ -146,7 +146,7 @@
             "PlusMinus2": 7
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.521,
             "ACS": 292,
             "K": 50,
@@ -398,7 +398,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.565,
                 "ACS": 285,
@@ -643,7 +643,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.574,
                 "ACS": 300,
@@ -909,7 +909,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.431,
                 "ACS": 292,
@@ -2223,7 +2223,7 @@
         "teamName": "Just Dudes Gaming",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.496,
             "ACS": 327,
             "K": 48,
@@ -2535,7 +2535,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.439,
                 "ACS": 323,
@@ -2805,7 +2805,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Omen",
                 "R1.0": 1.562,
                 "ACS": 331,
@@ -4884,7 +4884,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.351,
             "ACS": 275,
             "K": 51,
@@ -5195,7 +5195,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.431,
                 "ACS": 303,
@@ -5502,7 +5502,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.242,
                 "ACS": 247,
@@ -5668,7 +5668,7 @@
             "PlusMinus2": 3
           },
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 0.894,
             "ACS": 176,
             "K": 47,
@@ -5704,7 +5704,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.307,
             "ACS": 267,
             "K": 65,
@@ -5981,7 +5981,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Killjoy",
                 "R1.0": 0.906,
                 "ACS": 171,
@@ -6035,7 +6035,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.211,
                 "ACS": 242,
@@ -6283,7 +6283,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Killjoy",
                 "R1.0": 0.87,
                 "ACS": 172,
@@ -6337,7 +6337,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.394,
                 "ACS": 283,
@@ -6543,7 +6543,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Viper",
                 "R1.0": 0.897,
                 "ACS": 185,
@@ -6597,7 +6597,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.381,
                 "ACS": 276,
@@ -6714,7 +6714,7 @@
         "teamName": "Just Dudes Gaming",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.258,
             "ACS": 273.5,
             "K": 43,
@@ -7006,7 +7006,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 0.9,
                 "ACS": 203,
@@ -7301,7 +7301,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.548,
                 "ACS": 344,
@@ -7605,7 +7605,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.012,
             "ACS": 194.667,
             "K": 42,
@@ -7877,7 +7877,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Viper",
                 "R1.0": 0.854,
                 "ACS": 192,
@@ -8158,7 +8158,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Killjoy",
                 "R1.0": 1.254,
                 "ACS": 213,
@@ -8475,7 +8475,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": "Killjoy",
                 "R1.0": 0.936,
                 "ACS": 179,
@@ -8575,7 +8575,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.337,
             "ACS": 252.5,
             "K": 36,
@@ -8873,7 +8873,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.102,
                 "ACS": 195,
@@ -9138,7 +9138,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": "Sova",
                 "R1.0": 1.596,
                 "ACS": 310,
@@ -10551,7 +10551,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.003,
             "ACS": 186.5,
             "K": 27,
@@ -10602,7 +10602,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.715,
             "ACS": 139,
             "K": 21,
@@ -10831,7 +10831,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.865,
                 "ACS": 156,
@@ -10901,7 +10901,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.672,
                 "ACS": 116,
@@ -11090,7 +11090,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.135,
                 "ACS": 217,
@@ -11160,7 +11160,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.757,
                 "ACS": 162,
@@ -11362,7 +11362,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.125,
             "ACS": 217.333,
             "K": 47,
@@ -11645,7 +11645,7 @@
                 "PlusMinus2": -6
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 0.787,
                 "ACS": 166,
@@ -11932,7 +11932,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.4,
                 "ACS": 238,
@@ -12185,7 +12185,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.168,
                 "ACS": 248,
@@ -13464,7 +13464,7 @@
             "PlusMinus2": 1
           },
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 0.782,
             "ACS": 146,
             "K": 25,
@@ -13789,7 +13789,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.702,
                 "ACS": 139,
@@ -14069,7 +14069,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.862,
                 "ACS": 153,
@@ -15360,7 +15360,7 @@
             "PlusMinus2": 4
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 1.06,
             "ACS": 235,
             "K": 40,
@@ -15653,7 +15653,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.982,
                 "ACS": 212,
@@ -15933,7 +15933,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 1.139,
                 "ACS": 258,
@@ -17795,7 +17795,7 @@
         "teamName": "Made in Bronze",
         "players": [
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.302,
             "ACS": 238.667,
             "K": 66,
@@ -18117,7 +18117,7 @@
                 "PlusMinus2": 5
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.224,
                 "ACS": 237,
@@ -18414,7 +18414,7 @@
                 "PlusMinus2": 5
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.082,
                 "ACS": 176,
@@ -18678,7 +18678,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.576,
                 "ACS": 303,
@@ -18911,7 +18911,7 @@
             "PlusMinus2": 6
           },
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.067,
             "ACS": 206.5,
             "K": 40,
@@ -19204,7 +19204,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.18,
                 "ACS": 240,
@@ -19521,7 +19521,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.936,
                 "ACS": 173,
@@ -19696,7 +19696,7 @@
             "PlusMinus2": 9
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.219,
             "ACS": 243.333,
             "K": 53,
@@ -19999,7 +19999,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.061,
                 "ACS": 213,
@@ -20265,7 +20265,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.329,
                 "ACS": 240,
@@ -20545,7 +20545,7 @@
                 "PlusMinus2": 7
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.295,
                 "ACS": 277,
@@ -20873,7 +20873,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.984,
             "ACS": 204.5,
             "K": 38,
@@ -21156,7 +21156,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.88,
                 "ACS": 202,
@@ -21442,7 +21442,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 1.122,
                 "ACS": 207,
@@ -23112,7 +23112,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.188,
             "ACS": 220,
             "K": 34,
@@ -23395,7 +23395,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.184,
                 "ACS": 216,
@@ -23696,7 +23696,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.19,
                 "ACS": 224,
@@ -26554,7 +26554,7 @@
         "teamName": "Just Dudes Gaming",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.292,
             "ACS": 276,
             "K": 56,
@@ -26815,7 +26815,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.174,
                 "ACS": 271,
@@ -27148,7 +27148,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.163,
                 "ACS": 215,
@@ -27407,7 +27407,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.537,
                 "ACS": 342,
@@ -27620,7 +27620,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.838,
             "ACS": 158.5,
             "K": 27,
@@ -27950,7 +27950,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.6,
                 "ACS": 110,
@@ -28187,7 +28187,7 @@
             "teamName": "Silly Geese",
             "players": [
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 1.047,
                 "ACS": 207,
@@ -29436,7 +29436,7 @@
         "teamName": "Made in Bronze",
         "players": [
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.234,
             "ACS": 239,
             "K": 53,
@@ -29729,7 +29729,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.298,
                 "ACS": 240,
@@ -29978,7 +29978,7 @@
             "teamName": "Made in Bronze",
             "players": [
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.245,
                 "ACS": 280,
@@ -30306,7 +30306,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.178,
                 "ACS": 197,
@@ -35859,7 +35859,7 @@
             "PlusMinus2": 5
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.952,
             "ACS": 195,
             "K": 36,
@@ -36168,7 +36168,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.941,
                 "ACS": 183,
@@ -36453,7 +36453,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.966,
                 "ACS": 207,
@@ -37715,7 +37715,7 @@
             "PlusMinus2": 3
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.388,
             "ACS": 257.5,
             "K": 31,
@@ -37796,7 +37796,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.631,
             "ACS": 141,
             "K": 18,
@@ -38003,7 +38003,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.243,
                 "ACS": 218,
@@ -38105,7 +38105,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.744,
                 "ACS": 151,
@@ -38253,7 +38253,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.559,
                 "ACS": 297,
@@ -38387,7 +38387,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.499,
                 "ACS": 131,
@@ -39521,7 +39521,7 @@
             "PlusMinus2": 3
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 1.022,
             "ACS": 222.5,
             "K": 34,
@@ -39846,7 +39846,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.779,
                 "ACS": 151,
@@ -40063,7 +40063,7 @@
             "teamName": "Silly Geese",
             "players": [
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 1.313,
                 "ACS": 294,
@@ -40377,7 +40377,7 @@
             "PlusMinus2": -3
           },
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 0.808,
             "ACS": 155.5,
             "K": 20,
@@ -40676,7 +40676,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.811,
                 "ACS": 175,
@@ -40958,7 +40958,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.805,
                 "ACS": 136,
@@ -41046,7 +41046,7 @@
             "PlusMinus2": 5
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.922,
             "ACS": 176.333,
             "K": 39,
@@ -41324,7 +41324,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 1.25,
                 "ACS": 241,
@@ -41617,7 +41617,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.441,
                 "ACS": 96,
@@ -41881,7 +41881,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.957,
                 "ACS": 192,
@@ -42193,7 +42193,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 0.688,
             "ACS": 151,
             "K": 19,
@@ -42478,7 +42478,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.616,
                 "ACS": 149,
@@ -42759,7 +42759,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.765,
                 "ACS": 153,
@@ -42898,7 +42898,7 @@
         "teamName": "Just Dudes Gaming",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.117,
             "ACS": 212.333,
             "K": 45,
@@ -43195,7 +43195,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.08,
                 "ACS": 237,
@@ -43481,7 +43481,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.175,
                 "ACS": 227,
@@ -43784,7 +43784,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.091,
                 "ACS": 173,
@@ -50177,7 +50177,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 0.861,
             "ACS": 172.667,
             "K": 42,
@@ -50429,7 +50429,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.119,
                 "ACS": 218,
@@ -50741,7 +50741,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.584,
                 "ACS": 134,
@@ -51058,7 +51058,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.902,
                 "ACS": 166,
@@ -53467,7 +53467,7 @@
             "PlusMinus2": 9
           },
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.051,
             "ACS": 203.667,
             "K": 46,
@@ -53766,7 +53766,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 0.927,
                 "ACS": 159,
@@ -53985,7 +53985,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 0.965,
                 "ACS": 194,
@@ -54286,7 +54286,7 @@
                 "PlusMinus2": 4
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.169,
                 "ACS": 258,
@@ -55524,7 +55524,7 @@
             "PlusMinus2": 2
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 1.005,
             "ACS": 177.5,
             "K": 28,
@@ -55812,7 +55812,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 1.084,
                 "ACS": 146,
@@ -56083,7 +56083,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.917,
                 "ACS": 209,
@@ -58115,7 +58115,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 1.277,
             "ACS": 262.333,
             "K": 56,
@@ -58356,7 +58356,7 @@
             "teamName": "Silly Geese",
             "players": [
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 1.839,
                 "ACS": 413,
@@ -58673,7 +58673,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.948,
                 "ACS": 219,
@@ -58972,7 +58972,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 1.079,
                 "ACS": 155,
@@ -59106,7 +59106,7 @@
         "teamName": "Made in Bronze",
         "players": [
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.215,
             "ACS": 243.5,
             "K": 43,
@@ -59418,7 +59418,7 @@
                 "PlusMinus2": 6
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.239,
                 "ACS": 233,
@@ -59709,7 +59709,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.185,
                 "ACS": 254,
@@ -59840,7 +59840,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "nova",
+            "Player": "hyypernova",
             "R1.0": 0.866,
             "ACS": 181,
             "K": 33,
@@ -60133,7 +60133,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.804,
                 "ACS": 181,
@@ -60434,7 +60434,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "nova",
+                "Player": "hyypernova",
                 "Agent": null,
                 "R1.0": 0.92,
                 "ACS": 181,
@@ -61425,7 +61425,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "lazy",
+            "Player": "LazyNotTired",
             "R1.0": 1.006,
             "ACS": 199.333,
             "K": 47,
@@ -61476,7 +61476,7 @@
         "teamName": "Just Dudes Gaming",
         "players": [
           {
-            "Player": "stingray",
+            "Player": "Sting",
             "R1.0": 1.171,
             "ACS": 243,
             "K": 55,
@@ -61714,7 +61714,7 @@
                 "PlusMinus2": 2
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.232,
                 "ACS": 195,
@@ -61768,7 +61768,7 @@
                 "PlusMinus2": 5
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.014,
                 "ACS": 214,
@@ -62010,7 +62010,7 @@
                 "PlusMinus2": 1
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 0.776,
                 "ACS": 173,
@@ -62096,7 +62096,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 0.944,
                 "ACS": 175,
@@ -62264,7 +62264,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "lazy",
+                "Player": "LazyNotTired",
                 "Agent": null,
                 "R1.0": 1.043,
                 "ACS": 230,
@@ -62334,7 +62334,7 @@
             "teamName": "Just Dudes Gaming",
             "players": [
               {
-                "Player": "stingray",
+                "Player": "Sting",
                 "Agent": null,
                 "R1.0": 1.569,
                 "ACS": 340,

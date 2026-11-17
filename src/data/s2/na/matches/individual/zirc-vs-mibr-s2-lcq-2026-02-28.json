@@ -130,7 +130,7 @@
           "PlusMinus2": -1
         },
         {
-          "Player": "lazy",
+          "Player": "LazyNotTired",
           "R1.0": 1.012,
           "ACS": 194.667,
           "K": 42,
@@ -402,7 +402,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": "Viper",
               "R1.0": 0.854,
               "ACS": 192,
@@ -683,7 +683,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": "Killjoy",
               "R1.0": 1.254,
               "ACS": 213,
@@ -1000,7 +1000,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": "Killjoy",
               "R1.0": 0.936,
               "ACS": 179,

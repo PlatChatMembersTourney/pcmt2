@@ -145,7 +145,7 @@
       "KMAX": 34
     },
     {
-      "Player": "stingray",
+      "Player": "Sting",
       "Team": "NAVI",
       "MP": 20,
       "Rounds": 441,
@@ -745,7 +745,7 @@
       "KMAX": 29
     },
     {
-      "Player": "Lazy",
+      "Player": "LazyNotTired",
       "Team": "NAVI",
       "MP": 9,
       "Rounds": 191,
@@ -793,7 +793,7 @@
       "KMAX": 31
     },
     {
-      "Player": "Jalen",
+      "Player": "Jaden",
       "Team": "(sub)",
       "MP": 3,
       "Rounds": 60,
@@ -1441,7 +1441,7 @@
       "KMAX": 28
     },
     {
-      "Player": "nova",
+      "Player": "hyypernova",
       "Team": "SRB",
       "MP": 17,
       "Rounds": 383,
@@ -2451,7 +2451,7 @@
       "KMAX": 29
     },
     {
-      "Player": "Jalen",
+      "Player": "Jaden",
       "Team": "(sub)",
       "MP": 3,
       "Rounds": 60,
@@ -3269,7 +3269,7 @@
       "KMAX": 34
     },
     {
-      "Player": "stingray",
+      "Player": "Sting",
       "Team": "NAVI",
       "MP": 20,
       "Rounds": 441,
@@ -3581,7 +3581,7 @@
       "KMAX": 30
     },
     {
-      "Player": "Lazy",
+      "Player": "LazyNotTired",
       "Team": "NAVI",
       "MP": 9,
       "Rounds": 191,
@@ -3629,7 +3629,7 @@
       "KMAX": 31
     },
     {
-      "Player": "Jalen",
+      "Player": "Jaden",
       "Team": "(sub)",
       "MP": 3,
       "Rounds": 60,
@@ -3917,7 +3917,7 @@
       "KMAX": 28
     },
     {
-      "Player": "nova",
+      "Player": "hyypernova",
       "Team": "SRB",
       "MP": 17,
       "Rounds": 383,
@@ -4423,7 +4423,7 @@
       "KMAX": 34
     },
     {
-      "Player": "stingray",
+      "Player": "Sting",
       "Team": "NAVI",
       "MP": 10,
       "Rounds": 230,
@@ -4975,7 +4975,7 @@
       "KMAX": 20
     },
     {
-      "Player": "nova",
+      "Player": "hyypernova",
       "Team": "SRB",
       "MP": 2,
       "Rounds": 46,

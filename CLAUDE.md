@@ -15,7 +15,7 @@ Stats site for the PCMT (Plat Chat Members Tournament), a community Valorant tou
 - Playoff placements (the Placements table under the bracket, `Placements.tsx`) are worked out from the stage's `brackets.json` layout and results, using `playBracket()` (`src/utils/bracket.ts`) - the same helper the bracket drawing uses, so the two always agree: grand final winner and loser, then the teams knocked out in each lower round (upper rounds in single elimination), last round first. Only shown for the stage named "Playoffs".
 - A sub is someone who played for a team whose `teams.json` roster they aren't on.
 - News articles: one Markdown file each in `src/content/news/<event>/`, with frontmatter checked by `src/content.config.ts` (title, date, author, summary, optional event and match ids). They appear at `/news/<event>/<file>`, on `/news`, and the newest five in the homepage sidebar (`NewsSidebar.astro`). Article text is styled by the `.article` class in `src/styles/article.css` (Markdown can't take Tailwind classes).
-- Adding an event: the data folder plus an `events.json` entry is enough for the site, but also add a block for it in `src/data/check.ts` so its files are type-checked.
+- Adding an event: the data folder plus an `events.json` entry is enough for the site, but also add a block for it in `src/data/check.ts` so its files are type-checked, and an empty entry for its id under both `Overrides` and `Teams` in `flags.json` (pages crash without it). The bot only writes the stats files once a match is played, so a new event starts with `{}` stats files and a hand-made `standings.json` (each grouped team at 0-0) so its groups show.
 
 ### Conventions
 

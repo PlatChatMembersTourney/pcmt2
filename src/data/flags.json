@@ -16,7 +16,7 @@
 		"kaydeg": "nebr",
 		"guilty crown": "",
 		"james": "mx-marathon",
-		"stingray": "cn",
+		"sting": "cn",
 		"luca": "",
 		"neckolas": "",
 		"sylos": "mx",
@@ -31,7 +31,7 @@
 		"jack": "",
 		"tery": "hk",
 		"basil": "",
-		"lazy": "kr",
+		"lazynottired": "kr",
 		"spaceman": "na",
 		"androobee": "sx",
 		"angus": "us",
@@ -77,7 +77,7 @@
 		"corina": "mx",
 		"makya": "ohio",
 		"jaypee": "mx-marathon",
-		"nova": "",
+		"hyypernova": "",
 		"timothy": "us",
 		"asher": "us",
 		"devil": "us",
@@ -154,7 +154,22 @@
 		"bren": "gb",
 		"dryad": "co",
 		"wyatt": "us",
-		"mimi": "us"
+		"mimi": "us",
+		"krspy": "",
+		"toastemup": "",
+		"jaden": "",
+		"tawngay": "",
+		"hankyjanky": "",
+		"josh": "",
+		"woup": "",
+		"pieta": "",
+		"pumpkin": "",
+		"paul": "",
+		"ahsum": "",
+		"dorito": "",
+		"hades": "",
+		"derpid": "",
+		"nut": ""
 	},
 	"Overrides": {
 		"hopefully i never have to use this": {
@@ -166,7 +181,8 @@
 		"s1-emea": {},
 		"s2-emea": {},
 		"showmatch-s1-na": {},
-		"showmatch-s2-na": {}
+		"showmatch-s2-na": {},
+		"s4-na": {}
 	},
 	"Teams": {
 		"s1-na": {},
@@ -178,6 +194,7 @@
 			"noot": "aq"
 		},
 		"showmatch-s1-na": {},
-		"showmatch-s2-na": {}
+		"showmatch-s2-na": {},
+		"s4-na": {}
 	}
 }

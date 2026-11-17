@@ -64,7 +64,7 @@
           "PlusMinus2": -1
         },
         {
-          "Player": "lazy",
+          "Player": "LazyNotTired",
           "R1.0": 1.006,
           "ACS": 199.333,
           "K": 47,
@@ -115,7 +115,7 @@
       "teamName": "Just Dudes Gaming",
       "players": [
         {
-          "Player": "stingray",
+          "Player": "Sting",
           "R1.0": 1.171,
           "ACS": 243,
           "K": 55,
@@ -353,7 +353,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 1.232,
               "ACS": 195,
@@ -407,7 +407,7 @@
               "PlusMinus2": 5
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": null,
               "R1.0": 1.014,
               "ACS": 214,
@@ -649,7 +649,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 0.776,
               "ACS": 173,
@@ -735,7 +735,7 @@
               "PlusMinus2": -1
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": null,
               "R1.0": 0.944,
               "ACS": 175,
@@ -903,7 +903,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 1.043,
               "ACS": 230,
@@ -973,7 +973,7 @@
           "teamName": "Just Dudes Gaming",
           "players": [
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": null,
               "R1.0": 1.569,
               "ACS": 340,

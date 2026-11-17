@@ -110,7 +110,7 @@
       "teamName": "No Actual Valorant Intelligence",
       "players": [
         {
-          "Player": "stingray",
+          "Player": "Sting",
           "R1.0": 1.532,
           "ACS": 313,
           "K": 45,
@@ -140,7 +140,7 @@
           "PlusMinus2": -3
         },
         {
-          "Player": "Lazy",
+          "Player": "LazyNotTired",
           "R1.0": 1.12,
           "ACS": 201,
           "K": 30,
@@ -366,7 +366,7 @@
           "teamName": "No Actual Valorant Intelligence",
           "players": [
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Harbor",
               "R1.0": 1.56,
               "ACS": 338,
@@ -398,7 +398,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "Lazy",
+              "Player": "LazyNotTired",
               "Agent": "Sova",
               "R1.0": 1.152,
               "ACS": 168,
@@ -667,7 +667,7 @@
           "teamName": "No Actual Valorant Intelligence",
           "players": [
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Chamber",
               "R1.0": 1.513,
               "ACS": 296,
@@ -699,7 +699,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "Lazy",
+              "Player": "LazyNotTired",
               "Agent": "Clove",
               "R1.0": 1.098,
               "ACS": 223,

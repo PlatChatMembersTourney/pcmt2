@@ -59,7 +59,7 @@
           "PlusMinus2": 6
         },
         {
-          "Player": "lazy",
+          "Player": "LazyNotTired",
           "R1.0": 1.067,
           "ACS": 206.5,
           "K": 40,
@@ -352,7 +352,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 1.18,
               "ACS": 240,
@@ -669,7 +669,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "lazy",
+              "Player": "LazyNotTired",
               "Agent": null,
               "R1.0": 0.936,
               "ACS": 173,

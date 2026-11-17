@@ -1,0 +1,114 @@
+{
+  "Group A": [
+    {
+      "abbr": "FNC",
+      "name": "Freaks Need Caesparz",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 1,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "WBG",
+      "name": "We Been Gaming",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    }
+  ],
+  "Group B": [
+    {
+      "abbr": "EDM",
+      "name": "Everybody Dance Meow",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 1,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "CR",
+      "name": "CRazy zigzagoon",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    }
+  ],
+  "Group C": [
+    {
+      "abbr": "PRX",
+      "name": "Perfect RetaXe",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 1,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "NBR",
+      "name": "Namebrand Ramyeon",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    }
+  ],
+  "Group D": [
+    {
+      "abbr": "BLG",
+      "name": "Bartho Lomew Gaming",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 1,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "TANK",
+      "name": "TANKERS",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    }
+  ]
+}

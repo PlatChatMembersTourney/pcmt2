@@ -34,7 +34,7 @@
       "teamName": "No Actual Valorant Intelligence",
       "players": [
         {
-          "Player": "stingray",
+          "Player": "Sting",
           "R1.0": 1.376,
           "ACS": 303,
           "K": 70,
@@ -319,7 +319,7 @@
           "teamName": "No Actual Valorant Intelligence",
           "players": [
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Chamber",
               "R1.0": 2.149,
               "ACS": 465,
@@ -646,7 +646,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Chamber",
               "R1.0": 0.793,
               "ACS": 206,
@@ -967,7 +967,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": "Sova",
               "R1.0": 1.238,
               "ACS": 256,

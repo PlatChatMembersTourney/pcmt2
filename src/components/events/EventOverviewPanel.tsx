@@ -85,7 +85,8 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 				  Object.entries(allStandings).length > 0 ? (
 					<>
 						<h2 className="section-label mb-3 ml-3">Groups</h2>
-						<div className="flex flex-col gap-3 md:flex-row">
+						{/* several groups: one column on small screens, two side by side (a 2x2 grid for four) from md */}
+						<div className={cx(format.groups === 1 ? 'flex' : 'grid gap-3 md:grid-cols-2')}>
 							{format.groups === 1 ? (
 								<div className="overflow-x-auto">
 									<GroupStandingsBox
@@ -98,7 +99,7 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 								</div>
 							) : (
 								format.groupNames?.map((groupName) => (
-									<div className="flex-1 overflow-x-auto" key={groupName}>
+									<div className="min-w-0 overflow-x-auto" key={groupName}>
 										<GroupStandingsBox
 											standings={allStandings[groupName]}
 											teamColors={format.teamColors!}

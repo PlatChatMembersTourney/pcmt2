@@ -160,7 +160,7 @@
           "PlusMinus2": -5
         },
         {
-          "Player": "nova",
+          "Player": "hyypernova",
           "R1.0": 0.919,
           "ACS": 172,
           "K": 43,
@@ -398,7 +398,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": "Omen",
               "R1.0": 1.125,
               "ACS": 180,
@@ -705,7 +705,7 @@
               "PlusMinus2": 4
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": "Cypher",
               "R1.0": 0.761,
               "ACS": 158,
@@ -1026,7 +1026,7 @@
               "PlusMinus2": -2
             },
             {
-              "Player": "nova",
+              "Player": "hyypernova",
               "Agent": "Omen",
               "R1.0": 0.934,
               "ACS": 178,

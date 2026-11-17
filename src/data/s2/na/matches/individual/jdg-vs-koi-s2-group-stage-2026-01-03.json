@@ -49,7 +49,7 @@
           "PlusMinus2": 9
         },
         {
-          "Player": "stingray",
+          "Player": "Sting",
           "R1.0": 1.219,
           "ACS": 243.333,
           "K": 53,
@@ -352,7 +352,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": null,
               "R1.0": 1.061,
               "ACS": 213,
@@ -618,7 +618,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": null,
               "R1.0": 1.329,
               "ACS": 240,
@@ -898,7 +898,7 @@
               "PlusMinus2": 7
             },
             {
-              "Player": "stingray",
+              "Player": "Sting",
               "Agent": null,
               "R1.0": 1.295,
               "ACS": 277,
