@@ -289,7 +289,7 @@
 				"name": "Group Stage",
 				"dates": "TBD",
 				"format": {
-					"type": "round-robin",
+					"type": "gsl",
 					"groups": 4,
 					"groupNames": ["Group A", "Group B", "Group C", "Group D"],
 					"teamsPerGroup": 4,
@@ -300,7 +300,7 @@
 						},
 						{
 							"number": 2,
-							"color": "red"
+							"color": "yellow"
 						}
 					]
 				}

@@ -65,7 +65,7 @@ const ParticipatingTeams: React.FC<{ event: Event; stageIdx: number }> = ({ even
 	const qualification = (abbr: string): [string, number] => {
 		const type = stage.format?.type;
 		if (type === 'showmatch') return ['', 0];
-		if (type === 'round-robin') {
+		if (type === 'round-robin' || type === 'gsl') {
 			// a grouped stage: their group; a single group: nothing to say
 			const group =
 				names.length > 1

@@ -81,9 +81,34 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 						)}
 					</>
 				) : format &&
-				  ['round-robin', 'showmatch'].includes(format?.type) &&
+				  ['round-robin', 'gsl', 'showmatch'].includes(format?.type) &&
 				  Object.entries(allStandings).length > 0 ? (
 					<>
+						{/* GSL groups: each group's bracket (from brackets.json, keyed by group name), stacked, above the standings */}
+						{format.type === 'gsl' && (
+							<>
+								<h2 className="section-label mb-3 ml-3">Brackets</h2>
+								<div className="mb-6 flex flex-col gap-3">
+									{format.groupNames?.map(
+										(groupName) =>
+											brackets[groupName] && (
+												<div className="bg-vlr-gray-200 dark:bg-vlr-gray-600" key={groupName}>
+													<h3 className="text-subtle px-4 pt-3 text-[11px] font-bold">
+														{groupName}
+													</h3>
+													<Bracket
+														event={event}
+														stage={groupName}
+														layout={brackets[groupName]}
+														matches={matches.filter((match) => match.stage === groupName)}
+														teams={teams}
+													/>
+												</div>
+											)
+									)}
+								</div>
+							</>
+						)}
 						<h2 className="section-label mb-3 ml-3">Groups</h2>
 						{/* several groups: one column on small screens, two side by side (a 2x2 grid for four) from md */}
 						<div className={cx(format.groups === 1 ? 'flex' : 'grid gap-3 md:grid-cols-2')}>

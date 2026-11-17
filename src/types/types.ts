@@ -135,7 +135,7 @@ export interface StageInfo {
 }
 
 export interface Format {
-	type: 'round-robin' | 'bracket' | 'showmatch';
+	type: 'round-robin' | 'gsl' | 'bracket' | 'showmatch'; // gsl: 4-team double-elimination groups, drawn from brackets.json
 	groups?: number;
 	groupNames?: string[];
 	teamsPerGroup?: number;
