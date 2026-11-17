@@ -4,3 +4,9 @@ packages:
 allowBuilds:
   esbuild: true
   sharp: true
+
+overrides:
+  # @napi-rs/wasm-runtime accepts @emnapi/runtime 2.0 pre-releases, so pnpm picks 2.0.0-beta, which doesn't work with
+  # the 1.x @emnapi/core everything else uses (astro check crashes: "this.bridge.setLastError is not a function").
+  # Remove once @emnapi 2.0 is stable and the Astro packages use it.
+  "@emnapi/runtime": ^1.11.3
