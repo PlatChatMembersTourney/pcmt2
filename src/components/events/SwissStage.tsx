@@ -111,7 +111,7 @@ const SKELETON: [string, number, number?][][] = [
 	],
 	[['3-3', 2, 1]],
 ];
-// round 1's pairings come from the group results; after that it's whoever ends up on the record
+// round 1's pairings come from the group results; later rounds stay blank until they're known
 const OPENING_SIDES: { [pool: string]: string[] } = {
 	'1-0': ['Group 2-0', 'Group 2-1'],
 	'0-1': ['Group 1-2', 'Group 0-2'],
@@ -123,6 +123,7 @@ const PlaceholderMatch: React.FC<{ sides: string[]; faded?: boolean }> = ({ side
 		{sides.map((side, idx) => (
 			<div className="text-muted flex h-7 items-center gap-2 px-2 text-xs" key={idx}>
 				<img src="/icons/vlr_team.png" alt="" className="h-4 w-4 object-contain" />
+				{/* '' while the team depends on earlier results: just the icon and the dash */}
 				<span className="flex-1 truncate">{side}</span>-
 			</div>
 		))}
@@ -169,7 +170,7 @@ const SwissStage: React.FC<{ event: Event; stageName: string }> = ({ event, stag
 										</p>
 										{Array.from({ length: count + ifNeeded }, (_, n) => (
 											<PlaceholderMatch
-												sides={OPENING_SIDES[name] ?? ['TBD', 'TBD']}
+												sides={OPENING_SIDES[name] ?? ['', '']}
 												faded={n >= count}
 												key={n}
 											/>
@@ -221,9 +222,9 @@ const SwissStage: React.FC<{ event: Event; stageName: string }> = ({ event, stag
 										<span className="text-muted">{recordText(record)}</span>
 									</a>
 								))}
-								{/* before any matches, a TBD for each of the 8 places */}
+								{/* before any matches, an empty row for each of the 8 places */}
 								{games.length === 0
-									? Array.from({ length: 8 }, (_, n) => <PlaceholderMatch sides={['TBD']} key={n} />)
+									? Array.from({ length: 8 }, (_, n) => <PlaceholderMatch sides={['']} key={n} />)
 									: finished(status).length === 0 && (
 											<p className="text-muted px-2 py-1.5 text-xs">-</p>
 										)}
