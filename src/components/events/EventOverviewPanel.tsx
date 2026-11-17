@@ -8,6 +8,7 @@ import GroupStandingsBox from './GroupStandingsBox.tsx';
 import Bracket from './Bracket.tsx';
 import ParticipatingTeams from './ParticipatingTeams.tsx';
 import Placements from './Placements.tsx';
+import SwissStage from './SwissStage.tsx';
 import { cx } from '../../utils/cx.ts';
 
 const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event }) => {
@@ -138,6 +139,8 @@ const EventOverviewPanel: React.FC<{ event: Event }> = (props: { event: Event })
 							)}
 						</div>
 					</>
+				) : format?.type === 'swiss' ? (
+					<SwissStage event={event} stageName={stageName} />
 				) : (
 					<div>not supported yet</div>
 				)}

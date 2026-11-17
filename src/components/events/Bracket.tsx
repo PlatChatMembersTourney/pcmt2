@@ -441,7 +441,11 @@ const Bracket: React.FC<BracketProps> = ({ event, stage, layout, matches, teams 
 
 			if (!cancelled) cleanup = decorate(document.getElementById(elementId)!, viewerData);
 		};
-		render().catch((error: unknown) => console.error(`Couldn't render the ${stage} bracket`, error));
+		// A bracket removed mid-render (the page switching to another stage from the URL) can't find its element - ignore
+		// that. Check the element itself: React removes it before this effect's cleanup sets `cancelled`
+		render().catch((error: unknown) => {
+			if (document.getElementById(elementId)) console.error(`Couldn't render the ${stage} bracket`, error);
+		});
 
 		return () => {
 			cancelled = true;

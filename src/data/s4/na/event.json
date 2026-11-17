@@ -43,6 +43,11 @@
       "bestOf": 3
     },
     {
+      "name": "Swiss Stage",
+      "type": "swiss",
+      "bestOf": 3
+    },
+    {
       "name": "Playoffs",
       "type": "double-elim",
       "bestOf": 3

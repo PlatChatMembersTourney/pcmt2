@@ -281,13 +281,27 @@
 		"region": "na",
 		"path": "s4/na",
 		"status": "upcoming",
-		"desc": "Season 4 of the Plat Chat members tournament for NA, with 16 teams in 4 groups.",
-		"dates": "TBD",
+		"desc": "Season 4 of the Plat Chat members tournament for NA, where 16 teams proved who is the best at being the worst.",
+		"dates": "Nov 17, 2026 - TBD",
 		"prize": "a showmatch idk",
 		"stages": [
 			{
-				"name": "Group Stage",
+				"name": "Playoffs",
 				"dates": "TBD",
+				"format": {
+					"type": "bracket"
+				}
+			},
+			{
+				"name": "Swiss Stage",
+				"dates": "TBD",
+				"format": {
+					"type": "swiss"
+				}
+			},
+			{
+				"name": "Group Stage",
+				"dates": "Nov 17 - TBD",
 				"format": {
 					"type": "gsl",
 					"groups": 4,

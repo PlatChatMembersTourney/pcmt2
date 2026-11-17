@@ -135,7 +135,8 @@ export interface StageInfo {
 }
 
 export interface Format {
-	type: 'round-robin' | 'gsl' | 'bracket' | 'showmatch'; // gsl: 4-team double-elimination groups, drawn from brackets.json
+	// gsl: 4-team double-elimination groups, drawn from brackets.json; swiss: drawn from its matches (SwissStage.tsx)
+	type: 'round-robin' | 'gsl' | 'swiss' | 'bracket' | 'showmatch';
 	groups?: number;
 	groupNames?: string[];
 	teamsPerGroup?: number;
