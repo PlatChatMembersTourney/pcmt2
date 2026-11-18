@@ -111,7 +111,7 @@
             "PlusMinus2": 0
           },
           {
-            "Player": "TheNam3Less1",
+            "Player": "nameless",
             "R1.0": 1.013,
             "ACS": 200,
             "K": 29,
@@ -402,7 +402,7 @@
                 "PlusMinus2": 0
               },
               {
-                "Player": "TheNam3Less1",
+                "Player": "nameless",
                 "Agent": "Fade",
                 "R1.0": 0.947,
                 "ACS": 203,
@@ -597,7 +597,7 @@
                   "Rounds": 12
                 },
                 {
-                  "Player": "TheNam3Less1",
+                  "Player": "nameless",
                   "Agent": "Fade",
                   "R1.0": 0.574,
                   "ACS": 115,
@@ -730,7 +730,7 @@
                   "Rounds": 5
                 },
                 {
-                  "Player": "TheNam3Less1",
+                  "Player": "nameless",
                   "Agent": "Fade",
                   "R1.0": 1.842,
                   "ACS": 413,
@@ -1047,7 +1047,7 @@
                 "PlusMinus2": 7
               },
               {
-                "Player": "TheNam3Less1",
+                "Player": "nameless",
                 "Agent": "Sova",
                 "R1.0": 1.066,
                 "ACS": 197,
@@ -1240,7 +1240,7 @@
                   "Rounds": 12
                 },
                 {
-                  "Player": "TheNam3Less1",
+                  "Player": "nameless",
                   "Agent": "Sova",
                   "R1.0": 0.893,
                   "ACS": 171,
@@ -1424,7 +1424,7 @@
                   "Rounds": 9
                 },
                 {
-                  "Player": "TheNam3Less1",
+                  "Player": "nameless",
                   "Agent": "Sova",
                   "R1.0": 1.297,
                   "ACS": 231,

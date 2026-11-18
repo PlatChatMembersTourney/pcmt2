@@ -16,17 +16,22 @@
         "pickPct": 1.0
       },
       {
-        "agent": "Jett",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
         "agent": "Sova",
         "comps": 1,
         "pickPct": 0.5
       },
       {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
         "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -37,11 +42,6 @@
       },
       {
         "agent": "Chamber",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Neon",
         "comps": 1,
         "pickPct": 0.5
       }

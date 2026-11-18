@@ -11,7 +11,7 @@
     "bestOf": 5,
     "date": "2026-10-28T23:30:00Z",
     "stage": "Playoffs",
-    "veto": "SPG bans Haven, T1 bans Split, SPG picks Abyss, T1 picks Summit, SPG picks Lotus, T1 picks Sunset, Ascent remains",
+    "veto": "SPG bans Haven, SPG bans Split, SPG picks Abyss, T1 picks Summit, SPG picks Lotus, T1 picks Sunset, Ascent remains",
     "maps": [
       {
         "name": "Abyss",
@@ -14379,7 +14379,7 @@
             "PlusMinus2": -1
           },
           {
-            "Player": "TheNam3Less1",
+            "Player": "nameless",
             "R1.0": 0.704,
             "ACS": 145,
             "K": 23,
@@ -14663,7 +14663,7 @@
                 "PlusMinus2": -3
               },
               {
-                "Player": "TheNam3Less1",
+                "Player": "nameless",
                 "Agent": "Vyse",
                 "R1.0": 0.816,
                 "ACS": 176,
@@ -15002,7 +15002,7 @@
                 "PlusMinus2": -2
               },
               {
-                "Player": "TheNam3Less1",
+                "Player": "nameless",
                 "Agent": "Sova",
                 "R1.0": 0.591,
                 "ACS": 114,
@@ -27164,7 +27164,7 @@
             "PlusMinus2": 3
           },
           {
-            "Player": "TheNam3Less1",
+            "Player": "nameless",
             "R1.0": 0.858,
             "ACS": 156,
             "K": 35,
@@ -27492,7 +27492,7 @@
                 "PlusMinus2": -1
               },
               {
-                "Player": "TheNam3Less1",
+                "Player": "nameless",
                 "Agent": "Sova",
                 "R1.0": 0.587,
                 "ACS": 84,
@@ -27817,7 +27817,7 @@
                 "PlusMinus2": 3
               },
               {
-                "Player": "TheNam3Less1",
+                "Player": "nameless",
                 "Agent": "Sova",
                 "R1.0": 0.828,
                 "ACS": 160,
@@ -28088,7 +28088,7 @@
                 "PlusMinus2": 5
               },
               {
-                "Player": "TheNam3Less1",
+                "Player": "nameless",
                 "Agent": "Sova",
                 "R1.0": 1.16,
                 "ACS": 224,

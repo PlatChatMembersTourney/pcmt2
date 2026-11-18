@@ -1908,7 +1908,7 @@
       {
         "map": "Split",
         "pick": 2,
-        "ban": 6,
+        "ban": 7,
         "played": 3,
         "won": 2,
         "winPct": 0.667,
@@ -2439,7 +2439,7 @@
       {
         "map": "Split",
         "pick": 1,
-        "ban": 3,
+        "ban": 2,
         "played": 6,
         "won": 5,
         "winPct": 0.833,

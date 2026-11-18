@@ -79,7 +79,7 @@
           "PlusMinus2": 3
         },
         {
-          "Player": "TheNam3Less1",
+          "Player": "nameless",
           "R1.0": 0.858,
           "ACS": 156,
           "K": 35,
@@ -407,7 +407,7 @@
               "PlusMinus2": -1
             },
             {
-              "Player": "TheNam3Less1",
+              "Player": "nameless",
               "Agent": "Sova",
               "R1.0": 0.587,
               "ACS": 84,
@@ -732,7 +732,7 @@
               "PlusMinus2": 3
             },
             {
-              "Player": "TheNam3Less1",
+              "Player": "nameless",
               "Agent": "Sova",
               "R1.0": 0.828,
               "ACS": 160,
@@ -1003,7 +1003,7 @@
               "PlusMinus2": 5
             },
             {
-              "Player": "TheNam3Less1",
+              "Player": "nameless",
               "Agent": "Sova",
               "R1.0": 1.16,
               "ACS": 224,
