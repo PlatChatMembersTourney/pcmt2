@@ -1,1 +1,136 @@
-{}
+{
+  "Corrode": {
+    "mapsPlayed": 1,
+    "recordedComps": 2,
+    "atkPct": 0.286,
+    "defPct": 0.714,
+    "agents": [
+      {
+        "agent": "Vyse",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "FNC": {
+        "team": "FNC",
+        "teamName": "Freaks Need Caesparz",
+        "agents": [
+          "Jett",
+          "Omen",
+          "Sova",
+          "Vyse",
+          "Waylay"
+        ]
+      },
+      "WBG": {
+        "team": "WBG",
+        "teamName": "We Been Gaming",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Neon",
+          "Omen",
+          "Vyse"
+        ]
+      }
+    }
+  },
+  "Lotus": {
+    "mapsPlayed": 1,
+    "recordedComps": 2,
+    "atkPct": 0.471,
+    "defPct": 0.529,
+    "agents": [
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Vyse",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Raze",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Hush",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "FNC": {
+        "team": "FNC",
+        "teamName": "Freaks Need Caesparz",
+        "agents": [
+          "Fade",
+          "Jett",
+          "Omen",
+          "Raze",
+          "Vyse"
+        ]
+      },
+      "WBG": {
+        "team": "WBG",
+        "teamName": "We Been Gaming",
+        "agents": [
+          "Fade",
+          "Hush",
+          "Omen",
+          "Raze",
+          "Vyse"
+        ]
+      }
+    }
+  }
+}

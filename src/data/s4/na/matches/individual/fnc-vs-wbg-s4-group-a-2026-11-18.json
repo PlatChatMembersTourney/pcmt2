@@ -4,10 +4,1520 @@
   "team2": "WBG",
   "team1Name": "Freaks Need Caesparz",
   "team2Name": "We Been Gaming",
-  "score1": 0,
+  "score1": 2,
   "score2": 0,
-  "completed": false,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-11-18T03:00:00Z",
-  "stage": "Group A"
+  "stage": "Group A",
+  "veto": "WBG bans Haven, FNC bans Abyss, WBG picks Lotus, FNC picks Corrode, WBG bans Bind, FNC bans Summit, Sunset remains",
+  "maps": [
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 4
+    },
+    {
+      "name": "Corrode",
+      "score1": 13,
+      "score2": 8
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "FNC",
+      "teamName": "Freaks Need Caesparz",
+      "players": [
+        {
+          "Player": "claps",
+          "R1.0": 1.812,
+          "ACS": 404,
+          "K": 56,
+          "D": 20,
+          "A": 10,
+          "PlusMinus": 36,
+          "KAST": 0.895,
+          "ADR": 239.0,
+          "HS%": 0.159,
+          "FK": 15,
+          "FD": 1,
+          "PlusMinus2": 14
+        },
+        {
+          "Player": "caesparz",
+          "R1.0": 1.016,
+          "ACS": 196,
+          "K": 24,
+          "D": 26,
+          "A": 12,
+          "PlusMinus": -2,
+          "KAST": 0.737,
+          "ADR": 147.6,
+          "HS%": 0.183,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "TheNam3Less1",
+          "R1.0": 1.013,
+          "ACS": 200,
+          "K": 29,
+          "D": 25,
+          "A": 9,
+          "PlusMinus": 4,
+          "KAST": 0.684,
+          "ADR": 126.8,
+          "HS%": 0.254,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "radical",
+          "R1.0": 0.995,
+          "ACS": 178,
+          "K": 26,
+          "D": 23,
+          "A": 10,
+          "PlusMinus": 3,
+          "KAST": 0.763,
+          "ADR": 115.6,
+          "HS%": 0.09,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "psyclone",
+          "R1.0": 0.969,
+          "ACS": 148,
+          "K": 20,
+          "D": 24,
+          "A": 21,
+          "PlusMinus": -4,
+          "KAST": 0.869,
+          "ADR": 104.6,
+          "HS%": 0.228,
+          "FK": 3,
+          "FD": 1,
+          "PlusMinus2": 2
+        }
+      ]
+    },
+    {
+      "team": "WBG",
+      "teamName": "We Been Gaming",
+      "players": [
+        {
+          "Player": "pavel",
+          "R1.0": 1.276,
+          "ACS": 306,
+          "K": 40,
+          "D": 29,
+          "A": 8,
+          "PlusMinus": 11,
+          "KAST": 0.658,
+          "ADR": 192.7,
+          "HS%": 0.17,
+          "FK": 7,
+          "FD": 6,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "caleb",
+          "R1.0": 0.967,
+          "ACS": 218,
+          "K": 30,
+          "D": 31,
+          "A": 8,
+          "PlusMinus": -1,
+          "KAST": 0.605,
+          "ADR": 142.6,
+          "HS%": 0.17,
+          "FK": 0,
+          "FD": 9,
+          "PlusMinus2": -9
+        },
+        {
+          "Player": "igneous",
+          "R1.0": 0.695,
+          "ACS": 164,
+          "K": 19,
+          "D": 33,
+          "A": 10,
+          "PlusMinus": -14,
+          "KAST": 0.605,
+          "ADR": 101.6,
+          "HS%": 0.165,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "lucas",
+          "R1.0": 0.691,
+          "ACS": 151,
+          "K": 18,
+          "D": 31,
+          "A": 6,
+          "PlusMinus": -13,
+          "KAST": 0.605,
+          "ADR": 106.2,
+          "HS%": 0.267,
+          "FK": 1,
+          "FD": 8,
+          "PlusMinus2": -7
+        },
+        {
+          "Player": "tery",
+          "R1.0": 0.556,
+          "ACS": 100,
+          "K": 11,
+          "D": 31,
+          "A": 14,
+          "PlusMinus": -20,
+          "KAST": 0.631,
+          "ADR": 69.8,
+          "HS%": 0.173,
+          "FK": 0,
+          "FD": 1,
+          "PlusMinus2": -1
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 4,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "FNC",
+          "teamName": "Freaks Need Caesparz",
+          "players": [
+            {
+              "Player": "claps",
+              "Agent": "Jett",
+              "R1.0": 1.844,
+              "ACS": 408,
+              "K": 25,
+              "D": 10,
+              "A": 5,
+              "PlusMinus": 15,
+              "KAST": 1.0,
+              "ADR": 247.5,
+              "HS%": 0.167,
+              "FK": 7,
+              "FD": 0,
+              "PlusMinus2": 7
+            },
+            {
+              "Player": "radical",
+              "Agent": "Raze",
+              "R1.0": 1.384,
+              "ACS": 245,
+              "K": 19,
+              "D": 8,
+              "A": 4,
+              "PlusMinus": 11,
+              "KAST": 0.824,
+              "ADR": 147.5,
+              "HS%": 0.118,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "caesparz",
+              "Agent": "Vyse",
+              "R1.0": 1.157,
+              "ACS": 225,
+              "K": 12,
+              "D": 11,
+              "A": 6,
+              "PlusMinus": 1,
+              "KAST": 0.824,
+              "ADR": 167.2,
+              "HS%": 0.153,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "TheNam3Less1",
+              "Agent": "Fade",
+              "R1.0": 0.947,
+              "ACS": 203,
+              "K": 12,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": -1,
+              "KAST": 0.647,
+              "ADR": 130.8,
+              "HS%": 0.243,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "psyclone",
+              "Agent": "Omen",
+              "R1.0": 0.911,
+              "ACS": 121,
+              "K": 7,
+              "D": 9,
+              "A": 11,
+              "PlusMinus": -2,
+              "KAST": 0.824,
+              "ADR": 85.9,
+              "HS%": 0.194,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "WBG",
+          "teamName": "We Been Gaming",
+          "players": [
+            {
+              "Player": "pavel",
+              "Agent": "Raze",
+              "R1.0": 1.348,
+              "ACS": 309,
+              "K": 17,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": 4,
+              "KAST": 0.706,
+              "ADR": 219.6,
+              "HS%": 0.203,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "igneous",
+              "Agent": "Fade",
+              "R1.0": 0.73,
+              "ACS": 183,
+              "K": 10,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": -6,
+              "KAST": 0.647,
+              "ADR": 105.8,
+              "HS%": 0.135,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "tery",
+              "Agent": "Omen",
+              "R1.0": 0.718,
+              "ACS": 138,
+              "K": 9,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.706,
+              "ADR": 86.1,
+              "HS%": 0.24,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "caleb",
+              "Agent": "Vyse",
+              "R1.0": 0.7,
+              "ACS": 191,
+              "K": 10,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": -6,
+              "KAST": 0.471,
+              "ADR": 121.5,
+              "HS%": 0.106,
+              "FK": 0,
+              "FD": 6,
+              "PlusMinus2": -6
+            },
+            {
+              "Player": "lucas",
+              "Agent": "Hush",
+              "R1.0": 0.419,
+              "ACS": 100,
+              "K": 5,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -11,
+              "KAST": 0.471,
+              "ADR": 78.8,
+              "HS%": 0.28,
+              "FK": 1,
+              "FD": 6,
+              "PlusMinus2": -5
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "FNC",
+            "teamName": "Freaks Need Caesparz",
+            "players": [
+              {
+                "Player": "claps",
+                "Agent": "Jett",
+                "R1.0": 1.727,
+                "ACS": 373,
+                "K": 17,
+                "D": 7,
+                "A": 2,
+                "PlusMinus": 10,
+                "KAST": 1.0,
+                "ADR": 223.0,
+                "HS%": 0.171,
+                "FK": 5,
+                "FD": 0,
+                "PlusMinus2": 5,
+                "Rounds": 12
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Vyse",
+                "R1.0": 1.523,
+                "ACS": 315,
+                "K": 12,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": 4,
+                "KAST": 0.917,
+                "ADR": 235.1,
+                "HS%": 0.155,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 1.253,
+                "ACS": 217,
+                "K": 11,
+                "D": 7,
+                "A": 4,
+                "PlusMinus": 4,
+                "KAST": 0.833,
+                "ADR": 148.8,
+                "HS%": 0.116,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "psyclone",
+                "Agent": "Omen",
+                "R1.0": 0.924,
+                "ACS": 129,
+                "K": 6,
+                "D": 7,
+                "A": 7,
+                "PlusMinus": -1,
+                "KAST": 0.833,
+                "ADR": 85.8,
+                "HS%": 0.278,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "TheNam3Less1",
+                "Agent": "Fade",
+                "R1.0": 0.574,
+                "ACS": 115,
+                "K": 4,
+                "D": 10,
+                "A": 4,
+                "PlusMinus": -6,
+                "KAST": 0.5,
+                "ADR": 90.1,
+                "HS%": 0.143,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "WBG",
+            "teamName": "We Been Gaming",
+            "players": [
+              {
+                "Player": "pavel",
+                "Agent": "Raze",
+                "R1.0": 0.782,
+                "ACS": 199,
+                "K": 3,
+                "D": 5,
+                "A": 0,
+                "PlusMinus": -2,
+                "KAST": 0.6,
+                "ADR": 161.6,
+                "HS%": 0.545,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 5
+              },
+              {
+                "Player": "igneous",
+                "Agent": "Fade",
+                "R1.0": 0.671,
+                "ACS": 211,
+                "K": 4,
+                "D": 5,
+                "A": 0,
+                "PlusMinus": -1,
+                "KAST": 0.4,
+                "ADR": 98.6,
+                "HS%": 0.182,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 5
+              },
+              {
+                "Player": "caleb",
+                "Agent": "Vyse",
+                "R1.0": 0.577,
+                "ACS": 159,
+                "K": 2,
+                "D": 5,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.6,
+                "ADR": 105.2,
+                "HS%": 0.182,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 5
+              },
+              {
+                "Player": "tery",
+                "Agent": "Omen",
+                "R1.0": 0.556,
+                "ACS": 129,
+                "K": 2,
+                "D": 5,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.6,
+                "ADR": 78.8,
+                "HS%": 0.25,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 5
+              },
+              {
+                "Player": "lucas",
+                "Agent": "Hush",
+                "R1.0": 0.301,
+                "ACS": 89,
+                "K": 1,
+                "D": 5,
+                "A": 1,
+                "PlusMinus": -4,
+                "KAST": 0.4,
+                "ADR": 63.8,
+                "HS%": 0.1,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 5
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "FNC",
+            "teamName": "Freaks Need Caesparz",
+            "players": [
+              {
+                "Player": "claps",
+                "Agent": "Jett",
+                "R1.0": 2.127,
+                "ACS": 491,
+                "K": 8,
+                "D": 3,
+                "A": 3,
+                "PlusMinus": 5,
+                "KAST": 1.0,
+                "ADR": 306.2,
+                "HS%": 0.154,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 5
+              },
+              {
+                "Player": "TheNam3Less1",
+                "Agent": "Fade",
+                "R1.0": 1.842,
+                "ACS": 413,
+                "K": 8,
+                "D": 3,
+                "A": 1,
+                "PlusMinus": 5,
+                "KAST": 1.0,
+                "ADR": 228.6,
+                "HS%": 0.375,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 5
+              },
+              {
+                "Player": "radical",
+                "Agent": "Raze",
+                "R1.0": 1.696,
+                "ACS": 310,
+                "K": 8,
+                "D": 1,
+                "A": 0,
+                "PlusMinus": 7,
+                "KAST": 0.8,
+                "ADR": 144.2,
+                "HS%": 0.12,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 5
+              },
+              {
+                "Player": "psyclone",
+                "Agent": "Omen",
+                "R1.0": 0.879,
+                "ACS": 104,
+                "K": 1,
+                "D": 2,
+                "A": 4,
+                "PlusMinus": -1,
+                "KAST": 0.8,
+                "ADR": 86.2,
+                "HS%": 0.077,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 5
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Vyse",
+                "R1.0": 0.279,
+                "ACS": 9,
+                "K": 0,
+                "D": 3,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.6,
+                "ADR": 4.4,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 5
+              }
+            ]
+          },
+          {
+            "team": "WBG",
+            "teamName": "We Been Gaming",
+            "players": [
+              {
+                "Player": "pavel",
+                "Agent": "Raze",
+                "R1.0": 1.584,
+                "ACS": 355,
+                "K": 14,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": 6,
+                "KAST": 0.75,
+                "ADR": 243.8,
+                "HS%": 0.143,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "tery",
+                "Agent": "Omen",
+                "R1.0": 0.785,
+                "ACS": 141,
+                "K": 7,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": -2,
+                "KAST": 0.75,
+                "ADR": 89.2,
+                "HS%": 0.235,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "igneous",
+                "Agent": "Fade",
+                "R1.0": 0.754,
+                "ACS": 171,
+                "K": 6,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.75,
+                "ADR": 108.8,
+                "HS%": 0.122,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "caleb",
+                "Agent": "Vyse",
+                "R1.0": 0.752,
+                "ACS": 204,
+                "K": 8,
+                "D": 11,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.417,
+                "ADR": 128.3,
+                "HS%": 0.083,
+                "FK": 0,
+                "FD": 6,
+                "PlusMinus2": -6,
+                "Rounds": 12
+              },
+              {
+                "Player": "lucas",
+                "Agent": "Hush",
+                "R1.0": 0.468,
+                "ACS": 104,
+                "K": 4,
+                "D": 11,
+                "A": 1,
+                "PlusMinus": -7,
+                "KAST": 0.5,
+                "ADR": 85.0,
+                "HS%": 0.4,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corrode",
+      "score1": 13,
+      "score2": 8,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        }
+      ],
+      "stats": [
+        {
+          "team": "FNC",
+          "teamName": "Freaks Need Caesparz",
+          "players": [
+            {
+              "Player": "claps",
+              "Agent": "Jett",
+              "R1.0": 1.785,
+              "ACS": 400,
+              "K": 31,
+              "D": 10,
+              "A": 5,
+              "PlusMinus": 21,
+              "KAST": 0.81,
+              "ADR": 232.1,
+              "HS%": 0.152,
+              "FK": 8,
+              "FD": 1,
+              "PlusMinus2": 7
+            },
+            {
+              "Player": "TheNam3Less1",
+              "Agent": "Sova",
+              "R1.0": 1.066,
+              "ACS": 197,
+              "K": 17,
+              "D": 12,
+              "A": 4,
+              "PlusMinus": 5,
+              "KAST": 0.714,
+              "ADR": 123.5,
+              "HS%": 0.262,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "psyclone",
+              "Agent": "Omen",
+              "R1.0": 1.016,
+              "ACS": 169,
+              "K": 13,
+              "D": 15,
+              "A": 10,
+              "PlusMinus": -2,
+              "KAST": 0.905,
+              "ADR": 119.8,
+              "HS%": 0.255,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "caesparz",
+              "Agent": "Vyse",
+              "R1.0": 0.901,
+              "ACS": 173,
+              "K": 12,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": -3,
+              "KAST": 0.667,
+              "ADR": 131.7,
+              "HS%": 0.208,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "radical",
+              "Agent": "Waylay",
+              "R1.0": 0.681,
+              "ACS": 123,
+              "K": 7,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": -8,
+              "KAST": 0.714,
+              "ADR": 89.8,
+              "HS%": 0.068,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "WBG",
+          "teamName": "We Been Gaming",
+          "players": [
+            {
+              "Player": "pavel",
+              "Agent": "Chamber",
+              "R1.0": 1.218,
+              "ACS": 303,
+              "K": 23,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": 7,
+              "KAST": 0.619,
+              "ADR": 171.0,
+              "HS%": 0.143,
+              "FK": 6,
+              "FD": 5,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "caleb",
+              "Agent": "Neon",
+              "R1.0": 1.184,
+              "ACS": 240,
+              "K": 20,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": 5,
+              "KAST": 0.714,
+              "ADR": 159.7,
+              "HS%": 0.222,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "lucas",
+              "Agent": "Vyse",
+              "R1.0": 0.912,
+              "ACS": 192,
+              "K": 13,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -2,
+              "KAST": 0.714,
+              "ADR": 128.3,
+              "HS%": 0.256,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "igneous",
+              "Agent": "Fade",
+              "R1.0": 0.668,
+              "ACS": 148,
+              "K": 9,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -8,
+              "KAST": 0.571,
+              "ADR": 98.2,
+              "HS%": 0.19,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "tery",
+              "Agent": "Omen",
+              "R1.0": 0.425,
+              "ACS": 69,
+              "K": 2,
+              "D": 17,
+              "A": 10,
+              "PlusMinus": -15,
+              "KAST": 0.571,
+              "ADR": 56.6,
+              "HS%": 0.118,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "FNC",
+            "teamName": "Freaks Need Caesparz",
+            "players": [
+              {
+                "Player": "claps",
+                "Agent": "Jett",
+                "R1.0": 1.156,
+                "ACS": 282,
+                "K": 12,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": 3,
+                "KAST": 0.667,
+                "ADR": 156.8,
+                "HS%": 0.156,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Vyse",
+                "R1.0": 1.027,
+                "ACS": 229,
+                "K": 9,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": 0,
+                "KAST": 0.583,
+                "ADR": 162.7,
+                "HS%": 0.258,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "TheNam3Less1",
+                "Agent": "Sova",
+                "R1.0": 0.893,
+                "ACS": 171,
+                "K": 8,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 0,
+                "KAST": 0.583,
+                "ADR": 120.8,
+                "HS%": 0.333,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "psyclone",
+                "Agent": "Omen",
+                "R1.0": 0.648,
+                "ACS": 112,
+                "K": 4,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": -6,
+                "KAST": 0.833,
+                "ADR": 70.6,
+                "HS%": 0.167,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "radical",
+                "Agent": "Waylay",
+                "R1.0": 0.639,
+                "ACS": 118,
+                "K": 5,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": -4,
+                "KAST": 0.667,
+                "ADR": 77.6,
+                "HS%": 0.1,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "WBG",
+            "teamName": "We Been Gaming",
+            "players": [
+              {
+                "Player": "igneous",
+                "Agent": "Fade",
+                "R1.0": 0.821,
+                "ACS": 222,
+                "K": 7,
+                "D": 8,
+                "A": 0,
+                "PlusMinus": -1,
+                "KAST": 0.444,
+                "ADR": 138.6,
+                "HS%": 0.25,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 9
+              },
+              {
+                "Player": "pavel",
+                "Agent": "Chamber",
+                "R1.0": 0.767,
+                "ACS": 209,
+                "K": 6,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": -2,
+                "KAST": 0.444,
+                "ADR": 131.3,
+                "HS%": 0.136,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 9
+              },
+              {
+                "Player": "lucas",
+                "Agent": "Vyse",
+                "R1.0": 0.738,
+                "ACS": 176,
+                "K": 5,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.556,
+                "ADR": 130.0,
+                "HS%": 0.312,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 9
+              },
+              {
+                "Player": "tery",
+                "Agent": "Omen",
+                "R1.0": 0.421,
+                "ACS": 103,
+                "K": 2,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": -7,
+                "KAST": 0.444,
+                "ADR": 79.2,
+                "HS%": 0.143,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 9
+              },
+              {
+                "Player": "caleb",
+                "Agent": "Neon",
+                "R1.0": 0.398,
+                "ACS": 83,
+                "K": 2,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": -7,
+                "KAST": 0.556,
+                "ADR": 55.9,
+                "HS%": 0.062,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 9
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "FNC",
+            "teamName": "Freaks Need Caesparz",
+            "players": [
+              {
+                "Player": "claps",
+                "Agent": "Jett",
+                "R1.0": 2.624,
+                "ACS": 557,
+                "K": 19,
+                "D": 1,
+                "A": 3,
+                "PlusMinus": 18,
+                "KAST": 1.0,
+                "ADR": 332.6,
+                "HS%": 0.147,
+                "FK": 5,
+                "FD": 0,
+                "PlusMinus2": 5,
+                "Rounds": 9
+              },
+              {
+                "Player": "psyclone",
+                "Agent": "Omen",
+                "R1.0": 1.505,
+                "ACS": 244,
+                "K": 9,
+                "D": 5,
+                "A": 5,
+                "PlusMinus": 4,
+                "KAST": 1.0,
+                "ADR": 185.4,
+                "HS%": 0.31,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 9
+              },
+              {
+                "Player": "TheNam3Less1",
+                "Agent": "Sova",
+                "R1.0": 1.297,
+                "ACS": 231,
+                "K": 9,
+                "D": 4,
+                "A": 2,
+                "PlusMinus": 5,
+                "KAST": 0.889,
+                "ADR": 127.1,
+                "HS%": 0.208,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 9
+              },
+              {
+                "Player": "radical",
+                "Agent": "Waylay",
+                "R1.0": 0.738,
+                "ACS": 130,
+                "K": 2,
+                "D": 6,
+                "A": 4,
+                "PlusMinus": -4,
+                "KAST": 0.778,
+                "ADR": 106.1,
+                "HS%": 0.042,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 9
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Vyse",
+                "R1.0": 0.734,
+                "ACS": 98,
+                "K": 3,
+                "D": 6,
+                "A": 3,
+                "PlusMinus": -3,
+                "KAST": 0.778,
+                "ADR": 90.3,
+                "HS%": 0.118,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 9
+              }
+            ]
+          },
+          {
+            "team": "WBG",
+            "teamName": "We Been Gaming",
+            "players": [
+              {
+                "Player": "caleb",
+                "Agent": "Neon",
+                "R1.0": 1.774,
+                "ACS": 357,
+                "K": 18,
+                "D": 6,
+                "A": 1,
+                "PlusMinus": 12,
+                "KAST": 0.833,
+                "ADR": 237.6,
+                "HS%": 0.262,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "pavel",
+                "Agent": "Chamber",
+                "R1.0": 1.557,
+                "ACS": 374,
+                "K": 17,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": 9,
+                "KAST": 0.75,
+                "ADR": 200.8,
+                "HS%": 0.147,
+                "FK": 5,
+                "FD": 2,
+                "PlusMinus2": 3,
+                "Rounds": 12
+              },
+              {
+                "Player": "lucas",
+                "Agent": "Vyse",
+                "R1.0": 1.043,
+                "ACS": 204,
+                "K": 8,
+                "D": 7,
+                "A": 3,
+                "PlusMinus": 1,
+                "KAST": 0.833,
+                "ADR": 127.1,
+                "HS%": 0.217,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "igneous",
+                "Agent": "Fade",
+                "R1.0": 0.554,
+                "ACS": 92,
+                "K": 2,
+                "D": 9,
+                "A": 6,
+                "PlusMinus": -7,
+                "KAST": 0.667,
+                "ADR": 68.0,
+                "HS%": 0.111,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "tery",
+                "Agent": "Omen",
+                "R1.0": 0.427,
+                "ACS": 44,
+                "K": 0,
+                "D": 8,
+                "A": 6,
+                "PlusMinus": -8,
+                "KAST": 0.667,
+                "ADR": 39.6,
+                "HS%": 0.077,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=EhNXXEwuJu4"
 }
