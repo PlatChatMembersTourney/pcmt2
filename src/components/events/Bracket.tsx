@@ -420,7 +420,11 @@ const Bracket: React.FC<BracketProps> = ({ event, stage, layout, matches, teams 
 			// Browser only
 			await import('brackets-viewer/dist/brackets-viewer.min.js');
 			if (cancelled) return;
-			const viewer = window.bracketsViewer;
+			// A viewer of its own: the shared window.bracketsViewer keeps one click handler and config for the whole page,
+			// so with several brackets (GSL groups) every match would use the last-rendered bracket's handler and matches.
+			// The bundle doesn't export the class, so take it from the shared instance
+			const Viewer = window.bracketsViewer.constructor as new () => BracketsViewer;
+			const viewer = new Viewer();
 			const viewerData = toViewerData(stage, layout, matches, teams);
 
 			viewer.setParticipantImages(
