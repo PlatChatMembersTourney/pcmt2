@@ -3,7 +3,7 @@ import FilterToggle from '../FilterToggle.tsx';
 import { matches as allMatches } from '../../stores/matches.ts';
 import MatchList from './MatchList.tsx';
 
-import { eventById } from '../../stores/events.ts';
+import { eventById, seasonOptions } from '../../stores/events.ts';
 
 const MatchesPage: React.FC = () => {
 	const [region, setRegion] = useState('All');
@@ -35,7 +35,7 @@ const MatchesPage: React.FC = () => {
 				<FilterToggle
 					label="Season"
 					ariaLabel="Season Number"
-					options={['All', 'S1', 'S2', 'S3']}
+					options={seasonOptions}
 					value={season}
 					onChange={setSeason}
 				/>

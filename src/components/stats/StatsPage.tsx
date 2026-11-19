@@ -3,7 +3,7 @@ import FilterToggle from '../FilterToggle.tsx';
 import type { PlayerStats, PlayerStatsWithEventId } from '../../types/types.ts';
 import { allPlayerStats } from '../../stores/playerStats.ts';
 
-import { eventById } from '../../stores/events.ts';
+import { eventById, seasonOptions } from '../../stores/events.ts';
 import { teams } from '../../stores/teams.ts';
 import { playerSlug } from '../../utils/playerSlug.ts';
 import { toxicRating } from '../../utils/rating.ts';
@@ -125,7 +125,7 @@ const StatsPage: React.FC = () => {
 				<FilterToggle
 					label="Season"
 					ariaLabel="Season Number"
-					options={['All', 'S1', 'S2', 'S3']}
+					options={seasonOptions}
 					value={season}
 					onChange={setSeason}
 					className="h-9 sm:h-12"

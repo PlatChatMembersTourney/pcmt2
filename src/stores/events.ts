@@ -12,6 +12,12 @@ export const events = fromJson<Event[]>(eventsRaw);
 // Events by id
 export const eventById: Record<string, Event> = Object.fromEntries(events.map((event) => [event.id, event]));
 
+// Season filter options ('All', 'S1', 'S2', ...), from the seasons in events.json - a new season appears on its own
+export const seasonOptions = [
+	'All',
+	...[...new Set(events.map((event) => event.season))].sort((a, b) => a - b).map((n) => `S${n}`),
+];
+
 // Each event's file from a glob, keyed by event id - `fallback` if the event doesn't have that file
 export const byEvent = <T>(files: Record<string, T>, file: string, fallback: T): Record<string, T> =>
 	Object.fromEntries(events.map((event) => [event.id, files[`../data/${event.path}/${file}`] ?? fallback]));
