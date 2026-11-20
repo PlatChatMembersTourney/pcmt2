@@ -16,28 +16,15 @@
     {
       "abbr": "EDM",
       "name": "Everybody Dance Meow",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 0,
-      "mapW": 0,
+      "mapW": 2,
       "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
+      "rndW": 29,
+      "rndL": 20,
       "rank": 2,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
-      "abbr": "CR",
-      "name": "CRazy Zigzagoon",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 3,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapDiff": 2,
+      "rndDiff": 9
     },
     {
       "abbr": "PRX",
@@ -48,7 +35,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 4,
+      "rank": 3,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -61,7 +48,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 5,
+      "rank": 4,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -74,7 +61,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 6,
+      "rank": 5,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -87,7 +74,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 7,
+      "rank": 6,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -100,7 +87,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 8,
+      "rank": 7,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -113,7 +100,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 9,
+      "rank": 8,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -126,7 +113,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 10,
+      "rank": 9,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -139,7 +126,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 11,
+      "rank": 10,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -152,7 +139,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 12,
+      "rank": 11,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -165,7 +152,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 13,
+      "rank": 12,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -178,7 +165,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 14,
+      "rank": 13,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -191,9 +178,22 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 15,
+      "rank": 14,
       "mapDiff": 0,
       "rndDiff": 0
+    },
+    {
+      "abbr": "CR",
+      "name": "CRazy Zigzagoon",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 0,
+      "mapL": 2,
+      "rndW": 20,
+      "rndL": 29,
+      "rank": 15,
+      "mapDiff": -2,
+      "rndDiff": -9
     },
     {
       "abbr": "WBG",
@@ -241,28 +241,28 @@
     {
       "abbr": "EDM",
       "name": "Everybody Dance Meow",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 0,
-      "mapW": 0,
+      "mapW": 2,
       "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
+      "rndW": 29,
+      "rndL": 20,
       "rank": 1,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapDiff": 2,
+      "rndDiff": 9
     },
     {
       "abbr": "CR",
       "name": "CRazy Zigzagoon",
       "matchW": 0,
-      "matchL": 0,
+      "matchL": 1,
       "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
+      "mapL": 2,
+      "rndW": 20,
+      "rndL": 29,
       "rank": 2,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapDiff": -2,
+      "rndDiff": -9
     }
   ],
   "Group C": [

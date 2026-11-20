@@ -1,52 +1,94 @@
 {
   "Corrode": {
-    "mapsPlayed": 1,
-    "recordedComps": 2,
-    "atkPct": 0.286,
-    "defPct": 0.714,
+    "mapsPlayed": 2,
+    "recordedComps": 4,
+    "atkPct": 0.373,
+    "defPct": 0.627,
     "agents": [
       {
-        "agent": "Vyse",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
         "agent": "Omen",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
-        "agent": "Sova",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Jett",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Waylay",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Neon",
-        "comps": 1,
-        "pickPct": 0.5
+        "comps": 3,
+        "pickPct": 0.75
       },
       {
         "agent": "Fade",
-        "comps": 1,
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Yoru",
+        "comps": 2,
         "pickPct": 0.5
       },
       {
         "agent": "Chamber",
-        "comps": 1,
+        "comps": 2,
         "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.25
       }
     ],
     "teams": {
+      "CR": {
+        "team": "CR",
+        "teamName": "CRazy Zigzagoon",
+        "agents": [
+          "Astra",
+          "Cypher",
+          "Fade",
+          "Phoenix",
+          "Yoru"
+        ]
+      },
+      "EDM": {
+        "team": "EDM",
+        "teamName": "Everybody Dance Meow",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Neon",
+          "Omen",
+          "Yoru"
+        ]
+      },
       "FNC": {
         "team": "FNC",
         "teamName": "Freaks Need Caesparz",
@@ -72,43 +114,80 @@
     }
   },
   "Lotus": {
-    "mapsPlayed": 1,
-    "recordedComps": 2,
-    "atkPct": 0.471,
-    "defPct": 0.529,
+    "mapsPlayed": 2,
+    "recordedComps": 4,
+    "atkPct": 0.528,
+    "defPct": 0.472,
     "agents": [
       {
-        "agent": "Fade",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
-        "agent": "Vyse",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
         "agent": "Omen",
-        "comps": 2,
+        "comps": 4,
         "pickPct": 1.0
       },
       {
         "agent": "Raze",
-        "comps": 2,
+        "comps": 4,
         "pickPct": 1.0
+      },
+      {
+        "agent": "Fade",
+        "comps": 4,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Vyse",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Phoenix",
+        "comps": 1,
+        "pickPct": 0.25
       },
       {
         "agent": "Jett",
         "comps": 1,
-        "pickPct": 0.5
+        "pickPct": 0.25
       },
       {
         "agent": "Hush",
         "comps": 1,
-        "pickPct": 0.5
+        "pickPct": 0.25
       }
     ],
     "teams": {
+      "CR": {
+        "team": "CR",
+        "teamName": "CRazy Zigzagoon",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Omen",
+          "Phoenix",
+          "Raze"
+        ]
+      },
+      "EDM": {
+        "team": "EDM",
+        "teamName": "Everybody Dance Meow",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Neon",
+          "Omen",
+          "Raze"
+        ]
+      },
       "FNC": {
         "team": "FNC",
         "teamName": "Freaks Need Caesparz",

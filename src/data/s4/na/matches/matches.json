@@ -39,16 +39,1603 @@
     "team2": "CR",
     "team1Name": "Everybody Dance Meow",
     "team2Name": "CRazy Zigzagoon",
-    "score1": 0,
+    "score1": 2,
     "score2": 0,
-    "completed": false,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-11-20T01:00:00Z",
     "stage": "Group B",
-    "winChance": {
-      "team1": 0.5,
-      "team2": 0.5
-    }
+    "veto": "CR bans Summit, EDM bans Bind, CR picks Corrode, EDM picks Lotus, CR bans Sunset, EDM bans Abyss, Haven remains",
+    "maps": [
+      {
+        "name": "Corrode",
+        "score1": 16,
+        "score2": 14
+      },
+      {
+        "name": "Lotus",
+        "score1": 13,
+        "score2": 6
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "EDM",
+        "teamName": "Everybody Dance Meow",
+        "players": [
+          {
+            "Player": "james",
+            "R1.0": 1.524,
+            "ACS": 325,
+            "K": 56,
+            "D": 34,
+            "A": 21,
+            "PlusMinus": 22,
+            "KAST": 0.877,
+            "ADR": 212.8,
+            "HS%": 0.373,
+            "FK": 7,
+            "FD": 3,
+            "PlusMinus2": 4
+          },
+          {
+            "Player": "jaypee",
+            "R1.0": 1.442,
+            "ACS": 319,
+            "K": 56,
+            "D": 34,
+            "A": 11,
+            "PlusMinus": 22,
+            "KAST": 0.857,
+            "ADR": 200.9,
+            "HS%": 0.242,
+            "FK": 10,
+            "FD": 4,
+            "PlusMinus2": 6
+          },
+          {
+            "Player": "li",
+            "R1.0": 1.033,
+            "ACS": 183,
+            "K": 34,
+            "D": 27,
+            "A": 16,
+            "PlusMinus": 7,
+            "KAST": 0.776,
+            "ADR": 111.7,
+            "HS%": 0.205,
+            "FK": 6,
+            "FD": 4,
+            "PlusMinus2": 2
+          },
+          {
+            "Player": "hascan",
+            "R1.0": 0.934,
+            "ACS": 172,
+            "K": 33,
+            "D": 29,
+            "A": 10,
+            "PlusMinus": 4,
+            "KAST": 0.653,
+            "ADR": 110.5,
+            "HS%": 0.164,
+            "FK": 3,
+            "FD": 7,
+            "PlusMinus2": -4
+          },
+          {
+            "Player": "caesparz",
+            "R1.0": 0.8,
+            "ACS": 143,
+            "K": 13,
+            "D": 22,
+            "A": 14,
+            "PlusMinus": -9,
+            "KAST": 0.733,
+            "ADR": 99.9,
+            "HS%": 0.123,
+            "FK": 1,
+            "FD": 2,
+            "PlusMinus2": -1
+          },
+          {
+            "Player": "corina",
+            "R1.0": 0.772,
+            "ACS": 129,
+            "K": 8,
+            "D": 12,
+            "A": 5,
+            "PlusMinus": -4,
+            "KAST": 0.842,
+            "ADR": 78.6,
+            "HS%": 0.195,
+            "FK": 1,
+            "FD": 1,
+            "PlusMinus2": 0
+          }
+        ]
+      },
+      {
+        "team": "CR",
+        "teamName": "CRazy Zigzagoon",
+        "players": [
+          {
+            "Player": "nolan",
+            "R1.0": 1.155,
+            "ACS": 259,
+            "K": 43,
+            "D": 41,
+            "A": 17,
+            "PlusMinus": 2,
+            "KAST": 0.796,
+            "ADR": 165.7,
+            "HS%": 0.208,
+            "FK": 5,
+            "FD": 6,
+            "PlusMinus2": -1
+          },
+          {
+            "Player": "apple",
+            "R1.0": 0.994,
+            "ACS": 224,
+            "K": 39,
+            "D": 39,
+            "A": 7,
+            "PlusMinus": 0,
+            "KAST": 0.673,
+            "ADR": 145.9,
+            "HS%": 0.208,
+            "FK": 6,
+            "FD": 6,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "jooah",
+            "R1.0": 0.851,
+            "ACS": 187,
+            "K": 32,
+            "D": 42,
+            "A": 18,
+            "PlusMinus": -10,
+            "KAST": 0.612,
+            "ADR": 118.0,
+            "HS%": 0.183,
+            "FK": 6,
+            "FD": 8,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "Nut",
+            "R1.0": 0.801,
+            "ACS": 162,
+            "K": 28,
+            "D": 41,
+            "A": 16,
+            "PlusMinus": -13,
+            "KAST": 0.674,
+            "ADR": 108.1,
+            "HS%": 0.22,
+            "FK": 1,
+            "FD": 6,
+            "PlusMinus2": -5
+          },
+          {
+            "Player": "Ceiliuir",
+            "R1.0": 0.596,
+            "ACS": 101,
+            "K": 16,
+            "D": 37,
+            "A": 19,
+            "PlusMinus": -21,
+            "KAST": 0.633,
+            "ADR": 65.2,
+            "HS%": 0.188,
+            "FK": 3,
+            "FD": 2,
+            "PlusMinus2": 1
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Corrode",
+        "score1": 16,
+        "score2": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 11,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 17,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 20,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 21,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 22,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 23,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 24,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 25,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 26,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 27,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 28,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 29,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 30,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          }
+        ],
+        "stats": [
+          {
+            "team": "EDM",
+            "teamName": "Everybody Dance Meow",
+            "players": [
+              {
+                "Player": "jaypee",
+                "Agent": "Neon",
+                "R1.0": 1.287,
+                "ACS": 288,
+                "K": 29,
+                "D": 21,
+                "A": 7,
+                "PlusMinus": 8,
+                "KAST": 0.8,
+                "ADR": 184.8,
+                "HS%": 0.283,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "james",
+                "Agent": "Yoru",
+                "R1.0": 1.247,
+                "ACS": 275,
+                "K": 27,
+                "D": 22,
+                "A": 10,
+                "PlusMinus": 5,
+                "KAST": 0.833,
+                "ADR": 176.2,
+                "HS%": 0.362,
+                "FK": 6,
+                "FD": 3,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "hascan",
+                "Agent": "Chamber",
+                "R1.0": 1.064,
+                "ACS": 228,
+                "K": 26,
+                "D": 20,
+                "A": 4,
+                "PlusMinus": 6,
+                "KAST": 0.6,
+                "ADR": 146.0,
+                "HS%": 0.182,
+                "FK": 3,
+                "FD": 5,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "li",
+                "Agent": "Omen",
+                "R1.0": 0.957,
+                "ACS": 150,
+                "K": 18,
+                "D": 17,
+                "A": 13,
+                "PlusMinus": 1,
+                "KAST": 0.767,
+                "ADR": 96.1,
+                "HS%": 0.283,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Fade",
+                "R1.0": 0.8,
+                "ACS": 143,
+                "K": 13,
+                "D": 22,
+                "A": 14,
+                "PlusMinus": -9,
+                "KAST": 0.733,
+                "ADR": 99.9,
+                "HS%": 0.123,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              }
+            ]
+          },
+          {
+            "team": "CR",
+            "teamName": "CRazy Zigzagoon",
+            "players": [
+              {
+                "Player": "nolan",
+                "Agent": "Cypher",
+                "R1.0": 1.231,
+                "ACS": 266,
+                "K": 26,
+                "D": 24,
+                "A": 14,
+                "PlusMinus": 2,
+                "KAST": 0.833,
+                "ADR": 176.6,
+                "HS%": 0.165,
+                "FK": 4,
+                "FD": 4,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "jooah",
+                "Agent": "Astra",
+                "R1.0": 0.952,
+                "ACS": 188,
+                "K": 20,
+                "D": 24,
+                "A": 16,
+                "PlusMinus": -4,
+                "KAST": 0.667,
+                "ADR": 123.2,
+                "HS%": 0.182,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "apple",
+                "Agent": "Yoru",
+                "R1.0": 0.939,
+                "ACS": 207,
+                "K": 22,
+                "D": 22,
+                "A": 4,
+                "PlusMinus": 0,
+                "KAST": 0.633,
+                "ADR": 132.9,
+                "HS%": 0.143,
+                "FK": 6,
+                "FD": 2,
+                "PlusMinus2": 4
+              },
+              {
+                "Player": "Nut",
+                "Agent": "Phoenix",
+                "R1.0": 0.899,
+                "ACS": 175,
+                "K": 20,
+                "D": 23,
+                "A": 11,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 111.7,
+                "HS%": 0.233,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Fade",
+                "R1.0": 0.752,
+                "ACS": 130,
+                "K": 14,
+                "D": 20,
+                "A": 10,
+                "PlusMinus": -6,
+                "KAST": 0.7,
+                "ADR": 78.1,
+                "HS%": 0.174,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2
+              }
+            ]
+          }
+        ],
+        "sides": {
+          "atk": [
+            {
+              "team": "EDM",
+              "teamName": "Everybody Dance Meow",
+              "players": [
+                {
+                  "Player": "jaypee",
+                  "Agent": "Neon",
+                  "R1.0": 1.223,
+                  "ACS": 297,
+                  "K": 14,
+                  "D": 13,
+                  "A": 6,
+                  "PlusMinus": 1,
+                  "KAST": 0.867,
+                  "ADR": 172.1,
+                  "HS%": 0.367,
+                  "FK": 1,
+                  "FD": 2,
+                  "PlusMinus2": -1,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "hascan",
+                  "Agent": "Chamber",
+                  "R1.0": 1.117,
+                  "ACS": 263,
+                  "K": 14,
+                  "D": 13,
+                  "A": 4,
+                  "PlusMinus": 1,
+                  "KAST": 0.6,
+                  "ADR": 175.4,
+                  "HS%": 0.103,
+                  "FK": 1,
+                  "FD": 2,
+                  "PlusMinus2": -1,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "li",
+                  "Agent": "Omen",
+                  "R1.0": 0.963,
+                  "ACS": 156,
+                  "K": 9,
+                  "D": 10,
+                  "A": 9,
+                  "PlusMinus": -1,
+                  "KAST": 0.733,
+                  "ADR": 105.0,
+                  "HS%": 0.348,
+                  "FK": 0,
+                  "FD": 3,
+                  "PlusMinus2": -3,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "james",
+                  "Agent": "Yoru",
+                  "R1.0": 0.957,
+                  "ACS": 226,
+                  "K": 11,
+                  "D": 12,
+                  "A": 3,
+                  "PlusMinus": -1,
+                  "KAST": 0.733,
+                  "ADR": 132.8,
+                  "HS%": 0.4,
+                  "FK": 2,
+                  "FD": 2,
+                  "PlusMinus2": 0,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "caesparz",
+                  "Agent": "Fade",
+                  "R1.0": 0.663,
+                  "ACS": 136,
+                  "K": 6,
+                  "D": 13,
+                  "A": 7,
+                  "PlusMinus": -7,
+                  "KAST": 0.667,
+                  "ADR": 83.9,
+                  "HS%": 0.094,
+                  "FK": 1,
+                  "FD": 1,
+                  "PlusMinus2": 0,
+                  "Rounds": 15
+                }
+              ]
+            },
+            {
+              "team": "CR",
+              "teamName": "CRazy Zigzagoon",
+              "players": [
+                {
+                  "Player": "nolan",
+                  "Agent": "Cypher",
+                  "R1.0": 1.175,
+                  "ACS": 247,
+                  "K": 12,
+                  "D": 11,
+                  "A": 5,
+                  "PlusMinus": 1,
+                  "KAST": 0.8,
+                  "ADR": 173.5,
+                  "HS%": 0.224,
+                  "FK": 1,
+                  "FD": 3,
+                  "PlusMinus2": -2,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "Nut",
+                  "Agent": "Phoenix",
+                  "R1.0": 0.905,
+                  "ACS": 188,
+                  "K": 10,
+                  "D": 12,
+                  "A": 5,
+                  "PlusMinus": -2,
+                  "KAST": 0.733,
+                  "ADR": 114.6,
+                  "HS%": 0.273,
+                  "FK": 1,
+                  "FD": 1,
+                  "PlusMinus2": 0,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "jooah",
+                  "Agent": "Astra",
+                  "R1.0": 0.759,
+                  "ACS": 140,
+                  "K": 9,
+                  "D": 11,
+                  "A": 4,
+                  "PlusMinus": -2,
+                  "KAST": 0.533,
+                  "ADR": 90.2,
+                  "HS%": 0.231,
+                  "FK": 1,
+                  "FD": 3,
+                  "PlusMinus2": -2,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "Ceiliuir",
+                  "Agent": "Fade",
+                  "R1.0": 0.572,
+                  "ACS": 103,
+                  "K": 5,
+                  "D": 11,
+                  "A": 5,
+                  "PlusMinus": -6,
+                  "KAST": 0.6,
+                  "ADR": 59.5,
+                  "HS%": 0.15,
+                  "FK": 2,
+                  "FD": 1,
+                  "PlusMinus2": 1,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "apple",
+                  "Agent": "Yoru",
+                  "R1.0": 0.433,
+                  "ACS": 115,
+                  "K": 5,
+                  "D": 14,
+                  "A": 3,
+                  "PlusMinus": -9,
+                  "KAST": 0.4,
+                  "ADR": 75.9,
+                  "HS%": 0.034,
+                  "FK": 2,
+                  "FD": 0,
+                  "PlusMinus2": 2,
+                  "Rounds": 15
+                }
+              ]
+            }
+          ],
+          "def": [
+            {
+              "team": "EDM",
+              "teamName": "Everybody Dance Meow",
+              "players": [
+                {
+                  "Player": "james",
+                  "Agent": "Yoru",
+                  "R1.0": 1.538,
+                  "ACS": 325,
+                  "K": 16,
+                  "D": 10,
+                  "A": 7,
+                  "PlusMinus": 6,
+                  "KAST": 0.933,
+                  "ADR": 219.6,
+                  "HS%": 0.341,
+                  "FK": 4,
+                  "FD": 1,
+                  "PlusMinus2": 3,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "jaypee",
+                  "Agent": "Neon",
+                  "R1.0": 1.35,
+                  "ACS": 279,
+                  "K": 15,
+                  "D": 8,
+                  "A": 1,
+                  "PlusMinus": 7,
+                  "KAST": 0.733,
+                  "ADR": 197.5,
+                  "HS%": 0.2,
+                  "FK": 2,
+                  "FD": 2,
+                  "PlusMinus2": 0,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "hascan",
+                  "Agent": "Chamber",
+                  "R1.0": 1.01,
+                  "ACS": 194,
+                  "K": 12,
+                  "D": 7,
+                  "A": 0,
+                  "PlusMinus": 5,
+                  "KAST": 0.6,
+                  "ADR": 116.7,
+                  "HS%": 0.333,
+                  "FK": 2,
+                  "FD": 3,
+                  "PlusMinus2": -1,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "li",
+                  "Agent": "Omen",
+                  "R1.0": 0.95,
+                  "ACS": 144,
+                  "K": 9,
+                  "D": 7,
+                  "A": 4,
+                  "PlusMinus": 2,
+                  "KAST": 0.8,
+                  "ADR": 87.1,
+                  "HS%": 0.217,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "caesparz",
+                  "Agent": "Fade",
+                  "R1.0": 0.937,
+                  "ACS": 151,
+                  "K": 7,
+                  "D": 9,
+                  "A": 7,
+                  "PlusMinus": -2,
+                  "KAST": 0.8,
+                  "ADR": 116.0,
+                  "HS%": 0.152,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 15
+                }
+              ]
+            },
+            {
+              "team": "CR",
+              "teamName": "CRazy Zigzagoon",
+              "players": [
+                {
+                  "Player": "apple",
+                  "Agent": "Yoru",
+                  "R1.0": 1.446,
+                  "ACS": 299,
+                  "K": 17,
+                  "D": 8,
+                  "A": 1,
+                  "PlusMinus": 9,
+                  "KAST": 0.867,
+                  "ADR": 190.0,
+                  "HS%": 0.235,
+                  "FK": 4,
+                  "FD": 2,
+                  "PlusMinus2": 2,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "nolan",
+                  "Agent": "Cypher",
+                  "R1.0": 1.288,
+                  "ACS": 285,
+                  "K": 14,
+                  "D": 13,
+                  "A": 9,
+                  "PlusMinus": 1,
+                  "KAST": 0.867,
+                  "ADR": 179.7,
+                  "HS%": 0.121,
+                  "FK": 3,
+                  "FD": 1,
+                  "PlusMinus2": 2,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "jooah",
+                  "Agent": "Astra",
+                  "R1.0": 1.144,
+                  "ACS": 235,
+                  "K": 11,
+                  "D": 13,
+                  "A": 12,
+                  "PlusMinus": -2,
+                  "KAST": 0.8,
+                  "ADR": 156.1,
+                  "HS%": 0.157,
+                  "FK": 2,
+                  "FD": 0,
+                  "PlusMinus2": 2,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "Ceiliuir",
+                  "Agent": "Fade",
+                  "R1.0": 0.931,
+                  "ACS": 157,
+                  "K": 9,
+                  "D": 9,
+                  "A": 5,
+                  "PlusMinus": 0,
+                  "KAST": 0.8,
+                  "ADR": 96.6,
+                  "HS%": 0.192,
+                  "FK": 1,
+                  "FD": 0,
+                  "PlusMinus2": 1,
+                  "Rounds": 15
+                },
+                {
+                  "Player": "Nut",
+                  "Agent": "Phoenix",
+                  "R1.0": 0.893,
+                  "ACS": 162,
+                  "K": 10,
+                  "D": 11,
+                  "A": 6,
+                  "PlusMinus": -1,
+                  "KAST": 0.6,
+                  "ADR": 108.9,
+                  "HS%": 0.185,
+                  "FK": 0,
+                  "FD": 2,
+                  "PlusMinus2": -2,
+                  "Rounds": 15
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Lotus",
+        "score1": 13,
+        "score2": 6,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 6,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 1,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "EDM",
+            "teamName": "Everybody Dance Meow",
+            "players": [
+              {
+                "Player": "james",
+                "Agent": "Omen",
+                "R1.0": 1.962,
+                "ACS": 403,
+                "K": 29,
+                "D": 12,
+                "A": 11,
+                "PlusMinus": 17,
+                "KAST": 0.947,
+                "ADR": 270.5,
+                "HS%": 0.391,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1
+              },
+              {
+                "Player": "jaypee",
+                "Agent": "Raze",
+                "R1.0": 1.687,
+                "ACS": 367,
+                "K": 27,
+                "D": 13,
+                "A": 4,
+                "PlusMinus": 14,
+                "KAST": 0.947,
+                "ADR": 226.3,
+                "HS%": 0.176,
+                "FK": 7,
+                "FD": 0,
+                "PlusMinus2": 7
+              },
+              {
+                "Player": "li",
+                "Agent": "Chamber",
+                "R1.0": 1.152,
+                "ACS": 235,
+                "K": 16,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": 6,
+                "KAST": 0.789,
+                "ADR": 136.4,
+                "HS%": 0.083,
+                "FK": 6,
+                "FD": 1,
+                "PlusMinus2": 5
+              },
+              {
+                "Player": "corina",
+                "Agent": "Neon",
+                "R1.0": 0.772,
+                "ACS": 129,
+                "K": 8,
+                "D": 12,
+                "A": 5,
+                "PlusMinus": -4,
+                "KAST": 0.842,
+                "ADR": 78.6,
+                "HS%": 0.195,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "hascan",
+                "Agent": "Fade",
+                "R1.0": 0.73,
+                "ACS": 84,
+                "K": 7,
+                "D": 9,
+                "A": 6,
+                "PlusMinus": -2,
+                "KAST": 0.737,
+                "ADR": 54.4,
+                "HS%": 0.136,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              }
+            ]
+          },
+          {
+            "team": "CR",
+            "teamName": "CRazy Zigzagoon",
+            "players": [
+              {
+                "Player": "apple",
+                "Agent": "Phoenix",
+                "R1.0": 1.079,
+                "ACS": 251,
+                "K": 17,
+                "D": 17,
+                "A": 3,
+                "PlusMinus": 0,
+                "KAST": 0.737,
+                "ADR": 166.3,
+                "HS%": 0.311,
+                "FK": 0,
+                "FD": 4,
+                "PlusMinus2": -4
+              },
+              {
+                "Player": "nolan",
+                "Agent": "Omen",
+                "R1.0": 1.035,
+                "ACS": 247,
+                "K": 17,
+                "D": 17,
+                "A": 3,
+                "PlusMinus": 0,
+                "KAST": 0.737,
+                "ADR": 148.4,
+                "HS%": 0.277,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "jooah",
+                "Agent": "Chamber",
+                "R1.0": 0.693,
+                "ACS": 186,
+                "K": 12,
+                "D": 18,
+                "A": 2,
+                "PlusMinus": -6,
+                "KAST": 0.526,
+                "ADR": 109.9,
+                "HS%": 0.185,
+                "FK": 3,
+                "FD": 5,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "Nut",
+                "Agent": "Raze",
+                "R1.0": 0.645,
+                "ACS": 141,
+                "K": 8,
+                "D": 18,
+                "A": 5,
+                "PlusMinus": -10,
+                "KAST": 0.684,
+                "ADR": 102.4,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              },
+              {
+                "Player": "Ceiliuir",
+                "Agent": "Fade",
+                "R1.0": 0.349,
+                "ACS": 56,
+                "K": 2,
+                "D": 17,
+                "A": 9,
+                "PlusMinus": -15,
+                "KAST": 0.526,
+                "ADR": 44.8,
+                "HS%": 0.211,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              }
+            ]
+          }
+        ],
+        "sides": {
+          "atk": [
+            {
+              "team": "EDM",
+              "teamName": "Everybody Dance Meow",
+              "players": [
+                {
+                  "Player": "jaypee",
+                  "Agent": "Raze",
+                  "R1.0": 1.93,
+                  "ACS": 405,
+                  "K": 11,
+                  "D": 4,
+                  "A": 2,
+                  "PlusMinus": 7,
+                  "KAST": 1.0,
+                  "ADR": 257.4,
+                  "HS%": 0.226,
+                  "FK": 4,
+                  "FD": 0,
+                  "PlusMinus2": 4,
+                  "Rounds": 7
+                },
+                {
+                  "Player": "james",
+                  "Agent": "Omen",
+                  "R1.0": 1.713,
+                  "ACS": 281,
+                  "K": 8,
+                  "D": 3,
+                  "A": 5,
+                  "PlusMinus": 5,
+                  "KAST": 1.0,
+                  "ADR": 200.6,
+                  "HS%": 0.467,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 7
+                },
+                {
+                  "Player": "li",
+                  "Agent": "Chamber",
+                  "R1.0": 1.712,
+                  "ACS": 346,
+                  "K": 9,
+                  "D": 2,
+                  "A": 2,
+                  "PlusMinus": 7,
+                  "KAST": 0.857,
+                  "ADR": 201.1,
+                  "HS%": 0.167,
+                  "FK": 2,
+                  "FD": 0,
+                  "PlusMinus2": 2,
+                  "Rounds": 7
+                },
+                {
+                  "Player": "hascan",
+                  "Agent": "Fade",
+                  "R1.0": 1.06,
+                  "ACS": 130,
+                  "K": 5,
+                  "D": 2,
+                  "A": 1,
+                  "PlusMinus": 3,
+                  "KAST": 0.857,
+                  "ADR": 78.6,
+                  "HS%": 0.2,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 7
+                },
+                {
+                  "Player": "corina",
+                  "Agent": "Neon",
+                  "R1.0": 0.717,
+                  "ACS": 113,
+                  "K": 2,
+                  "D": 4,
+                  "A": 3,
+                  "PlusMinus": -2,
+                  "KAST": 0.714,
+                  "ADR": 76.9,
+                  "HS%": 0.143,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 7
+                }
+              ]
+            },
+            {
+              "team": "CR",
+              "teamName": "CRazy Zigzagoon",
+              "players": [
+                {
+                  "Player": "apple",
+                  "Agent": "Phoenix",
+                  "R1.0": 1.547,
+                  "ACS": 363,
+                  "K": 16,
+                  "D": 10,
+                  "A": 2,
+                  "PlusMinus": 6,
+                  "KAST": 0.833,
+                  "ADR": 233.8,
+                  "HS%": 0.333,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "nolan",
+                  "Agent": "Omen",
+                  "R1.0": 0.876,
+                  "ACS": 193,
+                  "K": 8,
+                  "D": 10,
+                  "A": 2,
+                  "PlusMinus": -2,
+                  "KAST": 0.75,
+                  "ADR": 121.7,
+                  "HS%": 0.292,
+                  "FK": 1,
+                  "FD": 2,
+                  "PlusMinus2": -1,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "jooah",
+                  "Agent": "Chamber",
+                  "R1.0": 0.869,
+                  "ACS": 222,
+                  "K": 10,
+                  "D": 11,
+                  "A": 1,
+                  "PlusMinus": -1,
+                  "KAST": 0.583,
+                  "ADR": 125.5,
+                  "HS%": 0.235,
+                  "FK": 2,
+                  "FD": 4,
+                  "PlusMinus2": -2,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "Nut",
+                  "Agent": "Raze",
+                  "R1.0": 0.707,
+                  "ACS": 149,
+                  "K": 5,
+                  "D": 11,
+                  "A": 5,
+                  "PlusMinus": -6,
+                  "KAST": 0.667,
+                  "ADR": 110.9,
+                  "HS%": 0.238,
+                  "FK": 0,
+                  "FD": 3,
+                  "PlusMinus2": -3,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "Ceiliuir",
+                  "Agent": "Fade",
+                  "R1.0": 0.454,
+                  "ACS": 67,
+                  "K": 2,
+                  "D": 10,
+                  "A": 6,
+                  "PlusMinus": -8,
+                  "KAST": 0.583,
+                  "ADR": 53.1,
+                  "HS%": 0.214,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 12
+                }
+              ]
+            }
+          ],
+          "def": [
+            {
+              "team": "EDM",
+              "teamName": "Everybody Dance Meow",
+              "players": [
+                {
+                  "Player": "james",
+                  "Agent": "Omen",
+                  "R1.0": 2.108,
+                  "ACS": 474,
+                  "K": 21,
+                  "D": 9,
+                  "A": 6,
+                  "PlusMinus": 12,
+                  "KAST": 0.917,
+                  "ADR": 311.2,
+                  "HS%": 0.367,
+                  "FK": 1,
+                  "FD": 0,
+                  "PlusMinus2": 1,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "jaypee",
+                  "Agent": "Raze",
+                  "R1.0": 1.545,
+                  "ACS": 344,
+                  "K": 16,
+                  "D": 9,
+                  "A": 2,
+                  "PlusMinus": 7,
+                  "KAST": 0.917,
+                  "ADR": 208.1,
+                  "HS%": 0.148,
+                  "FK": 3,
+                  "FD": 0,
+                  "PlusMinus2": 3,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "li",
+                  "Agent": "Chamber",
+                  "R1.0": 0.826,
+                  "ACS": 169,
+                  "K": 7,
+                  "D": 8,
+                  "A": 1,
+                  "PlusMinus": -1,
+                  "KAST": 0.75,
+                  "ADR": 98.7,
+                  "HS%": 0.0,
+                  "FK": 4,
+                  "FD": 1,
+                  "PlusMinus2": 3,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "corina",
+                  "Agent": "Neon",
+                  "R1.0": 0.804,
+                  "ACS": 138,
+                  "K": 6,
+                  "D": 8,
+                  "A": 2,
+                  "PlusMinus": -2,
+                  "KAST": 0.917,
+                  "ADR": 79.7,
+                  "HS%": 0.222,
+                  "FK": 1,
+                  "FD": 1,
+                  "PlusMinus2": 0,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "hascan",
+                  "Agent": "Fade",
+                  "R1.0": 0.538,
+                  "ACS": 58,
+                  "K": 2,
+                  "D": 7,
+                  "A": 5,
+                  "PlusMinus": -5,
+                  "KAST": 0.667,
+                  "ADR": 40.3,
+                  "HS%": 0.083,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 12
+                }
+              ]
+            },
+            {
+              "team": "CR",
+              "teamName": "CRazy Zigzagoon",
+              "players": [
+                {
+                  "Player": "nolan",
+                  "Agent": "Omen",
+                  "R1.0": 1.307,
+                  "ACS": 339,
+                  "K": 9,
+                  "D": 7,
+                  "A": 1,
+                  "PlusMinus": 2,
+                  "KAST": 0.714,
+                  "ADR": 194.1,
+                  "HS%": 0.261,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 7
+                },
+                {
+                  "Player": "Nut",
+                  "Agent": "Raze",
+                  "R1.0": 0.539,
+                  "ACS": 127,
+                  "K": 3,
+                  "D": 7,
+                  "A": 0,
+                  "PlusMinus": -4,
+                  "KAST": 0.714,
+                  "ADR": 87.9,
+                  "HS%": 0.143,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 7
+                },
+                {
+                  "Player": "jooah",
+                  "Agent": "Chamber",
+                  "R1.0": 0.392,
+                  "ACS": 124,
+                  "K": 2,
+                  "D": 7,
+                  "A": 1,
+                  "PlusMinus": -5,
+                  "KAST": 0.429,
+                  "ADR": 83.1,
+                  "HS%": 0.1,
+                  "FK": 1,
+                  "FD": 1,
+                  "PlusMinus2": 0,
+                  "Rounds": 7
+                },
+                {
+                  "Player": "apple",
+                  "Agent": "Phoenix",
+                  "R1.0": 0.277,
+                  "ACS": 60,
+                  "K": 1,
+                  "D": 7,
+                  "A": 1,
+                  "PlusMinus": -6,
+                  "KAST": 0.571,
+                  "ADR": 50.6,
+                  "HS%": 0.167,
+                  "FK": 0,
+                  "FD": 4,
+                  "PlusMinus2": -4,
+                  "Rounds": 7
+                },
+                {
+                  "Player": "Ceiliuir",
+                  "Agent": "Fade",
+                  "R1.0": 0.169,
+                  "ACS": 38,
+                  "K": 0,
+                  "D": 7,
+                  "A": 3,
+                  "PlusMinus": -7,
+                  "KAST": 0.429,
+                  "ADR": 30.6,
+                  "HS%": 0.2,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 7
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=AZwwFAHI2SE"
   },
   {
     "id": "fnc-vs-wbg-s4-group-a-2026-11-18",

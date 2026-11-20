@@ -179,8 +179,8 @@
   "CR": {
     "team": "CR",
     "teamName": "CRazy Zigzagoon",
-    "overallAtkPct": 0,
-    "overallDefPct": 0,
+    "overallAtkPct": 0.407,
+    "overallDefPct": 0.409,
     "maps": [
       {
         "map": "Abyss",
@@ -236,16 +236,16 @@
       },
       {
         "map": "Corrode",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 30,
+        "roundsWon": 14,
+        "roundPct": 0.467,
+        "atkPct": 0.4,
+        "defPct": 0.533
       },
       {
         "map": "Fracture",
@@ -290,14 +290,14 @@
         "map": "Lotus",
         "pick": 0,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 19,
+        "roundsWon": 6,
+        "roundPct": 0.316,
+        "atkPct": 0.417,
+        "defPct": 0.143
       },
       {
         "map": "Pearl",
@@ -328,7 +328,7 @@
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -341,7 +341,7 @@
       {
         "map": "Sunset",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -887,13 +887,13 @@
   "EDM": {
     "team": "EDM",
     "teamName": "Everybody Dance Meow",
-    "overallAtkPct": 0,
-    "overallDefPct": 0,
+    "overallAtkPct": 0.591,
+    "overallDefPct": 0.593,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -919,7 +919,7 @@
       {
         "map": "Bind",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -946,14 +946,14 @@
         "map": "Corrode",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 30,
+        "roundsWon": 16,
+        "roundPct": 0.533,
+        "atkPct": 0.467,
+        "defPct": 0.6
       },
       {
         "map": "Fracture",
@@ -996,16 +996,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 19,
+        "roundsWon": 13,
+        "roundPct": 0.684,
+        "atkPct": 0.857,
+        "defPct": 0.583
       },
       {
         "map": "Pearl",
