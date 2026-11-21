@@ -22,9 +22,11 @@ pnpm install
 ```
 
 You are now set up. run
+
 ```
 pnpm run dev
 ```
+
 to get a preview of the site at localhost:4321.
 
 you can develop the site in whatever IDE you choose (I use WebStorm which comes free with the GitHub Student Pack / if you register as a student on JetBrains)
