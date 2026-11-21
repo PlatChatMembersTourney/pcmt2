@@ -60,6 +60,10 @@ const ParticipatingTeams: React.FC<{ event: Event; stageIdx: number }> = ({ even
 	}
 	for (const m of stageMatches) abbrs.add(m.team1).add(m.team2);
 	for (const team of Object.values(teams)) if (team.group && names.includes(team.group)) abbrs.add(team.abbr);
+	// Teams not drawn into a group yet (no teams.json group, no games anywhere) - shown as "Group TBD"
+	const grouped = (stage.format?.type === 'round-robin' || stage.format?.type === 'gsl') && names.length > 1;
+	const undrawn = (abbr: string) => !teams[abbr]?.group && !matches.some((m) => m.team1 === abbr || m.team2 === abbr);
+	if (grouped) for (const team of Object.values(teams)) if (undrawn(team.abbr)) abbrs.add(team.abbr);
 
 	// How each team got into the stage - [note, sort key]. Earlier stages come later in the list (newest first)
 	const qualification = (abbr: string): [string, number] => {
@@ -71,6 +75,7 @@ const ParticipatingTeams: React.FC<{ event: Event; stageIdx: number }> = ({ even
 				names.length > 1
 					? names.find((name) => teams[abbr]?.group === name || playedIn([name], abbr))
 					: undefined;
+			if (!group && grouped && undrawn(abbr)) return ['Group TBD', names.length];
 			return [group ?? '', group ? names.indexOf(group) : 0];
 		}
 		// later stages: their place in the latest earlier stage they played, e.g. "Group Alpha #1" or "LCQ #1"
