@@ -170,7 +170,7 @@
           "PlusMinus2": 1
         },
         {
-          "Player": "pants",
+          "Player": "paul",
           "R1.0": 0.654,
           "ACS": 103,
           "K": 13,
@@ -470,7 +470,7 @@
               "PlusMinus2": 0
             },
             {
-              "Player": "pants",
+              "Player": "paul",
               "Agent": "Killjoy",
               "R1.0": 0.694,
               "ACS": 113,
@@ -736,7 +736,7 @@
               "PlusMinus2": 2
             },
             {
-              "Player": "pants",
+              "Player": "paul",
               "Agent": "Sova",
               "R1.0": 0.598,
               "ACS": 89,

@@ -259,12 +259,12 @@
         "pickPct": 0.033
       },
       {
-        "agent": "Raze",
+        "agent": "Veto",
         "comps": 1,
         "pickPct": 0.017
       },
       {
-        "agent": "Veto",
+        "agent": "Raze",
         "comps": 1,
         "pickPct": 0.017
       },
@@ -519,12 +519,12 @@
         "pickPct": 0.929
       },
       {
-        "agent": "Viper",
+        "agent": "Harbor",
         "comps": 9,
         "pickPct": 0.643
       },
       {
-        "agent": "Harbor",
+        "agent": "Viper",
         "comps": 9,
         "pickPct": 0.643
       },
@@ -544,12 +544,12 @@
         "pickPct": 0.214
       },
       {
-        "agent": "Yoru",
+        "agent": "Neon",
         "comps": 3,
         "pickPct": 0.214
       },
       {
-        "agent": "Neon",
+        "agent": "Yoru",
         "comps": 3,
         "pickPct": 0.214
       },
@@ -684,12 +684,12 @@
     "defPct": 0.447,
     "agents": [
       {
-        "agent": "Raze",
+        "agent": "Brimstone",
         "comps": 7,
         "pickPct": 0.875
       },
       {
-        "agent": "Brimstone",
+        "agent": "Raze",
         "comps": 7,
         "pickPct": 0.875
       },
@@ -709,12 +709,12 @@
         "pickPct": 0.375
       },
       {
-        "agent": "Neon",
+        "agent": "Chamber",
         "comps": 2,
         "pickPct": 0.25
       },
       {
-        "agent": "Chamber",
+        "agent": "Neon",
         "comps": 2,
         "pickPct": 0.25
       },
@@ -1145,12 +1145,12 @@
     "defPct": 0.524,
     "agents": [
       {
-        "agent": "Waylay",
+        "agent": "Sova",
         "comps": 2,
         "pickPct": 1.0
       },
       {
-        "agent": "Sova",
+        "agent": "Waylay",
         "comps": 2,
         "pickPct": 1.0
       },
@@ -1175,12 +1175,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Killjoy",
+        "agent": "Iso",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Iso",
+        "agent": "Killjoy",
         "comps": 1,
         "pickPct": 0.5
       }
@@ -2142,12 +2142,12 @@
         "pickPct": 0.235
       },
       {
-        "agent": "Viper",
+        "agent": "Yoru",
         "comps": 6,
         "pickPct": 0.176
       },
       {
-        "agent": "Yoru",
+        "agent": "Viper",
         "comps": 6,
         "pickPct": 0.176
       },

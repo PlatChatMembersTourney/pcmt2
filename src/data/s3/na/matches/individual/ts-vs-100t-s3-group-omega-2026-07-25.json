@@ -109,7 +109,7 @@
           "PlusMinus2": -1
         },
         {
-          "Player": "pants",
+          "Player": "paul",
           "R1.0": 0.711,
           "ACS": 117,
           "K": 23,
@@ -428,7 +428,7 @@
               "PlusMinus2": -1
             },
             {
-              "Player": "pants",
+              "Player": "paul",
               "Agent": "Cypher",
               "R1.0": 0.806,
               "ACS": 125,
@@ -723,7 +723,7 @@
               "PlusMinus2": -1
             },
             {
-              "Player": "pants",
+              "Player": "paul",
               "Agent": "Sage",
               "R1.0": 0.685,
               "ACS": 99,
@@ -1024,7 +1024,7 @@
               "PlusMinus2": 1
             },
             {
-              "Player": "pants",
+              "Player": "paul",
               "Agent": "Sova",
               "R1.0": 0.622,
               "ACS": 123,
