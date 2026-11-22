@@ -26,17 +26,17 @@
         "pickPct": 0.5
       },
       {
+        "agent": "Yoru",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
         "agent": "Harbor",
         "comps": 2,
         "pickPct": 0.5
       },
       {
         "agent": "Neon",
-        "comps": 2,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Yoru",
         "comps": 2,
         "pickPct": 0.5
       },
@@ -349,17 +349,12 @@
         "pickPct": 0.2
       },
       {
-        "agent": "Veto",
-        "comps": 1,
-        "pickPct": 0.1
-      },
-      {
         "agent": "Tejo",
         "comps": 1,
         "pickPct": 0.1
       },
       {
-        "agent": "Astra",
+        "agent": "Veto",
         "comps": 1,
         "pickPct": 0.1
       },
@@ -369,12 +364,17 @@
         "pickPct": 0.1
       },
       {
-        "agent": "Skye",
+        "agent": "Astra",
         "comps": 1,
         "pickPct": 0.1
       },
       {
         "agent": "Raze",
+        "comps": 1,
+        "pickPct": 0.1
+      },
+      {
+        "agent": "Skye",
         "comps": 1,
         "pickPct": 0.1
       },
@@ -493,17 +493,12 @@
         "pickPct": 1.0
       },
       {
-        "agent": "Astra",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
         "agent": "Phoenix",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Neon",
+        "agent": "Astra",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -513,12 +508,17 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Jett",
+        "agent": "Neon",
         "comps": 1,
         "pickPct": 0.5
       },
       {
         "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Jett",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -580,12 +580,12 @@
         "pickPct": 0.65
       },
       {
-        "agent": "Jett",
+        "agent": "Cypher",
         "comps": 11,
         "pickPct": 0.55
       },
       {
-        "agent": "Cypher",
+        "agent": "Jett",
         "comps": 11,
         "pickPct": 0.55
       },
@@ -630,12 +630,12 @@
         "pickPct": 0.05
       },
       {
-        "agent": "Waylay",
+        "agent": "Reyna",
         "comps": 1,
         "pickPct": 0.05
       },
       {
-        "agent": "Reyna",
+        "agent": "Waylay",
         "comps": 1,
         "pickPct": 0.05
       }
@@ -984,12 +984,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Astra",
+        "agent": "Yoru",
         "comps": 5,
         "pickPct": 0.312
       },
       {
-        "agent": "Yoru",
+        "agent": "Astra",
         "comps": 5,
         "pickPct": 0.312
       },
@@ -1194,12 +1194,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Sage",
+        "agent": "Waylay",
         "comps": 4,
         "pickPct": 0.286
       },
       {
-        "agent": "Waylay",
+        "agent": "Sage",
         "comps": 4,
         "pickPct": 0.286
       },
@@ -1234,12 +1234,12 @@
         "pickPct": 0.071
       },
       {
-        "agent": "Viper",
+        "agent": "Killjoy",
         "comps": 1,
         "pickPct": 0.071
       },
       {
-        "agent": "Killjoy",
+        "agent": "Viper",
         "comps": 1,
         "pickPct": 0.071
       }

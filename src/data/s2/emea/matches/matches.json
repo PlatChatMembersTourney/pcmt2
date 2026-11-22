@@ -1,5 +1,22 @@
 [
   {
+    "id": "xtc-vs-nip-s2-playoffs-2026-11-29",
+    "team1": "XTC",
+    "team2": "NIP",
+    "team1Name": "Xually Terribly Cursed",
+    "team2Name": "Name in Progress",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-11-29T14:00:00Z",
+    "stage": "Playoffs",
+    "winChance": {
+      "team1": 0.584,
+      "team2": 0.416
+    }
+  },
+  {
     "id": "sog-vs-xtc-s2-playoffs-2026-11-15",
     "team1": "SOG",
     "team2": "XTC",
