@@ -27,30 +27,17 @@
       "rndDiff": 9
     },
     {
-      "abbr": "PRX",
-      "name": "Perfect RetaXe",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 3,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
       "abbr": "NBR",
       "name": "Namebrand Ramyeon",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 4,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapW": 2,
+      "mapL": 1,
+      "rndW": 34,
+      "rndL": 29,
+      "rank": 3,
+      "mapDiff": 1,
+      "rndDiff": 5
     },
     {
       "abbr": "BLG",
@@ -61,7 +48,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 5,
+      "rank": 4,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -74,7 +61,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 6,
+      "rank": 5,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -87,7 +74,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 7,
+      "rank": 6,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -100,7 +87,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 8,
+      "rank": 7,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -113,7 +100,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 9,
+      "rank": 8,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -126,7 +113,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 10,
+      "rank": 9,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -139,7 +126,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 11,
+      "rank": 10,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -152,7 +139,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 12,
+      "rank": 11,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -165,7 +152,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 13,
+      "rank": 12,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -178,9 +165,22 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 14,
+      "rank": 13,
       "mapDiff": 0,
       "rndDiff": 0
+    },
+    {
+      "abbr": "PRX",
+      "name": "Perfect RetaXe",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 1,
+      "mapL": 2,
+      "rndW": 29,
+      "rndL": 34,
+      "rank": 14,
+      "mapDiff": -1,
+      "rndDiff": -5
     },
     {
       "abbr": "CR",
@@ -319,30 +319,17 @@
   ],
   "Group C": [
     {
-      "abbr": "PRX",
-      "name": "Perfect RetaXe",
-      "matchW": 0,
-      "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 1,
-      "mapDiff": 0,
-      "rndDiff": 0
-    },
-    {
       "abbr": "NBR",
       "name": "Namebrand Ramyeon",
-      "matchW": 0,
+      "matchW": 1,
       "matchL": 0,
-      "mapW": 0,
-      "mapL": 0,
-      "rndW": 0,
-      "rndL": 0,
-      "rank": 2,
-      "mapDiff": 0,
-      "rndDiff": 0
+      "mapW": 2,
+      "mapL": 1,
+      "rndW": 34,
+      "rndL": 29,
+      "rank": 1,
+      "mapDiff": 1,
+      "rndDiff": 5
     },
     {
       "abbr": "DRX",
@@ -353,7 +340,7 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 3,
+      "rank": 2,
       "mapDiff": 0,
       "rndDiff": 0
     },
@@ -366,9 +353,22 @@
       "mapL": 0,
       "rndW": 0,
       "rndL": 0,
-      "rank": 4,
+      "rank": 3,
       "mapDiff": 0,
       "rndDiff": 0
+    },
+    {
+      "abbr": "PRX",
+      "name": "Perfect RetaXe",
+      "matchW": 0,
+      "matchL": 1,
+      "mapW": 1,
+      "mapL": 2,
+      "rndW": 29,
+      "rndL": 34,
+      "rank": 4,
+      "mapDiff": -1,
+      "rndDiff": -5
     }
   ],
   "Group D": [

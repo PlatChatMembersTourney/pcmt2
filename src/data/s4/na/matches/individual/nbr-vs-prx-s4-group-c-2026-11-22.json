@@ -4,10 +4,2226 @@
   "team2": "PRX",
   "team1Name": "Namebrand Ramyeon",
   "team2Name": "Perfect RetaXe",
-  "score1": 0,
-  "score2": 0,
-  "completed": false,
+  "score1": 2,
+  "score2": 1,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-11-22T02:00:00Z",
-  "stage": "Group C"
+  "stage": "Group C",
+  "veto": "NBR bans Abyss, PRX bans Bind, NBR picks Lotus, PRX picks Summit, NBR bans Corrode, PRX bans Haven, Sunset remains",
+  "maps": [
+    {
+      "name": "Lotus",
+      "score1": 8,
+      "score2": 13
+    },
+    {
+      "name": "Summit",
+      "score1": 13,
+      "score2": 5
+    },
+    {
+      "name": "Sunset",
+      "score1": 13,
+      "score2": 11
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "NBR",
+      "teamName": "Namebrand Ramyeon",
+      "players": [
+        {
+          "Player": "josh67",
+          "R1.0": 1.384,
+          "ACS": 298,
+          "K": 68,
+          "D": 43,
+          "A": 21,
+          "PlusMinus": 25,
+          "KAST": 0.698,
+          "ADR": 199.6,
+          "HS%": 0.399,
+          "FK": 4,
+          "FD": 11,
+          "PlusMinus2": -7
+        },
+        {
+          "Player": "platy",
+          "R1.0": 1.135,
+          "ACS": 231,
+          "K": 49,
+          "D": 45,
+          "A": 23,
+          "PlusMinus": 4,
+          "KAST": 0.73,
+          "ADR": 164.9,
+          "HS%": 0.167,
+          "FK": 9,
+          "FD": 7,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "art",
+          "R1.0": 0.942,
+          "ACS": 201,
+          "K": 45,
+          "D": 46,
+          "A": 11,
+          "PlusMinus": -1,
+          "KAST": 0.699,
+          "ADR": 125.6,
+          "HS%": 0.149,
+          "FK": 2,
+          "FD": 15,
+          "PlusMinus2": -13
+        },
+        {
+          "Player": "makya",
+          "R1.0": 0.828,
+          "ACS": 162,
+          "K": 35,
+          "D": 47,
+          "A": 19,
+          "PlusMinus": -12,
+          "KAST": 0.746,
+          "ADR": 99.9,
+          "HS%": 0.183,
+          "FK": 5,
+          "FD": 5,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "lore",
+          "R1.0": 0.759,
+          "ACS": 130,
+          "K": 29,
+          "D": 46,
+          "A": 27,
+          "PlusMinus": -17,
+          "KAST": 0.698,
+          "ADR": 85.0,
+          "HS%": 0.093,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        }
+      ]
+    },
+    {
+      "team": "PRX",
+      "teamName": "Perfect RetaXe",
+      "players": [
+        {
+          "Player": "MrCrocMan",
+          "R1.0": 1.278,
+          "ACS": 284,
+          "K": 65,
+          "D": 44,
+          "A": 12,
+          "PlusMinus": 21,
+          "KAST": 0.714,
+          "ADR": 181.5,
+          "HS%": 0.398,
+          "FK": 11,
+          "FD": 4,
+          "PlusMinus2": 7
+        },
+        {
+          "Player": "Jaden",
+          "R1.0": 1.244,
+          "ACS": 284,
+          "K": 63,
+          "D": 46,
+          "A": 10,
+          "PlusMinus": 17,
+          "KAST": 0.762,
+          "ADR": 177.2,
+          "HS%": 0.205,
+          "FK": 16,
+          "FD": 6,
+          "PlusMinus2": 10
+        },
+        {
+          "Player": "ToastEmUp",
+          "R1.0": 1.038,
+          "ACS": 214,
+          "K": 44,
+          "D": 48,
+          "A": 27,
+          "PlusMinus": -4,
+          "KAST": 0.73,
+          "ADR": 145.9,
+          "HS%": 0.266,
+          "FK": 5,
+          "FD": 5,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "BOCKISINS",
+          "R1.0": 0.831,
+          "ACS": 155,
+          "K": 33,
+          "D": 45,
+          "A": 25,
+          "PlusMinus": -12,
+          "KAST": 0.683,
+          "ADR": 101.9,
+          "HS%": 0.326,
+          "FK": 5,
+          "FD": 3,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "Hankyjanky",
+          "R1.0": 0.662,
+          "ACS": 107,
+          "K": 22,
+          "D": 43,
+          "A": 26,
+          "PlusMinus": -21,
+          "KAST": 0.667,
+          "ADR": 67.5,
+          "HS%": 0.164,
+          "FK": 5,
+          "FD": 3,
+          "PlusMinus2": 2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Lotus",
+      "score1": 8,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "NBR",
+          "teamName": "Namebrand Ramyeon",
+          "players": [
+            {
+              "Player": "josh67",
+              "Agent": "Fade",
+              "R1.0": 1.425,
+              "ACS": 310,
+              "K": 25,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": 9,
+              "KAST": 0.762,
+              "ADR": 206.3,
+              "HS%": 0.364,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "platy",
+              "Agent": "Cypher",
+              "R1.0": 0.947,
+              "ACS": 192,
+              "K": 13,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": -3,
+              "KAST": 0.667,
+              "ADR": 143.3,
+              "HS%": 0.145,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "art",
+              "Agent": "Neon",
+              "R1.0": 0.907,
+              "ACS": 208,
+              "K": 15,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -2,
+              "KAST": 0.667,
+              "ADR": 123.5,
+              "HS%": 0.082,
+              "FK": 1,
+              "FD": 7,
+              "PlusMinus2": -6
+            },
+            {
+              "Player": "makya",
+              "Agent": "Hush",
+              "R1.0": 0.646,
+              "ACS": 125,
+              "K": 9,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -8,
+              "KAST": 0.667,
+              "ADR": 86.3,
+              "HS%": 0.182,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "lore",
+              "Agent": "Clove",
+              "R1.0": 0.518,
+              "ACS": 93,
+              "K": 6,
+              "D": 19,
+              "A": 7,
+              "PlusMinus": -13,
+              "KAST": 0.714,
+              "ADR": 63.8,
+              "HS%": 0.049,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            }
+          ]
+        },
+        {
+          "team": "PRX",
+          "teamName": "Perfect RetaXe",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Vyse",
+              "R1.0": 1.353,
+              "ACS": 276,
+              "K": 21,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": 8,
+              "KAST": 0.762,
+              "ADR": 194.5,
+              "HS%": 0.413,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "ToastEmUp",
+              "Agent": "Astra",
+              "R1.0": 1.265,
+              "ACS": 288,
+              "K": 21,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": 6,
+              "KAST": 0.714,
+              "ADR": 172.9,
+              "HS%": 0.233,
+              "FK": 4,
+              "FD": 0,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "Jaden",
+              "Agent": "Neon",
+              "R1.0": 1.262,
+              "ACS": 276,
+              "K": 21,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": 7,
+              "KAST": 0.762,
+              "ADR": 170.4,
+              "HS%": 0.197,
+              "FK": 6,
+              "FD": 2,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "BOCKISINS",
+              "Agent": "Fade",
+              "R1.0": 1.112,
+              "ACS": 201,
+              "K": 15,
+              "D": 13,
+              "A": 11,
+              "PlusMinus": 2,
+              "KAST": 0.762,
+              "ADR": 134.6,
+              "HS%": 0.186,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Hankyjanky",
+              "Agent": "Omen",
+              "R1.0": 0.791,
+              "ACS": 124,
+              "K": 7,
+              "D": 13,
+              "A": 14,
+              "PlusMinus": -6,
+              "KAST": 0.714,
+              "ADR": 82.6,
+              "HS%": 0.143,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "NBR",
+            "teamName": "Namebrand Ramyeon",
+            "players": [
+              {
+                "Player": "josh67",
+                "Agent": "Fade",
+                "R1.0": 1.27,
+                "ACS": 261,
+                "K": 12,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": 3,
+                "KAST": 0.833,
+                "ADR": 181.6,
+                "HS%": 0.391,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "makya",
+                "Agent": "Hush",
+                "R1.0": 0.791,
+                "ACS": 155,
+                "K": 6,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": -3,
+                "KAST": 0.75,
+                "ADR": 102.5,
+                "HS%": 0.19,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "platy",
+                "Agent": "Cypher",
+                "R1.0": 0.762,
+                "ACS": 172,
+                "K": 7,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.5,
+                "ADR": 125.8,
+                "HS%": 0.286,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "art",
+                "Agent": "Neon",
+                "R1.0": 0.698,
+                "ACS": 156,
+                "K": 6,
+                "D": 10,
+                "A": 1,
+                "PlusMinus": -4,
+                "KAST": 0.667,
+                "ADR": 105.2,
+                "HS%": 0.111,
+                "FK": 1,
+                "FD": 4,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              },
+              {
+                "Player": "lore",
+                "Agent": "Clove",
+                "R1.0": 0.558,
+                "ACS": 106,
+                "K": 4,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.667,
+                "ADR": 70.4,
+                "HS%": 0.074,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "PRX",
+            "teamName": "Perfect RetaXe",
+            "players": [
+              {
+                "Player": "BOCKISINS",
+                "Agent": "Fade",
+                "R1.0": 1.512,
+                "ACS": 290,
+                "K": 10,
+                "D": 5,
+                "A": 5,
+                "PlusMinus": 5,
+                "KAST": 0.778,
+                "ADR": 191.6,
+                "HS%": 0.171,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 9
+              },
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Vyse",
+                "R1.0": 1.357,
+                "ACS": 289,
+                "K": 10,
+                "D": 7,
+                "A": 1,
+                "PlusMinus": 3,
+                "KAST": 0.778,
+                "ADR": 208.6,
+                "HS%": 0.526,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 9
+              },
+              {
+                "Player": "ToastEmUp",
+                "Agent": "Astra",
+                "R1.0": 1.172,
+                "ACS": 259,
+                "K": 9,
+                "D": 7,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.778,
+                "ADR": 128.7,
+                "HS%": 0.12,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 9
+              },
+              {
+                "Player": "Hankyjanky",
+                "Agent": "Omen",
+                "R1.0": 0.892,
+                "ACS": 150,
+                "K": 3,
+                "D": 6,
+                "A": 9,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 106.9,
+                "HS%": 0.158,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 9
+              },
+              {
+                "Player": "Jaden",
+                "Agent": "Neon",
+                "R1.0": 0.697,
+                "ACS": 173,
+                "K": 5,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.556,
+                "ADR": 113.7,
+                "HS%": 0.231,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 9
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "NBR",
+            "teamName": "Namebrand Ramyeon",
+            "players": [
+              {
+                "Player": "josh67",
+                "Agent": "Fade",
+                "R1.0": 1.632,
+                "ACS": 375,
+                "K": 13,
+                "D": 7,
+                "A": 3,
+                "PlusMinus": 6,
+                "KAST": 0.667,
+                "ADR": 239.3,
+                "HS%": 0.344,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 9
+              },
+              {
+                "Player": "platy",
+                "Agent": "Cypher",
+                "R1.0": 1.193,
+                "ACS": 217,
+                "K": 6,
+                "D": 6,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.889,
+                "ADR": 166.7,
+                "HS%": 0.073,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 9
+              },
+              {
+                "Player": "art",
+                "Agent": "Neon",
+                "R1.0": 1.185,
+                "ACS": 277,
+                "K": 9,
+                "D": 7,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 147.9,
+                "HS%": 0.05,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 9
+              },
+              {
+                "Player": "lore",
+                "Agent": "Clove",
+                "R1.0": 0.465,
+                "ACS": 77,
+                "K": 2,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": -7,
+                "KAST": 0.778,
+                "ADR": 54.9,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 9
+              },
+              {
+                "Player": "makya",
+                "Agent": "Hush",
+                "R1.0": 0.453,
+                "ACS": 85,
+                "K": 3,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": -5,
+                "KAST": 0.556,
+                "ADR": 64.7,
+                "HS%": 0.167,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 9
+              }
+            ]
+          },
+          {
+            "team": "PRX",
+            "teamName": "Perfect RetaXe",
+            "players": [
+              {
+                "Player": "Jaden",
+                "Agent": "Neon",
+                "R1.0": 1.685,
+                "ACS": 353,
+                "K": 16,
+                "D": 6,
+                "A": 3,
+                "PlusMinus": 10,
+                "KAST": 0.917,
+                "ADR": 213.0,
+                "HS%": 0.188,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4,
+                "Rounds": 12
+              },
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Vyse",
+                "R1.0": 1.351,
+                "ACS": 265,
+                "K": 11,
+                "D": 6,
+                "A": 4,
+                "PlusMinus": 5,
+                "KAST": 0.75,
+                "ADR": 183.9,
+                "HS%": 0.333,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "ToastEmUp",
+                "Agent": "Astra",
+                "R1.0": 1.334,
+                "ACS": 310,
+                "K": 12,
+                "D": 8,
+                "A": 3,
+                "PlusMinus": 4,
+                "KAST": 0.667,
+                "ADR": 206.0,
+                "HS%": 0.314,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4,
+                "Rounds": 12
+              },
+              {
+                "Player": "BOCKISINS",
+                "Agent": "Fade",
+                "R1.0": 0.812,
+                "ACS": 134,
+                "K": 5,
+                "D": 8,
+                "A": 6,
+                "PlusMinus": -3,
+                "KAST": 0.75,
+                "ADR": 91.9,
+                "HS%": 0.222,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Hankyjanky",
+                "Agent": "Omen",
+                "R1.0": 0.715,
+                "ACS": 105,
+                "K": 4,
+                "D": 7,
+                "A": 5,
+                "PlusMinus": -3,
+                "KAST": 0.75,
+                "ADR": 64.3,
+                "HS%": 0.125,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Summit",
+      "score1": 13,
+      "score2": 5,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "NBR",
+          "teamName": "Namebrand Ramyeon",
+          "players": [
+            {
+              "Player": "josh67",
+              "Agent": "Sova",
+              "R1.0": 1.837,
+              "ACS": 404,
+              "K": 26,
+              "D": 10,
+              "A": 8,
+              "PlusMinus": 16,
+              "KAST": 0.778,
+              "ADR": 258.7,
+              "HS%": 0.45,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "platy",
+              "Agent": "Cypher",
+              "R1.0": 1.229,
+              "ACS": 227,
+              "K": 14,
+              "D": 12,
+              "A": 10,
+              "PlusMinus": 2,
+              "KAST": 0.778,
+              "ADR": 170.8,
+              "HS%": 0.133,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "art",
+              "Agent": "Jett",
+              "R1.0": 0.977,
+              "ACS": 193,
+              "K": 14,
+              "D": 11,
+              "A": 0,
+              "PlusMinus": 3,
+              "KAST": 0.667,
+              "ADR": 124.8,
+              "HS%": 0.2,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "makya",
+              "Agent": "Hush",
+              "R1.0": 0.892,
+              "ACS": 169,
+              "K": 11,
+              "D": 11,
+              "A": 5,
+              "PlusMinus": 0,
+              "KAST": 0.722,
+              "ADR": 95.3,
+              "HS%": 0.152,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "lore",
+              "Agent": "Clove",
+              "R1.0": 0.848,
+              "ACS": 146,
+              "K": 10,
+              "D": 12,
+              "A": 9,
+              "PlusMinus": -2,
+              "KAST": 0.722,
+              "ADR": 79.3,
+              "HS%": 0.094,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "PRX",
+          "teamName": "Perfect RetaXe",
+          "players": [
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Cypher",
+              "R1.0": 1.224,
+              "ACS": 292,
+              "K": 19,
+              "D": 14,
+              "A": 6,
+              "PlusMinus": 5,
+              "KAST": 0.611,
+              "ADR": 168.3,
+              "HS%": 0.318,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "ToastEmUp",
+              "Agent": "Astra",
+              "R1.0": 1.035,
+              "ACS": 194,
+              "K": 11,
+              "D": 14,
+              "A": 12,
+              "PlusMinus": -3,
+              "KAST": 0.778,
+              "ADR": 138.7,
+              "HS%": 0.325,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Jaden",
+              "Agent": "Neon",
+              "R1.0": 0.895,
+              "ACS": 245,
+              "K": 14,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -3,
+              "KAST": 0.556,
+              "ADR": 143.5,
+              "HS%": 0.185,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "BOCKISINS",
+              "Agent": "Fade",
+              "R1.0": 0.608,
+              "ACS": 118,
+              "K": 7,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": -8,
+              "KAST": 0.611,
+              "ADR": 72.8,
+              "HS%": 0.259,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Hankyjanky",
+              "Agent": "Omen",
+              "R1.0": 0.488,
+              "ACS": 80,
+              "K": 5,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": -10,
+              "KAST": 0.556,
+              "ADR": 50.8,
+              "HS%": 0.083,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "NBR",
+            "teamName": "Namebrand Ramyeon",
+            "players": [
+              {
+                "Player": "makya",
+                "Agent": "Hush",
+                "R1.0": 1.646,
+                "ACS": 386,
+                "K": 9,
+                "D": 4,
+                "A": 1,
+                "PlusMinus": 5,
+                "KAST": 0.833,
+                "ADR": 208.0,
+                "HS%": 0.182,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "josh67",
+                "Agent": "Sova",
+                "R1.0": 0.896,
+                "ACS": 130,
+                "K": 3,
+                "D": 3,
+                "A": 2,
+                "PlusMinus": 0,
+                "KAST": 0.667,
+                "ADR": 103.5,
+                "HS%": 0.25,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "platy",
+                "Agent": "Cypher",
+                "R1.0": 0.896,
+                "ACS": 212,
+                "K": 4,
+                "D": 6,
+                "A": 2,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 154.0,
+                "HS%": 0.176,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "art",
+                "Agent": "Jett",
+                "R1.0": 0.763,
+                "ACS": 150,
+                "K": 3,
+                "D": 4,
+                "A": 0,
+                "PlusMinus": -1,
+                "KAST": 0.667,
+                "ADR": 109.8,
+                "HS%": 0.222,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "lore",
+                "Agent": "Clove",
+                "R1.0": 0.603,
+                "ACS": 135,
+                "K": 3,
+                "D": 6,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 73.2,
+                "HS%": 0.222,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              }
+            ]
+          },
+          {
+            "team": "PRX",
+            "teamName": "Perfect RetaXe",
+            "players": [
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Cypher",
+                "R1.0": 1.241,
+                "ACS": 306,
+                "K": 13,
+                "D": 10,
+                "A": 4,
+                "PlusMinus": 3,
+                "KAST": 0.583,
+                "ADR": 182.2,
+                "HS%": 0.333,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Jaden",
+                "Agent": "Neon",
+                "R1.0": 0.873,
+                "ACS": 249,
+                "K": 9,
+                "D": 11,
+                "A": 3,
+                "PlusMinus": -2,
+                "KAST": 0.417,
+                "ADR": 151.1,
+                "HS%": 0.152,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "ToastEmUp",
+                "Agent": "Astra",
+                "R1.0": 0.766,
+                "ACS": 152,
+                "K": 5,
+                "D": 10,
+                "A": 7,
+                "PlusMinus": -5,
+                "KAST": 0.667,
+                "ADR": 105.0,
+                "HS%": 0.333,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "BOCKISINS",
+                "Agent": "Fade",
+                "R1.0": 0.543,
+                "ACS": 127,
+                "K": 5,
+                "D": 11,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.5,
+                "ADR": 81.6,
+                "HS%": 0.238,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Hankyjanky",
+                "Agent": "Omen",
+                "R1.0": 0.26,
+                "ACS": 41,
+                "K": 1,
+                "D": 11,
+                "A": 6,
+                "PlusMinus": -10,
+                "KAST": 0.5,
+                "ADR": 18.6,
+                "HS%": 0.0,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "NBR",
+            "teamName": "Namebrand Ramyeon",
+            "players": [
+              {
+                "Player": "josh67",
+                "Agent": "Sova",
+                "R1.0": 2.308,
+                "ACS": 542,
+                "K": 23,
+                "D": 7,
+                "A": 6,
+                "PlusMinus": 16,
+                "KAST": 0.833,
+                "ADR": 336.3,
+                "HS%": 0.481,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "platy",
+                "Agent": "Cypher",
+                "R1.0": 1.395,
+                "ACS": 234,
+                "K": 10,
+                "D": 6,
+                "A": 8,
+                "PlusMinus": 4,
+                "KAST": 0.833,
+                "ADR": 179.2,
+                "HS%": 0.116,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "art",
+                "Agent": "Jett",
+                "R1.0": 1.084,
+                "ACS": 215,
+                "K": 11,
+                "D": 7,
+                "A": 0,
+                "PlusMinus": 4,
+                "KAST": 0.667,
+                "ADR": 132.3,
+                "HS%": 0.176,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              },
+              {
+                "Player": "lore",
+                "Agent": "Clove",
+                "R1.0": 0.971,
+                "ACS": 151,
+                "K": 7,
+                "D": 6,
+                "A": 7,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 82.4,
+                "HS%": 0.043,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "makya",
+                "Agent": "Hush",
+                "R1.0": 0.515,
+                "ACS": 61,
+                "K": 2,
+                "D": 7,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.667,
+                "ADR": 38.9,
+                "HS%": 0.091,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "PRX",
+            "teamName": "Perfect RetaXe",
+            "players": [
+              {
+                "Player": "ToastEmUp",
+                "Agent": "Astra",
+                "R1.0": 1.572,
+                "ACS": 277,
+                "K": 6,
+                "D": 4,
+                "A": 5,
+                "PlusMinus": 2,
+                "KAST": 1.0,
+                "ADR": 206.0,
+                "HS%": 0.316,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 6
+              },
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Cypher",
+                "R1.0": 1.19,
+                "ACS": 263,
+                "K": 6,
+                "D": 4,
+                "A": 2,
+                "PlusMinus": 2,
+                "KAST": 0.667,
+                "ADR": 140.7,
+                "HS%": 0.286,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 6
+              },
+              {
+                "Player": "Hankyjanky",
+                "Agent": "Omen",
+                "R1.0": 0.944,
+                "ACS": 159,
+                "K": 4,
+                "D": 4,
+                "A": 2,
+                "PlusMinus": 0,
+                "KAST": 0.667,
+                "ADR": 115.2,
+                "HS%": 0.118,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 6
+              },
+              {
+                "Player": "Jaden",
+                "Agent": "Neon",
+                "R1.0": 0.937,
+                "ACS": 238,
+                "K": 5,
+                "D": 6,
+                "A": 1,
+                "PlusMinus": -1,
+                "KAST": 0.833,
+                "ADR": 128.3,
+                "HS%": 0.375,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 6
+              },
+              {
+                "Player": "BOCKISINS",
+                "Agent": "Fade",
+                "R1.0": 0.739,
+                "ACS": 100,
+                "K": 2,
+                "D": 4,
+                "A": 4,
+                "PlusMinus": -2,
+                "KAST": 0.833,
+                "ADR": 55.3,
+                "HS%": 0.333,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 6
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sunset",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def",
+          "endType": "Round timer expired"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "NBR",
+          "teamName": "Namebrand Ramyeon",
+          "players": [
+            {
+              "Player": "platy",
+              "Agent": "Cypher",
+              "R1.0": 1.23,
+              "ACS": 268,
+              "K": 22,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": 5,
+              "KAST": 0.75,
+              "ADR": 179.5,
+              "HS%": 0.212,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "josh67",
+              "Agent": "Fade",
+              "R1.0": 1.007,
+              "ACS": 207,
+              "K": 17,
+              "D": 17,
+              "A": 8,
+              "PlusMinus": 0,
+              "KAST": 0.583,
+              "ADR": 149.3,
+              "HS%": 0.391,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "art",
+              "Agent": "Raze",
+              "R1.0": 0.947,
+              "ACS": 202,
+              "K": 16,
+              "D": 18,
+              "A": 6,
+              "PlusMinus": -2,
+              "KAST": 0.75,
+              "ADR": 128.1,
+              "HS%": 0.17,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "makya",
+              "Agent": "Hush",
+              "R1.0": 0.938,
+              "ACS": 188,
+              "K": 15,
+              "D": 19,
+              "A": 10,
+              "PlusMinus": -4,
+              "KAST": 0.833,
+              "ADR": 115.3,
+              "HS%": 0.208,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "lore",
+              "Agent": "Clove",
+              "R1.0": 0.903,
+              "ACS": 151,
+              "K": 13,
+              "D": 15,
+              "A": 11,
+              "PlusMinus": -2,
+              "KAST": 0.667,
+              "ADR": 107.8,
+              "HS%": 0.132,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "PRX",
+          "teamName": "Perfect RetaXe",
+          "players": [
+            {
+              "Player": "Jaden",
+              "Agent": "Raze",
+              "R1.0": 1.49,
+              "ACS": 320,
+              "K": 28,
+              "D": 15,
+              "A": 2,
+              "PlusMinus": 13,
+              "KAST": 0.917,
+              "ADR": 208.5,
+              "HS%": 0.228,
+              "FK": 7,
+              "FD": 1,
+              "PlusMinus2": 6
+            },
+            {
+              "Player": "MrCrocMan",
+              "Agent": "Cypher",
+              "R1.0": 1.253,
+              "ACS": 286,
+              "K": 25,
+              "D": 17,
+              "A": 1,
+              "PlusMinus": 8,
+              "KAST": 0.75,
+              "ADR": 180.0,
+              "HS%": 0.446,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "ToastEmUp",
+              "Agent": "Clove",
+              "R1.0": 0.843,
+              "ACS": 163,
+              "K": 12,
+              "D": 19,
+              "A": 8,
+              "PlusMinus": -7,
+              "KAST": 0.708,
+              "ADR": 127.8,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "BOCKISINS",
+              "Agent": "Fade",
+              "R1.0": 0.752,
+              "ACS": 143,
+              "K": 11,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": -6,
+              "KAST": 0.667,
+              "ADR": 95.0,
+              "HS%": 0.5,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Hankyjanky",
+              "Agent": "Omen",
+              "R1.0": 0.679,
+              "ACS": 113,
+              "K": 10,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.708,
+              "ADR": 66.8,
+              "HS%": 0.242,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "NBR",
+            "teamName": "Namebrand Ramyeon",
+            "players": [
+              {
+                "Player": "lore",
+                "Agent": "Clove",
+                "R1.0": 1.512,
+                "ACS": 267,
+                "K": 12,
+                "D": 6,
+                "A": 8,
+                "PlusMinus": 6,
+                "KAST": 0.833,
+                "ADR": 189.4,
+                "HS%": 0.156,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "josh67",
+                "Agent": "Fade",
+                "R1.0": 1.485,
+                "ACS": 296,
+                "K": 13,
+                "D": 6,
+                "A": 4,
+                "PlusMinus": 7,
+                "KAST": 0.75,
+                "ADR": 200.9,
+                "HS%": 0.333,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "platy",
+                "Agent": "Cypher",
+                "R1.0": 1.33,
+                "ACS": 289,
+                "K": 13,
+                "D": 9,
+                "A": 2,
+                "PlusMinus": 4,
+                "KAST": 0.75,
+                "ADR": 197.7,
+                "HS%": 0.256,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "makya",
+                "Agent": "Hush",
+                "R1.0": 1.029,
+                "ACS": 194,
+                "K": 8,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.917,
+                "ADR": 110.2,
+                "HS%": 0.238,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "art",
+                "Agent": "Raze",
+                "R1.0": 0.666,
+                "ACS": 111,
+                "K": 4,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.833,
+                "ADR": 92.9,
+                "HS%": 0.238,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "PRX",
+            "teamName": "Perfect RetaXe",
+            "players": [
+              {
+                "Player": "Jaden",
+                "Agent": "Raze",
+                "R1.0": 1.67,
+                "ACS": 317,
+                "K": 15,
+                "D": 4,
+                "A": 1,
+                "PlusMinus": 11,
+                "KAST": 1.0,
+                "ADR": 201.1,
+                "HS%": 0.19,
+                "FK": 4,
+                "FD": 0,
+                "PlusMinus2": 4,
+                "Rounds": 12
+              },
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Cypher",
+                "R1.0": 1.424,
+                "ACS": 338,
+                "K": 15,
+                "D": 7,
+                "A": 0,
+                "PlusMinus": 8,
+                "KAST": 0.667,
+                "ADR": 195.2,
+                "HS%": 0.583,
+                "FK": 4,
+                "FD": 1,
+                "PlusMinus2": 3,
+                "Rounds": 12
+              },
+              {
+                "Player": "ToastEmUp",
+                "Agent": "Clove",
+                "R1.0": 0.955,
+                "ACS": 176,
+                "K": 6,
+                "D": 9,
+                "A": 5,
+                "PlusMinus": -3,
+                "KAST": 0.833,
+                "ADR": 142.2,
+                "HS%": 0.308,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "Hankyjanky",
+                "Agent": "Omen",
+                "R1.0": 0.866,
+                "ACS": 121,
+                "K": 6,
+                "D": 5,
+                "A": 2,
+                "PlusMinus": 1,
+                "KAST": 0.833,
+                "ADR": 71.6,
+                "HS%": 0.417,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "BOCKISINS",
+                "Agent": "Fade",
+                "R1.0": 0.729,
+                "ACS": 126,
+                "K": 5,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.833,
+                "ADR": 78.7,
+                "HS%": 0.5,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "NBR",
+            "teamName": "Namebrand Ramyeon",
+            "players": [
+              {
+                "Player": "art",
+                "Agent": "Raze",
+                "R1.0": 1.227,
+                "ACS": 292,
+                "K": 12,
+                "D": 8,
+                "A": 3,
+                "PlusMinus": 4,
+                "KAST": 0.667,
+                "ADR": 163.2,
+                "HS%": 0.125,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "platy",
+                "Agent": "Cypher",
+                "R1.0": 1.131,
+                "ACS": 248,
+                "K": 9,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 161.4,
+                "HS%": 0.171,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "makya",
+                "Agent": "Hush",
+                "R1.0": 0.848,
+                "ACS": 182,
+                "K": 7,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": -4,
+                "KAST": 0.75,
+                "ADR": 120.4,
+                "HS%": 0.185,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "josh67",
+                "Agent": "Fade",
+                "R1.0": 0.531,
+                "ACS": 118,
+                "K": 4,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -7,
+                "KAST": 0.417,
+                "ADR": 97.8,
+                "HS%": 0.538,
+                "FK": 0,
+                "FD": 5,
+                "PlusMinus2": -5,
+                "Rounds": 12
+              },
+              {
+                "Player": "lore",
+                "Agent": "Clove",
+                "R1.0": 0.294,
+                "ACS": 35,
+                "K": 1,
+                "D": 9,
+                "A": 3,
+                "PlusMinus": -8,
+                "KAST": 0.5,
+                "ADR": 26.2,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "PRX",
+            "teamName": "Perfect RetaXe",
+            "players": [
+              {
+                "Player": "Jaden",
+                "Agent": "Raze",
+                "R1.0": 1.31,
+                "ACS": 324,
+                "K": 13,
+                "D": 11,
+                "A": 1,
+                "PlusMinus": 2,
+                "KAST": 0.833,
+                "ADR": 215.8,
+                "HS%": 0.27,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "MrCrocMan",
+                "Agent": "Cypher",
+                "R1.0": 1.082,
+                "ACS": 234,
+                "K": 10,
+                "D": 10,
+                "A": 1,
+                "PlusMinus": 0,
+                "KAST": 0.833,
+                "ADR": 164.8,
+                "HS%": 0.344,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              },
+              {
+                "Player": "BOCKISINS",
+                "Agent": "Fade",
+                "R1.0": 0.773,
+                "ACS": 161,
+                "K": 6,
+                "D": 9,
+                "A": 5,
+                "PlusMinus": -3,
+                "KAST": 0.5,
+                "ADR": 111.3,
+                "HS%": 0.5,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "ToastEmUp",
+                "Agent": "Clove",
+                "R1.0": 0.73,
+                "ACS": 150,
+                "K": 6,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -4,
+                "KAST": 0.583,
+                "ADR": 113.3,
+                "HS%": 0.192,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "Hankyjanky",
+                "Agent": "Omen",
+                "R1.0": 0.491,
+                "ACS": 106,
+                "K": 4,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": -6,
+                "KAST": 0.583,
+                "ADR": 62.0,
+                "HS%": 0.143,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=0LMC_l7PYDM"
 }

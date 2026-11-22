@@ -6,17 +6,17 @@
     "defPct": 0.627,
     "agents": [
       {
-        "agent": "Fade",
-        "comps": 3,
-        "pickPct": 0.75
-      },
-      {
         "agent": "Omen",
         "comps": 3,
         "pickPct": 0.75
       },
       {
-        "agent": "Neon",
+        "agent": "Fade",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Yoru",
         "comps": 2,
         "pickPct": 0.5
       },
@@ -26,7 +26,7 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Yoru",
+        "agent": "Neon",
         "comps": 2,
         "pickPct": 0.5
       },
@@ -34,6 +34,11 @@
         "agent": "Vyse",
         "comps": 2,
         "pickPct": 0.5
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.25
       },
       {
         "agent": "Phoenix",
@@ -46,17 +51,12 @@
         "pickPct": 0.25
       },
       {
-        "agent": "Astra",
+        "agent": "Waylay",
         "comps": 1,
         "pickPct": 0.25
       },
       {
         "agent": "Jett",
-        "comps": 1,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Waylay",
         "comps": 1,
         "pickPct": 0.25
       },
@@ -114,55 +114,70 @@
     }
   },
   "Lotus": {
-    "mapsPlayed": 2,
-    "recordedComps": 4,
-    "atkPct": 0.528,
-    "defPct": 0.472,
+    "mapsPlayed": 3,
+    "recordedComps": 6,
+    "atkPct": 0.491,
+    "defPct": 0.509,
     "agents": [
       {
-        "agent": "Raze",
-        "comps": 4,
-        "pickPct": 1.0
-      },
-      {
         "agent": "Fade",
-        "comps": 4,
+        "comps": 6,
         "pickPct": 1.0
       },
       {
         "agent": "Omen",
-        "comps": 4,
-        "pickPct": 1.0
+        "comps": 5,
+        "pickPct": 0.833
       },
       {
-        "agent": "Chamber",
-        "comps": 2,
+        "agent": "Raze",
+        "comps": 4,
+        "pickPct": 0.667
+      },
+      {
+        "agent": "Neon",
+        "comps": 3,
         "pickPct": 0.5
       },
       {
         "agent": "Vyse",
-        "comps": 2,
+        "comps": 3,
         "pickPct": 0.5
       },
       {
-        "agent": "Neon",
+        "agent": "Hush",
+        "comps": 2,
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Clove",
         "comps": 1,
-        "pickPct": 0.25
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.167
       },
       {
         "agent": "Phoenix",
         "comps": 1,
-        "pickPct": 0.25
+        "pickPct": 0.167
       },
       {
         "agent": "Jett",
         "comps": 1,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Hush",
-        "comps": 1,
-        "pickPct": 0.25
+        "pickPct": 0.167
       }
     ],
     "teams": {
@@ -199,6 +214,28 @@
           "Vyse"
         ]
       },
+      "NBR": {
+        "team": "NBR",
+        "teamName": "Namebrand Ramyeon",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Fade",
+          "Hush",
+          "Neon"
+        ]
+      },
+      "PRX": {
+        "team": "PRX",
+        "teamName": "Perfect RetaXe",
+        "agents": [
+          "Astra",
+          "Fade",
+          "Neon",
+          "Omen",
+          "Vyse"
+        ]
+      },
       "WBG": {
         "team": "WBG",
         "teamName": "We Been Gaming",
@@ -208,6 +245,145 @@
           "Omen",
           "Raze",
           "Vyse"
+        ]
+      }
+    }
+  },
+  "Summit": {
+    "mapsPlayed": 1,
+    "recordedComps": 2,
+    "atkPct": 0.389,
+    "defPct": 0.611,
+    "agents": [
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Hush",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "NBR": {
+        "team": "NBR",
+        "teamName": "Namebrand Ramyeon",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Hush",
+          "Jett",
+          "Sova"
+        ]
+      },
+      "PRX": {
+        "team": "PRX",
+        "teamName": "Perfect RetaXe",
+        "agents": [
+          "Astra",
+          "Cypher",
+          "Fade",
+          "Neon",
+          "Omen"
+        ]
+      }
+    }
+  },
+  "Sunset": {
+    "mapsPlayed": 1,
+    "recordedComps": 2,
+    "atkPct": 0.708,
+    "defPct": 0.292,
+    "agents": [
+      {
+        "agent": "Clove",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Raze",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Fade",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Hush",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Omen",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "NBR": {
+        "team": "NBR",
+        "teamName": "Namebrand Ramyeon",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Fade",
+          "Hush",
+          "Raze"
+        ]
+      },
+      "PRX": {
+        "team": "PRX",
+        "teamName": "Perfect RetaXe",
+        "agents": [
+          "Clove",
+          "Cypher",
+          "Fade",
+          "Omen",
+          "Raze"
         ]
       }
     }
