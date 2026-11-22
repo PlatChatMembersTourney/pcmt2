@@ -21,12 +21,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Chamber",
+        "agent": "Neon",
         "comps": 2,
         "pickPct": 0.5
       },
       {
-        "agent": "Neon",
+        "agent": "Chamber",
         "comps": 2,
         "pickPct": 0.5
       },
@@ -34,6 +34,11 @@
         "agent": "Vyse",
         "comps": 2,
         "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.25
       },
       {
         "agent": "Astra",
@@ -46,22 +51,17 @@
         "pickPct": 0.25
       },
       {
-        "agent": "Cypher",
-        "comps": 1,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Waylay",
-        "comps": 1,
-        "pickPct": 0.25
-      },
-      {
         "agent": "Jett",
         "comps": 1,
         "pickPct": 0.25
       },
       {
         "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Waylay",
         "comps": 1,
         "pickPct": 0.25
       }
@@ -155,12 +155,12 @@
         "pickPct": 0.333
       },
       {
-        "agent": "Clove",
+        "agent": "Cypher",
         "comps": 1,
         "pickPct": 0.167
       },
       {
-        "agent": "Cypher",
+        "agent": "Clove",
         "comps": 1,
         "pickPct": 0.167
       },
@@ -261,7 +261,7 @@
         "pickPct": 1.0
       },
       {
-        "agent": "Clove",
+        "agent": "Hush",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -271,17 +271,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Hush",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
         "agent": "Sova",
         "comps": 1,
         "pickPct": 0.5
       },
       {
-        "agent": "Astra",
+        "agent": "Clove",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -292,6 +287,11 @@
       },
       {
         "agent": "Fade",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Astra",
         "comps": 1,
         "pickPct": 0.5
       },
@@ -333,12 +333,12 @@
     "defPct": 0.292,
     "agents": [
       {
-        "agent": "Clove",
+        "agent": "Cypher",
         "comps": 2,
         "pickPct": 1.0
       },
       {
-        "agent": "Cypher",
+        "agent": "Fade",
         "comps": 2,
         "pickPct": 1.0
       },
@@ -348,7 +348,7 @@
         "pickPct": 1.0
       },
       {
-        "agent": "Fade",
+        "agent": "Clove",
         "comps": 2,
         "pickPct": 1.0
       },
