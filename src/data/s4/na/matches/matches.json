@@ -1,5 +1,22 @@
 [
   {
+    "id": "dei-vs-edg-s4-group-b-2026-11-27",
+    "team1": "DEI",
+    "team2": "EDG",
+    "team1Name": "Doofenshmirtz Evil Inc.",
+    "team2Name": "EggheaD Gaming",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-11-27T23:00:00Z",
+    "stage": "Group B",
+    "winChance": {
+      "team1": 0.5,
+      "team2": 0.5
+    }
+  },
+  {
     "id": "loud-vs-srg-s4-group-a-2026-11-26",
     "team1": "LOUD",
     "team2": "SRG",
