@@ -224,6 +224,32 @@
       "rndDiff": 14
     },
     {
+      "abbr": "LOUD",
+      "name": "Leading Ourselves Under Delusion",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "SRG",
+      "name": "Shaymins Really Good",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 3,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
       "abbr": "WBG",
       "name": "We Been Gaming",
       "matchW": 0,
@@ -232,7 +258,7 @@
       "mapL": 2,
       "rndW": 12,
       "rndL": 26,
-      "rank": 2,
+      "rank": 4,
       "mapDiff": -2,
       "rndDiff": -14
     }
@@ -252,6 +278,32 @@
       "rndDiff": 9
     },
     {
+      "abbr": "EDG",
+      "name": "EggheaD Gaming",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "DEI",
+      "name": "Doofenshmirtz Evil Inc.",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 3,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
       "abbr": "CR",
       "name": "CRazy Zigzagoon",
       "matchW": 0,
@@ -260,7 +312,7 @@
       "mapL": 2,
       "rndW": 20,
       "rndL": 29,
-      "rank": 2,
+      "rank": 4,
       "mapDiff": -2,
       "rndDiff": -9
     }
@@ -291,6 +343,32 @@
       "rank": 2,
       "mapDiff": 0,
       "rndDiff": 0
+    },
+    {
+      "abbr": "DRX",
+      "name": "Doing Rails of X",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 3,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "NRG",
+      "name": "Not Really Good",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 4,
+      "mapDiff": 0,
+      "rndDiff": 0
     }
   ],
   "Group D": [
@@ -317,6 +395,32 @@
       "rndW": 0,
       "rndL": 0,
       "rank": 2,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "GENG",
+      "name": "Generally Goofy",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 3,
+      "mapDiff": 0,
+      "rndDiff": 0
+    },
+    {
+      "abbr": "XLG",
+      "name": "Xtremely Lacking Gamesense",
+      "matchW": 0,
+      "matchL": 0,
+      "mapW": 0,
+      "mapL": 0,
+      "rndW": 0,
+      "rndL": 0,
+      "rank": 4,
       "mapDiff": 0,
       "rndDiff": 0
     }

@@ -59,48 +59,56 @@
         "name": "Generally Goofy",
         "abbr": "GENG",
         "logo": "/icons/s4_teams/na/Generally Goofy.png",
+        "group": "Group D",
         "players": ["abstracq", "masao", "derpid", "Krspy", "timothy"]
     },
     "LOUD": {
         "name": "Leading Ourselves Under Delusion",
         "abbr": "LOUD",
         "logo": "/icons/s4_teams/na/Leading Ourselves Under Delusion.png",
+        "group": "Group A",
         "players": ["avi", "Sizeable", "dino", "roro", "tenyaku"]
     },
     "EDG": {
         "name": "EggheaD Gaming",
         "abbr": "EDG",
         "logo": "/icons/s4_teams/na/EggheaD Gaming.png",
+        "group": "Group B",
         "players": ["izz", "ethan", "dunkn", "xyn", "neckolas"]
     },
     "DEI": {
         "name": "Doofenshmirtz Evil Inc.",
         "abbr": "DEI",
         "logo": "/icons/s4_teams/na/Doofenshmirtz Evil Inc..png",
+        "group": "Group B",
         "players": ["haych", "snowfall", "LazyNotTired", "slow", "teklo"]
     },
     "DRX": {
         "name": "Doing Rails of X",
         "abbr": "DRX",
         "logo": "/icons/s4_teams/na/Doing Rails of X.png",
+        "group": "Group C",
         "players": ["cooleo", "derpina", "woup", "rudra", "twon"]
     },
     "SRG": {
         "name": "Shaymins Really Good",
         "abbr": "SRG",
         "logo": "/icons/s4_teams/na/Shaymins Really Good.png",
+        "group": "Group A",
         "players": ["colt", "Pieta", "Pumpkin", "platinum", "paul"]
     },
     "XLG": {
         "name": "Xtremely Lacking Gamesense",
         "abbr": "XLG",
         "logo": "/icons/s4_teams/na/Xtremely Lacking Gamesense.png",
+        "group": "Group D",
         "players": ["night", "skye", "Ender", "hyypernova", "longclaw"]
     },
     "NRG": {
         "name": "Not Really Good",
         "abbr": "NRG",
         "logo": "/icons/s4_teams/na/Not Really Good.png",
+        "group": "Group C",
         "players": ["blitz", "darshan", "Dorito", "Hades", "VALENTIA"]
     }
 }

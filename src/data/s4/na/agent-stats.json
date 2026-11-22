@@ -6,17 +6,17 @@
     "defPct": 0.627,
     "agents": [
       {
-        "agent": "Omen",
-        "comps": 3,
-        "pickPct": 0.75
-      },
-      {
         "agent": "Fade",
         "comps": 3,
         "pickPct": 0.75
       },
       {
-        "agent": "Yoru",
+        "agent": "Omen",
+        "comps": 3,
+        "pickPct": 0.75
+      },
+      {
+        "agent": "Neon",
         "comps": 2,
         "pickPct": 0.5
       },
@@ -26,7 +26,7 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Neon",
+        "agent": "Yoru",
         "comps": 2,
         "pickPct": 0.5
       },
@@ -34,11 +34,6 @@
         "agent": "Vyse",
         "comps": 2,
         "pickPct": 0.5
-      },
-      {
-        "agent": "Astra",
-        "comps": 1,
-        "pickPct": 0.25
       },
       {
         "agent": "Phoenix",
@@ -51,12 +46,17 @@
         "pickPct": 0.25
       },
       {
-        "agent": "Waylay",
+        "agent": "Astra",
         "comps": 1,
         "pickPct": 0.25
       },
       {
         "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Waylay",
         "comps": 1,
         "pickPct": 0.25
       },
@@ -120,17 +120,17 @@
     "defPct": 0.472,
     "agents": [
       {
-        "agent": "Omen",
-        "comps": 4,
-        "pickPct": 1.0
-      },
-      {
         "agent": "Raze",
         "comps": 4,
         "pickPct": 1.0
       },
       {
         "agent": "Fade",
+        "comps": 4,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Omen",
         "comps": 4,
         "pickPct": 1.0
       },

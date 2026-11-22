@@ -6,7 +6,7 @@
 			"final": null
 		},
 		"upper": [
-			[{ "id": "Opening #1", "teams": ["FNC", "WBG"] }, { "id": "Opening #2", "teams": [null, null], "placeholders": ["TBD", "TBD"] }],
+			[{ "id": "Opening #1", "teams": ["FNC", "WBG"] }, { "id": "Opening #2", "teams": ["LOUD", "SRG"] }],
 			[{ "id": "Winners'", "teams": ["W:Opening #1", "W:Opening #2"], "placeholders": ["", ""] }]
 		],
 		"lower": [
@@ -22,7 +22,7 @@
 			"final": null
 		},
 		"upper": [
-			[{ "id": "Opening #1", "teams": ["EDM", "CR"] }, { "id": "Opening #2", "teams": [null, null], "placeholders": ["TBD", "TBD"] }],
+			[{ "id": "Opening #1", "teams": ["EDM", "CR"] }, { "id": "Opening #2", "teams": ["DEI", "EDG"] }],
 			[{ "id": "Winners'", "teams": ["W:Opening #1", "W:Opening #2"], "placeholders": ["", ""] }]
 		],
 		"lower": [
@@ -38,7 +38,7 @@
 			"final": null
 		},
 		"upper": [
-			[{ "id": "Opening #1", "teams": ["NBR", "PRX"] }, { "id": "Opening #2", "teams": [null, null], "placeholders": ["TBD", "TBD"] }],
+			[{ "id": "Opening #1", "teams": ["NBR", "PRX"] }, { "id": "Opening #2", "teams": ["DRX", "NRG"] }],
 			[{ "id": "Winners'", "teams": ["W:Opening #1", "W:Opening #2"], "placeholders": ["", ""] }]
 		],
 		"lower": [
@@ -54,7 +54,7 @@
 			"final": null
 		},
 		"upper": [
-			[{ "id": "Opening #1", "teams": ["BLG", "TANK"] }, { "id": "Opening #2", "teams": [null, null], "placeholders": ["TBD", "TBD"] }],
+			[{ "id": "Opening #1", "teams": ["BLG", "TANK"] }, { "id": "Opening #2", "teams": ["GENG", "XLG"] }],
 			[{ "id": "Winners'", "teams": ["W:Opening #1", "W:Opening #2"], "placeholders": ["", ""] }]
 		],
 		"lower": [
