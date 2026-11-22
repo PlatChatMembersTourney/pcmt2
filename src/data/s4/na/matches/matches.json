@@ -1,5 +1,22 @@
 [
   {
+    "id": "drx-vs-nrg-s4-group-c-2026-11-29",
+    "team1": "DRX",
+    "team2": "NRG",
+    "team1Name": "Doing Rails of X",
+    "team2Name": "Not Really Good",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-11-29T22:00:00Z",
+    "stage": "Group C",
+    "winChance": {
+      "team1": 0.5,
+      "team2": 0.5
+    }
+  },
+  {
     "id": "dei-vs-edg-s4-group-b-2026-11-27",
     "team1": "DEI",
     "team2": "EDG",
