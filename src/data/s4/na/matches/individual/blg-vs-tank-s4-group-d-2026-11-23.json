@@ -5,9 +5,1633 @@
   "team1Name": "Bartho Lomew Gaming",
   "team2Name": "TANKERS",
   "score1": 0,
-  "score2": 0,
-  "completed": false,
+  "score2": 2,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-11-23T02:00:00Z",
-  "stage": "Group D"
+  "stage": "Group D",
+  "veto": "BLG bans Corrode, TANK bans Bind, BLG picks Haven, TANK picks Summit, BLG bans Abyss, TANK bans Lotus, Sunset remains",
+  "maps": [
+    {
+      "name": "Haven",
+      "score1": 16,
+      "score2": 18
+    },
+    {
+      "name": "Summit",
+      "score1": 10,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "BLG",
+      "teamName": "Bartho Lomew Gaming",
+      "players": [
+        {
+          "Player": "phuzzy",
+          "R1.0": 1.127,
+          "ACS": 239,
+          "K": 49,
+          "D": 43,
+          "A": 12,
+          "PlusMinus": 6,
+          "KAST": 0.772,
+          "ADR": 159.6,
+          "HS%": 0.337,
+          "FK": 5,
+          "FD": 7,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "Sting",
+          "R1.0": 1.085,
+          "ACS": 236,
+          "K": 46,
+          "D": 42,
+          "A": 11,
+          "PlusMinus": 4,
+          "KAST": 0.737,
+          "ADR": 157.3,
+          "HS%": 0.255,
+          "FK": 5,
+          "FD": 9,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "asher",
+          "R1.0": 1.016,
+          "ACS": 195,
+          "K": 41,
+          "D": 39,
+          "A": 21,
+          "PlusMinus": 2,
+          "KAST": 0.666,
+          "ADR": 132.5,
+          "HS%": 0.224,
+          "FK": 6,
+          "FD": 8,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "amara",
+          "R1.0": 0.908,
+          "ACS": 193,
+          "K": 37,
+          "D": 44,
+          "A": 20,
+          "PlusMinus": -7,
+          "KAST": 0.667,
+          "ADR": 121.5,
+          "HS%": 0.154,
+          "FK": 6,
+          "FD": 7,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "caesparz",
+          "R1.0": 0.903,
+          "ACS": 177,
+          "K": 31,
+          "D": 45,
+          "A": 26,
+          "PlusMinus": -14,
+          "KAST": 0.719,
+          "ADR": 129.3,
+          "HS%": 0.132,
+          "FK": 3,
+          "FD": 1,
+          "PlusMinus2": 2
+        }
+      ]
+    },
+    {
+      "team": "TANK",
+      "teamName": "TANKERS",
+      "players": [
+        {
+          "Player": "linus",
+          "R1.0": 1.216,
+          "ACS": 229,
+          "K": 48,
+          "D": 36,
+          "A": 20,
+          "PlusMinus": 12,
+          "KAST": 0.754,
+          "ADR": 167.0,
+          "HS%": 0.161,
+          "FK": 2,
+          "FD": 0,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "angus",
+          "R1.0": 1.152,
+          "ACS": 257,
+          "K": 48,
+          "D": 44,
+          "A": 21,
+          "PlusMinus": 4,
+          "KAST": 0.737,
+          "ADR": 166.2,
+          "HS%": 0.285,
+          "FK": 8,
+          "FD": 8,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "kaydeg",
+          "R1.0": 1.108,
+          "ACS": 236,
+          "K": 47,
+          "D": 45,
+          "A": 17,
+          "PlusMinus": 2,
+          "KAST": 0.79,
+          "ADR": 155.5,
+          "HS%": 0.244,
+          "FK": 11,
+          "FD": 3,
+          "PlusMinus2": 8
+        },
+        {
+          "Player": "Ahsum",
+          "R1.0": 0.944,
+          "ACS": 189,
+          "K": 41,
+          "D": 38,
+          "A": 4,
+          "PlusMinus": 3,
+          "KAST": 0.702,
+          "ADR": 123.2,
+          "HS%": 0.21,
+          "FK": 8,
+          "FD": 6,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "androobee",
+          "R1.0": 0.894,
+          "ACS": 163,
+          "K": 29,
+          "D": 41,
+          "A": 32,
+          "PlusMinus": -12,
+          "KAST": 0.737,
+          "ADR": 109.4,
+          "HS%": 0.188,
+          "FK": 3,
+          "FD": 8,
+          "PlusMinus2": -5
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Haven",
+      "score1": 16,
+      "score2": 18,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 25,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 26,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 27,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 28,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 29,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 30,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 31,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 32,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 33,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 34,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        }
+      ],
+      "stats": [
+        {
+          "team": "BLG",
+          "teamName": "Bartho Lomew Gaming",
+          "players": [
+            {
+              "Player": "Sting",
+              "Agent": "Hush",
+              "R1.0": 1.166,
+              "ACS": 253,
+              "K": 29,
+              "D": 25,
+              "A": 8,
+              "PlusMinus": 4,
+              "KAST": 0.765,
+              "ADR": 171.9,
+              "HS%": 0.233,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "phuzzy",
+              "Agent": "Cypher",
+              "R1.0": 1.079,
+              "ACS": 222,
+              "K": 27,
+              "D": 25,
+              "A": 9,
+              "PlusMinus": 2,
+              "KAST": 0.676,
+              "ADR": 158.5,
+              "HS%": 0.333,
+              "FK": 3,
+              "FD": 4,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "asher",
+              "Agent": "Phoenix",
+              "R1.0": 1.073,
+              "ACS": 219,
+              "K": 26,
+              "D": 23,
+              "A": 9,
+              "PlusMinus": 3,
+              "KAST": 0.676,
+              "ADR": 152.1,
+              "HS%": 0.165,
+              "FK": 4,
+              "FD": 7,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "caesparz",
+              "Agent": "Sova",
+              "R1.0": 0.912,
+              "ACS": 182,
+              "K": 20,
+              "D": 27,
+              "A": 14,
+              "PlusMinus": -7,
+              "KAST": 0.676,
+              "ADR": 133.5,
+              "HS%": 0.116,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "amara",
+              "Agent": "Omen",
+              "R1.0": 0.786,
+              "ACS": 164,
+              "K": 17,
+              "D": 26,
+              "A": 12,
+              "PlusMinus": -9,
+              "KAST": 0.618,
+              "ADR": 109.8,
+              "HS%": 0.183,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "TANK",
+          "teamName": "TANKERS",
+          "players": [
+            {
+              "Player": "angus",
+              "Agent": "Neon",
+              "R1.0": 1.26,
+              "ACS": 276,
+              "K": 31,
+              "D": 24,
+              "A": 13,
+              "PlusMinus": 7,
+              "KAST": 0.765,
+              "ADR": 177.9,
+              "HS%": 0.263,
+              "FK": 5,
+              "FD": 3,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": "Sova",
+              "R1.0": 1.184,
+              "ACS": 245,
+              "K": 30,
+              "D": 26,
+              "A": 10,
+              "PlusMinus": 4,
+              "KAST": 0.824,
+              "ADR": 165.0,
+              "HS%": 0.247,
+              "FK": 7,
+              "FD": 2,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "linus",
+              "Agent": "Phoenix",
+              "R1.0": 1.043,
+              "ACS": 204,
+              "K": 25,
+              "D": 24,
+              "A": 7,
+              "PlusMinus": 1,
+              "KAST": 0.706,
+              "ADR": 153.2,
+              "HS%": 0.173,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "androobee",
+              "Agent": "Omen",
+              "R1.0": 0.999,
+              "ACS": 176,
+              "K": 19,
+              "D": 23,
+              "A": 23,
+              "PlusMinus": -4,
+              "KAST": 0.765,
+              "ADR": 119.0,
+              "HS%": 0.203,
+              "FK": 3,
+              "FD": 6,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "Ahsum",
+              "Agent": "Chamber",
+              "R1.0": 0.901,
+              "ACS": 168,
+              "K": 21,
+              "D": 22,
+              "A": 4,
+              "PlusMinus": -1,
+              "KAST": 0.765,
+              "ADR": 113.0,
+              "HS%": 0.212,
+              "FK": 5,
+              "FD": 3,
+              "PlusMinus2": 2
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "BLG",
+            "teamName": "Bartho Lomew Gaming",
+            "players": [
+              {
+                "Player": "Sting",
+                "Agent": "Hush",
+                "R1.0": 1.122,
+                "ACS": 230,
+                "K": 13,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": 2,
+                "KAST": 0.706,
+                "ADR": 160.1,
+                "HS%": 0.222,
+                "FK": 2,
+                "FD": 4,
+                "PlusMinus2": -2,
+                "Rounds": 17
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Cypher",
+                "R1.0": 1.09,
+                "ACS": 235,
+                "K": 13,
+                "D": 13,
+                "A": 4,
+                "PlusMinus": 0,
+                "KAST": 0.706,
+                "ADR": 173.1,
+                "HS%": 0.282,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 17
+              },
+              {
+                "Player": "asher",
+                "Agent": "Phoenix",
+                "R1.0": 1.066,
+                "ACS": 197,
+                "K": 12,
+                "D": 10,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.706,
+                "ADR": 146.1,
+                "HS%": 0.196,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 17
+              },
+              {
+                "Player": "amara",
+                "Agent": "Omen",
+                "R1.0": 0.933,
+                "ACS": 169,
+                "K": 10,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.765,
+                "ADR": 105.9,
+                "HS%": 0.226,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Sova",
+                "R1.0": 0.835,
+                "ACS": 153,
+                "K": 10,
+                "D": 12,
+                "A": 7,
+                "PlusMinus": -2,
+                "KAST": 0.588,
+                "ADR": 98.5,
+                "HS%": 0.088,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              }
+            ]
+          },
+          {
+            "team": "TANK",
+            "teamName": "TANKERS",
+            "players": [
+              {
+                "Player": "angus",
+                "Agent": "Neon",
+                "R1.0": 1.612,
+                "ACS": 357,
+                "K": 21,
+                "D": 11,
+                "A": 8,
+                "PlusMinus": 10,
+                "KAST": 0.824,
+                "ADR": 222.1,
+                "HS%": 0.263,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "kaydeg",
+                "Agent": "Sova",
+                "R1.0": 1.223,
+                "ACS": 257,
+                "K": 16,
+                "D": 14,
+                "A": 6,
+                "PlusMinus": 2,
+                "KAST": 0.882,
+                "ADR": 165.2,
+                "HS%": 0.225,
+                "FK": 6,
+                "FD": 1,
+                "PlusMinus2": 5,
+                "Rounds": 17
+              },
+              {
+                "Player": "linus",
+                "Agent": "Phoenix",
+                "R1.0": 1.087,
+                "ACS": 225,
+                "K": 14,
+                "D": 14,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.765,
+                "ADR": 156.5,
+                "HS%": 0.145,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "androobee",
+                "Agent": "Omen",
+                "R1.0": 0.981,
+                "ACS": 151,
+                "K": 8,
+                "D": 11,
+                "A": 16,
+                "PlusMinus": -3,
+                "KAST": 0.824,
+                "ADR": 94.7,
+                "HS%": 0.172,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 17
+              },
+              {
+                "Player": "Ahsum",
+                "Agent": "Chamber",
+                "R1.0": 0.918,
+                "ACS": 171,
+                "K": 11,
+                "D": 11,
+                "A": 1,
+                "PlusMinus": 0,
+                "KAST": 0.765,
+                "ADR": 118.4,
+                "HS%": 0.25,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "BLG",
+            "teamName": "Bartho Lomew Gaming",
+            "players": [
+              {
+                "Player": "Sting",
+                "Agent": "Hush",
+                "R1.0": 1.211,
+                "ACS": 276,
+                "K": 16,
+                "D": 14,
+                "A": 3,
+                "PlusMinus": 2,
+                "KAST": 0.824,
+                "ADR": 183.6,
+                "HS%": 0.244,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 17
+              },
+              {
+                "Player": "asher",
+                "Agent": "Phoenix",
+                "R1.0": 1.079,
+                "ACS": 240,
+                "K": 14,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": 1,
+                "KAST": 0.647,
+                "ADR": 158.1,
+                "HS%": 0.137,
+                "FK": 4,
+                "FD": 5,
+                "PlusMinus2": -1,
+                "Rounds": 17
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Cypher",
+                "R1.0": 1.069,
+                "ACS": 209,
+                "K": 14,
+                "D": 12,
+                "A": 5,
+                "PlusMinus": 2,
+                "KAST": 0.647,
+                "ADR": 143.9,
+                "HS%": 0.394,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 17
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Sova",
+                "R1.0": 0.989,
+                "ACS": 210,
+                "K": 10,
+                "D": 15,
+                "A": 7,
+                "PlusMinus": -5,
+                "KAST": 0.765,
+                "ADR": 168.4,
+                "HS%": 0.135,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 17
+              },
+              {
+                "Player": "amara",
+                "Agent": "Omen",
+                "R1.0": 0.637,
+                "ACS": 158,
+                "K": 7,
+                "D": 16,
+                "A": 7,
+                "PlusMinus": -9,
+                "KAST": 0.471,
+                "ADR": 113.6,
+                "HS%": 0.15,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              }
+            ]
+          },
+          {
+            "team": "TANK",
+            "teamName": "TANKERS",
+            "players": [
+              {
+                "Player": "kaydeg",
+                "Agent": "Sova",
+                "R1.0": 1.145,
+                "ACS": 233,
+                "K": 14,
+                "D": 12,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.765,
+                "ADR": 164.8,
+                "HS%": 0.27,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "androobee",
+                "Agent": "Omen",
+                "R1.0": 1.016,
+                "ACS": 200,
+                "K": 11,
+                "D": 12,
+                "A": 7,
+                "PlusMinus": -1,
+                "KAST": 0.706,
+                "ADR": 143.2,
+                "HS%": 0.225,
+                "FK": 3,
+                "FD": 4,
+                "PlusMinus2": -1,
+                "Rounds": 17
+              },
+              {
+                "Player": "linus",
+                "Agent": "Phoenix",
+                "R1.0": 0.998,
+                "ACS": 184,
+                "K": 11,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": 1,
+                "KAST": 0.647,
+                "ADR": 149.8,
+                "HS%": 0.209,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 17
+              },
+              {
+                "Player": "angus",
+                "Agent": "Neon",
+                "R1.0": 0.908,
+                "ACS": 196,
+                "K": 10,
+                "D": 13,
+                "A": 5,
+                "PlusMinus": -3,
+                "KAST": 0.706,
+                "ADR": 133.6,
+                "HS%": 0.263,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 17
+              },
+              {
+                "Player": "Ahsum",
+                "Agent": "Chamber",
+                "R1.0": 0.885,
+                "ACS": 165,
+                "K": 10,
+                "D": 11,
+                "A": 3,
+                "PlusMinus": -1,
+                "KAST": 0.765,
+                "ADR": 107.6,
+                "HS%": 0.179,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 17
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Summit",
+      "score1": 10,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "BLG",
+          "teamName": "Bartho Lomew Gaming",
+          "players": [
+            {
+              "Player": "phuzzy",
+              "Agent": "Chamber",
+              "R1.0": 1.198,
+              "ACS": 263,
+              "K": 22,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": 4,
+              "KAST": 0.913,
+              "ADR": 161.3,
+              "HS%": 0.342,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "amara",
+              "Agent": "Sage",
+              "R1.0": 1.089,
+              "ACS": 236,
+              "K": 20,
+              "D": 18,
+              "A": 8,
+              "PlusMinus": 2,
+              "KAST": 0.739,
+              "ADR": 138.7,
+              "HS%": 0.11,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Sting",
+              "Agent": "Hush",
+              "R1.0": 0.966,
+              "ACS": 212,
+              "K": 17,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": 0,
+              "KAST": 0.696,
+              "ADR": 135.6,
+              "HS%": 0.288,
+              "FK": 2,
+              "FD": 5,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "asher",
+              "Agent": "Miks",
+              "R1.0": 0.933,
+              "ACS": 160,
+              "K": 15,
+              "D": 16,
+              "A": 12,
+              "PlusMinus": -1,
+              "KAST": 0.652,
+              "ADR": 103.6,
+              "HS%": 0.312,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "caesparz",
+              "Agent": "Fade",
+              "R1.0": 0.889,
+              "ACS": 169,
+              "K": 11,
+              "D": 18,
+              "A": 12,
+              "PlusMinus": -7,
+              "KAST": 0.783,
+              "ADR": 123.1,
+              "HS%": 0.155,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            }
+          ]
+        },
+        {
+          "team": "TANK",
+          "teamName": "TANKERS",
+          "players": [
+            {
+              "Player": "linus",
+              "Agent": "Omen",
+              "R1.0": 1.472,
+              "ACS": 266,
+              "K": 23,
+              "D": 12,
+              "A": 13,
+              "PlusMinus": 11,
+              "KAST": 0.826,
+              "ADR": 187.3,
+              "HS%": 0.143,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Ahsum",
+              "Agent": "Chamber",
+              "R1.0": 1.006,
+              "ACS": 219,
+              "K": 20,
+              "D": 16,
+              "A": 0,
+              "PlusMinus": 4,
+              "KAST": 0.609,
+              "ADR": 138.3,
+              "HS%": 0.207,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": "Hush",
+              "R1.0": 0.996,
+              "ACS": 222,
+              "K": 17,
+              "D": 19,
+              "A": 7,
+              "PlusMinus": -2,
+              "KAST": 0.739,
+              "ADR": 141.5,
+              "HS%": 0.239,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "angus",
+              "Agent": "Neon",
+              "R1.0": 0.992,
+              "ACS": 230,
+              "K": 17,
+              "D": 20,
+              "A": 8,
+              "PlusMinus": -3,
+              "KAST": 0.696,
+              "ADR": 148.9,
+              "HS%": 0.317,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "androobee",
+              "Agent": "Fade",
+              "R1.0": 0.739,
+              "ACS": 143,
+              "K": 10,
+              "D": 18,
+              "A": 9,
+              "PlusMinus": -8,
+              "KAST": 0.696,
+              "ADR": 95.2,
+              "HS%": 0.167,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "BLG",
+            "teamName": "Bartho Lomew Gaming",
+            "players": [
+              {
+                "Player": "phuzzy",
+                "Agent": "Chamber",
+                "R1.0": 1.426,
+                "ACS": 354,
+                "K": 13,
+                "D": 10,
+                "A": 2,
+                "PlusMinus": 3,
+                "KAST": 1.0,
+                "ADR": 209.3,
+                "HS%": 0.259,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 11
+              },
+              {
+                "Player": "Sting",
+                "Agent": "Hush",
+                "R1.0": 0.912,
+                "ACS": 220,
+                "K": 9,
+                "D": 10,
+                "A": 1,
+                "PlusMinus": -1,
+                "KAST": 0.636,
+                "ADR": 137.4,
+                "HS%": 0.391,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 11
+              },
+              {
+                "Player": "asher",
+                "Agent": "Miks",
+                "R1.0": 0.612,
+                "ACS": 136,
+                "K": 6,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -5,
+                "KAST": 0.545,
+                "ADR": 79.5,
+                "HS%": 0.364,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 11
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Fade",
+                "R1.0": 0.61,
+                "ACS": 119,
+                "K": 3,
+                "D": 10,
+                "A": 5,
+                "PlusMinus": -7,
+                "KAST": 0.727,
+                "ADR": 91.5,
+                "HS%": 0.143,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 11
+              },
+              {
+                "Player": "amara",
+                "Agent": "Sage",
+                "R1.0": 0.516,
+                "ACS": 109,
+                "K": 4,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.545,
+                "ADR": 73.3,
+                "HS%": 0.105,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3,
+                "Rounds": 11
+              }
+            ]
+          },
+          {
+            "team": "TANK",
+            "teamName": "TANKERS",
+            "players": [
+              {
+                "Player": "linus",
+                "Agent": "Omen",
+                "R1.0": 1.07,
+                "ACS": 214,
+                "K": 9,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": 1,
+                "KAST": 0.667,
+                "ADR": 139.9,
+                "HS%": 0.083,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Ahsum",
+                "Agent": "Chamber",
+                "R1.0": 0.909,
+                "ACS": 225,
+                "K": 10,
+                "D": 9,
+                "A": 0,
+                "PlusMinus": 1,
+                "KAST": 0.417,
+                "ADR": 141.0,
+                "HS%": 0.231,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "angus",
+                "Agent": "Neon",
+                "R1.0": 0.816,
+                "ACS": 191,
+                "K": 8,
+                "D": 11,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.667,
+                "ADR": 130.2,
+                "HS%": 0.273,
+                "FK": 2,
+                "FD": 3,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "androobee",
+                "Agent": "Fade",
+                "R1.0": 0.617,
+                "ACS": 134,
+                "K": 4,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": -7,
+                "KAST": 0.667,
+                "ADR": 93.4,
+                "HS%": 0.417,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "kaydeg",
+                "Agent": "Hush",
+                "R1.0": 0.586,
+                "ACS": 117,
+                "K": 5,
+                "D": 11,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.667,
+                "ADR": 77.9,
+                "HS%": 0.308,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "BLG",
+            "teamName": "Bartho Lomew Gaming",
+            "players": [
+              {
+                "Player": "amara",
+                "Agent": "Sage",
+                "R1.0": 1.615,
+                "ACS": 353,
+                "K": 16,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": 8,
+                "KAST": 0.917,
+                "ADR": 198.6,
+                "HS%": 0.111,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "asher",
+                "Agent": "Miks",
+                "R1.0": 1.226,
+                "ACS": 183,
+                "K": 9,
+                "D": 5,
+                "A": 8,
+                "PlusMinus": 4,
+                "KAST": 0.75,
+                "ADR": 125.7,
+                "HS%": 0.286,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "caesparz",
+                "Agent": "Fade",
+                "R1.0": 1.145,
+                "ACS": 215,
+                "K": 8,
+                "D": 8,
+                "A": 7,
+                "PlusMinus": 0,
+                "KAST": 0.833,
+                "ADR": 152.1,
+                "HS%": 0.162,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "Sting",
+                "Agent": "Hush",
+                "R1.0": 1.015,
+                "ACS": 205,
+                "K": 8,
+                "D": 7,
+                "A": 2,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 133.9,
+                "HS%": 0.207,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "phuzzy",
+                "Agent": "Chamber",
+                "R1.0": 0.99,
+                "ACS": 180,
+                "K": 9,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": 1,
+                "KAST": 0.833,
+                "ADR": 117.4,
+                "HS%": 0.545,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "TANK",
+            "teamName": "TANKERS",
+            "players": [
+              {
+                "Player": "linus",
+                "Agent": "Omen",
+                "R1.0": 1.911,
+                "ACS": 323,
+                "K": 14,
+                "D": 4,
+                "A": 8,
+                "PlusMinus": 10,
+                "KAST": 1.0,
+                "ADR": 239.0,
+                "HS%": 0.188,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 11
+              },
+              {
+                "Player": "kaydeg",
+                "Agent": "Hush",
+                "R1.0": 1.443,
+                "ACS": 337,
+                "K": 12,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": 4,
+                "KAST": 0.818,
+                "ADR": 210.8,
+                "HS%": 0.212,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3,
+                "Rounds": 11
+              },
+              {
+                "Player": "angus",
+                "Agent": "Neon",
+                "R1.0": 1.184,
+                "ACS": 272,
+                "K": 9,
+                "D": 9,
+                "A": 7,
+                "PlusMinus": 0,
+                "KAST": 0.727,
+                "ADR": 169.3,
+                "HS%": 0.37,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 11
+              },
+              {
+                "Player": "Ahsum",
+                "Agent": "Chamber",
+                "R1.0": 1.112,
+                "ACS": 212,
+                "K": 10,
+                "D": 7,
+                "A": 0,
+                "PlusMinus": 3,
+                "KAST": 0.818,
+                "ADR": 135.5,
+                "HS%": 0.188,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 11
+              },
+              {
+                "Player": "androobee",
+                "Agent": "Fade",
+                "R1.0": 0.871,
+                "ACS": 153,
+                "K": 6,
+                "D": 7,
+                "A": 4,
+                "PlusMinus": -1,
+                "KAST": 0.727,
+                "ADR": 97.2,
+                "HS%": 0.042,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 11
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "streamLink": "https://youtube.com/live/Ur0ZoJz80Rs"
 }

@@ -2,13 +2,13 @@
   "BLG": {
     "team": "BLG",
     "teamName": "Bartho Lomew Gaming",
-    "overallAtkPct": 0,
-    "overallDefPct": 0,
+    "overallAtkPct": 0.393,
+    "overallDefPct": 0.517,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -60,7 +60,7 @@
       {
         "map": "Corrode",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -85,16 +85,16 @@
       },
       {
         "map": "Haven",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 34,
+        "roundsWon": 16,
+        "roundPct": 0.471,
+        "atkPct": 0.529,
+        "defPct": 0.412
       },
       {
         "map": "Icebox",
@@ -152,14 +152,14 @@
         "map": "Summit",
         "pick": 0,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 23,
+        "roundsWon": 10,
+        "roundPct": 0.435,
+        "atkPct": 0.182,
+        "defPct": 0.667
       },
       {
         "map": "Sunset",
@@ -2303,8 +2303,8 @@
   "TANK": {
     "team": "TANK",
     "teamName": "TANKERS",
-    "overallAtkPct": 0,
-    "overallDefPct": 0,
+    "overallAtkPct": 0.483,
+    "overallDefPct": 0.607,
     "maps": [
       {
         "map": "Abyss",
@@ -2335,7 +2335,7 @@
       {
         "map": "Bind",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -2388,14 +2388,14 @@
         "map": "Haven",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 34,
+        "roundsWon": 18,
+        "roundPct": 0.529,
+        "atkPct": 0.588,
+        "defPct": 0.471
       },
       {
         "map": "Icebox",
@@ -2413,7 +2413,7 @@
       {
         "map": "Lotus",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -2451,16 +2451,16 @@
       },
       {
         "map": "Summit",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 23,
+        "roundsWon": 13,
+        "roundPct": 0.565,
+        "atkPct": 0.333,
+        "defPct": 0.818
       },
       {
         "map": "Sunset",

@@ -21,12 +21,12 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Neon",
+        "agent": "Chamber",
         "comps": 2,
         "pickPct": 0.5
       },
       {
-        "agent": "Chamber",
+        "agent": "Neon",
         "comps": 2,
         "pickPct": 0.5
       },
@@ -36,7 +36,7 @@
         "pickPct": 0.5
       },
       {
-        "agent": "Cypher",
+        "agent": "Phoenix",
         "comps": 1,
         "pickPct": 0.25
       },
@@ -46,12 +46,7 @@
         "pickPct": 0.25
       },
       {
-        "agent": "Phoenix",
-        "comps": 1,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Jett",
+        "agent": "Cypher",
         "comps": 1,
         "pickPct": 0.25
       },
@@ -62,6 +57,11 @@
       },
       {
         "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Jett",
         "comps": 1,
         "pickPct": 0.25
       }
@@ -109,6 +109,73 @@
           "Neon",
           "Omen",
           "Vyse"
+        ]
+      }
+    }
+  },
+  "Haven": {
+    "mapsPlayed": 1,
+    "recordedComps": 2,
+    "atkPct": 0.559,
+    "defPct": 0.441,
+    "agents": [
+      {
+        "agent": "Phoenix",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Omen",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Hush",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Chamber",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "BLG": {
+        "team": "BLG",
+        "teamName": "Bartho Lomew Gaming",
+        "agents": [
+          "Cypher",
+          "Hush",
+          "Omen",
+          "Phoenix",
+          "Sova"
+        ]
+      },
+      "TANK": {
+        "team": "TANK",
+        "teamName": "TANKERS",
+        "agents": [
+          "Chamber",
+          "Neon",
+          "Omen",
+          "Phoenix",
+          "Sova"
         ]
       }
     }
@@ -250,58 +317,84 @@
     }
   },
   "Summit": {
-    "mapsPlayed": 1,
-    "recordedComps": 2,
-    "atkPct": 0.389,
-    "defPct": 0.611,
+    "mapsPlayed": 2,
+    "recordedComps": 4,
+    "atkPct": 0.317,
+    "defPct": 0.683,
     "agents": [
       {
-        "agent": "Cypher",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
         "agent": "Hush",
-        "comps": 1,
-        "pickPct": 0.5
+        "comps": 3,
+        "pickPct": 0.75
       },
       {
-        "agent": "Jett",
-        "comps": 1,
-        "pickPct": 0.5
+        "agent": "Fade",
+        "comps": 3,
+        "pickPct": 0.75
       },
       {
-        "agent": "Sova",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Clove",
-        "comps": 1,
+        "agent": "Chamber",
+        "comps": 2,
         "pickPct": 0.5
       },
       {
         "agent": "Omen",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Fade",
-        "comps": 1,
-        "pickPct": 0.5
-      },
-      {
-        "agent": "Astra",
-        "comps": 1,
+        "comps": 2,
         "pickPct": 0.5
       },
       {
         "agent": "Neon",
-        "comps": 1,
+        "comps": 2,
         "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Miks",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Jett",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Clove",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.25
       }
     ],
     "teams": {
+      "BLG": {
+        "team": "BLG",
+        "teamName": "Bartho Lomew Gaming",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Hush",
+          "Miks",
+          "Sage"
+        ]
+      },
       "NBR": {
         "team": "NBR",
         "teamName": "Namebrand Ramyeon",
@@ -323,6 +416,17 @@
           "Neon",
           "Omen"
         ]
+      },
+      "TANK": {
+        "team": "TANK",
+        "teamName": "TANKERS",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Hush",
+          "Neon",
+          "Omen"
+        ]
       }
     }
   },
@@ -338,12 +442,12 @@
         "pickPct": 1.0
       },
       {
-        "agent": "Fade",
+        "agent": "Raze",
         "comps": 2,
         "pickPct": 1.0
       },
       {
-        "agent": "Raze",
+        "agent": "Fade",
         "comps": 2,
         "pickPct": 1.0
       },
