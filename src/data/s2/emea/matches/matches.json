@@ -1,5 +1,22 @@
 [
   {
+    "id": "hot-vs-atlc-s2-playoffs-2026-11-29",
+    "team1": "HOT",
+    "team2": "ATLC",
+    "team1Name": "Honestly Outrageous Temperatures",
+    "team2Name": "ATLNTIC Esports",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-11-29T16:00:00Z",
+    "stage": "Playoffs",
+    "winChance": {
+      "team1": 0.532,
+      "team2": 0.468
+    }
+  },
+  {
     "id": "xtc-vs-nip-s2-playoffs-2026-11-29",
     "team1": "XTC",
     "team2": "NIP",
