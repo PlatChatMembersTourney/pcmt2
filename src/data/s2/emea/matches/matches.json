@@ -1,5 +1,22 @@
 [
   {
+    "id": "nats-vs-seal-s2-playoffs-2026-11-29",
+    "team1": "NATS",
+    "team2": "SEAL",
+    "team1Name": "Never Available To Scrim",
+    "team2Name": "Stay Seally",
+    "score1": 0,
+    "score2": 0,
+    "completed": false,
+    "bestOf": 3,
+    "date": "2026-11-29T20:00:00Z",
+    "stage": "Playoffs",
+    "winChance": {
+      "team1": 0.546,
+      "team2": 0.454
+    }
+  },
+  {
     "id": "hot-vs-atlc-s2-playoffs-2026-11-29",
     "team1": "HOT",
     "team2": "ATLC",
