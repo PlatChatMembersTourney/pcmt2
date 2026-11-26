@@ -40,15 +40,1545 @@
     "team1Name": "Leading Ourselves Under Delusion",
     "team2Name": "Shaymins Really Good",
     "score1": 0,
-    "score2": 0,
-    "completed": false,
+    "score2": 2,
+    "completed": true,
     "bestOf": 3,
     "date": "2026-11-26T03:00:00Z",
     "stage": "Group A",
-    "winChance": {
-      "team1": 0.5,
-      "team2": 0.5
-    }
+    "veto": "SRG bans Haven, LOUD bans Corrode, SRG picks Sunset, LOUD picks Abyss, SRG bans Lotus, LOUD bans Summit, Bind remains",
+    "maps": [
+      {
+        "name": "Sunset",
+        "score1": 8,
+        "score2": 13
+      },
+      {
+        "name": "Abyss",
+        "score1": 8,
+        "score2": 13
+      }
+    ],
+    "combinedStats": [
+      {
+        "team": "LOUD",
+        "teamName": "Leading Ourselves Under Delusion",
+        "players": [
+          {
+            "Player": "Sizeable",
+            "R1.0": 1.203,
+            "ACS": 250,
+            "K": 38,
+            "D": 28,
+            "A": 13,
+            "PlusMinus": 10,
+            "KAST": 0.785,
+            "ADR": 154.1,
+            "HS%": 0.216,
+            "FK": 7,
+            "FD": 2,
+            "PlusMinus2": 5
+          },
+          {
+            "Player": "avi",
+            "R1.0": 0.997,
+            "ACS": 224,
+            "K": 32,
+            "D": 33,
+            "A": 7,
+            "PlusMinus": -1,
+            "KAST": 0.643,
+            "ADR": 154.4,
+            "HS%": 0.291,
+            "FK": 8,
+            "FD": 8,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "tenyaku",
+            "R1.0": 0.883,
+            "ACS": 178,
+            "K": 25,
+            "D": 29,
+            "A": 8,
+            "PlusMinus": -4,
+            "KAST": 0.69,
+            "ADR": 120.9,
+            "HS%": 0.208,
+            "FK": 5,
+            "FD": 2,
+            "PlusMinus2": 3
+          },
+          {
+            "Player": "dino",
+            "R1.0": 0.8,
+            "ACS": 158,
+            "K": 23,
+            "D": 29,
+            "A": 13,
+            "PlusMinus": -6,
+            "KAST": 0.595,
+            "ADR": 99.1,
+            "HS%": 0.454,
+            "FK": 2,
+            "FD": 4,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "roro",
+            "R1.0": 0.687,
+            "ACS": 127,
+            "K": 18,
+            "D": 32,
+            "A": 16,
+            "PlusMinus": -14,
+            "KAST": 0.643,
+            "ADR": 79.8,
+            "HS%": 0.129,
+            "FK": 3,
+            "FD": 1,
+            "PlusMinus2": 2
+          }
+        ]
+      },
+      {
+        "team": "SRG",
+        "teamName": "Shaymins Really Good",
+        "players": [
+          {
+            "Player": "colt",
+            "R1.0": 1.567,
+            "ACS": 348,
+            "K": 53,
+            "D": 25,
+            "A": 6,
+            "PlusMinus": 28,
+            "KAST": 0.762,
+            "ADR": 227.1,
+            "HS%": 0.423,
+            "FK": 8,
+            "FD": 4,
+            "PlusMinus2": 4
+          },
+          {
+            "Player": "Pieta",
+            "R1.0": 1.113,
+            "ACS": 250,
+            "K": 34,
+            "D": 35,
+            "A": 18,
+            "PlusMinus": -1,
+            "KAST": 0.739,
+            "ADR": 163.0,
+            "HS%": 0.303,
+            "FK": 7,
+            "FD": 7,
+            "PlusMinus2": 0
+          },
+          {
+            "Player": "Pumpkin",
+            "R1.0": 1.013,
+            "ACS": 174,
+            "K": 26,
+            "D": 24,
+            "A": 18,
+            "PlusMinus": 2,
+            "KAST": 0.786,
+            "ADR": 113.2,
+            "HS%": 0.263,
+            "FK": 1,
+            "FD": 3,
+            "PlusMinus2": -2
+          },
+          {
+            "Player": "platinum",
+            "R1.0": 0.958,
+            "ACS": 168,
+            "K": 26,
+            "D": 23,
+            "A": 13,
+            "PlusMinus": 3,
+            "KAST": 0.691,
+            "ADR": 109.7,
+            "HS%": 0.152,
+            "FK": 0,
+            "FD": 5,
+            "PlusMinus2": -5
+          },
+          {
+            "Player": "paul",
+            "R1.0": 0.513,
+            "ACS": 82,
+            "K": 12,
+            "D": 29,
+            "A": 7,
+            "PlusMinus": -17,
+            "KAST": 0.596,
+            "ADR": 54.8,
+            "HS%": 0.088,
+            "FK": 1,
+            "FD": 6,
+            "PlusMinus2": -5
+          }
+        ]
+      }
+    ],
+    "mapDetails": [
+      {
+        "name": "Sunset",
+        "score1": 8,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 2,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 4,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 5,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 7,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 8,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 13,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 20,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "LOUD",
+            "teamName": "Leading Ourselves Under Delusion",
+            "players": [
+              {
+                "Player": "avi",
+                "Agent": "Hush",
+                "R1.0": 1.294,
+                "ACS": 308,
+                "K": 22,
+                "D": 17,
+                "A": 3,
+                "PlusMinus": 5,
+                "KAST": 0.762,
+                "ADR": 202.2,
+                "HS%": 0.389,
+                "FK": 7,
+                "FD": 2,
+                "PlusMinus2": 5
+              },
+              {
+                "Player": "dino",
+                "Agent": "Omen",
+                "R1.0": 0.872,
+                "ACS": 199,
+                "K": 15,
+                "D": 16,
+                "A": 5,
+                "PlusMinus": -1,
+                "KAST": 0.476,
+                "ADR": 125.0,
+                "HS%": 0.576,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "Sizeable",
+                "Agent": "Fade",
+                "R1.0": 0.847,
+                "ACS": 165,
+                "K": 13,
+                "D": 16,
+                "A": 6,
+                "PlusMinus": -3,
+                "KAST": 0.714,
+                "ADR": 101.9,
+                "HS%": 0.243,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "tenyaku",
+                "Agent": "Chamber",
+                "R1.0": 0.638,
+                "ACS": 123,
+                "K": 8,
+                "D": 14,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.619,
+                "ADR": 78.8,
+                "HS%": 0.208,
+                "FK": 2,
+                "FD": 2,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "roro",
+                "Agent": "Breach",
+                "R1.0": 0.636,
+                "ACS": 131,
+                "K": 9,
+                "D": 17,
+                "A": 8,
+                "PlusMinus": -8,
+                "KAST": 0.524,
+                "ADR": 82.7,
+                "HS%": 0.139,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0
+              }
+            ]
+          },
+          {
+            "team": "SRG",
+            "teamName": "Shaymins Really Good",
+            "players": [
+              {
+                "Player": "colt",
+                "Agent": "Chamber",
+                "R1.0": 1.631,
+                "ACS": 338,
+                "K": 26,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": 15,
+                "KAST": 0.81,
+                "ADR": 230.8,
+                "HS%": 0.465,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "Pieta",
+                "Agent": "Hush",
+                "R1.0": 1.271,
+                "ACS": 276,
+                "K": 19,
+                "D": 18,
+                "A": 11,
+                "PlusMinus": 1,
+                "KAST": 0.81,
+                "ADR": 191.8,
+                "HS%": 0.333,
+                "FK": 4,
+                "FD": 4,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "platinum",
+                "Agent": "Fade",
+                "R1.0": 1.11,
+                "ACS": 186,
+                "K": 15,
+                "D": 12,
+                "A": 8,
+                "PlusMinus": 3,
+                "KAST": 0.857,
+                "ADR": 126.4,
+                "HS%": 0.17,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1
+              },
+              {
+                "Player": "Pumpkin",
+                "Agent": "Astra",
+                "R1.0": 0.907,
+                "ACS": 132,
+                "K": 10,
+                "D": 11,
+                "A": 11,
+                "PlusMinus": -1,
+                "KAST": 0.762,
+                "ADR": 88.0,
+                "HS%": 0.276,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2
+              },
+              {
+                "Player": "paul",
+                "Agent": "Neon",
+                "R1.0": 0.702,
+                "ACS": 123,
+                "K": 10,
+                "D": 15,
+                "A": 5,
+                "PlusMinus": -5,
+                "KAST": 0.667,
+                "ADR": 77.0,
+                "HS%": 0.077,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2
+              }
+            ]
+          }
+        ],
+        "sides": {
+          "atk": [
+            {
+              "team": "LOUD",
+              "teamName": "Leading Ourselves Under Delusion",
+              "players": [
+                {
+                  "Player": "dino",
+                  "Agent": "Omen",
+                  "R1.0": 1.207,
+                  "ACS": 254,
+                  "K": 9,
+                  "D": 6,
+                  "A": 2,
+                  "PlusMinus": 3,
+                  "KAST": 0.667,
+                  "ADR": 157.6,
+                  "HS%": 0.524,
+                  "FK": 1,
+                  "FD": 1,
+                  "PlusMinus2": 0,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "avi",
+                  "Agent": "Hush",
+                  "R1.0": 1.152,
+                  "ACS": 275,
+                  "K": 9,
+                  "D": 7,
+                  "A": 0,
+                  "PlusMinus": 2,
+                  "KAST": 0.667,
+                  "ADR": 175.3,
+                  "HS%": 0.368,
+                  "FK": 2,
+                  "FD": 2,
+                  "PlusMinus2": 0,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "Sizeable",
+                  "Agent": "Fade",
+                  "R1.0": 0.787,
+                  "ACS": 151,
+                  "K": 5,
+                  "D": 7,
+                  "A": 4,
+                  "PlusMinus": -2,
+                  "KAST": 0.667,
+                  "ADR": 86.1,
+                  "HS%": 0.214,
+                  "FK": 1,
+                  "FD": 1,
+                  "PlusMinus2": 0,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "roro",
+                  "Agent": "Breach",
+                  "R1.0": 0.715,
+                  "ACS": 151,
+                  "K": 5,
+                  "D": 8,
+                  "A": 3,
+                  "PlusMinus": -3,
+                  "KAST": 0.556,
+                  "ADR": 100.4,
+                  "HS%": 0.176,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "tenyaku",
+                  "Agent": "Chamber",
+                  "R1.0": 0.664,
+                  "ACS": 119,
+                  "K": 3,
+                  "D": 6,
+                  "A": 2,
+                  "PlusMinus": -3,
+                  "KAST": 0.667,
+                  "ADR": 86.3,
+                  "HS%": 0.167,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 9
+                }
+              ]
+            },
+            {
+              "team": "SRG",
+              "teamName": "Shaymins Really Good",
+              "players": [
+                {
+                  "Player": "Pieta",
+                  "Agent": "Hush",
+                  "R1.0": 1.546,
+                  "ACS": 348,
+                  "K": 14,
+                  "D": 10,
+                  "A": 6,
+                  "PlusMinus": 4,
+                  "KAST": 0.833,
+                  "ADR": 239.5,
+                  "HS%": 0.326,
+                  "FK": 3,
+                  "FD": 2,
+                  "PlusMinus2": 1,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "colt",
+                  "Agent": "Chamber",
+                  "R1.0": 1.495,
+                  "ACS": 300,
+                  "K": 14,
+                  "D": 6,
+                  "A": 1,
+                  "PlusMinus": 8,
+                  "KAST": 0.75,
+                  "ADR": 209.5,
+                  "HS%": 0.429,
+                  "FK": 1,
+                  "FD": 2,
+                  "PlusMinus2": -1,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "platinum",
+                  "Agent": "Fade",
+                  "R1.0": 0.99,
+                  "ACS": 154,
+                  "K": 7,
+                  "D": 7,
+                  "A": 5,
+                  "PlusMinus": 0,
+                  "KAST": 0.833,
+                  "ADR": 109.2,
+                  "HS%": 0.174,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "Pumpkin",
+                  "Agent": "Astra",
+                  "R1.0": 0.915,
+                  "ACS": 118,
+                  "K": 6,
+                  "D": 5,
+                  "A": 5,
+                  "PlusMinus": 1,
+                  "KAST": 0.75,
+                  "ADR": 79.0,
+                  "HS%": 0.455,
+                  "FK": 0,
+                  "FD": 2,
+                  "PlusMinus2": -2,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "paul",
+                  "Agent": "Neon",
+                  "R1.0": 0.698,
+                  "ACS": 120,
+                  "K": 5,
+                  "D": 8,
+                  "A": 3,
+                  "PlusMinus": -3,
+                  "KAST": 0.667,
+                  "ADR": 79.2,
+                  "HS%": 0.095,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 12
+                }
+              ]
+            }
+          ],
+          "def": [
+            {
+              "team": "LOUD",
+              "teamName": "Leading Ourselves Under Delusion",
+              "players": [
+                {
+                  "Player": "avi",
+                  "Agent": "Hush",
+                  "R1.0": 1.4,
+                  "ACS": 333,
+                  "K": 13,
+                  "D": 10,
+                  "A": 3,
+                  "PlusMinus": 3,
+                  "KAST": 0.833,
+                  "ADR": 222.3,
+                  "HS%": 0.4,
+                  "FK": 5,
+                  "FD": 0,
+                  "PlusMinus2": 5,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "Sizeable",
+                  "Agent": "Fade",
+                  "R1.0": 0.892,
+                  "ACS": 175,
+                  "K": 8,
+                  "D": 9,
+                  "A": 2,
+                  "PlusMinus": -1,
+                  "KAST": 0.75,
+                  "ADR": 113.8,
+                  "HS%": 0.261,
+                  "FK": 1,
+                  "FD": 1,
+                  "PlusMinus2": 0,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "dino",
+                  "Agent": "Omen",
+                  "R1.0": 0.62,
+                  "ACS": 158,
+                  "K": 6,
+                  "D": 10,
+                  "A": 3,
+                  "PlusMinus": -4,
+                  "KAST": 0.333,
+                  "ADR": 100.5,
+                  "HS%": 0.667,
+                  "FK": 0,
+                  "FD": 2,
+                  "PlusMinus2": -2,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "tenyaku",
+                  "Agent": "Chamber",
+                  "R1.0": 0.618,
+                  "ACS": 126,
+                  "K": 5,
+                  "D": 8,
+                  "A": 1,
+                  "PlusMinus": -3,
+                  "KAST": 0.583,
+                  "ADR": 73.2,
+                  "HS%": 0.25,
+                  "FK": 2,
+                  "FD": 1,
+                  "PlusMinus2": 1,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "roro",
+                  "Agent": "Breach",
+                  "R1.0": 0.577,
+                  "ACS": 117,
+                  "K": 4,
+                  "D": 9,
+                  "A": 5,
+                  "PlusMinus": -5,
+                  "KAST": 0.5,
+                  "ADR": 69.4,
+                  "HS%": 0.105,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 12
+                }
+              ]
+            },
+            {
+              "team": "SRG",
+              "teamName": "Shaymins Really Good",
+              "players": [
+                {
+                  "Player": "colt",
+                  "Agent": "Chamber",
+                  "R1.0": 1.812,
+                  "ACS": 388,
+                  "K": 12,
+                  "D": 5,
+                  "A": 4,
+                  "PlusMinus": 7,
+                  "KAST": 0.889,
+                  "ADR": 259.2,
+                  "HS%": 0.5,
+                  "FK": 3,
+                  "FD": 0,
+                  "PlusMinus2": 3,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "platinum",
+                  "Agent": "Fade",
+                  "R1.0": 1.269,
+                  "ACS": 228,
+                  "K": 8,
+                  "D": 5,
+                  "A": 3,
+                  "PlusMinus": 3,
+                  "KAST": 0.889,
+                  "ADR": 149.3,
+                  "HS%": 0.167,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "Pieta",
+                  "Agent": "Hush",
+                  "R1.0": 0.904,
+                  "ACS": 179,
+                  "K": 5,
+                  "D": 8,
+                  "A": 5,
+                  "PlusMinus": -3,
+                  "KAST": 0.778,
+                  "ADR": 128.2,
+                  "HS%": 0.353,
+                  "FK": 1,
+                  "FD": 2,
+                  "PlusMinus2": -1,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "Pumpkin",
+                  "Agent": "Astra",
+                  "R1.0": 0.895,
+                  "ACS": 151,
+                  "K": 4,
+                  "D": 6,
+                  "A": 6,
+                  "PlusMinus": -2,
+                  "KAST": 0.778,
+                  "ADR": 100.1,
+                  "HS%": 0.167,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "paul",
+                  "Agent": "Neon",
+                  "R1.0": 0.707,
+                  "ACS": 127,
+                  "K": 5,
+                  "D": 7,
+                  "A": 2,
+                  "PlusMinus": -2,
+                  "KAST": 0.667,
+                  "ADR": 74.1,
+                  "HS%": 0.056,
+                  "FK": 1,
+                  "FD": 2,
+                  "PlusMinus2": -1,
+                  "Rounds": 9
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Abyss",
+        "score1": 8,
+        "score2": 13,
+        "rounds": [
+          {
+            "round": 1,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 2,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 3,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 4,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 5,
+            "winner": 1,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 6,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 7,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 8,
+            "winner": 1,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 9,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 10,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 11,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 12,
+            "winner": 2,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 13,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 14,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 15,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 16,
+            "winner": 2,
+            "side": "def",
+            "endType": "Bomb defused"
+          },
+          {
+            "round": 17,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 18,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Eliminated"
+          },
+          {
+            "round": 19,
+            "winner": 1,
+            "side": "atk",
+            "endType": "Bomb detonated"
+          },
+          {
+            "round": 20,
+            "winner": 2,
+            "side": "def",
+            "endType": "Round timer expired"
+          },
+          {
+            "round": 21,
+            "winner": 2,
+            "side": "def",
+            "endType": "Eliminated"
+          }
+        ],
+        "stats": [
+          {
+            "team": "LOUD",
+            "teamName": "Leading Ourselves Under Delusion",
+            "players": [
+              {
+                "Player": "Sizeable",
+                "Agent": "Sova",
+                "R1.0": 1.559,
+                "ACS": 336,
+                "K": 25,
+                "D": 12,
+                "A": 7,
+                "PlusMinus": 13,
+                "KAST": 0.857,
+                "ADR": 206.2,
+                "HS%": 0.19,
+                "FK": 5,
+                "FD": 0,
+                "PlusMinus2": 5
+              },
+              {
+                "Player": "tenyaku",
+                "Agent": "Chamber",
+                "R1.0": 1.129,
+                "ACS": 233,
+                "K": 17,
+                "D": 15,
+                "A": 5,
+                "PlusMinus": 2,
+                "KAST": 0.762,
+                "ADR": 163.0,
+                "HS%": 0.208,
+                "FK": 3,
+                "FD": 0,
+                "PlusMinus2": 3
+              },
+              {
+                "Player": "roro",
+                "Agent": "Breach",
+                "R1.0": 0.737,
+                "ACS": 123,
+                "K": 9,
+                "D": 15,
+                "A": 8,
+                "PlusMinus": -6,
+                "KAST": 0.762,
+                "ADR": 76.9,
+                "HS%": 0.119,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "dino",
+                "Agent": "Astra",
+                "R1.0": 0.728,
+                "ACS": 118,
+                "K": 8,
+                "D": 13,
+                "A": 8,
+                "PlusMinus": -5,
+                "KAST": 0.714,
+                "ADR": 73.1,
+                "HS%": 0.333,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "avi",
+                "Agent": "Hush",
+                "R1.0": 0.699,
+                "ACS": 140,
+                "K": 10,
+                "D": 16,
+                "A": 4,
+                "PlusMinus": -6,
+                "KAST": 0.524,
+                "ADR": 106.6,
+                "HS%": 0.194,
+                "FK": 1,
+                "FD": 6,
+                "PlusMinus2": -5
+              }
+            ]
+          },
+          {
+            "team": "SRG",
+            "teamName": "Shaymins Really Good",
+            "players": [
+              {
+                "Player": "colt",
+                "Agent": "Chamber",
+                "R1.0": 1.503,
+                "ACS": 358,
+                "K": 27,
+                "D": 14,
+                "A": 1,
+                "PlusMinus": 13,
+                "KAST": 0.714,
+                "ADR": 223.3,
+                "HS%": 0.381,
+                "FK": 4,
+                "FD": 2,
+                "PlusMinus2": 2
+              },
+              {
+                "Player": "Pumpkin",
+                "Agent": "Astra",
+                "R1.0": 1.119,
+                "ACS": 217,
+                "K": 16,
+                "D": 13,
+                "A": 7,
+                "PlusMinus": 3,
+                "KAST": 0.81,
+                "ADR": 138.4,
+                "HS%": 0.25,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "Pieta",
+                "Agent": "Hush",
+                "R1.0": 0.955,
+                "ACS": 225,
+                "K": 15,
+                "D": 17,
+                "A": 7,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 134.2,
+                "HS%": 0.273,
+                "FK": 3,
+                "FD": 3,
+                "PlusMinus2": 0
+              },
+              {
+                "Player": "platinum",
+                "Agent": "Sova",
+                "R1.0": 0.805,
+                "ACS": 151,
+                "K": 11,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": 0,
+                "KAST": 0.524,
+                "ADR": 92.9,
+                "HS%": 0.135,
+                "FK": 0,
+                "FD": 4,
+                "PlusMinus2": -4
+              },
+              {
+                "Player": "paul",
+                "Agent": "Neon",
+                "R1.0": 0.325,
+                "ACS": 41,
+                "K": 2,
+                "D": 14,
+                "A": 2,
+                "PlusMinus": -12,
+                "KAST": 0.524,
+                "ADR": 32.7,
+                "HS%": 0.1,
+                "FK": 0,
+                "FD": 3,
+                "PlusMinus2": -3
+              }
+            ]
+          }
+        ],
+        "sides": {
+          "atk": [
+            {
+              "team": "LOUD",
+              "teamName": "Leading Ourselves Under Delusion",
+              "players": [
+                {
+                  "Player": "Sizeable",
+                  "Agent": "Sova",
+                  "R1.0": 1.478,
+                  "ACS": 339,
+                  "K": 11,
+                  "D": 6,
+                  "A": 1,
+                  "PlusMinus": 5,
+                  "KAST": 0.889,
+                  "ADR": 199.7,
+                  "HS%": 0.259,
+                  "FK": 2,
+                  "FD": 0,
+                  "PlusMinus2": 2,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "tenyaku",
+                  "Agent": "Chamber",
+                  "R1.0": 0.929,
+                  "ACS": 217,
+                  "K": 6,
+                  "D": 8,
+                  "A": 2,
+                  "PlusMinus": -2,
+                  "KAST": 0.667,
+                  "ADR": 157.9,
+                  "HS%": 0.375,
+                  "FK": 1,
+                  "FD": 0,
+                  "PlusMinus2": 1,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "dino",
+                  "Agent": "Astra",
+                  "R1.0": 0.711,
+                  "ACS": 166,
+                  "K": 5,
+                  "D": 7,
+                  "A": 1,
+                  "PlusMinus": -2,
+                  "KAST": 0.556,
+                  "ADR": 99.8,
+                  "HS%": 0.556,
+                  "FK": 1,
+                  "FD": 0,
+                  "PlusMinus2": 1,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "avi",
+                  "Agent": "Hush",
+                  "R1.0": 0.629,
+                  "ACS": 124,
+                  "K": 3,
+                  "D": 7,
+                  "A": 2,
+                  "PlusMinus": -4,
+                  "KAST": 0.444,
+                  "ADR": 119.6,
+                  "HS%": 0.158,
+                  "FK": 0,
+                  "FD": 4,
+                  "PlusMinus2": -4,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "roro",
+                  "Agent": "Breach",
+                  "R1.0": 0.457,
+                  "ACS": 78,
+                  "K": 3,
+                  "D": 7,
+                  "A": 3,
+                  "PlusMinus": -4,
+                  "KAST": 0.556,
+                  "ADR": 26.6,
+                  "HS%": 0.0,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 9
+                }
+              ]
+            },
+            {
+              "team": "SRG",
+              "teamName": "Shaymins Really Good",
+              "players": [
+                {
+                  "Player": "colt",
+                  "Agent": "Chamber",
+                  "R1.0": 1.416,
+                  "ACS": 347,
+                  "K": 14,
+                  "D": 8,
+                  "A": 1,
+                  "PlusMinus": 6,
+                  "KAST": 0.667,
+                  "ADR": 217.1,
+                  "HS%": 0.385,
+                  "FK": 1,
+                  "FD": 1,
+                  "PlusMinus2": 0,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "Pumpkin",
+                  "Agent": "Astra",
+                  "R1.0": 1.347,
+                  "ACS": 273,
+                  "K": 12,
+                  "D": 7,
+                  "A": 3,
+                  "PlusMinus": 5,
+                  "KAST": 0.833,
+                  "ADR": 175.8,
+                  "HS%": 0.345,
+                  "FK": 1,
+                  "FD": 0,
+                  "PlusMinus2": 1,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "Pieta",
+                  "Agent": "Hush",
+                  "R1.0": 0.824,
+                  "ACS": 212,
+                  "K": 8,
+                  "D": 11,
+                  "A": 4,
+                  "PlusMinus": -3,
+                  "KAST": 0.583,
+                  "ADR": 121.3,
+                  "HS%": 0.231,
+                  "FK": 1,
+                  "FD": 3,
+                  "PlusMinus2": -2,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "platinum",
+                  "Agent": "Sova",
+                  "R1.0": 0.41,
+                  "ACS": 55,
+                  "K": 2,
+                  "D": 7,
+                  "A": 2,
+                  "PlusMinus": -5,
+                  "KAST": 0.417,
+                  "ADR": 43.3,
+                  "HS%": 0.4,
+                  "FK": 0,
+                  "FD": 2,
+                  "PlusMinus2": -2,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "paul",
+                  "Agent": "Neon",
+                  "R1.0": 0.222,
+                  "ACS": 11,
+                  "K": 0,
+                  "D": 8,
+                  "A": 2,
+                  "PlusMinus": -8,
+                  "KAST": 0.5,
+                  "ADR": 8.8,
+                  "HS%": 0.0,
+                  "FK": 0,
+                  "FD": 3,
+                  "PlusMinus2": -3,
+                  "Rounds": 12
+                }
+              ]
+            }
+          ],
+          "def": [
+            {
+              "team": "LOUD",
+              "teamName": "Leading Ourselves Under Delusion",
+              "players": [
+                {
+                  "Player": "Sizeable",
+                  "Agent": "Sova",
+                  "R1.0": 1.62,
+                  "ACS": 334,
+                  "K": 14,
+                  "D": 6,
+                  "A": 6,
+                  "PlusMinus": 8,
+                  "KAST": 0.833,
+                  "ADR": 211.2,
+                  "HS%": 0.139,
+                  "FK": 3,
+                  "FD": 0,
+                  "PlusMinus2": 3,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "tenyaku",
+                  "Agent": "Chamber",
+                  "R1.0": 1.279,
+                  "ACS": 245,
+                  "K": 11,
+                  "D": 7,
+                  "A": 3,
+                  "PlusMinus": 4,
+                  "KAST": 0.833,
+                  "ADR": 166.8,
+                  "HS%": 0.125,
+                  "FK": 2,
+                  "FD": 0,
+                  "PlusMinus2": 2,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "roro",
+                  "Agent": "Breach",
+                  "R1.0": 0.948,
+                  "ACS": 156,
+                  "K": 6,
+                  "D": 8,
+                  "A": 5,
+                  "PlusMinus": -2,
+                  "KAST": 0.917,
+                  "ADR": 114.7,
+                  "HS%": 0.147,
+                  "FK": 3,
+                  "FD": 0,
+                  "PlusMinus2": 3,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "avi",
+                  "Agent": "Hush",
+                  "R1.0": 0.752,
+                  "ACS": 153,
+                  "K": 7,
+                  "D": 9,
+                  "A": 2,
+                  "PlusMinus": -2,
+                  "KAST": 0.583,
+                  "ADR": 96.8,
+                  "HS%": 0.235,
+                  "FK": 1,
+                  "FD": 2,
+                  "PlusMinus2": -1,
+                  "Rounds": 12
+                },
+                {
+                  "Player": "dino",
+                  "Agent": "Astra",
+                  "R1.0": 0.741,
+                  "ACS": 82,
+                  "K": 3,
+                  "D": 6,
+                  "A": 7,
+                  "PlusMinus": -3,
+                  "KAST": 0.833,
+                  "ADR": 53.1,
+                  "HS%": 0.167,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 12
+                }
+              ]
+            },
+            {
+              "team": "SRG",
+              "teamName": "Shaymins Really Good",
+              "players": [
+                {
+                  "Player": "colt",
+                  "Agent": "Chamber",
+                  "R1.0": 1.62,
+                  "ACS": 373,
+                  "K": 13,
+                  "D": 6,
+                  "A": 0,
+                  "PlusMinus": 7,
+                  "KAST": 0.778,
+                  "ADR": 231.7,
+                  "HS%": 0.375,
+                  "FK": 3,
+                  "FD": 1,
+                  "PlusMinus2": 2,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "platinum",
+                  "Agent": "Sova",
+                  "R1.0": 1.332,
+                  "ACS": 279,
+                  "K": 9,
+                  "D": 4,
+                  "A": 3,
+                  "PlusMinus": 5,
+                  "KAST": 0.667,
+                  "ADR": 159.0,
+                  "HS%": 0.094,
+                  "FK": 0,
+                  "FD": 2,
+                  "PlusMinus2": -2,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "Pieta",
+                  "Agent": "Hush",
+                  "R1.0": 1.13,
+                  "ACS": 241,
+                  "K": 7,
+                  "D": 6,
+                  "A": 3,
+                  "PlusMinus": 1,
+                  "KAST": 0.778,
+                  "ADR": 151.3,
+                  "HS%": 0.333,
+                  "FK": 2,
+                  "FD": 0,
+                  "PlusMinus2": 2,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "Pumpkin",
+                  "Agent": "Astra",
+                  "R1.0": 0.816,
+                  "ACS": 143,
+                  "K": 4,
+                  "D": 6,
+                  "A": 4,
+                  "PlusMinus": -2,
+                  "KAST": 0.778,
+                  "ADR": 88.7,
+                  "HS%": 0.105,
+                  "FK": 0,
+                  "FD": 1,
+                  "PlusMinus2": -1,
+                  "Rounds": 9
+                },
+                {
+                  "Player": "paul",
+                  "Agent": "Neon",
+                  "R1.0": 0.463,
+                  "ACS": 81,
+                  "K": 2,
+                  "D": 6,
+                  "A": 0,
+                  "PlusMinus": -4,
+                  "KAST": 0.556,
+                  "ADR": 64.6,
+                  "HS%": 0.118,
+                  "FK": 0,
+                  "FD": 0,
+                  "PlusMinus2": 0,
+                  "Rounds": 9
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "streamLink": "https://www.youtube.com/watch?v=dbPHRv-NsEo"
   },
   {
     "id": "blg-vs-tank-s4-group-d-2026-11-23",

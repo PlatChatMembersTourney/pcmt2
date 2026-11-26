@@ -1,4 +1,66 @@
 {
+  "Abyss": {
+    "mapsPlayed": 1,
+    "recordedComps": 2,
+    "atkPct": 0.476,
+    "defPct": 0.524,
+    "agents": [
+      {
+        "agent": "Astra",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Hush",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Sova",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 1.0
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.5
+      }
+    ],
+    "teams": {
+      "LOUD": {
+        "team": "LOUD",
+        "teamName": "Leading Ourselves Under Delusion",
+        "agents": [
+          "Astra",
+          "Breach",
+          "Chamber",
+          "Hush",
+          "Sova"
+        ]
+      },
+      "SRG": {
+        "team": "SRG",
+        "teamName": "Shaymins Really Good",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Hush",
+          "Neon",
+          "Sova"
+        ]
+      }
+    }
+  },
   "Corrode": {
     "mapsPlayed": 2,
     "recordedComps": 4,
@@ -431,43 +493,74 @@
     }
   },
   "Sunset": {
-    "mapsPlayed": 1,
-    "recordedComps": 2,
-    "atkPct": 0.708,
-    "defPct": 0.292,
+    "mapsPlayed": 2,
+    "recordedComps": 4,
+    "atkPct": 0.689,
+    "defPct": 0.311,
     "agents": [
       {
-        "agent": "Cypher",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
-        "agent": "Raze",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
         "agent": "Fade",
-        "comps": 2,
-        "pickPct": 1.0
-      },
-      {
-        "agent": "Clove",
-        "comps": 2,
+        "comps": 4,
         "pickPct": 1.0
       },
       {
         "agent": "Hush",
-        "comps": 1,
-        "pickPct": 0.5
+        "comps": 3,
+        "pickPct": 0.75
       },
       {
         "agent": "Omen",
-        "comps": 1,
+        "comps": 2,
         "pickPct": 0.5
+      },
+      {
+        "agent": "Chamber",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Cypher",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Raze",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Clove",
+        "comps": 2,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Astra",
+        "comps": 1,
+        "pickPct": 0.25
+      },
+      {
+        "agent": "Neon",
+        "comps": 1,
+        "pickPct": 0.25
       }
     ],
     "teams": {
+      "LOUD": {
+        "team": "LOUD",
+        "teamName": "Leading Ourselves Under Delusion",
+        "agents": [
+          "Breach",
+          "Chamber",
+          "Fade",
+          "Hush",
+          "Omen"
+        ]
+      },
       "NBR": {
         "team": "NBR",
         "teamName": "Namebrand Ramyeon",
@@ -488,6 +581,17 @@
           "Fade",
           "Omen",
           "Raze"
+        ]
+      },
+      "SRG": {
+        "team": "SRG",
+        "teamName": "Shaymins Really Good",
+        "agents": [
+          "Astra",
+          "Chamber",
+          "Fade",
+          "Hush",
+          "Neon"
         ]
       }
     }
