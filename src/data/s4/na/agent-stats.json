@@ -243,70 +243,85 @@
     }
   },
   "Lotus": {
-    "mapsPlayed": 3,
-    "recordedComps": 6,
-    "atkPct": 0.491,
-    "defPct": 0.509,
+    "mapsPlayed": 4,
+    "recordedComps": 8,
+    "atkPct": 0.429,
+    "defPct": 0.571,
     "agents": [
       {
         "agent": "Fade",
-        "comps": 6,
+        "comps": 8,
         "pickPct": 1.0
       },
       {
         "agent": "Omen",
-        "comps": 5,
-        "pickPct": 0.833
+        "comps": 7,
+        "pickPct": 0.875
+      },
+      {
+        "agent": "Vyse",
+        "comps": 4,
+        "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 4,
+        "pickPct": 0.5
       },
       {
         "agent": "Raze",
         "comps": 4,
-        "pickPct": 0.667
-      },
-      {
-        "agent": "Neon",
-        "comps": 3,
         "pickPct": 0.5
       },
       {
-        "agent": "Vyse",
+        "agent": "Chamber",
         "comps": 3,
-        "pickPct": 0.5
+        "pickPct": 0.375
       },
       {
         "agent": "Hush",
         "comps": 2,
-        "pickPct": 0.333
+        "pickPct": 0.25
       },
       {
-        "agent": "Chamber",
-        "comps": 2,
-        "pickPct": 0.333
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Breach",
+        "comps": 1,
+        "pickPct": 0.125
+      },
+      {
+        "agent": "Viper",
+        "comps": 1,
+        "pickPct": 0.125
       },
       {
         "agent": "Cypher",
         "comps": 1,
-        "pickPct": 0.167
+        "pickPct": 0.125
       },
       {
         "agent": "Clove",
         "comps": 1,
-        "pickPct": 0.167
+        "pickPct": 0.125
       },
       {
         "agent": "Astra",
         "comps": 1,
-        "pickPct": 0.167
+        "pickPct": 0.125
       },
       {
         "agent": "Phoenix",
         "comps": 1,
-        "pickPct": 0.167
+        "pickPct": 0.125
       },
       {
         "agent": "Jett",
         "comps": 1,
-        "pickPct": 0.167
+        "pickPct": 0.125
       }
     ],
     "teams": {
@@ -319,6 +334,28 @@
           "Omen",
           "Phoenix",
           "Raze"
+        ]
+      },
+      "DEI": {
+        "team": "DEI",
+        "teamName": "Doofenshmirtz Evil Inc.",
+        "agents": [
+          "Breach",
+          "Fade",
+          "Omen",
+          "Vyse",
+          "Yoru"
+        ]
+      },
+      "EDG": {
+        "team": "EDG",
+        "teamName": "EggheaD Gaming",
+        "agents": [
+          "Chamber",
+          "Fade",
+          "Neon",
+          "Omen",
+          "Viper"
         ]
       },
       "EDM": {
@@ -493,63 +530,105 @@
     }
   },
   "Sunset": {
-    "mapsPlayed": 2,
-    "recordedComps": 4,
-    "atkPct": 0.689,
-    "defPct": 0.311,
+    "mapsPlayed": 3,
+    "recordedComps": 6,
+    "atkPct": 0.581,
+    "defPct": 0.419,
     "agents": [
       {
         "agent": "Fade",
-        "comps": 4,
-        "pickPct": 1.0
-      },
-      {
-        "agent": "Hush",
-        "comps": 3,
-        "pickPct": 0.75
+        "comps": 5,
+        "pickPct": 0.833
       },
       {
         "agent": "Omen",
-        "comps": 2,
+        "comps": 4,
+        "pickPct": 0.667
+      },
+      {
+        "agent": "Cypher",
+        "comps": 3,
         "pickPct": 0.5
       },
       {
         "agent": "Chamber",
-        "comps": 2,
+        "comps": 3,
         "pickPct": 0.5
       },
       {
-        "agent": "Cypher",
-        "comps": 2,
+        "agent": "Hush",
+        "comps": 3,
         "pickPct": 0.5
+      },
+      {
+        "agent": "Neon",
+        "comps": 2,
+        "pickPct": 0.333
       },
       {
         "agent": "Raze",
         "comps": 2,
-        "pickPct": 0.5
+        "pickPct": 0.333
       },
       {
         "agent": "Clove",
         "comps": 2,
-        "pickPct": 0.5
+        "pickPct": 0.333
+      },
+      {
+        "agent": "Yoru",
+        "comps": 1,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Waylay",
+        "comps": 1,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Sova",
+        "comps": 1,
+        "pickPct": 0.167
+      },
+      {
+        "agent": "Sage",
+        "comps": 1,
+        "pickPct": 0.167
       },
       {
         "agent": "Breach",
         "comps": 1,
-        "pickPct": 0.25
+        "pickPct": 0.167
       },
       {
         "agent": "Astra",
         "comps": 1,
-        "pickPct": 0.25
-      },
-      {
-        "agent": "Neon",
-        "comps": 1,
-        "pickPct": 0.25
+        "pickPct": 0.167
       }
     ],
     "teams": {
+      "DEI": {
+        "team": "DEI",
+        "teamName": "Doofenshmirtz Evil Inc.",
+        "agents": [
+          "Cypher",
+          "Fade",
+          "Omen",
+          "Waylay",
+          "Yoru"
+        ]
+      },
+      "EDG": {
+        "team": "EDG",
+        "teamName": "EggheaD Gaming",
+        "agents": [
+          "Chamber",
+          "Neon",
+          "Omen",
+          "Sage",
+          "Sova"
+        ]
+      },
       "LOUD": {
         "team": "LOUD",
         "teamName": "Leading Ourselves Under Delusion",

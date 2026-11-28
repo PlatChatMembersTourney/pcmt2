@@ -4,10 +4,1514 @@
   "team2": "EDG",
   "team1Name": "Doofenshmirtz Evil Inc.",
   "team2Name": "EggheaD Gaming",
-  "score1": 0,
+  "score1": 2,
   "score2": 0,
-  "completed": false,
+  "completed": true,
   "bestOf": 3,
   "date": "2026-11-28T00:00:00Z",
-  "stage": "Group B"
+  "stage": "Group B",
+  "veto": "EDG bans Abyss, DEI bans Haven, EDG picks Sunset, DEI picks Lotus, EDG bans Bind, DEI bans Summit, Corrode remains",
+  "maps": [
+    {
+      "name": "Sunset",
+      "score1": 13,
+      "score2": 4
+    },
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 7
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "DEI",
+      "teamName": "Doofenshmirtz Evil Inc.",
+      "players": [
+        {
+          "Player": "snowfall",
+          "R1.0": 1.537,
+          "ACS": 320,
+          "K": 44,
+          "D": 22,
+          "A": 18,
+          "PlusMinus": 22,
+          "KAST": 0.757,
+          "ADR": 200.3,
+          "HS%": 0.26,
+          "FK": 4,
+          "FD": 1,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "haych",
+          "R1.0": 1.53,
+          "ACS": 328,
+          "K": 42,
+          "D": 22,
+          "A": 16,
+          "PlusMinus": 20,
+          "KAST": 0.838,
+          "ADR": 204.1,
+          "HS%": 0.19,
+          "FK": 7,
+          "FD": 4,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "teklo",
+          "R1.0": 1.108,
+          "ACS": 218,
+          "K": 31,
+          "D": 25,
+          "A": 8,
+          "PlusMinus": 6,
+          "KAST": 0.757,
+          "ADR": 144.3,
+          "HS%": 0.243,
+          "FK": 5,
+          "FD": 4,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "caleb",
+          "R1.0": 0.837,
+          "ACS": 145,
+          "K": 18,
+          "D": 25,
+          "A": 13,
+          "PlusMinus": -7,
+          "KAST": 0.703,
+          "ADR": 107.3,
+          "HS%": 0.128,
+          "FK": 3,
+          "FD": 5,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "slow",
+          "R1.0": 0.809,
+          "ACS": 124,
+          "K": 15,
+          "D": 22,
+          "A": 21,
+          "PlusMinus": -7,
+          "KAST": 0.73,
+          "ADR": 76.9,
+          "HS%": 0.191,
+          "FK": 0,
+          "FD": 4,
+          "PlusMinus2": -4
+        }
+      ]
+    },
+    {
+      "team": "EDG",
+      "teamName": "EggheaD Gaming",
+      "players": [
+        {
+          "Player": "izz",
+          "R1.0": 1.202,
+          "ACS": 283,
+          "K": 34,
+          "D": 29,
+          "A": 7,
+          "PlusMinus": 5,
+          "KAST": 0.73,
+          "ADR": 188.8,
+          "HS%": 0.201,
+          "FK": 11,
+          "FD": 5,
+          "PlusMinus2": 6
+        },
+        {
+          "Player": "Night",
+          "R1.0": 1.115,
+          "ACS": 268,
+          "K": 33,
+          "D": 30,
+          "A": 10,
+          "PlusMinus": 3,
+          "KAST": 0.676,
+          "ADR": 163.9,
+          "HS%": 0.196,
+          "FK": 3,
+          "FD": 6,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "xyn",
+          "R1.0": 0.731,
+          "ACS": 158,
+          "K": 17,
+          "D": 34,
+          "A": 13,
+          "PlusMinus": -17,
+          "KAST": 0.703,
+          "ADR": 113.2,
+          "HS%": 0.155,
+          "FK": 1,
+          "FD": 2,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "dunkn",
+          "R1.0": 0.639,
+          "ACS": 120,
+          "K": 16,
+          "D": 30,
+          "A": 20,
+          "PlusMinus": -14,
+          "KAST": 0.54,
+          "ADR": 66.7,
+          "HS%": 0.142,
+          "FK": 2,
+          "FD": 1,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "neckolas",
+          "R1.0": 0.609,
+          "ACS": 117,
+          "K": 16,
+          "D": 27,
+          "A": 5,
+          "PlusMinus": -11,
+          "KAST": 0.514,
+          "ADR": 81.0,
+          "HS%": 0.182,
+          "FK": 1,
+          "FD": 5,
+          "PlusMinus2": -4
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Sunset",
+      "score1": 13,
+      "score2": 4,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk",
+          "endType": "Bomb detonated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DEI",
+          "teamName": "Doofenshmirtz Evil Inc.",
+          "players": [
+            {
+              "Player": "snowfall",
+              "Agent": "Waylay",
+              "R1.0": 1.896,
+              "ACS": 419,
+              "K": 26,
+              "D": 10,
+              "A": 8,
+              "PlusMinus": 16,
+              "KAST": 0.824,
+              "ADR": 261.1,
+              "HS%": 0.29,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "haych",
+              "Agent": "Cypher",
+              "R1.0": 1.418,
+              "ACS": 297,
+              "K": 17,
+              "D": 10,
+              "A": 8,
+              "PlusMinus": 7,
+              "KAST": 0.882,
+              "ADR": 178.6,
+              "HS%": 0.164,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "teklo",
+              "Agent": "Yoru",
+              "R1.0": 1.096,
+              "ACS": 210,
+              "K": 13,
+              "D": 11,
+              "A": 5,
+              "PlusMinus": 2,
+              "KAST": 0.824,
+              "ADR": 135.1,
+              "HS%": 0.186,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "slow",
+              "Agent": "Omen",
+              "R1.0": 0.952,
+              "ACS": 159,
+              "K": 10,
+              "D": 9,
+              "A": 7,
+              "PlusMinus": 1,
+              "KAST": 0.765,
+              "ADR": 92.4,
+              "HS%": 0.219,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "caleb",
+              "Agent": "Fade",
+              "R1.0": 0.633,
+              "ACS": 90,
+              "K": 5,
+              "D": 10,
+              "A": 5,
+              "PlusMinus": -5,
+              "KAST": 0.588,
+              "ADR": 72.6,
+              "HS%": 0.08,
+              "FK": 0,
+              "FD": 4,
+              "PlusMinus2": -4
+            }
+          ]
+        },
+        {
+          "team": "EDG",
+          "teamName": "EggheaD Gaming",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": "Chamber",
+              "R1.0": 1.281,
+              "ACS": 289,
+              "K": 15,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": 2,
+              "KAST": 0.706,
+              "ADR": 213.1,
+              "HS%": 0.241,
+              "FK": 6,
+              "FD": 2,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "Night",
+              "Agent": "Neon",
+              "R1.0": 1.23,
+              "ACS": 307,
+              "K": 19,
+              "D": 15,
+              "A": 2,
+              "PlusMinus": 4,
+              "KAST": 0.647,
+              "ADR": 190.4,
+              "HS%": 0.205,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "xyn",
+              "Agent": "Sova",
+              "R1.0": 0.679,
+              "ACS": 147,
+              "K": 7,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -8,
+              "KAST": 0.588,
+              "ADR": 121.5,
+              "HS%": 0.147,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "neckolas",
+              "Agent": "Sage",
+              "R1.0": 0.503,
+              "ACS": 97,
+              "K": 6,
+              "D": 13,
+              "A": 3,
+              "PlusMinus": -7,
+              "KAST": 0.471,
+              "ADR": 63.6,
+              "HS%": 0.167,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "dunkn",
+              "Agent": "Omen",
+              "R1.0": 0.336,
+              "ACS": 57,
+              "K": 3,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": -12,
+              "KAST": 0.529,
+              "ADR": 37.8,
+              "HS%": 0.125,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "DEI",
+            "teamName": "Doofenshmirtz Evil Inc.",
+            "players": [
+              {
+                "Player": "snowfall",
+                "Agent": "Waylay",
+                "R1.0": 1.837,
+                "ACS": 387,
+                "K": 8,
+                "D": 2,
+                "A": 0,
+                "PlusMinus": 6,
+                "KAST": 0.8,
+                "ADR": 235.2,
+                "HS%": 0.263,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 5
+              },
+              {
+                "Player": "teklo",
+                "Agent": "Yoru",
+                "R1.0": 1.337,
+                "ACS": 260,
+                "K": 5,
+                "D": 2,
+                "A": 1,
+                "PlusMinus": 3,
+                "KAST": 0.8,
+                "ADR": 148.8,
+                "HS%": 0.125,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 5
+              },
+              {
+                "Player": "slow",
+                "Agent": "Omen",
+                "R1.0": 0.74,
+                "ACS": 120,
+                "K": 2,
+                "D": 3,
+                "A": 3,
+                "PlusMinus": -1,
+                "KAST": 0.6,
+                "ADR": 64.8,
+                "HS%": 0.167,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 5
+              },
+              {
+                "Player": "haych",
+                "Agent": "Cypher",
+                "R1.0": 0.733,
+                "ACS": 148,
+                "K": 2,
+                "D": 3,
+                "A": 1,
+                "PlusMinus": -1,
+                "KAST": 0.6,
+                "ADR": 98.2,
+                "HS%": 0.286,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 5
+              },
+              {
+                "Player": "caleb",
+                "Agent": "Fade",
+                "R1.0": 0.412,
+                "ACS": 76,
+                "K": 1,
+                "D": 4,
+                "A": 2,
+                "PlusMinus": -3,
+                "KAST": 0.4,
+                "ADR": 55.4,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 5
+              }
+            ]
+          },
+          {
+            "team": "EDG",
+            "teamName": "EggheaD Gaming",
+            "players": [
+              {
+                "Player": "Night",
+                "Agent": "Neon",
+                "R1.0": 1.391,
+                "ACS": 337,
+                "K": 15,
+                "D": 11,
+                "A": 2,
+                "PlusMinus": 4,
+                "KAST": 0.75,
+                "ADR": 214.4,
+                "HS%": 0.217,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "izz",
+                "Agent": "Chamber",
+                "R1.0": 1.344,
+                "ACS": 300,
+                "K": 11,
+                "D": 10,
+                "A": 6,
+                "PlusMinus": 1,
+                "KAST": 0.75,
+                "ADR": 224.0,
+                "HS%": 0.262,
+                "FK": 5,
+                "FD": 1,
+                "PlusMinus2": 4,
+                "Rounds": 12
+              },
+              {
+                "Player": "xyn",
+                "Agent": "Sova",
+                "R1.0": 0.679,
+                "ACS": 147,
+                "K": 5,
+                "D": 11,
+                "A": 3,
+                "PlusMinus": -6,
+                "KAST": 0.667,
+                "ADR": 115.0,
+                "HS%": 0.174,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "neckolas",
+                "Agent": "Sage",
+                "R1.0": 0.433,
+                "ACS": 81,
+                "K": 3,
+                "D": 10,
+                "A": 3,
+                "PlusMinus": -7,
+                "KAST": 0.5,
+                "ADR": 59.8,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.318,
+                "ACS": 57,
+                "K": 2,
+                "D": 11,
+                "A": 4,
+                "PlusMinus": -9,
+                "KAST": 0.5,
+                "ADR": 38.8,
+                "HS%": 0.222,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 12
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "DEI",
+            "teamName": "Doofenshmirtz Evil Inc.",
+            "players": [
+              {
+                "Player": "snowfall",
+                "Agent": "Waylay",
+                "R1.0": 1.92,
+                "ACS": 432,
+                "K": 18,
+                "D": 8,
+                "A": 8,
+                "PlusMinus": 10,
+                "KAST": 0.833,
+                "ADR": 271.9,
+                "HS%": 0.3,
+                "FK": 3,
+                "FD": 1,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "haych",
+                "Agent": "Cypher",
+                "R1.0": 1.703,
+                "ACS": 359,
+                "K": 15,
+                "D": 7,
+                "A": 7,
+                "PlusMinus": 8,
+                "KAST": 1.0,
+                "ADR": 212.2,
+                "HS%": 0.152,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "slow",
+                "Agent": "Omen",
+                "R1.0": 1.04,
+                "ACS": 175,
+                "K": 8,
+                "D": 6,
+                "A": 4,
+                "PlusMinus": 2,
+                "KAST": 0.833,
+                "ADR": 103.9,
+                "HS%": 0.231,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "teklo",
+                "Agent": "Yoru",
+                "R1.0": 0.995,
+                "ACS": 188,
+                "K": 8,
+                "D": 9,
+                "A": 4,
+                "PlusMinus": -1,
+                "KAST": 0.833,
+                "ADR": 129.4,
+                "HS%": 0.222,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "caleb",
+                "Agent": "Fade",
+                "R1.0": 0.726,
+                "ACS": 96,
+                "K": 4,
+                "D": 6,
+                "A": 3,
+                "PlusMinus": -2,
+                "KAST": 0.667,
+                "ADR": 79.8,
+                "HS%": 0.1,
+                "FK": 0,
+                "FD": 4,
+                "PlusMinus2": -4,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "EDG",
+            "teamName": "EggheaD Gaming",
+            "players": [
+              {
+                "Player": "izz",
+                "Agent": "Chamber",
+                "R1.0": 1.128,
+                "ACS": 264,
+                "K": 4,
+                "D": 3,
+                "A": 0,
+                "PlusMinus": 1,
+                "KAST": 0.6,
+                "ADR": 186.8,
+                "HS%": 0.167,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 5
+              },
+              {
+                "Player": "Night",
+                "Agent": "Neon",
+                "R1.0": 0.843,
+                "ACS": 236,
+                "K": 4,
+                "D": 4,
+                "A": 0,
+                "PlusMinus": 0,
+                "KAST": 0.4,
+                "ADR": 132.6,
+                "HS%": 0.154,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 5
+              },
+              {
+                "Player": "xyn",
+                "Agent": "Sova",
+                "R1.0": 0.681,
+                "ACS": 146,
+                "K": 2,
+                "D": 4,
+                "A": 1,
+                "PlusMinus": -2,
+                "KAST": 0.4,
+                "ADR": 137.2,
+                "HS%": 0.091,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 5
+              },
+              {
+                "Player": "neckolas",
+                "Agent": "Sage",
+                "R1.0": 0.671,
+                "ACS": 136,
+                "K": 3,
+                "D": 3,
+                "A": 0,
+                "PlusMinus": 0,
+                "KAST": 0.4,
+                "ADR": 72.8,
+                "HS%": 0.111,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 5
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.38,
+                "ACS": 57,
+                "K": 1,
+                "D": 4,
+                "A": 1,
+                "PlusMinus": -3,
+                "KAST": 0.6,
+                "ADR": 35.6,
+                "HS%": 0.0,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 7,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "def",
+          "endType": "Eliminated"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def",
+          "endType": "Bomb defused"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DEI",
+          "teamName": "Doofenshmirtz Evil Inc.",
+          "players": [
+            {
+              "Player": "haych",
+              "Agent": "Vyse",
+              "R1.0": 1.625,
+              "ACS": 355,
+              "K": 25,
+              "D": 12,
+              "A": 8,
+              "PlusMinus": 13,
+              "KAST": 0.8,
+              "ADR": 225.7,
+              "HS%": 0.213,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "snowfall",
+              "Agent": "Breach",
+              "R1.0": 1.232,
+              "ACS": 235,
+              "K": 18,
+              "D": 12,
+              "A": 10,
+              "PlusMinus": 6,
+              "KAST": 0.7,
+              "ADR": 148.6,
+              "HS%": 0.235,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "teklo",
+              "Agent": "Yoru",
+              "R1.0": 1.118,
+              "ACS": 225,
+              "K": 18,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": 4,
+              "KAST": 0.7,
+              "ADR": 152.2,
+              "HS%": 0.292,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "caleb",
+              "Agent": "Fade",
+              "R1.0": 1.009,
+              "ACS": 191,
+              "K": 13,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": -2,
+              "KAST": 0.8,
+              "ADR": 136.8,
+              "HS%": 0.169,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "slow",
+              "Agent": "Omen",
+              "R1.0": 0.688,
+              "ACS": 95,
+              "K": 5,
+              "D": 13,
+              "A": 14,
+              "PlusMinus": -8,
+              "KAST": 0.7,
+              "ADR": 63.8,
+              "HS%": 0.167,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            }
+          ]
+        },
+        {
+          "team": "EDG",
+          "teamName": "EggheaD Gaming",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": "Chamber",
+              "R1.0": 1.135,
+              "ACS": 277,
+              "K": 19,
+              "D": 16,
+              "A": 1,
+              "PlusMinus": 3,
+              "KAST": 0.75,
+              "ADR": 168.2,
+              "HS%": 0.167,
+              "FK": 5,
+              "FD": 3,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Night",
+              "Agent": "Neon",
+              "R1.0": 1.017,
+              "ACS": 234,
+              "K": 14,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": -1,
+              "KAST": 0.7,
+              "ADR": 141.3,
+              "HS%": 0.188,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "dunkn",
+              "Agent": "Omen",
+              "R1.0": 0.897,
+              "ACS": 173,
+              "K": 13,
+              "D": 15,
+              "A": 15,
+              "PlusMinus": -2,
+              "KAST": 0.55,
+              "ADR": 91.2,
+              "HS%": 0.157,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "xyn",
+              "Agent": "Fade",
+              "R1.0": 0.775,
+              "ACS": 167,
+              "K": 10,
+              "D": 19,
+              "A": 9,
+              "PlusMinus": -9,
+              "KAST": 0.8,
+              "ADR": 106.2,
+              "HS%": 0.162,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "neckolas",
+              "Agent": "Viper",
+              "R1.0": 0.7,
+              "ACS": 134,
+              "K": 10,
+              "D": 14,
+              "A": 2,
+              "PlusMinus": -4,
+              "KAST": 0.55,
+              "ADR": 95.8,
+              "HS%": 0.194,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ],
+      "sides": {
+        "atk": [
+          {
+            "team": "DEI",
+            "teamName": "Doofenshmirtz Evil Inc.",
+            "players": [
+              {
+                "Player": "haych",
+                "Agent": "Vyse",
+                "R1.0": 1.322,
+                "ACS": 300,
+                "K": 12,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": 4,
+                "KAST": 0.667,
+                "ADR": 193.6,
+                "HS%": 0.211,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "snowfall",
+                "Agent": "Breach",
+                "R1.0": 1.103,
+                "ACS": 236,
+                "K": 11,
+                "D": 8,
+                "A": 5,
+                "PlusMinus": 3,
+                "KAST": 0.583,
+                "ADR": 126.9,
+                "HS%": 0.167,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "caleb",
+                "Agent": "Fade",
+                "R1.0": 0.845,
+                "ACS": 189,
+                "K": 7,
+                "D": 12,
+                "A": 5,
+                "PlusMinus": -5,
+                "KAST": 0.75,
+                "ADR": 133.8,
+                "HS%": 0.207,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "teklo",
+                "Agent": "Yoru",
+                "R1.0": 0.73,
+                "ACS": 151,
+                "K": 7,
+                "D": 11,
+                "A": 2,
+                "PlusMinus": -4,
+                "KAST": 0.583,
+                "ADR": 117.2,
+                "HS%": 0.273,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              },
+              {
+                "Player": "slow",
+                "Agent": "Omen",
+                "R1.0": 0.613,
+                "ACS": 91,
+                "K": 2,
+                "D": 10,
+                "A": 10,
+                "PlusMinus": -8,
+                "KAST": 0.75,
+                "ADR": 65.3,
+                "HS%": 0.2,
+                "FK": 0,
+                "FD": 2,
+                "PlusMinus2": -2,
+                "Rounds": 12
+              }
+            ]
+          },
+          {
+            "team": "EDG",
+            "teamName": "EggheaD Gaming",
+            "players": [
+              {
+                "Player": "izz",
+                "Agent": "Chamber",
+                "R1.0": 0.855,
+                "ACS": 238,
+                "K": 6,
+                "D": 8,
+                "A": 0,
+                "PlusMinus": -2,
+                "KAST": 0.75,
+                "ADR": 139.1,
+                "HS%": 0.091,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 8
+              },
+              {
+                "Player": "xyn",
+                "Agent": "Fade",
+                "R1.0": 0.78,
+                "ACS": 184,
+                "K": 4,
+                "D": 8,
+                "A": 4,
+                "PlusMinus": -4,
+                "KAST": 0.75,
+                "ADR": 118.6,
+                "HS%": 0.1,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 8
+              },
+              {
+                "Player": "Night",
+                "Agent": "Neon",
+                "R1.0": 0.6,
+                "ACS": 179,
+                "K": 4,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": -4,
+                "KAST": 0.5,
+                "ADR": 112.0,
+                "HS%": 0.235,
+                "FK": 1,
+                "FD": 3,
+                "PlusMinus2": -2,
+                "Rounds": 8
+              },
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 0.248,
+                "ACS": 78,
+                "K": 2,
+                "D": 8,
+                "A": 2,
+                "PlusMinus": -6,
+                "KAST": 0.25,
+                "ADR": 45.8,
+                "HS%": 0.125,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 8
+              },
+              {
+                "Player": "neckolas",
+                "Agent": "Viper",
+                "R1.0": 0.2,
+                "ACS": 47,
+                "K": 1,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": -7,
+                "KAST": 0.375,
+                "ADR": 49.9,
+                "HS%": 0.125,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 8
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "team": "DEI",
+            "teamName": "Doofenshmirtz Evil Inc.",
+            "players": [
+              {
+                "Player": "haych",
+                "Agent": "Vyse",
+                "R1.0": 2.08,
+                "ACS": 438,
+                "K": 13,
+                "D": 4,
+                "A": 4,
+                "PlusMinus": 9,
+                "KAST": 1.0,
+                "ADR": 273.9,
+                "HS%": 0.216,
+                "FK": 2,
+                "FD": 1,
+                "PlusMinus2": 1,
+                "Rounds": 8
+              },
+              {
+                "Player": "teklo",
+                "Agent": "Yoru",
+                "R1.0": 1.7,
+                "ACS": 336,
+                "K": 11,
+                "D": 3,
+                "A": 1,
+                "PlusMinus": 8,
+                "KAST": 0.875,
+                "ADR": 204.6,
+                "HS%": 0.308,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 8
+              },
+              {
+                "Player": "snowfall",
+                "Agent": "Breach",
+                "R1.0": 1.426,
+                "ACS": 234,
+                "K": 7,
+                "D": 4,
+                "A": 5,
+                "PlusMinus": 3,
+                "KAST": 0.875,
+                "ADR": 181.0,
+                "HS%": 0.333,
+                "FK": 0,
+                "FD": 0,
+                "PlusMinus2": 0,
+                "Rounds": 8
+              },
+              {
+                "Player": "caleb",
+                "Agent": "Fade",
+                "R1.0": 1.256,
+                "ACS": 193,
+                "K": 6,
+                "D": 3,
+                "A": 3,
+                "PlusMinus": 3,
+                "KAST": 0.875,
+                "ADR": 141.5,
+                "HS%": 0.133,
+                "FK": 1,
+                "FD": 1,
+                "PlusMinus2": 0,
+                "Rounds": 8
+              },
+              {
+                "Player": "slow",
+                "Agent": "Omen",
+                "R1.0": 0.801,
+                "ACS": 101,
+                "K": 3,
+                "D": 3,
+                "A": 4,
+                "PlusMinus": 0,
+                "KAST": 0.625,
+                "ADR": 61.4,
+                "HS%": 0.1,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 8
+              }
+            ]
+          },
+          {
+            "team": "EDG",
+            "teamName": "EggheaD Gaming",
+            "players": [
+              {
+                "Player": "dunkn",
+                "Agent": "Omen",
+                "R1.0": 1.33,
+                "ACS": 237,
+                "K": 11,
+                "D": 7,
+                "A": 13,
+                "PlusMinus": 4,
+                "KAST": 0.75,
+                "ADR": 121.5,
+                "HS%": 0.171,
+                "FK": 2,
+                "FD": 0,
+                "PlusMinus2": 2,
+                "Rounds": 12
+              },
+              {
+                "Player": "izz",
+                "Agent": "Chamber",
+                "R1.0": 1.322,
+                "ACS": 303,
+                "K": 13,
+                "D": 8,
+                "A": 1,
+                "PlusMinus": 5,
+                "KAST": 0.75,
+                "ADR": 187.5,
+                "HS%": 0.219,
+                "FK": 3,
+                "FD": 2,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              },
+              {
+                "Player": "Night",
+                "Agent": "Neon",
+                "R1.0": 1.294,
+                "ACS": 271,
+                "K": 10,
+                "D": 7,
+                "A": 7,
+                "PlusMinus": 3,
+                "KAST": 0.833,
+                "ADR": 160.9,
+                "HS%": 0.173,
+                "FK": 0,
+                "FD": 1,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "neckolas",
+                "Agent": "Viper",
+                "R1.0": 1.033,
+                "ACS": 193,
+                "K": 9,
+                "D": 6,
+                "A": 1,
+                "PlusMinus": 3,
+                "KAST": 0.667,
+                "ADR": 126.4,
+                "HS%": 0.217,
+                "FK": 1,
+                "FD": 2,
+                "PlusMinus2": -1,
+                "Rounds": 12
+              },
+              {
+                "Player": "xyn",
+                "Agent": "Fade",
+                "R1.0": 0.772,
+                "ACS": 156,
+                "K": 6,
+                "D": 11,
+                "A": 5,
+                "PlusMinus": -5,
+                "KAST": 0.833,
+                "ADR": 97.9,
+                "HS%": 0.235,
+                "FK": 1,
+                "FD": 0,
+                "PlusMinus2": 1,
+                "Rounds": 12
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=JPyJhuE4LuQ"
 }

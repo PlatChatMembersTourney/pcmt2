@@ -356,8 +356,8 @@
   "DEI": {
     "team": "DEI",
     "teamName": "Doofenshmirtz Evil Inc.",
-    "overallAtkPct": 0,
-    "overallDefPct": 0,
+    "overallAtkPct": 0.471,
+    "overallDefPct": 0.9,
     "maps": [
       {
         "map": "Abyss",
@@ -440,7 +440,7 @@
       {
         "map": "Haven",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -465,16 +465,16 @@
       },
       {
         "map": "Lotus",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 20,
+        "roundsWon": 13,
+        "roundPct": 0.65,
+        "atkPct": 0.417,
+        "defPct": 1.0
       },
       {
         "map": "Pearl",
@@ -505,7 +505,7 @@
       {
         "map": "Summit",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -519,14 +519,14 @@
         "map": "Sunset",
         "pick": 0,
         "ban": 0,
-        "played": 0,
-        "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "played": 1,
+        "won": 1,
+        "winPct": 1.0,
+        "rounds": 17,
+        "roundsWon": 13,
+        "roundPct": 0.765,
+        "atkPct": 0.6,
+        "defPct": 0.833
       }
     ]
   },
@@ -710,13 +710,13 @@
   "EDG": {
     "team": "EDG",
     "teamName": "EggheaD Gaming",
-    "overallAtkPct": 0,
-    "overallDefPct": 0,
+    "overallAtkPct": 0.1,
+    "overallDefPct": 0.529,
     "maps": [
       {
         "map": "Abyss",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -742,7 +742,7 @@
       {
         "map": "Bind",
         "pick": 0,
-        "ban": 0,
+        "ban": 1,
         "played": 0,
         "won": 0,
         "winPct": 0,
@@ -821,14 +821,14 @@
         "map": "Lotus",
         "pick": 0,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 20,
+        "roundsWon": 7,
+        "roundPct": 0.35,
+        "atkPct": 0.0,
+        "defPct": 0.583
       },
       {
         "map": "Pearl",
@@ -871,16 +871,16 @@
       },
       {
         "map": "Sunset",
-        "pick": 0,
+        "pick": 1,
         "ban": 0,
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "winPct": 0,
-        "rounds": 0,
-        "roundsWon": 0,
-        "roundPct": 0,
-        "atkPct": 0,
-        "defPct": 0
+        "winPct": 0.0,
+        "rounds": 17,
+        "roundsWon": 4,
+        "roundPct": 0.235,
+        "atkPct": 0.167,
+        "defPct": 0.4
       }
     ]
   },
